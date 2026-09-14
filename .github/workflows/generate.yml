@@ -1,0 +1,34 @@
+name: Genereer live-kijken-artikelen (avond ervoor)
+
+on:
+  schedule:
+    - cron: "0 18 * * *"   # 18:00 UTC (~20:00 NL) — artikelen voor de volgende dag
+  workflow_dispatch:
+    inputs:
+      date:
+        description: "Datum (YYYY-MM-DD), leeg = morgen"
+        required: false
+
+permissions:
+  contents: write
+
+jobs:
+  generate:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.11"
+      - name: Genereer + publiceer
+        env:
+          WEBFLOW_TOKEN: ${{ secrets.WEBFLOW_TOKEN }}
+        run: |
+          python generate.py ${{ github.event.inputs.date && format('--date {0}', github.event.inputs.date) || '' }}
+      - name: Commit state (fixture-id -> item-id)
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "github-actions[bot]@users.noreply.github.com"
+          git add state/live-kijken.json || true
+          git commit -m "state: live-kijken artikelen" || echo "geen wijzigingen"
+          git push || echo "niets te pushen"

@@ -1,0 +1,29 @@
+name: Opschonen oude live-kijken-artikelen
+
+on:
+  schedule:
+    - cron: "30 5 * * *"   # dagelijks 05:30 UTC
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+jobs:
+  cleanup:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.11"
+      - name: Verwijder verlopen artikelen
+        env:
+          WEBFLOW_TOKEN: ${{ secrets.WEBFLOW_TOKEN }}
+        run: python cleanup.py
+      - name: Commit state + redirects
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "github-actions[bot]@users.noreply.github.com"
+          git add state/live-kijken.json redirects/ || true
+          git commit -m "cleanup: oude live-kijken artikelen" || echo "geen wijzigingen"
+          git push || echo "niets te pushen"
