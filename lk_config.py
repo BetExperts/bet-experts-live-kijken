@@ -17,6 +17,9 @@ RUBRIEK_ID = "6502b65d49bc032ba533e7a2"
 # --- Bet-Experts API-proxy (Cloudflare Worker) ---
 API = "https://www.bet-experts.nl/api"
 
+# Hub-pagina waar alle live-kijken-artikelen onder vallen (backlink in elk artikel)
+HUB_PATH = "/live-kijken"
+
 # Opschonen: artikelen ouder dan zoveel dagen NA de wedstrijd worden verwijderd
 RETENTION_DAYS = 21
 

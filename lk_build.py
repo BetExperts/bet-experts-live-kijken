@@ -10,6 +10,8 @@ try:
 except Exception:
     TZ = None
 
+from lk_config import HUB_PATH
+
 DAGEN = ["maandag","dinsdag","woensdag","donderdag","vrijdag","zaterdag","zondag"]
 MAAND = ["januari","februari","maart","april","mei","juni","juli","augustus",
          "september","oktober","november","december"]
@@ -225,6 +227,7 @@ def build_content(ctx):
 
     # ---- CONTENT (deel 1/3): intro + gratis-kijken-blok + CTA ----
     c1 = []
+    c1.append(f'<p><a href="{HUB_PATH}">‹ Alle wedstrijden die je gratis live kunt kijken</a></p>')
     angle = ctx.get("angle") or f"De {esc(compN)} is in Nederland niet op de reguliere tv te zien."
     c1.append(f"<p><strong>{hLink} treft {aLink} op {datum} om {kickoff} uur in de "
               f"{compLink}. {angle} Goed nieuws: je kijkt "
@@ -269,6 +272,7 @@ def build_content(ctx):
     c3.append(_faq(homeN, awayN, compN, dt, prov, ctx.get("tv")))
     c3.append(f'<p>👉 <a href="{prov["link"]}"><strong>Kijk {esc(homeN)} – {esc(awayN)} gratis live via '
               f'{esc(prov["naam"])}</strong></a></p>')
+    c3.append(f'<p>📺 <a href="{HUB_PATH}"><strong>Bekijk alle wedstrijden die je gratis live kunt kijken</strong></a></p>')
     c3.append(DISCLAIMER)
     content3 = "\n".join(c3)
 
