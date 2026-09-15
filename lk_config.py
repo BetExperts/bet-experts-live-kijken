@@ -21,16 +21,24 @@ API = "https://www.bet-experts.nl/api"
 RETENTION_DAYS = 21
 
 # --- Affiliate-aanbieders (afwisselen per wedstrijd) ---
+# deposit=True  -> flow met €10 storten (en €10 weer opnemen)
+# deposit=False -> alleen een gratis account, geen storting
+# cast=True     -> extra alinea over casten naar groot scherm
 PROVIDERS = {
     "toto": {
         "naam": "TOTO",
         "link": "https://partner.toto.nl/C.ashx?btag=a_375b_619c_&affid=184&siteid=375&adid=619&c=",
-        "cast": False,
+        "cast": False, "deposit": True,
     },
     "bet365": {
         "naam": "Bet365",
         "link": "https://www.bet365.nl/hub/nl-nl/open-account?affiliate=365_02599619",
-        "cast": True,   # Bet365 -> Chromecast/AirPlay-alinea toevoegen
+        "cast": True, "deposit": True,
+    },
+    "711": {
+        "naam": "711",
+        "link": "https://media1.711affiliates.nl/redirect.aspx?pid=2395&bid=1505",
+        "cast": False, "deposit": False,
     },
 }
 
@@ -75,6 +83,12 @@ LEAGUES = [
                    "real sociedad", "sevilla", "real betis", "villarreal", "valencia"],
      "angle": ("La Liga is in Nederland te zien op Ziggo Sport, maar daarvoor heb je een betaald "
                "abonnement nodig. Zonder abonnement kun je dit Spaanse topduel ook volledig gratis streamen.")},
+    {"worker_slug": "jupiler-pro-league", "comp_slug": "jupiler-pro-league", "naam": "Jupiler Pro League",
+     "comp_id": "65de4c16dd6eb829e1867f4b", "tv": "DAZN",
+     "force_provider": "711", "toppers_only": True,
+     "top_teams": ["club brugge", "anderlecht", "genk", "antwerp", "gent", "standard", "union st"],
+     "angle": ("De Jupiler Pro League is in Nederland alleen te zien op DAZN, waarvoor je een betaald "
+               "account nodig hebt. Bij 711 kijk je dit Belgische topduel volledig gratis met een account.")},
     {"worker_slug": "serie-a", "comp_slug": "serie-a", "naam": "Serie A",
      "comp_id": "65de2f987de877fdf6583d0c", "tv": "Ziggo Sport",
      "force_provider": "bet365", "toppers_only": True,

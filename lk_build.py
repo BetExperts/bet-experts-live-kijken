@@ -118,13 +118,21 @@ def _kijk_blok(prov, homeN, awayN, comp, tv=None):
                     f"televisie. De enige manier om dit {esc(comp)}-duel live te volgen in Nederland is via "
                     f"{esc(naam)} met een gratis account.</p>")
     out.append(f"<p><strong>Zo werkt gratis kijken via {esc(naam)}:</strong></p>")
-    out.append("<ol>"
-               "<li>Maak een gratis account aan via de link hieronder</li>"
-               "<li>Stort €10 — het minimumbedrag voor toegang tot de livestream</li>"
-               f"<li>Kijk {M} volledig gratis in HD</li>"
-               "<li>Haal daarna je €10 er gewoon weer af</li>"
-               "</ol>")
-    out.append("<p>Je kijkt de wedstrijd dus volledig gratis — de €10 verdwijnt niet.</p>")
+    if prov.get("deposit", True):
+        out.append("<ol>"
+                   "<li>Maak een gratis account aan via de link hieronder</li>"
+                   "<li>Stort €10 — het minimumbedrag voor toegang tot de livestream</li>"
+                   f"<li>Kijk {M} volledig gratis in HD</li>"
+                   "<li>Haal daarna je €10 er gewoon weer af</li>"
+                   "</ol>")
+        out.append("<p>Je kijkt de wedstrijd dus volledig gratis — de €10 verdwijnt niet.</p>")
+    else:
+        out.append("<ol>"
+                   "<li>Maak een gratis account aan via de link hieronder</li>"
+                   "<li>Log in op je account</li>"
+                   f"<li>Kijk {M} volledig gratis in HD</li>"
+                   "</ol>")
+        out.append("<p>Je hebt alleen een gratis account nodig — geen storting, geen kosten.</p>")
     if prov.get("cast"):
         out.append(f"<p><strong>Wil je op groot scherm kijken?</strong> Cast de {esc(naam)}-stream via "
                     f"Chromecast, AirPlay of een HDMI-kabel naar je televisie — volledig gratis.</p>")
@@ -147,8 +155,10 @@ def _faq(homeN, awayN, comp, dt, prov, tv=None):
         (f"Hoe laat begint {homeN} – {awayN}?",
          f"De aftrap is om {nl_tijd(dt)} uur Nederlandse tijd op {nl_datum(dt)}."),
         (f"Is {homeN} – {awayN} gratis te kijken?",
-         f"Ja — maak een gratis account aan bij {naam}, stort €10, kijk de wedstrijd gratis in HD en "
-         f"haal je €10 daarna gewoon weer terug."),
+         (f"Ja — maak een gratis account aan bij {naam}, stort €10, kijk de wedstrijd gratis in HD en "
+          f"haal je €10 daarna gewoon weer terug.") if prov.get("deposit", True) else
+         (f"Ja — maak een gratis account aan bij {naam} en kijk de wedstrijd volledig gratis in HD. "
+          f"Geen storting nodig.")),
         ("Kan ik de stream op groot scherm bekijken?",
          "Ja, via Chromecast, AirPlay of een HDMI-kabel zet je de stream op je televisie."),
         waar,
