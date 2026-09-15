@@ -76,24 +76,64 @@ def form_zin(f):
 def _ordinal(n):
     return f"{n}e"
 
-def team_focus(team, row, form, compN="de competitie"):
-    if not row:
-        base = f"<strong>{esc(team)}</strong> gaat op zoek naar een goed resultaat in dit duel."
-        if form:
-            base += f" Recente vorm: {form_dashes(form)}. {form_zin(form)}"
-        return f"<p>{base}</p>"
-    alld = row.get("all", {}) or {}
-    g = alld.get("goals", {}) or {}
-    rank = row.get("rank"); pnt = row.get("points")
-    pl = alld.get("played"); w = alld.get("win"); d = alld.get("draw"); l = alld.get("lose")
-    gf = g.get("for"); ga = g.get("against")
-    frm = form or row.get("form")
-    zin = (f"<strong>{esc(team)}</strong> staat na {pl} speelronde(s) op de {_ordinal(rank)} plaats in de {esc(compN)} "
-           f"met {pnt} punten uit {w} zege(s), {d} keer gelijk en {l} nederla(a)g(en). "
-           f"Het doelsaldo staat op {gf}-{ga}.")
-    if frm:
-        zin += f" Recente vorm: {form_dashes(frm)}. {form_zin(frm)}"
-    return f"<p>{zin}</p>"
+def _join_nl(parts):
+    if not parts: return ""
+    if len(parts) == 1: return parts[0]
+    return ", ".join(parts[:-1]) + " en " + parts[-1]
+
+def _result_phrase(r):
+    """Menselijke uitslag-omschrijving vanuit het team gezien."""
+    opp = esc(r["opp"]); s = f'{r["my"]}-{r["og"]}'
+    if r["outcome"] == "W":
+        return f'een {s}-zege {"tegen" if r["home"] else "bij"} {opp}'
+    if r["outcome"] == "L":
+        return f'een {s}-nederlaag {"tegen" if r["home"] else "bij"} {opp}'
+    return f'een {s}-gelijkspel {"tegen" if r["home"] else "bij"} {opp}'
+
+def _form_verhaal(team, form, results, compN):
+    """Kort menselijk stukje over de vorm, met echte uitslagen."""
+    results = results or []
+    frm = form or "".join(r["outcome"] for r in results)
+    last5 = results[-5:]
+    pts = sum(3 if r["outcome"] == "W" else (1 if r["outcome"] == "D" else 0) for r in last5)
+    w = sum(1 for r in last5 if r["outcome"] == "W")
+    l = sum(1 for r in last5 if r["outcome"] == "L")
+    recent = list(reversed(last5))  # recentste eerst
+    if not recent:
+        return f"Recente resultaten van <strong>{esc(team)}</strong> zijn nog niet beschikbaar."
+    # openingszin over de reeks
+    if w >= 3:
+        kop = f"<strong>{esc(team)}</strong> is uitstekend op dreef"
+    elif l >= 3:
+        kop = f"<strong>{esc(team)}</strong> is de laatste weken zoekende"
+    elif w == 0:
+        kop = f"<strong>{esc(team)}</strong> wacht nog op een overwinning"
+    else:
+        kop = f"<strong>{esc(team)}</strong> kent een wisselvallige reeks"
+    laatste = recent[0]; opp = esc(laatste["opp"]); s = f'{laatste["my"]}-{laatste["og"]}'
+    if laatste["outcome"] == "W":
+        slot = f'won de ploeg met {s} {"van" if laatste["home"] else "bij"} {opp}'
+    elif laatste["outcome"] == "L":
+        slot = f'verloor de ploeg met {s} {"van" if laatste["home"] else "bij"} {opp}'
+    else:
+        slot = f'speelde de ploeg met {s} gelijk {"tegen" if laatste["home"] else "bij"} {opp}'
+    phrases = [_result_phrase(r) for r in recent[1:4]]   # de duels dáárvoor
+    verhaal = (f"{kop}: uit de laatste vijf duels pakte de ploeg {pts} punten. "
+               f"In de meest recente wedstrijd {slot}")
+    verhaal += (f"; daarvoor stonden onder meer {_join_nl(phrases)} op de teller." if phrases else ".")
+    return verhaal
+
+def team_focus(team, row, form, results, compN="de competitie"):
+    parts = []
+    if row:
+        alld = row.get("all", {}) or {}
+        g = alld.get("goals", {}) or {}
+        rank = row.get("rank"); pnt = row.get("points")
+        pl = alld.get("played"); gf = g.get("for"); ga = g.get("against")
+        parts.append(f"Met {pnt} punten uit {pl} wedstrijden staat <strong>{esc(team)}</strong> "
+                     f"op dit moment {_ordinal(rank)} in de {esc(compN)} (doelsaldo {gf}-{ga}).")
+    parts.append(_form_verhaal(team, form, results, compN))
+    return "<p>" + " ".join(parts) + "</p>"
 
 # ---------- H2H ----------
 def _h2h_line(m):
@@ -208,9 +248,9 @@ def build_content(ctx):
         info += f"<br><strong>Scheidsrechter:</strong> {esc(referee)}"
     c2.append(f"<p>{info}</p>")
     c2.append(f"<h3>Over {esc(homeN)}</h3>")
-    c2.append(team_focus(homeN, ctx.get("hRow"), ctx.get("hForm"), compN))
+    c2.append(team_focus(homeN, ctx.get("hRow"), ctx.get("hForm"), ctx.get("hResults"), compN))
     c2.append(f"<h3>Over {esc(awayN)}</h3>")
-    c2.append(team_focus(awayN, ctx.get("aRow"), ctx.get("aForm"), compN))
+    c2.append(team_focus(awayN, ctx.get("aRow"), ctx.get("aForm"), ctx.get("aResults"), compN))
     content2 = "\n".join(c2)
 
     # ---- CONTENT-3 (deel 3/3): H2H + FAQ + disclaimer ----

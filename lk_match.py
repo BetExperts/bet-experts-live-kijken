@@ -37,6 +37,26 @@ def _form_string(team_id):
         out += "W" if my > opp else ("L" if my < opp else "D")
     return out
 
+def recent_results(team_id, n=5):
+    """Laatste n afgeronde resultaten (chronologisch): tegenstander + score + uitslag."""
+    fixtures = api.team_form(team_id)
+    done = [f for f in fixtures
+            if ((f.get("fixture", {}).get("status", {}) or {}).get("short") in ("FT", "AET", "PEN"))]
+    done.sort(key=lambda f: f.get("fixture", {}).get("date", ""))
+    out = []
+    for f in done[-n:]:
+        t = f.get("teams", {}); g = f.get("goals", {})
+        gh, ga = g.get("home"), g.get("away")
+        if gh is None or ga is None:
+            continue
+        home = str((t.get("home") or {}).get("id")) == str(team_id)
+        my, og = (gh, ga) if home else (ga, gh)
+        opp = ((t.get("away") if home else t.get("home")) or {}).get("name")
+        outcome = "W" if my > og else ("L" if my < og else "D")
+        out.append({"opp": opp, "my": my, "og": og, "home": home,
+                    "outcome": outcome, "date": (f.get("fixture", {}).get("date", "") or "")[:10]})
+    return out
+
 def gather(fx, standings=None, force_provider=None):
     fixture = fx.get("fixture", {}); teams = fx.get("teams", {}); league = fx.get("league", {})
     fid = fixture.get("id")
@@ -62,6 +82,7 @@ def gather(fx, standings=None, force_provider=None):
         "dt": dt, "venue": ven.get("name"), "city": ven.get("city") or "",
         "referee": fixture.get("referee"), "ronde": ronde, "ronde_txt": ronde_txt,
         "hRow": hRow, "aRow": aRow, "hForm": hForm, "aForm": aForm,
+        "hResults": recent_results(homeId), "aResults": recent_results(awayId),
         "h2h": api.h2h(homeId, awayId),
         "prov": provider_for(fid, force_provider),
     }
