@@ -36,6 +36,11 @@ def create_live(field_data):
         if items: return items[0].get("id")
     raise RuntimeError(f"Onverwachte create-respons: {json.dumps(res)[:200]}")
 
+def update_live(item_id, field_data):
+    """Werk een bestaand item bij EN publiceer het opnieuw."""
+    return _req("PATCH", f"{WF_API}/collections/{NIEUWS_COLLECTION}/items/{item_id}/live",
+                {"fieldData": field_data})
+
 def delete_item(item_id):
     try:
         _req("DELETE", f"{WF_API}/collections/{NIEUWS_COLLECTION}/items/{item_id}/live")

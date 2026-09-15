@@ -72,6 +72,7 @@ def build_fielddata(ctx, league_cfg, slug=None):
     ctx = dict(ctx)
     ctx["compSlug"] = league_cfg["comp_slug"]; ctx["compN"] = league_cfg["naam"]
     ctx["angle"] = league_cfg.get("angle", "")
+    ctx["tv"] = league_cfg.get("tv")
     dt = ctx["dt"]
     content, content2, content3 = B.build_content(ctx)
     title = B.build_title(ctx["homeN"], ctx["awayN"], dt)

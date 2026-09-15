@@ -65,23 +65,23 @@ def is_topper(fx, cfg):
 # angle          : introzin die de competitie-invalshoek zet
 LEAGUES = [
     {"worker_slug": "super-lig", "comp_slug": "super-lig", "naam": "Süper Lig",
-     "comp_id": "66ed7d481dc85d2ca649595c",
+     "comp_id": "66ed7d481dc85d2ca649595c", "tv": None,
      "angle": ("Veel Turkse voetbalfans in Nederland willen dit duel live volgen, maar de Süper Lig "
                "is hier niet op de reguliere tv te zien.")},
     {"worker_slug": "la-liga", "comp_slug": "la-liga", "naam": "La Liga",
-     "comp_id": "65eafa89159aadee0c5d81d2",
+     "comp_id": "65eafa89159aadee0c5d81d2", "tv": "Ziggo Sport",
      "force_provider": "toto", "toppers_only": True,
      "top_teams": ["real madrid", "barcelona", "atletico madrid", "atlético madrid", "athletic",
                    "real sociedad", "sevilla", "real betis", "villarreal", "valencia"],
-     "angle": ("La Liga is in Nederland niet gratis op de reguliere tv te zien — gelukkig kun je dit "
-               "Spaanse topduel wél volledig gratis streamen.")},
+     "angle": ("La Liga is in Nederland te zien op Ziggo Sport, maar daarvoor heb je een betaald "
+               "abonnement nodig. Zonder abonnement kun je dit Spaanse topduel ook volledig gratis streamen.")},
     {"worker_slug": "efl-cup", "comp_slug": "efl-cup", "naam": "EFL Cup",
-     "comp_id": "66cc403600c5cbae73af3c82",
+     "comp_id": "66cc403600c5cbae73af3c82", "tv": "Viaplay",
      "force_provider": "bet365", "toppers_only": True,
      "top_teams": ["manchester city", "manchester united", "liverpool", "arsenal", "chelsea",
                    "tottenham", "newcastle", "aston villa", "west ham"],
-     "angle": ("De EFL Cup (Carabao Cup) is in Nederland niet op de reguliere tv te zien — maar je "
-               "kunt dit Engelse bekerduel gewoon gratis volgen.")},
+     "angle": ("De EFL Cup (Carabao Cup) wordt in Nederland uitgezonden door Viaplay, waarvoor je een "
+               "abonnement nodig hebt. Zonder abonnement volg je dit Engelse bekerduel gewoon gratis.")},
 ]
 
 # --- Data-mappings (hergebruikt uit opstellingen-agent) ---

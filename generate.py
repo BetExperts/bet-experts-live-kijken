@@ -38,6 +38,7 @@ def main():
     ap = argparse.ArgumentParser()
     ap.add_argument("--date"); ap.add_argument("--dry", action="store_true")
     ap.add_argument("--preview", action="store_true"); ap.add_argument("--limit", type=int)
+    ap.add_argument("--update", action="store_true", help="bestaande artikelen van die datum herschrijven i.p.v. overslaan")
     a = ap.parse_args()
     ymd = target_date(a.date)
     live = not (a.dry or a.preview)
@@ -67,17 +68,23 @@ def main():
         stand = api.standings(cfg["worker_slug"])
         for fx in day:
             fid = str(fx.get("fixture", {}).get("id"))
-            if fid in state:
+            exists = fid in state
+            if exists and not (a.update or a.preview or a.dry):
                 print(f"  · overslaan (bestaat al): {fid}"); continue
             ctx = M.gather(fx, standings=stand, force_provider=cfg.get("force_provider"))
             ctx["vb_url"] = WF.voorbeschouwing_url(vb_idx, ctx["fid"], ctx["homeId"], ctx["awayId"])
-            fd, slug, title = M.build_fielddata(ctx, cfg)
+            keep_slug = state[fid]["slug"] if exists else None   # URL niet breken bij update
+            fd, slug, title = M.build_fielddata(ctx, cfg, slug=keep_slug)
             if ctx["vb_url"]:
                 print(f"     ↳ voorbeschouwing gelinkt: {ctx['vb_url']}")
             if a.preview:
                 p = write_preview(fd, title); print(f"  ✎ preview: {p}")
             elif a.dry:
-                print(f"  ○ zou maken: {title}  [{ctx['prov']['naam']}]")
+                print(f"  ○ zou {'bijwerken' if exists else 'maken'}: {title}  [{ctx['prov']['naam']}]")
+            elif exists and a.update:
+                WF.update_live(state[fid]["item_id"], fd)
+                state[fid]["provider"] = ctx["prov"]["naam"]; WF.save_state(state)
+                print(f"  ↻ bijgewerkt: {title}  (item {state[fid]['item_id']}) [{ctx['prov']['naam']}]")
             else:
                 item_id = WF.create_live(fd)
                 state[fid] = {"item_id": item_id, "slug": slug,
