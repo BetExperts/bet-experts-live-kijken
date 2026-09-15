@@ -156,7 +156,7 @@ def _faq(homeN, awayN, comp, dt, prov, tv=None):
     return "\n".join(f"<p><strong>{esc(a)}</strong><br>{esc(b)}</p>" for a,b in q)
 
 DISCLAIMER = ("<p><em>Gokken is alleen toegestaan voor personen van 18 jaar en ouder. "
-              "Speel bewust en verantwoord. Stop op tijd. 18+ | Loot? Wat doet het met jou? | Speel bewust.</em></p>")
+              "Wat kost gokken jou? Stop op tijd. 18+ | Speel bewust.</em></p>")
 
 # ---------- content-delen ----------
 def build_content(ctx):
