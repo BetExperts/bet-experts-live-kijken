@@ -89,7 +89,8 @@ def main():
                 item_id = WF.create_live(fd)
                 state[fid] = {"item_id": item_id, "slug": slug,
                               "match": f"{ctx['homeN']} - {ctx['awayN']}", "date": ymd,
-                              "league": cfg["worker_slug"], "provider": ctx["prov"]["naam"]}
+                              "league": cfg["worker_slug"], "provider": ctx["prov"]["naam"],
+                              "home_id": str(ctx["homeId"]), "away_id": str(ctx["awayId"])}
                 WF.save_state(state)
                 print(f"  ✔ live: {title}  (item {item_id}) [{ctx['prov']['naam']}]")
             made += 1

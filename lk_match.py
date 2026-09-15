@@ -108,9 +108,14 @@ def build_fielddata(ctx, league_cfg, slug=None):
         "samenvatting": samenvatting,
         "league-slug": league_cfg["comp_slug"],
         "publicatiedatum": datetime.now(timezone.utc).isoformat(),
+        # fixture-id bewust NIET invullen (naar wens gebruiker)
         "datum-tijd-van-wedstrijd": ctx["dt"].isoformat(),
         "tijd-wedstrijd": B.nl_tijd(ctx["dt"]),
     }
+    if ctx.get("homeId"):
+        fd["home-team-id"] = str(ctx["homeId"])
+    if ctx.get("awayId"):
+        fd["away-team-id"] = str(ctx["awayId"])
     if RUBRIEK_ID:
         fd["rubriek"] = RUBRIEK_ID
     if league_cfg.get("comp_id"):

@@ -5,7 +5,9 @@
     "match": "Gaziantep FK - Fenerbahçe",
     "date": "2026-09-14",
     "league": "super-lig",
-    "provider": "TOTO"
+    "provider": "TOTO",
+    "home_id": "3573",
+    "away_id": "611"
   },
   "1570383": {
     "item_id": "6aa905ca8d29425a645c5a4f",
@@ -13,7 +15,9 @@
     "match": "Alaves - Valencia",
     "date": "2026-09-15",
     "league": "la-liga",
-    "provider": "TOTO"
+    "provider": "TOTO",
+    "home_id": "542",
+    "away_id": "532"
   },
   "1570388": {
     "item_id": "6aa905cb42c84bd9d14d12f2",
@@ -21,7 +25,9 @@
     "match": "Elche - Real Madrid",
     "date": "2026-09-15",
     "league": "la-liga",
-    "provider": "TOTO"
+    "provider": "TOTO",
+    "home_id": "797",
+    "away_id": "541"
   },
   "1636206": {
     "item_id": "6aa905ccfb7bf83a605f0f19",
@@ -29,7 +35,9 @@
     "match": "West Ham - Fulham",
     "date": "2026-09-15",
     "league": "efl-cup",
-    "provider": "Bet365"
+    "provider": "Bet365",
+    "home_id": "48",
+    "away_id": "36"
   },
   "1635563": {
     "item_id": "6aa905ce377bec32a1a162c5",
@@ -37,7 +45,9 @@
     "match": "Liverpool - Tottenham",
     "date": "2026-09-15",
     "league": "efl-cup",
-    "provider": "Bet365"
+    "provider": "Bet365",
+    "home_id": "40",
+    "away_id": "47"
   },
   "1635561": {
     "item_id": "6aa905cf42c84bd9d14d150e",
@@ -45,6 +55,8 @@
     "match": "Ipswich - Arsenal",
     "date": "2026-09-15",
     "league": "efl-cup",
-    "provider": "Bet365"
+    "provider": "Bet365",
+    "home_id": "57",
+    "away_id": "42"
   }
 }
