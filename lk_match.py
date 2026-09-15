@@ -6,6 +6,21 @@ import lk_api as api
 import lk_build as B
 from lk_config import club_slug, provider_for, RUBRIEK_ID
 
+_ROUND_NL = {
+    "round of 64": "1/32 finale", "round of 32": "1/16 finale", "round of 16": "achtste finale",
+    "quarter-finals": "kwartfinale", "quarter finals": "kwartfinale",
+    "semi-finals": "halve finale", "semi finals": "halve finale",
+    "final": "finale", "3rd round": "3e ronde", "4th round": "4e ronde",
+}
+def _ronde_label(round_raw, ronde_num):
+    low = (round_raw or "").strip().lower()
+    if "regular season" in low or "matchday" in low:
+        return f"Speelronde {ronde_num}" if ronde_num != "?" else "Speelronde"
+    for k, v in _ROUND_NL.items():
+        if k in low:
+            return v[0].upper() + v[1:]
+    return round_raw or "Wedstrijd"
+
 def _form_string(team_id):
     """Leidt W/D/L-vorm (laatste 5, chronologisch) af uit /api/team-form."""
     fixtures = api.team_form(team_id)
@@ -22,7 +37,7 @@ def _form_string(team_id):
         out += "W" if my > opp else ("L" if my < opp else "D")
     return out
 
-def gather(fx, standings=None):
+def gather(fx, standings=None, force_provider=None):
     fixture = fx.get("fixture", {}); teams = fx.get("teams", {}); league = fx.get("league", {})
     fid = fixture.get("id")
     home = teams.get("home", {}); away = teams.get("away", {})
@@ -30,8 +45,10 @@ def gather(fx, standings=None):
     homeN, awayN = home.get("name"), away.get("name")
     dt = B._local(fixture.get("date"))
     ven = fixture.get("venue", {}) or {}
-    m = re.search(r"(\d+)", league.get("round", "") or "")
+    round_raw = league.get("round", "") or ""
+    m = re.search(r"(\d+)", round_raw)
     ronde = m.group(1) if m else "?"
+    ronde_txt = _ronde_label(round_raw, ronde)
 
     standings = standings or {}
     hRow = standings.get(str(homeId)); aRow = standings.get(str(awayId))
@@ -43,10 +60,10 @@ def gather(fx, standings=None):
         "hSlug": club_slug(homeId, homeN), "aSlug": club_slug(awayId, awayN),
         "compSlug": None, "compN": None,   # ingevuld door build_fielddata (league config)
         "dt": dt, "venue": ven.get("name"), "city": ven.get("city") or "",
-        "referee": fixture.get("referee"), "ronde": ronde,
+        "referee": fixture.get("referee"), "ronde": ronde, "ronde_txt": ronde_txt,
         "hRow": hRow, "aRow": aRow, "hForm": hForm, "aForm": aForm,
         "h2h": api.h2h(homeId, awayId),
-        "prov": provider_for(fid),
+        "prov": provider_for(fid, force_provider),
     }
 
 def build_fielddata(ctx, league_cfg, slug=None):
@@ -54,6 +71,7 @@ def build_fielddata(ctx, league_cfg, slug=None):
     random.seed(str(ctx["fid"]))   # deterministische titelvariatie per wedstrijd
     ctx = dict(ctx)
     ctx["compSlug"] = league_cfg["comp_slug"]; ctx["compN"] = league_cfg["naam"]
+    ctx["angle"] = league_cfg.get("angle", "")
     dt = ctx["dt"]
     content, content2, content3 = B.build_content(ctx)
     title = B.build_title(ctx["homeN"], ctx["awayN"], dt)

@@ -9,7 +9,7 @@ from datetime import datetime, timedelta
 import lk_api as api
 import lk_match as M
 import lk_build as B
-from lk_config import LEAGUES, BASE, WEBFLOW_TOKEN
+from lk_config import LEAGUES, BASE, WEBFLOW_TOKEN, is_topper
 import lk_webflow as WF
 
 def target_date(arg):
@@ -58,13 +58,18 @@ def main():
         resp = api.fixtures(cfg["worker_slug"])
         ups = (resp.get("upcoming") or [])
         day = [fx for fx in ups if match_on_date(fx, ymd)]
+        if cfg.get("toppers_only"):
+            before = len(day)
+            day = [fx for fx in day if is_topper(fx, cfg)]
+            print(f"\n{cfg['naam']}: {len(day)} topper(s) op {ymd} (van {before} wedstrijden)")
+        else:
+            print(f"\n{cfg['naam']}: {len(day)} wedstrijd(en) op {ymd}")
         stand = api.standings(cfg["worker_slug"])
-        print(f"\n{cfg['naam']}: {len(day)} wedstrijd(en) op {ymd}")
         for fx in day:
             fid = str(fx.get("fixture", {}).get("id"))
             if fid in state:
                 print(f"  · overslaan (bestaat al): {fid}"); continue
-            ctx = M.gather(fx, standings=stand)
+            ctx = M.gather(fx, standings=stand, force_provider=cfg.get("force_provider"))
             ctx["vb_url"] = WF.voorbeschouwing_url(vb_idx, ctx["fid"], ctx["homeId"], ctx["awayId"])
             fd, slug, title = M.build_fielddata(ctx, cfg)
             if ctx["vb_url"]:

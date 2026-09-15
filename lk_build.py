@@ -72,7 +72,7 @@ def form_zin(f):
 def _ordinal(n):
     return f"{n}e"
 
-def team_focus(team, row, form):
+def team_focus(team, row, form, compN="de competitie"):
     if not row:
         base = f"<strong>{esc(team)}</strong> gaat op zoek naar een goed resultaat in dit duel."
         if form:
@@ -84,7 +84,7 @@ def team_focus(team, row, form):
     pl = alld.get("played"); w = alld.get("win"); d = alld.get("draw"); l = alld.get("lose")
     gf = g.get("for"); ga = g.get("against")
     frm = form or row.get("form")
-    zin = (f"<strong>{esc(team)}</strong> staat na {pl} speelronde(s) op de {_ordinal(rank)} plaats in de Süper Lig "
+    zin = (f"<strong>{esc(team)}</strong> staat na {pl} speelronde(s) op de {_ordinal(rank)} plaats in de {esc(compN)} "
            f"met {pnt} punten uit {w} zege(s), {d} keer gelijk en {l} nederla(a)g(en). "
            f"Het doelsaldo staat op {gf}-{ga}.")
     if frm:
@@ -153,7 +153,8 @@ def build_content(ctx):
     homeN, awayN = ctx["homeN"], ctx["awayN"]
     hSlug, aSlug = ctx["hSlug"], ctx["aSlug"]
     compN, compSlug = ctx["compN"], ctx["compSlug"]
-    dt = ctx["dt"]; venue = ctx["venue"]; city = ctx["city"]; ronde = ctx["ronde"]
+    dt = ctx["dt"]; venue = ctx["venue"]; city = ctx["city"]
+    ronde_txt = ctx.get("ronde_txt") or "Wedstrijd"
     referee = ctx.get("referee"); prov = ctx["prov"]
     datum = nl_datum(dt); kickoff = nl_tijd(dt)
 
@@ -164,9 +165,9 @@ def build_content(ctx):
 
     # ---- CONTENT (deel 1/3): intro + gratis-kijken-blok + CTA ----
     c1 = []
-    c1.append(f"<p><strong>{hLink} treft {aLink} op {datum} om {kickoff} uur in speelronde {ronde} van de "
-              f"{compLink}. Veel fans in Nederland zoeken naar een manier om Turkse topwedstrijden live te "
-              f"volgen, want de {esc(compN)} is hier niet op de reguliere tv te zien. Goed nieuws: je kijkt "
+    angle = ctx.get("angle") or f"De {esc(compN)} is in Nederland niet op de reguliere tv te zien."
+    c1.append(f"<p><strong>{hLink} treft {aLink} op {datum} om {kickoff} uur in de "
+              f"{compLink}. {angle} Goed nieuws: je kijkt "
               f"{esc(homeN)} – {esc(awayN)} volledig gratis via {esc(prov['naam'])}.</strong></p>")
     vb_url = ctx.get("vb_url")
     if vb_url:
@@ -179,7 +180,7 @@ def build_content(ctx):
     c2 = []
     c2.append("<h3>📅 Wedstrijdinformatie</h3>")
     info = (f"<strong>Wedstrijd:</strong> {esc(homeN)} – {esc(awayN)}<br>"
-            f"<strong>Competitie:</strong> {esc(compN)} – Speelronde {ronde}<br>"
+            f"<strong>Competitie:</strong> {esc(compN)} – {esc(ronde_txt)}<br>"
             f"<strong>Datum:</strong> {datum}<br>"
             f"<strong>Aftrap:</strong> {kickoff} uur (Nederlandse tijd)<br>"
             f"<strong>Stadion:</strong> {esc(venue or city or 'n.n.b.')}")
@@ -187,9 +188,9 @@ def build_content(ctx):
         info += f"<br><strong>Scheidsrechter:</strong> {esc(referee)}"
     c2.append(f"<p>{info}</p>")
     c2.append(f"<h3>Over {esc(homeN)}</h3>")
-    c2.append(team_focus(homeN, ctx.get("hRow"), ctx.get("hForm")))
+    c2.append(team_focus(homeN, ctx.get("hRow"), ctx.get("hForm"), compN))
     c2.append(f"<h3>Over {esc(awayN)}</h3>")
-    c2.append(team_focus(awayN, ctx.get("aRow"), ctx.get("aForm")))
+    c2.append(team_focus(awayN, ctx.get("aRow"), ctx.get("aForm"), compN))
     content2 = "\n".join(c2)
 
     # ---- CONTENT-3 (deel 3/3): H2H + FAQ + disclaimer ----

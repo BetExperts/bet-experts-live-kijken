@@ -34,22 +34,54 @@ PROVIDERS = {
     },
 }
 
-def provider_for(fixture_id):
-    """Deterministisch afwisselen TOTO/Bet365 op basis van fixture-id (~50/50)."""
+def provider_for(fixture_id, force=None):
+    """Kies aanbieder. `force` ('toto'/'bet365') = vast per competitie; anders
+    deterministisch afwisselen op fixture-id-pariteit (~50/50)."""
+    if force in PROVIDERS:
+        return PROVIDERS[force]
     try:
         even = int(str(fixture_id)) % 2 == 0
     except Exception:
         even = sum(ord(c) for c in str(fixture_id)) % 2 == 0
     return PROVIDERS["toto"] if even else PROVIDERS["bet365"]
 
+def is_topper(fx, cfg):
+    """True als de wedstrijd een 'topper' is (of als de competitie geen filter kent)."""
+    if not cfg.get("toppers_only"):
+        return True
+    tops = [t.lower() for t in cfg.get("top_teams", [])]
+    t = fx.get("teams", {})
+    names = ((t.get("home", {}) or {}).get("name", "") + " | " +
+             (t.get("away", {}) or {}).get("name", "")).lower()
+    return any(top in names for top in tops)
+
 # --- Competities die de agent verwerkt ---
 # worker_slug = slug in de Cloudflare Worker (voor /api/fixtures/{slug})
 # comp_slug   = slug van de competitiepagina op de site (/competities/<slug>)
 # naam        = weergavenaam in de tekst
 # comp_id     = item-id in de Competities-collectie (referentieveld 'competitie')
+# force_provider : 'toto'/'bet365' = vaste aanbieder voor die competitie (anders afwisselen)
+# toppers_only   : True = alleen wedstrijden met een 'groot team' (top_teams) krijgen een artikel
+# angle          : introzin die de competitie-invalshoek zet
 LEAGUES = [
     {"worker_slug": "super-lig", "comp_slug": "super-lig", "naam": "Süper Lig",
-     "comp_id": "66ed7d481dc85d2ca649595c"},
+     "comp_id": "66ed7d481dc85d2ca649595c",
+     "angle": ("Veel Turkse voetbalfans in Nederland willen dit duel live volgen, maar de Süper Lig "
+               "is hier niet op de reguliere tv te zien.")},
+    {"worker_slug": "la-liga", "comp_slug": "la-liga", "naam": "La Liga",
+     "comp_id": "65eafa89159aadee0c5d81d2",
+     "force_provider": "toto", "toppers_only": True,
+     "top_teams": ["real madrid", "barcelona", "atletico madrid", "atlético madrid", "athletic",
+                   "real sociedad", "sevilla", "real betis", "villarreal", "valencia"],
+     "angle": ("La Liga is in Nederland niet gratis op de reguliere tv te zien — gelukkig kun je dit "
+               "Spaanse topduel wél volledig gratis streamen.")},
+    {"worker_slug": "efl-cup", "comp_slug": "efl-cup", "naam": "EFL Cup",
+     "comp_id": "66cc403600c5cbae73af3c82",
+     "force_provider": "bet365", "toppers_only": True,
+     "top_teams": ["manchester city", "manchester united", "liverpool", "arsenal", "chelsea",
+                   "tottenham", "newcastle", "aston villa", "west ham"],
+     "angle": ("De EFL Cup (Carabao Cup) is in Nederland niet op de reguliere tv te zien — maar je "
+               "kunt dit Engelse bekerduel gewoon gratis volgen.")},
 ]
 
 # --- Data-mappings (hergebruikt uit opstellingen-agent) ---
