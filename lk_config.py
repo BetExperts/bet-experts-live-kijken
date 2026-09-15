@@ -53,6 +53,36 @@ def provider_for(fixture_id, force=None):
         even = sum(ord(c) for c in str(fixture_id)) % 2 == 0
     return PROVIDERS["toto"] if even else PROVIDERS["bet365"]
 
+# --- Op welke NL-zender is een competitie te zien? (uit data/tv_zenders.json) ---
+def _tv_map():
+    try:
+        raw = json.load(open(os.path.join(DATA, "tv_zenders.json"), encoding="utf-8"))
+    except Exception:
+        return {}
+    m = {}
+    for zender, comps in raw.items():
+        if zender.startswith("_") or not isinstance(comps, list):
+            continue
+        for c in comps:
+            key = c.split("(")[0].strip().lower()
+            m.setdefault(key, zender)
+    return m
+TV_ZENDERS = _tv_map()
+
+# Handmatige aliassen naar de namen in tv_zenders.json
+TV_ALIASES = {
+    "la liga": "laliga", "champions league": "uefa champions league",
+    "europa league": "uefa europa league", "conference league": "uefa conference league",
+}
+
+def tv_for(naam):
+    """Retourneert de NL-zender voor een competitienaam, of None (= niet op reguliere NL-tv)."""
+    if not naam:
+        return None
+    key = naam.strip().lower()
+    key = TV_ALIASES.get(key, key)
+    return TV_ZENDERS.get(key)
+
 def is_topper(fx, cfg):
     """True als de wedstrijd een 'topper' is (of als de competitie geen filter kent)."""
     if not cfg.get("toppers_only"):

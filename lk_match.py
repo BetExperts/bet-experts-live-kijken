@@ -4,7 +4,7 @@ import re
 from datetime import datetime, timezone
 import lk_api as api
 import lk_build as B
-from lk_config import club_slug, provider_for, RUBRIEK_ID
+from lk_config import club_slug, provider_for, RUBRIEK_ID, tv_for
 
 _ROUND_NL = {
     "round of 64": "1/32 finale", "round of 32": "1/16 finale", "round of 16": "achtste finale",
@@ -93,7 +93,8 @@ def build_fielddata(ctx, league_cfg, slug=None):
     ctx = dict(ctx)
     ctx["compSlug"] = league_cfg["comp_slug"]; ctx["compN"] = league_cfg["naam"]
     ctx["angle"] = league_cfg.get("angle", "")
-    ctx["tv"] = league_cfg.get("tv")
+    # expliciete tv in de league-config wint; anders afleiden uit de zender-lijst
+    ctx["tv"] = league_cfg["tv"] if "tv" in league_cfg else tv_for(league_cfg["naam"])
     dt = ctx["dt"]
     content, content2, content3 = B.build_content(ctx)
     title = B.build_title(ctx["homeN"], ctx["awayN"], dt)

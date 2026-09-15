@@ -1,0 +1,28 @@
+{
+  "_note": "Op welke Nederlandse zender/dienst een competitie live te zien is. Bron: gebruiker (bet-experts.nl). Gebruikt om het 'tv'-veld per competitie te bepalen en in de artikeltekst te benoemen. Competities die hier niet in staan = niet op reguliere NL-tv (tv=None).",
+  "Ziggo Sport": [
+    "UEFA Champions League", "UEFA Europa League", "UEFA Conference League", "UEFA Youth League",
+    "UEFA Nations League (zonder Nederlands elftal)", "WK-kwalificatie Europa (zonder Nederlands elftal)",
+    "Afrika Cup", "Liga Portugal", "DFB Pokal", "Serie A", "Coppa Italia", "Supercoppa",
+    "LaLiga", "Copa del Rey", "Supercopa de España"
+  ],
+  "ESPN": [
+    "Eredivisie", "Keuken Kampioen Divisie", "KNVB Beker", "Johan Cruijff Schaal",
+    "Copa Libertadores", "CONCACAF Gold Cup", "WK-kwalificatie Azië en Zuid-Amerika",
+    "AFC Champions League", "AFC Cup", "Vrouwen Eredivisie", "NWSL"
+  ],
+  "Viaplay": [
+    "Premier League", "Championship", "League One", "FA Cup", "Bundesliga", "2. Bundesliga",
+    "Ligue 1", "Ligue 2", "Allsvenskan vrouwen", "Bundesliga vrouwen"
+  ],
+  "NOS": [
+    "Nederlands elftal", "Eindtoernooi WK en EK"
+  ],
+  "DAZN": [
+    "Vrouwen Serie A", "Jupiler Pro League"
+  ],
+  "Apple TV": ["MLS"],
+  "Eyecons": ["Tweede Divisie (Nederland)"],
+  "Prime Video": ["Premier League (één wedstrijd per speelronde)"],
+  "OneFootball": ["3. Liga (Duitsland)", "Eliteserien (Noorwegen)", "Saudi Pro League (één wedstrijd per speelronde)"]
+}
