@@ -75,6 +75,13 @@ LEAGUES = [
                    "real sociedad", "sevilla", "real betis", "villarreal", "valencia"],
      "angle": ("La Liga is in Nederland te zien op Ziggo Sport, maar daarvoor heb je een betaald "
                "abonnement nodig. Zonder abonnement kun je dit Spaanse topduel ook volledig gratis streamen.")},
+    {"worker_slug": "serie-a", "comp_slug": "serie-a", "naam": "Serie A",
+     "comp_id": "65de2f987de877fdf6583d0c", "tv": "Ziggo Sport",
+     "force_provider": "bet365", "toppers_only": True,
+     "top_teams": ["juventus", "inter", "milan", "napoli", "roma", "lazio", "atalanta", "fiorentina"],
+     "angle": ("Serie A is in Nederland te zien op Ziggo Sport, maar daarvoor heb je een betaald "
+               "abonnement nodig. Bet365 is de enige bookmaker in Nederland die álle Serie A-wedstrijden "
+               "gratis livestreamt — zo kijk je dit Italiaanse topduel zonder abonnement en zonder kosten.")},
     {"worker_slug": "efl-cup", "comp_slug": "efl-cup", "naam": "EFL Cup",
      "comp_id": "66cc403600c5cbae73af3c82", "tv": "Viaplay",
      "force_provider": "bet365", "toppers_only": True,
