@@ -58,5 +58,65 @@
     "provider": "Bet365",
     "home_id": "57",
     "away_id": "42"
+  },
+  "1570384": {
+    "item_id": "6aa98bdb5fe8acca3c0fcaf7",
+    "slug": "atletico-madrid-osasuna-live-gratis-kijken-16-09-2026",
+    "match": "Atletico Madrid - Osasuna",
+    "date": "2026-09-16",
+    "league": "la-liga",
+    "provider": "TOTO",
+    "home_id": "530",
+    "away_id": "727"
+  },
+  "1570387": {
+    "item_id": "6aa98bddab00671b43fcd815",
+    "slug": "deportivo-la-coruna-sevilla-live-gratis-kijken-16-09-2026",
+    "match": "Deportivo La Coruna - Sevilla",
+    "date": "2026-09-16",
+    "league": "la-liga",
+    "provider": "TOTO",
+    "home_id": "544",
+    "away_id": "536"
+  },
+  "1570385": {
+    "item_id": "6aa98bdf2ab3a1bab73826bd",
+    "slug": "fc-barcelona-racing-santander-live-gratis-kijken-16-09-2026",
+    "match": "Barcelona - Racing Santander",
+    "date": "2026-09-16",
+    "league": "la-liga",
+    "provider": "TOTO",
+    "home_id": "529",
+    "away_id": "4665"
+  },
+  "1570389": {
+    "item_id": "6aa98be10ddc9b7b6acc42e0",
+    "slug": "levante-athletic-bilbao-live-gratis-kijken-16-09-2026",
+    "match": "Levante - Athletic Club",
+    "date": "2026-09-16",
+    "league": "la-liga",
+    "provider": "TOTO",
+    "home_id": "539",
+    "away_id": "531"
+  },
+  "1635565": {
+    "item_id": "6aa98be7827c34a90754f795",
+    "slug": "manchester-united-brighton-live-gratis-kijken-16-09-2026",
+    "match": "Manchester United - Brighton",
+    "date": "2026-09-16",
+    "league": "efl-cup",
+    "provider": "Bet365",
+    "home_id": "33",
+    "away_id": "51"
+  },
+  "1635557": {
+    "item_id": "6aa98bea410efb1316810f19",
+    "slug": "coventry-aston-villa-live-gratis-kijken-16-09-2026",
+    "match": "Coventry - Aston Villa",
+    "date": "2026-09-16",
+    "league": "efl-cup",
+    "provider": "Bet365",
+    "home_id": "1346",
+    "away_id": "66"
   }
 }
