@@ -118,5 +118,35 @@
     "provider": "Bet365",
     "home_id": "1346",
     "away_id": "66"
+  },
+  "1570386": {
+    "item_id": "6aaadda8907b79e394d94364",
+    "slug": "real-betis-getafe-live-gratis-kijken-17-09-2026",
+    "match": "Real Betis - Getafe",
+    "date": "2026-09-17",
+    "league": "la-liga",
+    "provider": "TOTO",
+    "home_id": "543",
+    "away_id": "546"
+  },
+  "1570390": {
+    "item_id": "6aaaddaaa354d888250200aa",
+    "slug": "malaga-villarreal-live-gratis-kijken-17-09-2026",
+    "match": "Malaga - Villarreal",
+    "date": "2026-09-17",
+    "league": "la-liga",
+    "provider": "TOTO",
+    "home_id": "535",
+    "away_id": "533"
+  },
+  "1635564": {
+    "item_id": "6aaaddb13bd531618777b536",
+    "slug": "manchester-city-norwich-live-gratis-kijken-17-09-2026",
+    "match": "Manchester City - Norwich",
+    "date": "2026-09-17",
+    "league": "efl-cup",
+    "provider": "Bet365",
+    "home_id": "50",
+    "away_id": "71"
   }
 }
