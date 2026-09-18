@@ -168,5 +168,95 @@
     "provider": "711",
     "home_id": "631",
     "away_id": "733"
+  },
+  "1584414": {
+    "item_id": "6aad807182c2fce203eea170",
+    "slug": "corum-fk-alanyaspor-live-gratis-kijken-19-09-2026",
+    "match": "Çorum FK - Alanyaspor",
+    "date": "2026-09-19",
+    "league": "super-lig",
+    "provider": "TOTO",
+    "home_id": "6343",
+    "away_id": "996"
+  },
+  "1584419": {
+    "item_id": "6aad807481b137429123ba4d",
+    "slug": "kocaelispor-gaziantep-live-gratis-kijken-19-09-2026",
+    "match": "Kocaelispor - Gaziantep FK",
+    "date": "2026-09-19",
+    "league": "super-lig",
+    "provider": "Bet365",
+    "home_id": "7411",
+    "away_id": "3573"
+  },
+  "1584413": {
+    "item_id": "6aad80763526ed7c1dfc3173",
+    "slug": "istanbul-basaksehir-genclerbirligi-live-gratis-kijken-19-09-2026",
+    "match": "Başakşehir - Gençlerbirliği S.K.",
+    "date": "2026-09-19",
+    "league": "super-lig",
+    "provider": "Bet365",
+    "home_id": "564",
+    "away_id": "997"
+  },
+  "1584420": {
+    "item_id": "6aad80783526ed7c1dfc32cd",
+    "slug": "trabzonspor-galatasaray-live-gratis-kijken-19-09-2026",
+    "match": "Trabzonspor - Galatasaray",
+    "date": "2026-09-19",
+    "league": "super-lig",
+    "provider": "TOTO",
+    "home_id": "998",
+    "away_id": "645"
+  },
+  "1570393": {
+    "item_id": "6aad807b3526ed7c1dfc350a",
+    "slug": "athletic-bilbao-deportivo-alaves-live-gratis-kijken-19-09-2026",
+    "match": "Athletic Club - Alaves",
+    "date": "2026-09-19",
+    "league": "la-liga",
+    "provider": "TOTO",
+    "home_id": "531",
+    "away_id": "542"
+  },
+  "1570400": {
+    "item_id": "6aad807dac291c675c9f245a",
+    "slug": "sevilla-fc-barcelona-live-gratis-kijken-19-09-2026",
+    "match": "Sevilla - Barcelona",
+    "date": "2026-09-19",
+    "league": "la-liga",
+    "provider": "TOTO",
+    "home_id": "536",
+    "away_id": "529"
+  },
+  "1558638": {
+    "item_id": "6aad8080d0d87b6d57101726",
+    "slug": "anderlecht-zulte-waregem-live-gratis-kijken-19-09-2026",
+    "match": "Anderlecht - Zulte Waregem",
+    "date": "2026-09-19",
+    "league": "jupiler-pro-league",
+    "provider": "711",
+    "home_id": "554",
+    "away_id": "600"
+  },
+  "1550128": {
+    "item_id": "6aad80834e80563241b8da51",
+    "slug": "as-roma-inter-live-gratis-kijken-19-09-2026",
+    "match": "AS Roma - Inter",
+    "date": "2026-09-19",
+    "league": "serie-a",
+    "provider": "Bet365",
+    "home_id": "497",
+    "away_id": "505"
+  },
+  "1550136": {
+    "item_id": "6aad808528d156f422db9454",
+    "slug": "venezia-lazio-live-gratis-kijken-19-09-2026",
+    "match": "Venezia - Lazio",
+    "date": "2026-09-19",
+    "league": "serie-a",
+    "provider": "Bet365",
+    "home_id": "517",
+    "away_id": "487"
   }
 }
