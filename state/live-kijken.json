@@ -258,5 +258,135 @@
     "provider": "Bet365",
     "home_id": "517",
     "away_id": "487"
+  },
+  "1584416": {
+    "item_id": "6aaed1e467886ab242d78042",
+    "slug": "fenerbahce-eyupspor-live-gratis-kijken-20-09-2026",
+    "match": "Fenerbahçe - Eyüpspor",
+    "date": "2026-09-20",
+    "league": "super-lig",
+    "provider": "TOTO",
+    "home_id": "611",
+    "away_id": "3588"
+  },
+  "1584415": {
+    "item_id": "6aaed1e7c5a0da5a163a6758",
+    "slug": "erzurumspor-samsunspor-live-gratis-kijken-20-09-2026",
+    "match": "Erzurumspor FK - Samsunspor",
+    "date": "2026-09-20",
+    "league": "super-lig",
+    "provider": "Bet365",
+    "home_id": "1009",
+    "away_id": "3603"
+  },
+  "1584417": {
+    "item_id": "6aaed1e8517279493ddd4754",
+    "slug": "goztepe-rizespor-live-gratis-kijken-20-09-2026",
+    "match": "Göztepe - Rizespor",
+    "date": "2026-09-20",
+    "league": "super-lig",
+    "provider": "Bet365",
+    "home_id": "994",
+    "away_id": "1007"
+  },
+  "1584412": {
+    "item_id": "6aaed1eb5f53c18f08add575",
+    "slug": "amed-besiktas-live-gratis-kijken-20-09-2026",
+    "match": "Amed - Beşiktaş",
+    "date": "2026-09-20",
+    "league": "super-lig",
+    "provider": "TOTO",
+    "home_id": "3579",
+    "away_id": "549"
+  },
+  "1570394": {
+    "item_id": "6aaed1ee25c980f072900c16",
+    "slug": "atletico-madrid-real-madrid-live-gratis-kijken-20-09-2026",
+    "match": "Atletico Madrid - Real Madrid",
+    "date": "2026-09-20",
+    "league": "la-liga",
+    "provider": "TOTO",
+    "home_id": "530",
+    "away_id": "541"
+  },
+  "1570402": {
+    "item_id": "6aaed1f098dbb5794dc3dc7f",
+    "slug": "villarreal-levante-live-gratis-kijken-20-09-2026",
+    "match": "Villarreal - Levante",
+    "date": "2026-09-20",
+    "league": "la-liga",
+    "provider": "TOTO",
+    "home_id": "533",
+    "away_id": "539"
+  },
+  "1570396": {
+    "item_id": "6aaed1f21f7a382f8a79d37e",
+    "slug": "deportivo-la-coruna-real-betis-live-gratis-kijken-20-09-2026",
+    "match": "Deportivo La Coruna - Real Betis",
+    "date": "2026-09-20",
+    "league": "la-liga",
+    "provider": "TOTO",
+    "home_id": "544",
+    "away_id": "543"
+  },
+  "1570401": {
+    "item_id": "6aaed1f566c665dfa1ece609",
+    "slug": "valencia-real-sociedad-live-gratis-kijken-20-09-2026",
+    "match": "Valencia - Real Sociedad",
+    "date": "2026-09-20",
+    "league": "la-liga",
+    "provider": "TOTO",
+    "home_id": "532",
+    "away_id": "548"
+  },
+  "1558640": {
+    "item_id": "6aaed1f881ef4a32ec4e4083",
+    "slug": "antwerp-union-sint-gilloise-live-gratis-kijken-20-09-2026",
+    "match": "Antwerp - Union St. Gilloise",
+    "date": "2026-09-20",
+    "league": "jupiler-pro-league",
+    "provider": "711",
+    "home_id": "740",
+    "away_id": "1393"
+  },
+  "1558642": {
+    "item_id": "6aaed1fa5359c79adca58608",
+    "slug": "club-brugge-genk-live-gratis-kijken-20-09-2026",
+    "match": "Club Brugge KV - Genk",
+    "date": "2026-09-20",
+    "league": "jupiler-pro-league",
+    "provider": "711",
+    "home_id": "569",
+    "away_id": "742"
+  },
+  "1550130": {
+    "item_id": "6aaed1fdd9f14e6d0853c303",
+    "slug": "fiorentina-napoli-live-gratis-kijken-20-09-2026",
+    "match": "Fiorentina - Napoli",
+    "date": "2026-09-20",
+    "league": "serie-a",
+    "provider": "Bet365",
+    "home_id": "502",
+    "away_id": "492"
+  },
+  "1550132": {
+    "item_id": "6aaed201e1749b1414497d85",
+    "slug": "juventus-atalanta-live-gratis-kijken-20-09-2026",
+    "match": "Juventus - Atalanta",
+    "date": "2026-09-20",
+    "league": "serie-a",
+    "provider": "Bet365",
+    "home_id": "496",
+    "away_id": "499"
+  },
+  "1550127": {
+    "item_id": "6aaed2029b17b48fafc04b01",
+    "slug": "ac-milan-lecce-live-gratis-kijken-20-09-2026",
+    "match": "AC Milan - Lecce",
+    "date": "2026-09-20",
+    "league": "serie-a",
+    "provider": "Bet365",
+    "home_id": "489",
+    "away_id": "867"
   }
 }
