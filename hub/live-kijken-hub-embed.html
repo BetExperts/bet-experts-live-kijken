@@ -115,7 +115,7 @@
     'MLS':{tv:'Apple TV',stream:['Bet365','BetMGM']},
     'Nederlands elftal':{tv:'NOS',stream:[],free:true}
   };
-  function norm(s){s=(s||'').toLowerCase();if(s.normalize)s=s.normalize('NFD').replace(/[̀-ͯ]/g,'');return s.replace(/[^a-z0-9]+/g,' ').trim();}
+  function norm(s){s=(s||'').toLowerCase();if(s.normalize)s=s.normalize('NFD').replace(/[\u0300-\u036f]/g,'');return s.replace(/[^a-z0-9]+/g,' ').trim();}
   var RIGHTS_NORM={};Object.keys(RIGHTS_RAW).forEach(function(k){RIGHTS_NORM[norm(k)]=RIGHTS_RAW[k];});
   function sourcesFor(comp,homeId,awayId,d){
     /* 1) zender uit het artikel zelf (data-tv / data-stream / data-gratis), als dat veld bestaat */
