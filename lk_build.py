@@ -42,15 +42,16 @@ def build_title(homeN, awayN, dt, paid_tv=None, free_tv=None):
     (deterministisch per wedstrijd). 'gratis' alleen waar het klopt."""
     M = f"{homeN} – {awayN}"
     datum = nl_datum_kort(dt)
-    if paid_tv:   # alleen via betaalde tv, geen bookmaker-stream: geen 'gratis' beloven
+    if paid_tv:   # alleen via betaalde tv: 'gratis' als vraag (gebruiker wil 'gratis' in elke titel),
+                  # het artikel beantwoordt eerlijk dat het op {paid_tv} te zien is
         return random.choice([
-            f"{M} op tv kijken: zender, aftraptijd en livestream",
-            f"{M} live op tv: zender, aftraptijd en livestream",
-            f"Waar kijk je {M}? Zender, aftraptijd en livestream",
-            f"{M} live kijken: zender, aftrap en livestream",
-            f"{M} op tv ({datum}): zender, aftraptijd en livestream",
-            f"Op welke zender is {M}? Aftraptijd en livestream",
-            f"{M} live kijken op {paid_tv}: aftraptijd en livestream",
+            f"{M} gratis kijken? Zender, aftraptijd en livestream",
+            f"Kun je {M} gratis kijken? Zender, aftraptijd en livestream",
+            f"Is {M} gratis te zien? Zender, aftraptijd en livestream",
+            f"{M} gratis op tv kijken? Zender, aftrap en livestream",
+            f"{M} gratis kijken ({datum})? Zender, aftraptijd en livestream",
+            f"Waar kijk je {M} (gratis)? Zender, aftraptijd en livestream",
+            f"{M} live en gratis kijken? Zender, aftraptijd en {paid_tv}",
         ])
     if free_tv:   # vrij te ontvangen tv (NPO)
         return random.choice([

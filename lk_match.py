@@ -138,7 +138,7 @@ def build_fielddata(ctx, league_cfg, slug=None):
                                         paid_tv=ctx["tv"] if ctx["tv_paid_only"] else None)
     if not slug:
         hs = ctx["hSlug"] or B.slugify(ctx["homeN"]); as_ = ctx["aSlug"] or B.slugify(ctx["awayN"])
-        slug = B.build_slug(hs, as_, dt, gratis=not ctx["tv_paid_only"])
+        slug = B.build_slug(hs, as_, dt, gratis=True)   # 'gratis' altijd in de slug (wens gebruiker)
     fd = {
         "name": title, "slug": slug,
         "content": content, "content-2": content2, "content-3": content3,
