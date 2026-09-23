@@ -99,6 +99,8 @@ def build_fielddata(ctx, league_cfg, slug=None):
     random.seed(str(ctx["fid"]))   # deterministische titelvariatie per wedstrijd
     ctx = dict(ctx)
     ctx["compSlug"] = league_cfg["comp_slug"]; ctx["compN"] = league_cfg["naam"]
+    ctx["comp_lidwoord"] = league_cfg.get("lidwoord", "de")
+    if league_cfg.get("geen_ronde"): ctx["ronde_txt"] = None
     ctx["angle"] = league_cfg.get("angle", "")
     # Zender bepalen. Voorrang: 1) handmatig (data/tv_wedstrijden.json), 2) waaroptv.nl
     # (exacte zender, bv. 'Ziggo Sport 2'), 3) de standaard uit de competitie-config.

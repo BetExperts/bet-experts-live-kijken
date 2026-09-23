@@ -347,7 +347,7 @@ def build_content(ctx):
         slot = f"Goed nieuws: je kijkt {esc(homeN)} – {esc(awayN)} gewoon gratis op {esc(ctx.get('tv'))}."
     else:
         slot = f"Goed nieuws: je kijkt {esc(homeN)} – {esc(awayN)} volledig gratis via {esc(prov['naam'])}."
-    c1.append(f"<p><strong>{hLink} treft {aLink} op {datum} om {kickoff} uur in de "
+    c1.append(f"<p><strong>{hLink} treft {aLink} op {datum} om {kickoff} uur in {ctx.get('comp_lidwoord', 'de')} "
               f"{compLink}. {angle} {slot}</strong></p>")
     vb_url = ctx.get("vb_url")
     if vb_url:
@@ -366,7 +366,7 @@ def build_content(ctx):
     c2 = []
     c2.append("<h3>📅 Wedstrijdinformatie</h3>")
     info = (f"<strong>Wedstrijd:</strong> {esc(homeN)} – {esc(awayN)}<br>"
-            f"<strong>Competitie:</strong> {esc(compN)} – {esc(ronde_txt)}<br>"
+            f"<strong>Competitie:</strong> {esc(compN[:1].upper() + compN[1:])}{' – ' + esc(ctx['ronde_txt']) if ctx.get('ronde_txt') else ''}<br>"
             f"<strong>Datum:</strong> {datum}<br>"
             f"<strong>Aftrap:</strong> {kickoff} uur (Nederlandse tijd)<br>"
             f"<strong>Stadion:</strong> {esc(venue or city or 'n.n.b.')}")

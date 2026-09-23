@@ -41,6 +41,7 @@ def main():
     ap.add_argument("--preview", action="store_true"); ap.add_argument("--limit", type=int)
     ap.add_argument("--update", action="store_true", help="bestaande artikelen van die datum herschrijven i.p.v. overslaan")
     ap.add_argument("--league", help="alleen deze worker_slug verwerken (bv. afrika-cup-kwalificatie)")
+    ap.add_argument("--fixture", help="alleen deze fixture-id(s), komma-gescheiden")
     a = ap.parse_args()
     ymd = target_date(a.date)
     live = not (a.dry or a.preview)
@@ -60,10 +61,13 @@ def main():
     n = len(gids.load())
     print(f"   tv-gids (waaroptv.nl): {n} wedstrijden" + (f"  — NIET beschikbaar ({gids.error}), val terug op config" if gids.error else ""))
     made = 0
-    for cfg in [c for c in LEAGUES if (not a.league or c["worker_slug"] == a.league)]:
+    only = set((a.fixture or "").replace(" ", "").split(",")) - {""}
+    for cfg in [c for c in LEAGUES if (c["worker_slug"] == a.league if a.league else not c.get("manual_only"))]:
         resp = api.fixtures(cfg["worker_slug"])
         ups = (resp.get("upcoming") or [])
         day = [fx for fx in ups if match_on_date(fx, ymd)]
+        if only:
+            day = [fx for fx in day if str(fx.get("fixture", {}).get("id")) in only]
         if cfg.get("toppers_only"):
             before = len(day)
             day = [fx for fx in day if is_topper(fx, cfg)]

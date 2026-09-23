@@ -150,6 +150,13 @@ LEAGUES = [
      "force_provider": "bet365", "toppers_only": True, "top_teams": ["morocco"],
      "angle": ("Veel Marokkaanse voetbalfans in Nederland willen de Leeuwen van de Atlas live volgen, "
                "maar de kwalificatie voor de Afrika Cup is hier niet op de reguliere tv te zien.")},
+    # Oefeninterlands: alleen op verzoek (manual_only -> niet in de nachtelijke run),
+    # via --league friendlies --fixture <id>. Aanbieder volgt waaroptv.nl (bv. 711).
+    {"worker_slug": "friendlies", "comp_slug": "int-vriendschappelijke-wedstrijden",
+     "naam": "oefeninterland", "comp_id": "65f9b20c402bb844e2ad0bf4", "tv": None,
+     "force_provider": "711", "manual_only": True, "lidwoord": "een", "geen_ronde": True,
+     "angle": ("Deze oefeninterland is in Nederland niet op de reguliere tv te zien, "
+               "maar je kunt hem wel gratis live streamen.")},
 ]
 
 # --- Tv-zender per wedstrijd (data/tv_wedstrijden.json, sleutel = fixture-id) ---
