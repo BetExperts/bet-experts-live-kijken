@@ -10,7 +10,7 @@ try:
 except Exception:
     TZ = None
 
-from lk_config import HUB_PATH
+from lk_config import HUB_PATH, nl_name
 
 DAGEN = ["maandag","dinsdag","woensdag","donderdag","vrijdag","zaterdag","zondag"]
 MAAND = ["januari","februari","maart","april","mei","juni","juli","augustus",
@@ -57,7 +57,11 @@ def build_title(homeN, awayN, dt):
     ]
     return random.choice(templates)
 
-def build_samenvatting(homeN, awayN, comp, dt, prov_naam):
+def build_samenvatting(homeN, awayN, comp, dt, prov_naam, free_tv=None):
+    if free_tv:   # gratis tv (bv. NPO): geen stream-belofte via een aanbieder
+        s = (f"{homeN} – {awayN} live kijken? Het {comp}-duel van {nl_datum(dt)} om {nl_tijd(dt)} uur "
+             f"is gratis te zien op {free_tv}. Alle info over zender, aftrap en de online livestream.")
+        return s[:250]
     s = (f"{homeN} – {awayN} live gratis kijken? Zo stream je het {comp}-duel van "
          f"{nl_datum(dt)} om {nl_tijd(dt)} uur volledig gratis in HD op tv via {prov_naam}. "
          f"Stap voor stap uitgelegd.")
@@ -132,8 +136,13 @@ def team_focus(team, row, form, results, compN="de competitie"):
         g = alld.get("goals", {}) or {}
         rank = row.get("rank"); pnt = row.get("points")
         pl = alld.get("played"); gf = g.get("for"); ga = g.get("against")
-        parts.append(f"Met {pnt} punten uit {pl} wedstrijden staat <strong>{esc(team)}</strong> "
-                     f"op dit moment {_ordinal(rank)} in de {esc(compN)} (doelsaldo {gf}-{ga}).")
+        if pl:   # bij 0 gespeelde duels zegt de stand nog niets (bv. speelronde 1)
+            waar = f"de {esc(compN)}"
+            grp = re.search(r"League\s+([A-D]),\s*Group\s+(\d+)", row.get("group") or "")
+            if grp:   # groepscompetitie (Nations League)
+                waar = f"groep {grp.group(2)} van League {grp.group(1)}"
+            parts.append(f"Met {pnt} punten uit {pl} wedstrijden staat <strong>{esc(team)}</strong> "
+                         f"op dit moment {_ordinal(rank)} in {waar} (doelsaldo {gf}-{ga}).")
     parts.append(_form_verhaal(team, form, results, compN))
     return "<p>" + " ".join(parts) + "</p>"
 
@@ -145,7 +154,8 @@ def _h2h_line(m):
         y,mo,d = dt.split("-"); dts=f"{int(d)} {MAAND[int(mo)-1]} {y}"
     except Exception:
         dts=dt
-    return f"{dts}: {t.get('home',{}).get('name')} {g.get('home')}-{g.get('away')} {t.get('away',{}).get('name')}"
+    return (f"{dts}: {nl_name(t.get('home',{}).get('name'))} {g.get('home')}-{g.get('away')} "
+            f"{nl_name(t.get('away',{}).get('name'))}")
 
 # ---------- het gratis-kijken-blok (provider-afhankelijk) ----------
 def _kijk_blok(prov, homeN, awayN, comp, tv=None):
@@ -181,6 +191,46 @@ def _kijk_blok(prov, homeN, awayN, comp, tv=None):
     out.append(f'<p>👉 <a href="{link}"><strong>Maak een gratis {esc(naam)}-account aan en kijk '
                f'{esc(homeN)} – {esc(awayN)} live</strong></a></p>')
     return "\n".join(out)
+
+# ---------- variant voor gratis tv (bv. Oranje op NPO) ----------
+# Hier beloven we GEEN bookmaker-stream (rechten liggen bij de NOS); de aanbieder
+# wordt alleen genoemd voor live meewedden tijdens de wedstrijd.
+def _kijk_blok_gratis(prov, homeN, awayN, tv, dt, extra=None, voorbeschouwing=None):
+    M = f"{esc(homeN)} – {esc(awayN)}"
+    out = [f"<h3>Gratis live kijken op {esc(tv)}</h3>"]
+    out.append(f"<p>{M} is gewoon gratis live te zien op {esc(tv)}. Je hebt geen abonnement of account "
+               f"nodig: zet om {nl_tijd(dt)} uur de tv aan en je bent erbij."
+               + (f" Niet in de buurt van een tv? Dan kijk je live mee via {esc(extra)}, ook volledig gratis." if extra else "")
+               + "</p>")
+    out.append("<p><strong>Zo kijk je gratis mee:</strong></p>")
+    stappen = []
+    if voorbeschouwing:
+        stappen.append(f"<li>Schakel om {esc(voorbeschouwing)} uur in voor de voorbeschouwing op {esc(tv)}</li>")
+    stappen.append(f"<li>De aftrap is om {nl_tijd(dt)} uur, live op {esc(tv)}</li>")
+    if extra:
+        stappen.append(f"<li>Onderweg? Kijk via {esc(extra)} naar de gratis livestream</li>")
+    stappen.append("<li>Via NPO Start kun je de uitzending ook op je laptop of tablet volgen</li>")
+    out.append("<ol>" + "".join(stappen) + "</ol>")
+    out.append(f"<h3>Live meewedden op {M}</h3>")
+    out.append(f"<p>Wil je tijdens de wedstrijd live meewedden? Bij {esc(prov['naam'])} volg je de actuele "
+               f"live-odds van {M} en speel je in op het wedstrijdverloop.</p>")
+    out.append(f'<p>👉 <a href="{prov["link"]}"><strong>Open een account bij {esc(prov["naam"])} en wed live '
+               f'mee op {M}</strong></a></p>')
+    return "\n".join(out)
+
+def _faq_gratis(homeN, awayN, comp, dt, tv, extra=None):
+    q = [
+        (f"Hoe laat begint {homeN} – {awayN}?",
+         f"De aftrap is om {nl_tijd(dt)} uur Nederlandse tijd op {nl_datum(dt)}."),
+        (f"Op welke zender is {homeN} – {awayN} te zien?",
+         f"Het {comp}-duel is live en gratis te zien op {tv}."
+         + (f" Je kunt ook meekijken via {extra}." if extra else "")),
+        (f"Is {homeN} – {awayN} gratis te kijken?",
+         f"Ja, {tv} is vrij te ontvangen. Je hebt geen abonnement nodig."),
+        ("Kan ik de wedstrijd ook online kijken?",
+         "Ja, via NPO Start" + (f" en {extra}" if extra else "") + " kijk je gratis live mee op je telefoon, tablet of laptop."),
+    ]
+    return "\n".join(f"<p><strong>{esc(a)}</strong><br>{esc(b)}</p>" for a, b in q)
 
 # ---------- FAQ ----------
 def _faq(homeN, awayN, comp, dt, prov, tv=None):
@@ -229,14 +279,21 @@ def build_content(ctx):
     c1 = []
     c1.append(f'<p><a href="{HUB_PATH}">‹ Alle wedstrijden die je gratis live kunt kijken</a></p>')
     angle = ctx.get("angle") or f"De {esc(compN)} is in Nederland niet op de reguliere tv te zien."
+    free = ctx.get("tv_free")
+    slot = (f"Goed nieuws: je kijkt {esc(homeN)} – {esc(awayN)} gewoon gratis op {esc(ctx.get('tv'))}."
+            if free else
+            f"Goed nieuws: je kijkt {esc(homeN)} – {esc(awayN)} volledig gratis via {esc(prov['naam'])}.")
     c1.append(f"<p><strong>{hLink} treft {aLink} op {datum} om {kickoff} uur in de "
-              f"{compLink}. {angle} Goed nieuws: je kijkt "
-              f"{esc(homeN)} – {esc(awayN)} volledig gratis via {esc(prov['naam'])}.</strong></p>")
+              f"{compLink}. {angle} {slot}</strong></p>")
     vb_url = ctx.get("vb_url")
     if vb_url:
         c1.append(f'<p>📋 <strong>Lees ook:</strong> onze <a href="{vb_url}">uitgebreide voorbeschouwing van '
                   f'{esc(homeN)} – {esc(awayN)}</a> met voorspelling, odds en de vermoedelijke opstellingen.</p>')
-    c1.append(_kijk_blok(prov, homeN, awayN, compN, ctx.get("tv")))
+    if free:
+        c1.append(_kijk_blok_gratis(prov, homeN, awayN, ctx.get("tv"), dt,
+                                    ctx.get("tv_extra"), ctx.get("tv_voorbeschouwing")))
+    else:
+        c1.append(_kijk_blok(prov, homeN, awayN, compN, ctx.get("tv")))
     content = "\n".join(c1)
 
     # ---- CONTENT-2 (deel 2/3): wedstrijdinfo + over beide clubs ----
@@ -269,9 +326,14 @@ def build_content(ctx):
         c3.append(f'<p>👉 Meer analyse? Bekijk de <a href="{vb_url}">voorbeschouwing van '
                   f'{esc(homeN)} – {esc(awayN)}</a> met onze voorspelling en de opstellingen.</p>')
     c3.append("<h3>❓ Veelgestelde vragen</h3>")
-    c3.append(_faq(homeN, awayN, compN, dt, prov, ctx.get("tv")))
-    c3.append(f'<p>👉 <a href="{prov["link"]}"><strong>Kijk {esc(homeN)} – {esc(awayN)} gratis live via '
-              f'{esc(prov["naam"])}</strong></a></p>')
+    if free:
+        c3.append(_faq_gratis(homeN, awayN, compN, dt, ctx.get("tv"), ctx.get("tv_extra")))
+        c3.append(f'<p>👉 <a href="{prov["link"]}"><strong>Wed live mee op {esc(homeN)} – {esc(awayN)} bij '
+                  f'{esc(prov["naam"])}</strong></a></p>')
+    else:
+        c3.append(_faq(homeN, awayN, compN, dt, prov, ctx.get("tv")))
+        c3.append(f'<p>👉 <a href="{prov["link"]}"><strong>Kijk {esc(homeN)} – {esc(awayN)} gratis live via '
+                  f'{esc(prov["naam"])}</strong></a></p>')
     c3.append(f'<p>📺 <a href="{HUB_PATH}"><strong>Bekijk alle wedstrijden die je gratis live kunt kijken</strong></a></p>')
     c3.append(DISCLAIMER)
     content3 = "\n".join(c3)

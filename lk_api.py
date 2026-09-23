@@ -34,11 +34,15 @@ def standings(worker_slug):
     r = r[0] if isinstance(r, list) and r else r
     lg = (r.get("league", {}) if isinstance(r, dict) else {}) or {}
     tbl = lg.get("standings") or []
-    rows = tbl[0] if tbl and isinstance(tbl[0], list) else tbl
+    # meerdere groepen (bv. Nations League: 14 groepen) -> alle groepen samenvoegen
+    if tbl and isinstance(tbl[0], list):
+        rows = [row for grp in tbl for row in (grp or [])]
+    else:
+        rows = tbl
     out = {}
     for row in (rows or []):
         tid = str(((row.get("team") or {}).get("id")))
-        out[tid] = row
+        out.setdefault(tid, row)   # eerste tabel wint (zoals voorheen bij één tabel)
     return out
 
 def team_form(team_id):

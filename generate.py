@@ -9,7 +9,7 @@ from datetime import datetime, timedelta
 import lk_api as api
 import lk_match as M
 import lk_build as B
-from lk_config import LEAGUES, BASE, WEBFLOW_TOKEN, is_topper
+from lk_config import LEAGUES, BASE, WEBFLOW_TOKEN, is_topper, tv_match
 import lk_webflow as WF
 
 def target_date(arg):
@@ -63,8 +63,15 @@ def main():
             before = len(day)
             day = [fx for fx in day if is_topper(fx, cfg)]
             print(f"\n{cfg['naam']}: {len(day)} topper(s) op {ymd} (van {before} wedstrijden)")
+        elif cfg.get("tv_per_match"):
+            before = len(day)
+            day = [fx for fx in day if tv_match(fx.get("fixture", {}).get("id")) is not None]
+            print(f"\n{cfg['naam']}: {len(day)} wedstrijd(en) met tv-info op {ymd} (van {before}; "
+                  f"alleen wedstrijden uit data/tv_wedstrijden.json)")
         else:
             print(f"\n{cfg['naam']}: {len(day)} wedstrijd(en) op {ymd}")
+        if not day:
+            continue
         stand = api.standings(cfg["worker_slug"])
         for fx in day:
             fid = str(fx.get("fixture", {}).get("id"))

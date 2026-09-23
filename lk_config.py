@@ -136,7 +136,34 @@ LEAGUES = [
                    "tottenham", "newcastle", "aston villa", "west ham"],
      "angle": ("De EFL Cup (Carabao Cup) wordt in Nederland uitgezonden door Viaplay, waarvoor je een "
                "abonnement nodig hebt. Zonder abonnement volg je dit Engelse bekerduel gewoon gratis.")},
+    # Nations League: de zender verschilt per wedstrijd (NPO voor Oranje, soms Ziggo Sport, vaak
+    # niet op tv) -> tv_per_match: zender komt uit data/tv_wedstrijden.json en ALLEEN wedstrijden
+    # die daarin staan krijgen een artikel (geen gok over de uitzending).
+    {"worker_slug": "nations-league", "comp_slug": "uefa-nations-league", "naam": "Nations League",
+     "comp_id": "66d5a7f7fb9f23ce90376ef4", "tv_per_match": True, "force_provider": "bet365"},
 ]
+
+# --- Tv-zender per wedstrijd (data/tv_wedstrijden.json, sleutel = fixture-id) ---
+def _tv_match_map():
+    try:
+        raw = json.load(open(os.path.join(DATA, "tv_wedstrijden.json"), encoding="utf-8"))
+    except Exception:
+        return {}
+    return {k: v for k, v in raw.items() if not k.startswith("_") and isinstance(v, dict)}
+TV_MATCH = _tv_match_map()
+
+def tv_match(fixture_id):
+    """Tv-info voor één wedstrijd ({'tv','gratis','extra','voorbeschouwing'}) of None als onbekend."""
+    return TV_MATCH.get(str(fixture_id))
+
+def angle_for_match(info, comp):
+    """Introzin voor een competitie met tv per wedstrijd."""
+    tv = (info or {}).get("tv")
+    if not tv:
+        return (f"Dit {comp}-duel wordt in Nederland niet door een reguliere tv-zender uitgezonden.")
+    if (info or {}).get("gratis"):
+        return "Voor deze wedstrijd heb je geen abonnement of betaalde dienst nodig."
+    return f"Het duel is in Nederland te zien op {tv}, maar daarvoor heb je een betaald abonnement nodig."
 
 # --- Data-mappings (hergebruikt uit opstellingen-agent) ---
 def _load(fn):
@@ -147,6 +174,11 @@ def _load(fn):
 
 TID_SLUG  = _load("tid_slug.json")               # API team-id -> website club-slug
 CLUB_NAME = _load("club_name_slug_filled.json")  # clubnaam -> slug (gevulde clubs)
+LANDEN_NL = _load("landen_nl.json")              # Engelse API-landnaam -> Nederlandse naam
+
+def nl_name(name):
+    """Vertaal een landenteam-naam naar het Nederlands (clubs blijven ongemoeid)."""
+    return LANDEN_NL.get(name, name)
 
 def club_slug(team_id, name=None):
     s = TID_SLUG.get(str(team_id))

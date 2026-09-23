@@ -1,0 +1,57 @@
+{
+ "_uitleg": "Tv-zender per wedstrijd (sleutel = fixture-id uit de API). Alleen wedstrijden in deze lijst krijgen een live-kijken-artikel bij competities met tv_per_match. tv=null -> niet op NL-tv. gratis=true -> vrij te ontvangen (NPO): tekst zegt 'gratis op {tv}' i.p.v. 'betaald abonnement'.",
+ "1545601": {
+  "wedstrijd": "Andorra - Malta",
+  "tv": "Ziggo Sport 1 en Ziggo Sport 2"
+ },
+ "1528864": {
+  "wedstrijd": "Portugal - Wales",
+  "tv": "Ziggo Sport 1"
+ },
+ "1528865": {
+  "wedstrijd": "Noorwegen - Denemarken",
+  "tv": null
+ },
+ "1528863": {
+  "wedstrijd": "Servië - Griekenland",
+  "tv": null
+ },
+ "1528862": {
+  "wedstrijd": "Nederland - Duitsland",
+  "tv": "NPO 3",
+  "gratis": true,
+  "voorbeschouwing": "20:05",
+  "extra": "de NOS-app of NOS.nl"
+ },
+ "1528879": {
+  "wedstrijd": "Kosovo - Ierland",
+  "tv": null
+ },
+ "1528878": {
+  "wedstrijd": "Oostenrijk - Israël",
+  "tv": null
+ },
+ "1528880": {
+  "wedstrijd": "Liechtenstein - Litouwen",
+  "tv": null
+ },
+ "1528896": {
+  "wedstrijd": "Servië - Nederland",
+  "tv": "NPO 1",
+  "gratis": true,
+  "voorbeschouwing": "17:20",
+  "extra": "de NOS-app of NOS.nl"
+ },
+ "1528918": {
+  "wedstrijd": "Griekenland - Nederland",
+  "tv": "NPO 3",
+  "gratis": true,
+  "extra": "de NOS-app of NOS.nl"
+ },
+ "1528940": {
+  "wedstrijd": "Nederland - Servië",
+  "tv": "NPO 1",
+  "gratis": true,
+  "extra": "de NOS-app of NOS.nl"
+ }
+}

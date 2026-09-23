@@ -4,7 +4,7 @@ import re
 from datetime import datetime, timezone
 import lk_api as api
 import lk_build as B
-from lk_config import club_slug, provider_for, RUBRIEK_ID, tv_for
+from lk_config import club_slug, provider_for, RUBRIEK_ID, tv_for, nl_name, tv_match, angle_for_match
 
 _ROUND_NL = {
     "round of 64": "1/32 finale", "round of 32": "1/16 finale", "round of 16": "achtste finale",
@@ -16,6 +16,9 @@ def _ronde_label(round_raw, ronde_num):
     low = (round_raw or "").strip().lower()
     if "regular season" in low or "matchday" in low:
         return f"Speelronde {ronde_num}" if ronde_num != "?" else "Speelronde"
+    lg = re.match(r"league\s+([a-d])\s*-\s*(\d+)", low)          # Nations League: 'League A - 1'
+    if lg:
+        return f"League {lg.group(1).upper()}, speelronde {lg.group(2)}"
     for k, v in _ROUND_NL.items():
         if k in low:
             return v[0].upper() + v[1:]
@@ -51,7 +54,7 @@ def recent_results(team_id, n=5):
             continue
         home = str((t.get("home") or {}).get("id")) == str(team_id)
         my, og = (gh, ga) if home else (ga, gh)
-        opp = ((t.get("away") if home else t.get("home")) or {}).get("name")
+        opp = nl_name(((t.get("away") if home else t.get("home")) or {}).get("name"))
         outcome = "W" if my > og else ("L" if my < og else "D")
         out.append({"opp": opp, "my": my, "og": og, "home": home,
                     "outcome": outcome, "date": (f.get("fixture", {}).get("date", "") or "")[:10]})
@@ -62,11 +65,11 @@ def gather(fx, standings=None, force_provider=None):
     fid = fixture.get("id")
     home = teams.get("home", {}); away = teams.get("away", {})
     homeId, awayId = home.get("id"), away.get("id")
-    homeN, awayN = home.get("name"), away.get("name")
+    homeN, awayN = nl_name(home.get("name")), nl_name(away.get("name"))   # landen -> Nederlands
     dt = B._local(fixture.get("date"))
     ven = fixture.get("venue", {}) or {}
     round_raw = league.get("round", "") or ""
-    m = re.search(r"(\d+)", round_raw)
+    m = re.search(r"(\d+)\s*$", round_raw) or re.search(r"(\d+)", round_raw)
     ronde = m.group(1) if m else "?"
     ronde_txt = _ronde_label(round_raw, ronde)
 
@@ -93,12 +96,22 @@ def build_fielddata(ctx, league_cfg, slug=None):
     ctx = dict(ctx)
     ctx["compSlug"] = league_cfg["comp_slug"]; ctx["compN"] = league_cfg["naam"]
     ctx["angle"] = league_cfg.get("angle", "")
-    # expliciete tv in de league-config wint; anders afleiden uit de zender-lijst
-    ctx["tv"] = league_cfg["tv"] if "tv" in league_cfg else tv_for(league_cfg["naam"])
+    if league_cfg.get("tv_per_match"):
+        # zender per wedstrijd (bv. Nations League: NPO / Ziggo Sport / niet op tv)
+        info = tv_match(ctx["fid"]) or {}
+        ctx["tv"] = info.get("tv")
+        ctx["tv_free"] = bool(info.get("gratis")) and bool(info.get("tv"))
+        ctx["tv_extra"] = info.get("extra")
+        ctx["tv_voorbeschouwing"] = info.get("voorbeschouwing")
+        ctx["angle"] = angle_for_match(info, league_cfg["naam"])
+    else:
+        # expliciete tv in de league-config wint; anders afleiden uit de zender-lijst
+        ctx["tv"] = league_cfg["tv"] if "tv" in league_cfg else tv_for(league_cfg["naam"])
     dt = ctx["dt"]
     content, content2, content3 = B.build_content(ctx)
     title = B.build_title(ctx["homeN"], ctx["awayN"], dt)
-    samenvatting = B.build_samenvatting(ctx["homeN"], ctx["awayN"], league_cfg["naam"], dt, ctx["prov"]["naam"])
+    samenvatting = B.build_samenvatting(ctx["homeN"], ctx["awayN"], league_cfg["naam"], dt,
+                                        ctx["prov"]["naam"], free_tv=ctx["tv"] if ctx.get("tv_free") else None)
     if not slug:
         hs = ctx["hSlug"] or B.slugify(ctx["homeN"]); as_ = ctx["aSlug"] or B.slugify(ctx["awayN"])
         slug = B.build_slug(hs, as_, dt)
