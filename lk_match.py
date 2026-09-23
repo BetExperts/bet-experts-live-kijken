@@ -5,6 +5,7 @@ from datetime import datetime, timezone
 import lk_api as api
 import lk_build as B
 from lk_config import club_slug, provider_for, RUBRIEK_ID, tv_for, nl_name, tv_match, angle_for_match
+from tvgids import tv_label
 
 _ROUND_NL = {
     "round of 64": "1/32 finale", "round of 32": "1/16 finale", "round of 16": "achtste finale",
@@ -99,24 +100,39 @@ def build_fielddata(ctx, league_cfg, slug=None):
     ctx = dict(ctx)
     ctx["compSlug"] = league_cfg["comp_slug"]; ctx["compN"] = league_cfg["naam"]
     ctx["angle"] = league_cfg.get("angle", "")
+    # Zender bepalen. Voorrang: 1) handmatig (data/tv_wedstrijden.json), 2) waaroptv.nl
+    # (exacte zender, bv. 'Ziggo Sport 2'), 3) de standaard uit de competitie-config.
     if league_cfg.get("tv_per_match"):
-        # zender per wedstrijd (bv. Nations League: NPO voor Oranje), anders de standaardzender
-        info = tv_match(ctx["fid"]) or league_cfg.get("tv_default") or {}
-        ctx["tv"] = info.get("tv")
-        ctx["tv_free"] = bool(info.get("gratis")) and bool(info.get("tv"))
-        ctx["tv_extra"] = info.get("extra")
-        ctx["tv_voorbeschouwing"] = info.get("voorbeschouwing")
-        ctx["angle"] = angle_for_match(info, league_cfg["naam"])
+        default = league_cfg.get("tv_default") or {}
     else:
-        # expliciete tv in de league-config wint; anders afleiden uit de zender-lijst
-        ctx["tv"] = league_cfg["tv"] if "tv" in league_cfg else tv_for(league_cfg["naam"])
+        default = {"tv": league_cfg["tv"] if "tv" in league_cfg else tv_for(league_cfg["naam"])}
+    card = ctx.get("tvgids")
+    gids = None
+    if card:
+        tvl = tv_label(card)
+        npo = bool(tvl) and all(z.upper().startswith("NPO") for z in card["tv"])
+        # 'gratis' op waaroptv betekent ook 'in het basispakket' (bv. ESPN 1); onze gratis-
+        # tekst gaat over vrij te ontvangen tv, dus alleen overnemen bij NPO.
+        gids = {"tv": tvl, "gratis": bool(card.get("gratis")) and npo,
+                "extra": "de NOS-app of NOS.nl" if npo else None}
+    info = tv_match(ctx["fid"]) or gids or default
+    ctx["tv"] = info.get("tv")
+    ctx["tv_free"] = bool(info.get("gratis")) and bool(info.get("tv"))
+    ctx["tv_extra"] = info.get("extra")
+    ctx["tv_voorbeschouwing"] = info.get("voorbeschouwing")
+    ctx["tv_bron"] = "handmatig" if tv_match(ctx["fid"]) else ("waaroptv" if gids else "config")
+    # eigen intro-invalshoek alleen vervangen als het tv-beeld wezenlijk anders is dan de config
+    if (league_cfg.get("tv_per_match") or ctx["tv_free"]
+            or bool(ctx["tv"]) != bool(default.get("tv")) or not ctx["angle"]):
+        ctx["angle"] = angle_for_match(info, league_cfg["naam"])
     # Geen bookmaker-stream voor deze competitie + betaalde zender -> 'betaald'-variant
     # (geen 'gratis' in titel/slug/tekst; aanbieder alleen voor live meewedden).
     ctx["tv_paid_only"] = (league_cfg.get("bookmaker_stream", True) is False
                            and bool(ctx.get("tv")) and not ctx.get("tv_free"))
     dt = ctx["dt"]
     content, content2, content3 = B.build_content(ctx)
-    title = B.build_title(ctx["homeN"], ctx["awayN"], dt, paid_tv=ctx["tv"] if ctx["tv_paid_only"] else None)
+    title = B.build_title(ctx["homeN"], ctx["awayN"], dt, paid_tv=ctx["tv"] if ctx["tv_paid_only"] else None,
+                          free_tv=ctx["tv"] if ctx.get("tv_free") else None)
     samenvatting = B.build_samenvatting(ctx["homeN"], ctx["awayN"], league_cfg["naam"], dt,
                                         ctx["prov"]["naam"], free_tv=ctx["tv"] if ctx.get("tv_free") else None,
                                         paid_tv=ctx["tv"] if ctx["tv_paid_only"] else None)

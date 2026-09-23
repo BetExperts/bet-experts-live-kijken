@@ -37,35 +37,41 @@ def build_slug(home_slug, away_slug, dt, gratis=True):
     return f"{home_slug}-{away_slug}-{soort}-{dt.day:02d}-{dt.month:02d}-{dt.year}"
 
 # ---------- titel (gevarieerd, deterministisch per fixture) ----------
-def build_title(homeN, awayN, dt, paid_tv=None):
+def build_title(homeN, awayN, dt, paid_tv=None, free_tv=None):
+    """Vaste opbouw '{M} …: zender, aftraptijd en (gratis) livestream', steeds net iets anders
+    (deterministisch per wedstrijd). 'gratis' alleen waar het klopt."""
     M = f"{homeN} – {awayN}"
-    datum = nl_datum_kort(dt); tijd = nl_tijd(dt)
-    if paid_tv:   # alleen via betaalde tv: geen 'gratis' beloven
+    datum = nl_datum_kort(dt)
+    if paid_tv:   # alleen via betaalde tv, geen bookmaker-stream: geen 'gratis' beloven
         return random.choice([
-            f"Waar kun je {M} live kijken? Zender en aanvangstijd",
-            f"{M} live kijken op tv: op deze zender zie je het duel",
-            f"Op welke zender is {M}? Zo kijk je live mee",
-            f"{M} live op tv ({datum}): zender, tijd en livestream",
-            f"Zo kijk je {M} live: zender en tijden op een rij",
-            f"{M} live kijken om {tijd} uur: dit is de zender",
+            f"{M} op tv kijken: zender, aftraptijd en livestream",
+            f"{M} live op tv: zender, aftraptijd en livestream",
+            f"Waar kijk je {M}? Zender, aftraptijd en livestream",
+            f"{M} live kijken: zender, aftrap en livestream",
+            f"{M} op tv ({datum}): zender, aftraptijd en livestream",
+            f"Op welke zender is {M}? Aftraptijd en livestream",
+            f"{M} live kijken op {paid_tv}: aftraptijd en livestream",
         ])
-    templates = [
-        f"Zo kijk je {M} live gratis op tv",
-        f"Dit is hoe je {M} gratis kunt kijken op tv",
-        f"{M} live gratis kijken: zo doe je dat",
-        f"Zo stream je {M} gratis in HD op je tv",
-        f"{M} gratis kijken op tv ({datum})",
-        f"Live en gratis: zo zie je {M} op tv",
-        f"Hoe kijk je {M} gratis? Zo stream je het duel live",
-        f"{M} live volgen: gratis kijken op tv, zo werkt het",
-        f"Zo kun je {M} gratis livestreamen op tv om {tijd} uur",
-        f"{M} gratis en live kijken op tv — zo regel je het",
-        # varianten met 'in Nederland' (verschijnen af en toe)
-        f"Zo kijk je {M} gratis in Nederland op tv",
-        f"{M} live gratis te kijken in Nederland — zo werkt het",
-        f"Gratis {M} kijken in Nederland: zo stream je het live op tv",
-    ]
-    return random.choice(templates)
+    if free_tv:   # vrij te ontvangen tv (NPO)
+        return random.choice([
+            f"{M} gratis op tv kijken: zender, aftraptijd en gratis livestream",
+            f"{M} gratis op {free_tv}: zender, aftraptijd en livestream",
+            f"Waar kijk je {M} gratis? Zender, aftraptijd en livestream",
+            f"{M} live en gratis op tv: zender, aftrap en gratis livestream",
+            f"{M} gratis kijken ({datum}): zender, aftraptijd en livestream",
+            f"Zo kijk je {M} gratis op tv: zender, aftraptijd en livestream",
+        ])
+    return random.choice([   # gratis livestream via een bookmaker
+        f"{M} gratis op tv kijken: zender, aftraptijd en gratis livestream",
+        f"{M} gratis kijken: zender, aftraptijd en gratis livestream",
+        f"{M} live en gratis kijken: zender, aftrap en livestream",
+        f"Zo kijk je {M} gratis: zender, aftraptijd en gratis livestream",
+        f"{M} gratis live kijken: zender, aftraptijd en gratis stream",
+        f"{M} gratis op tv: zender, aftrap en gratis livestream",
+        f"{M} live gratis kijken ({datum}): zender, aftraptijd en livestream",
+        f"{M} gratis kijken in Nederland: zender, aftraptijd en livestream",
+        f"Waar kijk je {M} gratis? Zender, aftraptijd en gratis livestream",
+    ])
 
 def build_samenvatting(homeN, awayN, comp, dt, prov_naam, free_tv=None, paid_tv=None):
     if paid_tv:   # alleen via betaalde tv

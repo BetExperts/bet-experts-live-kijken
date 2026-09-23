@@ -10,6 +10,7 @@ import lk_api as api
 import lk_match as M
 import lk_build as B
 from lk_config import LEAGUES, BASE, WEBFLOW_TOKEN, is_topper, tv_match
+from tvgids import TvGids
 import lk_webflow as WF
 
 def target_date(arg):
@@ -55,6 +56,9 @@ def main():
             print(f"   voorbeschouwing-index: {len([k for k in vb_idx if k.startswith('fid:')])} wedstrijden")
         except Exception as e:
             print(f"   (voorbeschouwing-index overgeslagen: {e})")
+    gids = TvGids()
+    n = len(gids.load())
+    print(f"   tv-gids (waaroptv.nl): {n} wedstrijden" + (f"  — NIET beschikbaar ({gids.error}), val terug op config" if gids.error else ""))
     made = 0
     for cfg in [c for c in LEAGUES if (not a.league or c["worker_slug"] == a.league)]:
         resp = api.fixtures(cfg["worker_slug"])
@@ -82,6 +86,13 @@ def main():
                 print(f"  · overslaan (bestaat al): {fid}"); continue
             ctx = M.gather(fx, standings=stand, force_provider=cfg.get("force_provider"))
             ctx["vb_url"] = WF.voorbeschouwing_url(vb_idx, ctx["fid"], ctx["homeId"], ctx["awayId"])
+            ctx["tvgids"] = gids.lookup(ctx["homeN"], ctx["awayN"], ctx["dt"])
+            c = ctx["tvgids"]
+            if c:
+                print(f"     ↳ waaroptv: {' / '.join(c['zenders']) or '-'}{' (gratis)' if c['gratis'] else ''}"
+                      + (f"  ⚠ stream daar bij {', '.join(c['bookmakers'])}, artikel noemt {ctx['prov']['naam']}"
+                         if c['bookmakers'] and ctx['prov']['naam'].lower() not in
+                            [b.lower().replace(' sport', '') for b in c['bookmakers']] else ""))
             keep_slug = state[fid]["slug"] if exists else None   # URL niet breken bij update
             fd, slug, title = M.build_fielddata(ctx, cfg, slug=keep_slug)
             if ctx["vb_url"]:
