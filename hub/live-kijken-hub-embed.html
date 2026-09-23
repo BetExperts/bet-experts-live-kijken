@@ -1,0 +1,261 @@
+<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@500;600;700&family=Plus+Jakarta+Sans:wght@400;500;600;700&display=swap" rel="stylesheet">
+
+<div id="lkh"></div>
+
+<style>
+#lkh,#lkh *{box-sizing:border-box}
+#lkh{font-family:'Plus Jakarta Sans',system-ui,sans-serif;color:#0F1621;width:100%;text-align:left}
+#lkh .lk-group{margin-bottom:24px}
+#lkh .lk-ghead{display:flex;align-items:center;gap:12px;margin-bottom:12px}
+#lkh .lk-gtitle{font-family:'Poppins',sans-serif;font-size:15px;font-weight:600;color:#0F1621;white-space:nowrap}
+#lkh .lk-gline{flex:1;height:1px;background:rgba(15,22,33,.10)}
+#lkh .lk-gcount{font-size:12px;color:#7A8792;white-space:nowrap}
+#lkh .lk-card{background:#fff;border:1px solid rgba(15,22,33,.10);border-radius:16px;overflow:hidden;box-shadow:0 1px 3px rgba(15,22,33,.05)}
+
+#lkh .lk-row{display:grid;grid-template-columns:54px 30px minmax(0,1fr) auto auto 18px;align-items:center;gap:14px;padding:15px 20px 15px 17px;text-decoration:none;border-left:3px solid transparent;border-bottom:1px solid rgba(15,22,33,.06);transition:background .15s}
+#lkh .lk-row:last-child{border-bottom:none}
+#lkh .lk-row:hover{background:#F9FBFA}
+#lkh .lk-row:focus-visible{outline:2px solid #169A47;outline-offset:-2px}
+#lkh .lk-row.live{border-left-color:#169A47}
+#lkh .lk-time{font-family:'Poppins',sans-serif;font-size:16px;font-weight:600;color:#0F1621;font-variant-numeric:tabular-nums}
+#lkh .lk-logos{display:flex;flex-direction:column;gap:3px;flex:none}
+#lkh .lk-logos img{width:24px;height:24px;object-fit:contain;display:block}
+#lkh .lk-main{min-width:0}
+#lkh .lk-title{display:block;font-family:'Poppins',sans-serif;font-size:16px;font-weight:600;color:#0F1621;line-height:1.3;overflow:hidden;text-overflow:ellipsis;white-space:nowrap}
+#lkh .lk-sub{display:block;font-size:13px;color:#8A97A0;margin-top:3px;overflow:hidden;text-overflow:ellipsis;white-space:nowrap}
+#lkh .lk-src{display:flex;align-items:center;gap:6px;flex-wrap:nowrap;min-width:0;overflow:hidden}
+#lkh .lk-badge{font-family:'Poppins',sans-serif;font-size:12.5px;font-weight:600;border-radius:999px;padding:5px 11px;white-space:nowrap}
+#lkh .lk-badge.tv{background:#F7FAF8;border:1px solid rgba(15,22,33,.12);color:#5C6873}
+#lkh .lk-badge.free{background:rgba(22,154,71,.09);border:1px solid rgba(22,154,71,.22);color:#12833D}
+#lkh .lk-badge.bk{background:rgba(22,154,71,.09);border:1px solid rgba(22,154,71,.22);color:#12833D}
+#lkh .lk-badge.more{background:#F7FAF8;border:1px solid rgba(15,22,33,.12);color:#7A8792}
+#lkh .lk-status{display:flex;align-items:center;gap:9px;justify-content:flex-end}
+#lkh .lk-dot{width:7px;height:7px;border-radius:999px;flex:none;background:rgba(15,22,33,.20)}
+#lkh .lk-pill{font-family:'Poppins',sans-serif;font-size:12px;font-weight:600;white-space:nowrap;border-radius:999px;padding:4px 11px;color:#7A8792;border:1px solid rgba(15,22,33,.14);background:#fff}
+#lkh .lk-row.st-live .lk-dot{background:#169A47}
+#lkh .lk-row.st-live .lk-pill{color:#12833D;background:rgba(22,154,71,.10);border-color:rgba(22,154,71,.30)}
+#lkh .lk-row.st-soon .lk-dot{background:#6CC08B}
+#lkh .lk-row.st-soon .lk-pill{color:#5C6873;background:rgba(15,22,33,.05);border-color:rgba(15,22,33,.14)}
+#lkh .lk-row.st-stream .lk-pill{color:#5C6873;background:rgba(15,22,33,.05);border-color:rgba(15,22,33,.14)}
+#lkh .lk-row.st-free .lk-dot{background:#6CC08B}
+#lkh .lk-row.st-free .lk-pill{color:#12833D;background:rgba(22,154,71,.08);border-color:rgba(22,154,71,.25)}
+#lkh .lk-chev{font-family:'Poppins',sans-serif;font-size:16px;color:#B6C0C8;text-align:center}
+
+#lkh .lk-more-wrap{display:flex;justify-content:center;margin-top:6px}
+#lkh .lk-more{font-family:'Poppins',sans-serif;font-size:14px;font-weight:600;color:#12833D;background:#fff;border:1px solid rgba(22,154,71,.35);border-radius:12px;padding:12px 22px;cursor:pointer;transition:background .15s,transform .15s}
+#lkh .lk-more:hover{background:#F6FBF7;transform:translateY(-1px)}
+#lkh .lk-empty{padding:34px 20px;text-align:center;color:#8A97A0;font-size:14px;background:#fff;border:1px solid rgba(15,22,33,.10);border-radius:16px}
+
+@media(max-width:700px){
+  #lkh .lk-row{grid-template-columns:46px minmax(0,1fr);grid-template-areas:"time main" "logo main" "logo src" "logo status";gap:2px 12px;padding:14px 16px;align-items:start}
+  #lkh .lk-time{grid-area:time}
+  #lkh .lk-logos{grid-area:logo;flex-direction:row;gap:4px;margin-top:8px}
+  #lkh .lk-logos img{width:18px;height:18px}
+  #lkh .lk-main{grid-area:main}
+  #lkh .lk-src{grid-area:src;margin-top:8px;flex-wrap:wrap}
+  #lkh .lk-status{grid-area:status;justify-content:flex-start;margin-top:9px}
+  #lkh .lk-chev{display:none}
+  #lkh .lk-title{white-space:normal;overflow:visible;text-overflow:clip}
+  #lkh .lk-sub{white-space:normal;overflow:visible;text-overflow:clip}
+}
+</style>
+
+<script>
+(function(){
+  var root=document.getElementById('lkh');if(!root)return;
+  var filter=document.getElementById('lk-filter');
+  var MAX=6, LIVE_MIN=120, ORANJE='1118';
+  var WD=['zondag','maandag','dinsdag','woensdag','donderdag','vrijdag','zaterdag'];
+  var MND=['januari','februari','maart','april','mei','juni','juli','augustus','september','oktober','november','december'];
+  var MON={january:0,february:1,march:2,april:3,may:4,june:5,july:6,august:7,september:8,october:9,november:10,december:11,
+           januari:0,februari:1,maart:2,mei:4,juni:5,juli:6,augustus:7,oktober:9};
+  function esc(s){return String(s==null?'':s).replace(/[&<>"]/g,function(c){return{'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;'}[c];});}
+  function ok(s){return !!(s&&s.indexOf('{{')===-1&&s.indexOf('wf:')===-1&&s.trim()!=='');}
+  function digits(s){return (s||'').replace(/[^0-9]/g,'');}
+
+  /* ---------- tijd: altijd Nederlandse tijd (ook voor bezoekers in het buitenland) ---------- */
+  var AMS=null;try{AMS=new Intl.DateTimeFormat('en-US',{timeZone:'Europe/Amsterdam',hour12:false,year:'numeric',month:'2-digit',day:'2-digit',hour:'2-digit',minute:'2-digit'});}catch(e){}
+  function amsOffset(ms){ /* minuten dat Amsterdam voor loopt op UTC */
+    if(!AMS)return -new Date(ms).getTimezoneOffset();
+    var p={};AMS.formatToParts(new Date(ms)).forEach(function(x){p[x.type]=x.value;});
+    return Math.round((Date.UTC(+p.year,+p.month-1,+p.day,(+p.hour)%24,+p.minute)-ms)/60000);
+  }
+  function amsToMs(y,m,d,h,mi){var g=Date.UTC(y,m,d,h,mi),o=amsOffset(g),ms=g-o*60000,o2=amsOffset(ms);return o2===o?ms:g-o2*60000;}
+  function amsParts(ms){var d=new Date(ms+amsOffset(ms)*60000);return {y:d.getUTCFullYear(),m:d.getUTCMonth(),d:d.getUTCDate(),h:d.getUTCHours(),mi:d.getUTCMinutes(),wd:d.getUTCDay()};}
+  function dayKey(ms){var p=amsParts(ms);return Date.UTC(p.y,p.m,p.d);}
+  function parseDatum(s){ /* 'September 24, 2026' of '24 september 2026' (Webflow-datumnotatie) */
+    var t=s.toLowerCase().replace(',',' ').split(/\s+/).filter(Boolean),y,m,d;
+    if(t.length>=3&&MON[t[0]]!=null){m=MON[t[0]];d=+t[1];y=+t[2];}
+    else if(t.length>=3&&MON[t[1]]!=null){d=+t[0];m=MON[t[1]];y=+t[2];}
+    else{var x=new Date(s);if(isNaN(x.getTime()))return null;y=x.getFullYear();m=x.getMonth();d=x.getDate();}
+    return (y&&d>=1&&d<=31)?{y:y,m:m,d:d}:null;
+  }
+
+  /* ---------- waar is een competitie te zien (fallback als het artikel zelf geen zender meegeeft) ---------- */
+  var RIGHTS_RAW={
+    'Eredivisie':{tv:'ESPN',stream:[]},
+    'Keuken Kampioen Divisie':{tv:'ESPN',stream:[]},
+    'KNVB Beker':{tv:'ESPN',stream:[]},
+    'Champions League':{tv:'Ziggo Sport',stream:[]},
+    'Europa League':{tv:'Ziggo Sport',stream:[]},
+    'Conference League':{tv:'Ziggo Sport',stream:[]},
+    'UEFA Nations League':{tv:'Ziggo Sport',stream:[]},
+    'Afrika Cup of Nations':{tv:null,stream:['Bet365']},
+    'Jupiler Pro League':{tv:'DAZN',stream:['711']},
+    'Premier League':{tv:'Viaplay, Prime Video',stream:[]},
+    'EFL Cup':{tv:'Viaplay',stream:['Bet365','Unibet','TOTO']},
+    'EFL Championship':{tv:'Viaplay',stream:['Unibet']},
+    'La Liga':{tv:'Ziggo Sport',stream:['Bet365','Unibet','TOTO']},
+    'Copa del Rey':{tv:'Ziggo Sport',stream:['Unibet','TOTO']},
+    'Serie A':{tv:'Ziggo Sport',stream:['Bet365','Unibet']},
+    'Bundesliga':{tv:'Viaplay',stream:['Bet365','Unibet','TOTO']},
+    'Ligue 1':{tv:'Viaplay',stream:['Bet365','Unibet']},
+    'Liga Portugal':{tv:'Ziggo Sport',stream:['Unibet','BetMGM']},
+    'Süper Lig':{tv:null,stream:['Unibet','TOTO']},
+    'MLS':{tv:'Apple TV',stream:['Bet365','BetMGM']},
+    'Nederlands elftal':{tv:'NOS',stream:[],free:true}
+  };
+  function norm(s){s=(s||'').toLowerCase();if(s.normalize)s=s.normalize('NFD').replace(/[̀-ͯ]/g,'');return s.replace(/[^a-z0-9]+/g,' ').trim();}
+  var RIGHTS_NORM={};Object.keys(RIGHTS_RAW).forEach(function(k){RIGHTS_NORM[norm(k)]=RIGHTS_RAW[k];});
+  function sourcesFor(comp,homeId,awayId,d){
+    /* 1) zender uit het artikel zelf (data-tv / data-stream / data-gratis), als dat veld bestaat */
+    if(ok(d.tv)||ok(d.stream)){
+      return {tv:ok(d.tv)?d.tv.trim():null,
+              stream:ok(d.stream)?d.stream.split(',').map(function(x){return x.trim();}).filter(Boolean):[],
+              free:/^(true|ja|1)$/i.test((d.gratis||'').trim())};
+    }
+    /* 2) Oranje speelt altijd bij de NOS */
+    if(homeId===ORANJE||awayId===ORANJE)return RIGHTS_RAW['Nederlands elftal'];
+    /* 3) per competitie */
+    var n=norm(comp);if(!n)return {tv:null,stream:[]};
+    if(RIGHTS_NORM[n])return RIGHTS_NORM[n];
+    var keys=Object.keys(RIGHTS_NORM);
+    for(var i=0;i<keys.length;i++){if(n.indexOf(keys[i])>=0||keys[i].indexOf(n)>=0)return RIGHTS_NORM[keys[i]];}
+    return {tv:null,stream:[]};
+  }
+
+  /* ---------- data uit de (verborgen) Webflow-collectielijst ---------- */
+  var items=[],hide=[],seenSlug={};
+  Array.prototype.forEach.call(document.querySelectorAll('.lk-data'),function(el){
+    var w=el.closest('.lkh-collectie')||el.closest('.w-dyn-list');
+    if(w&&hide.indexOf(w)===-1)hide.push(w);
+    var d=el.dataset,datum=(d.datum||'').trim(),tijd=(d.tijd||'').trim();
+    if(!ok(datum)||!ok(tijd))return;
+    var tm=tijd.match(/(\d{1,2})[:.](\d{2})/);if(!tm)return;
+    var dt=parseDatum(datum);if(!dt)return;
+    var slug=ok(d.slug)?d.slug.trim():'';
+    if(slug){if(seenSlug[slug])return;seenSlug[slug]=1;}          /* geen dubbelingen */
+    var comp=ok(d.comp)?d.comp.trim():'',hid=digits(d.homeId),aid=digits(d.awayId);
+    items.push({
+      title:(d.title||'').trim(),comp:comp,
+      ko:amsToMs(dt.y,dt.m,dt.d,parseInt(tm[1],10),parseInt(tm[2],10)),
+      homeId:hid,awayId:aid,src:sourcesFor(comp,hid,aid,d),
+      href:slug?'https://www.bet-experts.nl/nieuws/'+slug:'#'
+    });
+  });
+  hide.forEach(function(w){w.style.display='none';});
+  items.sort(function(a,b){return a.ko-b.ko;});
+  function upcoming(it,now){return it.ko+LIVE_MIN*60000>=now;}
+
+  var active='all',expanded=false;
+
+  /* ---------- filterknoppen: alleen competities met nog komende wedstrijden ---------- */
+  function buildChips(){
+    if(!filter)return;
+    var now=Date.now(),comps=[],seen={},live=0,stream=0;
+    items.forEach(function(it){
+      if(!upcoming(it,now))return;
+      if(it.comp&&!seen[it.comp]){seen[it.comp]=1;comps.push(it.comp);}
+      if(statusOf(it)==='live')live++;
+      if(it.src.stream.length)stream++;
+    });
+    if(!comps.length){filter.classList.remove('on');return;}
+    if(active.indexOf('comp:')===0&&!seen[active.slice(5)])active='all';
+    var base=[['all','Alles']];if(live)base.push(['live','Nu live']);if(stream)base.push(['stream','Met stream']);
+    var inner=filter.querySelector('.lk-finner')||filter;
+    inner.innerHTML=base.concat(comps.map(function(c){return ['comp:'+c,c];})).map(function(b){
+      return '<span class="lk-fchip'+(b[0]===active?' on':'')+'" role="button" tabindex="0" aria-pressed="'+(b[0]===active)+'" data-c="'+esc(b[0])+'">'+esc(b[1])+'</span>';
+    }).join('');
+    Array.prototype.forEach.call(inner.querySelectorAll('.lk-fchip'),function(ch){
+      function pick(){active=ch.getAttribute('data-c');expanded=false;sync();render();}
+      ch.addEventListener('click',pick);
+      ch.addEventListener('keydown',function(e){if(e.key==='Enter'||e.key===' '){e.preventDefault();pick();}});
+    });
+    filter.classList.add('on');
+  }
+  function sync(){if(!filter)return;Array.prototype.forEach.call(filter.querySelectorAll('.lk-fchip'),function(c){var on=c.getAttribute('data-c')===active;c.classList.toggle('on',on);c.setAttribute('aria-pressed',on);});}
+
+  function logoCell(it){
+    var img=function(id){return id?'<img src="https://media.api-sports.io/football/teams/'+id+'.png" alt="" width="24" height="24" loading="lazy" decoding="async" onerror="this.style.visibility=\'hidden\'">':'';};
+    return '<span class="lk-logos">'+img(it.homeId)+img(it.awayId)+'</span>';
+  }
+  function statusOf(it){
+    var now=Date.now(),since=now-it.ko,until=it.ko-now;
+    if(since>=0&&since<LIVE_MIN*60000)return 'live';
+    if(until>0&&until<=60*60000)return 'soon';
+    if(it.src.free)return 'free';
+    if(it.src.stream.length)return 'stream';
+    if(it.src.tv)return 'tv';
+    return 'unknown';
+  }
+  var LABEL={live:'Nu live',soon:'Begint zo',free:'Gratis op tv',stream:'Via stream',tv:'Op tv',unknown:'Info volgt'};
+  function pad(n){return (n<10?'0':'')+n;}
+  function timeStr(ko){var p=amsParts(ko);return pad(p.h)+':'+pad(p.mi);}
+  function dayLabel(ko){
+    var p=amsParts(ko),diff=Math.round((dayKey(ko)-dayKey(Date.now()))/86400000),full=WD[p.wd]+' '+p.d+' '+MND[p.m];
+    if(diff===0)return 'Vandaag · '+full;if(diff===1)return 'Morgen · '+full;
+    return full.charAt(0).toUpperCase()+full.slice(1);
+  }
+
+  function badgesHtml(src){
+    var b=[];
+    if(src.tv)b.push('<span class="lk-badge '+(src.free?'free':'tv')+'">'+esc(src.tv)+(src.free?' · gratis':'')+'</span>');
+    src.stream.forEach(function(x){b.push('<span class="lk-badge bk">'+esc(x)+'</span>');});
+    if(!b.length)b.push('<span class="lk-badge tv">Nog niet bekend</span>');
+    var shown=b.slice(0,2),extra=b.length-2;
+    return shown.join('')+(extra>0?'<span class="lk-badge more">+'+extra+'</span>':'');
+  }
+
+  function passFilter(it){
+    if(active==='all')return true;
+    if(active==='live')return statusOf(it)==='live';
+    if(active==='stream')return it.src.stream.length>0;
+    if(active.indexOf('comp:')===0)return it.comp===active.slice(5);
+    return true;
+  }
+
+  function render(){
+    var now=Date.now();
+    var list=items.filter(function(it){return upcoming(it,now)&&passFilter(it);});
+    if(!list.length){root.innerHTML='<div class="lk-empty">'+(active==='all'?'Er staan op dit moment geen wedstrijden gepland. Kom later terug!':'Geen wedstrijden gevonden voor deze selectie.')+'</div>';return;}
+    var groups=[],gmap={};
+    list.forEach(function(it){var k=dayKey(it.ko);if(!gmap[k]){gmap[k]={label:dayLabel(it.ko),rows:[]};groups.push(gmap[k]);}gmap[k].rows.push(it);});
+    var shown=0,html='',cut=false;
+    groups.forEach(function(g){
+      var rows='',n=0;
+      for(var i=0;i<g.rows.length;i++){
+        if(!expanded&&shown>=MAX){cut=true;break;}
+        var it=g.rows[i],st=statusOf(it);
+        rows+='<a class="lk-row st-'+st+(st==='live'?' live':'')+'" href="'+esc(it.href)+'">'
+          +'<span class="lk-time">'+timeStr(it.ko)+'</span>'
+          +logoCell(it)
+          +'<span class="lk-main"><span class="lk-title">'+esc(it.title)+'</span><span class="lk-sub">'+esc(it.comp||'')+'</span></span>'
+          +'<span class="lk-src">'+badgesHtml(it.src)+'</span>'
+          +'<span class="lk-status"><span class="lk-dot"></span><span class="lk-pill">'+LABEL[st]+'</span></span>'
+          +'<span class="lk-chev" aria-hidden="true">›</span></a>';
+        shown++;n++;
+      }
+      if(n)html+='<div class="lk-group"><div class="lk-ghead"><span class="lk-gtitle">'+esc(g.label)+'</span><span class="lk-gline"></span><span class="lk-gcount">'+g.rows.length+' wedstrijd'+(g.rows.length===1?'':'en')+'</span></div><div class="lk-card">'+rows+'</div></div>';
+    });
+    if(cut&&!expanded)html+='<div class="lk-more-wrap"><button type="button" class="lk-more" id="lk-more">Alle '+list.length+' wedstrijden tonen</button></div>';
+    else if(expanded&&list.length>MAX)html+='<div class="lk-more-wrap"><button type="button" class="lk-more" id="lk-more" data-less="1">Minder tonen</button></div>';
+    root.innerHTML=html;
+    var mb=document.getElementById('lk-more');if(mb)mb.addEventListener('click',function(){expanded=!this.getAttribute('data-less');render();});
+  }
+
+  buildChips();
+  render();
+  /* elke minuut: status (live/begint zo) bijwerken en knoppen van afgelopen competities weghalen */
+  setInterval(function(){buildChips();render();},60*1000);
+})();
+</script>
