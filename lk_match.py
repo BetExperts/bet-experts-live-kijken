@@ -19,6 +19,9 @@ def _ronde_label(round_raw, ronde_num):
     lg = re.match(r"league\s+([a-d])\s*-\s*(\d+)", low)          # Nations League: 'League A - 1'
     if lg:
         return f"League {lg.group(1).upper()}, speelronde {lg.group(2)}"
+    gs = re.match(r"group stage\s*-\s*(\d+)", low)               # kwalificatie: 'Group Stage - 1'
+    if gs:
+        return f"Groepsfase, speelronde {gs.group(1)}"
     for k, v in _ROUND_NL.items():
         if k in low:
             return v[0].upper() + v[1:]

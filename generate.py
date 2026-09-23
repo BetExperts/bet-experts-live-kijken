@@ -39,6 +39,7 @@ def main():
     ap.add_argument("--date"); ap.add_argument("--dry", action="store_true")
     ap.add_argument("--preview", action="store_true"); ap.add_argument("--limit", type=int)
     ap.add_argument("--update", action="store_true", help="bestaande artikelen van die datum herschrijven i.p.v. overslaan")
+    ap.add_argument("--league", help="alleen deze worker_slug verwerken (bv. afrika-cup-kwalificatie)")
     a = ap.parse_args()
     ymd = target_date(a.date)
     live = not (a.dry or a.preview)
@@ -55,7 +56,7 @@ def main():
         except Exception as e:
             print(f"   (voorbeschouwing-index overgeslagen: {e})")
     made = 0
-    for cfg in LEAGUES:
+    for cfg in [c for c in LEAGUES if (not a.league or c["worker_slug"] == a.league)]:
         resp = api.fixtures(cfg["worker_slug"])
         ups = (resp.get("upcoming") or [])
         day = [fx for fx in ups if match_on_date(fx, ymd)]

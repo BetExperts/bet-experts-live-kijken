@@ -144,6 +144,12 @@ LEAGUES = [
     {"worker_slug": "nations-league", "comp_slug": "uefa-nations-league", "naam": "Nations League",
      "comp_id": "66d5a7f7fb9f23ce90376ef4", "force_provider": "bet365",
      "tv_per_match": True, "tv_default": {"tv": "Ziggo Sport"}, "bookmaker_stream": False},
+    # Afrika Cup-kwalificatie: alleen Marokko; niet op NL-tv, wel live bij Bet365 (volgens gebruiker)
+    {"worker_slug": "afrika-cup-kwalificatie", "comp_slug": "afrika-cup-of-nations",
+     "naam": "Afrika Cup-kwalificatie", "comp_id": "6926ce5a5247b7619744eb7c", "tv": None,
+     "force_provider": "bet365", "toppers_only": True, "top_teams": ["morocco"],
+     "angle": ("Veel Marokkaanse voetbalfans in Nederland willen de Leeuwen van de Atlas live volgen, "
+               "maar de kwalificatie voor de Afrika Cup is hier niet op de reguliere tv te zien.")},
 ]
 
 # --- Tv-zender per wedstrijd (data/tv_wedstrijden.json, sleutel = fixture-id) ---
