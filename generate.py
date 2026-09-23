@@ -63,7 +63,8 @@ def main():
             before = len(day)
             day = [fx for fx in day if is_topper(fx, cfg)]
             print(f"\n{cfg['naam']}: {len(day)} topper(s) op {ymd} (van {before} wedstrijden)")
-        elif cfg.get("tv_per_match"):
+        elif cfg.get("tv_per_match") and not cfg.get("tv_default"):
+            # zonder standaardzender: alleen wedstrijden met bekende uitzendinfo
             before = len(day)
             day = [fx for fx in day if tv_match(fx.get("fixture", {}).get("id")) is not None]
             print(f"\n{cfg['naam']}: {len(day)} wedstrijd(en) met tv-info op {ymd} (van {before}; "

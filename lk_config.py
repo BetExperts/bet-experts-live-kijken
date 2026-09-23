@@ -136,11 +136,14 @@ LEAGUES = [
                    "tottenham", "newcastle", "aston villa", "west ham"],
      "angle": ("De EFL Cup (Carabao Cup) wordt in Nederland uitgezonden door Viaplay, waarvoor je een "
                "abonnement nodig hebt. Zonder abonnement volg je dit Engelse bekerduel gewoon gratis.")},
-    # Nations League: de zender verschilt per wedstrijd (NPO voor Oranje, soms Ziggo Sport, vaak
-    # niet op tv) -> tv_per_match: zender komt uit data/tv_wedstrijden.json en ALLEEN wedstrijden
-    # die daarin staan krijgen een artikel (geen gok over de uitzending).
+    # Nations League: alle duels zijn te zien op Ziggo Sport (betaald); Oranje gratis op NPO.
+    # GEEN bookmaker streamt de Nations League -> bookmaker_stream=False: nooit 'gratis via
+    # {aanbieder}' beloven; de aanbieder staat er alleen voor live meewedden.
+    # tv_per_match: afwijkende zender per wedstrijd uit data/tv_wedstrijden.json (NPO, Ziggo Sport 1),
+    # anders tv_default.
     {"worker_slug": "nations-league", "comp_slug": "uefa-nations-league", "naam": "Nations League",
-     "comp_id": "66d5a7f7fb9f23ce90376ef4", "tv_per_match": True, "force_provider": "bet365"},
+     "comp_id": "66d5a7f7fb9f23ce90376ef4", "force_provider": "bet365",
+     "tv_per_match": True, "tv_default": {"tv": "Ziggo Sport"}, "bookmaker_stream": False},
 ]
 
 # --- Tv-zender per wedstrijd (data/tv_wedstrijden.json, sleutel = fixture-id) ---
@@ -163,7 +166,10 @@ def angle_for_match(info, comp):
         return (f"Dit {comp}-duel wordt in Nederland niet door een reguliere tv-zender uitgezonden.")
     if (info or {}).get("gratis"):
         return "Voor deze wedstrijd heb je geen abonnement of betaalde dienst nodig."
-    return f"Het duel is in Nederland te zien op {tv}, maar daarvoor heb je een betaald abonnement nodig."
+    return f"Het duel is in Nederland live te zien op {tv}; daarvoor heb je wel een abonnement nodig."
+
+def is_ziggo(tv):
+    return "ziggo" in (tv or "").lower()
 
 # --- Data-mappings (hergebruikt uit opstellingen-agent) ---
 def _load(fn):

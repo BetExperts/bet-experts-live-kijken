@@ -97,8 +97,8 @@ def build_fielddata(ctx, league_cfg, slug=None):
     ctx["compSlug"] = league_cfg["comp_slug"]; ctx["compN"] = league_cfg["naam"]
     ctx["angle"] = league_cfg.get("angle", "")
     if league_cfg.get("tv_per_match"):
-        # zender per wedstrijd (bv. Nations League: NPO / Ziggo Sport / niet op tv)
-        info = tv_match(ctx["fid"]) or {}
+        # zender per wedstrijd (bv. Nations League: NPO voor Oranje), anders de standaardzender
+        info = tv_match(ctx["fid"]) or league_cfg.get("tv_default") or {}
         ctx["tv"] = info.get("tv")
         ctx["tv_free"] = bool(info.get("gratis")) and bool(info.get("tv"))
         ctx["tv_extra"] = info.get("extra")
@@ -107,14 +107,19 @@ def build_fielddata(ctx, league_cfg, slug=None):
     else:
         # expliciete tv in de league-config wint; anders afleiden uit de zender-lijst
         ctx["tv"] = league_cfg["tv"] if "tv" in league_cfg else tv_for(league_cfg["naam"])
+    # Geen bookmaker-stream voor deze competitie + betaalde zender -> 'betaald'-variant
+    # (geen 'gratis' in titel/slug/tekst; aanbieder alleen voor live meewedden).
+    ctx["tv_paid_only"] = (league_cfg.get("bookmaker_stream", True) is False
+                           and bool(ctx.get("tv")) and not ctx.get("tv_free"))
     dt = ctx["dt"]
     content, content2, content3 = B.build_content(ctx)
-    title = B.build_title(ctx["homeN"], ctx["awayN"], dt)
+    title = B.build_title(ctx["homeN"], ctx["awayN"], dt, paid_tv=ctx["tv"] if ctx["tv_paid_only"] else None)
     samenvatting = B.build_samenvatting(ctx["homeN"], ctx["awayN"], league_cfg["naam"], dt,
-                                        ctx["prov"]["naam"], free_tv=ctx["tv"] if ctx.get("tv_free") else None)
+                                        ctx["prov"]["naam"], free_tv=ctx["tv"] if ctx.get("tv_free") else None,
+                                        paid_tv=ctx["tv"] if ctx["tv_paid_only"] else None)
     if not slug:
         hs = ctx["hSlug"] or B.slugify(ctx["homeN"]); as_ = ctx["aSlug"] or B.slugify(ctx["awayN"])
-        slug = B.build_slug(hs, as_, dt)
+        slug = B.build_slug(hs, as_, dt, gratis=not ctx["tv_paid_only"])
     fd = {
         "name": title, "slug": slug,
         "content": content, "content-2": content2, "content-3": content3,
