@@ -42,6 +42,8 @@ def main():
     ap.add_argument("--update", action="store_true", help="bestaande artikelen van die datum herschrijven i.p.v. overslaan")
     ap.add_argument("--league", help="alleen deze worker_slug verwerken (bv. afrika-cup-kwalificatie)")
     ap.add_argument("--fixture", help="alleen deze fixture-id(s), komma-gescheiden")
+    ap.add_argument("--provider", help="aanbieder forceren (toto/bet365/711), overschrijft de competitie-config")
+    ap.add_argument("--geen-tv", action="store_true", help="niet op NL-tv: tv-gids (waaroptv) negeren")
     a = ap.parse_args()
     ymd = target_date(a.date)
     live = not (a.dry or a.preview)
@@ -88,9 +90,9 @@ def main():
             exists = fid in state
             if exists and not (a.update or a.preview or a.dry):
                 print(f"  · overslaan (bestaat al): {fid}"); continue
-            ctx = M.gather(fx, standings=stand, force_provider=cfg.get("force_provider"))
+            ctx = M.gather(fx, standings=stand, force_provider=a.provider or cfg.get("force_provider"))
             ctx["vb_url"] = WF.voorbeschouwing_url(vb_idx, ctx["fid"], ctx["homeId"], ctx["awayId"])
-            ctx["tvgids"] = gids.lookup(ctx["homeN"], ctx["awayN"], ctx["dt"])
+            ctx["tvgids"] = None if a.geen_tv else gids.lookup(ctx["homeN"], ctx["awayN"], ctx["dt"])
             c = ctx["tvgids"]
             if c:
                 print(f"     ↳ waaroptv: {' / '.join(c['zenders']) or '-'}{' (gratis)' if c['gratis'] else ''}"
