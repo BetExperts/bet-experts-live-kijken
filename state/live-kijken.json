@@ -578,5 +578,105 @@
     "provider": "711",
     "home_id": "20",
     "away_id": "6"
+  },
+  "1545658": {
+    "item_id": "6ab6bb0cf29c789206ab656f",
+    "slug": "slovenie-schotland-live-gratis-kijken-26-09-2026",
+    "match": "Slovenië - Schotland",
+    "date": "2026-09-26",
+    "league": "nations-league",
+    "provider": "Bet365",
+    "home_id": "1091",
+    "away_id": "1108"
+  },
+  "1528890": {
+    "item_id": "6ab6bb108ea175d5fb35ce4b",
+    "slug": "ijsland-estland-live-gratis-kijken-26-09-2026",
+    "match": "IJsland - Estland",
+    "date": "2026-09-26",
+    "league": "nations-league",
+    "provider": "Bet365",
+    "home_id": "18",
+    "away_id": "1101"
+  },
+  "1528889": {
+    "item_id": "6ab6bb1205bdd4c6b6d2e984",
+    "slug": "faeroer-kazachstan-live-gratis-kijken-26-09-2026",
+    "match": "Faeröer - Kazachstan",
+    "date": "2026-09-26",
+    "league": "nations-league",
+    "provider": "Bet365",
+    "home_id": "1098",
+    "away_id": "1095"
+  },
+  "1545603": {
+    "item_id": "6ab6bb16c5f175f02437153b",
+    "slug": "bulgarije-luxemburg-live-gratis-kijken-26-09-2026",
+    "match": "Bulgarije - Luxemburg",
+    "date": "2026-09-26",
+    "league": "nations-league",
+    "provider": "Bet365",
+    "home_id": "1103",
+    "away_id": "1102"
+  },
+  "1528888": {
+    "item_id": "6ab6bb187483861b72ca2982",
+    "slug": "san-marino-finland-live-gratis-kijken-26-09-2026",
+    "match": "San Marino - Finland",
+    "date": "2026-09-26",
+    "league": "nations-league",
+    "provider": "Bet365",
+    "home_id": "1115",
+    "away_id": "1099"
+  },
+  "1528891": {
+    "item_id": "6ab6bb1bb01ad718961ac3b5",
+    "slug": "engeland-spanje-live-gratis-kijken-26-09-2026",
+    "match": "Engeland - Spanje",
+    "date": "2026-09-26",
+    "league": "nations-league",
+    "provider": "Bet365",
+    "home_id": "10",
+    "away_id": "9"
+  },
+  "1528892": {
+    "item_id": "6ab6bb1d89941a81ffd091f0",
+    "slug": "tsjechie-kroatie-live-gratis-kijken-26-09-2026",
+    "match": "Tsjechië - Kroatië",
+    "date": "2026-09-26",
+    "league": "nations-league",
+    "provider": "Bet365",
+    "home_id": "770",
+    "away_id": "3"
+  },
+  "1528894": {
+    "item_id": "6ab6bb2086c563fd3f8656b4",
+    "slug": "slowakije-moldavie-live-gratis-kijken-26-09-2026",
+    "match": "Slowakije - Moldavië",
+    "date": "2026-09-26",
+    "league": "nations-league",
+    "provider": "Bet365",
+    "home_id": "773",
+    "away_id": "1114"
+  },
+  "1528893": {
+    "item_id": "6ab6bb23b01ad718961ac526",
+    "slug": "albanie-wit-rusland-live-gratis-kijken-26-09-2026",
+    "match": "Albanië - Wit-Rusland",
+    "date": "2026-09-26",
+    "league": "nations-league",
+    "provider": "Bet365",
+    "home_id": "778",
+    "away_id": "1100"
+  },
+  "1545656": {
+    "item_id": "6ab6bb25b01ad718961ac599",
+    "slug": "noord-macedonie-zwitserland-live-gratis-kijken-26-09-2026",
+    "match": "Noord-Macedonië - Zwitserland",
+    "date": "2026-09-26",
+    "league": "nations-league",
+    "provider": "Bet365",
+    "home_id": "1105",
+    "away_id": "15"
   }
 }
