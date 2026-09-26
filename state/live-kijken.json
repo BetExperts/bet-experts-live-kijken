@@ -678,5 +678,85 @@
     "provider": "Bet365",
     "home_id": "1105",
     "away_id": "15"
+  },
+  "1528895": {
+    "item_id": "6ab80c758639a3150778943f",
+    "slug": "litouwen-azerbeidzjan-live-gratis-kijken-27-09-2026",
+    "match": "Litouwen - Azerbeidzjan",
+    "date": "2026-09-27",
+    "league": "nations-league",
+    "provider": "Bet365",
+    "home_id": "1097",
+    "away_id": "1096"
+  },
+  "1528896": {
+    "item_id": "6ab80c77b18dc03b72ce0435",
+    "slug": "servie-nederland-live-gratis-kijken-27-09-2026",
+    "match": "Servië - Nederland",
+    "date": "2026-09-27",
+    "league": "nations-league",
+    "provider": "Bet365",
+    "home_id": "14",
+    "away_id": "1118"
+  },
+  "1528897": {
+    "item_id": "6ab80c7a547dbe41cb5514bc",
+    "slug": "denemarken-wales-live-gratis-kijken-27-09-2026",
+    "match": "Denemarken - Wales",
+    "date": "2026-09-27",
+    "league": "nations-league",
+    "provider": "Bet365",
+    "home_id": "21",
+    "away_id": "767"
+  },
+  "1528898": {
+    "item_id": "6ab80c7cb363df8eb410f8dd",
+    "slug": "oostenrijk-kosovo-live-gratis-kijken-27-09-2026",
+    "match": "Oostenrijk - Kosovo",
+    "date": "2026-09-27",
+    "league": "nations-league",
+    "provider": "Bet365",
+    "home_id": "775",
+    "away_id": "1111"
+  },
+  "1545604": {
+    "item_id": "6ab80c7e64174af658d263fa",
+    "slug": "gibraltar-andorra-live-gratis-kijken-27-09-2026",
+    "match": "Gibraltar - Andorra",
+    "date": "2026-09-27",
+    "league": "nations-league",
+    "provider": "Bet365",
+    "home_id": "1093",
+    "away_id": "1110"
+  },
+  "1528899": {
+    "item_id": "6ab80c8077606d0bcf96ec67",
+    "slug": "duitsland-griekenland-live-gratis-kijken-27-09-2026",
+    "match": "Duitsland - Griekenland",
+    "date": "2026-09-27",
+    "league": "nations-league",
+    "provider": "Bet365",
+    "home_id": "25",
+    "away_id": "1117"
+  },
+  "1528900": {
+    "item_id": "6ab80c843064e8572729ddb1",
+    "slug": "noorwegen-portugal-live-gratis-kijken-27-09-2026",
+    "match": "Noorwegen - Portugal",
+    "date": "2026-09-27",
+    "league": "nations-league",
+    "provider": "Bet365",
+    "home_id": "1090",
+    "away_id": "27"
+  },
+  "1528901": {
+    "item_id": "6ab80c86bf4d16c9f56ab228",
+    "slug": "israel-ierland-live-gratis-kijken-27-09-2026",
+    "match": "Israël - Ierland",
+    "date": "2026-09-27",
+    "league": "nations-league",
+    "provider": "Bet365",
+    "home_id": "1116",
+    "away_id": "776"
   }
 }
