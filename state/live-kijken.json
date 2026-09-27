@@ -758,5 +758,85 @@
     "provider": "Bet365",
     "home_id": "1116",
     "away_id": "776"
+  },
+  "1545605": {
+    "item_id": "6ab95dfa3e941cb4dd64c497",
+    "slug": "letland-cyprus-live-gratis-kijken-28-09-2026",
+    "match": "Letland - Cyprus",
+    "date": "2026-09-28",
+    "league": "nations-league",
+    "provider": "Bet365",
+    "home_id": "1092",
+    "away_id": "1106"
+  },
+  "1528903": {
+    "item_id": "6ab95dfc32f656f444975daf",
+    "slug": "armenie-montenegro-live-gratis-kijken-28-09-2026",
+    "match": "Armenië - Montenegro",
+    "date": "2026-09-28",
+    "league": "nations-league",
+    "provider": "Bet365",
+    "home_id": "1094",
+    "away_id": "1109"
+  },
+  "1528902": {
+    "item_id": "6ab95dfe5cd223a118ab5446",
+    "slug": "georgie-oekraine-live-gratis-kijken-28-09-2026",
+    "match": "Georgië - Oekraïne",
+    "date": "2026-09-28",
+    "league": "nations-league",
+    "provider": "Bet365",
+    "home_id": "1104",
+    "away_id": "772"
+  },
+  "1528904": {
+    "item_id": "6ab95e00a6f05098a523edbb",
+    "slug": "belgie-frankrijk-live-gratis-kijken-28-09-2026",
+    "match": "België - Frankrijk",
+    "date": "2026-09-28",
+    "league": "nations-league",
+    "provider": "Bet365",
+    "home_id": "1",
+    "away_id": "2"
+  },
+  "1528907": {
+    "item_id": "6ab95e01609b3daadb593a3f",
+    "slug": "zweden-polen-live-gratis-kijken-28-09-2026",
+    "match": "Zweden - Polen",
+    "date": "2026-09-28",
+    "league": "nations-league",
+    "provider": "Bet365",
+    "home_id": "5",
+    "away_id": "24"
+  },
+  "1528906": {
+    "item_id": "6ab95e0343eaa41edf4e7a03",
+    "slug": "noord-ierland-hongarije-live-gratis-kijken-28-09-2026",
+    "match": "Noord-Ierland - Hongarije",
+    "date": "2026-09-28",
+    "league": "nations-league",
+    "provider": "Bet365",
+    "home_id": "771",
+    "away_id": "769"
+  },
+  "1528908": {
+    "item_id": "6ab95e0440db6e326af3d0da",
+    "slug": "roemenie-bosnie-herzegovina-live-gratis-kijken-28-09-2026",
+    "match": "Roemenië - Bosnië en Herzegovina",
+    "date": "2026-09-28",
+    "league": "nations-league",
+    "provider": "Bet365",
+    "home_id": "774",
+    "away_id": "1113"
+  },
+  "1528905": {
+    "item_id": "6ab95e0640db6e326af3d1a9",
+    "slug": "turkije-italie-live-gratis-kijken-28-09-2026",
+    "match": "Turkije - Italië",
+    "date": "2026-09-28",
+    "league": "nations-league",
+    "provider": "Bet365",
+    "home_id": "777",
+    "away_id": "768"
   }
 }
