@@ -159,6 +159,13 @@ LEAGUES = [
      "angle": ("Met onder meer Suriname, Curaçao, Aruba en Bonaire spelen er in de CONCACAF Nations League "
                "meerdere landen met een sterke band met Nederland. Toch is het toernooi hier niet op de "
                "reguliere tv te zien.")},
+    # EK onder 21-kwalificatie: alleen Jong Oranje. Live op ESPN 1 (basispakket bij de meeste
+    # tv-aanbieders). Geen bookmaker-stream beloven; aanbieder alleen voor live meewedden.
+    {"worker_slug": "u21-ek-kwalificatie", "comp_slug": "ek-onder-21-kwalificatie",
+     "naam": "EK onder 21-kwalificatie", "comp_id": "6abaf551b3633bce07b3312c", "tv": "ESPN 1",
+     "bookmaker_stream": False, "tv_basis": True, "geen_ronde": True,
+     "toppers_only": True, "top_teams": ["netherlands u21"],
+     "angle": ("De EK-kwalificatieduels van Jong Oranje worden in Nederland live uitgezonden door ESPN.")},
     # Oefeninterlands: alleen op verzoek (manual_only -> niet in de nachtelijke run),
     # via --league friendlies --fixture <id>. Aanbieder volgt waaroptv.nl (bv. 711).
     {"worker_slug": "friendlies", "comp_slug": "int-vriendschappelijke-wedstrijden",
@@ -205,7 +212,13 @@ CLUB_NAME = _load("club_name_slug_filled.json")  # clubnaam -> slug (gevulde clu
 LANDEN_NL = _load("landen_nl.json")              # Engelse API-landnaam -> Nederlandse naam
 
 def nl_name(name):
-    """Vertaal een landenteam-naam naar het Nederlands (clubs blijven ongemoeid)."""
+    """Vertaal een landenteam-naam naar het Nederlands (clubs blijven ongemoeid).
+    Jeugdelftallen: 'Slovenia U21' -> 'Jong Slovenië', 'Netherlands U21' -> 'Jong Oranje'."""
+    if name and name.endswith(" U21"):
+        base = name[:-4]
+        if base == "Netherlands":
+            return "Jong Oranje"
+        return "Jong " + LANDEN_NL.get(base, LANDEN_NL.get(base.replace("-", " & "), base))
     return LANDEN_NL.get(name, name)
 
 def club_slug(team_id, name=None):

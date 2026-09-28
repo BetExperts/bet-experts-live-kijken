@@ -135,6 +135,8 @@ def build_fielddata(ctx, league_cfg, slug=None):
     # (geen 'gratis' in titel/slug/tekst; aanbieder alleen voor live meewedden).
     ctx["tv_paid_only"] = (league_cfg.get("bookmaker_stream", True) is False
                            and bool(ctx.get("tv")) and not ctx.get("tv_free"))
+    # zender zit in het basispakket (bv. ESPN 1): geen 'betaald abonnement'-tekst
+    ctx["tv_basis"] = bool(league_cfg.get("tv_basis")) and ctx["tv_paid_only"]
     dt = ctx["dt"]
     content, content2, content3 = B.build_content(ctx)
     title = B.build_title(ctx["homeN"], ctx["awayN"], dt, paid_tv=ctx["tv"] if ctx["tv_paid_only"] else None,

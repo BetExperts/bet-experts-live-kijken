@@ -845,7 +845,7 @@
     "match": "Australië - Brazilië",
     "date": "2026-09-29",
     "league": "friendlies",
-    "provider": "711",
+    "provider": "Bet365",
     "home_id": "20",
     "away_id": "6"
   },
@@ -875,108 +875,28 @@
     "match": "Suriname - Martinique",
     "date": "2026-09-29",
     "league": "concacaf-nations-league",
-    "provider": "Bet365",
+    "provider": "TOTO",
     "home_id": "8171",
     "away_id": "8117"
   },
-  "1528912": {
-    "item_id": "6abaafe13e2230f1193671d3",
-    "slug": "finland-wit-rusland-live-gratis-kijken-29-09-2026",
-    "match": "Finland - Wit-Rusland",
-    "date": "2026-09-29",
-    "league": "nations-league",
+  "1350191": {
+    "item_id": "6abaf5affcc08d6cf15e5101",
+    "slug": "jong-slovenie-jong-oranje-live-gratis-kijken-02-10-2026",
+    "match": "Jong Slovenië - Jong Oranje",
+    "date": "2026-10-02",
+    "league": "u21-ek-kwalificatie",
     "provider": "Bet365",
-    "home_id": "1099",
-    "away_id": "1100"
+    "home_id": "8231",
+    "away_id": "8211"
   },
-  "1528914": {
-    "item_id": "6abaafe37ed96d6fd7ff01fb",
-    "slug": "moldavie-faeroer-live-gratis-kijken-29-09-2026",
-    "match": "Moldavië - Faeröer",
-    "date": "2026-09-29",
-    "league": "nations-league",
+  "1350203": {
+    "item_id": "6abaf5ba85f1d594896fd659",
+    "slug": "jong-oranje-jong-bosnie-en-herzegovina-live-gratis-kijken-06-10-2026",
+    "match": "Jong Oranje - Jong Bosnië en Herzegovina",
+    "date": "2026-10-06",
+    "league": "u21-ek-kwalificatie",
     "provider": "Bet365",
-    "home_id": "1114",
-    "away_id": "1098"
-  },
-  "1528909": {
-    "item_id": "6abaafe5f4a8fbdcde455b5c",
-    "slug": "spanje-kroatie-live-gratis-kijken-29-09-2026",
-    "match": "Spanje - Kroatië",
-    "date": "2026-09-29",
-    "league": "nations-league",
-    "provider": "Bet365",
-    "home_id": "9",
-    "away_id": "3"
-  },
-  "1528910": {
-    "item_id": "6abaafe7adfcf8d6b3d75d98",
-    "slug": "tsjechie-engeland-live-gratis-kijken-29-09-2026",
-    "match": "Tsjechië - Engeland",
-    "date": "2026-09-29",
-    "league": "nations-league",
-    "provider": "Bet365",
-    "home_id": "770",
-    "away_id": "10"
-  },
-  "1528913": {
-    "item_id": "6abaafea1e6fb2d2ac347dd7",
-    "slug": "slowakije-kazachstan-live-gratis-kijken-29-09-2026",
-    "match": "Slowakije - Kazachstan",
-    "date": "2026-09-29",
-    "league": "nations-league",
-    "provider": "Bet365",
-    "home_id": "773",
-    "away_id": "1095"
-  },
-  "1545661": {
-    "item_id": "6abaafec9e51708217df1578",
-    "slug": "slovenie-noord-macedonie-live-gratis-kijken-29-09-2026",
-    "match": "Slovenië - Noord-Macedonië",
-    "date": "2026-09-29",
-    "league": "nations-league",
-    "provider": "Bet365",
-    "home_id": "1091",
-    "away_id": "1105"
-  },
-  "1545606": {
-    "item_id": "6abaafee9a5ffd95b68d552c",
-    "slug": "luxemburg-ijsland-live-gratis-kijken-29-09-2026",
-    "match": "Luxemburg - IJsland",
-    "date": "2026-09-29",
-    "league": "nations-league",
-    "provider": "Bet365",
-    "home_id": "1102",
-    "away_id": "18"
-  },
-  "1528915": {
-    "item_id": "6abaaff127f2e18234398fd9",
-    "slug": "bulgarije-estland-live-gratis-kijken-29-09-2026",
-    "match": "Bulgarije - Estland",
-    "date": "2026-09-29",
-    "league": "nations-league",
-    "provider": "Bet365",
-    "home_id": "1103",
-    "away_id": "1101"
-  },
-  "1545651": {
-    "item_id": "6abaaff351ee4b34a27847dc",
-    "slug": "schotland-zwitserland-live-gratis-kijken-29-09-2026",
-    "match": "Schotland - Zwitserland",
-    "date": "2026-09-29",
-    "league": "nations-league",
-    "provider": "Bet365",
-    "home_id": "1108",
-    "away_id": "15"
-  },
-  "1528911": {
-    "item_id": "6abaaff6f5ff280bd531b35e",
-    "slug": "san-marino-albanie-live-gratis-kijken-29-09-2026",
-    "match": "San Marino - Albanië",
-    "date": "2026-09-29",
-    "league": "nations-league",
-    "provider": "Bet365",
-    "home_id": "1115",
-    "away_id": "778"
+    "home_id": "8211",
+    "away_id": "8184"
   }
 }
