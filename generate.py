@@ -44,6 +44,7 @@ def main():
     ap.add_argument("--fixture", help="alleen deze fixture-id(s), komma-gescheiden")
     ap.add_argument("--provider", help="aanbieder forceren (toto/bet365/711), overschrijft de competitie-config")
     ap.add_argument("--geen-tv", action="store_true", help="niet op NL-tv: tv-gids (waaroptv) negeren")
+    ap.add_argument("--geen-voorbeschouwing", action="store_true", help="geen link naar een voorbeschouwing (bv. 2e duel tussen dezelfde landen)")
     a = ap.parse_args()
     ymd = target_date(a.date)
     live = not (a.dry or a.preview)
@@ -70,7 +71,7 @@ def main():
         day = [fx for fx in ups if match_on_date(fx, ymd)]
         if only:
             day = [fx for fx in day if str(fx.get("fixture", {}).get("id")) in only]
-        if cfg.get("toppers_only"):
+        if cfg.get("toppers_only") and not only:      # --fixture = bewust gekozen, dan geen topper-filter
             before = len(day)
             day = [fx for fx in day if is_topper(fx, cfg)]
             print(f"\n{cfg['naam']}: {len(day)} topper(s) op {ymd} (van {before} wedstrijden)")
@@ -91,7 +92,7 @@ def main():
             if exists and not (a.update or a.preview or a.dry):
                 print(f"  · overslaan (bestaat al): {fid}"); continue
             ctx = M.gather(fx, standings=stand, force_provider=a.provider or cfg.get("force_provider"))
-            ctx["vb_url"] = WF.voorbeschouwing_url(vb_idx, ctx["fid"], ctx["homeId"], ctx["awayId"])
+            ctx["vb_url"] = None if a.geen_voorbeschouwing else WF.voorbeschouwing_url(vb_idx, ctx["fid"], ctx["homeId"], ctx["awayId"])
             ctx["tvgids"] = None if a.geen_tv else gids.lookup(ctx["homeN"], ctx["awayN"], ctx["dt"])
             c = ctx["tvgids"]
             if c:

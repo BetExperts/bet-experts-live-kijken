@@ -838,5 +838,45 @@
     "provider": "Bet365",
     "home_id": "777",
     "away_id": "768"
+  },
+  "1583654": {
+    "item_id": "6aba544864bc195391386a56",
+    "slug": "australie-brazilie-live-gratis-kijken-29-09-2026",
+    "match": "Australië - Brazilië",
+    "date": "2026-09-29",
+    "league": "friendlies",
+    "provider": "711",
+    "home_id": "20",
+    "away_id": "6"
+  },
+  "1545853": {
+    "item_id": "6aba5453870bb1c483f9e2a0",
+    "slug": "lesotho-marokko-live-gratis-kijken-29-09-2026",
+    "match": "Lesotho - Marokko",
+    "date": "2026-09-29",
+    "league": "afrika-cup-kwalificatie",
+    "provider": "Bet365",
+    "home_id": "1518",
+    "away_id": "31"
+  },
+  "1545842": {
+    "item_id": "6aba545581835c60dae168a3",
+    "slug": "kaapverdie-rwanda-live-gratis-kijken-29-09-2026",
+    "match": "Kaapverdië - Rwanda",
+    "date": "2026-09-29",
+    "league": "afrika-cup-kwalificatie",
+    "provider": "Bet365",
+    "home_id": "1533",
+    "away_id": "1514"
+  },
+  "1639957": {
+    "item_id": "6aba5460cf3611886a08aaa8",
+    "slug": "suriname-martinique-live-gratis-kijken-29-09-2026",
+    "match": "Suriname - Martinique",
+    "date": "2026-09-29",
+    "league": "concacaf-nations-league",
+    "provider": "Bet365",
+    "home_id": "8171",
+    "away_id": "8117"
   }
 }

@@ -102,6 +102,10 @@ def build_fielddata(ctx, league_cfg, slug=None):
     ctx["comp_lidwoord"] = league_cfg.get("lidwoord", "de")
     if league_cfg.get("geen_ronde"): ctx["ronde_txt"] = None
     ctx["angle"] = league_cfg.get("angle", "")
+    # bv. Afrika Cup zonder Marokko: neutrale invalshoek
+    _names = " ".join(str(ctx.get(k) or "") for k in ("homeN", "awayN", "home", "away", "homeName", "awayName")).lower()
+    if league_cfg.get("angle_other") and not any(t.lower() in _names for t in league_cfg.get("top_teams", []) + league_cfg.get("top_teams_nl", [])):
+        ctx["angle"] = league_cfg["angle_other"]
     # Zender bepalen. Voorrang: 1) handmatig (data/tv_wedstrijden.json), 2) waaroptv.nl
     # (exacte zender, bv. 'Ziggo Sport 2'), 3) de standaard uit de competitie-config.
     if league_cfg.get("tv_per_match"):

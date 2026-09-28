@@ -147,9 +147,18 @@ LEAGUES = [
     # Afrika Cup-kwalificatie: alleen Marokko; niet op NL-tv, wel live bij Bet365 (volgens gebruiker)
     {"worker_slug": "afrika-cup-kwalificatie", "comp_slug": "afrika-cup-of-nations",
      "naam": "Afrika Cup-kwalificatie", "comp_id": "6926ce5a5247b7619744eb7c", "tv": None,
-     "force_provider": "bet365", "toppers_only": True, "top_teams": ["morocco"],
+     "force_provider": "bet365", "toppers_only": True, "top_teams": ["morocco"], "top_teams_nl": ["marokko"],
      "angle": ("Veel Marokkaanse voetbalfans in Nederland willen de Leeuwen van de Atlas live volgen, "
-               "maar de kwalificatie voor de Afrika Cup is hier niet op de reguliere tv te zien.")},
+               "maar de kwalificatie voor de Afrika Cup is hier niet op de reguliere tv te zien."),
+     "angle_other": ("De kwalificatie voor de Afrika Cup is in Nederland niet op de reguliere tv te zien, "
+                     "maar je kunt dit duel wel gratis live streamen.")},
+    # CONCACAF Nations League: alleen op verzoek (manual_only). Niet op NL-tv; stream per wedstrijd via --provider.
+    {"worker_slug": "concacaf-nations-league", "comp_slug": "concacaf-nations-league",
+     "naam": "CONCACAF Nations League", "comp_id": "67d94eb39a4451a4d52c444c", "tv": None,
+     "force_provider": "bet365", "manual_only": True,
+     "angle": ("Met onder meer Suriname, Curaçao, Aruba en Bonaire spelen er in de CONCACAF Nations League "
+               "meerdere landen met een sterke band met Nederland. Toch is het toernooi hier niet op de "
+               "reguliere tv te zien.")},
     # Oefeninterlands: alleen op verzoek (manual_only -> niet in de nachtelijke run),
     # via --league friendlies --fixture <id>. Aanbieder volgt waaroptv.nl (bv. 711).
     {"worker_slug": "friendlies", "comp_slug": "int-vriendschappelijke-wedstrijden",
