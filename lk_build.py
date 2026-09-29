@@ -239,18 +239,20 @@ def _kijk_blok_gratis(prov, homeN, awayN, tv, dt, extra=None, voorbeschouwing=No
                f'mee op {M}</strong></a></p>')
     return "\n".join(out)
 
-def _kijk_blok_betaald(prov, homeN, awayN, tv, dt, comp):
+def _kijk_blok_betaald(prov, homeN, awayN, tv, dt, comp, extra=None):
     """Alleen via betaalde tv te zien en geen bookmaker-stream (bv. Nations League op Ziggo Sport)."""
     M = f"{esc(homeN)} – {esc(awayN)}"
     ziggo = "ziggo" in (tv or "").lower()
     out = [f"<h3>Live kijken op {esc(tv)}</h3>"]
     out.append(f"<p>{M} is in Nederland live te zien op {esc(tv)}. Daarvoor heb je wel een abonnement nodig"
-               + (" bij Ziggo" if ziggo else "") + ". Gratis kijken via een bookmaker is bij de "
-               f"{esc(comp)} helaas niet mogelijk: geen enkele Nederlandse aanbieder zendt deze wedstrijden uit.</p>")
+               + (" bij Ziggo" if ziggo else "") + ". Gratis kijken via een bookmaker is bij deze wedstrijd "
+               f"helaas niet mogelijk: geen enkele Nederlandse bookmaker zendt dit duel uit.</p>")
     out.append("<p><strong>Zo kijk je live mee:</strong></p>")
     stappen = [f"<li>Zet om {nl_tijd(dt)} uur {esc(tv)} aan voor de aftrap</li>"]
     if ziggo:
         stappen.append("<li>Onderweg? Met je Ziggo-abonnement kijk je ook mee via de Ziggo GO-app</li>")
+    elif extra:
+        stappen.append(f"<li>Onderweg? Met een abonnement kijk je online mee via {esc(extra)}</li>")
     stappen.append("<li>Geen abonnement? Volg de wedstrijd dan via een liveticker of de live-odds</li>")
     out.append("<ol>" + "".join(stappen) + "</ol>")
     out.append(f"<h3>Live meewedden op {M}</h3>")
@@ -294,7 +296,7 @@ def _faq_basis(homeN, awayN, comp, dt, tv):
     ]
     return "\n".join(f"<p><strong>{esc(a)}</strong><br>{esc(b)}</p>" for a, b in q)
 
-def _faq_betaald(homeN, awayN, comp, dt, tv):
+def _faq_betaald(homeN, awayN, comp, dt, tv, extra=None):
     ziggo = "ziggo" in (tv or "").lower()
     q = [
         (f"Hoe laat begint {homeN} – {awayN}?",
@@ -303,10 +305,11 @@ def _faq_betaald(homeN, awayN, comp, dt, tv):
          f"Het {comp}-duel is in Nederland live te zien op {tv}."),
         (f"Is {homeN} – {awayN} gratis te kijken?",
          f"Nee. Je hebt een abonnement nodig{' bij Ziggo' if ziggo else ''}. Geen enkele Nederlandse "
-         f"bookmaker zendt {comp}-wedstrijden uit, dus gratis streamen via een bookmaker kan niet."),
+         f"bookmaker zendt dit duel uit, dus gratis streamen via een bookmaker kan niet."),
         ("Kan ik de wedstrijd ook online kijken?",
          ("Ja, met een Ziggo-abonnement kijk je via de Ziggo GO-app op je telefoon, tablet of laptop."
-          if ziggo else f"Ja, via de online dienst van {tv}, als je een abonnement hebt.")),
+          if ziggo else (f"Ja, via {extra}, als je een abonnement hebt." if extra
+                          else f"Ja, via de online dienst van {tv}, als je een abonnement hebt."))),
     ]
     return "\n".join(f"<p><strong>{esc(a)}</strong><br>{esc(b)}</p>" for a, b in q)
 
@@ -390,7 +393,7 @@ def build_content(ctx):
     if paid and ctx.get("tv_basis"):
         c1.append(_kijk_blok_basis(prov, homeN, awayN, ctx.get("tv"), dt, compN))
     elif paid:
-        c1.append(_kijk_blok_betaald(prov, homeN, awayN, ctx.get("tv"), dt, compN))
+        c1.append(_kijk_blok_betaald(prov, homeN, awayN, ctx.get("tv"), dt, compN, ctx.get("tv_extra")))
     elif free:
         c1.append(_kijk_blok_gratis(prov, homeN, awayN, ctx.get("tv"), dt,
                                     ctx.get("tv_extra"), ctx.get("tv_voorbeschouwing")))
@@ -431,7 +434,7 @@ def build_content(ctx):
     if free or paid:
         c3.append(_faq_gratis(homeN, awayN, compN, dt, ctx.get("tv"), ctx.get("tv_extra")) if free
                   else _faq_basis(homeN, awayN, compN, dt, ctx.get("tv")) if ctx.get("tv_basis")
-                  else _faq_betaald(homeN, awayN, compN, dt, ctx.get("tv")))
+                  else _faq_betaald(homeN, awayN, compN, dt, ctx.get("tv"), ctx.get("tv_extra")))
         c3.append(f'<p><a href="{prov["link"]}"><strong>Wed live mee op {esc(homeN)} – {esc(awayN)} bij '
                   f'{esc(prov["naam"])}</strong></a></p>')
     else:

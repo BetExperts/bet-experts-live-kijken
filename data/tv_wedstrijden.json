@@ -33,5 +33,11 @@
   "tv": "NPO 1",
   "gratis": true,
   "extra": "de NOS-app of NOS.nl"
+ },
+ "1545853": {
+  "wedstrijd": "Lesotho - Marokko",
+  "tv": "beIN Sports 1",
+  "extra": "beIN Sports Connect",
+  "bookmaker_stream": false
  }
 }

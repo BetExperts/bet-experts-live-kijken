@@ -136,8 +136,9 @@ def build_fielddata(ctx, league_cfg, slug=None):
         ctx["angle"] = angle_for_match(info, league_cfg["naam"])
     # Geen bookmaker-stream voor deze competitie + betaalde zender -> 'betaald'-variant
     # (geen 'gratis' in titel/slug/tekst; aanbieder alleen voor live meewedden).
-    ctx["tv_paid_only"] = (league_cfg.get("bookmaker_stream", True) is False
-                           and bool(ctx.get("tv")) and not ctx.get("tv_free"))
+    geen_stream = (league_cfg.get("bookmaker_stream", True) is False
+                   or (tv_match(ctx["fid"]) or {}).get("bookmaker_stream") is False)   # ook per wedstrijd
+    ctx["tv_paid_only"] = geen_stream and bool(ctx.get("tv")) and not ctx.get("tv_free")
     # zender zit in het basispakket (bv. ESPN 1): geen 'betaald abonnement'-tekst
     ctx["tv_basis"] = bool(league_cfg.get("tv_basis")) and ctx["tv_paid_only"]
     dt = ctx["dt"]
