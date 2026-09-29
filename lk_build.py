@@ -209,7 +209,7 @@ def _kijk_blok(prov, homeN, awayN, comp, tv=None):
     if prov.get("cast"):
         out.append(f"<p><strong>Wil je op groot scherm kijken?</strong> Cast de {esc(naam)}-stream via "
                     f"Chromecast, AirPlay of een HDMI-kabel naar je televisie — volledig gratis.</p>")
-    out.append(f'<p>👉 <a href="{link}"><strong>Maak een gratis {esc(naam)}-account aan en kijk '
+    out.append(f'<p><a href="{link}"><strong>Maak een gratis {esc(naam)}-account aan en kijk '
                f'{esc(homeN)} – {esc(awayN)} live</strong></a></p>')
     return "\n".join(out)
 
@@ -235,7 +235,7 @@ def _kijk_blok_gratis(prov, homeN, awayN, tv, dt, extra=None, voorbeschouwing=No
     out.append(f"<h3>Live meewedden op {M}</h3>")
     out.append(f"<p>Wil je tijdens de wedstrijd live meewedden? Bij {esc(prov['naam'])} volg je de actuele "
                f"live-odds van {M} en speel je in op het wedstrijdverloop.</p>")
-    out.append(f'<p>👉 <a href="{prov["link"]}"><strong>Open een account bij {esc(prov["naam"])} en wed live '
+    out.append(f'<p><a href="{prov["link"]}"><strong>Open een account bij {esc(prov["naam"])} en wed live '
                f'mee op {M}</strong></a></p>')
     return "\n".join(out)
 
@@ -256,7 +256,7 @@ def _kijk_blok_betaald(prov, homeN, awayN, tv, dt, comp):
     out.append(f"<h3>Live meewedden op {M}</h3>")
     out.append(f"<p>Wil je tijdens de wedstrijd live meewedden? Bij {esc(prov['naam'])} volg je de actuele "
                f"live-odds van {M} en speel je in op het wedstrijdverloop.</p>")
-    out.append(f'<p>👉 <a href="{prov["link"]}"><strong>Open een account bij {esc(prov["naam"])} en wed live '
+    out.append(f'<p><a href="{prov["link"]}"><strong>Open een account bij {esc(prov["naam"])} en wed live '
                f'mee op {M}</strong></a></p>')
     return "\n".join(out)
 
@@ -276,7 +276,7 @@ def _kijk_blok_basis(prov, homeN, awayN, tv, dt, comp):
     out.append(f"<h3>Live meewedden op {M}</h3>")
     out.append(f"<p>Wil je tijdens de wedstrijd live meewedden? Bij {esc(prov['naam'])} volg je de actuele "
                f"live-odds van {M} en speel je in op het wedstrijdverloop.</p>")
-    out.append(f'<p>👉 <a href="{prov["link"]}"><strong>Open een account bij {esc(prov["naam"])} en wed live '
+    out.append(f'<p><a href="{prov["link"]}"><strong>Open een account bij {esc(prov["naam"])} en wed live '
                f'mee op {M}</strong></a></p>')
     return "\n".join(out)
 
@@ -385,7 +385,7 @@ def build_content(ctx):
               f"{compLink}. {angle} {slot}</strong></p>")
     vb_url = ctx.get("vb_url")
     if vb_url:
-        c1.append(f'<p>📋 <strong>Lees ook:</strong> onze <a href="{vb_url}">uitgebreide voorbeschouwing van '
+        c1.append(f'<p><strong>Lees ook:</strong> onze <a href="{vb_url}">uitgebreide voorbeschouwing van '
                   f'{esc(homeN)} – {esc(awayN)}</a> met voorspelling, odds en de vermoedelijke opstellingen.</p>')
     if paid and ctx.get("tv_basis"):
         c1.append(_kijk_blok_basis(prov, homeN, awayN, ctx.get("tv"), dt, compN))
@@ -400,7 +400,7 @@ def build_content(ctx):
 
     # ---- CONTENT-2 (deel 2/3): wedstrijdinfo + over beide clubs ----
     c2 = []
-    c2.append("<h3>📅 Wedstrijdinformatie</h3>")
+    c2.append("<h3>Wedstrijdinformatie</h3>")
     info = (f"<strong>Wedstrijd:</strong> {esc(homeN)} – {esc(awayN)}<br>"
             f"<strong>Competitie:</strong> {esc(compN[:1].upper() + compN[1:])}{' – ' + esc(ctx['ronde_txt']) if ctx.get('ronde_txt') else ''}<br>"
             f"<strong>Datum:</strong> {datum}<br>"
@@ -421,24 +421,24 @@ def build_content(ctx):
               if (m.get("goals") or {}).get("home") is not None
               and (m.get("goals") or {}).get("away") is not None]
     if h2h_ok:
-        c3.append("<h3>🤝 Onderlinge duels</h3>")
+        c3.append("<h3>Onderlinge duels</h3>")
         c3.append("<p>De recente onderlinge geschiedenis tussen beide ploegen:</p>")
         c3.append("<ul>" + "".join("<li>"+esc(_h2h_line(m))+"</li>" for m in h2h_ok[:5]) + "</ul>")
     if vb_url:
-        c3.append(f'<p>👉 Meer analyse? Bekijk de <a href="{vb_url}">voorbeschouwing van '
+        c3.append(f'<p>Meer analyse? Bekijk de <a href="{vb_url}">voorbeschouwing van '
                   f'{esc(homeN)} – {esc(awayN)}</a> met onze voorspelling en de opstellingen.</p>')
-    c3.append("<h3>❓ Veelgestelde vragen</h3>")
+    c3.append("<h3>Veelgestelde vragen</h3>")
     if free or paid:
         c3.append(_faq_gratis(homeN, awayN, compN, dt, ctx.get("tv"), ctx.get("tv_extra")) if free
                   else _faq_basis(homeN, awayN, compN, dt, ctx.get("tv")) if ctx.get("tv_basis")
                   else _faq_betaald(homeN, awayN, compN, dt, ctx.get("tv")))
-        c3.append(f'<p>👉 <a href="{prov["link"]}"><strong>Wed live mee op {esc(homeN)} – {esc(awayN)} bij '
+        c3.append(f'<p><a href="{prov["link"]}"><strong>Wed live mee op {esc(homeN)} – {esc(awayN)} bij '
                   f'{esc(prov["naam"])}</strong></a></p>')
     else:
         c3.append(_faq(homeN, awayN, compN, dt, prov, ctx.get("tv")))
-        c3.append(f'<p>👉 <a href="{prov["link"]}"><strong>Kijk {esc(homeN)} – {esc(awayN)} gratis live via '
+        c3.append(f'<p><a href="{prov["link"]}"><strong>Kijk {esc(homeN)} – {esc(awayN)} gratis live via '
                   f'{esc(prov["naam"])}</strong></a></p>')
-    c3.append(f'<p>📺 <a href="{HUB_PATH}"><strong>'
+    c3.append(f'<p><a href="{HUB_PATH}"><strong>'
               + ("Bekijk alle wedstrijden die je live kunt kijken" if paid
                  else "Bekijk alle wedstrijden die je gratis live kunt kijken")
               + '</strong></a></p>')
