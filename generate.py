@@ -8,6 +8,7 @@ import sys, os, argparse
 from datetime import datetime, timedelta
 import lk_api as api
 import lk_match as M
+import lk_og as OG
 import lk_build as B
 from lk_config import LEAGUES, BASE, WEBFLOW_TOKEN, is_topper, tv_match
 from tvgids import TvGids
@@ -106,11 +107,16 @@ def main():
                 print(f"     ↳ voorbeschouwing gelinkt: {ctx['vb_url']}")
             if a.preview:
                 p = write_preview(fd, title); print(f"  ✎ preview: {p}")
+                og = OG.make(M.LAST_CTX, cfg, "preview-" + slug)
+                if og: print(f"  ✎ afbeelding: {og}")
             elif a.dry:
                 print(f"  ○ zou {'bijwerken' if exists else 'maken'}: {title}  [{ctx['prov']['naam']}]")
             elif exists and a.update:
                 WF.update_live(state[fid]["item_id"], fd)
-                state[fid]["provider"] = ctx["prov"]["naam"]; WF.save_state(state)
+                state[fid]["provider"] = ctx["prov"]["naam"]
+                og = OG.make(M.LAST_CTX, cfg, slug)
+                if og: state[fid]["og"] = og
+                WF.save_state(state)
                 print(f"  ↻ bijgewerkt: {title}  (item {state[fid]['item_id']}) [{ctx['prov']['naam']}]")
             else:
                 item_id = WF.create_live(fd)
@@ -118,6 +124,8 @@ def main():
                               "match": f"{ctx['homeN']} - {ctx['awayN']}", "date": ymd,
                               "league": cfg["worker_slug"], "provider": ctx["prov"]["naam"],
                               "home_id": str(ctx["homeId"]), "away_id": str(ctx["awayId"])}
+                og = OG.make(M.LAST_CTX, cfg, slug)
+                if og: state[fid]["og"] = og
                 WF.save_state(state)
                 print(f"  ✔ live: {title}  (item {item_id}) [{ctx['prov']['naam']}]")
             made += 1

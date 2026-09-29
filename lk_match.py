@@ -84,6 +84,7 @@ def gather(fx, standings=None, force_provider=None):
 
     return {
         "fid": fid, "homeId": homeId, "awayId": awayId, "homeN": homeN, "awayN": awayN,
+        "homeApi": home.get("name"), "awayApi": away.get("name"),   # Engelse API-naam (voor de vlag)
         "hSlug": club_slug(homeId, homeN), "aSlug": club_slug(awayId, awayN),
         "compSlug": None, "compN": None,   # ingevuld door build_fielddata (league config)
         "dt": dt, "venue": ven.get("name"), "city": ven.get("city") or "",
@@ -93,6 +94,8 @@ def gather(fx, standings=None, force_provider=None):
         "h2h": api.h2h(homeId, awayId),
         "prov": provider_for(fid, force_provider),
     }
+
+LAST_CTX = None
 
 def build_fielddata(ctx, league_cfg, slug=None):
     import random
@@ -165,4 +168,6 @@ def build_fielddata(ctx, league_cfg, slug=None):
         fd["rubriek"] = RUBRIEK_ID
     if league_cfg.get("comp_id"):
         fd["competitie"] = league_cfg["comp_id"]
+    global LAST_CTX
+    LAST_CTX = ctx          # volledige context (zender, aanbieder) voor de deelafbeelding
     return fd, slug, title

@@ -141,11 +141,11 @@ LEAGUES = [
     # {aanbieder}' beloven; de aanbieder staat er alleen voor live meewedden.
     # tv_per_match: afwijkende zender per wedstrijd uit data/tv_wedstrijden.json (NPO, Ziggo Sport 1),
     # anders tv_default.
-    {"worker_slug": "nations-league", "comp_slug": "uefa-nations-league", "naam": "Nations League",
+    {"worker_slug": "nations-league", "landen": True, "comp_slug": "uefa-nations-league", "naam": "Nations League",
      "comp_id": "66d5a7f7fb9f23ce90376ef4", "force_provider": "bet365",
      "tv_per_match": True, "tv_default": {"tv": "Ziggo Sport"}, "bookmaker_stream": False},
     # Afrika Cup-kwalificatie: alleen Marokko; niet op NL-tv, wel live bij Bet365 (volgens gebruiker)
-    {"worker_slug": "afrika-cup-kwalificatie", "comp_slug": "afrika-cup-of-nations",
+    {"worker_slug": "afrika-cup-kwalificatie", "landen": True, "comp_slug": "afrika-cup-of-nations",
      "naam": "Afrika Cup-kwalificatie", "comp_id": "6926ce5a5247b7619744eb7c", "tv": None,
      "force_provider": "bet365", "toppers_only": True, "top_teams": ["morocco"], "top_teams_nl": ["marokko"],
      "angle": ("Veel Marokkaanse voetbalfans in Nederland willen de Leeuwen van de Atlas live volgen, "
@@ -153,7 +153,7 @@ LEAGUES = [
      "angle_other": ("De kwalificatie voor de Afrika Cup is in Nederland niet op de reguliere tv te zien, "
                      "maar je kunt dit duel wel gratis live streamen.")},
     # CONCACAF Nations League: alleen op verzoek (manual_only). Niet op NL-tv; stream per wedstrijd via --provider.
-    {"worker_slug": "concacaf-nations-league", "comp_slug": "concacaf-nations-league",
+    {"worker_slug": "concacaf-nations-league", "landen": True, "comp_slug": "concacaf-nations-league",
      "naam": "CONCACAF Nations League", "comp_id": "67d94eb39a4451a4d52c444c", "tv": None,
      "force_provider": "bet365", "manual_only": True,
      "angle": ("Met onder meer Suriname, Curaçao, Aruba en Bonaire spelen er in de CONCACAF Nations League "
@@ -161,14 +161,14 @@ LEAGUES = [
                "reguliere tv te zien.")},
     # EK onder 21-kwalificatie: alleen Jong Oranje. Live op ESPN 1 (basispakket bij de meeste
     # tv-aanbieders). Geen bookmaker-stream beloven; aanbieder alleen voor live meewedden.
-    {"worker_slug": "u21-ek-kwalificatie", "comp_slug": "ek-onder-21-kwalificatie",
+    {"worker_slug": "u21-ek-kwalificatie", "landen": True, "comp_slug": "ek-onder-21-kwalificatie",
      "naam": "EK onder 21-kwalificatie", "comp_id": "6abaf551b3633bce07b3312c", "tv": "ESPN 1",
      "bookmaker_stream": False, "tv_basis": True, "geen_ronde": True,
      "toppers_only": True, "top_teams": ["netherlands u21"],
      "angle": ("De EK-kwalificatieduels van Jong Oranje worden in Nederland live uitgezonden door ESPN.")},
     # Oefeninterlands: alleen op verzoek (manual_only -> niet in de nachtelijke run),
     # via --league friendlies --fixture <id>. Aanbieder volgt waaroptv.nl (bv. 711).
-    {"worker_slug": "friendlies", "comp_slug": "int-vriendschappelijke-wedstrijden",
+    {"worker_slug": "friendlies", "landen": True, "comp_slug": "int-vriendschappelijke-wedstrijden",
      "naam": "oefeninterland", "comp_id": "65f9b20c402bb844e2ad0bf4", "tv": None,
      "force_provider": "711", "manual_only": True, "lidwoord": "een", "geen_ronde": True,
      "angle": ("Deze oefeninterland is in Nederland niet op de reguliere tv te zien, "
