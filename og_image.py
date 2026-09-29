@@ -257,7 +257,7 @@ def render_opstelling(info):
     # thuis
     hl, hk = info.get("home_logo") or (None, None)
     if hl is not None:
-        r = paste_fit(img, hl, (100, 110, 148, 140), radius=3 if hk == "flag" else 0)
+        r = paste_fit(img, hl, (100, 110, 148, 140) if hk == "flag" else (104, 105, 144, 145), radius=3 if hk == "flag" else 0)
         if hk == "flag":
             rrect(d, r, 3, outline=(255, 255, 255, 40), width=1)
     fh = fit_font(info["home"], POP_B, 28, room - pw_h, 16)
@@ -266,7 +266,7 @@ def render_opstelling(info):
     # uit
     al, ak = info.get("away_logo") or (None, None)
     if al is not None:
-        r = paste_fit(img, al, (1052, 110, 1100, 140), radius=3 if ak == "flag" else 0)
+        r = paste_fit(img, al, (1052, 110, 1100, 140) if ak == "flag" else (1056, 105, 1096, 145), radius=3 if ak == "flag" else 0)
         if ak == "flag":
             rrect(d, r, 3, outline=(255, 255, 255, 40), width=1)
     fa = fit_font(info["away"], POP_B, 28, room - pw_a, 16)
