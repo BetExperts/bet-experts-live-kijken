@@ -4,7 +4,8 @@ import re
 from datetime import datetime, timezone
 import lk_api as api
 import lk_build as B
-from lk_config import club_slug, provider_for, RUBRIEK_ID, tv_for, nl_name, tv_match, angle_for_match
+from lk_config import (club_slug, provider_for, RUBRIEK_ID, tv_for, nl_name, tv_match, angle_for_match,
+                       stadion_nl, PROVIDERS, LANDEN_NL)
 from tvgids import tv_label
 
 _ROUND_NL = {
@@ -28,14 +29,36 @@ def _ronde_label(round_raw, ronde_num):
             return v[0].upper() + v[1:]
     return round_raw or "Wedstrijd"
 
-def _form_string(team_id):
-    """Leidt W/D/L-vorm (laatste 5, chronologisch) af uit /api/team-form."""
+# Clubnaam-kenmerken: een landenteam dat (in een oefenduel) tegen een club speelde.
+_CLUB_RE = re.compile(r"\b(fc|cf|sc|ac|as|afc|sv|fk|sk|bk|if|cd|ud|sd|club|united|city|real|sporting|"
+                      r"athletic|atletico|atlético|deportivo|inter|olympique|borussia|dynamo|dinamo|"
+                      r"spartak|lokomotiv|rapid|calcio)\b", re.I)
+
+def _club_duel(f, team_id):
+    """True als dit een duel tegen een club is (alleen relevant voor landenteams)."""
+    lg = f.get("league", {}) or {}
+    if "club" in (lg.get("name") or "").lower():          # bv. 'Friendlies Clubs'
+        return True
+    t = f.get("teams", {}) or {}
+    home = str((t.get("home") or {}).get("id")) == str(team_id)
+    opp = ((t.get("away") if home else t.get("home")) or {}).get("name") or ""
+    if opp in LANDEN_NL or re.search(r"\bU\d{2}$", opp):   # bekend land (bv. 'United Arab Emirates')
+        return False
+    return bool(_CLUB_RE.search(opp))
+
+def _done(team_id, landen=False):
+    """Afgeronde duels (chronologisch); bij landenteams zonder duels tegen clubs."""
     fixtures = api.team_form(team_id)
     done = [f for f in fixtures
-            if ((f.get("fixture", {}).get("status", {}) or {}).get("short") in ("FT","AET","PEN"))]
+            if ((f.get("fixture", {}).get("status", {}) or {}).get("short") in ("FT", "AET", "PEN"))
+            and not (landen and _club_duel(f, team_id))]
     done.sort(key=lambda f: f.get("fixture", {}).get("date", ""))
+    return done
+
+def _form_string(team_id, landen=False):
+    """Leidt W/D/L-vorm (laatste 5, chronologisch) af uit /api/team-form."""
     out = ""
-    for f in done[-5:]:
+    for f in _done(team_id, landen)[-5:]:
         t = f.get("teams", {}); g = f.get("goals", {})
         gh, ga = g.get("home"), g.get("away")
         if gh is None or ga is None: continue
@@ -44,14 +67,11 @@ def _form_string(team_id):
         out += "W" if my > opp else ("L" if my < opp else "D")
     return out
 
-def recent_results(team_id, n=5):
-    """Laatste n afgeronde resultaten (chronologisch): tegenstander + score + uitslag."""
-    fixtures = api.team_form(team_id)
-    done = [f for f in fixtures
-            if ((f.get("fixture", {}).get("status", {}) or {}).get("short") in ("FT", "AET", "PEN"))]
-    done.sort(key=lambda f: f.get("fixture", {}).get("date", ""))
+def recent_results(team_id, n=5, landen=False):
+    """Laatste n afgeronde resultaten (chronologisch): tegenstander + score + uitslag.
+    landen=True: duels van een landenteam tegen clubs tellen niet mee."""
     out = []
-    for f in done[-n:]:
+    for f in _done(team_id, landen)[-n:]:
         t = f.get("teams", {}); g = f.get("goals", {})
         gh, ga = g.get("home"), g.get("away")
         if gh is None or ga is None:
@@ -64,7 +84,7 @@ def recent_results(team_id, n=5):
                     "outcome": outcome, "date": (f.get("fixture", {}).get("date", "") or "")[:10]})
     return out
 
-def gather(fx, standings=None, force_provider=None):
+def gather(fx, standings=None, force_provider=None, landen=False):
     fixture = fx.get("fixture", {}); teams = fx.get("teams", {}); league = fx.get("league", {})
     fid = fixture.get("id")
     home = teams.get("home", {}); away = teams.get("away", {})
@@ -79,18 +99,18 @@ def gather(fx, standings=None, force_provider=None):
 
     standings = standings or {}
     hRow = standings.get(str(homeId)); aRow = standings.get(str(awayId))
-    hForm = (hRow or {}).get("form") or _form_string(homeId)
-    aForm = (aRow or {}).get("form") or _form_string(awayId)
+    hForm = (hRow or {}).get("form") or _form_string(homeId, landen)
+    aForm = (aRow or {}).get("form") or _form_string(awayId, landen)
 
     return {
         "fid": fid, "homeId": homeId, "awayId": awayId, "homeN": homeN, "awayN": awayN,
         "homeApi": home.get("name"), "awayApi": away.get("name"),   # Engelse API-naam (voor de vlag)
         "hSlug": club_slug(homeId, homeN), "aSlug": club_slug(awayId, awayN),
         "compSlug": None, "compN": None,   # ingevuld door build_fielddata (league config)
-        "dt": dt, "venue": ven.get("name"), "city": ven.get("city") or "",
+        "dt": dt, "venue": stadion_nl(ven.get("name")), "city": ven.get("city") or "",
         "referee": fixture.get("referee"), "ronde": ronde, "ronde_txt": ronde_txt,
         "hRow": hRow, "aRow": aRow, "hForm": hForm, "aForm": aForm,
-        "hResults": recent_results(homeId), "aResults": recent_results(awayId),
+        "hResults": recent_results(homeId, landen=landen), "aResults": recent_results(awayId, landen=landen),
         "h2h": api.h2h(homeId, awayId),
         "prov": provider_for(fid, force_provider),
     }
@@ -135,9 +155,17 @@ def build_fielddata(ctx, league_cfg, slug=None):
             or bool(ctx["tv"]) != bool(default.get("tv")) or not ctx["angle"]):
         ctx["angle"] = angle_for_match(info, league_cfg["naam"])
     # Geen bookmaker-stream voor deze competitie + betaalde zender -> 'betaald'-variant
-    # (geen 'gratis' in titel/slug/tekst; aanbieder alleen voor live meewedden).
+    # (geen 'gratis' in titel/tekst; aanbieder alleen voor live meewedden).
     geen_stream = (league_cfg.get("bookmaker_stream", True) is False
                    or (tv_match(ctx["fid"]) or {}).get("bookmaker_stream") is False)   # ook per wedstrijd
+    # ...tenzij de tv-gids (waaroptv) een van onze aanbieders als stream bij deze wedstrijd noemt:
+    # dan tonen we die stream wél (bij voorkeur de gekozen aanbieder, anders de genoemde).
+    gids_prov = [p for p in ((card or {}).get("providers") or []) if p in PROVIDERS]
+    if geen_stream and gids_prov:
+        if ctx["prov"]["naam"].lower() not in gids_prov:
+            ctx["prov"] = PROVIDERS[gids_prov[0]]
+        geen_stream = False
+        ctx["stream_bron"] = "waaroptv"
     ctx["tv_paid_only"] = geen_stream and bool(ctx.get("tv")) and not ctx.get("tv_free")
     # zender zit in het basispakket (bv. ESPN 1): geen 'betaald abonnement'-tekst
     ctx["tv_basis"] = bool(league_cfg.get("tv_basis")) and ctx["tv_paid_only"]
@@ -145,9 +173,12 @@ def build_fielddata(ctx, league_cfg, slug=None):
     content, content2, content3 = B.build_content(ctx)
     title = B.build_title(ctx["homeN"], ctx["awayN"], dt, paid_tv=ctx["tv"] if ctx["tv_paid_only"] else None,
                           free_tv=ctx["tv"] if ctx.get("tv_free") else None)
+    stream = not ctx["tv_paid_only"] and not ctx.get("tv_free")
     samenvatting = B.build_samenvatting(ctx["homeN"], ctx["awayN"], league_cfg["naam"], dt,
                                         ctx["prov"]["naam"], free_tv=ctx["tv"] if ctx.get("tv_free") else None,
-                                        paid_tv=ctx["tv"] if ctx["tv_paid_only"] else None)
+                                        paid_tv=ctx["tv"] if ctx["tv_paid_only"] else None,
+                                        stream_tv=ctx["tv"] if stream else None,
+                                        deposit=ctx["prov"].get("deposit", True))
     if not slug:
         hs = ctx["hSlug"] or B.slugify(ctx["homeN"]); as_ = ctx["aSlug"] or B.slugify(ctx["awayN"])
         slug = B.build_slug(hs, as_, dt, gratis=True)   # 'gratis' altijd in de slug (wens gebruiker)

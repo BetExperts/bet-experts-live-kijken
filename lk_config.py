@@ -115,20 +115,20 @@ LEAGUES = [
      "top_teams": ["real madrid", "barcelona", "atletico madrid", "atlético madrid", "athletic",
                    "real sociedad", "sevilla", "real betis", "villarreal", "valencia"],
      "angle": ("La Liga is in Nederland te zien op Ziggo Sport, maar daarvoor heb je een betaald "
-               "abonnement nodig. Zonder abonnement kun je dit Spaanse topduel ook volledig gratis streamen.")},
+               "abonnement nodig. Zonder abonnement kun je dit Spaanse topduel ook gratis live meekijken.")},
     {"worker_slug": "jupiler-pro-league", "comp_slug": "jupiler-pro-league", "naam": "Jupiler Pro League",
      "comp_id": "65de4c16dd6eb829e1867f4b", "tv": "DAZN",
      "force_provider": "711", "toppers_only": True,
      "top_teams": ["club brugge", "anderlecht", "genk", "antwerp", "gent", "standard", "union st"],
      "angle": ("De Jupiler Pro League is in Nederland alleen te zien op DAZN, waarvoor je een betaald "
-               "account nodig hebt. Bij 711 kijk je dit Belgische topduel volledig gratis met een account.")},
+               "account nodig hebt. Bij 711 kijk je dit Belgische topduel gratis mee met een account.")},
     {"worker_slug": "serie-a", "comp_slug": "serie-a", "naam": "Serie A",
      "comp_id": "65de2f987de877fdf6583d0c", "tv": "Ziggo Sport",
      "force_provider": "bet365", "toppers_only": True,
      "top_teams": ["juventus", "inter", "milan", "napoli", "roma", "lazio", "atalanta", "fiorentina"],
      "angle": ("Serie A is in Nederland te zien op Ziggo Sport, maar daarvoor heb je een betaald "
-               "abonnement nodig. Bet365 is de enige bookmaker in Nederland die álle Serie A-wedstrijden "
-               "gratis livestreamt — zo kijk je dit Italiaanse topduel zonder abonnement en zonder kosten.")},
+               "abonnement nodig. Bet365 streamt de Serie A live: met een gestort account kijk je dit "
+               "Italiaanse topduel zonder abonnement mee.")},
     {"worker_slug": "efl-cup", "comp_slug": "efl-cup", "naam": "EFL Cup",
      "comp_id": "66cc403600c5cbae73af3c82", "tv": "Viaplay",
      "force_provider": "bet365", "toppers_only": True,
@@ -137,8 +137,10 @@ LEAGUES = [
      "angle": ("De EFL Cup (Carabao Cup) wordt in Nederland uitgezonden door Viaplay, waarvoor je een "
                "abonnement nodig hebt. Zonder abonnement volg je dit Engelse bekerduel gewoon gratis.")},
     # Nations League: alle duels zijn te zien op Ziggo Sport (betaald); Oranje gratis op NPO.
-    # GEEN bookmaker streamt de Nations League -> bookmaker_stream=False: nooit 'gratis via
-    # {aanbieder}' beloven; de aanbieder staat er alleen voor live meewedden.
+    # bookmaker_stream=False: standaard geen stream beloven en de aanbieder alleen voor live
+    # meewedden noemen. Uitzondering: noemt de tv-gids (waaroptv) een van onze aanbieders als
+    # stream bij die wedstrijd, dan tonen we die stream wel (zie lk_match.build_fielddata).
+    # We schrijven nooit dat 'geen enkele bookmaker' een duel uitzendt.
     # tv_per_match: afwijkende zender per wedstrijd uit data/tv_wedstrijden.json (NPO, Ziggo Sport 1),
     # anders tv_default.
     {"worker_slug": "nations-league", "landen": True, "comp_slug": "uefa-nations-league", "naam": "Nations League",
@@ -210,6 +212,29 @@ def _load(fn):
 TID_SLUG  = _load("tid_slug.json")               # API team-id -> website club-slug
 CLUB_NAME = _load("club_name_slug_filled.json")  # clubnaam -> slug (gevulde clubs)
 LANDEN_NL = _load("landen_nl.json")              # Engelse API-landnaam -> Nederlandse naam
+_LANDEN_LOW = {k.lower(): v for k, v in LANDEN_NL.items()}   # API levert soms 'andorra'
+# API-stadionnaam -> Nederlandse naam (null = onbetrouwbaar, weglaten). Zelfde bestand als in
+# ../opstellingen-agent/data/stadions_nl.json.
+STADIONS_NL = {k: v for k, v in _load("stadions_nl.json").items() if not k.startswith("_")}
+
+def _stadion_key(s):
+    import unicodedata, re
+    s = unicodedata.normalize("NFKD", s or "").encode("ascii", "ignore").decode().lower()
+    return re.sub(r"[^a-z0-9]+", " ", s).strip()
+_STADIONS_KEY = {_stadion_key(k): v for k, v in STADIONS_NL.items()}
+
+def stadion_nl(name):
+    """Stadionnaam zoals Nederlanders hem kennen; None als de API-naam als onbetrouwbaar is
+    gemarkeerd (dan valt de tekst terug op de stad). Onbekend -> ongewijzigd."""
+    name = (name or "").strip()
+    if not name:
+        return None
+    if name in STADIONS_NL:
+        return STADIONS_NL[name] or None
+    key = _stadion_key(name)
+    if key in _STADIONS_KEY:
+        return _STADIONS_KEY[key] or None
+    return name
 
 def nl_name(name):
     """Vertaal een landenteam-naam naar het Nederlands (clubs blijven ongemoeid).
@@ -219,7 +244,7 @@ def nl_name(name):
         if base == "Netherlands":
             return "Jong Oranje"
         return "Jong " + LANDEN_NL.get(base, LANDEN_NL.get(base.replace("-", " & "), base))
-    return LANDEN_NL.get(name, name)
+    return LANDEN_NL.get(name) or _LANDEN_LOW.get((name or "").lower(), name)
 
 def club_slug(team_id, name=None):
     s = TID_SLUG.get(str(team_id))

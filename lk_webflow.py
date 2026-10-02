@@ -1,7 +1,7 @@
 # -*- coding: utf-8 -*-
 """Webflow CMS: aanmaken (+publiceren) en verwijderen van items,
 plus een lokaal state-bestand fixture-id -> item-id."""
-import json, os, time, urllib.request, urllib.error
+import json, os, re, time, urllib.request, urllib.error
 from lk_config import WEBFLOW_TOKEN, NIEUWS_COLLECTION, WF_API, BASE
 
 STATE = os.path.join(BASE, "state", "live-kijken.json")
@@ -48,6 +48,51 @@ def update_live(item_id, field_data):
     """Werk een bestaand item bij EN publiceer het opnieuw."""
     return _req("PATCH", f"{WF_API}/collections/{NIEUWS_COLLECTION}/items/{item_id}/live",
                 {"fieldData": field_data})
+
+def get_item(item_id, live=False):
+    """Huidig item (staged, of de live-versie) of {} als het niet bestaat."""
+    return _req("GET", f"{WF_API}/collections/{NIEUWS_COLLECTION}/items/{item_id}" + ("/live" if live else ""))
+
+# ---------- 'Meer over'-blok van ../opstellingen-agent/crosslink.py behouden ----------
+# Zelfde patronen als crosslink.py: bij een --update herschrijft generate.py de content volledig,
+# dus zetten we een bestaand blok terug op dezelfde plek als crosslink het zou zetten.
+CL_SPACER = "<p>\u200d</p>"
+CL_BLOCK_RE = re.compile(r"(?:<p>\u200d</p>)?<p>(?:🔗 )?<strong>Meer over .*?</p>", re.S)
+CL_LEES_OOK_RE = re.compile(r"<p>(?:📋 )?<strong>Lees ook:</strong>.*?</p>", re.S)
+CL_FIELDS = ("content", "content-2", "content-3")
+
+def _cl_place(html, block):
+    """Vervang een 'Lees ook'-alinea door het blok, of zet het na de intro-alinea (als crosslink.place)."""
+    html = html or ""
+    if CL_LEES_OOK_RE.search(html):
+        return CL_LEES_OOK_RE.sub(lambda m: block, html, count=1)
+    for m in re.finditer(r"<p>(.*?)</p>", html, re.S):
+        if len(re.sub(r"<[^>]+>", "", m.group(1))) > 150:   # intro-alinea
+            return html[:m.end()] + block + html[m.end():]
+    return None
+
+def behoud_meer_over(item_id, field_data):
+    """Haalt het bestaande 'Meer over'-blok uit het huidige CMS-item en zet het terug in de nieuwe
+    field_data (zelfde veld). Retourneert True als er een blok is teruggezet."""
+    for live in (False, True):
+        try:
+            old = (get_item(item_id, live=live) or {}).get("fieldData") or {}
+        except Exception:
+            continue
+        for f in CL_FIELDS:
+            m = CL_BLOCK_RE.search(old.get(f) or "")
+            if not m:
+                continue
+            if CL_BLOCK_RE.search(field_data.get(f) or ""):
+                return True                       # zit er al in
+            new = _cl_place(field_data.get(f), m.group(0))
+            if new is None and f != "content":
+                new = _cl_place(field_data.get("content"), m.group(0)); f = "content"
+            if new is None:
+                return False
+            field_data[f] = new
+            return True
+    return False
 
 def delete_item(item_id):
     try:

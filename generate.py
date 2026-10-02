@@ -108,7 +108,8 @@ def main():
             exists = fid in state
             if exists and not (a.update or a.preview or a.dry):
                 print(f"  · overslaan (bestaat al): {fid}"); continue
-            ctx = M.gather(fx, standings=stand, force_provider=a.provider or cfg.get("force_provider"))
+            ctx = M.gather(fx, standings=stand, force_provider=a.provider or cfg.get("force_provider"),
+                           landen=bool(cfg.get("landen")))
             ctx["vb_url"] = None if a.geen_voorbeschouwing else WF.voorbeschouwing_url(vb_idx, ctx["fid"], ctx["homeId"], ctx["awayId"])
             ctx["tvgids"] = None if a.geen_tv else gids.lookup(ctx["homeN"], ctx["awayN"], ctx["dt"])
             c = ctx["tvgids"]
@@ -119,6 +120,9 @@ def main():
                             [b.lower().replace(' sport', '') for b in c['bookmakers']] else ""))
             keep_slug = state[fid]["slug"] if exists else None   # URL niet breken bij update
             fd, slug, title = M.build_fielddata(ctx, cfg, slug=keep_slug)
+            prov = M.LAST_CTX["prov"]   # kan door de tv-gids zijn aangepast (stream bij een andere aanbieder)
+            if prov is not ctx["prov"]:
+                print(f"     ↳ stream volgens waaroptv bij {prov['naam']} (i.p.v. {ctx['prov']['naam']})")
             if ctx["vb_url"]:
                 print(f"     ↳ voorbeschouwing gelinkt: {ctx['vb_url']}")
             if a.preview:
@@ -126,26 +130,29 @@ def main():
                 og = OG.make(M.LAST_CTX, cfg, "preview-" + slug)
                 if og: print(f"  ✎ afbeelding: {og}")
             elif a.dry:
-                print(f"  ○ zou {'bijwerken' if exists else 'maken'}: {title}  [{ctx['prov']['naam']}]")
+                print(f"  ○ zou {'bijwerken' if exists else 'maken'}: {title}  [{prov['naam']}]")
             elif exists and a.update:
+                # 'Meer over'-blok (crosslink.py van de opstellingen-agent) niet wissen
+                if WF.behoud_meer_over(state[fid]["item_id"], fd):
+                    print("     ↳ 'Meer over'-blok behouden")
                 WF.update_live(state[fid]["item_id"], fd)
-                state[fid]["provider"] = ctx["prov"]["naam"]
+                state[fid]["provider"] = prov["naam"]
                 og = OG.make(M.LAST_CTX, cfg, slug)
                 if og: state[fid]["og"] = og
                 WF.save_state(state)
-                print(f"  ↻ bijgewerkt: {title}  (item {state[fid]['item_id']}) [{ctx['prov']['naam']}]")
+                print(f"  ↻ bijgewerkt: {title}  (item {state[fid]['item_id']}) [{prov['naam']}]")
             else:
                 item_id = WF.create_draft(fd) if a.draft else WF.create_live(fd)
                 state[fid] = {"item_id": item_id, "slug": slug,
                               "match": f"{ctx['homeN']} - {ctx['awayN']}", "date": ymd,
-                              "league": cfg["worker_slug"], "provider": ctx["prov"]["naam"],
+                              "league": cfg["worker_slug"], "provider": prov["naam"],
                               "home_id": str(ctx["homeId"]), "away_id": str(ctx["awayId"])}
                 if a.draft:
                     state[fid]["draft"] = True
                 og = OG.make(M.LAST_CTX, cfg, slug)
                 if og: state[fid]["og"] = og
                 WF.save_state(state)
-                print(f"  ✔ {'concept' if a.draft else 'live'}: {title}  (item {item_id}) [{ctx['prov']['naam']}]")
+                print(f"  ✔ {'concept' if a.draft else 'live'}: {title}  (item {item_id}) [{prov['naam']}]")
             made += 1
             if a.limit and made >= a.limit: break
         if a.limit and made >= a.limit: break
