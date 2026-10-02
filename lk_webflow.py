@@ -44,6 +44,10 @@ def create_draft(field_data):
         return res["id"]
     raise RuntimeError(f"Onverwachte create-respons: {json.dumps(res)[:200]}")
 
+def update_staged(item_id, field_data):
+    """Alleen de conceptversie bijwerken (niet publiceren)."""
+    return _req("PATCH", f"{WF_API}/collections/{NIEUWS_COLLECTION}/items/{item_id}", {"fieldData": field_data})
+
 def update_live(item_id, field_data):
     """Werk een bestaand item bij EN publiceer het opnieuw."""
     return _req("PATCH", f"{WF_API}/collections/{NIEUWS_COLLECTION}/items/{item_id}/live",

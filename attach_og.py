@@ -27,7 +27,7 @@ def main():
         if dry:
             print(f"  ○ {e['slug']} <- {url}"); continue
         try:
-            WF.update_live(e["item_id"], {"afbeelding": img, "seo-afbeelding": img})
+            (WF.update_staged if e.get("draft") else WF.update_live)(e["item_id"], {"afbeelding": img, "seo-afbeelding": img})   # concepten niet publiceren
             e["og_done"] = e["og"]; WF.save_state(state)
             print(f"  ✔ {e['slug']}")
         except Exception as ex:
