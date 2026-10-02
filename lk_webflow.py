@@ -36,6 +36,14 @@ def create_live(field_data):
         if items: return items[0].get("id")
     raise RuntimeError(f"Onverwachte create-respons: {json.dumps(res)[:200]}")
 
+def create_draft(field_data):
+    """Als concept (staged, niet gepubliceerd) aanmaken: de gebruiker plant het zelf in."""
+    body = {"isArchived": False, "isDraft": True, "fieldData": field_data}
+    res = _req("POST", f"{WF_API}/collections/{NIEUWS_COLLECTION}/items", body)
+    if isinstance(res, dict) and res.get("id"):
+        return res["id"]
+    raise RuntimeError(f"Onverwachte create-respons: {json.dumps(res)[:200]}")
+
 def update_live(item_id, field_data):
     """Werk een bestaand item bij EN publiceer het opnieuw."""
     return _req("PATCH", f"{WF_API}/collections/{NIEUWS_COLLECTION}/items/{item_id}/live",

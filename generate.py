@@ -4,7 +4,7 @@
   python3 generate.py --date 2026-09-14 --preview    # HTML-previews wegschrijven
   python3 generate.py --date 2026-09-14              # live aanmaken + publiceren
 Zonder --date: morgen (Europe/Amsterdam)."""
-import sys, os, argparse
+import sys, os, argparse, json
 from datetime import datetime, timedelta
 import lk_api as api
 import lk_match as M
@@ -22,6 +22,20 @@ def target_date(arg):
 def match_on_date(fx, ymd):
     dt = B._local(fx.get("fixture", {}).get("date"))
     return f"{dt.year}-{dt.month:02d}-{dt.day:02d}" == ymd
+
+def apply_override(fx):
+    """data/fixture_overrides.json: correcties als de API achterloopt (bv. een gewijzigde tegenstander)."""
+    try:
+        ov = json.load(open(os.path.join(BASE, "data", "fixture_overrides.json"))).get(str(fx.get("fixture", {}).get("id")))
+    except (OSError, ValueError):
+        ov = None
+    if ov:
+        for side in ("home", "away"):
+            if ov.get(side):
+                fx.setdefault("teams", {})[side] = {**fx.get("teams", {}).get(side, {}), **ov[side]}
+        if ov.get("venue"):
+            fx.setdefault("fixture", {})["venue"] = ov["venue"]
+    return fx
 
 def write_preview(fd, title):
     os.makedirs(os.path.join(BASE, "preview"), exist_ok=True)
@@ -45,6 +59,7 @@ def main():
     ap.add_argument("--fixture", help="alleen deze fixture-id(s), komma-gescheiden")
     ap.add_argument("--provider", help="aanbieder forceren (toto/bet365/711), overschrijft de competitie-config")
     ap.add_argument("--geen-tv", action="store_true", help="niet op NL-tv: tv-gids (waaroptv) negeren")
+    ap.add_argument("--draft", action="store_true", help="als concept aanmaken (niet publiceren), bv. om zelf in te plannen")
     ap.add_argument("--geen-voorbeschouwing", action="store_true", help="geen link naar een voorbeschouwing (bv. 2e duel tussen dezelfde landen)")
     a = ap.parse_args()
     ymd = target_date(a.date)
@@ -69,6 +84,7 @@ def main():
     for cfg in [c for c in LEAGUES if (c["worker_slug"] == a.league if a.league else not c.get("manual_only"))]:
         resp = api.fixtures(cfg["worker_slug"])
         ups = (resp.get("upcoming") or [])
+        ups = [apply_override(fx) for fx in ups]
         day = [fx for fx in ups if match_on_date(fx, ymd)]
         if only:
             day = [fx for fx in day if str(fx.get("fixture", {}).get("id")) in only]
@@ -119,15 +135,17 @@ def main():
                 WF.save_state(state)
                 print(f"  ↻ bijgewerkt: {title}  (item {state[fid]['item_id']}) [{ctx['prov']['naam']}]")
             else:
-                item_id = WF.create_live(fd)
+                item_id = WF.create_draft(fd) if a.draft else WF.create_live(fd)
                 state[fid] = {"item_id": item_id, "slug": slug,
                               "match": f"{ctx['homeN']} - {ctx['awayN']}", "date": ymd,
                               "league": cfg["worker_slug"], "provider": ctx["prov"]["naam"],
                               "home_id": str(ctx["homeId"]), "away_id": str(ctx["awayId"])}
+                if a.draft:
+                    state[fid]["draft"] = True
                 og = OG.make(M.LAST_CTX, cfg, slug)
                 if og: state[fid]["og"] = og
                 WF.save_state(state)
-                print(f"  ✔ live: {title}  (item {item_id}) [{ctx['prov']['naam']}]")
+                print(f"  ✔ {'concept' if a.draft else 'live'}: {title}  (item {item_id}) [{ctx['prov']['naam']}]")
             made += 1
             if a.limit and made >= a.limit: break
         if a.limit and made >= a.limit: break
