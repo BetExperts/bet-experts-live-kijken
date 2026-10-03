@@ -198,7 +198,8 @@ def render_live(info):
     team_block(img, d, al, ak, (1004, 259, 1100, 319), info["away"], 984, "r", 250)
     # 'Kijk via'-kaart
     naam, sub = info.get("via_naam", ""), info.get("via_sub", "")
-    tw = max(text_w(naam, font(PJ_B, 20)), text_w(sub, font(PJ_M, 13)), text_w("KIJK VIA", font(PJ_B, 12), 2))
+    label = info.get("via_label", "KIJK VIA")
+    tw = max(text_w(naam, font(PJ_B, 20)), text_w(sub, font(PJ_M, 13)), text_w(label, font(PJ_B, 12), 2))
     cw = max(250, 115 + tw + 26)
     rrect(d, (100, 455, 100 + cw, 547), 14, fill=CARD, outline=CARD_BORDER, width=1)
     rrect(d, (113, 473, 197, 529), 10, fill=(255, 255, 255))
@@ -208,7 +209,7 @@ def render_live(info):
     else:
         t = info.get("via_tekst") or naam
         draw_text(d, (155, 501), t, fit_font(t, POP_B, 16, 70, 10), (20, 26, 33), "mm")
-    draw_text(d, (215, 475), "KIJK VIA", font(PJ_B, 12), GREY, "lm", spacing=2)
+    draw_text(d, (215, 475), label, font(PJ_B, 12), GREY, "lm", spacing=2)
     draw_text(d, (215, 501), naam, font(PJ_B, 20), WHITE, "lm")
     draw_text(d, (215, 527), sub, font(PJ_M, 13), GREY, "lm")
     draw_text(d, (1100, 502), datum_kort(dt), font(PJ_M, 18), LIGHT, "rm")
