@@ -1553,7 +1553,8 @@
     "provider": "Bet365",
     "home_id": "1095",
     "away_id": "1098",
-    "og": "og/kazachstan-faeroer-live-gratis-kijken-06-10-2026-768063.webp"
+    "og": "og/kazachstan-faeroer-live-gratis-kijken-06-10-2026-768063.webp",
+    "og_done": "og/kazachstan-faeroer-live-gratis-kijken-06-10-2026-768063.webp"
   },
   "1528952": {
     "item_id": "6ac3ead39dd023731569ebff",
@@ -1564,7 +1565,8 @@
     "provider": "Bet365",
     "home_id": "3",
     "away_id": "9",
-    "og": "og/kroatie-spanje-live-gratis-kijken-06-10-2026-5c865a.webp"
+    "og": "og/kroatie-spanje-live-gratis-kijken-06-10-2026-5c865a.webp",
+    "og_done": "og/kroatie-spanje-live-gratis-kijken-06-10-2026-5c865a.webp"
   },
   "1528953": {
     "item_id": "6ac3ead638f984229e744464",
@@ -1575,7 +1577,8 @@
     "provider": "Bet365",
     "home_id": "10",
     "away_id": "770",
-    "og": "og/engeland-tsjechie-live-gratis-kijken-06-10-2026-9fab2a.webp"
+    "og": "og/engeland-tsjechie-live-gratis-kijken-06-10-2026-9fab2a.webp",
+    "og_done": "og/engeland-tsjechie-live-gratis-kijken-06-10-2026-9fab2a.webp"
   },
   "1545655": {
     "item_id": "6ac3ead857c49762b6e6e896",
@@ -1586,7 +1589,8 @@
     "provider": "TOTO",
     "home_id": "15",
     "away_id": "1105",
-    "og": "og/zwitserland-noord-macedonie-live-gratis-kijken-06-10-2026-c42ba0.webp"
+    "og": "og/zwitserland-noord-macedonie-live-gratis-kijken-06-10-2026-c42ba0.webp",
+    "og_done": "og/zwitserland-noord-macedonie-live-gratis-kijken-06-10-2026-c42ba0.webp"
   },
   "1528954": {
     "item_id": "6ac3eada0fec3893a5bfd68a",
@@ -1597,7 +1601,8 @@
     "provider": "TOTO",
     "home_id": "778",
     "away_id": "1115",
-    "og": "og/albanie-san-marino-live-gratis-kijken-06-10-2026-4d6553.webp"
+    "og": "og/albanie-san-marino-live-gratis-kijken-06-10-2026-4d6553.webp",
+    "og_done": "og/albanie-san-marino-live-gratis-kijken-06-10-2026-4d6553.webp"
   },
   "1528955": {
     "item_id": "6ac3eaddb65aeeccf7228646",
@@ -1608,7 +1613,8 @@
     "provider": "Bet365",
     "home_id": "1100",
     "away_id": "1099",
-    "og": "og/wit-rusland-finland-live-gratis-kijken-06-10-2026-10c6a5.webp"
+    "og": "og/wit-rusland-finland-live-gratis-kijken-06-10-2026-10c6a5.webp",
+    "og_done": "og/wit-rusland-finland-live-gratis-kijken-06-10-2026-10c6a5.webp"
   },
   "1528957": {
     "item_id": "6ac3eadfc26efa4cfc534225",
@@ -1619,7 +1625,8 @@
     "provider": "Bet365",
     "home_id": "1101",
     "away_id": "18",
-    "og": "og/estland-ijsland-live-gratis-kijken-06-10-2026-5e2593.webp"
+    "og": "og/estland-ijsland-live-gratis-kijken-06-10-2026-5e2593.webp",
+    "og_done": "og/estland-ijsland-live-gratis-kijken-06-10-2026-5e2593.webp"
   },
   "1545612": {
     "item_id": "6ac3eae191bcff17a9dfd8ac",
@@ -1630,7 +1637,8 @@
     "provider": "TOTO",
     "home_id": "1102",
     "away_id": "1103",
-    "og": "og/luxemburg-bulgarije-live-gratis-kijken-06-10-2026-086b46.webp"
+    "og": "og/luxemburg-bulgarije-live-gratis-kijken-06-10-2026-086b46.webp",
+    "og_done": "og/luxemburg-bulgarije-live-gratis-kijken-06-10-2026-086b46.webp"
   },
   "1545657": {
     "item_id": "6ac3eae5a876644a59fd4dbd",
@@ -1641,7 +1649,8 @@
     "provider": "TOTO",
     "home_id": "1108",
     "away_id": "1091",
-    "og": "og/schotland-slovenie-live-gratis-kijken-06-10-2026-fbab5b.webp"
+    "og": "og/schotland-slovenie-live-gratis-kijken-06-10-2026-fbab5b.webp",
+    "og_done": "og/schotland-slovenie-live-gratis-kijken-06-10-2026-fbab5b.webp"
   },
   "1528956": {
     "item_id": "6ac3eae78679e0986f80cb2e",
@@ -1652,6 +1661,7 @@
     "provider": "TOTO",
     "home_id": "1114",
     "away_id": "773",
-    "og": "og/moldavie-slowakije-live-gratis-kijken-06-10-2026-132f4e.webp"
+    "og": "og/moldavie-slowakije-live-gratis-kijken-06-10-2026-132f4e.webp",
+    "og_done": "og/moldavie-slowakije-live-gratis-kijken-06-10-2026-132f4e.webp"
   }
 }
