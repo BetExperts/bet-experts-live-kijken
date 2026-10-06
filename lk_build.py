@@ -54,6 +54,28 @@ def nl_datum_info(dt):
 
 def esc(s): return html.escape(str(s or ""), quote=False)
 
+_BIJV = None
+def bijv_elftal(naam):
+    """'Marokko' -> 'het Marokkaans voetbalelftal' (zoekvorm in Google), anders None (clubs)."""
+    global _BIJV
+    if _BIJV is None:
+        import json, os
+        try:
+            _BIJV = json.load(open(os.path.join(os.path.dirname(os.path.abspath(__file__)), "data", "landen_bijv.json"), encoding="utf-8"))
+        except Exception:
+            _BIJV = {}
+    a = _BIJV.get(naam)
+    return f"het {a} voetbalelftal" if a else None
+
+def zoek_zin(homeN, awayN):
+    """Korte zin in de woorden waarmee mensen zoeken ('waar kun je … kijken')."""
+    bh, ba = bijv_elftal(homeN), bijv_elftal(awayN)
+    if bh and ba:
+        return (f"Zoek je waar je {esc(bh)} tegen {esc(ba)} kunt kijken? Hieronder lees je op welke zender "
+                f"{esc(homeN)} – {esc(awayN)} live te zien is, hoe laat de aftrap is en hoe je de livestream vindt.")
+    return (f"Zoek je waar je {esc(homeN)} – {esc(awayN)} kunt kijken? Hieronder lees je op welke zender het duel "
+            f"live te zien is, hoe laat de aftrap is en hoe je de livestream vindt.")
+
 _TR = {"ı":"i","İ":"I","ş":"s","Ş":"S","ğ":"g","Ğ":"G","ç":"c","Ç":"C","ö":"o","Ö":"O","ü":"u","Ü":"U"}
 def slugify(s):
     s = "".join(_TR.get(c, c) for c in (s or ""))
@@ -118,27 +140,26 @@ def build_samenvatting(homeN, awayN, comp, dt, prov_naam, free_tv=None, paid_tv=
     zonder zender noemen we 'op tv' niet (het artikel zegt dan dat het duel niet op tv is)."""
     M = f"{homeN} – {awayN}"
     w_lang, w_kort = nl_wanneer(dt), nl_wanneer(dt, jaar=False, dag=False)
-    if paid_tv:   # alleen via betaalde tv
-        return _kort([f"Op welke zender is {M}? Het {comp}-duel is {w} live te zien op {paid_tv}. "
-                      f"Hoe laat, gratis kijken en online meekijken." for w in (w_lang, w_kort)]
-                     + [f"Op welke zender is {M}? {w_kort[:1].upper() + w_kort[1:]} live op {paid_tv}. Hoe laat en gratis kijken.",
-                        f"Op welke zender is {M}? Live op {paid_tv}, {w_kort}."])
-    if free_tv:   # gratis tv (bv. NPO): geen stream-belofte via een aanbieder
-        return _kort([f"Op welke zender is {M}? Het {comp}-duel is {w} gratis te zien op {free_tv}. "
-                      f"Hoe laat en de livestream." for w in (w_lang, w_kort)]
-                     + [f"Op welke zender is {M}? {w_kort[:1].upper() + w_kort[1:]} gratis op {free_tv}. Hoe laat en livestream.",
-                        f"Op welke zender is {M}? Gratis op {free_tv}, {w_kort}."])
+    if paid_tv:   # alleen via betaalde tv: antwoord eerst (zender + tijd), dan de zoekwoorden
+        return _kort([f"{M} kijk je {w} live op {paid_tv}. Welke zender, hoe laat en of je gratis kunt meekijken: "
+                      f"alles op een rij." for w in (w_lang, w_kort)]
+                     + [f"{M} kijk je {w_kort} live op {paid_tv}. Zender, aftraptijd en online meekijken.",
+                        f"{M} kijk je {w_kort} live op {paid_tv}."])
+    if free_tv:   # gratis tv (bv. NPO)
+        return _kort([f"{M} kijk je {w} gratis op {free_tv}. Welke zender, hoe laat en waar de livestream staat: "
+                      f"alles op een rij." for w in (w_lang, w_kort)]
+                     + [f"{M} kijk je {w_kort} gratis op {free_tv}. Zender, aftraptijd en livestream.",
+                        f"{M} kijk je {w_kort} gratis op {free_tv}."])
     acc = (f"met een gestort {prov_naam}-account kijk je gratis mee" if deposit
            else f"met een gratis {prov_naam}-account kijk je mee")
     if stream_tv:
-        kop = f"{M} live kijken zonder {stream_tv}-abonnement? "
-        return _kort([f"{kop}Aftrap {w}; {acc}. Zo werkt het." for w in (w_lang, w_kort)]
-                     + [f"{kop}Aftrap {w_kort}; {acc}."])
-    return _kort([f"Op welke zender is {M}? Het {comp}-duel {w} is niet op de Nederlandse tv, "
-                  f"maar {acc}." for w in (w_lang, w_kort)]
-                 + [f"Op welke zender is {M}? Niet op de Nederlandse tv, maar {acc}. Aftrap {w_kort}.",
-                    f"Op welke zender is {M}? Niet op tv, wel live via {prov_naam}. Aftrap {w_kort}.",
-                    f"Op welke zender is {M}? Niet op tv, maar {acc}."])
+        return _kort([f"{M} is {w} live te zien op {stream_tv}, maar ook zonder abonnement: {acc}. Zender, aftrap en livestream."
+                      for w in (w_lang, w_kort)]
+                     + [f"{M} is {w_kort} live op {stream_tv}; zonder abonnement {acc}.",
+                        f"{M} live kijken zonder {stream_tv}-abonnement: {acc}."])
+    return _kort([f"{M} is {w} niet op de Nederlandse tv, maar {acc}. Zender, aftraptijd en livestream." for w in (w_lang, w_kort)]
+                 + [f"{M} is {w_kort} niet op tv, maar {acc}.",
+                    f"{M} live kijken: niet op tv, maar {acc}."])
 
 # ---------- vorm ----------
 def form_dashes(f):
@@ -369,6 +390,8 @@ def _aftrap_antwoord(dt):
 
 def _faq_basis(homeN, awayN, comp, dt, tv):
     q = [
+        (f"Waar kun je {homeN} – {awayN} kijken?",
+         f"Op {tv}, {nl_wanneer(dt)}. De zender zit bij de meeste tv-aanbieders in het basispakket."),
         (f"Hoe laat begint {homeN} – {awayN}?",
          _aftrap_antwoord(dt)),
         (f"Op welke zender is {homeN} – {awayN} te zien?",
@@ -384,6 +407,8 @@ def _faq_basis(homeN, awayN, comp, dt, tv):
 def _faq_betaald(homeN, awayN, comp, dt, tv, extra=None):
     ziggo = "ziggo" in (tv or "").lower()
     q = [
+        (f"Waar kun je {homeN} – {awayN} kijken?",
+         f"Op {tv}, {nl_wanneer(dt)}. Daarvoor heb je een abonnement nodig{' bij Ziggo' if ziggo else ''}."),
         (f"Hoe laat begint {homeN} – {awayN}?",
          _aftrap_antwoord(dt)),
         (f"Op welke zender is {homeN} – {awayN} te zien?",
@@ -399,6 +424,8 @@ def _faq_betaald(homeN, awayN, comp, dt, tv, extra=None):
 
 def _faq_gratis(homeN, awayN, comp, dt, tv, extra=None):
     q = [
+        (f"Waar kun je {homeN} – {awayN} kijken?",
+         f"Gratis op {tv}, {nl_wanneer(dt)}" + (f", en online via {extra}." if extra else ".")),
         (f"Hoe laat begint {homeN} – {awayN}?",
          _aftrap_antwoord(dt)),
         (f"Op welke zender is {homeN} – {awayN} te zien?",
@@ -424,6 +451,9 @@ def _faq(homeN, awayN, comp, dt, prov, tv=None):
                 f"Geen enkele Nederlandse tv-zender zendt dit {comp}-duel uit. Met "
                 f"{account} kun je de wedstrijd wel live volgen via de livestream van {naam}.")
     q = [
+        (f"Waar kun je {homeN} – {awayN} kijken?",
+         (f"Op {tv} met een abonnement, of zonder abonnement via de livestream van {naam} met {account}." if tv else
+          f"Niet op de Nederlandse tv, wel via de livestream van {naam} met {account}.")),
         (f"Hoe laat begint {homeN} – {awayN}?", _aftrap_antwoord(dt)),
         (f"Is {homeN} – {awayN} gratis te kijken?",
          (f"Ja, met een gestort account bij {naam} kijk je gratis mee in HD. Daarvoor stort je eerst "
@@ -473,6 +503,7 @@ def build_content(ctx):
                 f"gratis live mee.")
     c1.append(f"<p><strong>{hLink} treft {aLink} {nl_wanneer(dt)} in {ctx.get('comp_lidwoord', 'de')} "
               f"{compLink}. {angle} {slot}</strong></p>")
+    c1.append(f"<p>{zoek_zin(homeN, awayN)}</p>")
     vb_url = ctx.get("vb_url")
     if vb_url:
         c1.append(f'<p><strong>Lees ook:</strong> onze <a href="{vb_url}">uitgebreide voorbeschouwing van '

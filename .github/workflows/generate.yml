@@ -1,8 +1,9 @@
-name: Genereer live-kijken-artikelen (avond ervoor)
+name: Genereer live-kijken-artikelen (3 dagen vooruit + tv-update)
 
 on:
   schedule:
-    - cron: "0 18 * * *"   # 18:00 UTC (~20:00 NL) — artikelen voor de volgende dag
+    - cron: "0 18 * * *"   # 18:00 UTC (~20:00 NL) — nieuwe artikelen voor morgen t/m over 3 dagen + tv-update morgen
+    - cron: "30 7 * * *"   # 07:30 UTC (~09:30 NL) — tv-update voor vandaag (de tv-gids kijkt 2-3 dagen vooruit)
   workflow_dispatch:
     inputs:
       date:
@@ -26,7 +27,16 @@ jobs:
         env:
           WEBFLOW_TOKEN: ${{ secrets.WEBFLOW_TOKEN }}
         run: |
-          python generate.py ${{ github.event.inputs.date && format('--date {0}', github.event.inputs.date) || '' }}
+          if [ -n "${{ github.event.inputs.date }}" ]; then
+            python generate.py --date "${{ github.event.inputs.date }}"
+          elif [ "$(date -u +%H)" -lt 12 ]; then
+            # ochtend: alleen zender/aanbieder van vandaag bijwerken als de tv-gids iets anders zegt
+            python generate.py --date "$(date -u +%F)" --update --alleen-tv-wijziging
+          else
+            # avond: artikelen zo vroeg mogelijk online (meer tijd om in Google te komen)
+            for d in 1 2 3; do python generate.py --date "$(date -u -d "+$d day" +%F)"; done
+            python generate.py --date "$(date -u -d '+1 day' +%F)" --update --alleen-tv-wijziging
+          fi
       - name: Commit state (fixture-id -> item-id)
         run: |
           git config user.name "github-actions[bot]"

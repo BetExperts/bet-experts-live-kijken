@@ -50,11 +50,18 @@ def write_preview(fd, title):
     open(p, "w", encoding="utf-8").write(html)
     return p
 
+INDEXNOW = []   # nieuwe/bijgewerkte URL's -> na afloop aanmelden bij IndexNow (Bing e.a.)
+
+def tv_sig(ctx, prov):
+    return f"{ctx.get('tv') or ''}|{prov.get('naam') or ''}|{bool(ctx.get('tv_free'))}|{bool(ctx.get('tv_paid_only'))}"
+
 def main():
     ap = argparse.ArgumentParser()
     ap.add_argument("--date"); ap.add_argument("--dry", action="store_true")
     ap.add_argument("--preview", action="store_true"); ap.add_argument("--limit", type=int)
     ap.add_argument("--update", action="store_true", help="bestaande artikelen van die datum herschrijven i.p.v. overslaan")
+    ap.add_argument("--alleen-tv-wijziging", action="store_true",
+                    help="met --update: alleen herschrijven als zender/aanbieder volgens de tv-gids veranderd is")
     ap.add_argument("--league", help="alleen deze worker_slug verwerken (bv. afrika-cup-kwalificatie)")
     ap.add_argument("--fixture", help="alleen deze fixture-id(s), komma-gescheiden")
     ap.add_argument("--provider", help="aanbieder forceren (toto/bet365/711), overschrijft de competitie-config")
@@ -131,12 +138,20 @@ def main():
                 if og: print(f"  ✎ afbeelding: {og}")
             elif a.dry:
                 print(f"  ○ zou {'bijwerken' if exists else 'maken'}: {title}  [{prov['naam']}]")
+            elif exists and a.update and (state[fid].get("handmatig") or state[fid].get("niet_live_nl")):
+                print(f"  · overslaan (handmatig aangepast): {title}")
+            elif exists and a.update and a.alleen_tv_wijziging and tv_sig(M.LAST_CTX, prov) == state[fid].get("tv_sig"):
+                print(f"  · tv-gids ongewijzigd: {title}")
             elif exists and a.update:
                 # 'Meer over'-blok (crosslink.py van de opstellingen-agent) niet wissen
                 if WF.behoud_meer_over(state[fid]["item_id"], fd):
                     print("     ↳ 'Meer over'-blok behouden")
-                WF.update_live(state[fid]["item_id"], fd)
-                state[fid]["provider"] = prov["naam"]
+                if state[fid].get("draft"):
+                    WF.update_staged(state[fid]["item_id"], fd)      # ingepland concept niet publiceren
+                else:
+                    WF.update_live(state[fid]["item_id"], fd)
+                    INDEXNOW.append(f"https://www.bet-experts.nl/nieuws/{state[fid]['slug']}")
+                state[fid]["provider"] = prov["naam"]; state[fid]["tv_sig"] = tv_sig(M.LAST_CTX, prov)
                 og = OG.make(M.LAST_CTX, cfg, slug)
                 if og: state[fid]["og"] = og
                 WF.save_state(state)
@@ -147,8 +162,11 @@ def main():
                               "match": f"{ctx['homeN']} - {ctx['awayN']}", "date": ymd,
                               "league": cfg["worker_slug"], "provider": prov["naam"],
                               "home_id": str(ctx["homeId"]), "away_id": str(ctx["awayId"])}
+                state[fid]["tv_sig"] = tv_sig(M.LAST_CTX, prov)
                 if a.draft:
                     state[fid]["draft"] = True
+                else:
+                    INDEXNOW.append(f"https://www.bet-experts.nl/nieuws/{slug}")
                 og = OG.make(M.LAST_CTX, cfg, slug)
                 if og: state[fid]["og"] = og
                 WF.save_state(state)
@@ -157,6 +175,9 @@ def main():
             if a.limit and made >= a.limit: break
         if a.limit and made >= a.limit: break
     print(f"\nKLAAR — {made} artikel(en) verwerkt.")
+    if INDEXNOW and not (a.dry or a.preview):
+        import indexnow
+        indexnow.ping(INDEXNOW)
 
 if __name__ == "__main__":
     main()

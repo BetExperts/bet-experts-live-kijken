@@ -21,7 +21,7 @@ API = "https://www.bet-experts.nl/api"
 HUB_PATH = "/live-kijken"
 
 # Opschonen: artikelen ouder dan zoveel dagen NA de wedstrijd worden verwijderd
-RETENTION_DAYS = 21
+RETENTION_DAYS = 3   # 3 dagen na de wedstrijd opruimen (met 301 via Cloudflare)
 
 # --- Affiliate-aanbieders (afwisselen per wedstrijd) ---
 # deposit=True  -> flow met €10 storten (en €10 weer opnemen)
