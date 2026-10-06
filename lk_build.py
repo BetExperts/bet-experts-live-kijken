@@ -65,6 +65,13 @@ def build_slug(home_slug, away_slug, dt, gratis=True):
     return f"{home_slug}-{away_slug}-{soort}-{dt.day:02d}-{dt.month:02d}-{dt.year}"
 
 # ---------- titel (gevarieerd, deterministisch per fixture) ----------
+TITEL_MAX = 70
+
+def _kies(varianten):
+    """Willekeurige variant die binnen TITEL_MAX past (lange teamnamen), anders de kortste."""
+    past = [v for v in varianten if len(v) <= TITEL_MAX]
+    return random.choice(past) if past else min(varianten, key=len)
+
 def build_title(homeN, awayN, dt, paid_tv=None, free_tv=None):
     """Korte titel met 'gratis' precies één keer, steeds net iets anders (deterministisch per
     wedstrijd). Geen 'op tv' als het duel alleen via een stream te zien is."""
@@ -72,32 +79,27 @@ def build_title(homeN, awayN, dt, paid_tv=None, free_tv=None):
     datum = nl_datum_kort(dt)
     if paid_tv:   # alleen via betaalde tv: 'gratis' als vraag (gebruiker wil 'gratis' in elke titel),
                   # het artikel beantwoordt eerlijk dat het op {paid_tv} te zien is
-        return random.choice([
-            f"{M} gratis kijken? Zender en aftraptijd",
-            f"Kun je {M} gratis kijken? Zender en aftraptijd",
-            f"Is {M} gratis te zien? Zender en aftraptijd",
-            f"{M} gratis kijken ({datum})? Zender en aftrap",
-            f"Waar kijk je {M} (gratis)? Zender en aftraptijd",
-            f"{M} live op {paid_tv}: gratis kijken?",
+        return _kies([
+            f"Op welke zender is {M}? Gratis kijken en hoe laat",
+            f"{M}: welke zender, hoe laat en gratis kijken?",
+            f"Welke zender zendt {M} uit? Gratis kijken en aftrap",
+            f"{M} gratis kijken? Zender en hoe laat ({datum})",
+            f"{M} live op {paid_tv}: hoe laat en gratis kijken?",
         ])
     if free_tv:   # vrij te ontvangen tv (NPO)
-        return random.choice([
-            f"{M} gratis op {free_tv}: zender en aftraptijd",
-            f"{M} gratis op tv kijken: zender en aftraptijd",
-            f"Waar kijk je {M} gratis? Zender en aftraptijd",
-            f"{M} live en gratis op tv: zender en aftrap",
-            f"{M} gratis kijken ({datum}): zender en aftrap",
-            f"Zo kijk je {M} gratis op tv: zender en aftraptijd",
+        return _kies([
+            f"{M} gratis op {free_tv}: welke zender en hoe laat?",
+            f"Op welke zender is {M}? Gratis op {free_tv}",
+            f"{M} gratis op tv: welke zender en hoe laat?",
+            f"Welke zender zendt {M} uit? Gratis en hoe laat",
+            f"{M} gratis kijken ({datum}): zender en hoe laat",
         ])
-    return random.choice([   # gratis meekijken via een bookmaker-stream
-        f"{M} gratis live kijken: livestream en aftraptijd",
-        f"{M} gratis kijken: livestream en aftraptijd",
-        f"{M} live kijken: gratis stream en aftraptijd",
-        f"Zo kijk je {M} gratis live: stream en aftrap",
-        f"{M} gratis live kijken: zender en aftraptijd",
-        f"{M} live gratis kijken ({datum}): stream en aftrap",
-        f"{M} gratis kijken in Nederland: stream en aftrap",
-        f"Waar kijk je {M} gratis? Livestream en aftraptijd",
+    return _kies([   # gratis meekijken via een bookmaker-stream
+        f"Op welke zender is {M}? Gratis live kijken en hoe laat",
+        f"{M} gratis live kijken: welke zender en hoe laat?",
+        f"Welke zender zendt {M} uit? Gratis livestream en aftrap",
+        f"{M} gratis kijken: zender, livestream en hoe laat",
+        f"{M} live gratis kijken ({datum}): zender en hoe laat",
     ])
 
 META_MAX = 155   # meta-description / samenvatting: max. ~155 tekens
@@ -117,25 +119,26 @@ def build_samenvatting(homeN, awayN, comp, dt, prov_naam, free_tv=None, paid_tv=
     M = f"{homeN} – {awayN}"
     w_lang, w_kort = nl_wanneer(dt), nl_wanneer(dt, jaar=False, dag=False)
     if paid_tv:   # alleen via betaalde tv
-        return _kort([f"{M} live kijken? Het {comp}-duel is {w} live te zien op {paid_tv}. "
-                      f"Alles over zender, aftrap en online meekijken." for w in (w_lang, w_kort)]
-                     + [f"{M} live kijken? Het duel is {w_kort} live te zien op {paid_tv}. "
-                        f"Alles over zender en aftrap."])
+        return _kort([f"Op welke zender is {M}? Het {comp}-duel is {w} live te zien op {paid_tv}. "
+                      f"Hoe laat, gratis kijken en online meekijken." for w in (w_lang, w_kort)]
+                     + [f"Op welke zender is {M}? {w_kort[:1].upper() + w_kort[1:]} live op {paid_tv}. Hoe laat en gratis kijken.",
+                        f"Op welke zender is {M}? Live op {paid_tv}, {w_kort}."])
     if free_tv:   # gratis tv (bv. NPO): geen stream-belofte via een aanbieder
-        return _kort([f"{M} live kijken? Het {comp}-duel is {w} gratis te zien op {free_tv}. "
-                      f"Alles over zender, aftrap en livestream." for w in (w_lang, w_kort)]
-                     + [f"{M} live kijken? Het duel is {w_kort} gratis te zien op {free_tv}. "
-                        f"Alles over zender en aftrap."])
+        return _kort([f"Op welke zender is {M}? Het {comp}-duel is {w} gratis te zien op {free_tv}. "
+                      f"Hoe laat en de livestream." for w in (w_lang, w_kort)]
+                     + [f"Op welke zender is {M}? {w_kort[:1].upper() + w_kort[1:]} gratis op {free_tv}. Hoe laat en livestream.",
+                        f"Op welke zender is {M}? Gratis op {free_tv}, {w_kort}."])
     acc = (f"met een gestort {prov_naam}-account kijk je gratis mee" if deposit
            else f"met een gratis {prov_naam}-account kijk je mee")
     if stream_tv:
         kop = f"{M} live kijken zonder {stream_tv}-abonnement? "
         return _kort([f"{kop}Aftrap {w}; {acc}. Zo werkt het." for w in (w_lang, w_kort)]
                      + [f"{kop}Aftrap {w_kort}; {acc}."])
-    return _kort([f"{M} live kijken? Het {comp}-duel {w} is niet op de Nederlandse tv, "
+    return _kort([f"Op welke zender is {M}? Het {comp}-duel {w} is niet op de Nederlandse tv, "
                   f"maar {acc}." for w in (w_lang, w_kort)]
-                 + [f"{M} live kijken? Het duel {w_kort} is niet op de Nederlandse tv, maar {acc}.",
-                    f"{M} live kijken? Niet op tv, maar {acc}. Aftrap {w_kort}."])
+                 + [f"Op welke zender is {M}? Niet op de Nederlandse tv, maar {acc}. Aftrap {w_kort}.",
+                    f"Op welke zender is {M}? Niet op tv, wel live via {prov_naam}. Aftrap {w_kort}.",
+                    f"Op welke zender is {M}? Niet op tv, maar {acc}."])
 
 # ---------- vorm ----------
 def form_dashes(f):
@@ -257,7 +260,7 @@ def _kijk_blok(prov, homeN, awayN, comp, tv=None):
     naam = prov["naam"]; link = prov["link"]; M = f"{esc(homeN)} vs {esc(awayN)}"
     deposit = prov.get("deposit", True)
     account = "een gestort account" if deposit else "een gratis account"
-    out = [f"<h3>Gratis live kijken via {esc(naam)}</h3>"]
+    out = [f"<h3>Op welke zender is {esc(homeN)} – {esc(awayN)}? Gratis live kijken via {esc(naam)}</h3>"]
     if tv:
         out.append(f"<p>Met {account} bij {esc(naam)} kijk je {M} live mee. In Nederland is de "
                     f"{esc(comp)} wel te zien op {esc(tv)}, maar daarvoor heb je een betaald abonnement nodig. "
@@ -294,7 +297,7 @@ def _kijk_blok(prov, homeN, awayN, comp, tv=None):
 # wordt alleen genoemd voor live meewedden tijdens de wedstrijd.
 def _kijk_blok_gratis(prov, homeN, awayN, tv, dt, extra=None, voorbeschouwing=None):
     M = f"{esc(homeN)} – {esc(awayN)}"
-    out = [f"<h3>Gratis live kijken op {esc(tv)}</h3>"]
+    out = [f"<h3>Op welke zender is {esc(homeN)} – {esc(awayN)}? Gratis op {esc(tv)}</h3>"]
     out.append(f"<p>{M} is gewoon gratis live te zien op {esc(tv)}. Je hebt geen abonnement of account "
                f"nodig: zet om {nl_tijd(dt)} uur de tv aan en je bent erbij."
                + (f" Niet in de buurt van een tv? Dan kijk je live mee via {esc(extra)}, ook gratis." if extra else "")
@@ -321,7 +324,7 @@ def _kijk_blok_betaald(prov, homeN, awayN, tv, dt, comp, extra=None):
     voor live meewedden."""
     M = f"{esc(homeN)} – {esc(awayN)}"
     ziggo = "ziggo" in (tv or "").lower()
-    out = [f"<h3>Live kijken op {esc(tv)}</h3>"]
+    out = [f"<h3>Op welke zender is {esc(homeN)} – {esc(awayN)}? Live op {esc(tv)}</h3>"]
     out.append(f"<p>{M} is in Nederland live te zien op {esc(tv)}. Daarvoor heb je wel een abonnement nodig"
                + (" bij Ziggo" if ziggo else "") + ".</p>")
     out.append("<p><strong>Zo kijk je live mee:</strong></p>")
@@ -342,7 +345,7 @@ def _kijk_blok_betaald(prov, homeN, awayN, tv, dt, comp, extra=None):
 def _kijk_blok_basis(prov, homeN, awayN, tv, dt, comp):
     """Te zien op een zender uit het basispakket (bv. Jong Oranje op ESPN 1), geen bookmaker-stream."""
     M = f"{esc(homeN)} – {esc(awayN)}"
-    out = [f"<h3>Live kijken op {esc(tv)}</h3>"]
+    out = [f"<h3>Op welke zender is {esc(homeN)} – {esc(awayN)}? Live op {esc(tv)}</h3>"]
     out.append(f"<p>{M} is in Nederland live te zien op {esc(tv)}. Die zender zit bij de meeste "
                f"Nederlandse tv-aanbieders in het basispakket, dus met een gewoon tv-abonnement kijk je "
                f"zonder extra kosten mee. Twijfel je? Controleer dan even de zenderlijst van je aanbieder.</p>")
@@ -413,13 +416,13 @@ def _faq(homeN, awayN, comp, dt, prov, tv=None):
     naam = prov["naam"]; deposit = prov.get("deposit", True)
     account = f"een gestort {naam}-account" if deposit else f"een gratis {naam}-account"
     if tv:
-        waar = (f"Waar kan ik {homeN} – {awayN} in Nederland kijken?",
+        waar = (f"Op welke zender is {homeN} – {awayN} te zien?",
                 f"In Nederland zendt {tv} de {comp} uit, maar daarvoor heb je een betaald abonnement nodig. "
                 f"Zonder abonnement kijk je mee met {account}.")
     else:
-        waar = (f"Waarom is {homeN} – {awayN} niet op de Nederlandse tv?",
-                f"De {comp} wordt in Nederland niet door een reguliere tv-zender uitgezonden. Met "
-                f"{account} kun je het duel wel live volgen.")
+        waar = (f"Op welke zender is {homeN} – {awayN} te zien?",
+                f"Geen enkele Nederlandse tv-zender zendt dit {comp}-duel uit. Met "
+                f"{account} kun je de wedstrijd wel live volgen via de livestream van {naam}.")
     q = [
         (f"Hoe laat begint {homeN} – {awayN}?", _aftrap_antwoord(dt)),
         (f"Is {homeN} – {awayN} gratis te kijken?",
