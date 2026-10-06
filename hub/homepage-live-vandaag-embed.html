@@ -1,0 +1,56 @@
+<div id="lkv" class="lkv" hidden>
+  <div class="lkv-head">
+    <h2 class="lkv-title">Vandaag live op tv</h2>
+    <a class="lkv-all" href="/live-kijken">Alle wedstrijden →</a>
+  </div>
+  <div class="lkv-card" id="lkv-list"></div>
+  <p class="lkv-note">Zender, aftraptijd en gratis livestream per wedstrijd. Wat kost gokken jou? Stop op tijd. 18+</p>
+</div>
+
+<style>
+.lkv,.lkv *{box-sizing:border-box}
+.lkv{font-family:'Plus Jakarta Sans',system-ui,sans-serif;color:#0F1621;width:100%;margin:0 0 32px}
+.lkv-head{display:flex;align-items:baseline;justify-content:space-between;gap:12px;margin-bottom:12px}
+.lkv-title{font-family:'Poppins',sans-serif;font-size:22px;font-weight:700;margin:0;color:#0F1621}
+.lkv-all{font-family:'Poppins',sans-serif;font-size:14px;font-weight:600;color:#169A47;text-decoration:none;white-space:nowrap}
+.lkv-all:hover{text-decoration:underline}
+.lkv-card{background:#fff;border:1px solid rgba(15,22,33,.10);border-radius:16px;overflow:hidden;box-shadow:0 1px 3px rgba(15,22,33,.05)}
+.lkv-row{display:grid;grid-template-columns:52px 28px minmax(0,1fr) auto;align-items:center;gap:12px;padding:13px 16px;
+  text-decoration:none;color:inherit;border-bottom:1px solid rgba(15,22,33,.06);border-left:3px solid transparent;transition:background .15s}
+.lkv-row:last-child{border-bottom:none}
+.lkv-row:hover{background:#F9FBFA}
+.lkv-row.live{border-left-color:#169A47}
+.lkv-time{font-family:'Poppins',sans-serif;font-size:16px;font-weight:600;font-variant-numeric:tabular-nums}
+.lkv-logos{display:flex;flex-direction:column;gap:3px}
+.lkv-logos img{width:22px;height:22px;object-fit:contain;display:block}
+.lkv-main{min-width:0}
+.lkv-match{display:block;font-family:'Poppins',sans-serif;font-size:15px;font-weight:600;line-height:1.3;white-space:nowrap;overflow:hidden;text-overflow:ellipsis}
+.lkv-comp{display:block;font-size:12.5px;color:#8A97A0;margin-top:2px;white-space:nowrap;overflow:hidden;text-overflow:ellipsis}
+.lkv-pill{font-family:'Poppins',sans-serif;font-size:12px;font-weight:600;border-radius:999px;padding:4px 10px;white-space:nowrap;
+  color:#12833D;background:rgba(22,154,71,.09);border:1px solid rgba(22,154,71,.22)}
+.lkv-row.live .lkv-pill{color:#fff;background:#169A47;border-color:#169A47}
+.lkv-note{font-size:12px;color:#8A97A0;margin:8px 2px 0}
+@media (max-width:520px){.lkv-row{grid-template-columns:46px 24px minmax(0,1fr) auto;gap:10px;padding:12px}.lkv-title{font-size:19px}.lkv-pill{display:none}}
+</style>
+
+<script>
+(function(){
+  var box=document.getElementById('lkv'),list=document.getElementById('lkv-list');
+  if(!box||!list)return;
+  function esc(s){return String(s||'').replace(/[&<>"]/g,function(c){return{'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;'}[c];});}
+  function logo(id){return id?'<img src="https://media.api-sports.io/football/teams/'+esc(id)+'.png" alt="" width="22" height="22" loading="lazy" onerror="this.style.visibility=\'hidden\'">':'';}
+  fetch('/live-vandaag.json',{cache:'no-store'}).then(function(r){return r.json();}).then(function(d){
+    var w=(d&&d.wedstrijden)||[];if(!w.length)return;       /* niets vandaag: blok blijft verborgen */
+    var now=Date.now(),html='';
+    w.slice(0,6).forEach(function(m){
+      var live=m.ko<=now;
+      html+='<a class="lkv-row'+(live?' live':'')+'" href="'+esc(m.href)+'">'
+        +'<span class="lkv-time">'+esc(m.tijd)+'</span>'
+        +'<span class="lkv-logos">'+logo(m.home)+logo(m.away)+'</span>'
+        +'<span class="lkv-main"><span class="lkv-match">'+esc(m.titel)+'</span><span class="lkv-comp">'+esc(m.comp)+'</span></span>'
+        +'<span class="lkv-pill">'+(live?'Nu live':'Waar kijken?')+'</span></a>';
+    });
+    list.innerHTML=html;box.hidden=false;
+  }).catch(function(){});
+})();
+</script>
