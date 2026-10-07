@@ -110,17 +110,59 @@ def vorige_ontmoeting(hid, aid):
             "gh": f["goals"]["home"], "ga": f["goals"]["away"], "maand": B.MAAND[d.month-1], "jaar": d.year}
 
 
-def build(slug_api, cfg, gids, widx, state, now):
+KLAAR = ("FT", "AET", "PEN")
+
+
+def doelpunten(fid):
+    """["12' Til (1-0)", "58' Ueda (1-1, strafschop)"] uit de wedstrijd-events. De tussenstand wordt
+    gecontroleerd tegen de eindstand (eigen doelpunten: beide API-conventies proberen), anders zonder tussenstand."""
+    try:
+        m = api.match(fid) or {}
+    except Exception:
+        return []
+    hid = ((m.get("teams") or {}).get("home") or {}).get("id")
+    eind = ((m.get("goals") or {}).get("home"), (m.get("goals") or {}).get("away"))
+    goals = [ev for ev in m.get("events") or []
+             if ev.get("type") == "Goal" and "Missed" not in (ev.get("detail") or "")]
+    def lijst(og_omdraaien, met_stand):
+        gh = ga = 0
+        out = []
+        for ev in goals:
+            thuis = (ev.get("team") or {}).get("id") == hid
+            if og_omdraaien and ev.get("detail") == "Own Goal":
+                thuis = not thuis
+            gh, ga = (gh + 1, ga) if thuis else (gh, ga + 1)
+            t = ev.get("time") or {}
+            minuut = f"{t.get('elapsed')}{'+' + str(t['extra']) if t.get('extra') else ''}'"
+            naam = ((ev.get("player") or {}).get("name") or "").strip()
+            extra = {"Penalty": "strafschop", "Own Goal": "eigen doelpunt"}.get(ev.get("detail"))
+            info = ", ".join(x for x in ([f"{gh}-{ga}"] if met_stand else []) + ([extra] if extra else []))
+            out.append(f"{minuut} {naam}" + (f" ({info})" if info else ""))
+        return out, (gh, ga)
+    for omdraaien in (False, True):
+        out, stand = lijst(omdraaien, True)
+        if stand == eind:
+            return out
+    return lijst(False, False)[0]
+
+
+def build(slug_api, cfg, gids, widx, state, now, ronde=None):
+    """Hub-data voor één speelronde. Zonder `ronde`: de eerstvolgende ronde (als die binnen DAGEN_VOORUIT begint).
+    Gespeelde wedstrijden van de ronde blijven erin, met uitslag."""
     naam, comp_slug, comp_id, default_tv, soort = cfg
     d = api.fixtures(slug_api) or {}
     up = sorted(d.get("upcoming") or [], key=lambda f: f["fixture"]["date"])
-    if not up:
+    if ronde is None:
+        if not up:
+            return None
+        ronde = up[0]["league"]["round"]
+        if B._local(up[0]["fixture"]["date"]) > now + timedelta(days=DAGEN_VOORUIT):
+            return None
+    alle = {f["fixture"]["id"]: f for f in (d.get("recent") or []) + up}
+    fx = sorted((f for f in alle.values() if f["league"]["round"] == ronde), key=lambda f: f["fixture"]["date"])
+    if not fx:
         return None
-    ronde = up[0]["league"]["round"]
-    fx = [f for f in up if f["league"]["round"] == ronde]
     eerste = B._local(fx[0]["fixture"]["date"])
-    if eerste > now + timedelta(days=DAGEN_VOORUIT):
-        return None
     nr = ronde_nummer(ronde)
     if not nr:
         return None
@@ -144,15 +186,18 @@ def build(slug_api, cfg, gids, widx, state, now):
         art = dict(widx.get((lo, hi, ko.date().isoformat())) or {})
         if not art.get("live") and state.get(fid, {}).get("slug") and not state[fid].get("draft"):
             art["live"] = state[fid]["slug"]
-        rows.append({"fid": fid, "ko": ko, "home": hN, "away": aN, "tv": tv, "gratis": gratis, "stream": stream, "art": art,
+        st = ((f["fixture"].get("status") or {}).get("short"))
+        score = (f["goals"]["home"], f["goals"]["away"]) if st in KLAAR and f["goals"]["home"] is not None else None
+        rows.append({"fid": fid, "ko": ko, "score": score, "home": hN, "away": aN, "tv": tv, "gratis": gratis, "stream": stream, "art": art,
                      "hid": h["id"], "aid": a["id"], "pair": [lo, hi, ko.date().isoformat()],
                      "rh": (stand.get(str(h["id"])) or {}), "ra": (stand.get(str(a["id"])) or {})})
     met_stand = [r for r in rows if r["rh"].get("rank") and r["ra"].get("rank")]
     tips = sorted(met_stand, key=lambda r: (max(r["rh"]["rank"], r["ra"]["rank"]), r["rh"]["rank"] + r["ra"]["rank"]))[:3]
     for t in tips:
-        t["h2h"] = vorige_ontmoeting(t["hid"], t["aid"])
-        t["kans"] = kansen(t["fid"])
-    return {"slug_api": slug_api, "naam": naam, "comp_slug": comp_slug, "comp_id": comp_id, "soort": soort, "nr": nr,
+        t["h2h"] = None if t["score"] else vorige_ontmoeting(t["hid"], t["aid"])
+        t["kans"] = None if t["score"] else kansen(t["fid"])
+        t["goals"] = doelpunten(t["fid"]) if t["score"] else []
+    return {"slug_api": slug_api, "ronde": ronde, "naam": naam, "comp_slug": comp_slug, "comp_id": comp_id, "soort": soort, "nr": nr,
             "eerste": eerste, "laatste": laatste, "rows": rows, "tips": tips, "telling": telling}
 
 
@@ -232,11 +277,16 @@ def kort_antwoord(h):
         delen = [f"{c}x {tv}" for tv, c in tel]
         zin = f"De {TELWOORD.get(n, n)} wedstrijden van speelronde {h['nr']} zijn verdeeld over {len(tel)} zenders: " + \
               ", ".join(delen[:-1]) + " en " + delen[-1]
-    gr = [r for r in h["rows"] if r["gratis"]]
+    gr = [r for r in h["rows"] if r["gratis"] and not r["score"]]
     if gr:
         zin += f". {aantal(len(gr)).capitalize()} kijk je zonder extra abonnement"
     elif h["soort"] in ("viaplay", "dazn"):
         zin += f". Je hebt voor deze speelronde een abonnement op {tel[0][0]} nodig"
+    gespeeld = sum(1 for r in h["rows"] if r["score"])
+    if gespeeld == n:
+        zin += ". Alle wedstrijden zijn gespeeld: de uitslagen staan in het speelschema"
+    elif gespeeld:
+        zin += f". {aantal(gespeeld).capitalize()} {'is' if gespeeld == 1 else 'zijn'} al gespeeld; die uitslagen staan in het speelschema"
     return zin + "."
 
 
@@ -321,10 +371,15 @@ def tip_html(t, cl):
     (ph, pth), (pa, pta) = plek(t["rh"]), plek(t["ra"])
     links = match_links(t)
     p = [f"<p><strong>{e(hn)} – {e(an)}</strong> | {e(dag_tijd(t['ko']))}, {e(t['tv'])}</p>"]
-    zin = f"{cl(hn, t['hid'])} ({e(ph)}, {pth} punten) treft {cl(an, t['aid'])} ({e(pa)}, {pta} punten)."
+    werkw = "speelde tegen" if t.get("score") else "treft"
+    zin = f"{cl(hn, t['hid'])} ({e(ph)}, {pth} punten) {werkw} {cl(an, t['aid'])} ({e(pa)}, {pta} punten)."
     vh, va = vorm_zin(hn, t["rh"].get("form")), vorm_zin(an, t["ra"].get("form"))
-    if vh and va:
+    if vh and va and not t.get("score"):
         zin += f" {e(vh)}; {e(va)}."
+    if t.get("score"):
+        zin += f" <strong>Uitslag: {e(hn)} – {e(an)} {t['score'][0]}-{t['score'][1]}</strong>."
+        if t.get("goals"):
+            zin += " Doelpunten: " + e(", ".join(t["goals"])) + "."
     k = t.get("kans")
     if k:
         if k.get("gh") and k.get("ga"):
@@ -350,8 +405,9 @@ def html_hub(h, andere):
     cl = club_linker()
     p = ['<p><a href="/live-kijken">‹ Alle wedstrijden live kijken: zenders en tijden</a></p>']
     p.append(f"<p><strong>Kort antwoord: {e(kort_antwoord(h))}</strong></p>")
-    p.append(f"<p>De speelronde opent {e(dag_tijd(eerste['ko']))} met {cl(eerste['home'], eerste['hid'])} – {cl(eerste['away'], eerste['aid'])} "
-             f"en sluit {e(dag_tijd(laatste['ko']))} af met {cl(laatste['home'], laatste['hid'])} – {cl(laatste['away'], laatste['aid'])}. "
+    open_, sluit = ("begon", "eindigde") if laatste["score"] else ("opent", "sluit") if not eerste["score"] else ("begon", "sluit")
+    p.append(f"<p>De speelronde {open_} {e(dag_tijd(eerste['ko']))} met {cl(eerste['home'], eerste['hid'])} – {cl(eerste['away'], eerste['aid'])} "
+             f"en {sluit} {e(dag_tijd(laatste['ko']))}{'' if sluit == 'eindigde' else ' af'} met {cl(laatste['home'], laatste['hid'])} – {cl(laatste['away'], laatste['aid'])}. "
              f"Klik op een wedstrijd voor alle kijkopties, of ga direct naar de voorspelling en de opstellingen.</p>")
     provs = stream_provs(h)
     if h["soort"] == "stream" and provs:
@@ -372,10 +428,14 @@ def html_hub(h, andere):
             extra = {"gratis": " (gratis)", "basispakket": " (basispakket)"}.get(r["gratis"], "")
             ln = match_links(r, zelf="live")
             st = f" (ook via de {' / '.join(r['stream'])}-livestream)" if r["stream"] else ""
+            if r["score"]:
+                p.append(f"<li><strong>{B.nl_tijd(r['ko'])}</strong> {m}: <strong>{r['score'][0]}-{r['score'][1]}</strong> "
+                         f"(was live op {e(r['tv'])})" + (" · " + " · ".join(ln) if ln else "") + "</li>")
+                continue
             p.append(f"<li><strong>{B.nl_tijd(r['ko'])}</strong> {m}: {e(r['tv'])}{e(extra)}{e(st)}"
                      + (" · " + " · ".join(ln) if ln else "") + "</li>")
         p.append("</ul>")
-        tz = tegelijk(rs)
+        tz = tegelijk([r for r in rs if not r["score"]])
         if tz:
             p.append(f"<p><em>{tz}</em></p>")
     content = "\n".join(x for x in p if x)
@@ -447,13 +507,23 @@ def main():
     for slug_api, cfg in HUBS.items():
         if a.league and a.league != slug_api:
             continue
-        h = build(slug_api, cfg, gids, widx, state, now)
-        if not h:
-            print(f"{cfg[0]}: geen speelronde binnen {DAGEN_VOORUIT} dagen"); continue
-        e0 = h["eerste"]
-        h["slug"] = f"{h['comp_slug']}-speelronde-{h['nr']}-op-tv-{e0.day}-{B.MAAND[e0.month-1]}-{e0.year}"
-        h["label"] = f"{h['naam']} speelronde {h['nr']}"
-        hubs.append(h)
+        nieuw = build(slug_api, cfg, gids, widx, state, now)
+        if not nieuw:
+            print(f"{cfg[0]}: geen nieuwe speelronde binnen {DAGEN_VOORUIT} dagen")
+        lopend = []
+        gisteren = (now - timedelta(days=1)).date().isoformat()
+        for k, v in state.items():          # bestaande hubs: bijwerken met uitslagen tot een dag na de laatste wedstrijd
+            if k.startswith("hub:") and v.get("league") == slug_api and v.get("date", "") >= gisteren:
+                ronde = v.get("ronde") or f"Regular Season - {v['match'].rsplit(' ', 1)[-1]}"
+                if not nieuw or ronde != nieuw["ronde"]:
+                    lopend.append(build(slug_api, cfg, gids, widx, state, now, ronde=ronde))
+        for h in [nieuw] + lopend:
+            if not h:
+                continue
+            e0 = h["eerste"]
+            h["slug"] = f"{h['comp_slug']}-speelronde-{h['nr']}-op-tv-{e0.day}-{B.MAAND[e0.month-1]}-{e0.year}"
+            h["label"] = f"{h['naam']} speelronde {h['nr']}"
+            hubs.append(h)
     # andere hubs van deze week (ook eerder aangemaakte die nog lopen)
     alle = OrderedDict((h["slug"], h["label"]) for h in hubs)
     for k, v in state.items():
@@ -485,13 +555,15 @@ def main():
             print("   · ongewijzigd"); continue
         if ent:
             WF.update_live(ent["item_id"], fd)
-            ent.update({"sig": sig, "pairs": pairs, "match": h["label"], "date": h["laatste"].date().isoformat()})
+            ent.update({"sig": sig, "pairs": pairs, "match": h["label"], "date": h["laatste"].date().isoformat(),
+                        "ronde": h["ronde"]})
             print("   ↻ bijgewerkt")
         else:
             fd["publicatiedatum"] = datetime.now(timezone.utc).isoformat()
             item_id = WF.create_live(fd)
             state[key] = {"item_id": item_id, "slug": slug, "match": h["label"], "date": h["laatste"].date().isoformat(),
-                          "league": h["slug_api"], "hub": True, "sig": sig, "pairs": pairs}
+                          "league": h["slug_api"], "hub": True, "sig": sig, "pairs": pairs,
+                          "ronde": h["ronde"]}
             try:
                 import og_image as O
                 img = O.render_hub({"comp": h["naam"], "titel": h["label"],
