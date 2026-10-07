@@ -275,7 +275,7 @@ def tegelijk(rows):
 
 def tighten_lists(html_in):
     """Geen witruimte tussen tags binnen <ul>/<ol>: anders gooit Webflow de lijst weg bij publiceren."""
-    return re.sub(r"<(ul|ol)\b.*?</\1>", lambda m: re.sub(r">\s+<", "><", m.group(0)), html_in, flags=re.S)
+    return re.sub(r"<(ul|ol)\b.*?</\1>", lambda m: re.sub(r"\s*(</?(?:ul|ol|li)\b[^>]*>)\s*", r"\1", m.group(0)), html_in, flags=re.S)
 
 
 def club_linker():
