@@ -108,7 +108,7 @@ def gather(fx, standings=None, force_provider=None, landen=False):
         "hSlug": club_slug(homeId, homeN), "aSlug": club_slug(awayId, awayN),
         "compSlug": None, "compN": None,   # ingevuld door build_fielddata (league config)
         "dt": dt, "venue": stadion_nl(ven.get("name")), "city": ven.get("city") or "",
-        "referee": fixture.get("referee"), "ronde": ronde, "ronde_txt": ronde_txt,
+        "referee": fixture.get("referee"), "ronde": ronde, "ronde_txt": ronde_txt, "ronde_raw": round_raw,
         "hRow": hRow, "aRow": aRow, "hForm": hForm, "aForm": aForm,
         "hResults": recent_results(homeId, landen=landen), "aResults": recent_results(awayId, landen=landen),
         "h2h": api.h2h(homeId, awayId),
@@ -167,6 +167,12 @@ def build_fielddata(ctx, league_cfg, slug=None):
         geen_stream = False
         ctx["stream_bron"] = "waaroptv"
     ctx["tv_paid_only"] = geen_stream and bool(ctx.get("tv")) and not ctx.get("tv_free")
+    # precieze zenderuitleg (ESPN-kanalen, Ziggo Sport 1/Totaal/Free) voor Eredivisie, KKD en Europese bekers
+    ctx["zender_soort"] = league_cfg.get("zender_soort")
+    if ctx["zender_soort"]:
+        _nl = [n.lower() for n in league_cfg.get("nl_clubs", [])]
+        ctx["nl_club"] = any(n in _names for n in _nl)
+        ctx["competitiefase"] = "league stage" in str(ctx.get("ronde_raw") or "").lower()
     # zender zit in het basispakket (bv. ESPN 1): geen 'betaald abonnement'-tekst
     ctx["tv_basis"] = bool(league_cfg.get("tv_basis")) and ctx["tv_paid_only"]
     dt = ctx["dt"]

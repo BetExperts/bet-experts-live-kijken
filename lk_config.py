@@ -94,7 +94,9 @@ def is_topper(fx, cfg):
     t = fx.get("teams", {})
     names = ((t.get("home", {}) or {}).get("name", "") + " | " +
              (t.get("away", {}) or {}).get("name", "")).lower()
-    return any(top in names for top in tops)
+    teams = [n.strip() for n in names.split("|")]
+    # '=naam' = exacte teamnaam (bv. '=inter' niet laten matchen op 'Inter Club d'Escaldes')
+    return any((n == top[1:]) if top.startswith("=") else (top in n) for top in tops for n in teams)
 
 # --- Competities die de agent verwerkt ---
 # worker_slug = slug in de Cloudflare Worker (voor /api/fixtures/{slug})
@@ -104,6 +106,14 @@ def is_topper(fx, cfg):
 # force_provider : 'toto'/'bet365' = vaste aanbieder voor die competitie (anders afwisselen)
 # toppers_only   : True = alleen wedstrijden met een 'groot team' (top_teams) krijgen een artikel
 # angle          : introzin die de competitie-invalshoek zet
+# Nederlandse clubs (API-namen, kleine letters) en Europese toppers met veel Nederlandse kijkers
+NL_CLUBS = ["psv", "feyenoord", "ajax", "az alkmaar", "twente", "fc utrecht", "go ahead eagles", "nec nijmegen",
+            "heerenveen", "sparta rotterdam", "fortuna sittard", "pec zwolle", "fc groningen"]
+EU_TOPPERS = ["real madrid", "barcelona", "bayern", "paris saint germain", "manchester city", "manchester united",
+              "liverpool", "arsenal", "chelsea", "tottenham", "=inter", "juventus", "ac milan", "napoli", "atletico madrid",
+              "borussia dortmund", "bayer leverkusen", "benfica", "porto", "sporting cp", "galatasaray", "fenerbahce",
+              "besiktas", "club brugge", "anderlecht", "celtic", "rangers", "as roma", "lazio"]
+
 LEAGUES = [
     {"worker_slug": "super-lig", "comp_slug": "super-lig", "naam": "Süper Lig",
      "comp_id": "66ed7d481dc85d2ca649595c", "tv": None,
@@ -136,6 +146,34 @@ LEAGUES = [
                    "tottenham", "newcastle", "aston villa", "west ham"],
      "angle": ("De EFL Cup (Carabao Cup) wordt in Nederland uitgezonden door Viaplay, waarvoor je een "
                "abonnement nodig hebt. Zonder abonnement volg je dit Engelse bekerduel gewoon gratis.")},
+    # --- Eredivisie, KKD en Europese bekers (07-10-2026) ---
+    # zender_soort: precieze uitleg per kanaal (lk_build.zender_uitleg). Het exacte kanaal (ESPN 2, Ziggo Sport 1)
+    # komt uit de tv-gids zodra die het weet; tot dan staat er 'ESPN'/'Ziggo Sport' met uitleg dat het kanaal
+    # ~een week vooraf bekend wordt (de ochtend/avond-tv-update werkt het artikel bij).
+    # Geen bookmaker-stream (ESPN/Ziggo exclusief); aanbieder alleen voor live meewedden.
+    {"worker_slug": "eredivisie", "comp_slug": "eredivisie", "naam": "Eredivisie",
+     "comp_id": "65de2f987de877fdf6583d10", "tv": "ESPN", "zender_soort": "espn", "bookmaker_stream": False,
+     "force_provider": "toto",
+     "angle": "Alle Eredivisie-wedstrijden worden in Nederland live uitgezonden door ESPN."},
+    {"worker_slug": "eerste-divisie", "comp_slug": "keuken-kampioen-divisie", "naam": "Keuken Kampioen Divisie",
+     "comp_id": "65de4bc0a8777b9898d6374e", "tv": "ESPN", "zender_soort": "espn", "bookmaker_stream": False,
+     "force_provider": "toto",
+     "angle": "Alle wedstrijden in de Keuken Kampioen Divisie worden in Nederland live uitgezonden door ESPN."},
+    {"worker_slug": "champions-league", "comp_slug": "champions-league", "naam": "Champions League",
+     "comp_id": "65de4adac046f4488dfdebc2", "tv": "Ziggo Sport", "zender_soort": "ziggo-uefa",
+     "bookmaker_stream": False, "force_provider": "bet365", "toppers_only": True,
+     "nl_clubs": NL_CLUBS, "top_teams": NL_CLUBS + EU_TOPPERS,
+     "angle": "De Champions League is in Nederland te zien bij Ziggo Sport, dat de rechten heeft tot en met het seizoen 2030/31."},
+    {"worker_slug": "europa-league", "comp_slug": "europa-league", "naam": "Europa League",
+     "comp_id": "65de4be481512ad1b77740b1", "tv": "Ziggo Sport", "zender_soort": "ziggo-uefa",
+     "bookmaker_stream": False, "force_provider": "toto", "toppers_only": True,
+     "nl_clubs": NL_CLUBS, "top_teams": NL_CLUBS + EU_TOPPERS,
+     "angle": "De Europa League is in Nederland te zien bij Ziggo Sport, dat de rechten heeft tot en met het seizoen 2030/31."},
+    {"worker_slug": "conference-league", "comp_slug": "conference-league", "naam": "Conference League",
+     "comp_id": "65de4bf0f348c222f01bed83", "tv": "Ziggo Sport", "zender_soort": "ziggo-uefa",
+     "bookmaker_stream": False, "force_provider": "bet365", "toppers_only": True,
+     "nl_clubs": NL_CLUBS, "top_teams": NL_CLUBS + EU_TOPPERS,
+     "angle": "De Conference League is in Nederland te zien bij Ziggo Sport, net als de Europa League."},
     # Nations League: alle duels zijn te zien op Ziggo Sport (betaald); Oranje gratis op NPO.
     # bookmaker_stream=False: standaard geen stream beloven en de aanbieder alleen voor live
     # meewedden noemen. Uitzondering: noemt de tv-gids (waaroptv) een van onze aanbieders als
@@ -236,14 +274,23 @@ def stadion_nl(name):
         return _STADIONS_KEY[key] or None
     return name
 
+try:
+    CLUBS_NL = {k: v for k, v in json.load(open(os.path.join(DATA, "clubs_nl.json"), encoding="utf-8")).items() if not k.startswith("_")}
+except Exception:
+    CLUBS_NL = {}
+
 def nl_name(name):
-    """Vertaal een landenteam-naam naar het Nederlands (clubs blijven ongemoeid).
+    """Vertaal een landenteam-naam naar het Nederlands; clubs naar de gangbare Nederlandse naam (data/clubs_nl.json).
     Jeugdelftallen: 'Slovenia U21' -> 'Jong Slovenië', 'Netherlands U21' -> 'Jong Oranje'."""
+    if name in CLUBS_NL:
+        return CLUBS_NL[name]
     if name and name.endswith(" U21"):
         base = name[:-4]
         if base == "Netherlands":
             return "Jong Oranje"
         return "Jong " + LANDEN_NL.get(base, LANDEN_NL.get(base.replace("-", " & "), base))
+    if name in CLUBS_NL:
+        return CLUBS_NL[name]
     return LANDEN_NL.get(name) or _LANDEN_LOW.get((name or "").lower(), name)
 
 def club_slug(team_id, name=None):

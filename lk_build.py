@@ -383,6 +383,98 @@ def _kijk_blok_basis(prov, homeN, awayN, tv, dt, comp):
                f'mee op {M}</strong></a></p>')
     return "\n".join(out)
 
+# ---------- precieze zenderuitleg per competitie (ESPN / Ziggo Sport UEFA) ----------
+def zender_uitleg(soort, tv, comp, nl_club=False, competitiefase=False):
+    """Geeft (alinea's, gratis_antwoord, online_antwoord) voor de exacte zender van deze wedstrijd.
+    Feiten per oktober 2026; bij een algemene zender ('ESPN', 'Ziggo Sport') staat het kanaal nog niet vast."""
+    t = (tv or "").lower()
+    if soort == "espn":
+        if "espn 1" in t:
+            zin = ("ESPN 1 zit bij vrijwel elke Nederlandse tv-aanbieder in het basispakket, dus met een gewoon "
+                   "tv-abonnement kijk je zonder extra kosten mee.")
+            gratis = "Ja, met een gewoon tv-abonnement: ESPN 1 zit bij vrijwel elke aanbieder in het basispakket."
+        elif re.search(r"espn [234]", t):
+            zin = (f"Bij Ziggo zit {tv} sinds juli 2026 standaard in elk tv-pakket. Bij KPN en Odido boek je de "
+                   "ESPN-kanalen erbij met ESPN Compleet; een los abonnement rechtstreeks bij ESPN bestaat niet.")
+            gratis = (f"Voor Ziggo-klanten wel: {tv} zit daar standaard in het tv-pakket. Bij KPN en Odido heb je "
+                      "ESPN Compleet nodig.")
+        elif "extra" in t:
+            zin = ("Deze wedstrijd staat niet op een vast ESPN-kanaal, maar wordt live uitgezonden als extra stream "
+                   "(ESPN Extra) in de ESPN-app. Daarvoor heb je een ESPN-abonnement nodig.")
+            gratis = "Nee, ESPN Extra kijk je met een ESPN-abonnement in de ESPN-app."
+        else:
+            zin = (f"Alle {comp}-wedstrijden worden uitgezonden door ESPN, op ESPN 1 tot en met 4 en in de ESPN-app. "
+                   "Welk kanaal deze wedstrijd krijgt, maakt ESPN ongeveer een week van tevoren bekend; we werken dit "
+                   "artikel bij zodra dat bekend is. ESPN 1 zit bij vrijwel elke aanbieder in het basispakket, bij "
+                   "Ziggo zitten ook ESPN 2, 3 en 4 standaard in het pakket.")
+            gratis = ("Dat hangt af van het kanaal: ESPN 1 zit bij vrijwel elke aanbieder in het basispakket, en bij "
+                      "Ziggo zitten ook ESPN 2, 3 en 4 standaard in het tv-pakket.")
+        online = ("Ja, via de ESPN-app of de app van je tv-aanbieder, afhankelijk van je abonnement. Bij Ziggo stream "
+                  "je ESPN in de Ziggo GO-app met ESPN Premium.")
+        extra = ("Samenvattingen van alle Eredivisie-wedstrijden zie je gratis bij NOS Studio Sport op NPO 1."
+                 if "eredivisie" in comp.lower() else
+                 "Op vrijdagavond zendt ESPN 1 ook het schakelprogramma Voetbal op Vrijdag uit, dat live tussen "
+                 "de wedstrijden wisselt." if "kampioen" in comp.lower() else "")
+        return [zin] + ([extra] if extra else []), gratis, online
+    if soort == "ziggo-uefa":
+        delen = []
+        if nl_club and competitiefase:
+            delen.append("Omdat er een Nederlandse club speelt, is deze wedstrijd in de competitiefase voor iedereen "
+                         "gratis te zien via Ziggo Sport Free, op ziggo.nl/uefa en in de Ziggo GO-app. Daarvoor heb "
+                         "je geen Ziggo-abonnement nodig.")
+            gratis = ("Ja. Wedstrijden van Nederlandse clubs in de competitiefase zijn voor iedereen gratis via "
+                      "Ziggo Sport Free (ziggo.nl/uefa en de Ziggo GO-app).")
+        else:
+            gratis = None
+        if re.search(r"ziggo sport 1\b", t):
+            delen.append("Ziggo Sport 1 is het open kanaal (kanaal 14 bij Ziggo): Ziggo-klanten kijken daar zonder "
+                         "extra kosten mee met hun gewone tv-pakket.")
+            gratis = gratis or "Voor Ziggo-klanten wel: Ziggo Sport 1 is het open kanaal en zit in elk tv-pakket."
+        elif re.search(r"ziggo sport [2-6]", t):
+            delen.append(f"Voor {tv} heb je Ziggo Sport Totaal nodig, te boeken bij Ziggo, KPN en Odido.")
+            gratis = gratis or f"Nee, voor {tv} heb je Ziggo Sport Totaal nodig."
+        else:
+            delen.append(f"Ziggo Sport heeft de rechten van de {comp} en maakt ongeveer een week vooraf per wedstrijd "
+                         "het kanaal bekend; we werken dit artikel bij zodra dat bekend is. Elke speelavond staat minstens "
+                         "één wedstrijd op het open kanaal Ziggo Sport 1, de overige zie je met Ziggo Sport Totaal.")
+            gratis = gratis or ("Dat hangt af van het kanaal: Ziggo Sport 1 is gratis voor Ziggo-klanten, voor de "
+                                "andere kanalen heb je Ziggo Sport Totaal nodig.")
+        delen.append(f"Wil je alle doelpunten van de avond tegelijk volgen? Het Switch-programma op Ziggo Sport 4 "
+                     f"schakelt live tussen de wedstrijden.")
+        online = "Ja, via de Ziggo GO-app (of de Ziggo Sport Totaal GO-app) op je telefoon, tablet of laptop."
+        return delen, gratis, online
+    return [], None, None
+
+def _kijk_blok_zender(prov, homeN, awayN, tv, dt, comp, soort, nl_club=False, competitiefase=False):
+    M = f"{esc(homeN)} – {esc(awayN)}"
+    delen, _, _ = zender_uitleg(soort, tv, comp, nl_club, competitiefase)
+    out = [f"<h3>Op welke zender is {esc(homeN)} – {esc(awayN)}? Live op {esc(tv)}</h3>",
+           f"<p>{M} is in Nederland live te zien op <strong>{esc(tv)}</strong>, {esc(nl_wanneer(dt))}.</p>"]
+    out += [f"<p>{esc(d)}</p>" for d in delen]
+    stappen = [f"<li>Zet om {nl_tijd(dt)} uur {esc(tv)} aan voor de aftrap</li>"]
+    if soort == "ziggo-uefa" and nl_club and competitiefase:
+        stappen.append("<li>Geen Ziggo? Kijk gratis via Ziggo Sport Free op ziggo.nl/uefa of in de Ziggo GO-app</li>")
+    stappen.append("<li>Onderweg? Kijk mee via de app van je tv-aanbieder"
+                   + (" of de ESPN-app" if soort == "espn" else " of de Ziggo GO-app") + "</li>")
+    out.append("<p><strong>Zo kijk je live mee:</strong></p><ol>" + "".join(stappen) + "</ol>")
+    out.append(f"<h3>Live meewedden op {M}</h3>")
+    out.append(f"<p>Wil je tijdens de wedstrijd live meewedden? Bij {esc(prov['naam'])} volg je de actuele "
+               f"live-odds van {M} en speel je in op het wedstrijdverloop.</p>")
+    out.append(f'<p><a href="{prov["link"]}"><strong>Open een account bij {esc(prov["naam"])} en wed live '
+               f'mee op {M}</strong></a></p>')
+    return "\n".join(out)
+
+def _faq_zender(homeN, awayN, comp, dt, tv, soort, nl_club=False, competitiefase=False):
+    _, gratis, online = zender_uitleg(soort, tv, comp, nl_club, competitiefase)
+    q = [
+        (f"Waar kun je {homeN} – {awayN} kijken?", f"Op {tv}, {nl_wanneer(dt)}."),
+        (f"Hoe laat begint {homeN} – {awayN}?", _aftrap_antwoord(dt)),
+        (f"Op welke zender is {homeN} – {awayN} te zien?", f"Het {comp}-duel is in Nederland live te zien op {tv}."),
+        (f"Is {homeN} – {awayN} gratis te kijken?", gratis),
+        ("Kan ik de wedstrijd ook online kijken?", online),
+    ]
+    return "\n".join(f"<p><strong>{esc(a)}</strong><br>{esc(b)}</p>" for a, b in q if b)
+
 def _aftrap_antwoord(dt):
     if is_nacht(dt):
         return f"De aftrap is {nl_wanneer(dt)} Nederlandse tijd."
@@ -508,7 +600,10 @@ def build_content(ctx):
     if vb_url:
         c1.append(f'<p><strong>Lees ook:</strong> onze <a href="{vb_url}">uitgebreide voorbeschouwing van '
                   f'{esc(homeN)} – {esc(awayN)}</a> met voorspelling, odds en de vermoedelijke opstellingen.</p>')
-    if paid and ctx.get("tv_basis"):
+    if ctx.get("zender_soort") and paid:
+        c1.append(_kijk_blok_zender(prov, homeN, awayN, ctx.get("tv"), dt, compN, ctx["zender_soort"],
+                                    ctx.get("nl_club"), ctx.get("competitiefase")))
+    elif paid and ctx.get("tv_basis"):
         c1.append(_kijk_blok_basis(prov, homeN, awayN, ctx.get("tv"), dt, compN))
     elif paid:
         c1.append(_kijk_blok_betaald(prov, homeN, awayN, ctx.get("tv"), dt, compN, ctx.get("tv_extra")))
@@ -550,7 +645,9 @@ def build_content(ctx):
                   f'{esc(homeN)} – {esc(awayN)}</a> met onze voorspelling en de opstellingen.</p>')
     c3.append("<h3>Veelgestelde vragen</h3>")
     if free or paid:
-        c3.append(_faq_gratis(homeN, awayN, compN, dt, ctx.get("tv"), ctx.get("tv_extra")) if free
+        c3.append(_faq_zender(homeN, awayN, compN, dt, ctx.get("tv"), ctx["zender_soort"], ctx.get("nl_club"),
+                              ctx.get("competitiefase")) if (paid and ctx.get("zender_soort"))
+                  else _faq_gratis(homeN, awayN, compN, dt, ctx.get("tv"), ctx.get("tv_extra")) if free
                   else _faq_basis(homeN, awayN, compN, dt, ctx.get("tv")) if ctx.get("tv_basis")
                   else _faq_betaald(homeN, awayN, compN, dt, ctx.get("tv"), ctx.get("tv_extra")))
         c3.append(f'<p><a href="{prov["link"]}"><strong>Wed live mee op {esc(homeN)} – {esc(awayN)} bij '
