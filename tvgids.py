@@ -90,6 +90,35 @@ def _parse(page):
                       "gratis": "wedstrijd-meta__gratis" in li, "url": naam.group(1)})
     return cards
 
+_MND = ["januari","februari","maart","april","mei","juni","juli","augustus","september","oktober","november","december"]
+
+def _parse_ronde(page, jaar):
+    """Speelronde-overzicht: per dag (h3) een tabel met tijd / wedstrijd / zender (+ 'gratis')."""
+    from zoneinfo import ZoneInfo
+    tz, cards = ZoneInfo("Europe/Amsterdam"), []
+    blok = page[page.find("waaroptv-speelronde"):]
+    for dag, tabel in re.findall(r"<h3>([^<]+)</h3>\s*<div class=\"waaroptv-info__tabel\">(.*?)</table>", blok, flags=re.S):
+        m = re.search(r"(\d{1,2})\s+([a-z]+)", dag.lower())
+        if not m or m.group(2) not in _MND:
+            continue
+        d, mnd = int(m.group(1)), _MND.index(m.group(2)) + 1
+        for tijd, club, zender in re.findall(r'__tijd">(\d{1,2}:\d{2})</td>\s*<td[^>]*>(.*?)</td>\s*<td class="waaroptv-speelronde__zender">(.*?)</td>', tabel, flags=re.S):
+            naam = html.unescape(re.sub(r"<[^>]+>", "", club)).strip()
+            teams = re.split(r"\s+[–-]\s+", naam, maxsplit=1)
+            if len(teams) != 2:
+                continue
+            gratis = "gratis" in zender
+            zenders = _split_zenders(html.unescape(z).strip() for z in
+                                     re.sub(r"<span.*?</span>", "", zender, flags=re.S).split(","))
+            hh, mm = map(int, tijd.split(":"))
+            ko = datetime(jaar, mnd, d, hh, mm, tzinfo=tz)
+            tv = [z for z in zenders if z.lower() not in BOOKMAKERS]
+            bm = [z for z in zenders if z.lower() in BOOKMAKERS]
+            cards.append({"home": teams[0], "away": teams[1], "kickoff": ko, "competitie": "", "zenders": zenders,
+                          "tv": tv, "bookmakers": bm, "providers": [BOOKMAKERS[b.lower()] for b in bm if BOOKMAKERS[b.lower()]],
+                          "gratis": gratis, "url": ""})
+    return cards
+
 class TvGids:
     def __init__(self):
         self.cards = None
@@ -110,6 +139,17 @@ class TvGids:
         except Exception as e:           # netwerk/Cloudflare: agent valt terug op eigen config
             self.error = f"{type(e).__name__}: {e}"
         return self.cards
+
+    def add_ronde(self, comp_slug, nr, eerste):
+        """Speelronde-overzicht van één competitie erbij laden (exacte zender per wedstrijd). Aantal toegevoegde kaarten."""
+        self.load()
+        url = f"{BASE}/{comp_slug}-speelronde-{nr}-op-tv-{eerste.day}-{_MND[eerste.month-1]}/"
+        try:
+            extra = _parse_ronde(_get(url), eerste.year)
+        except Exception:
+            return 0
+        self.cards = extra + self.cards        # eerst de rondekaarten: die zijn het meest specifiek
+        return len(extra)
 
     def lookup(self, home, away, kickoff, min_score=0.6):
         """Beste kaart voor deze wedstrijd (zelfde aftrap ±15 min, teamnamen lijken), of None."""

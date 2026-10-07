@@ -434,5 +434,85 @@
     "tv_sig": "ESPN Extra|TOTO|False|True",
     "og": "og/jong-ajax-vvv-venlo-live-gratis-kijken-09-10-2026-4cd198.webp",
     "og_done": "og/jong-ajax-vvv-venlo-live-gratis-kijken-09-10-2026-4cd198.webp"
+  },
+  "hub:eredivisie-speelronde-8-op-tv-9-oktober-2026": {
+    "item_id": "6ac638aea1ab408322b3d42a",
+    "slug": "eredivisie-speelronde-8-op-tv-9-oktober-2026",
+    "match": "Eredivisie speelronde 8",
+    "date": "2026-10-11",
+    "league": "eredivisie",
+    "hub": true,
+    "sig": "852fa2e24cab21b2abf2dd1d3ebe89de",
+    "og": "og/eredivisie-speelronde-8-op-tv-9-oktober-2026-2f148a.webp"
+  },
+  "hub:keuken-kampioen-divisie-speelronde-10-op-tv-9-oktober-2026": {
+    "item_id": "6ac638b1f27407cc05252b5e",
+    "slug": "keuken-kampioen-divisie-speelronde-10-op-tv-9-oktober-2026",
+    "match": "Keuken Kampioen Divisie speelronde 10",
+    "date": "2026-10-09",
+    "league": "eerste-divisie",
+    "hub": true,
+    "sig": "6ff6f4bc17d2f4d37f0c2e9d9662b8dc",
+    "og": "og/keuken-kampioen-divisie-speelronde-10-op-tv-9-oktober-2026-a36719.webp"
+  },
+  "hub:premier-league-speelronde-6-op-tv-10-oktober-2026": {
+    "item_id": "6ac638b39a8d79e89609ce1c",
+    "slug": "premier-league-speelronde-6-op-tv-10-oktober-2026",
+    "match": "Premier League speelronde 6",
+    "date": "2026-10-12",
+    "league": "premier-league",
+    "hub": true,
+    "sig": "2003a72d1615768a556afc096da49511",
+    "og": "og/premier-league-speelronde-6-op-tv-10-oktober-2026-aace43.webp"
+  },
+  "hub:la-liga-speelronde-8-op-tv-9-oktober-2026": {
+    "item_id": "6ac638b62a07d27334eac64a",
+    "slug": "la-liga-speelronde-8-op-tv-9-oktober-2026",
+    "match": "La Liga speelronde 8",
+    "date": "2026-10-12",
+    "league": "la-liga",
+    "hub": true,
+    "sig": "9cfbc06fd1d38d346d2148b09d092f9e",
+    "og": "og/la-liga-speelronde-8-op-tv-9-oktober-2026-b68fca.webp"
+  },
+  "hub:bundesliga-speelronde-5-op-tv-9-oktober-2026": {
+    "item_id": "6ac638b9f27407cc0525329b",
+    "slug": "bundesliga-speelronde-5-op-tv-9-oktober-2026",
+    "match": "Bundesliga speelronde 5",
+    "date": "2026-10-11",
+    "league": "bundesliga",
+    "hub": true,
+    "sig": "f7ae1cf86a661e933cd08afc64d6d250",
+    "og": "og/bundesliga-speelronde-5-op-tv-9-oktober-2026-a79a6c.webp"
+  },
+  "hub:ligue-1-speelronde-6-op-tv-9-oktober-2026": {
+    "item_id": "6ac638bc69d286254ce55fad",
+    "slug": "ligue-1-speelronde-6-op-tv-9-oktober-2026",
+    "match": "Ligue 1 speelronde 6",
+    "date": "2026-10-11",
+    "league": "ligue-1",
+    "hub": true,
+    "sig": "b252b349f1d71b3421b02305348aa934",
+    "og": "og/ligue-1-speelronde-6-op-tv-9-oktober-2026-abd9a1.webp"
+  },
+  "hub:super-lig-speelronde-7-op-tv-9-oktober-2026": {
+    "item_id": "6ac638bfafa9cefb79e4f35d",
+    "slug": "super-lig-speelronde-7-op-tv-9-oktober-2026",
+    "match": "Süper Lig speelronde 7",
+    "date": "2026-10-12",
+    "league": "super-lig",
+    "hub": true,
+    "sig": "dafb4cd2133446778440e1350f485363",
+    "og": "og/super-lig-speelronde-7-op-tv-9-oktober-2026-c92c0a.webp"
+  },
+  "hub:jupiler-pro-league-speelronde-8-op-tv-9-oktober-2026": {
+    "item_id": "6ac638c247ff41baf33b057b",
+    "slug": "jupiler-pro-league-speelronde-8-op-tv-9-oktober-2026",
+    "match": "Jupiler Pro League speelronde 8",
+    "date": "2026-10-11",
+    "league": "jupiler-pro-league",
+    "hub": true,
+    "sig": "bac7dd6df74aa6c89c580ad5f7ee75eb",
+    "og": "og/jupiler-pro-league-speelronde-8-op-tv-9-oktober-2026-02bf42.webp"
   }
 }

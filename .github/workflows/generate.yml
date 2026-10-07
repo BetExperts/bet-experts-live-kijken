@@ -37,6 +37,8 @@ jobs:
             for d in 1 2 3; do python generate.py --date "$(date -u -d "+$d day" +%F)"; done
             python generate.py --date "$(date -u -d '+1 day' +%F)" --update --alleen-tv-wijziging
           fi
+          # speelronde-hubs per competitie (alleen bijwerken als zender/links veranderd zijn)
+          python speelronde.py || echo "speelronde-hubs mislukt"
       - name: Commit state (fixture-id -> item-id)
         run: |
           git config user.name "github-actions[bot]"
