@@ -442,9 +442,56 @@
     "date": "2026-10-11",
     "league": "eredivisie",
     "hub": true,
-    "sig": "852fa2e24cab21b2abf2dd1d3ebe89de",
+    "sig": "9f616f971cc380b13830ba0c501c4425",
     "og": "og/eredivisie-speelronde-8-op-tv-9-oktober-2026-2f148a.webp",
-    "og_done": "og/eredivisie-speelronde-8-op-tv-9-oktober-2026-2f148a.webp"
+    "og_done": "og/eredivisie-speelronde-8-op-tv-9-oktober-2026-2f148a.webp",
+    "pairs": [
+      [
+        "197",
+        "210",
+        "2026-10-09"
+      ],
+      [
+        "410",
+        "426",
+        "2026-10-10"
+      ],
+      [
+        "201",
+        "209",
+        "2026-10-10"
+      ],
+      [
+        "205",
+        "415",
+        "2026-10-10"
+      ],
+      [
+        "194",
+        "413",
+        "2026-10-10"
+      ],
+      [
+        "195",
+        "207",
+        "2026-10-11"
+      ],
+      [
+        "193",
+        "420",
+        "2026-10-11"
+      ],
+      [
+        "198",
+        "427",
+        "2026-10-11"
+      ],
+      [
+        "196",
+        "202",
+        "2026-10-11"
+      ]
+    ]
   },
   "hub:keuken-kampioen-divisie-speelronde-10-op-tv-9-oktober-2026": {
     "item_id": "6ac638b1f27407cc05252b5e",
@@ -453,9 +500,61 @@
     "date": "2026-10-09",
     "league": "eerste-divisie",
     "hub": true,
-    "sig": "6ff6f4bc17d2f4d37f0c2e9d9662b8dc",
+    "sig": "fa11d7d9c91fc9ca8ad3bf6e78796c9f",
     "og": "og/keuken-kampioen-divisie-speelronde-10-op-tv-9-oktober-2026-a36719.webp",
-    "og_done": "og/keuken-kampioen-divisie-speelronde-10-op-tv-9-oktober-2026-a36719.webp"
+    "og_done": "og/keuken-kampioen-divisie-speelronde-10-op-tv-9-oktober-2026-a36719.webp",
+    "pairs": [
+      [
+        "199",
+        "428",
+        "2026-10-09"
+      ],
+      [
+        "203",
+        "412",
+        "2026-10-09"
+      ],
+      [
+        "206",
+        "417",
+        "2026-10-09"
+      ],
+      [
+        "208",
+        "409",
+        "2026-10-09"
+      ],
+      [
+        "411",
+        "414",
+        "2026-10-09"
+      ],
+      [
+        "200",
+        "416",
+        "2026-10-09"
+      ],
+      [
+        "418",
+        "421",
+        "2026-10-09"
+      ],
+      [
+        "419",
+        "422",
+        "2026-10-09"
+      ],
+      [
+        "423",
+        "424",
+        "2026-10-09"
+      ],
+      [
+        "204",
+        "425",
+        "2026-10-09"
+      ]
+    ]
   },
   "hub:premier-league-speelronde-6-op-tv-10-oktober-2026": {
     "item_id": "6ac638b39a8d79e89609ce1c",
@@ -464,9 +563,61 @@
     "date": "2026-10-12",
     "league": "premier-league",
     "hub": true,
-    "sig": "2003a72d1615768a556afc096da49511",
+    "sig": "4f48b6c1e4857ea39537ff526711c2da",
     "og": "og/premier-league-speelronde-6-op-tv-10-oktober-2026-aace43.webp",
-    "og_done": "og/premier-league-speelronde-6-op-tv-10-oktober-2026-aace43.webp"
+    "og_done": "og/premier-league-speelronde-6-op-tv-10-oktober-2026-aace43.webp",
+    "pairs": [
+      [
+        "42",
+        "63",
+        "2026-10-10"
+      ],
+      [
+        "35",
+        "49",
+        "2026-10-10"
+      ],
+      [
+        "36",
+        "57",
+        "2026-10-10"
+      ],
+      [
+        "55",
+        "66",
+        "2026-10-10"
+      ],
+      [
+        "51",
+        "746",
+        "2026-10-10"
+      ],
+      [
+        "33",
+        "47",
+        "2026-10-10"
+      ],
+      [
+        "52",
+        "65",
+        "2026-10-11"
+      ],
+      [
+        "45",
+        "64",
+        "2026-10-11"
+      ],
+      [
+        "40",
+        "50",
+        "2026-10-11"
+      ],
+      [
+        "1346",
+        "34",
+        "2026-10-12"
+      ]
+    ]
   },
   "hub:la-liga-speelronde-8-op-tv-9-oktober-2026": {
     "item_id": "6ac638b62a07d27334eac64a",
@@ -475,9 +626,61 @@
     "date": "2026-10-12",
     "league": "la-liga",
     "hub": true,
-    "sig": "9cfbc06fd1d38d346d2148b09d092f9e",
+    "sig": "aad0558be069e63ad4464466e90c5ec8",
     "og": "og/la-liga-speelronde-8-op-tv-9-oktober-2026-b68fca.webp",
-    "og_done": "og/la-liga-speelronde-8-op-tv-9-oktober-2026-b68fca.webp"
+    "og_done": "og/la-liga-speelronde-8-op-tv-9-oktober-2026-b68fca.webp",
+    "pairs": [
+      [
+        "535",
+        "540",
+        "2026-10-09"
+      ],
+      [
+        "531",
+        "728",
+        "2026-10-10"
+      ],
+      [
+        "530",
+        "542",
+        "2026-10-10"
+      ],
+      [
+        "529",
+        "546",
+        "2026-10-10"
+      ],
+      [
+        "533",
+        "541",
+        "2026-10-10"
+      ],
+      [
+        "538",
+        "797",
+        "2026-10-11"
+      ],
+      [
+        "544",
+        "548",
+        "2026-10-11"
+      ],
+      [
+        "543",
+        "727",
+        "2026-10-11"
+      ],
+      [
+        "4665",
+        "532",
+        "2026-10-11"
+      ],
+      [
+        "536",
+        "539",
+        "2026-10-12"
+      ]
+    ]
   },
   "hub:bundesliga-speelronde-5-op-tv-9-oktober-2026": {
     "item_id": "6ac638b9f27407cc0525329b",
@@ -486,9 +689,56 @@
     "date": "2026-10-11",
     "league": "bundesliga",
     "hub": true,
-    "sig": "f7ae1cf86a661e933cd08afc64d6d250",
+    "sig": "42093824b293f20e742c721acca998e0",
     "og": "og/bundesliga-speelronde-5-op-tv-9-oktober-2026-a79a6c.webp",
-    "og_done": "og/bundesliga-speelronde-5-op-tv-9-oktober-2026-a79a6c.webp"
+    "og_done": "og/bundesliga-speelronde-5-op-tv-9-oktober-2026-a79a6c.webp",
+    "pairs": [
+      [
+        "162",
+        "165",
+        "2026-10-09"
+      ],
+      [
+        "164",
+        "168",
+        "2026-10-10"
+      ],
+      [
+        "167",
+        "175",
+        "2026-10-10"
+      ],
+      [
+        "157",
+        "170",
+        "2026-10-10"
+      ],
+      [
+        "1660",
+        "182",
+        "2026-10-10"
+      ],
+      [
+        "172",
+        "185",
+        "2026-10-10"
+      ],
+      [
+        "169",
+        "173",
+        "2026-10-10"
+      ],
+      [
+        "163",
+        "192",
+        "2026-10-11"
+      ],
+      [
+        "160",
+        "174",
+        "2026-10-11"
+      ]
+    ]
   },
   "hub:ligue-1-speelronde-6-op-tv-9-oktober-2026": {
     "item_id": "6ac638bc69d286254ce55fad",
@@ -497,9 +747,56 @@
     "date": "2026-10-11",
     "league": "ligue-1",
     "hub": true,
-    "sig": "b252b349f1d71b3421b02305348aa934",
+    "sig": "4c925dec90f7035aba1532e5c487e3f5",
     "og": "og/ligue-1-speelronde-6-op-tv-9-oktober-2026-abd9a1.webp",
-    "og_done": "og/ligue-1-speelronde-6-op-tv-9-oktober-2026-abd9a1.webp"
+    "og_done": "og/ligue-1-speelronde-6-op-tv-9-oktober-2026-abd9a1.webp",
+    "pairs": [
+      [
+        "116",
+        "80",
+        "2026-10-09"
+      ],
+      [
+        "111",
+        "79",
+        "2026-10-10"
+      ],
+      [
+        "1298",
+        "85",
+        "2026-10-10"
+      ],
+      [
+        "91",
+        "96",
+        "2026-10-10"
+      ],
+      [
+        "114",
+        "97",
+        "2026-10-10"
+      ],
+      [
+        "106",
+        "77",
+        "2026-10-10"
+      ],
+      [
+        "84",
+        "95",
+        "2026-10-11"
+      ],
+      [
+        "108",
+        "94",
+        "2026-10-11"
+      ],
+      [
+        "110",
+        "81",
+        "2026-10-11"
+      ]
+    ]
   },
   "hub:super-lig-speelronde-7-op-tv-9-oktober-2026": {
     "item_id": "6ac638bfafa9cefb79e4f35d",
@@ -508,9 +805,56 @@
     "date": "2026-10-12",
     "league": "super-lig",
     "hub": true,
-    "sig": "dafb4cd2133446778440e1350f485363",
+    "sig": "12f2c83c3bf6da33c5aff16f7b7c1231",
     "og": "og/super-lig-speelronde-7-op-tv-9-oktober-2026-c92c0a.webp",
-    "og_done": "og/super-lig-speelronde-7-op-tv-9-oktober-2026-c92c0a.webp"
+    "og_done": "og/super-lig-speelronde-7-op-tv-9-oktober-2026-c92c0a.webp",
+    "pairs": [
+      [
+        "1004",
+        "645",
+        "2026-10-09"
+      ],
+      [
+        "3579",
+        "997",
+        "2026-10-10"
+      ],
+      [
+        "1009",
+        "996",
+        "2026-10-10"
+      ],
+      [
+        "3603",
+        "998",
+        "2026-10-10"
+      ],
+      [
+        "1007",
+        "611",
+        "2026-10-10"
+      ],
+      [
+        "564",
+        "607",
+        "2026-10-11"
+      ],
+      [
+        "3573",
+        "6343",
+        "2026-10-11"
+      ],
+      [
+        "549",
+        "7411",
+        "2026-10-11"
+      ],
+      [
+        "3588",
+        "994",
+        "2026-10-12"
+      ]
+    ]
   },
   "hub:jupiler-pro-league-speelronde-8-op-tv-9-oktober-2026": {
     "item_id": "6ac638c247ff41baf33b057b",
@@ -519,8 +863,55 @@
     "date": "2026-10-11",
     "league": "jupiler-pro-league",
     "hub": true,
-    "sig": "bac7dd6df74aa6c89c580ad5f7ee75eb",
+    "sig": "7e5c8dbba0d92f7c2bf691177fb1ae33",
     "og": "og/jupiler-pro-league-speelronde-8-op-tv-9-oktober-2026-02bf42.webp",
-    "og_done": "og/jupiler-pro-league-speelronde-8-op-tv-9-oktober-2026-02bf42.webp"
+    "og_done": "og/jupiler-pro-league-speelronde-8-op-tv-9-oktober-2026-02bf42.webp",
+    "pairs": [
+      [
+        "259",
+        "738",
+        "2026-10-09"
+      ],
+      [
+        "554",
+        "741",
+        "2026-10-10"
+      ],
+      [
+        "569",
+        "5902",
+        "2026-10-10"
+      ],
+      [
+        "600",
+        "631",
+        "2026-10-10"
+      ],
+      [
+        "734",
+        "742",
+        "2026-10-10"
+      ],
+      [
+        "733",
+        "736",
+        "2026-10-11"
+      ],
+      [
+        "1393",
+        "260",
+        "2026-10-11"
+      ],
+      [
+        "261",
+        "740",
+        "2026-10-11"
+      ],
+      [
+        "266",
+        "735",
+        "2026-10-11"
+      ]
+    ]
   }
 }
