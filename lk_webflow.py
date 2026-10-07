@@ -158,3 +158,39 @@ def load_state():
 def save_state(st):
     os.makedirs(os.path.dirname(STATE), exist_ok=True)
     json.dump(st, open(STATE, "w", encoding="utf-8"), ensure_ascii=False, indent=2)
+
+# ---------- wedstrijd-index (voorbeschouwing / opstelling / live kijken per wedstrijd) ----------
+_LIVE_SLUG = re.compile(r"-live(-gratis)?-kijken-\d{2}-\d{2}-\d{4}$")
+
+def wedstrijd_index(max_items=800):
+    """{(laag-id, hoog-id, 'YYYY-MM-DD'): {'voorb': slug, 'opst': slug, 'live': slug}} van gepubliceerde artikelen
+    (zelfde sleutel als opstellingen-agent/crosslink.py: team-id-paar + speeldatum in Amsterdam)."""
+    from datetime import datetime
+    from zoneinfo import ZoneInfo
+    ams, idx, offset = ZoneInfo("Europe/Amsterdam"), {}, 0
+    while offset < max_items:
+        page = _req("GET", f"{WF_API}/collections/{NIEUWS_COLLECTION}/items"
+                           f"?limit=100&offset={offset}&sortBy=lastPublished&sortOrder=desc")
+        items = (page or {}).get("items") or []
+        if not items:
+            break
+        for it in items:
+            fd = it.get("fieldData") or {}
+            if not it.get("lastPublished") or it.get("isDraft"):
+                continue
+            slug = fd.get("slug") or ""
+            k = ("voorb" if fd.get("voorbeschouwing-2") else "opst" if slug.startswith("opstelling-")
+                 else "live" if _LIVE_SLUG.search(slug) else None)
+            h, a, ko = fd.get("home-team-id"), fd.get("away-team-id"), fd.get("datum-tijd-van-wedstrijd")
+            if not k or not h or not a or not ko:
+                continue
+            try:
+                d = datetime.fromisoformat(ko.replace("Z", "+00:00")).astimezone(ams).date().isoformat()
+            except ValueError:
+                continue
+            lo, hi = sorted([str(h), str(a)])
+            idx.setdefault((lo, hi, d), {}).setdefault(k, slug)      # nieuwste per soort wint
+        offset += len(items)
+        if offset >= ((page.get("pagination") or {}).get("total") or 0):
+            break
+    return idx

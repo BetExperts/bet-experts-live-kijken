@@ -109,7 +109,7 @@ def _parse_ronde(page, jaar):
                 continue
             gratis = "gratis" in zender
             zenders = _split_zenders(html.unescape(z).strip() for z in
-                                     re.sub(r"<span.*?</span>", "", zender, flags=re.S).split(","))
+                                     re.split(r",|\s+en\s+|\s*&amp;\s*", re.sub(r"<span.*?</span>", "", zender, flags=re.S)))
             hh, mm = map(int, tijd.split(":"))
             ko = datetime(jaar, mnd, d, hh, mm, tzinfo=tz)
             tv = [z for z in zenders if z.lower() not in BOOKMAKERS]
