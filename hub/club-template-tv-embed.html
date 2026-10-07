@@ -1,0 +1,64 @@
+<!-- Clubpagina-blok 'Waar kijk je <club>?'. Vervang in Webflow TEAM_ID_HIER en CLUBNAAM_HIER via '+ Add Field'
+     door de CMS-velden 'Team ID' en 'Name'. De kop staat in de HTML (vindbaar voor Google); de wedstrijden laden live. -->
+<div id="ctv" class="ctv" data-team="TEAM_ID_HIER">
+  <h2 class="ctv-title">Waar kijk je <span class="ctv-naam">CLUBNAAM_HIER</span>? Vandaag op tv: zender en aftraptijd</h2>
+  <p class="ctv-intro" id="ctv-intro">Hieronder zie je de komende wedstrijden met de zender, de aftraptijd en waar je ze live kunt kijken.</p>
+  <div class="ctv-card" id="ctv-list"></div>
+  <p class="ctv-more"><a href="/live-kijken">Bekijk alle wedstrijden die je live kunt kijken →</a></p>
+</div>
+
+<style>
+.ctv,.ctv *{box-sizing:border-box}
+.ctv{font-family:'Plus Jakarta Sans',system-ui,sans-serif;color:#0F1621;width:100%;margin:32px 0}
+.ctv-title{font-family:'Poppins',sans-serif;font-size:22px;line-height:1.3;font-weight:700;margin:0 0 8px}
+.ctv-intro{font-size:15px;line-height:1.6;color:#3D4A55;margin:0 0 14px}
+.ctv-card{background:#fff;border:1px solid rgba(15,22,33,.10);border-radius:16px;overflow:hidden;box-shadow:0 1px 3px rgba(15,22,33,.05)}
+.ctv-card:empty{display:none}
+.ctv-row{display:grid;grid-template-columns:118px 28px minmax(0,1fr) auto;align-items:center;gap:12px;padding:13px 16px;border-bottom:1px solid rgba(15,22,33,.06)}
+.ctv-row:last-child{border-bottom:none}
+.ctv-when{font-family:'Poppins',sans-serif;font-size:14px;font-weight:600;line-height:1.25}
+.ctv-when small{display:block;font-family:'Plus Jakarta Sans',sans-serif;font-weight:500;font-size:12.5px;color:#8A97A0;text-transform:capitalize}
+.ctv-logos{display:flex;flex-direction:column;gap:3px}
+.ctv-logos img{width:22px;height:22px;object-fit:contain;display:block}
+.ctv-main{min-width:0}
+.ctv-match{display:block;font-family:'Poppins',sans-serif;font-size:15px;font-weight:600;white-space:nowrap;overflow:hidden;text-overflow:ellipsis}
+.ctv-match a{color:inherit;text-decoration:none}
+.ctv-match a:hover{text-decoration:underline}
+.ctv-comp{display:block;font-size:12.5px;color:#8A97A0;margin-top:2px;white-space:nowrap;overflow:hidden;text-overflow:ellipsis}
+.ctv-side{display:flex;align-items:center;gap:8px;justify-content:flex-end}
+.ctv-badge{font-family:'Poppins',sans-serif;font-size:12.5px;font-weight:600;border-radius:999px;padding:5px 11px;white-space:nowrap;background:#F7FAF8;border:1px solid rgba(15,22,33,.12);color:#5C6873}
+.ctv-badge.free{background:rgba(22,154,71,.09);border-color:rgba(22,154,71,.22);color:#12833D}
+.ctv-cta{font-family:'Poppins',sans-serif;font-size:12.5px;font-weight:600;color:#fff;background:#169A47;border-radius:999px;padding:6px 12px;text-decoration:none;white-space:nowrap}
+.ctv-more{margin:10px 2px 0;font-size:14px}
+.ctv-more a{color:#169A47;font-weight:600;text-decoration:none}
+@media (max-width:560px){.ctv-row{grid-template-columns:92px minmax(0,1fr);row-gap:8px}.ctv-logos{display:none}.ctv-side{grid-column:1 / -1;justify-content:flex-start}.ctv-title{font-size:19px}}
+</style>
+
+<script>
+(function(){
+  var box=document.getElementById('ctv');if(!box)return;
+  var team=(box.getAttribute('data-team')||'').replace(/\D/g,''),list=document.getElementById('ctv-list'),intro=document.getElementById('ctv-intro');
+  var naam=(box.querySelector('.ctv-naam')||{}).textContent||'';
+  function esc(s){return String(s||'').replace(/[&<>"]/g,function(c){return{'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;'}[c];});}
+  function logo(id){return id?'<img src="https://media.api-sports.io/football/teams/'+esc(id)+'.png" alt="" width="22" height="22" loading="lazy" onerror="this.style.visibility=\'hidden\'">':'';}
+  if(!team){return;}
+  fetch('/club-tv.json?team='+team).then(function(r){return r.json();}).then(function(d){
+    var w=(d&&d.wedstrijden)||[];if(!w.length)return;
+    var html='';
+    w.forEach(function(m){
+      var tegen=m.tegenstanderUrl?'<a href="'+esc(m.tegenstanderUrl)+'">'+esc(m.tegenstander)+'</a>':esc(m.tegenstander);
+      var match=m.thuis?esc(naam||m.home)+' – '+tegen:tegen+' – '+esc(naam||m.away);
+      var badge=m.zender?'<span class="ctv-badge'+(m.gratis?' free':'')+'">'+esc(m.zender)+(m.gratis?' (gratis)':'')+'</span>':'<span class="ctv-badge">Zender volgt</span>';
+      var cta='<a class="ctv-cta" href="'+esc(m.liveUrl||'/live-kijken')+'">Waar kijken?</a>';
+      html+='<div class="ctv-row"><span class="ctv-when"><small>'+esc(m.dag)+'</small>'+esc(m.tijd)+' uur</span>'
+        +'<span class="ctv-logos">'+logo(m.homeId)+logo(m.awayId)+'</span>'
+        +'<span class="ctv-main"><span class="ctv-match">'+match+'</span><span class="ctv-comp">'+esc(m.competitie)+'</span></span>'
+        +'<span class="ctv-side">'+badge+cta+'</span></div>';
+    });
+    list.innerHTML=html;
+    var e=w[0],waar=e.zender?(' De wedstrijd is live te zien op '+e.zender+(e.gratis?', gratis.':'.')):'';
+    intro.innerHTML=esc(naam)+' speelt '+esc(e.dag)+' om '+esc(e.tijd)+' uur '+(e.thuis?'thuis':'uit')+' tegen '+esc(e.tegenstander)
+      +' ('+esc(e.competitie)+').'+esc(waar)+' Hieronder vind je ook de wedstrijden daarna.';
+  }).catch(function(){});
+})();
+</script>
