@@ -22,8 +22,8 @@ from datetime import datetime, timedelta, timezone
 import lk_api as api
 import lk_build as B
 import lk_webflow as WF
-from lk_config import nl_name, club_slug, WEBFLOW_TOKEN, BASE
-from tvgids import TvGids, tv_label
+from lk_config import nl_name, club_slug, WEBFLOW_TOKEN, BASE, PROVIDERS
+from tvgids import TvGids, tv_label, BOOKMAKERS
 
 DAGEN_VOORUIT = 3
 RUBRIEK_ALGEMEEN = "6502b65d49bc032ba533e7a2"
@@ -225,7 +225,9 @@ def match_links(r, zelf=None):
 def kort_antwoord(h):
     n, tel = len(h["rows"]), sorted(h["telling"].items(), key=lambda x: -x[1])
     if len(tel) == 1:
-        zin = f"Alle {TELWOORD.get(n, n)} wedstrijden van speelronde {h['nr']} zie je op {tel[0][0]}"
+        tv0 = tel[0][0]
+        waar = f"via de livestream van {tv0[len('livestream '):]}" if tv0.startswith("livestream ") else f"op {tv0}"
+        zin = f"Alle {TELWOORD.get(n, n)} wedstrijden van speelronde {h['nr']} zie je {waar}"
     else:
         delen = [f"{c}x {tv}" for tv, c in tel]
         zin = f"De {TELWOORD.get(n, n)} wedstrijden van speelronde {h['nr']} zijn verdeeld over {len(tel)} zenders: " + \
@@ -278,6 +280,30 @@ def tighten_lists(html_in):
     return re.sub(r"<(ul|ol)\b.*?</\1>", lambda m: re.sub(r"\s*(</?(?:ul|ol|li)\b[^>]*>)\s*", r"\1", m.group(0)), html_in, flags=re.S)
 
 
+def prov_van(naam):
+    """'TOTO Sport' / '711' -> PROVIDERS-item met affiliate-link (of None)."""
+    k = BOOKMAKERS.get((naam or "").lower().replace("livestream ", "").strip())
+    return PROVIDERS.get(k) if k else None
+
+
+def stream_provs(h):
+    """Bookmakers met livestream in deze ronde (affiliate), TOTO standaard bij de Süper Lig."""
+    out = OrderedDict()
+    for r in h["rows"]:
+        for b in r["stream"] + ([r["tv"]] if r["tv"].startswith("livestream") else []):
+            for naam in re.split(r"\s*/\s*", b.replace("livestream", "").replace("(o.a. TOTO)", "TOTO")):
+                pv = prov_van(naam)
+                if pv:
+                    out[pv["naam"]] = pv
+    if h["soort"] == "stream" and not out:
+        out["TOTO"] = PROVIDERS["toto"]
+    return list(out.values())
+
+
+def cta(pv, tekst):
+    return f'<p>👉 <a href="{pv["link"]}"><strong>{e(tekst)}</strong></a></p>'
+
+
 def club_linker():
     """Linkt een clubnaam één keer per artikel naar /clubs/<slug> (alleen in lopende tekst, niet in lijsten)."""
     gelinkt = set()
@@ -327,6 +353,10 @@ def html_hub(h, andere):
     p.append(f"<p>De speelronde opent {e(dag_tijd(eerste['ko']))} met {cl(eerste['home'], eerste['hid'])} – {cl(eerste['away'], eerste['aid'])} "
              f"en sluit {e(dag_tijd(laatste['ko']))} af met {cl(laatste['home'], laatste['hid'])} – {cl(laatste['away'], laatste['aid'])}. "
              f"Klik op een wedstrijd voor alle kijkopties, of ga direct naar de voorspelling en de opstellingen.</p>")
+    provs = stream_provs(h)
+    if h["soort"] == "stream" and provs:
+        pv = provs[0]
+        p.append(cta(pv, f"Open een account bij {pv['naam']} en kijk de {naam} live via de {pv['naam']}-livestream"))
     p.append(per_zender(h))
     p.append(f"<h3>Speelschema {e(naam)} speelronde {nr}</h3>")
     dagen = OrderedDict()
@@ -354,13 +384,23 @@ def html_hub(h, andere):
     if h["tips"]:
         q.append(f"<h3>Onze kijktips voor speelronde {nr}</h3>")
         q += [tip_html(t, cl) for t in h["tips"]]
+    if h["tips"]:
+        q.append(cta(PROVIDERS["toto"], f"Wed live mee op {naam} speelronde {nr} bij TOTO"))
     q.append("<h3>Gratis kijken of een abonnement nodig?</h3>")
     q.append(f"<p>{e(GRATIS_UITLEG[h['soort']])}</p>")
     bms = sorted({b for r in rows for b in r["stream"]})
     if bms:
         ns = sum(1 for r in rows if r["stream"])
+        links = " en ".join(f'<a href="{prov_van(b)["link"]}">{e(b)}</a>' if prov_van(b) else e(b) for b in bms)
         q.append(f"<p>{'Alle wedstrijden zijn' if ns == len(rows) else 'Een deel van de wedstrijden is'} daarnaast "
-                 f"te volgen via de livestream van {e(' en '.join(bms))}. Daarvoor heb je een account bij die bookmaker nodig (18+).</p>")
+                 f"te volgen via de livestream van {links}. Daarvoor heb je een account bij die bookmaker nodig (18+).</p>")
+    if provs:
+        pv = provs[0]
+        stort = "stort minimaal €10 (dat bedrag kun je daarna gewoon weer opnemen)" if pv.get("deposit") else "log in"
+        q.append(f"<p><strong>Zo kijk je via {e(pv['naam'])}:</strong></p><ol><li>Maak een account aan via "
+                 f'<a href="{pv["link"]}">deze link naar {e(pv["naam"])}</a></li><li>Verifieer je account en {e(stort)}</li>'
+                 f"<li>Open bij de wedstrijd het livestream-icoon en kijk live mee</li></ol>")
+        q.append(cta(pv, f"Maak nu je {pv['naam']}-account aan"))
     gr = [r for r in rows if r["gratis"]]
     if gr:
         q.append("<p>Zonder extra abonnement te zien in speelronde " + nr + ": "
