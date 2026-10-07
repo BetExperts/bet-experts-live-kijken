@@ -6,7 +6,14 @@ from lk_config import WEBFLOW_TOKEN, NIEUWS_COLLECTION, WF_API, BASE
 
 STATE = os.path.join(BASE, "state", "live-kijken.json")
 
+def tighten_lists(html):
+    """Geen witruimte tussen tags binnen <ul>/<ol>: anders gooit Webflow de lijst weg bij (her)publiceren."""
+    return re.sub(r"<(ul|ol)\b.*?</\1>", lambda m: re.sub(r">\s+<", "><", m.group(0)), html, flags=re.S)
+
 def _req(method, url, body=None):
+    if isinstance(body, dict) and isinstance(body.get("fieldData"), dict):
+        body = {**body, "fieldData": {k: tighten_lists(v) if isinstance(v, str) and "<" in v else v
+                                      for k, v in body["fieldData"].items()}}
     data = json.dumps(body).encode() if body is not None else None
     r = urllib.request.Request(url, data=data, method=method)
     r.add_header("Authorization", "Bearer " + WEBFLOW_TOKEN)

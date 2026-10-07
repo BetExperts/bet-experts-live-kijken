@@ -22,7 +22,7 @@ from datetime import datetime, timedelta, timezone
 import lk_api as api
 import lk_build as B
 import lk_webflow as WF
-from lk_config import nl_name, WEBFLOW_TOKEN, BASE
+from lk_config import nl_name, club_slug, WEBFLOW_TOKEN, BASE
 from tvgids import TvGids, tv_label
 
 DAGEN_VOORUIT = 3
@@ -273,12 +273,29 @@ def tegelijk(rows):
     return "Let op: " + z + "."
 
 
-def tip_html(t):
+def tighten_lists(html_in):
+    """Geen witruimte tussen tags binnen <ul>/<ol>: anders gooit Webflow de lijst weg bij publiceren."""
+    return re.sub(r"<(ul|ol)\b.*?</\1>", lambda m: re.sub(r">\s+<", "><", m.group(0)), html_in, flags=re.S)
+
+
+def club_linker():
+    """Linkt een clubnaam één keer per artikel naar /clubs/<slug> (alleen in lopende tekst, niet in lijsten)."""
+    gelinkt = set()
+    def cl(naam, tid):
+        slug = club_slug(tid, naam)
+        if not slug or slug in gelinkt:
+            return e(naam)
+        gelinkt.add(slug)
+        return f'<a href="/clubs/{slug}">{e(naam)}</a>'
+    return cl
+
+
+def tip_html(t, cl):
     hn, an = t["home"], t["away"]
     (ph, pth), (pa, pta) = plek(t["rh"]), plek(t["ra"])
     links = match_links(t)
     p = [f"<p><strong>{e(hn)} – {e(an)}</strong> | {e(dag_tijd(t['ko']))}, {e(t['tv'])}</p>"]
-    zin = f"{e(hn)} ({e(ph)}, {pth} punten) treft {e(an)} ({e(pa)}, {pta} punten)."
+    zin = f"{cl(hn, t['hid'])} ({e(ph)}, {pth} punten) treft {cl(an, t['aid'])} ({e(pa)}, {pta} punten)."
     vh, va = vorm_zin(hn, t["rh"].get("form")), vorm_zin(an, t["ra"].get("form"))
     if vh and va:
         zin += f" {e(vh)}; {e(va)}."
@@ -304,10 +321,11 @@ def html_hub(h, andere):
     titel = f"{naam} op tv, speelronde {nr}: welke zender en hoe laat? ({kp})"
     rows = h["rows"]
     eerste, laatste = rows[0], rows[-1]
+    cl = club_linker()
     p = ['<p><a href="/live-kijken">‹ Alle wedstrijden live kijken: zenders en tijden</a></p>']
     p.append(f"<p><strong>Kort antwoord: {e(kort_antwoord(h))}</strong></p>")
-    p.append(f"<p>De speelronde opent {e(dag_tijd(eerste['ko']))} met {e(eerste['home'])} – {e(eerste['away'])} "
-             f"en sluit {e(dag_tijd(laatste['ko']))} af met {e(laatste['home'])} – {e(laatste['away'])}. "
+    p.append(f"<p>De speelronde opent {e(dag_tijd(eerste['ko']))} met {cl(eerste['home'], eerste['hid'])} – {cl(eerste['away'], eerste['aid'])} "
+             f"en sluit {e(dag_tijd(laatste['ko']))} af met {cl(laatste['home'], laatste['hid'])} – {cl(laatste['away'], laatste['aid'])}. "
              f"Klik op een wedstrijd voor alle kijkopties, of ga direct naar de voorspelling en de opstellingen.</p>")
     p.append(per_zender(h))
     p.append(f"<h3>Speelschema {e(naam)} speelronde {nr}</h3>")
@@ -335,7 +353,7 @@ def html_hub(h, andere):
     q = []
     if h["tips"]:
         q.append(f"<h3>Onze kijktips voor speelronde {nr}</h3>")
-        q += [tip_html(t) for t in h["tips"]]
+        q += [tip_html(t, cl) for t in h["tips"]]
     q.append("<h3>Gratis kijken of een abonnement nodig?</h3>")
     q.append(f"<p>{e(GRATIS_UITLEG[h['soort']])}</p>")
     bms = sorted({b for r in rows for b in r["stream"]})
@@ -366,7 +384,7 @@ def html_hub(h, andere):
     meta = f"{naam} speelronde {nr} op tv ({kp}): {kort_antwoord(h)}"
     if len(meta) > 158:
         meta = f"{naam} speelronde {nr} op tv ({kp}): per wedstrijd de zender, de aftraptijd en wat je gratis kunt kijken."
-    return titel, content, "\n".join(q), meta
+    return titel, tighten_lists(content), tighten_lists("\n".join(q)), meta
 
 
 # ------------------------------------------------------------------ main
