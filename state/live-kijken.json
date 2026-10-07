@@ -443,7 +443,8 @@
     "league": "eredivisie",
     "hub": true,
     "sig": "852fa2e24cab21b2abf2dd1d3ebe89de",
-    "og": "og/eredivisie-speelronde-8-op-tv-9-oktober-2026-2f148a.webp"
+    "og": "og/eredivisie-speelronde-8-op-tv-9-oktober-2026-2f148a.webp",
+    "og_done": "og/eredivisie-speelronde-8-op-tv-9-oktober-2026-2f148a.webp"
   },
   "hub:keuken-kampioen-divisie-speelronde-10-op-tv-9-oktober-2026": {
     "item_id": "6ac638b1f27407cc05252b5e",
@@ -453,7 +454,8 @@
     "league": "eerste-divisie",
     "hub": true,
     "sig": "6ff6f4bc17d2f4d37f0c2e9d9662b8dc",
-    "og": "og/keuken-kampioen-divisie-speelronde-10-op-tv-9-oktober-2026-a36719.webp"
+    "og": "og/keuken-kampioen-divisie-speelronde-10-op-tv-9-oktober-2026-a36719.webp",
+    "og_done": "og/keuken-kampioen-divisie-speelronde-10-op-tv-9-oktober-2026-a36719.webp"
   },
   "hub:premier-league-speelronde-6-op-tv-10-oktober-2026": {
     "item_id": "6ac638b39a8d79e89609ce1c",
@@ -463,7 +465,8 @@
     "league": "premier-league",
     "hub": true,
     "sig": "2003a72d1615768a556afc096da49511",
-    "og": "og/premier-league-speelronde-6-op-tv-10-oktober-2026-aace43.webp"
+    "og": "og/premier-league-speelronde-6-op-tv-10-oktober-2026-aace43.webp",
+    "og_done": "og/premier-league-speelronde-6-op-tv-10-oktober-2026-aace43.webp"
   },
   "hub:la-liga-speelronde-8-op-tv-9-oktober-2026": {
     "item_id": "6ac638b62a07d27334eac64a",
@@ -473,7 +476,8 @@
     "league": "la-liga",
     "hub": true,
     "sig": "9cfbc06fd1d38d346d2148b09d092f9e",
-    "og": "og/la-liga-speelronde-8-op-tv-9-oktober-2026-b68fca.webp"
+    "og": "og/la-liga-speelronde-8-op-tv-9-oktober-2026-b68fca.webp",
+    "og_done": "og/la-liga-speelronde-8-op-tv-9-oktober-2026-b68fca.webp"
   },
   "hub:bundesliga-speelronde-5-op-tv-9-oktober-2026": {
     "item_id": "6ac638b9f27407cc0525329b",
@@ -483,7 +487,8 @@
     "league": "bundesliga",
     "hub": true,
     "sig": "f7ae1cf86a661e933cd08afc64d6d250",
-    "og": "og/bundesliga-speelronde-5-op-tv-9-oktober-2026-a79a6c.webp"
+    "og": "og/bundesliga-speelronde-5-op-tv-9-oktober-2026-a79a6c.webp",
+    "og_done": "og/bundesliga-speelronde-5-op-tv-9-oktober-2026-a79a6c.webp"
   },
   "hub:ligue-1-speelronde-6-op-tv-9-oktober-2026": {
     "item_id": "6ac638bc69d286254ce55fad",
@@ -493,7 +498,8 @@
     "league": "ligue-1",
     "hub": true,
     "sig": "b252b349f1d71b3421b02305348aa934",
-    "og": "og/ligue-1-speelronde-6-op-tv-9-oktober-2026-abd9a1.webp"
+    "og": "og/ligue-1-speelronde-6-op-tv-9-oktober-2026-abd9a1.webp",
+    "og_done": "og/ligue-1-speelronde-6-op-tv-9-oktober-2026-abd9a1.webp"
   },
   "hub:super-lig-speelronde-7-op-tv-9-oktober-2026": {
     "item_id": "6ac638bfafa9cefb79e4f35d",
@@ -503,7 +509,8 @@
     "league": "super-lig",
     "hub": true,
     "sig": "dafb4cd2133446778440e1350f485363",
-    "og": "og/super-lig-speelronde-7-op-tv-9-oktober-2026-c92c0a.webp"
+    "og": "og/super-lig-speelronde-7-op-tv-9-oktober-2026-c92c0a.webp",
+    "og_done": "og/super-lig-speelronde-7-op-tv-9-oktober-2026-c92c0a.webp"
   },
   "hub:jupiler-pro-league-speelronde-8-op-tv-9-oktober-2026": {
     "item_id": "6ac638c247ff41baf33b057b",
@@ -513,6 +520,7 @@
     "league": "jupiler-pro-league",
     "hub": true,
     "sig": "bac7dd6df74aa6c89c580ad5f7ee75eb",
-    "og": "og/jupiler-pro-league-speelronde-8-op-tv-9-oktober-2026-02bf42.webp"
+    "og": "og/jupiler-pro-league-speelronde-8-op-tv-9-oktober-2026-02bf42.webp",
+    "og_done": "og/jupiler-pro-league-speelronde-8-op-tv-9-oktober-2026-02bf42.webp"
   }
 }
