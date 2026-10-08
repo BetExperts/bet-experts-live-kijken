@@ -290,6 +290,10 @@ def _kijk_blok(prov, homeN, awayN, comp, tv=None, tv_free=False):
         out = [f"<h3>Op welke zender is {esc(homeN)} – {esc(awayN)}? Gratis live kijken via {esc(naam)}</h3>"]
     if tv and tv_free:
         pass                                   # uitleg staat hierboven al
+    elif tv and tv.strip().lower() == "ziggo sport 1":
+        out.append(f"<p>{M} is live te zien op Ziggo Sport 1: Ziggo-klanten kijken daar zonder extra kosten mee. "
+                    f"Geen Ziggo? Met {account} bij {esc(naam)} kijk je het duel toch live mee via de livestream, "
+                    f"zonder tv-abonnement.</p>")
     elif tv:
         out.append(f"<p>Met {account} bij {esc(naam)} kijk je {M} live mee. In Nederland is de "
                     f"{esc(comp)} wel te zien op {esc(tv)}, maar daarvoor heb je een betaald abonnement nodig. "
@@ -325,8 +329,10 @@ def _kijk_blok(prov, homeN, awayN, comp, tv=None, tv_free=False):
 def kanaal_label(tv):
     """Korte uitleg per zender: wat heb je nodig om te kijken."""
     t = (tv or "").strip().lower()
-    if t.startswith("npo") or t == "ziggo sport 1":
+    if t.startswith("npo"):
         return "gratis"
+    if t == "ziggo sport 1":
+        return "gratis voor Ziggo-klanten"
     if t == "espn 1":
         return "in het basispakket van vrijwel elke tv-aanbieder"
     if re.fullmatch(r"espn [234]", t):
@@ -389,8 +395,10 @@ def waar_te_zien(ctx):
         n = f'<a href="{link}">{esc(naam)}</a>' if link else esc(naam)
         items.append(f"<li><strong>Livestream {n}</strong> ({acc}, 18+)</li>")
     tabellen = "".join(kanaal_tabel(z) for z in tvs)
+    hub = ('<p>Alle kanaalnummers per provider staan in ons <a href="/nieuws/sportzenders-kanaalnummers">overzicht '
+           'van sportzenders</a>.</p>') if tvs else ""
     return (f"<h3>Waar is {esc(homeN)} – {esc(awayN)} op tv?</h3>"
-            "<ul>" + "".join(items) + "</ul>" + tabellen)
+            "<ul>" + "".join(items) + "</ul>" + tabellen + hub)
 
 # ---------- variant voor gratis tv (bv. Oranje op NPO) ----------
 # Hier beloven we GEEN bookmaker-stream (rechten liggen bij de NOS); de aanbieder
@@ -507,8 +515,9 @@ def zender_uitleg(soort, tv, comp, nl_club=False, competitiefase=False):
         else:
             gratis = None
         if re.search(r"ziggo sport 1\b", t):
-            delen.append("Ziggo Sport 1 is gratis te zien: daarvoor heb je geen abonnement nodig.")
-            gratis = gratis or "Ja, Ziggo Sport 1 is gratis te zien."
+            delen.append("Ziggo Sport 1 is het open kanaal (kanaal 14 bij Ziggo): Ziggo-klanten kijken daar zonder "
+                         "extra kosten mee met hun gewone tv-pakket.")
+            gratis = gratis or "Voor Ziggo-klanten wel: Ziggo Sport 1 is het open kanaal en zit in elk tv-pakket."
         elif re.search(r"ziggo sport [2-6]", t):
             delen.append(f"Voor {tv} heb je Ziggo Sport Totaal nodig, te boeken bij Ziggo, KPN en Odido.")
             gratis = gratis or f"Nee, voor {tv} heb je Ziggo Sport Totaal nodig."
@@ -516,7 +525,7 @@ def zender_uitleg(soort, tv, comp, nl_club=False, competitiefase=False):
             delen.append(f"Ziggo Sport heeft de rechten van de {comp} en maakt ongeveer een week vooraf per wedstrijd "
                          "het kanaal bekend; we werken dit artikel bij zodra dat bekend is. Elke speelavond staat minstens "
                          "één wedstrijd op het open kanaal Ziggo Sport 1, de overige zie je met Ziggo Sport Totaal.")
-            gratis = gratis or ("Dat hangt af van het kanaal: Ziggo Sport 1 is gratis, voor de "
+            gratis = gratis or ("Dat hangt af van het kanaal: Ziggo Sport 1 is gratis voor Ziggo-klanten, voor de "
                                 "andere kanalen heb je Ziggo Sport Totaal nodig.")
         delen.append(f"Wil je alle doelpunten van de avond tegelijk volgen? Het Switch-programma op Ziggo Sport 4 "
                      f"schakelt live tussen de wedstrijden.")
@@ -622,7 +631,11 @@ def _faq(homeN, awayN, comp, dt, prov, tv=None, tv_free=False):
              (f"Is {homeN} – {awayN} gratis te kijken?", f"Ja, {tv} is gratis te zien; je hebt geen abonnement nodig."),
              (f"Op welke zender is {homeN} – {awayN} te zien?", f"Op {tv}, gratis.")]
         return "\n".join(f"<p><strong>{esc(a)}</strong><br>{esc(b)}</p>" for a, b in q)
-    if tv:
+    zs1 = (tv or "").strip().lower() == "ziggo sport 1"
+    if zs1:
+        waar = (f"Op welke zender is {homeN} – {awayN} te zien?",
+                f"Op Ziggo Sport 1: gratis voor Ziggo-klanten. Zonder Ziggo kijk je mee met {account}.")
+    elif tv:
         waar = (f"Op welke zender is {homeN} – {awayN} te zien?",
                 f"In Nederland zendt {tv} de {comp} uit, maar daarvoor heb je een betaald abonnement nodig. "
                 f"Zonder abonnement kijk je mee met {account}.")
@@ -632,7 +645,8 @@ def _faq(homeN, awayN, comp, dt, prov, tv=None, tv_free=False):
                 f"{account} kun je de wedstrijd wel live volgen via de livestream van {naam}.")
     q = [
         (f"Waar kun je {homeN} – {awayN} kijken?",
-         (f"Op {tv} met een abonnement, of zonder abonnement via de livestream van {naam} met {account}." if tv else
+         (f"Op Ziggo Sport 1 (gratis voor Ziggo-klanten), of via de livestream van {naam} met {account}." if zs1 else
+          f"Op {tv} met een abonnement, of zonder abonnement via de livestream van {naam} met {account}." if tv else
           f"Niet op de Nederlandse tv, wel via de livestream van {naam} met {account}.")),
         (f"Hoe laat begint {homeN} – {awayN}?", _aftrap_antwoord(dt)),
         (f"Is {homeN} – {awayN} gratis te kijken?",

@@ -319,7 +319,7 @@
     "date": "2026-10-11",
     "league": "eredivisie",
     "hub": true,
-    "sig": "d716143663df277294bc78142ff61d2a",
+    "sig": "f6ed79e9a8f012c82e17bb5d7550a63a",
     "og": "og/eredivisie-speelronde-8-op-tv-9-oktober-2026-2f148a.webp",
     "og_done": "og/eredivisie-speelronde-8-op-tv-9-oktober-2026-2f148a.webp",
     "pairs": [
@@ -378,7 +378,7 @@
     "date": "2026-10-09",
     "league": "eerste-divisie",
     "hub": true,
-    "sig": "2aecd82246ee0d56c7d5c8bcdc899555",
+    "sig": "b2b5ec60c29a5e07a1acb87786679f3b",
     "og": "og/keuken-kampioen-divisie-speelronde-10-op-tv-9-oktober-2026-a36719.webp",
     "og_done": "og/keuken-kampioen-divisie-speelronde-10-op-tv-9-oktober-2026-a36719.webp",
     "pairs": [
@@ -442,7 +442,7 @@
     "date": "2026-10-12",
     "league": "premier-league",
     "hub": true,
-    "sig": "47218e711ac50550ae90d7378ea57f16",
+    "sig": "d07e433a630c89a7d71cd9611925d1dc",
     "og": "og/premier-league-speelronde-6-op-tv-10-oktober-2026-aace43.webp",
     "og_done": "og/premier-league-speelronde-6-op-tv-10-oktober-2026-aace43.webp",
     "pairs": [
@@ -506,7 +506,7 @@
     "date": "2026-10-12",
     "league": "la-liga",
     "hub": true,
-    "sig": "8d37f01ff093a607e8695abc15fb5141",
+    "sig": "9d574f79dde5f492b90433b4f7732b0e",
     "og": "og/la-liga-speelronde-8-op-tv-9-oktober-2026-b68fca.webp",
     "og_done": "og/la-liga-speelronde-8-op-tv-9-oktober-2026-b68fca.webp",
     "pairs": [
@@ -570,7 +570,7 @@
     "date": "2026-10-11",
     "league": "bundesliga",
     "hub": true,
-    "sig": "23c897b8d37a5ef46dc5bb50584e1a29",
+    "sig": "d28d2c5e66489e62362e10150d0e4e07",
     "og": "og/bundesliga-speelronde-5-op-tv-9-oktober-2026-a79a6c.webp",
     "og_done": "og/bundesliga-speelronde-5-op-tv-9-oktober-2026-a79a6c.webp",
     "pairs": [
@@ -629,7 +629,7 @@
     "date": "2026-10-11",
     "league": "ligue-1",
     "hub": true,
-    "sig": "9f5748acd46e1317ff39f138bc7be349",
+    "sig": "76e32fb5879b23a8969fe9ead000b908",
     "og": "og/ligue-1-speelronde-6-op-tv-9-oktober-2026-abd9a1.webp",
     "og_done": "og/ligue-1-speelronde-6-op-tv-9-oktober-2026-abd9a1.webp",
     "pairs": [
@@ -688,7 +688,7 @@
     "date": "2026-10-12",
     "league": "super-lig",
     "hub": true,
-    "sig": "29a6a146800c1f0016e26baf2e303cb9",
+    "sig": "fe8c97c00cb3b51336c2d460f2a15d3b",
     "og": "og/super-lig-speelronde-7-op-tv-9-oktober-2026-c92c0a.webp",
     "og_done": "og/super-lig-speelronde-7-op-tv-9-oktober-2026-c92c0a.webp",
     "pairs": [
@@ -747,7 +747,7 @@
     "date": "2026-10-11",
     "league": "jupiler-pro-league",
     "hub": true,
-    "sig": "15a4a646f47238a1183904ea6e2fa4fd",
+    "sig": "2553b14c5232bfb05a1bf95bd62c3398",
     "og": "og/jupiler-pro-league-speelronde-8-op-tv-9-oktober-2026-02bf42.webp",
     "og_done": "og/jupiler-pro-league-speelronde-8-op-tv-9-oktober-2026-02bf42.webp",
     "pairs": [
@@ -860,8 +860,8 @@
     "provider": "TOTO",
     "home_id": "728",
     "away_id": "531",
-    "tv_sig": "Ziggo Sport 1|TOTO|True|False",
-    "og": "og/rayo-vallecano-athletic-bilbao-live-gratis-kijken-10-10-2026-dfa1ff.webp",
+    "tv_sig": "Ziggo Sport 1|TOTO|False|False",
+    "og": "og/rayo-vallecano-athletic-bilbao-live-gratis-kijken-10-10-2026-7b4f22.webp",
     "og_done": "og/rayo-vallecano-athletic-bilbao-live-gratis-kijken-10-10-2026-dfa1ff.webp"
   },
   "1570403": {
@@ -873,8 +873,8 @@
     "provider": "TOTO",
     "home_id": "542",
     "away_id": "530",
-    "tv_sig": "Ziggo Sport 1|TOTO|True|False",
-    "og": "og/deportivo-alaves-atletico-madrid-live-gratis-kijken-10-10-2026-331572.webp",
+    "tv_sig": "Ziggo Sport 1|TOTO|False|False",
+    "og": "og/deportivo-alaves-atletico-madrid-live-gratis-kijken-10-10-2026-bd417e.webp",
     "og_done": "og/deportivo-alaves-atletico-madrid-live-gratis-kijken-10-10-2026-331572.webp"
   },
   "1570404": {
@@ -886,8 +886,8 @@
     "provider": "TOTO",
     "home_id": "529",
     "away_id": "546",
-    "tv_sig": "Ziggo Sport 1|TOTO|True|False",
-    "og": "og/fc-barcelona-getafe-live-gratis-kijken-10-10-2026-8730e4.webp",
+    "tv_sig": "Ziggo Sport 1|TOTO|False|False",
+    "og": "og/fc-barcelona-getafe-live-gratis-kijken-10-10-2026-c15b7a.webp",
     "og_done": "og/fc-barcelona-getafe-live-gratis-kijken-10-10-2026-8730e4.webp"
   },
   "1570411": {
@@ -899,8 +899,8 @@
     "provider": "TOTO",
     "home_id": "541",
     "away_id": "533",
-    "tv_sig": "Ziggo Sport 1|TOTO|True|False",
-    "og": "og/real-madrid-villarreal-live-gratis-kijken-10-10-2026-0f938b.webp",
+    "tv_sig": "Ziggo Sport 1|TOTO|False|False",
+    "og": "og/real-madrid-villarreal-live-gratis-kijken-10-10-2026-601067.webp",
     "og_done": "og/real-madrid-villarreal-live-gratis-kijken-10-10-2026-0f938b.webp"
   },
   "1558645": {
@@ -1053,7 +1053,7 @@
     "date": "2026-10-12",
     "league": "serie-a",
     "hub": true,
-    "sig": "c0eaa455b99df8d45b38be3438761bba",
+    "sig": "f92dc0d708d77fc66b0f62b3e4e64a5c",
     "pairs": [
       [
         "495",
@@ -1236,8 +1236,8 @@
     "provider": "Bet365",
     "home_id": "895",
     "away_id": "497",
-    "tv_sig": "Ziggo Sport 1|Bet365|True|False",
-    "og": "og/como-as-roma-live-gratis-kijken-11-10-2026-cc4300.webp",
+    "tv_sig": "Ziggo Sport 1|Bet365|False|False",
+    "og": "og/como-as-roma-live-gratis-kijken-11-10-2026-289605.webp",
     "og_done": "og/como-as-roma-live-gratis-kijken-11-10-2026-cc4300.webp"
   },
   "1550142": {
@@ -1249,8 +1249,8 @@
     "provider": "Bet365",
     "home_id": "487",
     "away_id": "1579",
-    "tv_sig": "Ziggo Sport 1|Bet365|True|False",
-    "og": "og/lazio-monza-live-gratis-kijken-11-10-2026-c03063.webp",
+    "tv_sig": "Ziggo Sport 1|Bet365|False|False",
+    "og": "og/lazio-monza-live-gratis-kijken-11-10-2026-dcfe7a.webp",
     "og_done": "og/lazio-monza-live-gratis-kijken-11-10-2026-c03063.webp"
   },
   "1550145": {
@@ -1275,8 +1275,8 @@
     "provider": "Bet365",
     "home_id": "490",
     "away_id": "496",
-    "tv_sig": "Ziggo Sport 1|Bet365|True|False",
-    "og": "og/cagliari-juventus-live-gratis-kijken-11-10-2026-b6e88c.webp",
+    "tv_sig": "Ziggo Sport 1|Bet365|False|False",
+    "og": "og/cagliari-juventus-live-gratis-kijken-11-10-2026-4e5670.webp",
     "og_done": "og/cagliari-juventus-live-gratis-kijken-11-10-2026-b6e88c.webp"
   },
   "1552185": {
@@ -1366,8 +1366,8 @@
     "provider": "Bet365",
     "home_id": "499",
     "away_id": "517",
-    "tv_sig": "Ziggo Sport 1|Bet365|True|False",
-    "og": "og/atalanta-venezia-live-gratis-kijken-12-10-2026-21f2ba.webp",
+    "tv_sig": "Ziggo Sport 1|Bet365|False|False",
+    "og": "og/atalanta-venezia-live-gratis-kijken-12-10-2026-7ffdda.webp",
     "og_done": "og/atalanta-venezia-live-gratis-kijken-12-10-2026-21f2ba.webp"
   }
 }

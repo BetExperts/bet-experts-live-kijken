@@ -140,10 +140,9 @@ def build_fielddata(ctx, league_cfg, slug=None):
     if card:
         tvl = tv_label(card)
         npo = bool(tvl) and all(z.upper().startswith("NPO") for z in card["tv"])
-        zs1 = tvl == "Ziggo Sport 1"          # gratis te zien (wens gebruiker, 8 okt 2026)
         # 'gratis' op waaroptv betekent ook 'in het basispakket' (bv. ESPN 1); onze gratis-
         # tekst gaat over vrij te ontvangen tv, dus alleen overnemen bij NPO.
-        gids = {"tv": tvl, "gratis": (bool(card.get("gratis")) and npo) or zs1,
+        gids = {"tv": tvl, "gratis": bool(card.get("gratis")) and npo,
                 "extra": "de NOS-app of NOS.nl" if npo else None}
     info = tv_match(ctx["fid"]) or gids or default
     ctx["tv"] = info.get("tv")

@@ -43,7 +43,7 @@ GRATIS_UITLEG = {
     "espn": ("ESPN 1 zit bij vrijwel elke Nederlandse tv-aanbieder in het basispakket: die wedstrijden kijk je met een gewoon "
              "tv-abonnement zonder extra kosten. Bij Ziggo zitten sinds juli 2026 ook ESPN 2, 3 en 4 standaard in het "
              "tv-pakket; bij KPN en Odido boek je die erbij met ESPN Compleet. Wedstrijden op ESPN Extra kijk je in de ESPN-app."),
-    "ziggo": ("Ziggo Sport 1 is gratis te zien: daarvoor heb je geen abonnement nodig. "
+    "ziggo": ("Ziggo Sport 1 is het open kanaal: Ziggo-klanten kijken daar zonder extra kosten mee met hun gewone tv-pakket. "
               "Voor de andere Ziggo Sport-kanalen heb je Ziggo Sport Totaal nodig, te boeken bij Ziggo, KPN en Odido."),
     "viaplay": ("Viaplay is een betaalde streamingdienst: je kijkt via de Viaplay-app of via Viaplay TV bij je tv-aanbieder. "
                 "Gratis tv-uitzendingen zijn er in deze competitie niet."),
@@ -67,7 +67,7 @@ def zender_van(card, default, soort):
         if tv:
             npo = all(z.upper().startswith("NPO") for z in card["tv"])
             if tv == "Ziggo Sport 1":
-                return tv, "gratis"                 # open kanaal: Ziggo-klanten kijken zonder extra kosten
+                return tv, "ziggo"                  # open kanaal: gratis voor Ziggo-klanten
             if card.get("gratis"):
                 return tv, ("gratis" if npo else "basispakket")
             return tv, None
@@ -279,7 +279,7 @@ def kort_antwoord(h):
         delen = [f"{c}x {tv}" for tv, c in tel]
         zin = f"De {TELWOORD.get(n, n)} wedstrijden van speelronde {h['nr']} zijn verdeeld over {len(tel)} zenders: " + \
               ", ".join(delen[:-1]) + " en " + delen[-1]
-    gr = [r for r in h["rows"] if r["gratis"] and not r["score"]]
+    gr = [r for r in h["rows"] if r["gratis"] in ("gratis", "basispakket") and not r["score"]]
     if gr:
         zin += f". {aantal(len(gr)).capitalize()} kijk je zonder extra abonnement"
     elif h["soort"] in ("viaplay", "dazn"):
@@ -300,7 +300,8 @@ def per_zender(h):
         return ""
     p = ["<h3>Welke zender zendt welke wedstrijd uit?</h3>"]
     for tv, rs in groepen.items():
-        extra = " (in het basispakket)" if rs[0]["gratis"] == "basispakket" else " (gratis)" if rs[0]["gratis"] == "gratis" else ""
+        extra = {"basispakket": " (in het basispakket)", "gratis": " (gratis)",
+                 "ziggo": " (gratis voor Ziggo-klanten)"}.get(rs[0]["gratis"], "")
         p.append(f"<p><strong>{e(tv)}</strong>{e(extra)}: "
                  + "; ".join(f"{DAGKORT[r['ko'].weekday()]} {B.nl_tijd(r['ko'])} {e(r['home'])} – {e(r['away'])}" for r in rs)
                  + "</p>")
@@ -427,7 +428,7 @@ def html_hub(h, andere):
             m = f"{e(r['home'])} – {e(r['away'])}"
             if r["art"].get("live"):
                 m = f'<a href="/nieuws/{r["art"]["live"]}">{m}</a>'
-            extra = {"gratis": " (gratis)", "basispakket": " (basispakket)"}.get(r["gratis"], "")
+            extra = {"gratis": " (gratis)", "basispakket": " (basispakket)", "ziggo": " (gratis voor Ziggo-klanten)"}.get(r["gratis"], "")
             ln = match_links(r, zelf="live")
             st = f" (ook via de {' / '.join(r['stream'])}-livestream)" if r["stream"] else ""
             if r["score"]:
@@ -450,6 +451,8 @@ def html_hub(h, andere):
         q.append(cta(PROVIDERS["toto"], f"Wed live mee op {naam} speelronde {nr} bij TOTO"))
     q.append("<h3>Gratis kijken of een abonnement nodig?</h3>")
     q.append(f"<p>{e(GRATIS_UITLEG[h['soort']])}</p>")
+    q.append('<p>Op welk kanaalnummer de zenders bij jouw provider staan, zie je in ons '
+             '<a href="/nieuws/sportzenders-kanaalnummers">overzicht van sportzenders en kanaalnummers</a>.</p>')
     bms = sorted({b for r in rows for b in r["stream"]})
     if bms:
         ns = sum(1 for r in rows if r["stream"])
@@ -463,7 +466,7 @@ def html_hub(h, andere):
                  f'<a href="{pv["link"]}">deze link naar {e(pv["naam"])}</a></li><li>Verifieer je account en {e(stort)}</li>'
                  f"<li>Open bij de wedstrijd het livestream-icoon en kijk live mee</li></ol>")
         q.append(cta(pv, f"Maak nu je {pv['naam']}-account aan"))
-    gr = [r for r in rows if r["gratis"]]
+    gr = [r for r in rows if r["gratis"] in ("gratis", "basispakket")]
     if gr:
         q.append("<p>Zonder extra abonnement te zien in speelronde " + nr + ": "
                  + ", ".join(f"{e(r['home'])} – {e(r['away'])} ({e(r['tv'])})" for r in gr) + ".</p>")
