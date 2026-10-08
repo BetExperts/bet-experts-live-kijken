@@ -355,6 +355,26 @@ def _streams(ctx):
         add(pv["naam"] if pv else b, pv["link"] if pv else None)
     return out
 
+try:
+    import json as _json, os as _os
+    KANAALNUMMERS = {k: v for k, v in _json.load(open(_os.path.join(_os.path.dirname(_os.path.abspath(__file__)),
+                     "data", "kanaalnummers.json"), encoding="utf-8")).items() if not k.startswith("_")}
+except Exception:
+    KANAALNUMMERS = {}
+
+_T = 'style="width:100%;border-collapse:collapse;margin:8px 0 18px"'
+_TH = 'style="text-align:left;padding:8px 12px;border-bottom:2px solid #169A47"'
+_TD = 'style="padding:8px 12px;border-bottom:1px solid #E3E8E5"'
+
+def kanaal_tabel(zender):
+    """Tabel 'Provider | Kanaalnummer <zender>' (alleen als we de nummers kennen)."""
+    rij = KANAALNUMMERS.get(zender)
+    if not rij:
+        return ""
+    body = "".join(f"<tr><td {_TD}>{esc(p)}</td><td {_TD}>{esc(n)}</td></tr>" for p, n in rij.items())
+    return (f"<table {_T}><thead><tr><th {_TH}>Provider</th><th {_TH}>Kanaalnummer {esc(zender)}</th></tr></thead>"
+            f"<tbody>{body}</tbody></table>")
+
 def waar_te_zien(ctx):
     homeN, awayN, dt = ctx["homeN"], ctx["awayN"], ctx["dt"]
     tvs = [z.strip() for z in re.split(r"\s+en\s+|,", ctx.get("tv") or "") if z.strip()]
@@ -368,8 +388,9 @@ def waar_te_zien(ctx):
         acc = ("met een gestort account" if pv.get("deposit", True) else "met een gratis account") if pv else "met een account"
         n = f'<a href="{link}">{esc(naam)}</a>' if link else esc(naam)
         items.append(f"<li><strong>Livestream {n}</strong> ({acc}, 18+)</li>")
-    return (f"<h3>Waar te zien op tv: {esc(homeN)} – {esc(awayN)}</h3>"
-            "<ul>" + "".join(items) + "</ul>")
+    tabellen = "".join(kanaal_tabel(z) for z in tvs)
+    return (f"<h3>Waar is {esc(homeN)} – {esc(awayN)} op tv?</h3>"
+            "<ul>" + "".join(items) + "</ul>" + tabellen)
 
 # ---------- variant voor gratis tv (bv. Oranje op NPO) ----------
 # Hier beloven we GEEN bookmaker-stream (rechten liggen bij de NOS); de aanbieder

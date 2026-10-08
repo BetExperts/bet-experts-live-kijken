@@ -1,0 +1,17 @@
+{
+  "_bron": "ESPN 1 en Eurosport 1: opgave gebruiker (8 okt 2026); ESPN 2-4: zenderoverzichten (Ziggo/KPN/Odido/DELTA); Ziggo Sport: Ziggo-zenderlijst. Nooit als bron noemen.",
+  "ESPN 1": {"Ziggo": "18", "KPN": "14", "Odido": "150", "DELTA": "421", "Youfone": "14"},
+  "ESPN 2": {"Ziggo": "422", "KPN": "222", "Odido": "151", "DELTA": "422"},
+  "ESPN 3": {"Ziggo": "423", "KPN": "223", "Odido": "152", "DELTA": "423"},
+  "ESPN 4": {"Ziggo": "424", "KPN": "224", "Odido": "153", "DELTA": "424"},
+  "Ziggo Sport 1": {"Ziggo": "14"},
+  "Ziggo Sport 2": {"Ziggo": "402"},
+  "Ziggo Sport 3": {"Ziggo": "403"},
+  "Ziggo Sport 4": {"Ziggo": "404"},
+  "Ziggo Sport 5": {"Ziggo": "405"},
+  "Ziggo Sport 6": {"Ziggo": "406"},
+  "Eurosport 1": {"Ziggo": "25", "KPN": "35", "Odido": "131", "DELTA": "32", "Youfone": "35", "Hollandsnieuwe": "25"},
+  "NPO 1": {"Ziggo": "1", "KPN": "1", "Odido": "1", "DELTA": "1"},
+  "NPO 2": {"Ziggo": "2", "KPN": "2", "Odido": "2", "DELTA": "2"},
+  "NPO 3": {"Ziggo": "3", "KPN": "3", "Odido": "3", "DELTA": "3"}
+}
