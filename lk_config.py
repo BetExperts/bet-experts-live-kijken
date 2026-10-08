@@ -146,6 +146,40 @@ LEAGUES = [
                    "tottenham", "newcastle", "aston villa", "west ham"],
      "angle": ("De EFL Cup (Carabao Cup) wordt in Nederland uitgezonden door Viaplay, waarvoor je een "
                "abonnement nodig hebt. Zonder abonnement volg je dit Engelse bekerduel gewoon gratis.")},
+    # --- Topduels uit de grote buitenlandse competities (08-10-2026) ---
+    {"worker_slug": "premier-league", "comp_slug": "premier-league", "naam": "Premier League",
+     "comp_id": "65de4d0c4b5e9d86b7abf7e4", "tv": "Viaplay",
+     "force_provider": "toto", "toppers_only": True, "bookmaker_stream": False,
+     "top_teams": ["manchester city", "manchester united", "liverpool", "arsenal", "chelsea", "tottenham",
+                   "newcastle", "aston villa"],
+     "angle": ("De Premier League zie je in Nederland bij Viaplay; één wedstrijd per speelronde zendt Prime Video "
+               "uit. Een gratis livestream bij een bookmaker is er voor de Premier League niet.")},
+    {"worker_slug": "bundesliga", "comp_slug": "bundesliga", "naam": "Bundesliga",
+     "comp_id": "65eb00d99d1e7b5cb35fe067", "tv": "Viaplay",
+     "force_provider": "711", "toppers_only": True,
+     "top_teams": ["bayern", "borussia dortmund", "bayer leverkusen", "rb leipzig", "eintracht frankfurt",
+                   "vfb stuttgart"],
+     "angle": ("De Bundesliga is in Nederland te zien bij Viaplay, waarvoor je een abonnement nodig hebt. "
+               "Bij 711 kijk je dit Duitse topduel gratis mee met een account.")},
+    {"worker_slug": "ligue-1", "comp_slug": "ligue-1", "naam": "Ligue 1",
+     "comp_id": "65de4c075bc6f2f430bb4ab7", "tv": "Viaplay",
+     "force_provider": "711", "toppers_only": True,
+     "top_teams": ["paris saint germain", "marseille", "monaco", "lyon", "lille", "lens", "nice"],
+     "angle": ("De Ligue 1 zendt Viaplay in Nederland uit, maar daarvoor heb je een abonnement nodig. "
+               "Bij 711 volg je dit Franse topduel gratis met een account.")},
+    {"worker_slug": "primeira-liga", "comp_slug": "liga-portugal", "naam": "Liga Portugal",
+     "comp_id": "67a377b8b6c71bb8630a5a5e", "tv": "Ziggo Sport",
+     "force_provider": "bet365", "toppers_only": True, "bookmaker_stream": False,
+     "top_teams": ["benfica", "porto", "sporting", "braga"],
+     "angle": ("De Liga Portugal is in Nederland te zien bij Ziggo Sport. Welk kanaal het wordt, verschilt per "
+               "wedstrijd.")},
+    {"worker_slug": "mls", "comp_slug": "mls", "naam": "MLS",
+     "comp_id": "65fc1d34604a0f6809865528", "tv": "Apple TV",
+     "force_provider": "bet365", "toppers_only": True,
+     "top_teams": ["inter miami", "los angeles fc", "los angeles galaxy", "la galaxy", "new york city",
+                   "columbus crew", "seattle sounders"],
+     "angle": ("De MLS zie je in Nederland bij Apple TV: sinds 2026 zitten alle wedstrijden in het gewone "
+               "abonnement. Zonder Apple TV volg je dit Amerikaanse topduel via de livestream van Bet365.")},
     # --- Eredivisie, KKD en Europese bekers (07-10-2026) ---
     # zender_soort: precieze uitleg per kanaal (lk_build.zender_uitleg). Het exacte kanaal (ESPN 2, Ziggo Sport 1)
     # komt uit de tv-gids zodra die het weet; tot dan staat er 'ESPN'/'Ziggo Sport' met uitleg dat het kanaal
