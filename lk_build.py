@@ -318,6 +318,20 @@ def _kijk_blok(prov, homeN, awayN, comp, tv=None, tv_free=False):
                    f"<li>Kijk {M} live mee in HD</li>"
                    "</ol>")
         out.append("<p>Je hebt alleen een gratis account nodig; een storting is niet nodig.</p>")
+    bm = BOOKMAKER_PAGINAS.get(naam.lower())
+    if bm:
+        u = f"/zenders/{bm}"
+        varianten = [
+            f'<p>Welke wedstrijden {esc(naam)} nog meer uitzendt, lees je op onze pagina over '
+            f'<a href="{u}">de livestreams van {esc(naam)}</a>.</p>',
+            f'<p>Benieuwd hoe kijken bij {esc(naam)} precies werkt? Op <a href="{u}">onze {esc(naam)}-pagina</a> staan '
+            f'alle voorwaarden en het aanbod.</p>',
+            f'<p>Meer over het aanbod en de voorwaarden: <a href="{u}">{esc(naam)} livestream</a>.</p>',
+            "",
+        ]
+        zin = varianten[_variant(f"bm|{homeN}|{awayN}", len(varianten))]
+        if zin:
+            out.append(zin)
     if prov.get("cast"):
         out.append(f"<p><strong>Wil je op groot scherm kijken?</strong> Cast de {esc(naam)}-stream via "
                     f"Chromecast, AirPlay of een HDMI-kabel naar je televisie.</p>")
@@ -326,6 +340,27 @@ def _kijk_blok(prov, homeN, awayN, comp, tv=None, tv_free=False):
     return "\n".join(out)
 
 # ---------- 'Waar te zien op tv': opsomming van alle zenders + streaming-bookmakers ----------
+# ---------- zenderpagina's (/zenders/<slug>) en organische variatie ----------
+ZENDER_PAGINAS = [   # (patroon op zendernaam, slug van de zenderpagina)
+    (r"^espn", "espn"), (r"^ziggo sport", "ziggo-sport"), (r"^viaplay", "viaplay"), (r"^dazn", "dazn"),
+    (r"^prime video", "prime-video"), (r"^apple tv", "apple-tv"), (r"^(npo|nos)", "nos"),
+    (r"^eurosport", "eurosport"), (r"^hbo max", "hbo-max"), (r"^kijk$", "kijk"), (r"^canal\+", "canal-plus"),
+    (r"^f1 tv", "f1-tv"), (r"^eyecons", "eyecons"), (r"^onefootball", "onefootball"),
+]
+BOOKMAKER_PAGINAS = {"toto": "toto", "bet365": "bet365", "711": "711"}   # Starcasino: livestream niet bevestigd
+
+def zender_pagina(naam):
+    t = (naam or "").strip().lower()
+    for pat, slug in ZENDER_PAGINAS:
+        if re.search(pat, t):
+            return f"/zenders/{slug}"
+    return None
+
+def _variant(sleutel, n):
+    """Vaste keuze per wedstrijd (zelfde artikel = zelfde tekst bij elke update), verschillend tussen artikelen."""
+    import hashlib
+    return int(hashlib.md5(sleutel.encode()).hexdigest(), 16) % n
+
 def kanaal_label(tv):
     """Korte uitleg per zender: wat heb je nodig om te kijken."""
     t = (tv or "").strip().lower()
@@ -384,9 +419,13 @@ def kanaal_tabel(zender):
 def waar_te_zien(ctx):
     homeN, awayN, dt = ctx["homeN"], ctx["awayN"], ctx["dt"]
     tvs = [z.strip() for z in re.split(r"\s+en\s+|,", ctx.get("tv") or "") if z.strip()]
-    items = []
+    items, gelinkt = [], set()
     for z in tvs:
-        items.append(f"<li><strong>{esc(z)}</strong> ({esc(kanaal_label(z))}): live vanaf {nl_tijd(dt)} uur</li>")
+        url = zender_pagina(z)
+        naam = esc(z)
+        if url and url not in gelinkt:                  # elke zenderpagina één keer linken
+            gelinkt.add(url); naam = f'<a href="{url}">{naam}</a>'
+        items.append(f"<li><strong>{naam}</strong> ({esc(kanaal_label(z))}): live vanaf {nl_tijd(dt)} uur</li>")
     if not tvs:
         items.append("<li><strong>Nederlandse tv</strong>: niet te zien</li>")
     for naam, link in _streams(ctx):
@@ -395,8 +434,16 @@ def waar_te_zien(ctx):
         n = f'<a href="{link}">{esc(naam)}</a>' if link else esc(naam)
         items.append(f"<li><strong>Livestream {n}</strong> ({acc}, 18+)</li>")
     tabellen = "".join(kanaal_tabel(z) for z in tvs)
-    hub = ('<p>Alle kanaalnummers per provider staan in ons <a href="/nieuws/sportzenders-kanaalnummers">overzicht '
-           'van sportzenders</a>.</p>') if tvs else ""
+    H = "/nieuws/sportzenders-kanaalnummers"
+    hub_varianten = [
+        f'<p>Alle kanaalnummers per provider staan in ons <a href="{H}">overzicht van sportzenders</a>.</p>',
+        f'<p>Zoek je het kanaalnummer bij een andere provider? Kijk dan in onze <a href="{H}">lijst met sportzenders '
+        f'en kanaalnummers</a>.</p>',
+        f'<p>Welke sportzender bij jouw tv-pakket hoort, zie je in het <a href="{H}">overzicht van alle '
+        f'sportzenders</a>.</p>',
+        "",                                            # niet elk artikel linkt naar het overzicht
+    ]
+    hub = hub_varianten[_variant(f"hub|{homeN}|{awayN}|{dt.date()}", len(hub_varianten))] if tvs else ""
     return (f"<h3>Waar is {esc(homeN)} – {esc(awayN)} op tv?</h3>"
             "<ul>" + "".join(items) + "</ul>" + tabellen + hub)
 

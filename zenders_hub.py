@@ -15,7 +15,7 @@ from datetime import datetime, timedelta, timezone
 from zoneinfo import ZoneInfo
 
 import lk_webflow as WF
-from lk_build import esc, kanaal_tabel, MAAND, DAGEN
+from lk_build import esc, kanaal_tabel, MAAND, DAGEN, zender_pagina as B_zp
 from lk_config import BASE, WEBFLOW_TOKEN
 
 SLUG = "sportzenders-kanaalnummers"
@@ -93,7 +93,7 @@ def build(state, now):
          "wedstrijden er de komende dagen op te zien zijn.</strong></p>",
          "<p>Zoek je een specifieke wedstrijd? Op onze pagina <a href=\"/live-kijken\">live kijken</a> staat per "
          "wedstrijd de exacte zender, de aftraptijd en of er een livestream is.</p>"]
-    q = []
+    q, doorgelinkt = [], set()
     for i, (kop, zenders, comps, nodig) in enumerate(GROEPEN):
         heeft_nr = any(kanaal_tabel(z) for z in zenders)
         blok = [f"<h3>{esc(kop)}: " + ("kanaalnummer en wat je erop ziet" if heeft_nr else "wat je erop ziet en hoe je kijkt")
@@ -101,6 +101,13 @@ def build(state, now):
         if comps:
             blok.append("<p><strong>Wat zie je erop:</strong> " + esc(", ".join(comps)) + ".</p>")
         blok.append(f"<p><strong>Hoe kijk je:</strong> {esc(nodig)}</p>")
+        url = B_zp(zenders[0])
+        if url and url not in doorgelinkt:
+            doorgelinkt.add(url)
+            naam = kop.split(" (")[0].replace(" 2, 3 en 4", "").replace(" 1, 2 en 3", "").replace(" tot en met 6", "")
+            v = [f'Alles over {naam}: pakketten, prijzen en het uitzendschema',
+                 f'Bekijk de volledige {naam}-pagina', f'{naam} kijken: zo werkt het']
+            blok.append(f'<p>👉 <a href="{url}">{esc(v[len(kop) % 3])}</a></p>')
         blok.append("".join(kanaal_tabel(z) for z in zenders))
         wed = sorted((d, t, sl, z) for z in zenders for d, t, sl in kom.get(z, []))
         if wed:

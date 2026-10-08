@@ -299,10 +299,15 @@ def per_zender(h):
     if len(groepen) < 2:
         return ""
     p = ["<h3>Welke zender zendt welke wedstrijd uit?</h3>"]
+    gelinkt = set()
     for tv, rs in groepen.items():
         extra = {"basispakket": " (in het basispakket)", "gratis": " (gratis)",
                  "ziggo": " (gratis voor Ziggo-klanten)"}.get(rs[0]["gratis"], "")
-        p.append(f"<p><strong>{e(tv)}</strong>{e(extra)}: "
+        url = B.zender_pagina(tv)
+        naam = f'<a href="{url}">{e(tv)}</a>' if url and url not in gelinkt else e(tv)
+        if url:
+            gelinkt.add(url)
+        p.append(f"<p><strong>{naam}</strong>{e(extra)}: "
                  + "; ".join(f"{DAGKORT[r['ko'].weekday()]} {B.nl_tijd(r['ko'])} {e(r['home'])} – {e(r['away'])}" for r in rs)
                  + "</p>")
     return "\n".join(p)
