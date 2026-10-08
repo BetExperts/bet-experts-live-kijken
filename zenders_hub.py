@@ -29,8 +29,8 @@ TVZ = {k: v for k, v in json.load(open(os.path.join(BASE, "data", "tv_zenders.js
 # (kop, zenders in deze groep, wat zie je, wat heb je nodig)
 GROEPEN = [
     ("ESPN 1", ["ESPN 1"], TVZ.get("ESPN", []),
-     "ESPN 1 zit bij vrijwel elke Nederlandse tv-aanbieder in het basispakket. Met een gewoon tv-abonnement kijk je dus "
-     "zonder extra kosten mee, ook in de tv-app van je aanbieder."),
+     "ESPN 1 is gratis: de zender zit standaard in elk tv-pakket, bij elke Nederlandse tv-aanbieder. Je kijkt dus "
+     "zonder extra abonnement mee, ook in de tv-app van je aanbieder."),
     ("ESPN 2, 3 en 4", ["ESPN 2", "ESPN 3", "ESPN 4"],
      ["Eredivisie en Keuken Kampioen Divisie (de duels die niet op ESPN 1 staan)", "internationaal voetbal van ESPN"],
      "Bij Ziggo zitten ESPN 2, 3 en 4 sinds juli 2026 standaard in elk tv-pakket. Bij KPN en Odido boek je ze erbij met "

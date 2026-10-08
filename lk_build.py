@@ -369,7 +369,7 @@ def kanaal_label(tv):
     if t == "ziggo sport 1":
         return "gratis voor Ziggo-klanten"
     if t == "espn 1":
-        return "in het basispakket van vrijwel elke tv-aanbieder"
+        return "gratis, zit in elk tv-pakket"
     if re.fullmatch(r"espn [234]", t):
         return "bij Ziggo standaard in het tv-pakket, bij KPN en Odido met ESPN Compleet"
     if t == "espn extra":
@@ -525,9 +525,9 @@ def zender_uitleg(soort, tv, comp, nl_club=False, competitiefase=False):
     t = (tv or "").lower()
     if soort == "espn":
         if "espn 1" in t:
-            zin = ("ESPN 1 zit bij vrijwel elke Nederlandse tv-aanbieder in het basispakket, dus met een gewoon "
-                   "tv-abonnement kijk je zonder extra kosten mee.")
-            gratis = "Ja, met een gewoon tv-abonnement: ESPN 1 zit bij vrijwel elke aanbieder in het basispakket."
+            zin = ("ESPN 1 is gratis: de zender zit bij elke Nederlandse tv-aanbieder standaard in het tv-pakket, "
+                   "dus je kijkt zonder extra abonnement mee.")
+            gratis = "Ja, ESPN 1 is gratis: de zender zit standaard in elk tv-pakket."
         elif re.search(r"espn [234]", t):
             zin = (f"Bij Ziggo zit {tv} sinds juli 2026 standaard in elk tv-pakket. Bij KPN en Odido boek je de "
                    "ESPN-kanalen erbij met ESPN Compleet; een los abonnement rechtstreeks bij ESPN bestaat niet.")

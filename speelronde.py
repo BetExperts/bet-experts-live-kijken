@@ -40,8 +40,8 @@ HUBS = OrderedDict([
     ("jupiler-pro-league", ("Jupiler Pro League", "jupiler-pro-league", "65de4c16dd6eb829e1867f4b", "DAZN", "dazn")),
 ])
 GRATIS_UITLEG = {
-    "espn": ("ESPN 1 zit bij vrijwel elke Nederlandse tv-aanbieder in het basispakket: die wedstrijden kijk je met een gewoon "
-             "tv-abonnement zonder extra kosten. Bij Ziggo zitten sinds juli 2026 ook ESPN 2, 3 en 4 standaard in het "
+    "espn": ("ESPN 1 is gratis: de zender zit standaard in elk tv-pakket, dus die wedstrijden kijk je zonder extra "
+             "abonnement. Bij Ziggo zitten sinds juli 2026 ook ESPN 2, 3 en 4 standaard in het "
              "tv-pakket; bij KPN en Odido boek je die erbij met ESPN Compleet. Wedstrijden op ESPN Extra kijk je in de ESPN-app."),
     "ziggo": ("Ziggo Sport 1 is het open kanaal: Ziggo-klanten kijken daar zonder extra kosten mee met hun gewone tv-pakket. "
               "Voor de andere Ziggo Sport-kanalen heb je Ziggo Sport Totaal nodig, te boeken bij Ziggo, KPN en Odido."),
@@ -66,6 +66,8 @@ def zender_van(card, default, soort):
         tv = tv_label(card)
         if tv:
             npo = all(z.upper().startswith("NPO") for z in card["tv"])
+            if tv == "ESPN 1":
+                return tv, "gratis"                 # ESPN 1 zit gratis in elk tv-pakket
             if tv == "Ziggo Sport 1":
                 return tv, "ziggo"                  # open kanaal: gratis voor Ziggo-klanten
             if card.get("gratis"):
