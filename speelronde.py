@@ -50,7 +50,7 @@ GRATIS_UITLEG = {
     "dazn": ("De Jupiler Pro League zie je in Nederland bij DAZN, een betaalde streamingdienst. Bij 711 kun je met een "
              "account een deel van de wedstrijden gratis live meekijken."),
     "stream": ("De Süper Lig is in Nederland niet op de reguliere tv te zien. Wel kun je de wedstrijden live volgen via de "
-               "livestream van een bookmaker, zoals TOTO; daarvoor heb je een gestort account nodig."),
+               "livestream van een bookmaker, zoals TOTO; daarvoor heb je alleen een gratis account nodig (18+)."),
 }
 # slug(s) van het speelronde-overzicht in de tv-gids (alleen intern gebruikt, nooit als bron genoemd)
 GIDS_SLUGS = {"eerste-divisie": ["keuken-kampioen-divisie", "eerste-divisie", "kkd"], "jupiler-pro-league": ["jupiler-pro-league", "pro-league"]}

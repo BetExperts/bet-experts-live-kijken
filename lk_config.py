@@ -31,7 +31,7 @@ PROVIDERS = {
     "toto": {
         "naam": "TOTO",
         "link": "https://partner.toto.nl/C.ashx?btag=a_375b_619c_&affid=184&siteid=375&adid=619&c=",
-        "cast": False, "deposit": True,
+        "cast": False, "deposit": False,      # kijken kan zonder saldo (gebruiker, 8 okt 2026)
     },
     "bet365": {
         "naam": "Bet365",
