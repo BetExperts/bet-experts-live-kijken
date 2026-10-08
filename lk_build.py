@@ -10,7 +10,7 @@ try:
 except Exception:
     TZ = None
 
-from lk_config import HUB_PATH, nl_name
+from lk_config import HUB_PATH, nl_name, PROVIDERS
 
 DAGEN = ["maandag","dinsdag","woensdag","donderdag","vrijdag","zaterdag","zondag"]
 MAAND = ["januari","februari","maart","april","mei","juni","juli","augustus",
@@ -275,14 +275,22 @@ def _h2h_line(m):
             f"{nl_name(t.get('away',{}).get('name'))}")
 
 # ---------- het gratis-kijken-blok (provider-afhankelijk) ----------
-def _kijk_blok(prov, homeN, awayN, comp, tv=None):
+def _kijk_blok(prov, homeN, awayN, comp, tv=None, tv_free=False):
     """Stream via een bookmaker. Geen 'volledig gratis'-claims: bij een storting-aanbieder kijk je
     gratis mee met een gestort account en kun je de storting weer opnemen."""
     naam = prov["naam"]; link = prov["link"]; M = f"{esc(homeN)} vs {esc(awayN)}"
     deposit = prov.get("deposit", True)
     account = "een gestort account" if deposit else "een gratis account"
-    out = [f"<h3>Op welke zender is {esc(homeN)} – {esc(awayN)}? Gratis live kijken via {esc(naam)}</h3>"]
-    if tv:
+    if tv and tv_free:
+        out = [f"<h3>Op welke zender is {esc(homeN)} – {esc(awayN)}? Gratis op {esc(tv)} en via {esc(naam)}</h3>"]
+        out.append(f"<p>{M} is gratis live te zien op {esc(tv)}: daarvoor heb je geen abonnement nodig. "
+                   f"Ben je niet in de buurt van een tv? Met {account} bij {esc(naam)} kijk je ook live mee via de "
+                   f"livestream op je telefoon, tablet of laptop.</p>")
+    else:
+        out = [f"<h3>Op welke zender is {esc(homeN)} – {esc(awayN)}? Gratis live kijken via {esc(naam)}</h3>"]
+    if tv and tv_free:
+        pass                                   # uitleg staat hierboven al
+    elif tv:
         out.append(f"<p>Met {account} bij {esc(naam)} kijk je {M} live mee. In Nederland is de "
                     f"{esc(comp)} wel te zien op {esc(tv)}, maar daarvoor heb je een betaald abonnement nodig. "
                     f"Via {esc(naam)} heb je voor dit duel geen abonnement nodig.</p>")
@@ -313,6 +321,56 @@ def _kijk_blok(prov, homeN, awayN, comp, tv=None):
                f'{esc(homeN)} – {esc(awayN)} live</strong></a></p>')
     return "\n".join(out)
 
+# ---------- 'Waar te zien op tv': opsomming van alle zenders + streaming-bookmakers ----------
+def kanaal_label(tv):
+    """Korte uitleg per zender: wat heb je nodig om te kijken."""
+    t = (tv or "").strip().lower()
+    if t.startswith("npo") or t == "ziggo sport 1":
+        return "gratis"
+    if t == "espn 1":
+        return "in het basispakket van vrijwel elke tv-aanbieder"
+    if re.fullmatch(r"espn [234]", t):
+        return "bij Ziggo standaard in het tv-pakket, bij KPN en Odido met ESPN Compleet"
+    if t == "espn extra":
+        return "in de ESPN-app, met een ESPN-abonnement"
+    if re.fullmatch(r"ziggo sport [2-6]", t):
+        return "met Ziggo Sport Totaal, via Ziggo, KPN of Odido"
+    if t in ("viaplay", "dazn", "apple tv", "prime video", "fanatiz") or "viaplay" in t:
+        return "met een abonnement"
+    return "met een abonnement"
+
+def _streams(ctx):
+    """[(naam, link of None)] — bookmakers waar deze wedstrijd live te volgen is."""
+    out, seen = [], set()
+    def add(naam, link):
+        k = naam.lower().replace(" sport", "")
+        if k not in seen:
+            seen.add(k); out.append((naam, link))
+    if ctx.get("stream_ok"):
+        add(ctx["prov"]["naam"], ctx["prov"]["link"])
+    card = ctx.get("tvgids") or {}
+    for b in card.get("bookmakers") or []:
+        key = b.lower().replace(" sport", "").strip()
+        pv = PROVIDERS.get(key)
+        add(pv["naam"] if pv else b, pv["link"] if pv else None)
+    return out
+
+def waar_te_zien(ctx):
+    homeN, awayN, dt = ctx["homeN"], ctx["awayN"], ctx["dt"]
+    tvs = [z.strip() for z in re.split(r"\s+en\s+|,", ctx.get("tv") or "") if z.strip()]
+    items = []
+    for z in tvs:
+        items.append(f"<li><strong>{esc(z)}</strong> ({esc(kanaal_label(z))}): live vanaf {nl_tijd(dt)} uur</li>")
+    if not tvs:
+        items.append("<li><strong>Nederlandse tv</strong>: niet te zien</li>")
+    for naam, link in _streams(ctx):
+        pv = next((p for p in PROVIDERS.values() if p["naam"].lower() == naam.lower()), None)
+        acc = ("met een gestort account" if pv.get("deposit", True) else "met een gratis account") if pv else "met een account"
+        n = f'<a href="{link}">{esc(naam)}</a>' if link else esc(naam)
+        items.append(f"<li><strong>Livestream {n}</strong> ({acc}, 18+)</li>")
+    return (f"<h3>Waar te zien op tv: {esc(homeN)} – {esc(awayN)}</h3>"
+            "<ul>" + "".join(items) + "</ul>")
+
 # ---------- variant voor gratis tv (bv. Oranje op NPO) ----------
 # Hier beloven we GEEN bookmaker-stream (rechten liggen bij de NOS); de aanbieder
 # wordt alleen genoemd voor live meewedden tijdens de wedstrijd.
@@ -330,7 +388,8 @@ def _kijk_blok_gratis(prov, homeN, awayN, tv, dt, extra=None, voorbeschouwing=No
     stappen.append(f"<li>De aftrap is om {nl_tijd(dt)} uur, live op {esc(tv)}</li>")
     if extra:
         stappen.append(f"<li>Onderweg? Kijk via {esc(extra)} naar de gratis livestream</li>")
-    stappen.append("<li>Via NPO Start kun je de uitzending ook op je laptop of tablet volgen</li>")
+    if (tv or "").upper().startswith("NPO"):
+        stappen.append("<li>Via NPO Start kun je de uitzending ook op je laptop of tablet volgen</li>")
     out.append("<ol>" + "".join(stappen) + "</ol>")
     out.append(f"<h3>Live meewedden op {M}</h3>")
     out.append(f"<p>Wil je tijdens de wedstrijd live meewedden? Bij {esc(prov['naam'])} volg je de actuele "
@@ -427,9 +486,8 @@ def zender_uitleg(soort, tv, comp, nl_club=False, competitiefase=False):
         else:
             gratis = None
         if re.search(r"ziggo sport 1\b", t):
-            delen.append("Ziggo Sport 1 is het open kanaal (kanaal 14 bij Ziggo): Ziggo-klanten kijken daar zonder "
-                         "extra kosten mee met hun gewone tv-pakket.")
-            gratis = gratis or "Voor Ziggo-klanten wel: Ziggo Sport 1 is het open kanaal en zit in elk tv-pakket."
+            delen.append("Ziggo Sport 1 is gratis te zien: daarvoor heb je geen abonnement nodig.")
+            gratis = gratis or "Ja, Ziggo Sport 1 is gratis te zien."
         elif re.search(r"ziggo sport [2-6]", t):
             delen.append(f"Voor {tv} heb je Ziggo Sport Totaal nodig, te boeken bij Ziggo, KPN en Odido.")
             gratis = gratis or f"Nee, voor {tv} heb je Ziggo Sport Totaal nodig."
@@ -437,7 +495,7 @@ def zender_uitleg(soort, tv, comp, nl_club=False, competitiefase=False):
             delen.append(f"Ziggo Sport heeft de rechten van de {comp} en maakt ongeveer een week vooraf per wedstrijd "
                          "het kanaal bekend; we werken dit artikel bij zodra dat bekend is. Elke speelavond staat minstens "
                          "één wedstrijd op het open kanaal Ziggo Sport 1, de overige zie je met Ziggo Sport Totaal.")
-            gratis = gratis or ("Dat hangt af van het kanaal: Ziggo Sport 1 is gratis voor Ziggo-klanten, voor de "
+            gratis = gratis or ("Dat hangt af van het kanaal: Ziggo Sport 1 is gratis, voor de "
                                 "andere kanalen heb je Ziggo Sport Totaal nodig.")
         delen.append(f"Wil je alle doelpunten van de avond tegelijk volgen? Het Switch-programma op Ziggo Sport 4 "
                      f"schakelt live tussen de wedstrijden.")
@@ -524,16 +582,25 @@ def _faq_gratis(homeN, awayN, comp, dt, tv, extra=None):
          f"Het {comp}-duel is live en gratis te zien op {tv}."
          + (f" Je kunt ook meekijken via {extra}." if extra else "")),
         (f"Is {homeN} – {awayN} gratis te kijken?",
-         f"Ja, {tv} is vrij te ontvangen. Je hebt geen abonnement nodig."),
+         f"Ja, {tv} is gratis te zien. Je hebt geen abonnement nodig."),
         ("Kan ik de wedstrijd ook online kijken?",
-         "Ja, via NPO Start" + (f" en {extra}" if extra else "") + " kijk je gratis live mee op je telefoon, tablet of laptop."),
+         ("Ja, via NPO Start" + (f" en {extra}" if extra else "") + " kijk je gratis live mee op je telefoon, tablet of laptop.")
+         if (tv or "").upper().startswith("NPO") else
+         "Ja, via de app van je tv-aanbieder kijk je ook op je telefoon, tablet of laptop mee."),
     ]
     return "\n".join(f"<p><strong>{esc(a)}</strong><br>{esc(b)}</p>" for a, b in q)
 
 # ---------- FAQ ----------
-def _faq(homeN, awayN, comp, dt, prov, tv=None):
+def _faq(homeN, awayN, comp, dt, prov, tv=None, tv_free=False):
     naam = prov["naam"]; deposit = prov.get("deposit", True)
     account = f"een gestort {naam}-account" if deposit else f"een gratis {naam}-account"
+    if tv and tv_free:
+        q = [(f"Waar kun je {homeN} – {awayN} kijken?",
+              f"Gratis op {tv}, en online via de livestream van {naam} met {account}."),
+             (f"Hoe laat begint {homeN} – {awayN}?", _aftrap_antwoord(dt)),
+             (f"Is {homeN} – {awayN} gratis te kijken?", f"Ja, {tv} is gratis te zien; je hebt geen abonnement nodig."),
+             (f"Op welke zender is {homeN} – {awayN} te zien?", f"Op {tv}, gratis.")]
+        return "\n".join(f"<p><strong>{esc(a)}</strong><br>{esc(b)}</p>" for a, b in q)
     if tv:
         waar = (f"Op welke zender is {homeN} – {awayN} te zien?",
                 f"In Nederland zendt {tv} de {comp} uit, maar daarvoor heb je een betaald abonnement nodig. "
@@ -596,6 +663,7 @@ def build_content(ctx):
     c1.append(f"<p><strong>{hLink} treft {aLink} {nl_wanneer(dt)} in {ctx.get('comp_lidwoord', 'de')} "
               f"{compLink}. {angle} {slot}</strong></p>")
     c1.append(f"<p>{zoek_zin(homeN, awayN)}</p>")
+    c1.append(waar_te_zien(ctx))
     vb_url = ctx.get("vb_url")
     if vb_url:
         c1.append(f'<p><strong>Lees ook:</strong> onze <a href="{vb_url}">uitgebreide voorbeschouwing van '
@@ -607,6 +675,8 @@ def build_content(ctx):
         c1.append(_kijk_blok_basis(prov, homeN, awayN, ctx.get("tv"), dt, compN))
     elif paid:
         c1.append(_kijk_blok_betaald(prov, homeN, awayN, ctx.get("tv"), dt, compN, ctx.get("tv_extra")))
+    elif free and ctx.get("stream_ok"):
+        c1.append(_kijk_blok(prov, homeN, awayN, compN, ctx.get("tv"), tv_free=True))
     elif free:
         c1.append(_kijk_blok_gratis(prov, homeN, awayN, ctx.get("tv"), dt,
                                     ctx.get("tv_extra"), ctx.get("tv_voorbeschouwing")))
@@ -644,7 +714,7 @@ def build_content(ctx):
         c3.append(f'<p>Meer analyse? Bekijk de <a href="{vb_url}">voorbeschouwing van '
                   f'{esc(homeN)} – {esc(awayN)}</a> met onze voorspelling en de opstellingen.</p>')
     c3.append("<h3>Veelgestelde vragen</h3>")
-    if free or paid:
+    if (free and not ctx.get("stream_ok")) or paid:
         c3.append(_faq_zender(homeN, awayN, compN, dt, ctx.get("tv"), ctx["zender_soort"], ctx.get("nl_club"),
                               ctx.get("competitiefase")) if (paid and ctx.get("zender_soort"))
                   else _faq_gratis(homeN, awayN, compN, dt, ctx.get("tv"), ctx.get("tv_extra")) if free
@@ -653,7 +723,7 @@ def build_content(ctx):
         c3.append(f'<p><a href="{prov["link"]}"><strong>Wed live mee op {esc(homeN)} – {esc(awayN)} bij '
                   f'{esc(prov["naam"])}</strong></a></p>')
     else:
-        c3.append(_faq(homeN, awayN, compN, dt, prov, ctx.get("tv")))
+        c3.append(_faq(homeN, awayN, compN, dt, prov, ctx.get("tv"), tv_free=bool(free)))
         c3.append(f'<p><a href="{prov["link"]}"><strong>Kijk {esc(homeN)} – {esc(awayN)} live via '
                   f'{esc(prov["naam"])}</strong></a></p>')
     c3.append(f'<p><a href="{HUB_PATH}"><strong>'

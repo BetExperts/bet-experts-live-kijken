@@ -43,7 +43,7 @@ GRATIS_UITLEG = {
     "espn": ("ESPN 1 zit bij vrijwel elke Nederlandse tv-aanbieder in het basispakket: die wedstrijden kijk je met een gewoon "
              "tv-abonnement zonder extra kosten. Bij Ziggo zitten sinds juli 2026 ook ESPN 2, 3 en 4 standaard in het "
              "tv-pakket; bij KPN en Odido boek je die erbij met ESPN Compleet. Wedstrijden op ESPN Extra kijk je in de ESPN-app."),
-    "ziggo": ("Ziggo Sport 1 is het open kanaal: Ziggo-klanten kijken daar zonder extra kosten mee met hun gewone tv-pakket. "
+    "ziggo": ("Ziggo Sport 1 is gratis te zien: daarvoor heb je geen abonnement nodig. "
               "Voor de andere Ziggo Sport-kanalen heb je Ziggo Sport Totaal nodig, te boeken bij Ziggo, KPN en Odido."),
     "viaplay": ("Viaplay is een betaalde streamingdienst: je kijkt via de Viaplay-app of via Viaplay TV bij je tv-aanbieder. "
                 "Gratis tv-uitzendingen zijn er in deze competitie niet."),

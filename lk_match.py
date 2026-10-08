@@ -140,9 +140,10 @@ def build_fielddata(ctx, league_cfg, slug=None):
     if card:
         tvl = tv_label(card)
         npo = bool(tvl) and all(z.upper().startswith("NPO") for z in card["tv"])
+        zs1 = tvl == "Ziggo Sport 1"          # gratis te zien (wens gebruiker, 8 okt 2026)
         # 'gratis' op waaroptv betekent ook 'in het basispakket' (bv. ESPN 1); onze gratis-
         # tekst gaat over vrij te ontvangen tv, dus alleen overnemen bij NPO.
-        gids = {"tv": tvl, "gratis": bool(card.get("gratis")) and npo,
+        gids = {"tv": tvl, "gratis": (bool(card.get("gratis")) and npo) or zs1,
                 "extra": "de NOS-app of NOS.nl" if npo else None}
     info = tv_match(ctx["fid"]) or gids or default
     ctx["tv"] = info.get("tv")
@@ -167,6 +168,7 @@ def build_fielddata(ctx, league_cfg, slug=None):
         geen_stream = False
         ctx["stream_bron"] = "waaroptv"
     ctx["tv_paid_only"] = geen_stream and bool(ctx.get("tv")) and not ctx.get("tv_free")
+    ctx["stream_ok"] = not geen_stream
     # precieze zenderuitleg (ESPN-kanalen, Ziggo Sport 1/Totaal/Free) voor Eredivisie, KKD en Europese bekers
     ctx["zender_soort"] = league_cfg.get("zender_soort")
     if ctx["zender_soort"]:
