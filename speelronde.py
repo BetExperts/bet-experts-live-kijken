@@ -66,6 +66,8 @@ def zender_van(card, default, soort):
         tv = tv_label(card)
         if tv:
             npo = all(z.upper().startswith("NPO") for z in card["tv"])
+            if tv == "Ziggo Sport 1":
+                return tv, "gratis"                 # open kanaal: Ziggo-klanten kijken zonder extra kosten
             if card.get("gratis"):
                 return tv, ("gratis" if npo else "basispakket")
             return tv, None
