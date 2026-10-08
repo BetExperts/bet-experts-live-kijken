@@ -24,7 +24,8 @@
 .zp-tabel td{padding:13px 20px;border-bottom:1px solid rgba(15,22,33,.06)}.zp-r{text-align:right}
 .zp-kanaal{margin-bottom:16px}.zp-noot{font-size:12px;color:#8A97A0;padding:8px 20px;margin:0}
 .zp-alt{display:grid;gap:10px}
-.zp-alt-item{display:flex;align-items:center;gap:14px;padding:14px 16px;border:1px solid rgba(255,255,255,.10);background:rgba(255,255,255,.04);border-radius:12px;color:inherit;text-decoration:none}
+.zp-data[data-blok=alternatieven]{color:#fff}
+.zp-alt-item{display:flex;align-items:center;gap:14px;padding:14px 16px;border:1px solid rgba(255,255,255,.10);background:rgba(255,255,255,.04);border-radius:12px;color:#fff;text-decoration:none}
 .zp-alt-logo{width:40px;height:40px;border-radius:10px;background:#fff;color:#E4002B;font-weight:800;font-size:11px;display:flex;align-items:center;justify-content:center;flex:none}
 .zp-alt-main{flex:1;min-width:0}.zp-alt-main strong{display:block;font-family:'Poppins',sans-serif}.zp-alt-main small{display:block;opacity:.65;font-size:12.5px}
 .zp-alt-label{color:#6CC08B;font-weight:700;font-size:13px;white-space:nowrap}
@@ -41,7 +42,7 @@
 <script src="https://cdn.jsdelivr.net/gh/BetExperts/bet-experts-live-kijken@main/hub/zenders-render.js"></script>
 <script>
 /* Fallback (bv. op webflow.io-staging): blokken die de worker nog niet heeft ingevuld, hier renderen */
-(function(){
+function zpInit(){
   document.querySelectorAll('.zp-data:not([data-zp])').forEach(function(el){
     var fn=ZP[el.getAttribute('data-blok')];if(fn){el.innerHTML=fn(el.textContent);el.setAttribute('data-zp','ok');}
   });
@@ -50,5 +51,6 @@
     .then(function(r){return r.json();}).then(function(s){
       w.forEach(function(el){el.innerHTML=ZP.week(s,el.getAttribute('data-zenders'),el.getAttribute('data-naam')||'',+(el.getAttribute('data-max')||5));el.setAttribute('data-zp','ok');});
     }).catch(function(){});
-})();
+}
+if(document.readyState==='loading')document.addEventListener('DOMContentLoaded',zpInit);else zpInit();
 </script>
