@@ -1,0 +1,54 @@
+<!-- ===== Zenderpagina: stijl + 'Deze week op …' (plak dit als eerste embed op de template) ===== -->
+<style>
+.zp-week,.zp-data{font-family:'Plus Jakarta Sans',system-ui,sans-serif;color:#0F1621}
+.zp-week{background:#fff;border:1px solid rgba(15,22,33,.10);border-radius:16px;overflow:hidden;box-shadow:0 1px 3px rgba(15,22,33,.05)}
+.zp-week-head{display:flex;justify-content:space-between;align-items:center;padding:14px 20px;background:#F7FAF8;border-bottom:1px solid rgba(15,22,33,.07)}
+.zp-eyebrow{font-family:'Poppins',sans-serif;font-size:12px;font-weight:700;letter-spacing:.08em;text-transform:uppercase;color:#12833D;border-left:3px solid #169A47;padding-left:10px}
+.zp-week-count{font-size:12.5px;color:#8A97A0}
+.zp-week-row{display:grid;grid-template-columns:96px minmax(0,1fr) auto;align-items:center;gap:14px;padding:14px 20px;border-bottom:1px solid rgba(15,22,33,.06)}
+.zp-week-when strong{display:block;font-family:'Poppins',sans-serif;font-size:16px}
+.zp-week-when small,.zp-week-main small{display:block;font-size:12.5px;color:#8A97A0;margin-top:2px}
+.zp-week-titel{font-family:'Poppins',sans-serif;font-size:15.5px;font-weight:600}
+.zp-week-titel a{color:inherit;text-decoration:none}.zp-week-titel a:hover{text-decoration:underline}
+.zp-pill{font-family:'Poppins',sans-serif;font-size:12px;font-weight:600;border:1px solid rgba(15,22,33,.14);background:#F7FAF8;border-radius:999px;padding:5px 12px;white-space:nowrap;color:#3D4A55}
+.zp-week-more{display:block;text-align:center;padding:14px;background:#F7FAF8;color:#12833D;font-weight:700;font-size:14px;text-decoration:none}
+.zp-leeg{padding:16px 20px;margin:0;color:#5C6873;font-size:14px}
+.zp-comp-grid{display:grid;grid-template-columns:1fr 1fr;border-top:1px solid rgba(15,22,33,.07)}
+.zp-comp{display:flex;justify-content:space-between;align-items:center;gap:12px;padding:14px 20px;border-bottom:1px solid rgba(15,22,33,.07)}
+.zp-comp:nth-child(odd){border-right:1px solid rgba(15,22,33,.07)}
+.zp-comp-naam{font-family:'Poppins',sans-serif;font-weight:600;font-size:15px}.zp-comp-sub{font-size:12.5px;color:#8A97A0;margin-top:2px}
+.zp-badge{font-size:11.5px;font-weight:600;border-radius:999px;padding:4px 10px;border:1px solid rgba(15,22,33,.14);color:#5C6873;white-space:nowrap}
+.zp-badge--excl{background:rgba(22,154,71,.09);border-color:rgba(22,154,71,.25);color:#12833D}
+.zp-tabel{width:100%;border-collapse:collapse;font-size:14.5px;margin:0 0 6px}
+.zp-tabel th{text-align:left;font-size:11.5px;letter-spacing:.06em;text-transform:uppercase;color:#8A97A0;font-weight:600;padding:10px 20px;border-bottom:1px solid rgba(15,22,33,.08)}
+.zp-tabel td{padding:13px 20px;border-bottom:1px solid rgba(15,22,33,.06)}.zp-r{text-align:right}
+.zp-kanaal{margin-bottom:16px}.zp-noot{font-size:12px;color:#8A97A0;padding:8px 20px;margin:0}
+.zp-alt{display:grid;gap:10px}
+.zp-alt-item{display:flex;align-items:center;gap:14px;padding:14px 16px;border:1px solid rgba(255,255,255,.10);background:rgba(255,255,255,.04);border-radius:12px;color:inherit;text-decoration:none}
+.zp-alt-logo{width:40px;height:40px;border-radius:10px;background:#fff;color:#E4002B;font-weight:800;font-size:11px;display:flex;align-items:center;justify-content:center;flex:none}
+.zp-alt-main{flex:1;min-width:0}.zp-alt-main strong{display:block;font-family:'Poppins',sans-serif}.zp-alt-main small{display:block;opacity:.65;font-size:12.5px}
+.zp-alt-label{color:#6CC08B;font-weight:700;font-size:13px;white-space:nowrap}
+.zp-faq details{border-bottom:1px solid rgba(15,22,33,.08);padding:16px 20px}
+.zp-faq summary{list-style:none;cursor:pointer;display:flex;justify-content:space-between;gap:12px;font-family:'Poppins',sans-serif;font-weight:600;font-size:15.5px}
+.zp-faq summary::-webkit-details-marker{display:none}
+.zp-faq-ico{width:24px;height:24px;border-radius:7px;background:#F1F5F3;display:inline-flex;align-items:center;justify-content:center;transition:transform .2s;flex:none}
+.zp-faq details[open] .zp-faq-ico{transform:rotate(90deg);background:rgba(22,154,71,.12);color:#12833D}
+.zp-faq p{margin:10px 0 0;color:#3D4A55;line-height:1.6;font-size:14.5px}
+@media (max-width:640px){.zp-week-row{grid-template-columns:70px minmax(0,1fr);row-gap:6px}.zp-pill{grid-column:2;justify-self:start}.zp-comp-grid{grid-template-columns:1fr}.zp-comp:nth-child(odd){border-right:none}.zp-tabel th,.zp-tabel td{padding:10px 12px}}
+</style>
+<!-- 'Deze week op <zender>' — vervang TV_GIDS_ZENDERS en NAAM via '+ Add Field' door de CMS-velden 'Tv-gids zenders' en 'Name' -->
+<div class="zp-week" data-zenders="TV_GIDS_ZENDERS" data-naam="NAAM" data-max="5"></div>
+<script src="https://cdn.jsdelivr.net/gh/BetExperts/bet-experts-live-kijken@main/hub/zenders-render.js"></script>
+<script>
+/* Fallback (bv. op webflow.io-staging): blokken die de worker nog niet heeft ingevuld, hier renderen */
+(function(){
+  document.querySelectorAll('.zp-data:not([data-zp])').forEach(function(el){
+    var fn=ZP[el.getAttribute('data-blok')];if(fn){el.innerHTML=fn(el.textContent);el.setAttribute('data-zp','ok');}
+  });
+  var w=document.querySelectorAll('.zp-week:not([data-zp])');if(!w.length)return;
+  fetch('https://raw.githubusercontent.com/BetExperts/bet-experts-live-kijken/main/data/zender_schema.json')
+    .then(function(r){return r.json();}).then(function(s){
+      w.forEach(function(el){el.innerHTML=ZP.week(s,el.getAttribute('data-zenders'),el.getAttribute('data-naam')||'',+(el.getAttribute('data-max')||5));el.setAttribute('data-zp','ok');});
+    }).catch(function(){});
+})();
+</script>
