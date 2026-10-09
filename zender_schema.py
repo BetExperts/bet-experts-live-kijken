@@ -74,13 +74,15 @@ def _cards_extra():
 SC_FEED = "https://sb2frontend-altenar2.biahosted.com/api/widget"
 SC_Q = {"culture": "nl-NL", "timezoneOffset": -120, "integration": "starcasino.nl", "deviceType": 1,
         "numFormat": "en-GB", "countryCode": "NL"}
-SC_SPORT = {"Voetbal": "voetbal", "Tennis": "tennis", "Basketbal": "basketbal", "IJshockey": "ijshockey",
-            "Handbal": "handbal"}
-SC_TOP = re.compile(r"ligue [12]|s(u|ü)per lig|brasileir|copa do brasil|wk kwalificatie|vriendschappelijk|championship|"
-                    r"super league|superliga|serie c|3\. liga|national league|superettan|veikkausliiga|"
-                    r"\b(atp|wta)\b|davis cup|billie jean|australian open|bbl|bundesliga|super ligi|khl|shl|liiga|"
-                    r"champions hockey|spengler|starligue|champions league", re.I)
-SC_MAX = {"voetbal": 70, "tennis": 15, "basketbal": 15, "ijshockey": 15, "handbal": 5}
+SC_SPORT = {"Voetbal": "voetbal", "Tennis": "tennis"}
+# Alleen de belangrijke wedstrijden (zoals de tv-gids dat bij 711 doet): geen ITF/Challenger-tennis, reserve-
+# en vrouwenteams of lagere divisies (gebruiker, 9 okt 2026).
+SC_TOP = re.compile(r"^(ligue 1|ligue 2|s(u|ü)per lig|brasileir(a|ã)o serie a|brasileiro serie a|copa do brasil|"
+                    r"wk kwalificatie|wk-kwalificatie|vriendschappelijk.*interland|championship|"
+                    r"super league|superliga|coupe de france|turkse beker|t(u|ü)rkiye kupas)", re.I)
+SC_TENNIS = re.compile(r"^(atp|wta) (?!125)|davis cup|billie jean|australian open", re.I)
+SC_UIT = re.compile(r"\(d\)|\bU\d{2}\b|\bII\b| B$|reserve|jong ", re.I)
+SC_MAX = {"voetbal": 60, "tennis": 12}
 
 
 def _cards_starcasino():
@@ -112,8 +114,9 @@ def _cards_starcasino():
                             e["startDate"].replace("Z", "+00:00")), "comp": chn.get(e.get("champId"), sport[sid]),
                             "zenders": ["Starcasino"], "sport": SC_SPORT[sport[sid]]})
     nu = datetime.now(timezone.utc) - timedelta(hours=2)
-    out = [c for c in out if c["ko"] >= nu]
-    out.sort(key=lambda c: (0 if SC_TOP.search(c["comp"]) else 1, c["ko"]))   # bekende competities eerst
+    out = [c for c in out if c["ko"] >= nu and not SC_UIT.search(c["titel"] + " " + c["comp"])
+           and (SC_TENNIS.search(c["comp"]) if c["sport"] == "tennis" else SC_TOP.search(c["comp"]))]
+    out.sort(key=lambda c: c["ko"])
     teller, kept = {}, []
     for c in out:                                   # per sport begrenzen, de eerstvolgende wedstrijden eerst
         if teller.get(c["sport"], 0) < SC_MAX.get(c["sport"], 10):
