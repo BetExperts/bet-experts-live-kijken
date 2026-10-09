@@ -1,26 +1,13 @@
 {
-"bijgewerkt": "2026-10-09T10:17:52.977240+00:00",
+"bijgewerkt": "2026-10-09T11:19:39.879103+00:00",
 "uitzendingen": [
-{
-"ko": "2026-10-09T07:30:00+00:00",
-"titel": "Alex de Minaur – Alex Molčan",
-"comp": "ATP Tour",
-"sport": "tennis",
-"zenders": [],
-"streams": [
-"711"
-],
-"url": null
-},
 {
 "ko": "2026-10-09T09:30:00+00:00",
 "titel": "Miomir Kecmanović – Jakub Menšík",
 "comp": "ATP Tour",
 "sport": "tennis",
 "zenders": [],
-"streams": [
-"711"
-],
+"streams": [],
 "url": null
 },
 {
@@ -29,9 +16,7 @@
 "comp": "ATP Tour",
 "sport": "tennis",
 "zenders": [],
-"streams": [
-"711"
-],
+"streams": [],
 "url": null
 },
 {
@@ -40,9 +25,7 @@
 "comp": "WTA Tour",
 "sport": "tennis",
 "zenders": [],
-"streams": [
-"711"
-],
+"streams": [],
 "url": null
 },
 {
@@ -297,9 +280,7 @@
 "comp": "La Liga",
 "sport": "voetbal",
 "zenders": [],
-"streams": [
-"711"
-],
+"streams": [],
 "url": null
 },
 {
@@ -484,31 +465,7 @@
 "comp": "WTA Tour",
 "sport": "tennis",
 "zenders": [],
-"streams": [
-"711"
-],
-"url": null
-},
-{
-"ko": "2026-10-10T04:00:00+00:00",
-"titel": "Thiago Agustín Tirante – Rafael Jódar",
-"comp": "ATP Tour",
-"sport": "tennis",
-"zenders": [],
-"streams": [
-"711"
-],
-"url": null
-},
-{
-"ko": "2026-10-10T04:00:00+00:00",
-"titel": "Daniil Medvedev – Struff J-L.",
-"comp": "ATP Tour",
-"sport": "tennis",
-"zenders": [],
-"streams": [
-"711"
-],
+"streams": [],
 "url": null
 },
 {
@@ -517,9 +474,25 @@
 "comp": "ATP Tour",
 "sport": "tennis",
 "zenders": [],
-"streams": [
-"711"
-],
+"streams": [],
+"url": null
+},
+{
+"ko": "2026-10-10T04:00:00+00:00",
+"titel": "Thiago Agustín Tirante – Rafael Jódar",
+"comp": "ATP Tour",
+"sport": "tennis",
+"zenders": [],
+"streams": [],
+"url": null
+},
+{
+"ko": "2026-10-10T04:00:00+00:00",
+"titel": "Daniil Medvedev – Struff J-L.",
+"comp": "ATP Tour",
+"sport": "tennis",
+"zenders": [],
+"streams": [],
 "url": null
 },
 {
@@ -528,9 +501,34 @@
 "comp": "ATP Tour",
 "sport": "tennis",
 "zenders": [],
-"streams": [
-"711"
-],
+"streams": [],
+"url": null
+},
+{
+"ko": "2026-10-10T07:00:00+00:00",
+"titel": "Arthur Fils – Pavel Kotov",
+"comp": "ATP Tour",
+"sport": "tennis",
+"zenders": [],
+"streams": [],
+"url": null
+},
+{
+"ko": "2026-10-10T07:00:00+00:00",
+"titel": "Learner Tien – Zachary Svajda",
+"comp": "ATP Tour",
+"sport": "tennis",
+"zenders": [],
+"streams": [],
+"url": null
+},
+{
+"ko": "2026-10-10T09:00:00+00:00",
+"titel": "Botic van de Zandschulp – Alex Michelsen",
+"comp": "ATP Tour",
+"sport": "tennis",
+"zenders": [],
+"streams": [],
 "url": null
 },
 {
@@ -539,9 +537,7 @@
 "comp": "ATP Tour",
 "sport": "tennis",
 "zenders": [],
-"streams": [
-"711"
-],
+"streams": [],
 "url": null
 },
 {
@@ -665,8 +661,7 @@
 "sport": "voetbal",
 "zenders": [],
 "streams": [
-"Bet365",
-"TOTO"
+"Bet365"
 ],
 "url": "/nieuws/alanyaspor-erzurumspor-live-gratis-kijken-10-10-2026"
 },
@@ -677,8 +672,7 @@
 "sport": "voetbal",
 "zenders": [],
 "streams": [
-"Bet365",
-"TOTO"
+"Bet365"
 ],
 "url": "/nieuws/samsunspor-trabzonspor-live-gratis-kijken-10-10-2026"
 },
@@ -703,9 +697,7 @@
 "zenders": [
 "Viaplay"
 ],
-"streams": [
-"711"
-],
+"streams": [],
 "url": null
 },
 {
@@ -729,9 +721,7 @@
 "zenders": [
 "Viaplay"
 ],
-"streams": [
-"711"
-],
+"streams": [],
 "url": null
 },
 {
@@ -972,6 +962,17 @@
 },
 {
 "ko": "2026-10-10T18:00:00+00:00",
+"titel": "Al-Hilal Saudi FC – Al-Ittihad FC",
+"comp": "Saudi Pro League",
+"sport": "voetbal",
+"zenders": [
+"Kijk.nl"
+],
+"streams": [],
+"url": null
+},
+{
+"ko": "2026-10-10T18:00:00+00:00",
 "titel": "Saint-Étienne – Rodez",
 "comp": "Ligue 2",
 "sport": "voetbal",
@@ -1039,9 +1040,7 @@
 "zenders": [
 "Viaplay"
 ],
-"streams": [
-"711"
-],
+"streams": [],
 "url": null
 },
 {
@@ -1065,9 +1064,7 @@
 "zenders": [
 "Viaplay"
 ],
-"streams": [
-"711"
-],
+"streams": [],
 "url": null
 },
 {
@@ -1237,8 +1234,7 @@
 "sport": "voetbal",
 "zenders": [],
 "streams": [
-"Bet365",
-"TOTO"
+"Bet365"
 ],
 "url": "/nieuws/konyaspor-istanbul-basaksehir-live-gratis-kijken-11-10-2026"
 },
@@ -1385,8 +1381,7 @@
 "sport": "voetbal",
 "zenders": [],
 "streams": [
-"Bet365",
-"TOTO"
+"Bet365"
 ],
 "url": "/nieuws/gaziantep-corum-fk-live-gratis-kijken-11-10-2026"
 },
@@ -1435,9 +1430,7 @@
 "zenders": [
 "Viaplay"
 ],
-"streams": [
-"711"
-],
+"streams": [],
 "url": null
 },
 {
@@ -1485,9 +1478,7 @@
 "zenders": [
 "Viaplay"
 ],
-"streams": [
-"711"
-],
+"streams": [],
 "url": null
 },
 {
@@ -1509,9 +1500,7 @@
 "zenders": [
 "Viaplay"
 ],
-"streams": [
-"711"
-],
+"streams": [],
 "url": null
 },
 {
@@ -1695,9 +1684,7 @@
 "comp": "ATP Tour",
 "sport": "tennis",
 "zenders": [],
-"streams": [
-"711"
-],
+"streams": [],
 "url": null
 },
 {
