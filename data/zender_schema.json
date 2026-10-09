@@ -1,28 +1,6 @@
 {
-"bijgewerkt": "2026-10-09T15:33:47.941643+00:00",
+"bijgewerkt": "2026-10-09T19:56:15.731012+00:00",
 "uitzendingen": [
-{
-"ko": "2026-10-09T16:30:00+00:00",
-"titel": "Eintracht Braunschweig – Holstein Kiel",
-"comp": "2. Bundesliga",
-"sport": "voetbal",
-"zenders": [
-"Viaplay"
-],
-"streams": [],
-"url": null
-},
-{
-"ko": "2026-10-09T16:30:00+00:00",
-"titel": "Heidenheim – Kaiserslautern",
-"comp": "2. Bundesliga",
-"sport": "voetbal",
-"zenders": [
-"Viaplay"
-],
-"streams": [],
-"url": null
-},
 {
 "ko": "2026-10-09T17:00:00+00:00",
 "titel": "Galatasaray – Kasimpasa",
@@ -459,15 +437,6 @@
 },
 {
 "ko": "2026-10-10T07:00:00+00:00",
-"titel": "Mirra Andreeva – Nikola Bartůňková",
-"comp": "WTA Tour",
-"sport": "tennis",
-"zenders": [],
-"streams": [],
-"url": null
-},
-{
-"ko": "2026-10-10T07:00:00+00:00",
 "titel": "Arthur Fils – Pavel Kotov",
 "comp": "ATP Tour",
 "sport": "tennis",
@@ -479,6 +448,15 @@
 "ko": "2026-10-10T07:00:00+00:00",
 "titel": "Learner Tien – Zachary Svajda",
 "comp": "ATP Tour",
+"sport": "tennis",
+"zenders": [],
+"streams": [],
+"url": null
+},
+{
+"ko": "2026-10-10T07:00:00+00:00",
+"titel": "Mirra Andreeva – Nikola Bartůňková",
+"comp": "WTA Tour",
 "sport": "tennis",
 "zenders": [],
 "streams": [],
@@ -1633,6 +1611,15 @@
 "url": null
 },
 {
+"ko": "2026-10-12T02:00:00+00:00",
+"titel": "Alex de Minaur – Rei Sakamoto",
+"comp": "ATP Tour",
+"sport": "tennis",
+"zenders": [],
+"streams": [],
+"url": null
+},
+{
 "ko": "2026-10-12T13:45:00+00:00",
 "titel": "Pakhtakor Tasjkent – Al-Qadisiyah FC",
 "comp": "AFC Champions League",
@@ -1804,7 +1791,7 @@
 },
 {
 "ko": "2026-10-13T16:45:00+00:00",
-"titel": "Sabah – SK Slavia Praha",
+"titel": "Sabah FA – SK Slavia Praag",
 "comp": "UEFA Champions League",
 "sport": "voetbal",
 "zenders": [
@@ -2160,7 +2147,8 @@
 "comp": "UEFA Champions League",
 "sport": "voetbal",
 "zenders": [
-"Ziggo Sport 2"
+"Ziggo Sport 2",
+"Ziggo Sport 1"
 ],
 "streams": [],
 "url": null
