@@ -1,8 +1,8 @@
 {
-"bijgewerkt": "2026-10-09T11:50:53.973756+00:00",
+"bijgewerkt": "2026-10-09T12:22:06.405957+00:00",
 "uitzendingen": [
 {
-"ko": "2026-10-09T09:30:00+00:00",
+"ko": "2026-10-09T09:35:00+00:00",
 "titel": "Miomir Kecmanović – Jakub Menšík",
 "comp": "ATP Tour",
 "sport": "tennis",
@@ -11,18 +11,9 @@
 "url": null
 },
 {
-"ko": "2026-10-09T10:00:00+00:00",
+"ko": "2026-10-09T10:10:00+00:00",
 "titel": "Novak Djokovic – Hubert Hurkacz",
 "comp": "ATP Tour",
-"sport": "tennis",
-"zenders": [],
-"streams": [],
-"url": null
-},
-{
-"ko": "2026-10-09T11:00:00+00:00",
-"titel": "Elise Mertens – Iga Świątek",
-"comp": "WTA Tour",
 "sport": "tennis",
 "zenders": [],
 "streams": [],
@@ -36,6 +27,15 @@
 "zenders": [
 "Viaplay TV"
 ],
+"streams": [],
+"url": null
+},
+{
+"ko": "2026-10-09T11:10:00+00:00",
+"titel": "Elise Mertens – Iga Świątek",
+"comp": "WTA Tour",
+"sport": "tennis",
+"zenders": [],
 "streams": [],
 "url": null
 },
@@ -460,15 +460,6 @@
 "url": null
 },
 {
-"ko": "2026-10-10T03:00:00+00:00",
-"titel": "Mirra Andreeva – Nikola Bartůňková",
-"comp": "WTA Tour",
-"sport": "tennis",
-"zenders": [],
-"streams": [],
-"url": null
-},
-{
 "ko": "2026-10-10T04:00:00+00:00",
 "titel": "Camilo Ugo Carabelli – Félix Auger-Aliassime",
 "comp": "ATP Tour",
@@ -506,6 +497,15 @@
 },
 {
 "ko": "2026-10-10T07:00:00+00:00",
+"titel": "Mirra Andreeva – Nikola Bartůňková",
+"comp": "WTA Tour",
+"sport": "tennis",
+"zenders": [],
+"streams": [],
+"url": null
+},
+{
+"ko": "2026-10-10T07:00:00+00:00",
 "titel": "Arthur Fils – Pavel Kotov",
 "comp": "ATP Tour",
 "sport": "tennis",
@@ -519,6 +519,17 @@
 "comp": "ATP Tour",
 "sport": "tennis",
 "zenders": [],
+"streams": [],
+"url": null
+},
+{
+"ko": "2026-10-10T08:45:00+00:00",
+"titel": "Ronde van Lombardije",
+"comp": "Ronde van Lombardije",
+"sport": "wielrennen",
+"zenders": [
+"Eurosport 1"
+],
 "streams": [],
 "url": null
 },
@@ -537,17 +548,6 @@
 "comp": "ATP Tour",
 "sport": "tennis",
 "zenders": [],
-"streams": [],
-"url": null
-},
-{
-"ko": "2026-10-10T10:00:00+00:00",
-"titel": "Ronde van Lombardije",
-"comp": "Ronde van Lombardije",
-"sport": "wielrennen",
-"zenders": [
-"Eurosport 1"
-],
 "streams": [],
 "url": null
 },
@@ -1206,7 +1206,7 @@
 "url": null
 },
 {
-"ko": "2026-10-11T10:00:00+00:00",
+"ko": "2026-10-11T07:00:00+00:00",
 "titel": "MotoGP van Indonesië",
 "comp": "MotoGP",
 "sport": "autosport",
