@@ -69,7 +69,7 @@ content3 = f"""<h3><strong>Alle wedstrijden van vrijdag met odds</strong></h3>
     ("Kevin Doets – Nick Kenny", "1.24 – 3.75"),
 ])}
 <h3><strong>Wat verwachten de tipsters voor het hele toernooi?</strong></h3>
-<p>Zonder Luke Littler is Luke Humphries de favoriet voor de eindzege. Bij Britse tipsters vallen ook Ross Smith en Luke Woodhouse op, die vorig jaar nog de finale in Basel haalde. Onze eigen voorspelling voor het toernooi, met Humphries als winnaar en Gian van Veen als finalist, staat in onze <a href="/nieuws/swiss-darts-trophy-2026">voorbeschouwing</a>.</p>
+<p>Zonder Luke Littler is Luke Humphries de favoriet voor de eindzege. Bij Britse tipsters vallen ook Ross Smith en Luke Woodhouse op, die vorig jaar nog de finale in Basel haalde. Onze eigen voorspelling voor het toernooi, met Humphries als winnaar en Gian van Veen als finalist, staat in onze <a href="/nieuws/swiss-darts-trophy-2026">voorbeschouwing</a>. Op zaterdag stromen de reekshoofden in; daarvoor staan onze <a href="/nieuws/wedtips-swiss-darts-trophy-10-oktober-2026">wedtips voor zaterdag 10 oktober</a> al klaar.</p>
 <h3><strong>Veelgestelde vragen</strong></h3>
 <p><strong>Hoe laat begint de Swiss Darts Trophy vandaag?</strong><br>De middagsessie begint om 13:00 uur met Zonneveld – Brooks. De avondsessie start om 19:00 uur en eindigt met Doets – Kenny.</p>
 <p><strong>Wat is de beste wedtip voor vandaag?</strong><br>Onze favoriete tip is Raymond van Barneveld die wint van Maik Kuivenhoven, tegen een odd van 2.00.</p>
