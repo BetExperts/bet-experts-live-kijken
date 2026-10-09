@@ -40,7 +40,7 @@ content = f"""<p><strong>De Swiss Darts Trophy 2026 wordt van vrijdag 9 tot en m
     ("<strong>Sessies</strong>", "Dagelijks vanaf 13:00 en 19:00 uur"),
 ])}
 <h3><strong>Luke Littler ontbreekt</strong></h3>
-<p>De grootste afwezige is Luke Littler. De Engelse wereldkampioen heeft besloten de laatste twee toernooien van de European Tour over te slaan. Hij komt dus niet in Basel en ook niet in Maastricht in actie. Daardoor staat Luke Humphries bovenaan de plaatsingslijst, met Gian van Veen als tweede reekshoofd.</p>
+<p>De grootste afwezige is Luke Littler. De Engelse topspeler heeft besloten de laatste twee toernooien van de European Tour over te slaan. Hij komt dus niet in Basel en ook niet in Maastricht in actie. Daardoor staat Luke Humphries bovenaan de plaatsingslijst, met Gian van Veen als tweede reekshoofd.</p>
 <h3><strong>Speelschema Swiss Darts Trophy 2026</strong></h3>
 <p><strong>Vrijdag 9 oktober – middagsessie (13:00 uur), eerste ronde</strong></p>
 {sessie([
@@ -125,11 +125,11 @@ content3 = f"""<h3><strong>Format: zo wordt er gespeeld</strong></h3>
 ])}
 <p>De eerste editie leverde direct een klassieker op. Martin Schindler stond in de finale met 7-4 achter, maar Ryan Searle miste zeven matchdarts en de Duitser won alsnog met 8-7. Een jaar later was Stephen Bunting veel te sterk voor Luke Woodhouse. Met een gemiddelde van bijna 104 won hij de finale met 8-3. Alle vier de finalisten van de vorige twee edities zijn dit jaar weer van de partij.</p>
 <h3><strong>Voorspelling Swiss Darts Trophy 2026</strong></h3>
-<p>Zonder Littler is <strong>Luke Humphries</strong> de logische favoriet. Als nummer één van de plaatsingslijst heeft hij een loting die hem tot de laatste zestien weinig problemen zou moeten geven. <strong>Gian van Veen</strong> is als tweede reekshoofd de grootste Nederlandse kanshebber. Hij zit in de andere helft van het schema, waardoor een finale tegen Humphries mogelijk is.</p>
+<p>Zonder Littler is <strong>Luke Humphries</strong> de logische favoriet. Als nummer één van de plaatsingslijst begint hij pas zaterdagavond, tegen Kevin Doets of Nick Kenny. <strong>Gian van Veen</strong> is als tweede reekshoofd de grootste Nederlandse kanshebber. Hij zit in de andere helft van het schema dan Humphries, waardoor die twee elkaar pas in de finale kunnen treffen. Wel kan Van Veen in de kwartfinale titelverdediger Stephen Bunting tegenkomen.</p>
 <p>Houd ook <strong>Stephen Bunting</strong> in de gaten. De titelverdediger voelt zich duidelijk thuis in de St. Jakobshalle en won hier vorig jaar overtuigend. Een andere naam om op te letten is <strong>Martin Schindler</strong>, de winnaar van 2024, die als vijftiende reekshoofd een flinke outsider is.</p>
 <p><strong>Onze voorspelling:</strong> Luke Humphries wint de Swiss Darts Trophy, na een finale tegen Gian van Veen. Als outsider kiezen we Stephen Bunting. In de eerste ronde verwachten we dat Van Barneveld zijn duel met Kuivenhoven wint, zodat het Nederlandse publiek zaterdag een clash tussen Barney en Jonny Clayton krijgt. De odds per wedstrijd en meer wedtips vind je bij onze <a href="/wedtips">wedtips</a>.</p>
 <h3><strong>Waar kun je de Swiss Darts Trophy kijken?</strong></h3>
-<p>In Nederland worden de PDC-toernooien uitgezonden door <a href="/zenders/viaplay">Viaplay</a>. Via de app volg je alle sessies live, en de grootste toernooien zijn ook te zien op de tv-zender Viaplay TV+. De sessies beginnen elke dag om 13:00 en 19:00 uur.</p>
+<p>In Nederland heeft <a href="/zenders/viaplay">Viaplay</a> de rechten op de PDC-toernooien. In de Viaplay-app zie je welke sessies van de Euro Tour live te volgen zijn; de grootste toernooien staan ook op de tv-zender Viaplay TV+. De sessies beginnen elke dag om 13:00 en 19:00 uur.</p>
 <h3><strong>Veelgestelde vragen</strong></h3>
 <p><strong>Wanneer is de Swiss Darts Trophy 2026?</strong><br>Van vrijdag 9 tot en met zondag 11 oktober 2026, met elke dag een middag- en een avondsessie.</p>
 <p><strong>Waar wordt de Swiss Darts Trophy gespeeld?</strong><br>In de St. Jakobshalle in Basel, Zwitserland.</p>
