@@ -42,14 +42,24 @@ PROVIDERS = {
         "naam": "711",
         "link": "https://media1.711affiliates.nl/redirect.aspx?pid=2395&bid=1505",
         "cast": False, "deposit": False,
+    },    "starcasino": {
+        "naam": "Starcasino",
+        "link": "https://media1.affiliates.starcasino.nl/redirect.aspx?pid=2170&bid=1478",
+        "cast": False, "deposit": False,      # alleen een account nodig, geen saldo (gebruiker, 9 okt 2026)
     },
 }
 
 def provider_for(fixture_id, force=None):
     """Kies aanbieder. `force` ('toto'/'bet365') = vast per competitie; anders
     deterministisch afwisselen op fixture-id-pariteit (~50/50)."""
-    if force in PROVIDERS:
+    if isinstance(force, str) and force in PROVIDERS:
         return PROVIDERS[force]
+    if isinstance(force, (list, tuple)) and force:     # rotatie, vast per wedstrijd (fixture-id)
+        try:
+            i = int(str(fixture_id)) % len(force)
+        except Exception:
+            i = sum(ord(c) for c in str(fixture_id)) % len(force)
+        return PROVIDERS[force[i]]
     try:
         even = int(str(fixture_id)) % 2 == 0
     except Exception:
@@ -103,7 +113,7 @@ def is_topper(fx, cfg):
 # comp_slug   = slug van de competitiepagina op de site (/competities/<slug>)
 # naam        = weergavenaam in de tekst
 # comp_id     = item-id in de Competities-collectie (referentieveld 'competitie')
-# force_provider : 'toto'/'bet365' = vaste aanbieder voor die competitie (anders afwisselen)
+# force_provider : 'toto'/'bet365' = vaste aanbieder; lijst = rotatie per wedstrijd (anders TOTO/Bet365 om-en-om)
 # toppers_only   : True = alleen wedstrijden met een 'groot team' (top_teams) krijgen een artikel
 # angle          : introzin die de competitie-invalshoek zet
 # Nederlandse clubs (API-namen, kleine letters) en Europese toppers met veel Nederlandse kijkers
@@ -117,6 +127,7 @@ EU_TOPPERS = ["real madrid", "barcelona", "bayern", "paris saint germain", "manc
 LEAGUES = [
     {"worker_slug": "super-lig", "comp_slug": "super-lig", "naam": "Süper Lig",
      "comp_id": "66ed7d481dc85d2ca649595c", "tv": None,
+     "force_provider": ["toto", "bet365", "starcasino"],      # rotatie (gebruiker, 9 okt 2026)
      "angle": ("Veel Turkse voetbalfans in Nederland willen dit duel live volgen, maar de Süper Lig "
                "is hier niet op de reguliere tv te zien.")},
     {"worker_slug": "la-liga", "comp_slug": "la-liga", "naam": "La Liga",
@@ -163,10 +174,10 @@ LEAGUES = [
                "Bij 711 kijk je dit Duitse topduel gratis mee met een account.")},
     {"worker_slug": "ligue-1", "comp_slug": "ligue-1", "naam": "Ligue 1",
      "comp_id": "65de4c075bc6f2f430bb4ab7", "tv": "Viaplay",
-     "force_provider": "711", "toppers_only": True,
+     "force_provider": ["711", "starcasino"], "toppers_only": True,      # om-en-om (gebruiker, 9 okt 2026)
      "top_teams": ["paris saint germain", "marseille", "monaco", "lyon", "lille", "lens", "nice"],
      "angle": ("De Ligue 1 zendt Viaplay in Nederland uit, maar daarvoor heb je een abonnement nodig. "
-               "Bij 711 volg je dit Franse topduel gratis met een account.")},
+               "Bij een vergunde bookmaker volg je dit Franse topduel gratis met alleen een account.")},
     {"worker_slug": "primeira-liga", "comp_slug": "liga-portugal", "naam": "Liga Portugal",
      "comp_id": "67a377b8b6c71bb8630a5a5e", "tv": "Ziggo Sport",
      "force_provider": "bet365", "toppers_only": True, "bookmaker_stream": False,

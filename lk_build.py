@@ -318,6 +318,9 @@ def _kijk_blok(prov, homeN, awayN, comp, tv=None, tv_free=False):
                    f"<li>Kijk {M} live mee in HD</li>"
                    "</ol>")
         out.append("<p>Je hebt alleen een gratis account nodig; een storting is niet nodig.</p>")
+    if naam.lower() == "starcasino":      # verzoek Starcasino: aanbod onder voorbehoud (9 okt 2026)
+        out.append("<p><em>Let op: het streamaanbod van Starcasino is onder voorbehoud van wijzigingen. Niet elke "
+                   "wedstrijd wordt uitgezonden; tijdens het duel zie je in het live-gedeelte of er een stream is.</em></p>")
     bm = BOOKMAKER_PAGINAS.get(naam.lower())
     if bm:
         u = f"/zenders/{bm}"
@@ -347,7 +350,7 @@ ZENDER_PAGINAS = [   # (patroon op zendernaam, slug van de zenderpagina)
     (r"^eurosport", "eurosport"), (r"^hbo max", "hbo-max"), (r"^kijk$", "kijk"), (r"^canal\+", "canal-plus"),
     (r"^f1 tv", "f1-tv"), (r"^eyecons", "eyecons"), (r"^onefootball", "onefootball"),
 ]
-BOOKMAKER_PAGINAS = {"toto": "toto", "bet365": "bet365", "711": "711"}   # Starcasino: livestream niet bevestigd
+BOOKMAKER_PAGINAS = {"toto": "toto", "bet365": "bet365", "711": "711", "starcasino": "starcasino"}
 
 def zender_pagina(naam):
     t = (naam or "").strip().lower()
