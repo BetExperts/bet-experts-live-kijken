@@ -1,8 +1,8 @@
 {
-"bijgewerkt": "2026-10-09T08:13:56.191276+00:00",
+"bijgewerkt": "2026-10-09T08:45:02.038874+00:00",
 "uitzendingen": [
 {
-"ko": "2026-10-09T06:20:00+00:00",
+"ko": "2026-10-09T06:30:00+00:00",
 "titel": "Alexander Zverev – Wu Yibing",
 "comp": "ATP Tour",
 "sport": "tennis",
@@ -13,7 +13,7 @@
 "url": null
 },
 {
-"ko": "2026-10-09T06:30:00+00:00",
+"ko": "2026-10-09T06:55:00+00:00",
 "titel": "Yannick Hanfmann – Frances Tiafoe",
 "comp": "ATP Tour",
 "sport": "tennis",
@@ -46,7 +46,7 @@
 "url": null
 },
 {
-"ko": "2026-10-09T09:00:00+00:00",
+"ko": "2026-10-09T09:30:00+00:00",
 "titel": "Miomir Kecmanović – Jakub Menšík",
 "comp": "ATP Tour",
 "sport": "tennis",
@@ -76,6 +76,17 @@
 "streams": [
 "711"
 ],
+"url": null
+},
+{
+"ko": "2026-10-09T11:00:00+00:00",
+"titel": "Zonneveld – Brooks",
+"comp": "Swiss Darts Trophy",
+"sport": "darts",
+"zenders": [
+"Viaplay TV"
+],
+"streams": [],
 "url": null
 },
 {
@@ -110,6 +121,50 @@
 "TOTO"
 ],
 "url": "/nieuws/galatasaray-kasimpasa-live-gratis-kijken-09-10-2026"
+},
+{
+"ko": "2026-10-09T17:00:00+00:00",
+"titel": "De Graaf – Lap",
+"comp": "Swiss Darts Trophy",
+"sport": "darts",
+"zenders": [
+"Viaplay TV"
+],
+"streams": [],
+"url": null
+},
+{
+"ko": "2026-10-09T17:00:00+00:00",
+"titel": "Van Barneveld – Kuivenhoven",
+"comp": "Swiss Darts Trophy",
+"sport": "darts",
+"zenders": [
+"Viaplay TV"
+],
+"streams": [],
+"url": null
+},
+{
+"ko": "2026-10-09T17:00:00+00:00",
+"titel": "Van Duijvenbode – Stoeckli",
+"comp": "Swiss Darts Trophy",
+"sport": "darts",
+"zenders": [
+"Viaplay TV"
+],
+"streams": [],
+"url": null
+},
+{
+"ko": "2026-10-09T17:00:00+00:00",
+"titel": "Doets – Kenny",
+"comp": "Swiss Darts Trophy",
+"sport": "darts",
+"zenders": [
+"Viaplay TV"
+],
+"streams": [],
+"url": null
 },
 {
 "ko": "2026-10-09T18:00:00+00:00",
@@ -468,6 +523,50 @@
 "url": null
 },
 {
+"ko": "2026-10-10T04:00:00+00:00",
+"titel": "Thiago Agustín Tirante – Rafael Jódar",
+"comp": "ATP Tour",
+"sport": "tennis",
+"zenders": [],
+"streams": [
+"711"
+],
+"url": null
+},
+{
+"ko": "2026-10-10T04:00:00+00:00",
+"titel": "Daniil Medvedev – Struff J-L.",
+"comp": "ATP Tour",
+"sport": "tennis",
+"zenders": [],
+"streams": [
+"711"
+],
+"url": null
+},
+{
+"ko": "2026-10-10T04:00:00+00:00",
+"titel": "Camilo Ugo Carabelli – Félix Auger-Aliassime",
+"comp": "ATP Tour",
+"sport": "tennis",
+"zenders": [],
+"streams": [
+"711"
+],
+"url": null
+},
+{
+"ko": "2026-10-10T05:30:00+00:00",
+"titel": "Matteo Arnaldi – Taylor Fritz",
+"comp": "ATP Tour",
+"sport": "tennis",
+"zenders": [],
+"streams": [
+"711"
+],
+"url": null
+},
+{
 "ko": "2026-10-10T07:00:00+00:00",
 "titel": "Learner Tien – Zachary Svajda",
 "comp": "ATP Tour",
@@ -805,28 +904,6 @@
 ],
 "streams": [],
 "url": "/nieuws/go-ahead-eagles-sparta-rotterdam-live-gratis-kijken-10-10-2026"
-},
-{
-"ko": "2026-10-10T15:00:00+00:00",
-"titel": "Matteo Arnaldi – Taylor Fritz",
-"comp": "ATP Tour",
-"sport": "tennis",
-"zenders": [],
-"streams": [
-"711"
-],
-"url": null
-},
-{
-"ko": "2026-10-10T15:00:00+00:00",
-"titel": "Juan Manuel Cerúndolo – Carlos Alcaraz",
-"comp": "ATP Tour",
-"sport": "tennis",
-"zenders": [],
-"streams": [
-"711"
-],
-"url": null
 },
 {
 "ko": "2026-10-10T15:15:00+00:00",
@@ -1221,6 +1298,18 @@
 },
 {
 "ko": "2026-10-11T10:30:00+00:00",
+"titel": "Konyaspor – Basaksehir",
+"comp": "Süper Lig",
+"sport": "voetbal",
+"zenders": [],
+"streams": [
+"Bet365",
+"TOTO"
+],
+"url": "/nieuws/konyaspor-istanbul-basaksehir-live-gratis-kijken-11-10-2026"
+},
+{
+"ko": "2026-10-11T10:30:00+00:00",
 "titel": "Como – AS Roma",
 "comp": "Serie A",
 "sport": "voetbal",
@@ -1231,18 +1320,6 @@
 "Bet365"
 ],
 "url": "/nieuws/como-as-roma-live-gratis-kijken-11-10-2026"
-},
-{
-"ko": "2026-10-11T10:30:00+00:00",
-"titel": "Konyaspor – Basaksehir",
-"comp": "Süper Lig",
-"sport": "voetbal",
-"zenders": [],
-"streams": [
-"Bet365",
-"TOTO"
-],
-"url": "/nieuws/konyaspor-istanbul-basaksehir-live-gratis-kijken-11-10-2026"
 },
 {
 "ko": "2026-10-11T11:00:00+00:00",
@@ -1347,6 +1424,17 @@
 },
 {
 "ko": "2026-10-11T13:00:00+00:00",
+"titel": "Crystal Palace – Nottingham Forest",
+"comp": "Premier League",
+"sport": "voetbal",
+"zenders": [
+"Viaplay"
+],
+"streams": [],
+"url": null
+},
+{
+"ko": "2026-10-11T13:00:00+00:00",
 "titel": "Hull City – Everton",
 "comp": "Premier League",
 "sport": "voetbal",
@@ -1355,6 +1443,18 @@
 ],
 "streams": [],
 "url": null
+},
+{
+"ko": "2026-10-11T13:00:00+00:00",
+"titel": "Gaziantep – Corum",
+"comp": "Süper Lig",
+"sport": "voetbal",
+"zenders": [],
+"streams": [
+"Bet365",
+"TOTO"
+],
+"url": "/nieuws/gaziantep-corum-fk-live-gratis-kijken-11-10-2026"
 },
 {
 "ko": "2026-10-11T13:00:00+00:00",
@@ -1371,17 +1471,6 @@
 },
 {
 "ko": "2026-10-11T13:00:00+00:00",
-"titel": "Lecce – Bologna",
-"comp": "Serie A",
-"sport": "voetbal",
-"zenders": [
-"Ziggo Sport 3"
-],
-"streams": [],
-"url": null
-},
-{
-"ko": "2026-10-11T13:00:00+00:00",
 "titel": "Nice – Strasbourg",
 "comp": "Ligue 1",
 "sport": "voetbal",
@@ -1395,26 +1484,14 @@
 },
 {
 "ko": "2026-10-11T13:00:00+00:00",
-"titel": "Crystal Palace – Nottingham Forest",
-"comp": "Premier League",
+"titel": "Lecce – Bologna",
+"comp": "Serie A",
 "sport": "voetbal",
 "zenders": [
-"Viaplay"
+"Ziggo Sport 3"
 ],
 "streams": [],
 "url": null
-},
-{
-"ko": "2026-10-11T13:00:00+00:00",
-"titel": "Gaziantep – Corum",
-"comp": "Süper Lig",
-"sport": "voetbal",
-"zenders": [],
-"streams": [
-"Bet365",
-"TOTO"
-],
-"url": "/nieuws/gaziantep-corum-fk-live-gratis-kijken-11-10-2026"
 },
 {
 "ko": "2026-10-11T13:30:00+00:00",
@@ -1676,6 +1753,17 @@
 "Fanatiz"
 ],
 "streams": [],
+"url": null
+},
+{
+"ko": "2026-10-12T02:00:00+00:00",
+"titel": "Alex de Minaur – Rei Sakamoto",
+"comp": "ATP Tour",
+"sport": "tennis",
+"zenders": [],
+"streams": [
+"711"
+],
 "url": null
 },
 {
