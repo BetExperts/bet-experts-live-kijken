@@ -1,15 +1,6 @@
 {
-"bijgewerkt": "2026-10-09T12:53:15.838944+00:00",
+"bijgewerkt": "2026-10-09T13:24:39.566536+00:00",
 "uitzendingen": [
-{
-"ko": "2026-10-09T10:10:00+00:00",
-"titel": "Novak Djokovic – Hubert Hurkacz",
-"comp": "ATP Tour",
-"sport": "tennis",
-"zenders": [],
-"streams": [],
-"url": null
-},
 {
 "ko": "2026-10-09T11:00:00+00:00",
 "titel": "Zonneveld – Brooks",
@@ -1841,7 +1832,7 @@
 },
 {
 "ko": "2026-10-13T16:45:00+00:00",
-"titel": "Sabah FA – SK Slavia Praag",
+"titel": "Sabah – SK Slavia Praha",
 "comp": "UEFA Champions League",
 "sport": "voetbal",
 "zenders": [
@@ -2197,8 +2188,7 @@
 "comp": "UEFA Champions League",
 "sport": "voetbal",
 "zenders": [
-"Ziggo Sport 2",
-"Ziggo Sport 1"
+"Ziggo Sport 2"
 ],
 "streams": [],
 "url": null
@@ -2227,7 +2217,7 @@
 },
 {
 "ko": "2026-10-15T12:15:00+00:00",
-"titel": "Bangkok Glass – Adelaide United FC",
+"titel": "BG Pathum United – Adelaide United FC",
 "comp": "AFC Champions League Two",
 "sport": "voetbal",
 "zenders": [
@@ -2354,6 +2344,94 @@
 "sport": "voetbal",
 "zenders": [
 "Youtube (Saudi Pro League)"
+],
+"streams": [],
+"url": null
+},
+{
+"ko": "2026-10-16T16:30:00+00:00",
+"titel": "Energie Cottbus – Nürnberg",
+"comp": "2. Bundesliga",
+"sport": "voetbal",
+"zenders": [
+"Viaplay"
+],
+"streams": [],
+"url": null
+},
+{
+"ko": "2026-10-16T16:30:00+00:00",
+"titel": "Holstein Kiel – Hertha BSC",
+"comp": "2. Bundesliga",
+"sport": "voetbal",
+"zenders": [
+"Viaplay"
+],
+"streams": [],
+"url": null
+},
+{
+"ko": "2026-10-16T16:30:00+00:00",
+"titel": "SC Freiburg (V) – RB Leipzig (V)",
+"comp": "Frauen Bundesliga",
+"sport": "voetbal",
+"zenders": [
+"Viaplay"
+],
+"streams": [],
+"url": null
+},
+{
+"ko": "2026-10-16T18:00:00+00:00",
+"titel": "SC Heerenveen – Excelsior",
+"comp": "Eredivisie",
+"sport": "voetbal",
+"zenders": [
+"ESPN 2"
+],
+"streams": [],
+"url": null
+},
+{
+"ko": "2026-10-16T18:30:00+00:00",
+"titel": "Eintracht Frankfurt – Köln",
+"comp": "Bundesliga",
+"sport": "voetbal",
+"zenders": [
+"Viaplay"
+],
+"streams": [],
+"url": null
+},
+{
+"ko": "2026-10-16T18:45:00+00:00",
+"titel": "Le Mans – Toulouse",
+"comp": "Ligue 1",
+"sport": "voetbal",
+"zenders": [
+"Viaplay"
+],
+"streams": [],
+"url": null
+},
+{
+"ko": "2026-10-16T19:00:00+00:00",
+"titel": "Burnley – Wolverhampton",
+"comp": "EFL Championship",
+"sport": "voetbal",
+"zenders": [
+"Viaplay"
+],
+"streams": [],
+"url": null
+},
+{
+"ko": "2026-10-16T19:00:00+00:00",
+"titel": "Deportivo de La Coruna – Levante",
+"comp": "La Liga",
+"sport": "voetbal",
+"zenders": [
+"Ziggo Sport 2"
 ],
 "streams": [],
 "url": null
