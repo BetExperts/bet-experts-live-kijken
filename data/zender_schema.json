@@ -1,39 +1,6 @@
 {
-"bijgewerkt": "2026-10-08T23:14:08.813299+00:00",
+"bijgewerkt": "2026-10-09T05:40:53.706186+00:00",
 "uitzendingen": [
-{
-"ko": "2026-10-08T22:30:00+00:00",
-"titel": "Santos FC – CR Flamengo",
-"comp": "Braziliaanse Serie A",
-"sport": "voetbal",
-"zenders": [
-"Fanatiz"
-],
-"streams": [],
-"url": null
-},
-{
-"ko": "2026-10-09T00:30:00+00:00",
-"titel": "Fluminense FC – Coritiba",
-"comp": "Braziliaanse Serie A",
-"sport": "voetbal",
-"zenders": [
-"Fanatiz"
-],
-"streams": [],
-"url": null
-},
-{
-"ko": "2026-10-09T00:30:00+00:00",
-"titel": "SE Palmeiras – Bahia",
-"comp": "Braziliaanse Serie A",
-"sport": "voetbal",
-"zenders": [
-"Fanatiz"
-],
-"streams": [],
-"url": null
-},
 {
 "ko": "2026-10-09T04:00:00+00:00",
 "titel": "Adrian Mannarino – Flavio Cobolli",
@@ -134,17 +101,6 @@
 "url": null
 },
 {
-"ko": "2026-10-09T14:55:00+00:00",
-"titel": "Al-Fateh – Al-Ahli Jeddah",
-"comp": "Saudi Pro League",
-"sport": "voetbal",
-"zenders": [
-"Youtube (Saudi Pro League)"
-],
-"streams": [],
-"url": null
-},
-{
 "ko": "2026-10-09T16:30:00+00:00",
 "titel": "Eintracht Braunschweig – Holstein Kiel",
 "comp": "2. Bundesliga",
@@ -176,17 +132,6 @@
 "TOTO"
 ],
 "url": "/nieuws/galatasaray-kasimpasa-live-gratis-kijken-09-10-2026"
-},
-{
-"ko": "2026-10-09T17:30:00+00:00",
-"titel": "CA Aldosivi – CA Sarmiento",
-"comp": "Argentijnse Primera Division",
-"sport": "voetbal",
-"zenders": [
-"Fanatiz"
-],
-"streams": [],
-"url": null
 },
 {
 "ko": "2026-10-09T18:00:00+00:00",
@@ -310,28 +255,6 @@
 "url": "/nieuws/almere-city-fc-eindhoven-live-gratis-kijken-09-10-2026"
 },
 {
-"ko": "2026-10-09T18:00:00+00:00",
-"titel": "Hongarije Vrouwen – Nederland (V)",
-"comp": "WK Kwalificatie Vrouwen",
-"sport": "voetbal",
-"zenders": [
-"NPO 3"
-],
-"streams": [],
-"url": null
-},
-{
-"ko": "2026-10-09T18:15:00+00:00",
-"titel": "België (V) – Polen (V)",
-"comp": "WK Kwalificatie Vrouwen",
-"sport": "voetbal",
-"zenders": [
-"Ketnet"
-],
-"streams": [],
-"url": null
-},
-{
 "ko": "2026-10-09T18:30:00+00:00",
 "titel": "Borussia Dortmund – Werder Bremen",
 "comp": "Bundesliga",
@@ -389,17 +312,6 @@
 ],
 "streams": [],
 "url": "/nieuws/sporting-braga-sporting-cp-live-gratis-kijken-09-10-2026"
-},
-{
-"ko": "2026-10-09T21:00:00+00:00",
-"titel": "Gimnasia L.P. – Atletico Tucuman",
-"comp": "Argentijnse Primera Division",
-"sport": "voetbal",
-"zenders": [
-"Fanatiz"
-],
-"streams": [],
-"url": null
 },
 {
 "ko": "2026-10-09T22:30:00+00:00",
@@ -1926,7 +1838,7 @@
 },
 {
 "ko": "2026-10-13T12:00:00+00:00",
-"titel": "RB Leipzig U19 – PSV U19",
+"titel": "RB Leipzig O19 – PSV O19",
 "comp": "UEFA Youth League",
 "sport": "voetbal",
 "zenders": [
@@ -2301,7 +2213,7 @@
 },
 {
 "ko": "2026-10-14T19:00:00+00:00",
-"titel": "FK Bodø/Glimt – Borussia Dortmund",
+"titel": "Bodø / Glimt – Borussia Dortmund",
 "comp": "UEFA Champions League",
 "sport": "voetbal",
 "zenders": [
@@ -2323,11 +2235,10 @@
 },
 {
 "ko": "2026-10-14T19:00:00+00:00",
-"titel": "Manchester City – Paris Saint-Germain F.C.",
+"titel": "Manchester City – Paris Saint-Germain",
 "comp": "UEFA Champions League",
 "sport": "voetbal",
 "zenders": [
-"Ziggo Sport 1",
 "Ziggo Sport 2"
 ],
 "streams": [],
@@ -2473,6 +2384,17 @@
 "sport": "voetbal",
 "zenders": [
 "Ziggo Sport 5"
+],
+"streams": [],
+"url": null
+},
+{
+"ko": "2026-10-16T13:15:00+00:00",
+"titel": "Al-Qadisiyah FC – Abha Club",
+"comp": "Saudi Pro League",
+"sport": "voetbal",
+"zenders": [
+"Youtube (Saudi Pro League)"
 ],
 "streams": [],
 "url": null
