@@ -28,7 +28,7 @@ BOOKMAKER_LOGO = {   # eigen logo's uit het Bookmakers-CMS
     "bet365": "https://cdn.prod.website-files.com/64f9f8e867f73b8e88841e09/651bd6dad055d6e894f4f703_bet365-logo-groen-en-geel-betexperts.webp",
     "starcasino": "https://cdn.prod.website-files.com/64f9f8e867f73b8e88841e09/6aad0740a906a610179e800b_Starcasino-1400x1400-logo-via-CasinoNieuws-1024x1024.webp",
 }
-VERBORGEN = {"starcasino"}   # livestream nog niet bevestigd -> niet op de hub tot de gebruiker het bevestigt
+VERBORGEN = set()   # starcasino: streamlijst ontvangen 9-10-2026, aanbod onder voorbehoud -> wel op de hub
 SKIP = {"gerelateerde", "logo_bron", "bronnen", "name", "slug"}
 UA = {"User-Agent": "Mozilla/5.0 (compatible; BetExpertsBot/1.0; +https://www.bet-experts.nl)"}
 
