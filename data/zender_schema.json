@@ -1,28 +1,6 @@
 {
-"bijgewerkt": "2026-10-09T06:11:45.783567+00:00",
+"bijgewerkt": "2026-10-09T08:13:56.191276+00:00",
 "uitzendingen": [
-{
-"ko": "2026-10-09T04:10:00+00:00",
-"titel": "Adrian Mannarino – Flavio Cobolli",
-"comp": "ATP Tour",
-"sport": "tennis",
-"zenders": [],
-"streams": [
-"711"
-],
-"url": null
-},
-{
-"ko": "2026-10-09T04:10:00+00:00",
-"titel": "Ben Shelton – Daniel Altmaier",
-"comp": "ATP Tour",
-"sport": "tennis",
-"zenders": [],
-"streams": [
-"711"
-],
-"url": null
-},
 {
 "ko": "2026-10-09T06:20:00+00:00",
 "titel": "Alexander Zverev – Wu Yibing",
@@ -255,6 +233,17 @@
 "url": "/nieuws/almere-city-fc-eindhoven-live-gratis-kijken-09-10-2026"
 },
 {
+"ko": "2026-10-09T18:00:00+00:00",
+"titel": "Hongarije – Nederland",
+"comp": "Women's World Cup Qualification",
+"sport": "voetbal",
+"zenders": [
+"NPO 3"
+],
+"streams": [],
+"url": null
+},
+{
 "ko": "2026-10-09T18:30:00+00:00",
 "titel": "Borussia Dortmund – Werder Bremen",
 "comp": "Bundesliga",
@@ -471,6 +460,50 @@
 "ko": "2026-10-10T03:00:00+00:00",
 "titel": "Mirra Andreeva – Nikola Bartůňková",
 "comp": "WTA Tour",
+"sport": "tennis",
+"zenders": [],
+"streams": [
+"711"
+],
+"url": null
+},
+{
+"ko": "2026-10-10T07:00:00+00:00",
+"titel": "Learner Tien – Zachary Svajda",
+"comp": "ATP Tour",
+"sport": "tennis",
+"zenders": [],
+"streams": [
+"711"
+],
+"url": null
+},
+{
+"ko": "2026-10-10T07:00:00+00:00",
+"titel": "Arthur Fils – Pavel Kotov",
+"comp": "ATP Tour",
+"sport": "tennis",
+"zenders": [],
+"streams": [
+"711"
+],
+"url": null
+},
+{
+"ko": "2026-10-10T09:00:00+00:00",
+"titel": "Botic van de Zandschulp – Alex Michelsen",
+"comp": "ATP Tour",
+"sport": "tennis",
+"zenders": [],
+"streams": [
+"711"
+],
+"url": null
+},
+{
+"ko": "2026-10-10T10:00:00+00:00",
+"titel": "Juan Manuel Cerúndolo – Carlos Alcaraz",
+"comp": "ATP Tour",
 "sport": "tennis",
 "zenders": [],
 "streams": [
@@ -787,72 +820,6 @@
 {
 "ko": "2026-10-10T15:00:00+00:00",
 "titel": "Juan Manuel Cerúndolo – Carlos Alcaraz",
-"comp": "ATP Tour",
-"sport": "tennis",
-"zenders": [],
-"streams": [
-"711"
-],
-"url": null
-},
-{
-"ko": "2026-10-10T15:00:00+00:00",
-"titel": "Learner Tien – Zachary Svajda",
-"comp": "ATP Tour",
-"sport": "tennis",
-"zenders": [],
-"streams": [
-"711"
-],
-"url": null
-},
-{
-"ko": "2026-10-10T15:00:00+00:00",
-"titel": "Thiago Agustín Tirante – Rafael Jódar",
-"comp": "ATP Tour",
-"sport": "tennis",
-"zenders": [],
-"streams": [
-"711"
-],
-"url": null
-},
-{
-"ko": "2026-10-10T15:00:00+00:00",
-"titel": "Daniil Medvedev – Struff J-L.",
-"comp": "ATP Tour",
-"sport": "tennis",
-"zenders": [],
-"streams": [
-"711"
-],
-"url": null
-},
-{
-"ko": "2026-10-10T15:00:00+00:00",
-"titel": "Botic van de Zandschulp – Alex Michelsen",
-"comp": "ATP Tour",
-"sport": "tennis",
-"zenders": [],
-"streams": [
-"711"
-],
-"url": null
-},
-{
-"ko": "2026-10-10T15:00:00+00:00",
-"titel": "Arthur Fils – Pavel Kotov",
-"comp": "ATP Tour",
-"sport": "tennis",
-"zenders": [],
-"streams": [
-"711"
-],
-"url": null
-},
-{
-"ko": "2026-10-10T15:00:00+00:00",
-"titel": "Camilo Ugo Carabelli – Félix Auger-Aliassime",
 "comp": "ATP Tour",
 "sport": "tennis",
 "zenders": [],
@@ -1838,7 +1805,7 @@
 },
 {
 "ko": "2026-10-13T12:00:00+00:00",
-"titel": "RB Leipzig O19 – PSV O19",
+"titel": "RB Leipzig U19 – PSV U19",
 "comp": "UEFA Youth League",
 "sport": "voetbal",
 "zenders": [
@@ -2239,7 +2206,8 @@
 "comp": "UEFA Champions League",
 "sport": "voetbal",
 "zenders": [
-"Ziggo Sport 2"
+"Ziggo Sport 2",
+"Ziggo Sport 1"
 ],
 "streams": [],
 "url": null
