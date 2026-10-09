@@ -221,7 +221,7 @@ def render_hub(info):
     """Deelafbeelding voor een speelronde-hub: competitie, grote titel en ondertitel."""
     img = base_canvas(); d = ImageDraw.Draw(img)
     header(img, d, info.get("comp"))
-    draw_text(d, (60, 200), "LIVE OP TV", font(PJ_B, 15), GREEN, "lm", spacing=3)
+    draw_text(d, (60, 200), info.get("label", "LIVE OP TV"), font(PJ_B, 15), GREEN, "lm", spacing=3)
     draw_text(d, (60, 290), info["titel"], fit_font(info["titel"], POP_B, 72, 1080, 40), WHITE, "lm")
     draw_text(d, (60, 380), info.get("sub", ""), font(PJ_M, 26), LIGHT, "lm")
     draw_text(d, (1140, 536), "bet-experts.nl", font(PJ_B, 18), GREEN, "rm")
