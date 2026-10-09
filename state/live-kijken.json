@@ -674,11 +674,11 @@
     "match": "Samsunspor - Trabzonspor",
     "date": "2026-10-10",
     "league": "super-lig",
-    "provider": "Bet365",
+    "provider": "TOTO",
     "home_id": "3603",
     "away_id": "998",
-    "tv_sig": "|Bet365|False|False",
-    "og": "og/samsunspor-trabzonspor-live-gratis-kijken-10-10-2026-5207a3.webp",
+    "tv_sig": "|TOTO|False|False",
+    "og": "og/samsunspor-trabzonspor-live-gratis-kijken-10-10-2026-89750c.webp",
     "og_done": "og/samsunspor-trabzonspor-live-gratis-kijken-10-10-2026-5207a3.webp"
   },
   "1584428": {
@@ -755,8 +755,8 @@
     "provider": "711",
     "home_id": "741",
     "away_id": "554",
-    "tv_sig": "DAZN|711|False|False",
-    "og": "og/cercle-brugge-anderlecht-live-gratis-kijken-10-10-2026-12b0bb.webp",
+    "tv_sig": "|711|False|False",
+    "og": "og/cercle-brugge-anderlecht-live-gratis-kijken-10-10-2026-38e4ae.webp",
     "og_done": "og/cercle-brugge-anderlecht-live-gratis-kijken-10-10-2026-12b0bb.webp"
   },
   "1558648": {
@@ -768,8 +768,8 @@
     "provider": "711",
     "home_id": "5902",
     "away_id": "569",
-    "tv_sig": "DAZN|711|False|False",
-    "og": "og/la-louviere-club-brugge-live-gratis-kijken-10-10-2026-f563fc.webp",
+    "tv_sig": "|711|False|False",
+    "og": "og/la-louviere-club-brugge-live-gratis-kijken-10-10-2026-4dde68.webp",
     "og_done": "og/la-louviere-club-brugge-live-gratis-kijken-10-10-2026-f563fc.webp"
   },
   "1558651": {
@@ -781,8 +781,8 @@
     "provider": "711",
     "home_id": "600",
     "away_id": "631",
-    "tv_sig": "DAZN|711|False|False",
-    "og": "og/zulte-waregem-gent-live-gratis-kijken-10-10-2026-b9da6f.webp",
+    "tv_sig": "|711|False|False",
+    "og": "og/zulte-waregem-gent-live-gratis-kijken-10-10-2026-a7b524.webp",
     "og_done": "og/zulte-waregem-gent-live-gratis-kijken-10-10-2026-b9da6f.webp"
   },
   "1558646": {
@@ -794,8 +794,8 @@
     "provider": "711",
     "home_id": "742",
     "away_id": "734",
-    "tv_sig": "DAZN|711|False|False",
-    "og": "og/genk-kortrijk-live-gratis-kijken-10-10-2026-11d037.webp",
+    "tv_sig": "|711|False|False",
+    "og": "og/genk-kortrijk-live-gratis-kijken-10-10-2026-399e1d.webp",
     "og_done": "og/genk-kortrijk-live-gratis-kijken-10-10-2026-11d037.webp"
   },
   "1550140": {
