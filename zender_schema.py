@@ -3,7 +3,8 @@
 'zenders-pagina' voor het blok 'Deze week op <zender>' op /zenders/<slug>.
 
 Bronnen (nooit noemen op de site): de tv-gids (alle sportpagina's, ook evenementen zonder 'X – Y'), de reserve-
-tv-gids (voetbal, JSON) en onze eigen live-kijken-artikelen (exacte zender + link). Dubbele uitzendingen worden
+tv-gids (voetbal, JSON), het sportsbook-feed van Starcasino (wedstrijden met hasStream) en onze eigen
+live-kijken-artikelen (exacte zender + link). Dubbele uitzendingen worden
 samengevoegd op aftrap (±15 min) + naam.
 
   python3 zender_schema.py            # schrijft data/zender_schema.json
@@ -69,6 +70,58 @@ def _cards_extra():
              "zenders": c["zenders"], "sport": "voetbal"} for c in g.load_extra()]
 
 
+# Starcasino (Altenar-feed): welke wedstrijden een livestream hebben. Het feed zet de vlag ±1-2 dagen vooraf.
+SC_FEED = "https://sb2frontend-altenar2.biahosted.com/api/widget"
+SC_Q = {"culture": "nl-NL", "timezoneOffset": -120, "integration": "starcasino.nl", "deviceType": 1,
+        "numFormat": "en-GB", "countryCode": "NL"}
+SC_SPORT = {"Voetbal": "voetbal", "Tennis": "tennis", "Basketbal": "basketbal", "IJshockey": "ijshockey",
+            "Handbal": "handbal"}
+SC_TOP = re.compile(r"ligue [12]|s(u|ü)per lig|brasileir|copa do brasil|wk kwalificatie|vriendschappelijk|championship|"
+                    r"super league|superliga|serie c|3\. liga|national league|superettan|veikkausliiga|"
+                    r"\b(atp|wta)\b|davis cup|billie jean|australian open|bbl|bundesliga|super ligi|khl|shl|liiga|"
+                    r"champions hockey|spengler|starligue|champions league", re.I)
+SC_MAX = {"voetbal": 70, "tennis": 15, "basketbal": 15, "ijshockey": 15, "handbal": 5}
+
+
+def _cards_starcasino():
+    import requests
+    h = {"User-Agent": "Mozilla/5.0 Chrome/128", "Origin": "https://starcasino.nl", "Referer": "https://starcasino.nl/"}
+    try:
+        m = requests.get(SC_FEED + "/GetSportMenu", params={**SC_Q, "period": 0}, headers=h, timeout=30).json()
+    except Exception as ex:
+        print(f"  ! Starcasino-feed: {ex}"); return []
+    sport = {s["id"]: s["name"] for s in m.get("sports", []) if s["name"] in SC_SPORT}
+    cat_sport = {c: s["id"] for s in m.get("sports", []) if s["id"] in sport for c in s.get("catIds", [])}
+    per = {}
+    for c in m.get("categories", []):
+        if c["id"] in cat_sport:
+            per.setdefault(cat_sport[c["id"]], []).extend(c.get("champIds", []))
+    out = []
+    for sid, ids in per.items():
+        for i in range(0, len(ids), 40):
+            try:
+                d = requests.get(SC_FEED + "/GetEvents", headers=h, timeout=30, params={
+                    **SC_Q, "eventType": 0, "sportId": sid, "champIds": ",".join(map(str, ids[i:i + 40]))}).json()
+            except Exception:
+                continue
+            chn = {c["id"]: c["name"] for c in d.get("champs", [])}
+            for e in d.get("events", []):
+                if not e.get("hasStream") or " vs. " not in e.get("name", ""):
+                    continue
+                out.append({"titel": e["name"].replace(" vs. ", " – "), "ko": datetime.fromisoformat(
+                            e["startDate"].replace("Z", "+00:00")), "comp": chn.get(e.get("champId"), sport[sid]),
+                            "zenders": ["Starcasino"], "sport": SC_SPORT[sport[sid]]})
+    nu = datetime.now(timezone.utc) - timedelta(hours=2)
+    out = [c for c in out if c["ko"] >= nu]
+    out.sort(key=lambda c: (0 if SC_TOP.search(c["comp"]) else 1, c["ko"]))   # bekende competities eerst
+    teller, kept = {}, []
+    for c in out:                                   # per sport begrenzen, de eerstvolgende wedstrijden eerst
+        if teller.get(c["sport"], 0) < SC_MAX.get(c["sport"], 10):
+            teller[c["sport"]] = teller.get(c["sport"], 0) + 1; kept.append(c)
+    print(f"  Starcasino-feed: {len(out)} streams, {len(kept)} opgenomen")
+    return kept
+
+
 def _teams(titel):
     p = re.split(r"\s+[–-]\s+", titel, maxsplit=1)
     return (p[0], p[1]) if len(p) == 2 else (titel, "")
@@ -90,6 +143,7 @@ def main():
     for sp in SPORTEN:
         bronnen += _cards_tvgids(sp)                  # eerst: hoofdgids (leidend bij verschillen)
     bronnen += _cards_extra()
+    bronnen += _cards_starcasino()                   # na de gidsen: vult bij dubbelen alleen de stream aan
     items = []
     for c in bronnen:
         if not (lo <= c["ko"] <= hi):

@@ -1,24 +1,224 @@
 {
-"bijgewerkt": "2026-10-09T13:55:48.423941+00:00",
+"bijgewerkt": "2026-10-09T14:21:17.530839+00:00",
 "uitzendingen": [
 {
-"ko": "2026-10-09T11:00:00+00:00",
-"titel": "Zonneveld – Brooks",
-"comp": "Swiss Darts Trophy",
-"sport": "darts",
-"zenders": [
-"Viaplay TV"
+"ko": "2026-10-09T14:30:00+00:00",
+"titel": "K-Espoo – JYP",
+"comp": "Liiga",
+"sport": "ijshockey",
+"zenders": [],
+"streams": [
+"Starcasino"
 ],
-"streams": [],
 "url": null
 },
 {
-"ko": "2026-10-09T11:10:00+00:00",
-"titel": "Elise Mertens – Iga Świątek",
-"comp": "WTA Tour",
+"ko": "2026-10-09T14:30:00+00:00",
+"titel": "Arantxa Rus – Whitney Osuigwe",
+"comp": "W50 Lexington, SC",
 "sport": "tennis",
 "zenders": [],
-"streams": [],
+"streams": [
+"Starcasino"
+],
+"url": null
+},
+{
+"ko": "2026-10-09T14:30:00+00:00",
+"titel": "Astra Sharma – Bella Bergkvist Larsson",
+"comp": "W50 Lexington, SC",
+"sport": "tennis",
+"zenders": [],
+"streams": [
+"Starcasino"
+],
+"url": null
+},
+{
+"ko": "2026-10-09T14:35:00+00:00",
+"titel": "Bianca Andreescu – Anna Blinkova",
+"comp": "WTA 125 Samsun, Turkije, Vrouwen Enkel",
+"sport": "tennis",
+"zenders": [],
+"streams": [
+"Starcasino"
+],
+"url": null
+},
+{
+"ko": "2026-10-09T15:00:00+00:00",
+"titel": "Seinajoen JK – FC Lahti",
+"comp": "Veikkausliiga",
+"sport": "voetbal",
+"zenders": [],
+"streams": [
+"Starcasino"
+],
+"url": null
+},
+{
+"ko": "2026-10-09T15:00:00+00:00",
+"titel": "Beylikduzu Basket – Gungoren Doruk SK",
+"comp": "TB3L",
+"sport": "basketbal",
+"zenders": [],
+"streams": [
+"Starcasino"
+],
+"url": null
+},
+{
+"ko": "2026-10-09T15:30:00+00:00",
+"titel": "Finland (D) – Serbia (D)",
+"comp": "WK Kwalificatie, Vrouwen",
+"sport": "voetbal",
+"zenders": [],
+"streams": [
+"Starcasino"
+],
+"url": null
+},
+{
+"ko": "2026-10-09T15:30:00+00:00",
+"titel": "Ässät – HPK",
+"comp": "Liiga",
+"sport": "ijshockey",
+"zenders": [],
+"streams": [
+"Starcasino"
+],
+"url": null
+},
+{
+"ko": "2026-10-09T15:30:00+00:00",
+"titel": "Ilves – Lukko",
+"comp": "Liiga",
+"sport": "ijshockey",
+"zenders": [],
+"streams": [
+"Starcasino"
+],
+"url": null
+},
+{
+"ko": "2026-10-09T15:30:00+00:00",
+"titel": "KooKoo – Jukurit",
+"comp": "Liiga",
+"sport": "ijshockey",
+"zenders": [],
+"streams": [
+"Starcasino"
+],
+"url": null
+},
+{
+"ko": "2026-10-09T15:30:00+00:00",
+"titel": "Pelicans – Kärpät",
+"comp": "Liiga",
+"sport": "ijshockey",
+"zenders": [],
+"streams": [
+"Starcasino"
+],
+"url": null
+},
+{
+"ko": "2026-10-09T15:30:00+00:00",
+"titel": "TPS – Sport",
+"comp": "Liiga",
+"sport": "ijshockey",
+"zenders": [],
+"streams": [
+"Starcasino"
+],
+"url": null
+},
+{
+"ko": "2026-10-09T15:30:00+00:00",
+"titel": "K-Vantaa – Hermes",
+"comp": "Mestis",
+"sport": "ijshockey",
+"zenders": [],
+"streams": [
+"Starcasino"
+],
+"url": null
+},
+{
+"ko": "2026-10-09T16:00:00+00:00",
+"titel": "Japs – Jippo",
+"comp": "Ykkosliiga",
+"sport": "voetbal",
+"zenders": [],
+"streams": [
+"Starcasino"
+],
+"url": null
+},
+{
+"ko": "2026-10-09T16:00:00+00:00",
+"titel": "KaPa Kapylan Pallo – Mikkelin Palloilijat",
+"comp": "Ykkosliiga",
+"sport": "voetbal",
+"zenders": [],
+"streams": [
+"Starcasino"
+],
+"url": null
+},
+{
+"ko": "2026-10-09T16:00:00+00:00",
+"titel": "Piotrkowianin Piotrkow – Ostrovia Ostrow WLKP",
+"comp": "Superliga",
+"sport": "handbal",
+"zenders": [],
+"streams": [
+"Starcasino"
+],
+"url": null
+},
+{
+"ko": "2026-10-09T16:00:00+00:00",
+"titel": "Kosice Wolves – Levicki Patrioti",
+"comp": "Extraliga",
+"sport": "basketbal",
+"zenders": [],
+"streams": [
+"Starcasino"
+],
+"url": null
+},
+{
+"ko": "2026-10-09T16:00:00+00:00",
+"titel": "KK Triglav Kranj – Helios",
+"comp": "1. A SKL",
+"sport": "basketbal",
+"zenders": [],
+"streams": [
+"Starcasino"
+],
+"url": null
+},
+{
+"ko": "2026-10-09T16:00:00+00:00",
+"titel": "Norrkoping Dolphins – Sodertelje Kings",
+"comp": "SBL",
+"sport": "basketbal",
+"zenders": [],
+"streams": [
+"Starcasino"
+],
+"url": null
+},
+{
+"ko": "2026-10-09T16:00:00+00:00",
+"titel": "Akhisar Belediye – Kerasus Spor",
+"comp": "TB3L",
+"sport": "basketbal",
+"zenders": [],
+"streams": [
+"Starcasino"
+],
 "url": null
 },
 {
@@ -44,12 +244,24 @@
 "url": null
 },
 {
+"ko": "2026-10-09T16:30:00+00:00",
+"titel": "KalPa – Tappara",
+"comp": "Liiga",
+"sport": "ijshockey",
+"zenders": [],
+"streams": [
+"Starcasino"
+],
+"url": null
+},
+{
 "ko": "2026-10-09T17:00:00+00:00",
 "titel": "Galatasaray – Kasimpasa",
 "comp": "Süper Lig",
 "sport": "voetbal",
 "zenders": [],
 "streams": [
+"Starcasino",
 "TOTO"
 ],
 "url": "/nieuws/galatasaray-kasimpasa-live-gratis-kijken-09-10-2026"
@@ -96,6 +308,50 @@
 "Viaplay TV"
 ],
 "streams": [],
+"url": null
+},
+{
+"ko": "2026-10-09T17:00:00+00:00",
+"titel": "Preussen Münster – RW Essen",
+"comp": "3. Liga",
+"sport": "voetbal",
+"zenders": [],
+"streams": [
+"Starcasino"
+],
+"url": null
+},
+{
+"ko": "2026-10-09T17:04:00+00:00",
+"titel": "Hogsbo Basket – Nassjo",
+"comp": "SBL",
+"sport": "basketbal",
+"zenders": [],
+"streams": [
+"Starcasino"
+],
+"url": null
+},
+{
+"ko": "2026-10-09T17:04:00+00:00",
+"titel": "KFUM Umea – Jamtland Basket",
+"comp": "SBL",
+"sport": "basketbal",
+"zenders": [],
+"streams": [
+"Starcasino"
+],
+"url": null
+},
+{
+"ko": "2026-10-09T17:04:00+00:00",
+"titel": "Sloga Uppsala – Koping Stars",
+"comp": "SBL",
+"sport": "basketbal",
+"zenders": [],
+"streams": [
+"Starcasino"
+],
 "url": null
 },
 {
@@ -231,6 +487,83 @@
 "url": null
 },
 {
+"ko": "2026-10-09T18:00:00+00:00",
+"titel": "Dunkerque – Annecy",
+"comp": "Ligue 2",
+"sport": "voetbal",
+"zenders": [],
+"streams": [
+"Starcasino"
+],
+"url": null
+},
+{
+"ko": "2026-10-09T18:00:00+00:00",
+"titel": "Montpellier – Grenoble",
+"comp": "Ligue 2",
+"sport": "voetbal",
+"zenders": [],
+"streams": [
+"Starcasino"
+],
+"url": null
+},
+{
+"ko": "2026-10-09T18:00:00+00:00",
+"titel": "Nancy – Guingamp",
+"comp": "Ligue 2",
+"sport": "voetbal",
+"zenders": [],
+"streams": [
+"Starcasino"
+],
+"url": null
+},
+{
+"ko": "2026-10-09T18:00:00+00:00",
+"titel": "Pau – Laval",
+"comp": "Ligue 2",
+"sport": "voetbal",
+"zenders": [],
+"streams": [
+"Starcasino"
+],
+"url": null
+},
+{
+"ko": "2026-10-09T18:00:00+00:00",
+"titel": "Sochaux – Boulogne",
+"comp": "Ligue 2",
+"sport": "voetbal",
+"zenders": [],
+"streams": [
+"Starcasino"
+],
+"url": null
+},
+{
+"ko": "2026-10-09T18:00:00+00:00",
+"titel": "Baskets Bonn – Medipolis SC Jena",
+"comp": "BBL",
+"sport": "basketbal",
+"zenders": [],
+"streams": [
+"Starcasino"
+],
+"url": null
+},
+{
+"ko": "2026-10-09T18:04:00+00:00",
+"titel": "Boraas Basket – BC Lulea",
+"comp": "SBL",
+"sport": "basketbal",
+"zenders": [],
+"streams": [
+"Starcasino"
+],
+"url": null
+},
+{
 "ko": "2026-10-09T18:30:00+00:00",
 "titel": "Borussia Dortmund – Werder Bremen",
 "comp": "Bundesliga",
@@ -244,6 +577,17 @@
 "url": "/nieuws/borussia-dortmund-werder-bremen-live-gratis-kijken-09-10-2026"
 },
 {
+"ko": "2026-10-09T18:30:00+00:00",
+"titel": "Union Brescia – Pro Vercelli",
+"comp": "Serie C",
+"sport": "voetbal",
+"zenders": [],
+"streams": [
+"Starcasino"
+],
+"url": null
+},
+{
 "ko": "2026-10-09T18:45:00+00:00",
 "titel": "Lens – Lyon",
 "comp": "Ligue 1",
@@ -252,7 +596,8 @@
 "Viaplay"
 ],
 "streams": [
-"711"
+"711",
+"Starcasino"
 ],
 "url": "/nieuws/lens-lyon-live-gratis-kijken-09-10-2026"
 },
@@ -274,6 +619,17 @@
 "Viaplay"
 ],
 "streams": [],
+"url": null
+},
+{
+"ko": "2026-10-09T19:00:00+00:00",
+"titel": "West Ham – QPR",
+"comp": "Championship",
+"sport": "voetbal",
+"zenders": [],
+"streams": [
+"Starcasino"
+],
 "url": null
 },
 {
@@ -431,6 +787,17 @@
 "url": null
 },
 {
+"ko": "2026-10-10T02:00:00+00:00",
+"titel": "Li, Yu-Yun/Zhang, Ying – Brooks, Madeleine/Ovcharenko, Ekaterina",
+"comp": "WTA 125 Suzhou, China, Vrouwen Dubbelspel",
+"sport": "tennis",
+"zenders": [],
+"streams": [
+"Starcasino"
+],
+"url": null
+},
+{
 "ko": "2026-10-10T02:30:00+00:00",
 "titel": "Los Angeles FC – Vancouver Whitecaps FC",
 "comp": "MLS",
@@ -439,6 +806,61 @@
 "Apple TV"
 ],
 "streams": [],
+"url": null
+},
+{
+"ko": "2026-10-10T03:00:00+00:00",
+"titel": "Aoi Ito – Alycia Parks",
+"comp": "WTA Wuhan, China Vrouwen enkel",
+"sport": "tennis",
+"zenders": [],
+"streams": [
+"Starcasino"
+],
+"url": null
+},
+{
+"ko": "2026-10-10T03:00:00+00:00",
+"titel": "Daria Kasatkina – Viktorija Golubic",
+"comp": "WTA Wuhan, China Vrouwen enkel",
+"sport": "tennis",
+"zenders": [],
+"streams": [
+"Starcasino"
+],
+"url": null
+},
+{
+"ko": "2026-10-10T03:00:00+00:00",
+"titel": "Magdalena Frech – Moyuka Uchijima",
+"comp": "WTA Wuhan, China Vrouwen enkel",
+"sport": "tennis",
+"zenders": [],
+"streams": [
+"Starcasino"
+],
+"url": null
+},
+{
+"ko": "2026-10-10T03:00:00+00:00",
+"titel": "Talia Gibson – Sara Sorribes Tormo",
+"comp": "WTA Wuhan, China Vrouwen enkel",
+"sport": "tennis",
+"zenders": [],
+"streams": [
+"Starcasino"
+],
+"url": null
+},
+{
+"ko": "2026-10-10T03:15:00+00:00",
+"titel": "Kyoka Okamura – Elvina Kalieva",
+"comp": "WTA 125 Suzhou, China, Vrouwen Enkel",
+"sport": "tennis",
+"zenders": [],
+"streams": [
+"Starcasino"
+],
 "url": null
 },
 {
@@ -469,12 +891,78 @@
 "url": null
 },
 {
+"ko": "2026-10-10T04:10:00+00:00",
+"titel": "Elena-Gabriela Ruse – Joelia Poetintseva",
+"comp": "WTA Wuhan, China Vrouwen enkel",
+"sport": "tennis",
+"zenders": [],
+"streams": [
+"Starcasino"
+],
+"url": null
+},
+{
+"ko": "2026-10-10T04:10:00+00:00",
+"titel": "Peyton Stearns – Han Shi",
+"comp": "WTA Wuhan, China Vrouwen enkel",
+"sport": "tennis",
+"zenders": [],
+"streams": [
+"Starcasino"
+],
+"url": null
+},
+{
+"ko": "2026-10-10T04:10:00+00:00",
+"titel": "Taylah Preston – Ashlyn Krueger",
+"comp": "WTA Wuhan, China Vrouwen enkel",
+"sport": "tennis",
+"zenders": [],
+"streams": [
+"Starcasino"
+],
+"url": null
+},
+{
+"ko": "2026-10-10T04:30:00+00:00",
+"titel": "Rebecca Sramkova – Renata Zarazua",
+"comp": "WTA 125 Suzhou, China, Vrouwen Enkel",
+"sport": "tennis",
+"zenders": [],
+"streams": [
+"Starcasino"
+],
+"url": null
+},
+{
+"ko": "2026-10-10T05:20:00+00:00",
+"titel": "Yue Yuan – Catherine McNally",
+"comp": "WTA Wuhan, China Vrouwen enkel",
+"sport": "tennis",
+"zenders": [],
+"streams": [
+"Starcasino"
+],
+"url": null
+},
+{
 "ko": "2026-10-10T05:30:00+00:00",
 "titel": "Matteo Arnaldi – Taylor Fritz",
 "comp": "ATP Tour",
 "sport": "tennis",
 "zenders": [],
 "streams": [],
+"url": null
+},
+{
+"ko": "2026-10-10T06:30:00+00:00",
+"titel": "Polina Kudermetova – Katie Volynets",
+"comp": "WTA Wuhan, China Vrouwen enkel",
+"sport": "tennis",
+"zenders": [],
+"streams": [
+"Starcasino"
+],
 "url": null
 },
 {
@@ -545,6 +1033,17 @@
 "url": "/nieuws/genclerbirligi-amed-live-gratis-kijken-10-10-2026"
 },
 {
+"ko": "2026-10-10T10:30:00+00:00",
+"titel": "Genclerbirligi SK – Amed Sportif Faaliyetler",
+"comp": "Süper Lig",
+"sport": "voetbal",
+"zenders": [],
+"streams": [
+"Starcasino"
+],
+"url": null
+},
+{
 "ko": "2026-10-10T11:00:00+00:00",
 "titel": "Darmstadt 98 – Energie Cottbus",
 "comp": "2. Bundesliga",
@@ -596,7 +1095,64 @@
 "zenders": [
 "Viaplay"
 ],
-"streams": [],
+"streams": [
+"Starcasino"
+],
+"url": null
+},
+{
+"ko": "2026-10-10T11:30:00+00:00",
+"titel": "Charlton – Bristol City",
+"comp": "Championship",
+"sport": "voetbal",
+"zenders": [],
+"streams": [
+"Starcasino"
+],
+"url": null
+},
+{
+"ko": "2026-10-10T11:30:00+00:00",
+"titel": "Swansea – Norwich",
+"comp": "Championship",
+"sport": "voetbal",
+"zenders": [],
+"streams": [
+"Starcasino"
+],
+"url": null
+},
+{
+"ko": "2026-10-10T11:30:00+00:00",
+"titel": "Meshakhte Tkibuli – FC Iberia 1999",
+"comp": "National League",
+"sport": "voetbal",
+"zenders": [],
+"streams": [
+"Starcasino"
+],
+"url": null
+},
+{
+"ko": "2026-10-10T11:35:00+00:00",
+"titel": "Chengdu Rongcheng – Tianjin Teda",
+"comp": "Chinese Super League",
+"sport": "voetbal",
+"zenders": [],
+"streams": [
+"Starcasino"
+],
+"url": null
+},
+{
+"ko": "2026-10-10T11:35:00+00:00",
+"titel": "Shanghai Shenhua – Yunnan Yukun",
+"comp": "Chinese Super League",
+"sport": "voetbal",
+"zenders": [],
+"streams": [
+"Starcasino"
+],
 "url": null
 },
 {
@@ -620,7 +1176,130 @@
 "zenders": [
 "Viaplay"
 ],
-"streams": [],
+"streams": [
+"Starcasino"
+],
+"url": null
+},
+{
+"ko": "2026-10-10T12:00:00+00:00",
+"titel": "Clermont – Red Star",
+"comp": "Ligue 2",
+"sport": "voetbal",
+"zenders": [],
+"streams": [
+"Starcasino"
+],
+"url": null
+},
+{
+"ko": "2026-10-10T12:00:00+00:00",
+"titel": "Meppen 1912 – VfB Stuttgart",
+"comp": "3. Liga",
+"sport": "voetbal",
+"zenders": [],
+"streams": [
+"Starcasino"
+],
+"url": null
+},
+{
+"ko": "2026-10-10T12:00:00+00:00",
+"titel": "Regensburg – TSV Havelse",
+"comp": "3. Liga",
+"sport": "voetbal",
+"zenders": [],
+"streams": [
+"Starcasino"
+],
+"url": null
+},
+{
+"ko": "2026-10-10T12:00:00+00:00",
+"titel": "SC Fortuna Köln – Saarbrucken",
+"comp": "3. Liga",
+"sport": "voetbal",
+"zenders": [],
+"streams": [
+"Starcasino"
+],
+"url": null
+},
+{
+"ko": "2026-10-10T12:00:00+00:00",
+"titel": "Sonnenhof Grossaspach – Waldhof Mannheim 07",
+"comp": "3. Liga",
+"sport": "voetbal",
+"zenders": [],
+"streams": [
+"Starcasino"
+],
+"url": null
+},
+{
+"ko": "2026-10-10T12:00:00+00:00",
+"titel": "Würzburger Kicker – Hansa Rostock",
+"comp": "3. Liga",
+"sport": "voetbal",
+"zenders": [],
+"streams": [
+"Starcasino"
+],
+"url": null
+},
+{
+"ko": "2026-10-10T12:30:00+00:00",
+"titel": "Bari – Giugliano",
+"comp": "Serie C",
+"sport": "voetbal",
+"zenders": [],
+"streams": [
+"Starcasino"
+],
+"url": null
+},
+{
+"ko": "2026-10-10T12:30:00+00:00",
+"titel": "Casertana – Monopoli",
+"comp": "Serie C",
+"sport": "voetbal",
+"zenders": [],
+"streams": [
+"Starcasino"
+],
+"url": null
+},
+{
+"ko": "2026-10-10T12:30:00+00:00",
+"titel": "Crotone – Audace Cerignola",
+"comp": "Serie C",
+"sport": "voetbal",
+"zenders": [],
+"streams": [
+"Starcasino"
+],
+"url": null
+},
+{
+"ko": "2026-10-10T12:30:00+00:00",
+"titel": "US Pergolettese – Carpi",
+"comp": "Serie C",
+"sport": "voetbal",
+"zenders": [],
+"streams": [
+"Starcasino"
+],
+"url": null
+},
+{
+"ko": "2026-10-10T12:30:00+00:00",
+"titel": "Vis Pesaro – Grosseto",
+"comp": "Serie C",
+"sport": "voetbal",
+"zenders": [],
+"streams": [
+"Starcasino"
+],
 "url": null
 },
 {
@@ -643,7 +1322,8 @@
 "sport": "voetbal",
 "zenders": [],
 "streams": [
-"Bet365"
+"Bet365",
+"Starcasino"
 ],
 "url": "/nieuws/alanyaspor-erzurumspor-live-gratis-kijken-10-10-2026"
 },
@@ -654,9 +1334,54 @@
 "sport": "voetbal",
 "zenders": [],
 "streams": [
-"Bet365"
+"Bet365",
+"Starcasino"
 ],
 "url": "/nieuws/samsunspor-trabzonspor-live-gratis-kijken-10-10-2026"
+},
+{
+"ko": "2026-10-10T13:00:00+00:00",
+"titel": "FK IMT Novi Beograd – Radnik",
+"comp": "SuperLiga",
+"sport": "voetbal",
+"zenders": [],
+"streams": [
+"Starcasino"
+],
+"url": null
+},
+{
+"ko": "2026-10-10T13:15:00+00:00",
+"titel": "Farjestad BK – Malmo",
+"comp": "SHL",
+"sport": "ijshockey",
+"zenders": [],
+"streams": [
+"Starcasino"
+],
+"url": null
+},
+{
+"ko": "2026-10-10T13:15:00+00:00",
+"titel": "HV 71 – Brynas",
+"comp": "SHL",
+"sport": "ijshockey",
+"zenders": [],
+"streams": [
+"Starcasino"
+],
+"url": null
+},
+{
+"ko": "2026-10-10T13:15:00+00:00",
+"titel": "Lulea – Timra",
+"comp": "SHL",
+"sport": "ijshockey",
+"zenders": [],
+"streams": [
+"Starcasino"
+],
+"url": null
 },
 {
 "ko": "2026-10-10T13:30:00+00:00",
@@ -784,7 +1509,163 @@
 "zenders": [
 "Viaplay"
 ],
-"streams": [],
+"streams": [
+"Starcasino"
+],
+"url": null
+},
+{
+"ko": "2026-10-10T14:00:00+00:00",
+"titel": "Blackburn – Cardiff",
+"comp": "Championship",
+"sport": "voetbal",
+"zenders": [],
+"streams": [
+"Starcasino"
+],
+"url": null
+},
+{
+"ko": "2026-10-10T14:00:00+00:00",
+"titel": "Derby – Wrexham",
+"comp": "Championship",
+"sport": "voetbal",
+"zenders": [],
+"streams": [
+"Starcasino"
+],
+"url": null
+},
+{
+"ko": "2026-10-10T14:00:00+00:00",
+"titel": "Middlesbrough – Wolves",
+"comp": "Championship",
+"sport": "voetbal",
+"zenders": [],
+"streams": [
+"Starcasino"
+],
+"url": null
+},
+{
+"ko": "2026-10-10T14:00:00+00:00",
+"titel": "Preston North End – Millwall",
+"comp": "Championship",
+"sport": "voetbal",
+"zenders": [],
+"streams": [
+"Starcasino"
+],
+"url": null
+},
+{
+"ko": "2026-10-10T14:00:00+00:00",
+"titel": "Sheffield Utd – Lincoln City",
+"comp": "Championship",
+"sport": "voetbal",
+"zenders": [],
+"streams": [
+"Starcasino"
+],
+"url": null
+},
+{
+"ko": "2026-10-10T14:00:00+00:00",
+"titel": "Watford – Burnley",
+"comp": "Championship",
+"sport": "voetbal",
+"zenders": [],
+"streams": [
+"Starcasino"
+],
+"url": null
+},
+{
+"ko": "2026-10-10T14:00:00+00:00",
+"titel": "Turun Palloseura – FF Jaro",
+"comp": "Veikkausliiga",
+"sport": "voetbal",
+"zenders": [],
+"streams": [
+"Starcasino"
+],
+"url": null
+},
+{
+"ko": "2026-10-10T14:00:00+00:00",
+"titel": "FC Rustavi – FC Dila Gori",
+"comp": "National League",
+"sport": "voetbal",
+"zenders": [],
+"streams": [
+"Starcasino"
+],
+"url": null
+},
+{
+"ko": "2026-10-10T14:00:00+00:00",
+"titel": "Arbroath FC – Greenock Morton",
+"comp": "Championship",
+"sport": "voetbal",
+"zenders": [],
+"streams": [
+"Starcasino"
+],
+"url": null
+},
+{
+"ko": "2026-10-10T14:00:00+00:00",
+"titel": "Ayr United – Dunfermline Athletic FC",
+"comp": "Championship",
+"sport": "voetbal",
+"zenders": [],
+"streams": [
+"Starcasino"
+],
+"url": null
+},
+{
+"ko": "2026-10-10T14:00:00+00:00",
+"titel": "Inverness Caledonian Thistle FC – Stenhousemuir FC",
+"comp": "Championship",
+"sport": "voetbal",
+"zenders": [],
+"streams": [
+"Starcasino"
+],
+"url": null
+},
+{
+"ko": "2026-10-10T14:00:00+00:00",
+"titel": "Livingston FC – Partick Thistle FC",
+"comp": "Championship",
+"sport": "voetbal",
+"zenders": [],
+"streams": [
+"Starcasino"
+],
+"url": null
+},
+{
+"ko": "2026-10-10T14:00:00+00:00",
+"titel": "Raith Rovers FC – Queens Park FC",
+"comp": "Championship",
+"sport": "voetbal",
+"zenders": [],
+"streams": [
+"Starcasino"
+],
+"url": null
+},
+{
+"ko": "2026-10-10T14:00:00+00:00",
+"titel": "Niners Chemnitz – Bayern",
+"comp": "BBL",
+"sport": "basketbal",
+"zenders": [],
+"streams": [
+"Starcasino"
+],
 "url": null
 },
 {
@@ -812,6 +1693,28 @@
 "url": "/nieuws/go-ahead-eagles-sparta-rotterdam-live-gratis-kijken-10-10-2026"
 },
 {
+"ko": "2026-10-10T14:30:00+00:00",
+"titel": "Duisburg – TSG Hoffenheim II",
+"comp": "3. Liga",
+"sport": "voetbal",
+"zenders": [],
+"streams": [
+"Starcasino"
+],
+"url": null
+},
+{
+"ko": "2026-10-10T15:00:00+00:00",
+"titel": "Cukaricki – Macva",
+"comp": "SuperLiga",
+"sport": "voetbal",
+"zenders": [],
+"streams": [
+"Starcasino"
+],
+"url": null
+},
+{
 "ko": "2026-10-10T15:15:00+00:00",
 "titel": "Lille – Le Havre",
 "comp": "Ligue 1",
@@ -820,9 +1723,54 @@
 "Viaplay"
 ],
 "streams": [
-"711"
+"711",
+"Starcasino"
 ],
 "url": "/nieuws/lille-le-havre-live-gratis-kijken-10-10-2026"
+},
+{
+"ko": "2026-10-10T15:30:00+00:00",
+"titel": "Calvina Sport – Dolomiti Bellunesi",
+"comp": "Serie C",
+"sport": "voetbal",
+"zenders": [],
+"streams": [
+"Starcasino"
+],
+"url": null
+},
+{
+"ko": "2026-10-10T15:30:00+00:00",
+"titel": "FC Lumezzane – Albinoleffe",
+"comp": "Serie C",
+"sport": "voetbal",
+"zenders": [],
+"streams": [
+"Starcasino"
+],
+"url": null
+},
+{
+"ko": "2026-10-10T15:30:00+00:00",
+"titel": "Novara – Cittadella",
+"comp": "Serie C",
+"sport": "voetbal",
+"zenders": [],
+"streams": [
+"Starcasino"
+],
+"url": null
+},
+{
+"ko": "2026-10-10T15:30:00+00:00",
+"titel": "Pineto – AC Reggiana",
+"comp": "Serie C",
+"sport": "voetbal",
+"zenders": [],
+"streams": [
+"Starcasino"
+],
+"url": null
 },
 {
 "ko": "2026-10-10T16:00:00+00:00",
@@ -844,9 +1792,75 @@
 "sport": "voetbal",
 "zenders": [],
 "streams": [
-"TOTO"
+"Starcasino"
 ],
 "url": "/nieuws/rizespor-fenerbahce-live-gratis-kijken-10-10-2026"
+},
+{
+"ko": "2026-10-10T16:00:00+00:00",
+"titel": "IFK Mariehamn – Tampereen Ilves",
+"comp": "Veikkausliiga",
+"sport": "voetbal",
+"zenders": [],
+"streams": [
+"Starcasino"
+],
+"url": null
+},
+{
+"ko": "2026-10-10T16:00:00+00:00",
+"titel": "FC Spaeri – FC Torpedo 2008 Kutaisi",
+"comp": "National League",
+"sport": "voetbal",
+"zenders": [],
+"streams": [
+"Starcasino"
+],
+"url": null
+},
+{
+"ko": "2026-10-10T16:00:00+00:00",
+"titel": "Djurgardens – Linkopings",
+"comp": "SHL",
+"sport": "ijshockey",
+"zenders": [],
+"streams": [
+"Starcasino"
+],
+"url": null
+},
+{
+"ko": "2026-10-10T16:00:00+00:00",
+"titel": "IF Bjorkloven – Frolunda",
+"comp": "SHL",
+"sport": "ijshockey",
+"zenders": [],
+"streams": [
+"Starcasino"
+],
+"url": null
+},
+{
+"ko": "2026-10-10T16:00:00+00:00",
+"titel": "Orebro – Vaxjo",
+"comp": "SHL",
+"sport": "ijshockey",
+"zenders": [],
+"streams": [
+"Starcasino"
+],
+"url": null
+},
+{
+"ko": "2026-10-10T16:00:00+00:00",
+"titel": "Skelleftea – Rogle",
+"comp": "SHL",
+"sport": "ijshockey",
+"zenders": [],
+"streams": [
+"Starcasino"
+],
+"url": null
 },
 {
 "ko": "2026-10-10T16:15:00+00:00",
@@ -897,6 +1911,50 @@
 "711"
 ],
 "url": "/nieuws/rb-leipzig-eintracht-frankfurt-live-gratis-kijken-10-10-2026"
+},
+{
+"ko": "2026-10-10T16:30:00+00:00",
+"titel": "AEK – OFI",
+"comp": "Super League",
+"sport": "voetbal",
+"zenders": [],
+"streams": [
+"Starcasino"
+],
+"url": null
+},
+{
+"ko": "2026-10-10T16:30:00+00:00",
+"titel": "Asteras Tripolis – Atromitos",
+"comp": "Super League",
+"sport": "voetbal",
+"zenders": [],
+"streams": [
+"Starcasino"
+],
+"url": null
+},
+{
+"ko": "2026-10-10T16:30:00+00:00",
+"titel": "Brose Bamberg – Mitteldeutscher BC",
+"comp": "BBL",
+"sport": "basketbal",
+"zenders": [],
+"streams": [
+"Starcasino"
+],
+"url": null
+},
+{
+"ko": "2026-10-10T16:30:00+00:00",
+"titel": "Rostock Seawolves – S.Oliver Wurzburg",
+"comp": "BBL",
+"sport": "basketbal",
+"zenders": [],
+"streams": [
+"Starcasino"
+],
+"url": null
 },
 {
 "ko": "2026-10-10T16:45:00+00:00",
@@ -961,7 +2019,42 @@
 "zenders": [
 "Viaplay"
 ],
-"streams": [],
+"streams": [
+"Starcasino"
+],
+"url": null
+},
+{
+"ko": "2026-10-10T18:00:00+00:00",
+"titel": "Rasta Vechta – Ulm",
+"comp": "BBL",
+"sport": "basketbal",
+"zenders": [],
+"streams": [
+"Starcasino"
+],
+"url": null
+},
+{
+"ko": "2026-10-10T18:00:00+00:00",
+"titel": "TBB Trier – ALBA",
+"comp": "BBL",
+"sport": "basketbal",
+"zenders": [],
+"streams": [
+"Starcasino"
+],
+"url": null
+},
+{
+"ko": "2026-10-10T18:00:00+00:00",
+"titel": "Szeged – Sporting",
+"comp": "Champions League",
+"sport": "handbal",
+"zenders": [],
+"streams": [
+"Starcasino"
+],
 "url": null
 },
 {
@@ -989,6 +2082,17 @@
 "url": null
 },
 {
+"ko": "2026-10-10T18:30:00+00:00",
+"titel": "Spezia – Gubbio",
+"comp": "Serie C",
+"sport": "voetbal",
+"zenders": [],
+"streams": [
+"Starcasino"
+],
+"url": null
+},
+{
 "ko": "2026-10-10T18:45:00+00:00",
 "titel": "Monaco – Toulouse",
 "comp": "Ligue 1",
@@ -997,7 +2101,8 @@
 "Viaplay"
 ],
 "streams": [
-"711"
+"711",
+"Starcasino"
 ],
 "url": "/nieuws/as-monaco-toulouse-live-gratis-kijken-10-10-2026"
 },
@@ -1022,7 +2127,9 @@
 "zenders": [
 "Viaplay"
 ],
-"streams": [],
+"streams": [
+"Starcasino"
+],
 "url": null
 },
 {
@@ -1046,7 +2153,9 @@
 "zenders": [
 "Viaplay"
 ],
-"streams": [],
+"streams": [
+"Starcasino"
+],
 "url": null
 },
 {
@@ -1087,6 +2196,17 @@
 "url": null
 },
 {
+"ko": "2026-10-10T18:45:00+00:00",
+"titel": "PSG – Le Mans",
+"comp": "Ligue 1",
+"sport": "voetbal",
+"zenders": [],
+"streams": [
+"Starcasino"
+],
+"url": null
+},
+{
 "ko": "2026-10-10T19:00:00+00:00",
 "titel": "Ajax – NEC",
 "comp": "Eredivisie",
@@ -1119,6 +2239,28 @@
 "Fanatiz"
 ],
 "streams": [],
+"url": null
+},
+{
+"ko": "2026-10-10T20:00:00+00:00",
+"titel": "Brusque – Paysandu",
+"comp": "Brasileiro Serie C",
+"sport": "voetbal",
+"zenders": [],
+"streams": [
+"Starcasino"
+],
+"url": null
+},
+{
+"ko": "2026-10-10T20:00:00+00:00",
+"titel": "Ferroviaria – Internacional Limeira",
+"comp": "Brasileiro Serie C",
+"sport": "voetbal",
+"zenders": [],
+"streams": [
+"Starcasino"
+],
 "url": null
 },
 {
@@ -1363,7 +2505,7 @@
 "sport": "voetbal",
 "zenders": [],
 "streams": [
-"Bet365"
+"Starcasino"
 ],
 "url": "/nieuws/gaziantep-corum-fk-live-gratis-kijken-11-10-2026"
 },
@@ -1389,7 +2531,7 @@
 "Viaplay"
 ],
 "streams": [
-"711"
+"Starcasino"
 ],
 "url": "/nieuws/ogc-nice-strasbourg-live-gratis-kijken-11-10-2026"
 },
@@ -1492,7 +2634,7 @@
 "sport": "voetbal",
 "zenders": [],
 "streams": [
-"TOTO"
+"Starcasino"
 ],
 "url": "/nieuws/besiktas-kocaelispor-live-gratis-kijken-11-10-2026"
 },
