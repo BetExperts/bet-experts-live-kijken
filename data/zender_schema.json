@@ -1,42 +1,6 @@
 {
-"bijgewerkt": "2026-10-10T08:56:41.740208+00:00",
+"bijgewerkt": "2026-10-10T11:23:28.837573+00:00",
 "uitzendingen": [
-{
-"ko": "2026-10-10T06:20:00+00:00",
-"titel": "Matteo Arnaldi – Taylor Fritz",
-"comp": "ATP Tour",
-"sport": "tennis",
-"zenders": [],
-"streams": [],
-"url": null
-},
-{
-"ko": "2026-10-10T07:00:00+00:00",
-"titel": "Mirra Andreeva – Nikola Bartůňková",
-"comp": "WTA Tour",
-"sport": "tennis",
-"zenders": [],
-"streams": [],
-"url": null
-},
-{
-"ko": "2026-10-10T07:50:00+00:00",
-"titel": "Arthur Fils – Pavel Kotov",
-"comp": "ATP Tour",
-"sport": "tennis",
-"zenders": [],
-"streams": [],
-"url": null
-},
-{
-"ko": "2026-10-10T07:50:00+00:00",
-"titel": "Learner Tien – Zachary Svajda",
-"comp": "ATP Tour",
-"sport": "tennis",
-"zenders": [],
-"streams": [],
-"url": null
-},
 {
 "ko": "2026-10-10T08:45:00+00:00",
 "titel": "Ronde van Lombardije",
@@ -96,6 +60,39 @@
 "url": null
 },
 {
+"ko": "2026-10-10T11:00:00+00:00",
+"titel": "Darmstadt 98 – Energie Cottbus",
+"comp": "2. Bundesliga",
+"sport": "voetbal",
+"zenders": [
+"Viaplay"
+],
+"streams": [],
+"url": null
+},
+{
+"ko": "2026-10-10T11:00:00+00:00",
+"titel": "Magdeburg – Hannover 96",
+"comp": "2. Bundesliga",
+"sport": "voetbal",
+"zenders": [
+"Viaplay"
+],
+"streams": [],
+"url": null
+},
+{
+"ko": "2026-10-10T11:00:00+00:00",
+"titel": "VfL Osnabrück – Dynamo Dresden",
+"comp": "2. Bundesliga",
+"sport": "voetbal",
+"zenders": [
+"Viaplay"
+],
+"streams": [],
+"url": null
+},
+{
 "ko": "2026-10-10T11:30:00+00:00",
 "titel": "Arsenal – Leeds",
 "comp": "Premier League",
@@ -105,6 +102,17 @@
 ],
 "streams": [],
 "url": "/nieuws/arsenal-leeds-united-live-gratis-kijken-10-10-2026"
+},
+{
+"ko": "2026-10-10T11:30:00+00:00",
+"titel": "West Bromwich Albion – Birmingham City",
+"comp": "EFL Championship",
+"sport": "voetbal",
+"zenders": [
+"Viaplay"
+],
+"streams": [],
+"url": null
 },
 {
 "ko": "2026-10-10T12:00:00+00:00",
@@ -118,6 +126,17 @@
 "TOTO"
 ],
 "url": "/nieuws/rayo-vallecano-athletic-bilbao-live-gratis-kijken-10-10-2026"
+},
+{
+"ko": "2026-10-10T12:00:00+00:00",
+"titel": "Nantes – Reims",
+"comp": "Ligue 2",
+"sport": "voetbal",
+"zenders": [
+"Viaplay"
+],
+"streams": [],
+"url": null
 },
 {
 "ko": "2026-10-10T13:00:00+00:00",
@@ -172,7 +191,9 @@
 "titel": "1899 Hoffenheim – Hamburger SV",
 "comp": "Bundesliga",
 "sport": "voetbal",
-"zenders": [],
+"zenders": [
+"Viaplay"
+],
 "streams": [],
 "url": null
 },
@@ -194,7 +215,9 @@
 "titel": "Union Berlin – SV Elversberg",
 "comp": "Bundesliga",
 "sport": "voetbal",
-"zenders": [],
+"zenders": [
+"Viaplay"
+],
 "streams": [],
 "url": null
 },
@@ -265,6 +288,17 @@
 ],
 "streams": [],
 "url": "/nieuws/chelsea-bournemouth-live-gratis-kijken-10-10-2026"
+},
+{
+"ko": "2026-10-10T14:00:00+00:00",
+"titel": "Bolton Wanderers – Stoke City",
+"comp": "EFL Championship",
+"sport": "voetbal",
+"zenders": [
+"Viaplay"
+],
+"streams": [],
+"url": null
 },
 {
 "ko": "2026-10-10T14:15:00+00:00",
@@ -441,6 +475,28 @@
 "url": null
 },
 {
+"ko": "2026-10-10T17:00:00+00:00",
+"titel": "CS Marítimo – FC Porto",
+"comp": "Primeira Liga",
+"sport": "voetbal",
+"zenders": [
+"Ziggo Sport 3"
+],
+"streams": [],
+"url": "/nieuws/maritimo-fc-porto-live-gratis-kijken-10-10-2026"
+},
+{
+"ko": "2026-10-10T17:00:00+00:00",
+"titel": "Toronto FC – Montreal CF",
+"comp": "MLS",
+"sport": "voetbal",
+"zenders": [
+"Apple TV"
+],
+"streams": [],
+"url": null
+},
+{
 "ko": "2026-10-10T18:00:00+00:00",
 "titel": "Fortuna Sittard – FC Twente",
 "comp": "Eredivisie",
@@ -450,6 +506,41 @@
 ],
 "streams": [],
 "url": "/nieuws/fortuna-sittard-fc-twente-live-gratis-kijken-10-10-2026"
+},
+{
+"ko": "2026-10-10T18:00:00+00:00",
+"titel": "Saint-Étienne – Rodez",
+"comp": "Ligue 2",
+"sport": "voetbal",
+"zenders": [
+"Viaplay"
+],
+"streams": [],
+"url": null
+},
+{
+"ko": "2026-10-10T18:30:00+00:00",
+"titel": "Chicago Fire FC – New York City",
+"comp": "MLS",
+"sport": "voetbal",
+"zenders": [
+"Apple TV"
+],
+"streams": [
+"Bet365"
+],
+"url": "/nieuws/chicago-fire-new-york-city-live-gratis-kijken-10-10-2026"
+},
+{
+"ko": "2026-10-10T18:30:00+00:00",
+"titel": "Nürnberg – VfL Wolfsburg",
+"comp": "2. Bundesliga",
+"sport": "voetbal",
+"zenders": [
+"Viaplay"
+],
+"streams": [],
+"url": null
 },
 {
 "ko": "2026-10-10T18:45:00+00:00",
@@ -506,7 +597,9 @@
 "titel": "Lorient – Paris FC",
 "comp": "Ligue 1",
 "sport": "voetbal",
-"zenders": [],
+"zenders": [
+"Viaplay"
+],
 "streams": [],
 "url": null
 },
@@ -526,7 +619,9 @@
 "titel": "Stade Brestois 29 – Angers",
 "comp": "Ligue 1",
 "sport": "voetbal",
-"zenders": [],
+"zenders": [
+"Viaplay"
+],
 "streams": [],
 "url": null
 },
@@ -561,6 +656,17 @@
 "sport": "voetbal",
 "zenders": [
 "Fanatiz"
+],
+"streams": [],
+"url": null
+},
+{
+"ko": "2026-10-10T23:00:00+00:00",
+"titel": "St. Louis City – LA Galaxy",
+"comp": "MLS",
+"sport": "voetbal",
+"zenders": [
+"Apple TV"
 ],
 "streams": [],
 "url": null
@@ -1131,7 +1237,7 @@
 },
 {
 "ko": "2026-10-12T13:45:00+00:00",
-"titel": "Pachtakor Tasjkent – Al-Qadisiyah FC",
+"titel": "Pakhtakor Tasjkent – Al-Qadisiyah FC",
 "comp": "AFC Champions League",
 "sport": "voetbal",
 "zenders": [
@@ -1166,7 +1272,7 @@
 },
 {
 "ko": "2026-10-12T18:15:00+00:00",
-"titel": "Al Nassr FC – FC Neftchi Fergana",
+"titel": "Al Nassr FC – Neftchi",
 "comp": "AFC Champions League",
 "sport": "voetbal",
 "zenders": [
@@ -1264,8 +1370,19 @@
 "url": null
 },
 {
+"ko": "2026-10-13T00:30:00+00:00",
+"titel": "CA Boca Juniors – Vasco da Gama",
+"comp": "Copa Sudamericana",
+"sport": "voetbal",
+"zenders": [
+"ESPN 1"
+],
+"streams": [],
+"url": null
+},
+{
 "ko": "2026-10-13T12:00:00+00:00",
-"titel": "RB Leipzig O19 – PSV O19",
+"titel": "RB Leipzig U19 – PSV U19",
 "comp": "UEFA Youth League",
 "sport": "voetbal",
 "zenders": [
@@ -1310,7 +1427,7 @@
 },
 {
 "ko": "2026-10-13T16:45:00+00:00",
-"titel": "Sabah FA – SK Slavia Praag",
+"titel": "Sabah FA – SK Slavia Praha",
 "comp": "UEFA Champions League",
 "sport": "voetbal",
 "zenders": [
@@ -1321,7 +1438,7 @@
 },
 {
 "ko": "2026-10-13T18:15:00+00:00",
-"titel": "Al-Ittihad FC – Shabab Al Ahli Dubai",
+"titel": "Al Ittihad Club – Shabab Al Ahli",
 "comp": "AFC Champions League",
 "sport": "voetbal",
 "zenders": [
@@ -1332,8 +1449,8 @@
 },
 {
 "ko": "2026-10-13T18:45:00+00:00",
-"titel": "Nederland (V) – Hongarije Vrouwen",
-"comp": "WK Kwalificatie Vrouwen",
+"titel": "Nederland – Hongarije",
+"comp": "Women's World Cup Qualification",
 "sport": "voetbal",
 "zenders": [
 "NPO 3"
@@ -1408,6 +1525,193 @@
 "url": null
 },
 {
+"ko": "2026-10-13T20:00:00+00:00",
+"titel": "Estudiantes L.P. – CR Flamengo",
+"comp": "Copa Libertadores",
+"sport": "voetbal",
+"zenders": [
+"ESPN 1"
+],
+"streams": [],
+"url": null
+},
+{
+"ko": "2026-10-13T23:30:00+00:00",
+"titel": "Columbus Crew – Charlotte FC",
+"comp": "MLS",
+"sport": "voetbal",
+"zenders": [
+"Apple TV"
+],
+"streams": [],
+"url": null
+},
+{
+"ko": "2026-10-13T23:30:00+00:00",
+"titel": "DC United – New York Red Bulls",
+"comp": "MLS",
+"sport": "voetbal",
+"zenders": [
+"Apple TV"
+],
+"streams": [],
+"url": null
+},
+{
+"ko": "2026-10-13T23:30:00+00:00",
+"titel": "FC Cincinnati – New England Revolution",
+"comp": "MLS",
+"sport": "voetbal",
+"zenders": [
+"Apple TV"
+],
+"streams": [],
+"url": null
+},
+{
+"ko": "2026-10-13T23:30:00+00:00",
+"titel": "Inter Miami CF – New York City",
+"comp": "MLS",
+"sport": "voetbal",
+"zenders": [
+"Apple TV"
+],
+"streams": [],
+"url": null
+},
+{
+"ko": "2026-10-13T23:30:00+00:00",
+"titel": "Montreal CF – Atlanta United FC",
+"comp": "MLS",
+"sport": "voetbal",
+"zenders": [
+"Apple TV"
+],
+"streams": [],
+"url": null
+},
+{
+"ko": "2026-10-13T23:30:00+00:00",
+"titel": "Toronto FC – Orlando City SC",
+"comp": "MLS",
+"sport": "voetbal",
+"zenders": [
+"Apple TV"
+],
+"streams": [],
+"url": null
+},
+{
+"ko": "2026-10-14T00:30:00+00:00",
+"titel": "Chicago Fire FC – Philadelphia Union",
+"comp": "MLS",
+"sport": "voetbal",
+"zenders": [
+"Apple TV"
+],
+"streams": [],
+"url": null
+},
+{
+"ko": "2026-10-14T00:30:00+00:00",
+"titel": "FC Dallas – Seattle Sounders FC",
+"comp": "MLS",
+"sport": "voetbal",
+"zenders": [
+"Apple TV"
+],
+"streams": [],
+"url": null
+},
+{
+"ko": "2026-10-14T00:30:00+00:00",
+"titel": "Fluminense FC – SE Palmeiras",
+"comp": "Copa Libertadores",
+"sport": "voetbal",
+"zenders": [
+"ESPN 1"
+],
+"streams": [],
+"url": null
+},
+{
+"ko": "2026-10-14T00:30:00+00:00",
+"titel": "Nashville SC – Sporting Kansas City",
+"comp": "MLS",
+"sport": "voetbal",
+"zenders": [
+"Apple TV"
+],
+"streams": [],
+"url": null
+},
+{
+"ko": "2026-10-14T00:30:00+00:00",
+"titel": "St. Louis City – Vancouver Whitecaps FC",
+"comp": "MLS",
+"sport": "voetbal",
+"zenders": [
+"Apple TV"
+],
+"streams": [],
+"url": null
+},
+{
+"ko": "2026-10-14T01:30:00+00:00",
+"titel": "Colorado Rapids – Minnesota United FC",
+"comp": "MLS",
+"sport": "voetbal",
+"zenders": [
+"Apple TV"
+],
+"streams": [],
+"url": null
+},
+{
+"ko": "2026-10-14T01:30:00+00:00",
+"titel": "Real Salt Lake – San Jose Earthquakes",
+"comp": "MLS",
+"sport": "voetbal",
+"zenders": [
+"Apple TV"
+],
+"streams": [],
+"url": null
+},
+{
+"ko": "2026-10-14T02:30:00+00:00",
+"titel": "LA Galaxy – Portland Timbers",
+"comp": "MLS",
+"sport": "voetbal",
+"zenders": [
+"Apple TV"
+],
+"streams": [],
+"url": null
+},
+{
+"ko": "2026-10-14T02:30:00+00:00",
+"titel": "Los Angeles FC – Austin FC",
+"comp": "MLS",
+"sport": "voetbal",
+"zenders": [
+"Apple TV"
+],
+"streams": [],
+"url": null
+},
+{
+"ko": "2026-10-14T02:30:00+00:00",
+"titel": "San Diego – Houston Dynamo FC",
+"comp": "MLS",
+"sport": "voetbal",
+"zenders": [
+"Apple TV"
+],
+"streams": [],
+"url": null
+},
+{
 "ko": "2026-10-14T14:00:00+00:00",
 "titel": "Manchester City O19 – PSG O19",
 "comp": "UEFA Youth League",
@@ -1464,7 +1768,7 @@
 },
 {
 "ko": "2026-10-14T19:00:00+00:00",
-"titel": "FK Bodø/Glimt – Borussia Dortmund",
+"titel": "Bodø / Glimt – Borussia Dortmund",
 "comp": "UEFA Champions League",
 "sport": "voetbal",
 "zenders": [
@@ -1475,7 +1779,7 @@
 },
 {
 "ko": "2026-10-14T19:00:00+00:00",
-"titel": "Lincoln City FC – West Ham United",
+"titel": "Lincoln City – West Ham United",
 "comp": "EFL Championship",
 "sport": "voetbal",
 "zenders": [
@@ -1486,12 +1790,12 @@
 },
 {
 "ko": "2026-10-14T19:00:00+00:00",
-"titel": "Manchester City – Paris Saint-Germain F.C.",
+"titel": "Manchester City – Paris Saint-Germain",
 "comp": "UEFA Champions League",
 "sport": "voetbal",
 "zenders": [
-"Ziggo Sport 1",
-"Ziggo Sport 2"
+"Ziggo Sport 2",
+"Ziggo Sport 1"
 ],
 "streams": [],
 "url": null
@@ -1500,6 +1804,17 @@
 "ko": "2026-10-14T20:00:00+00:00",
 "titel": "CA Boca Juniors – Vasco da Gama",
 "comp": "Copa Sudamericana",
+"sport": "voetbal",
+"zenders": [
+"ESPN 1"
+],
+"streams": [],
+"url": null
+},
+{
+"ko": "2026-10-15T00:30:00+00:00",
+"titel": "Estudiantes de La Plata – CR Flamengo",
+"comp": "Copa Libertadores",
 "sport": "voetbal",
 "zenders": [
 "ESPN 1"
@@ -1520,7 +1835,7 @@
 },
 {
 "ko": "2026-10-15T12:15:00+00:00",
-"titel": "BG Pathum United FC – Adelaide United FC",
+"titel": "BG Pathum United – Adelaide United FC",
 "comp": "AFC Champions League Two",
 "sport": "voetbal",
 "zenders": [
@@ -1531,7 +1846,7 @@
 },
 {
 "ko": "2026-10-15T16:45:00+00:00",
-"titel": "AZ Alkmaar – Hapoel Beer Sheva",
+"titel": "AZ Alkmaar – Hapoel Be'er Sheva",
 "comp": "UEFA Europa League",
 "sport": "voetbal",
 "zenders": [
@@ -1601,7 +1916,6 @@
 "comp": "UEFA Conference League",
 "sport": "voetbal",
 "zenders": [
-"Ziggo Sport 1",
 "Ziggo Sport 3"
 ],
 "streams": [],
@@ -1664,8 +1978,8 @@
 },
 {
 "ko": "2026-10-16T16:30:00+00:00",
-"titel": "Holstein Kiel – Hertha BSC",
-"comp": "2. Bundesliga",
+"titel": "Freiburg (V) – RB Leipzig (V)",
+"comp": "Frauen Bundesliga",
 "sport": "voetbal",
 "zenders": [
 "Viaplay"
@@ -1675,8 +1989,8 @@
 },
 {
 "ko": "2026-10-16T16:30:00+00:00",
-"titel": "SC Freiburg (V) – RB Leipzig (V)",
-"comp": "Frauen Bundesliga",
+"titel": "Holstein Kiel – Hertha BSC",
+"comp": "2. Bundesliga",
 "sport": "voetbal",
 "zenders": [
 "Viaplay"
@@ -1740,12 +2054,377 @@
 "url": null
 },
 {
+"ko": "2026-10-17T07:30:00+00:00",
+"titel": "Ulsan Hyundai FC – Bucheon FC 1995",
+"comp": "K League 1",
+"sport": "voetbal",
+"zenders": [
+"K League TV"
+],
+"streams": [],
+"url": null
+},
+{
+"ko": "2026-10-17T11:00:00+00:00",
+"titel": "Greuther Fürth – Eintracht Braunschweig",
+"comp": "2. Bundesliga",
+"sport": "voetbal",
+"zenders": [
+"Viaplay"
+],
+"streams": [],
+"url": null
+},
+{
+"ko": "2026-10-17T11:00:00+00:00",
+"titel": "Kaiserslautern – Bochum",
+"comp": "2. Bundesliga",
+"sport": "voetbal",
+"zenders": [
+"Viaplay"
+],
+"streams": [],
+"url": null
+},
+{
+"ko": "2026-10-17T11:00:00+00:00",
+"titel": "VfL Wolfsburg – Heidenheim",
+"comp": "2. Bundesliga",
+"sport": "voetbal",
+"zenders": [
+"Viaplay"
+],
+"streams": [],
+"url": null
+},
+{
 "ko": "2026-10-17T11:30:00+00:00",
 "titel": "Everton – Chelsea",
 "comp": "Premier League",
 "sport": "voetbal",
 "zenders": [
 "Prime Video"
+],
+"streams": [],
+"url": null
+},
+{
+"ko": "2026-10-17T11:30:00+00:00",
+"titel": "Watford – Charlton Athletic FC",
+"comp": "EFL Championship",
+"sport": "voetbal",
+"zenders": [
+"Viaplay"
+],
+"streams": [],
+"url": null
+},
+{
+"ko": "2026-10-17T12:00:00+00:00",
+"titel": "Bayer Leverkusen (V) – Eintracht Frankfurt (V)",
+"comp": "Frauen Bundesliga",
+"sport": "voetbal",
+"zenders": [
+"Viaplay"
+],
+"streams": [],
+"url": null
+},
+{
+"ko": "2026-10-17T12:00:00+00:00",
+"titel": "Espanyol – Atlético Madrid",
+"comp": "La Liga",
+"sport": "voetbal",
+"zenders": [
+"Ziggo Sport 2"
+],
+"streams": [],
+"url": null
+},
+{
+"ko": "2026-10-17T13:00:00+00:00",
+"titel": "Venezia – Napoli",
+"comp": "Serie A",
+"sport": "voetbal",
+"zenders": [
+"Ziggo Sport 1",
+"Ziggo Sport 3"
+],
+"streams": [],
+"url": null
+},
+{
+"ko": "2026-10-17T13:30:00+00:00",
+"titel": "Elversberg – Augsburg",
+"comp": "Bundesliga",
+"sport": "voetbal",
+"zenders": [
+"Viaplay"
+],
+"streams": [],
+"url": null
+},
+{
+"ko": "2026-10-17T13:30:00+00:00",
+"titel": "Hamburger SV – VfB Stuttgart",
+"comp": "Bundesliga",
+"sport": "voetbal",
+"zenders": [
+"Viaplay"
+],
+"streams": [],
+"url": null
+},
+{
+"ko": "2026-10-17T13:30:00+00:00",
+"titel": "Schalke 04 – Mainz 05",
+"comp": "Bundesliga",
+"sport": "voetbal",
+"zenders": [
+"Viaplay"
+],
+"streams": [],
+"url": null
+},
+{
+"ko": "2026-10-17T13:30:00+00:00",
+"titel": "Union Berlin – Borussia Dortmund",
+"comp": "Bundesliga",
+"sport": "voetbal",
+"zenders": [
+"Viaplay"
+],
+"streams": [],
+"url": null
+},
+{
+"ko": "2026-10-17T13:30:00+00:00",
+"titel": "Werder Bremen – Paderborn",
+"comp": "Bundesliga",
+"sport": "voetbal",
+"zenders": [
+"Viaplay"
+],
+"streams": [],
+"url": null
+},
+{
+"ko": "2026-10-17T14:00:00+00:00",
+"titel": "Brentford – Liverpool",
+"comp": "Premier League",
+"sport": "voetbal",
+"zenders": [
+"Viaplay"
+],
+"streams": [],
+"url": null
+},
+{
+"ko": "2026-10-17T14:00:00+00:00",
+"titel": "Fulham – Hull City",
+"comp": "Premier League",
+"sport": "voetbal",
+"zenders": [
+"Viaplay"
+],
+"streams": [],
+"url": null
+},
+{
+"ko": "2026-10-17T14:00:00+00:00",
+"titel": "Manchester City – Ipswich Town",
+"comp": "Premier League",
+"sport": "voetbal",
+"zenders": [
+"Viaplay"
+],
+"streams": [],
+"url": null
+},
+{
+"ko": "2026-10-17T14:00:00+00:00",
+"titel": "Norwich City – Portsmouth",
+"comp": "EFL Championship",
+"sport": "voetbal",
+"zenders": [
+"Viaplay"
+],
+"streams": [],
+"url": null
+},
+{
+"ko": "2026-10-17T14:15:00+00:00",
+"titel": "Villarreal – Elche",
+"comp": "La Liga",
+"sport": "voetbal",
+"zenders": [
+"Ziggo Sport 2"
+],
+"streams": [],
+"url": null
+},
+{
+"ko": "2026-10-17T14:30:00+00:00",
+"titel": "ADO Den Haag – PSV",
+"comp": "Eredivisie",
+"sport": "voetbal",
+"zenders": [
+"ESPN 2"
+],
+"streams": [],
+"url": null
+},
+{
+"ko": "2026-10-17T14:30:00+00:00",
+"titel": "FC Emmen – Almere City",
+"comp": "Keuken Kampioen Divisie",
+"sport": "voetbal",
+"zenders": [
+"ESPN 1"
+],
+"streams": [],
+"url": null
+},
+{
+"ko": "2026-10-17T15:15:00+00:00",
+"titel": "Strasbourg – Paris Saint-Germain F.C.",
+"comp": "Ligue 1",
+"sport": "voetbal",
+"zenders": [
+"Viaplay"
+],
+"streams": [],
+"url": null
+},
+{
+"ko": "2026-10-17T16:00:00+00:00",
+"titel": "Bologna – Inter Milan",
+"comp": "Serie A",
+"sport": "voetbal",
+"zenders": [
+"Ziggo Sport 2",
+"Ziggo Sport 4"
+],
+"streams": [],
+"url": null
+},
+{
+"ko": "2026-10-17T16:30:00+00:00",
+"titel": "Bayern München – RB Leipzig",
+"comp": "Bundesliga",
+"sport": "voetbal",
+"zenders": [
+"Viaplay"
+],
+"streams": [],
+"url": null
+},
+{
+"ko": "2026-10-17T16:30:00+00:00",
+"titel": "Newcastle United – Aston Villa",
+"comp": "Premier League",
+"sport": "voetbal",
+"zenders": [
+"Viaplay"
+],
+"streams": [],
+"url": null
+},
+{
+"ko": "2026-10-17T16:30:00+00:00",
+"titel": "Real Betis – FC Barcelona",
+"comp": "La Liga",
+"sport": "voetbal",
+"zenders": [
+"Ziggo Sport 1"
+],
+"streams": [],
+"url": null
+},
+{
+"ko": "2026-10-17T18:00:00+00:00",
+"titel": "RED Star FC 93 – Saint-Étienne",
+"comp": "Ligue 2",
+"sport": "voetbal",
+"zenders": [
+"Viaplay"
+],
+"streams": [],
+"url": null
+},
+{
+"ko": "2026-10-17T18:00:00+00:00",
+"titel": "Telstar – Feyenoord",
+"comp": "Eredivisie",
+"sport": "voetbal",
+"zenders": [
+"ESPN 1"
+],
+"streams": [],
+"url": null
+},
+{
+"ko": "2026-10-17T18:30:00+00:00",
+"titel": "Hannover 96 – St. Pauli",
+"comp": "2. Bundesliga",
+"sport": "voetbal",
+"zenders": [
+"Viaplay"
+],
+"streams": [],
+"url": null
+},
+{
+"ko": "2026-10-17T18:45:00+00:00",
+"titel": "AS Roma – Genoa C.F.C.",
+"comp": "Serie A",
+"sport": "voetbal",
+"zenders": [
+"Ziggo Sport 1"
+],
+"streams": [],
+"url": null
+},
+{
+"ko": "2026-10-17T18:45:00+00:00",
+"titel": "Lille – Brest",
+"comp": "Ligue 1",
+"sport": "voetbal",
+"zenders": [
+"Viaplay"
+],
+"streams": [],
+"url": null
+},
+{
+"ko": "2026-10-17T18:45:00+00:00",
+"titel": "Troyes – Lens",
+"comp": "Ligue 1",
+"sport": "voetbal",
+"zenders": [
+"Viaplay"
+],
+"streams": [],
+"url": null
+},
+{
+"ko": "2026-10-17T19:00:00+00:00",
+"titel": "Sparta Rotterdam – Willem II",
+"comp": "Eredivisie",
+"sport": "voetbal",
+"zenders": [
+"ESPN 2"
+],
+"streams": [],
+"url": null
+},
+{
+"ko": "2026-10-17T19:00:00+00:00",
+"titel": "Valencia – Athletic Bilbao",
+"comp": "La Liga",
+"sport": "voetbal",
+"zenders": [
+"Ziggo Sport 2"
 ],
 "streams": [],
 "url": null
