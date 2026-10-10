@@ -1,105 +1,6 @@
 {
-"bijgewerkt": "2026-10-10T19:33:51.520570+00:00",
+"bijgewerkt": "2026-10-10T20:05:31.502877+00:00",
 "uitzendingen": [
-{
-"ko": "2026-10-10T16:45:00+00:00",
-"titel": "Feyenoord – AZ",
-"comp": "Eredivisie",
-"sport": "voetbal",
-"zenders": [
-"ESPN 1"
-],
-"streams": [],
-"url": "/nieuws/feyenoord-az-live-gratis-kijken-10-10-2026"
-},
-{
-"ko": "2026-10-10T17:00:00+00:00",
-"titel": "Wade – Van Duijvenbode",
-"comp": "Swiss Darts Trophy",
-"sport": "darts",
-"zenders": [
-"Viaplay TV"
-],
-"streams": [],
-"url": null
-},
-{
-"ko": "2026-10-10T17:00:00+00:00",
-"titel": "Clayton – Kuivenhoven",
-"comp": "Swiss Darts Trophy",
-"sport": "darts",
-"zenders": [
-"Viaplay TV"
-],
-"streams": [],
-"url": null
-},
-{
-"ko": "2026-10-10T17:00:00+00:00",
-"titel": "Van Gerwen – Suljović",
-"comp": "Swiss Darts Trophy",
-"sport": "darts",
-"zenders": [
-"Viaplay TV"
-],
-"streams": [],
-"url": null
-},
-{
-"ko": "2026-10-10T17:00:00+00:00",
-"titel": "Humphries – Doets",
-"comp": "Swiss Darts Trophy",
-"sport": "darts",
-"zenders": [
-"Viaplay TV"
-],
-"streams": [],
-"url": null
-},
-{
-"ko": "2026-10-10T17:00:00+00:00",
-"titel": "Van Veen – Springer",
-"comp": "Swiss Darts Trophy",
-"sport": "darts",
-"zenders": [
-"Viaplay TV"
-],
-"streams": [],
-"url": null
-},
-{
-"ko": "2026-10-10T17:00:00+00:00",
-"titel": "Noppert – Heta",
-"comp": "Swiss Darts Trophy",
-"sport": "darts",
-"zenders": [
-"Viaplay TV"
-],
-"streams": [],
-"url": null
-},
-{
-"ko": "2026-10-10T17:00:00+00:00",
-"titel": "CS Marítimo – FC Porto",
-"comp": "Primeira Liga",
-"sport": "voetbal",
-"zenders": [
-"Ziggo Sport 3"
-],
-"streams": [],
-"url": "/nieuws/maritimo-fc-porto-live-gratis-kijken-10-10-2026"
-},
-{
-"ko": "2026-10-10T17:00:00+00:00",
-"titel": "Toronto FC – Montreal CF",
-"comp": "MLS",
-"sport": "voetbal",
-"zenders": [
-"Apple TV"
-],
-"streams": [],
-"url": null
-},
 {
 "ko": "2026-10-10T18:00:00+00:00",
 "titel": "Fortuna Sittard – FC Twente",
@@ -520,32 +421,6 @@
 },
 {
 "ko": "2026-10-11T13:00:00+00:00",
-"titel": "Lazio – Monza",
-"comp": "Serie A",
-"sport": "voetbal",
-"zenders": [
-"Ziggo Sport 1"
-],
-"streams": [
-"Bet365"
-],
-"url": "/nieuws/lazio-monza-live-gratis-kijken-11-10-2026"
-},
-{
-"ko": "2026-10-11T13:00:00+00:00",
-"titel": "Nice – Strasbourg",
-"comp": "Ligue 1",
-"sport": "voetbal",
-"zenders": [
-"Viaplay"
-],
-"streams": [
-"Starcasino"
-],
-"url": "/nieuws/ogc-nice-strasbourg-live-gratis-kijken-11-10-2026"
-},
-{
-"ko": "2026-10-11T13:00:00+00:00",
 "titel": "Lecce – Bologna",
 "comp": "Serie A",
 "sport": "voetbal",
@@ -587,6 +462,32 @@
 "Starcasino"
 ],
 "url": "/nieuws/gaziantep-corum-fk-live-gratis-kijken-11-10-2026"
+},
+{
+"ko": "2026-10-11T13:00:00+00:00",
+"titel": "Lazio – Monza",
+"comp": "Serie A",
+"sport": "voetbal",
+"zenders": [
+"Ziggo Sport 1"
+],
+"streams": [
+"Bet365"
+],
+"url": "/nieuws/lazio-monza-live-gratis-kijken-11-10-2026"
+},
+{
+"ko": "2026-10-11T13:00:00+00:00",
+"titel": "Nice – Strasbourg",
+"comp": "Ligue 1",
+"sport": "voetbal",
+"zenders": [
+"Viaplay"
+],
+"streams": [
+"Starcasino"
+],
+"url": "/nieuws/ogc-nice-strasbourg-live-gratis-kijken-11-10-2026"
 },
 {
 "ko": "2026-10-11T13:30:00+00:00",
