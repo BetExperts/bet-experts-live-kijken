@@ -1042,7 +1042,7 @@
     "away_id": "736",
     "tv_sig": "|711|False|False",
     "og": "og/standard-liege-charleroi-live-gratis-kijken-11-10-2026-1d6451.webp",
-    "og_done": "og/standard-liege-charleroi-live-gratis-kijken-11-10-2026-7dda1d.webp"
+    "og_done": "og/standard-liege-charleroi-live-gratis-kijken-11-10-2026-1d6451.webp"
   },
   "1558649": {
     "item_id": "6ac77fccf4acb067e9d2909f",
@@ -1055,7 +1055,7 @@
     "away_id": "260",
     "tv_sig": "|711|False|False",
     "og": "og/union-sint-gilloise-oh-leuven-live-gratis-kijken-11-10-2026-bbf759.webp",
-    "og_done": "og/union-sint-gilloise-oh-leuven-live-gratis-kijken-11-10-2026-ebda07.webp"
+    "og_done": "og/union-sint-gilloise-oh-leuven-live-gratis-kijken-11-10-2026-bbf759.webp"
   },
   "1558652": {
     "item_id": "6ac77fcf16499edb1e183736",
@@ -1068,7 +1068,7 @@
     "away_id": "740",
     "tv_sig": "|711|False|False",
     "og": "og/westerlo-antwerp-live-gratis-kijken-11-10-2026-ec82c5.webp",
-    "og_done": "og/westerlo-antwerp-live-gratis-kijken-11-10-2026-a63777.webp"
+    "og_done": "og/westerlo-antwerp-live-gratis-kijken-11-10-2026-ec82c5.webp"
   },
   "1550139": {
     "item_id": "6ac77fd27bc55405b3cffc97",
@@ -1458,7 +1458,7 @@
     "away_id": "81",
     "tv_sig": "Viaplay TV+|711|False|False",
     "og": "og/troyes-marseille-live-gratis-kijken-11-10-2026-85609f.webp",
-    "og_done": "og/troyes-marseille-live-gratis-kijken-11-10-2026-5076f6.webp"
+    "og_done": "og/troyes-marseille-live-gratis-kijken-11-10-2026-85609f.webp"
   },
   "1575511": {
     "item_id": "6ac7b513ca56dd0efb40118e",
@@ -1561,7 +1561,8 @@
     "home_id": "116",
     "away_id": "228",
     "tv_sig": "Ziggo Sport 1 en Ziggo Sport 2|Bet365|False|True",
-    "og": "og/lens-sporting-cp-live-gratis-kijken-13-10-2026-902c91.webp"
+    "og": "og/lens-sporting-cp-live-gratis-kijken-13-10-2026-902c91.webp",
+    "og_done": "og/lens-sporting-cp-live-gratis-kijken-13-10-2026-902c91.webp"
   },
   "1635612": {
     "item_id": "6aca43dc504c88f4ad5941e9",
@@ -1573,7 +1574,8 @@
     "home_id": "42",
     "away_id": "79",
     "tv_sig": "Ziggo Sport 6|Bet365|False|True",
-    "og": "og/arsenal-lille-live-gratis-kijken-13-10-2026-6c302d.webp"
+    "og": "og/arsenal-lille-live-gratis-kijken-13-10-2026-6c302d.webp",
+    "og_done": "og/arsenal-lille-live-gratis-kijken-13-10-2026-6c302d.webp"
   },
   "1635711": {
     "item_id": "6aca43e1d218825392220bef",
@@ -1585,7 +1587,8 @@
     "home_id": "173",
     "away_id": "197",
     "tv_sig": "Ziggo Sport 1|Bet365|False|True",
-    "og": "og/rb-leipzig-psv-live-gratis-kijken-13-10-2026-f6f616.webp"
+    "og": "og/rb-leipzig-psv-live-gratis-kijken-13-10-2026-f6f616.webp",
+    "og_done": "og/rb-leipzig-psv-live-gratis-kijken-13-10-2026-f6f616.webp"
   },
   "1635671": {
     "item_id": "6aca43e382b64869d52a192d",
@@ -1597,7 +1600,8 @@
     "home_id": "505",
     "away_id": "569",
     "tv_sig": "Ziggo Sport 5|Bet365|False|True",
-    "og": "og/inter-club-brugge-live-gratis-kijken-13-10-2026-9d2a89.webp"
+    "og": "og/inter-club-brugge-live-gratis-kijken-13-10-2026-9d2a89.webp",
+    "og_done": "og/inter-club-brugge-live-gratis-kijken-13-10-2026-9d2a89.webp"
   },
   "1635623": {
     "item_id": "6aca43e52779e1050b8db3a7",
@@ -1609,7 +1613,8 @@
     "home_id": "530",
     "away_id": "33",
     "tv_sig": "Ziggo Sport 3|Bet365|False|True",
-    "og": "og/atletico-madrid-manchester-united-live-gratis-kijken-13-10-2026-4d0dd8.webp"
+    "og": "og/atletico-madrid-manchester-united-live-gratis-kijken-13-10-2026-4d0dd8.webp",
+    "og_done": "og/atletico-madrid-manchester-united-live-gratis-kijken-13-10-2026-4d0dd8.webp"
   },
   "1635748": {
     "item_id": "6aca43e7d4674c1a37e66da2",
@@ -1621,7 +1626,8 @@
     "home_id": "533",
     "away_id": "492",
     "tv_sig": "Ziggo Sport|Bet365|False|True",
-    "og": "og/villarreal-napoli-live-gratis-kijken-13-10-2026-d616ab.webp"
+    "og": "og/villarreal-napoli-live-gratis-kijken-13-10-2026-d616ab.webp",
+    "og_done": "og/villarreal-napoli-live-gratis-kijken-13-10-2026-d616ab.webp"
   },
   "1635666": {
     "item_id": "6aca43e9805de0707824ae36",
@@ -1633,7 +1639,8 @@
     "home_id": "645",
     "away_id": "529",
     "tv_sig": "Ziggo Sport 2|Bet365|False|True",
-    "og": "og/galatasaray-fc-barcelona-live-gratis-kijken-13-10-2026-9b51c9.webp"
+    "og": "og/galatasaray-fc-barcelona-live-gratis-kijken-13-10-2026-9b51c9.webp",
+    "og_done": "og/galatasaray-fc-barcelona-live-gratis-kijken-13-10-2026-9b51c9.webp"
   },
   "1635742": {
     "item_id": "6aca43eb9ab39bd977e3de6d",
@@ -1645,6 +1652,7 @@
     "home_id": "759",
     "away_id": "157",
     "tv_sig": "Ziggo Sport|Bet365|False|True",
-    "og": "og/viking-bayern-munchen-live-gratis-kijken-13-10-2026-da4972.webp"
+    "og": "og/viking-bayern-munchen-live-gratis-kijken-13-10-2026-da4972.webp",
+    "og_done": "og/viking-bayern-munchen-live-gratis-kijken-13-10-2026-da4972.webp"
   }
 }
