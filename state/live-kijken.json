@@ -162,7 +162,7 @@
     "date": "2026-10-11",
     "league": "eredivisie",
     "hub": true,
-    "sig": "02531f69d7553107dfa419a634212d25",
+    "sig": "bb4096a84f1c8d83f72225997eb71d72",
     "og": "og/eredivisie-speelronde-8-op-tv-9-oktober-2026-2f148a.webp",
     "og_done": "og/eredivisie-speelronde-8-op-tv-9-oktober-2026-2f148a.webp",
     "pairs": [
@@ -349,7 +349,7 @@
     "date": "2026-10-12",
     "league": "la-liga",
     "hub": true,
-    "sig": "0dff3988221dcd0ba8bd4da2ddcaf119",
+    "sig": "b73737ae9b64b7231162e6f9ee933e96",
     "og": "og/la-liga-speelronde-8-op-tv-9-oktober-2026-b68fca.webp",
     "og_done": "og/la-liga-speelronde-8-op-tv-9-oktober-2026-b68fca.webp",
     "pairs": [
@@ -472,7 +472,7 @@
     "date": "2026-10-11",
     "league": "ligue-1",
     "hub": true,
-    "sig": "4fa135b232f6c968568118aa38e4307f",
+    "sig": "ee7f79afc55862c4a15aae3f71ad0a4d",
     "og": "og/ligue-1-speelronde-6-op-tv-9-oktober-2026-abd9a1.webp",
     "og_done": "og/ligue-1-speelronde-6-op-tv-9-oktober-2026-abd9a1.webp",
     "pairs": [
@@ -531,7 +531,7 @@
     "date": "2026-10-12",
     "league": "super-lig",
     "hub": true,
-    "sig": "5b6335633b26a35d483ffef809669c97",
+    "sig": "e5bce58aab6e5dd3b2faeb2753c69ab4",
     "og": "og/super-lig-speelronde-7-op-tv-9-oktober-2026-c92c0a.webp",
     "og_done": "og/super-lig-speelronde-7-op-tv-9-oktober-2026-c92c0a.webp",
     "pairs": [
@@ -590,7 +590,7 @@
     "date": "2026-10-11",
     "league": "jupiler-pro-league",
     "hub": true,
-    "sig": "d6658d4a3370d5442482cf46d03fac2e",
+    "sig": "e3d5c7448b192d91a77b84dc5e22569d",
     "og": "og/jupiler-pro-league-speelronde-8-op-tv-9-oktober-2026-02bf42.webp",
     "og_done": "og/jupiler-pro-league-speelronde-8-op-tv-9-oktober-2026-02bf42.webp",
     "pairs": [
@@ -896,7 +896,7 @@
     "date": "2026-10-12",
     "league": "serie-a",
     "hub": true,
-    "sig": "047319d632dbcf1803ac76fd7862cb37",
+    "sig": "319b54f7d83c84a9f5e12ce52d13647a",
     "pairs": [
       [
         "495",
@@ -1131,8 +1131,8 @@
     "provider": "TOTO",
     "home_id": "207",
     "away_id": "195",
-    "tv_sig": "ESPN 1|TOTO|False|True",
-    "og": "og/fc-utrecht-willem-2-live-gratis-kijken-11-10-2026-af1873.webp",
+    "tv_sig": "ESPN 2 en ESPN 1|TOTO|False|True",
+    "og": "og/fc-utrecht-willem-2-live-gratis-kijken-11-10-2026-980f85.webp",
     "og_done": "og/fc-utrecht-willem-2-live-gratis-kijken-11-10-2026-af1873.webp"
   },
   "1552187": {
