@@ -1,0 +1,2 @@
+state/*.json merge=jsonstate
+data/zender_schema.json merge=jsonstate
