@@ -1,17 +1,6 @@
 {
-"bijgewerkt": "2026-10-09T22:32:59.651744+00:00",
+"bijgewerkt": "2026-10-10T01:29:07.126455+00:00",
 "uitzendingen": [
-{
-"ko": "2026-10-09T22:30:00+00:00",
-"titel": "Instituto Cordoba – CA Boca Juniors",
-"comp": "Argentijnse Primera Division",
-"sport": "voetbal",
-"zenders": [
-"Fanatiz"
-],
-"streams": [],
-"url": null
-},
 {
 "ko": "2026-10-09T23:30:00+00:00",
 "titel": "Atlanta United FC – FC Cincinnati",
@@ -118,17 +107,6 @@
 "sport": "voetbal",
 "zenders": [
 "Apple TV"
-],
-"streams": [],
-"url": null
-},
-{
-"ko": "2026-10-10T00:45:00+00:00",
-"titel": "CA Union – Defensa Y Justicia",
-"comp": "Argentijnse Primera Division",
-"sport": "voetbal",
-"zenders": [
-"Fanatiz"
 ],
 "streams": [],
 "url": null
@@ -500,6 +478,17 @@
 "url": null
 },
 {
+"ko": "2026-10-10T14:00:00+00:00",
+"titel": "Go Ahead Eagles – Sparta Rotterdam",
+"comp": "Eredivisie",
+"sport": "voetbal",
+"zenders": [
+"ESPN 2"
+],
+"streams": [],
+"url": null
+},
+{
 "ko": "2026-10-10T14:15:00+00:00",
 "titel": "Alaves – Atlético Madrid",
 "comp": "La Liga",
@@ -633,7 +622,7 @@
 {
 "ko": "2026-10-10T17:00:00+00:00",
 "titel": "Toronto FC – Montreal CF",
-"comp": "MLS",
+"comp": "Major League Soccer",
 "sport": "voetbal",
 "zenders": [
 "Apple TV"
@@ -654,17 +643,6 @@
 },
 {
 "ko": "2026-10-10T18:00:00+00:00",
-"titel": "Al-Hilal Saudi FC – Al-Ittihad FC",
-"comp": "Saudi Pro League",
-"sport": "voetbal",
-"zenders": [
-"Kijk.nl"
-],
-"streams": [],
-"url": null
-},
-{
-"ko": "2026-10-10T18:00:00+00:00",
 "titel": "Saint-Étienne – Rodez",
 "comp": "Ligue 2",
 "sport": "voetbal",
@@ -676,8 +654,8 @@
 },
 {
 "ko": "2026-10-10T18:30:00+00:00",
-"titel": "Chicago Fire FC – New York City",
-"comp": "MLS",
+"titel": "Chicago Fire FC – New York City FC",
+"comp": "Major League Soccer",
 "sport": "voetbal",
 "zenders": [
 "Apple TV"
@@ -782,17 +760,6 @@
 "url": null
 },
 {
-"ko": "2026-10-10T18:45:00+00:00",
-"titel": "CA Barracas Central – CA Huracán",
-"comp": "Argentijnse Primera Division",
-"sport": "voetbal",
-"zenders": [
-"Fanatiz"
-],
-"streams": [],
-"url": null
-},
-{
 "ko": "2026-10-10T19:00:00+00:00",
 "titel": "Real Madrid – Villarreal",
 "comp": "La Liga",
@@ -817,28 +784,6 @@
 "url": "/nieuws/ajax-nec-nijmegen-live-gratis-kijken-10-10-2026"
 },
 {
-"ko": "2026-10-10T20:00:00+00:00",
-"titel": "CA Central Cordoba – Estudiantes L.P.",
-"comp": "Argentijnse Primera Division",
-"sport": "voetbal",
-"zenders": [
-"Fanatiz"
-],
-"streams": [],
-"url": null
-},
-{
-"ko": "2026-10-10T21:00:00+00:00",
-"titel": "Vasco da Gama – Clube do Remo",
-"comp": "Braziliaanse Serie A",
-"sport": "voetbal",
-"zenders": [
-"Fanatiz"
-],
-"streams": [],
-"url": null
-},
-{
 "ko": "2026-10-10T22:15:00+00:00",
 "titel": "CA Tigre – CA Banfield",
 "comp": "Argentijnse Primera Division",
@@ -861,12 +806,106 @@
 "url": null
 },
 {
+"ko": "2026-10-10T23:30:00+00:00",
+"titel": "Atlanta United FC – FC Cincinnati",
+"comp": "Major League Soccer",
+"sport": "voetbal",
+"zenders": [
+"Apple TV"
+],
+"streams": [],
+"url": null
+},
+{
+"ko": "2026-10-10T23:30:00+00:00",
+"titel": "Charlotte FC – FC Dallas",
+"comp": "Major League Soccer",
+"sport": "voetbal",
+"zenders": [
+"Apple TV"
+],
+"streams": [],
+"url": null
+},
+{
+"ko": "2026-10-10T23:30:00+00:00",
+"titel": "Inter Miami CF – DC United",
+"comp": "Major League Soccer",
+"sport": "voetbal",
+"zenders": [
+"Apple TV"
+],
+"streams": [
+"Bet365"
+],
+"url": "/nieuws/inter-miami-d-c-united-live-gratis-kijken-11-10-2026"
+},
+{
+"ko": "2026-10-10T23:30:00+00:00",
+"titel": "New England Revolution – Seattle Sounders FC",
+"comp": "Major League Soccer",
+"sport": "voetbal",
+"zenders": [
+"Apple TV"
+],
+"streams": [
+"Bet365"
+],
+"url": "/nieuws/new-england-revolution-seattle-sounders-live-gratis-kijken-11-10-2026"
+},
+{
+"ko": "2026-10-10T23:30:00+00:00",
+"titel": "New York Red Bulls – San Diego FC",
+"comp": "Major League Soccer",
+"sport": "voetbal",
+"zenders": [
+"Apple TV"
+],
+"streams": [],
+"url": null
+},
+{
+"ko": "2026-10-10T23:30:00+00:00",
+"titel": "Orlando City SC – Columbus Crew",
+"comp": "Major League Soccer",
+"sport": "voetbal",
+"zenders": [
+"Apple TV"
+],
+"streams": [
+"Bet365"
+],
+"url": "/nieuws/orlando-city-columbus-crew-live-gratis-kijken-11-10-2026"
+},
+{
+"ko": "2026-10-10T23:30:00+00:00",
+"titel": "Philadelphia Union – Real Salt Lake",
+"comp": "Major League Soccer",
+"sport": "voetbal",
+"zenders": [
+"Apple TV"
+],
+"streams": [],
+"url": null
+},
+{
 "ko": "2026-10-11T00:00:00+00:00",
 "titel": "São Paulo FC – EC Vitoria",
 "comp": "Braziliaanse Serie A",
 "sport": "voetbal",
 "zenders": [
 "Fanatiz"
+],
+"streams": [],
+"url": null
+},
+{
+"ko": "2026-10-11T00:30:00+00:00",
+"titel": "Austin FC – Nashville SC",
+"comp": "Major League Soccer",
+"sport": "voetbal",
+"zenders": [
+"Apple TV"
 ],
 "streams": [],
 "url": null
@@ -881,6 +920,52 @@
 ],
 "streams": [],
 "url": null
+},
+{
+"ko": "2026-10-11T00:30:00+00:00",
+"titel": "Minnesota United FC – Houston Dynamo FC",
+"comp": "Major League Soccer",
+"sport": "voetbal",
+"zenders": [
+"Apple TV"
+],
+"streams": [],
+"url": null
+},
+{
+"ko": "2026-10-11T00:30:00+00:00",
+"titel": "Sporting Kansas City – Portland Timbers",
+"comp": "Major League Soccer",
+"sport": "voetbal",
+"zenders": [
+"Apple TV"
+],
+"streams": [],
+"url": null
+},
+{
+"ko": "2026-10-11T01:30:00+00:00",
+"titel": "Colorado Rapids – San Jose Earthquakes",
+"comp": "Major League Soccer",
+"sport": "voetbal",
+"zenders": [
+"Apple TV"
+],
+"streams": [],
+"url": null
+},
+{
+"ko": "2026-10-11T02:30:00+00:00",
+"titel": "Los Angeles FC – Vancouver Whitecaps FC",
+"comp": "Major League Soccer",
+"sport": "voetbal",
+"zenders": [
+"Apple TV"
+],
+"streams": [
+"Bet365"
+],
+"url": "/nieuws/los-angeles-vancouver-whitecaps-live-gratis-kijken-11-10-2026"
 },
 {
 "ko": "2026-10-11T05:00:00+00:00",
@@ -1582,7 +1667,7 @@
 },
 {
 "ko": "2026-10-13T18:15:00+00:00",
-"titel": "Al-Ittihad FC – Shabab Al Ahli Dubai",
+"titel": "Al Ittihad Club – Shabab Al Ahli",
 "comp": "AFC Champions League",
 "sport": "voetbal",
 "zenders": [
@@ -1593,8 +1678,8 @@
 },
 {
 "ko": "2026-10-13T18:45:00+00:00",
-"titel": "Nederland (V) – Hongarije Vrouwen",
-"comp": "WK Kwalificatie Vrouwen",
+"titel": "Nederland – Hongarije",
+"comp": "Women's World Cup Qualification",
 "sport": "voetbal",
 "zenders": [
 "NPO 3"
@@ -1927,8 +2012,7 @@
 "comp": "UEFA Champions League",
 "sport": "voetbal",
 "zenders": [
-"Ziggo Sport 2",
-"Ziggo Sport 1"
+"Ziggo Sport 2"
 ],
 "streams": [],
 "url": null
@@ -1968,7 +2052,7 @@
 },
 {
 "ko": "2026-10-15T16:45:00+00:00",
-"titel": "AZ Alkmaar – Hapoel Beer Sheva",
+"titel": "AZ Alkmaar – Hapoel Be'er Sheva",
 "comp": "UEFA Europa League",
 "sport": "voetbal",
 "zenders": [
@@ -2038,7 +2122,6 @@
 "comp": "UEFA Conference League",
 "sport": "voetbal",
 "zenders": [
-"Ziggo Sport 1",
 "Ziggo Sport 3"
 ],
 "streams": [],
@@ -2172,6 +2255,17 @@
 "sport": "voetbal",
 "zenders": [
 "Ziggo Sport 2"
+],
+"streams": [],
+"url": null
+},
+{
+"ko": "2026-10-17T11:30:00+00:00",
+"titel": "Everton – Chelsea",
+"comp": "Premier League",
+"sport": "voetbal",
+"zenders": [
+"Prime Video"
 ],
 "streams": [],
 "url": null
