@@ -290,19 +290,25 @@ def handtekening(fd, info):
 
 # ------------------------------------------------------------------ upload
 def push_branch(bestanden):
-    """Orphan-commit met alleen de gewijzigde afbeeldingen naar branch og-clubs (force)."""
+    """Zet de gewijzigde afbeeldingen op branch og-clubs. Webflow verwijst naar deze bestanden, dus de branch houdt
+    ALLE afbeeldingen (bestaande + gewijzigde), maar als één commit zonder geschiedenis (force-push, repo groeit niet)."""
     url = subprocess.check_output(["git", "remote", "get-url", "origin"], cwd=HERE, text=True).strip()
     tok = os.environ.get("GITHUB_TOKEN")
     if tok and os.environ.get("GITHUB_REPOSITORY"):       # GitHub Actions: tijdelijke repo heeft geen credentials
         url = f"https://x-access-token:{tok}@github.com/{os.environ['GITHUB_REPOSITORY']}.git"
     tmp = tempfile.mkdtemp()
+    run = lambda *a, **k: subprocess.run(["git", *a], cwd=tmp, capture_output=True, **k)
+    if run("clone", "-q", "--depth", "1", "--branch", BRANCH, url, ".").returncode != 0:
+        run("init", "-q", check=True)                      # eerste keer: branch bestaat nog niet
     for naam, data in bestanden.items():
         open(os.path.join(tmp, naam), "wb").write(data)
-    cmd = lambda *a: subprocess.run(["git", *a], cwd=tmp, check=True, capture_output=True)
-    cmd("init", "-q"); cmd("checkout", "-q", "-b", BRANCH); cmd("add", ".")
-    cmd("-c", "user.name=club-og", "-c", "user.email=club-og@bet-experts.nl", "commit", "-qm", "club-og")
-    cmd("push", "-q", "-f", url, f"{BRANCH}:{BRANCH}")
+    run("checkout", "-q", "--orphan", "nieuw", check=True)
+    run("add", "-A", check=True)
+    run("-c", "user.name=club-og", "-c", "user.email=club-og@bet-experts.nl", "commit", "-qm", "club-og", check=True)
+    run("push", "-q", "-f", url, f"nieuw:{BRANCH}", check=True)
+    n = len([f for f in os.listdir(tmp) if f.endswith(".webp")])
     shutil.rmtree(tmp, ignore_errors=True)
+    return n
 
 
 def main():
@@ -332,7 +338,7 @@ def main():
         updates.append((it["id"], fd, sig, "dynamisch" if info["row"] else "statisch"))
     if "--preview" in a or not updates:
         print(f"club-og: {len(updates)} gewijzigd van {len(items)} clubs"); return
-    push_branch(nieuw)
+    print(f"  branch {BRANCH}: {push_branch(nieuw)} afbeeldingen")
     time.sleep(8)
     for i in range(0, len(updates), 100):
         blok = updates[i:i + 100]
