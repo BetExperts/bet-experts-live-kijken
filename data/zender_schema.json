@@ -1,43 +1,6 @@
 {
-"bijgewerkt": "2026-10-10T17:30:53.204944+00:00",
+"bijgewerkt": "2026-10-10T19:02:17.751348+00:00",
 "uitzendingen": [
-{
-"ko": "2026-10-10T15:15:00+00:00",
-"titel": "Lille – Le Havre",
-"comp": "Ligue 1",
-"sport": "voetbal",
-"zenders": [
-"Viaplay"
-],
-"streams": [
-"711"
-],
-"url": "/nieuws/lille-le-havre-live-gratis-kijken-10-10-2026"
-},
-{
-"ko": "2026-10-10T16:00:00+00:00",
-"titel": "Inter – Parma",
-"comp": "Serie A",
-"sport": "voetbal",
-"zenders": [
-"Ziggo Sport 2"
-],
-"streams": [
-"Bet365"
-],
-"url": "/nieuws/inter-parma-live-gratis-kijken-10-10-2026"
-},
-{
-"ko": "2026-10-10T16:00:00+00:00",
-"titel": "Rizespor – Fenerbahce",
-"comp": "Süper Lig",
-"sport": "voetbal",
-"zenders": [],
-"streams": [
-"Starcasino"
-],
-"url": "/nieuws/rizespor-fenerbahce-live-gratis-kijken-10-10-2026"
-},
 {
 "ko": "2026-10-10T16:15:00+00:00",
 "titel": "La Louvière – Club Brugge",
@@ -196,53 +159,12 @@
 },
 {
 "ko": "2026-10-10T18:45:00+00:00",
-"titel": "KRC Genk – KV Kortrijk",
-"comp": "Pro League",
+"titel": "Stade Brestois 29 – Angers",
+"comp": "Ligue 1",
 "sport": "voetbal",
 "zenders": [],
-"streams": [
-"711"
-],
-"url": "/nieuws/genk-kortrijk-live-gratis-kijken-10-10-2026"
-},
-{
-"ko": "2026-10-10T18:45:00+00:00",
-"titel": "Napoli – Frosinone",
-"comp": "Serie A",
-"sport": "voetbal",
-"zenders": [
-"Ziggo Sport 2"
-],
-"streams": [
-"Bet365"
-],
-"url": "/nieuws/napoli-frosinone-live-gratis-kijken-10-10-2026"
-},
-{
-"ko": "2026-10-10T18:45:00+00:00",
-"titel": "Paris Saint-Germain – Le Mans",
-"comp": "Ligue 1",
-"sport": "voetbal",
-"zenders": [
-"Viaplay"
-],
-"streams": [
-"711"
-],
-"url": "/nieuws/paris-saint-germain-psg-le-mans-live-gratis-kijken-10-10-2026"
-},
-{
-"ko": "2026-10-10T18:45:00+00:00",
-"titel": "Monaco – Toulouse",
-"comp": "Ligue 1",
-"sport": "voetbal",
-"zenders": [
-"Viaplay"
-],
-"streams": [
-"711"
-],
-"url": "/nieuws/as-monaco-toulouse-live-gratis-kijken-10-10-2026"
+"streams": [],
+"url": null
 },
 {
 "ko": "2026-10-10T19:00:00+00:00",
@@ -372,17 +294,6 @@
 },
 {
 "ko": "2026-10-11T10:30:00+00:00",
-"titel": "Konyaspor – Basaksehir",
-"comp": "Süper Lig",
-"sport": "voetbal",
-"zenders": [],
-"streams": [
-"Bet365"
-],
-"url": "/nieuws/konyaspor-istanbul-basaksehir-live-gratis-kijken-11-10-2026"
-},
-{
-"ko": "2026-10-11T10:30:00+00:00",
 "titel": "Como – AS Roma",
 "comp": "Serie A",
 "sport": "voetbal",
@@ -393,6 +304,17 @@
 "Bet365"
 ],
 "url": "/nieuws/como-as-roma-live-gratis-kijken-11-10-2026"
+},
+{
+"ko": "2026-10-11T10:30:00+00:00",
+"titel": "Konyaspor – Basaksehir",
+"comp": "Süper Lig",
+"sport": "voetbal",
+"zenders": [],
+"streams": [
+"Bet365"
+],
+"url": "/nieuws/konyaspor-istanbul-basaksehir-live-gratis-kijken-11-10-2026"
 },
 {
 "ko": "2026-10-11T11:00:00+00:00",
@@ -513,39 +435,6 @@
 },
 {
 "ko": "2026-10-11T13:00:00+00:00",
-"titel": "Crystal Palace – Nottingham Forest",
-"comp": "Premier League",
-"sport": "voetbal",
-"zenders": [
-"Viaplay"
-],
-"streams": [],
-"url": null
-},
-{
-"ko": "2026-10-11T13:00:00+00:00",
-"titel": "Hull City – Everton",
-"comp": "Premier League",
-"sport": "voetbal",
-"zenders": [
-"Viaplay TV"
-],
-"streams": [],
-"url": null
-},
-{
-"ko": "2026-10-11T13:00:00+00:00",
-"titel": "Gaziantep – Corum",
-"comp": "Süper Lig",
-"sport": "voetbal",
-"zenders": [],
-"streams": [
-"Starcasino"
-],
-"url": "/nieuws/gaziantep-corum-fk-live-gratis-kijken-11-10-2026"
-},
-{
-"ko": "2026-10-11T13:00:00+00:00",
 "titel": "Lazio – Monza",
 "comp": "Serie A",
 "sport": "voetbal",
@@ -580,6 +469,39 @@
 ],
 "streams": [],
 "url": null
+},
+{
+"ko": "2026-10-11T13:00:00+00:00",
+"titel": "Crystal Palace – Nottingham Forest",
+"comp": "Premier League",
+"sport": "voetbal",
+"zenders": [
+"Viaplay"
+],
+"streams": [],
+"url": null
+},
+{
+"ko": "2026-10-11T13:00:00+00:00",
+"titel": "Hull City – Everton",
+"comp": "Premier League",
+"sport": "voetbal",
+"zenders": [
+"Viaplay TV"
+],
+"streams": [],
+"url": null
+},
+{
+"ko": "2026-10-11T13:00:00+00:00",
+"titel": "Gaziantep – Corum",
+"comp": "Süper Lig",
+"sport": "voetbal",
+"zenders": [],
+"streams": [
+"Starcasino"
+],
+"url": "/nieuws/gaziantep-corum-fk-live-gratis-kijken-11-10-2026"
 },
 {
 "ko": "2026-10-11T13:30:00+00:00",
@@ -640,17 +562,6 @@
 },
 {
 "ko": "2026-10-11T15:30:00+00:00",
-"titel": "Liverpool – Manchester City",
-"comp": "Premier League",
-"sport": "voetbal",
-"zenders": [
-"Viaplay"
-],
-"streams": [],
-"url": "/nieuws/liverpool-manchester-city-live-gratis-kijken-11-10-2026"
-},
-{
-"ko": "2026-10-11T15:30:00+00:00",
 "titel": "SC Freiburg – FC Schalke 04",
 "comp": "Bundesliga",
 "sport": "voetbal",
@@ -661,15 +572,15 @@
 "url": null
 },
 {
-"ko": "2026-10-11T16:00:00+00:00",
-"titel": "Besiktas – Kocaelispor",
-"comp": "Süper Lig",
+"ko": "2026-10-11T15:30:00+00:00",
+"titel": "Liverpool – Manchester City",
+"comp": "Premier League",
 "sport": "voetbal",
-"zenders": [],
-"streams": [
-"Starcasino"
+"zenders": [
+"Viaplay"
 ],
-"url": "/nieuws/besiktas-kocaelispor-live-gratis-kijken-11-10-2026"
+"streams": [],
+"url": "/nieuws/liverpool-manchester-city-live-gratis-kijken-11-10-2026"
 },
 {
 "ko": "2026-10-11T16:00:00+00:00",
@@ -683,6 +594,17 @@
 "Bet365"
 ],
 "url": "/nieuws/sassuolo-ac-milan-live-gratis-kijken-11-10-2026"
+},
+{
+"ko": "2026-10-11T16:00:00+00:00",
+"titel": "Besiktas – Kocaelispor",
+"comp": "Süper Lig",
+"sport": "voetbal",
+"zenders": [],
+"streams": [
+"Starcasino"
+],
+"url": "/nieuws/besiktas-kocaelispor-live-gratis-kijken-11-10-2026"
 },
 {
 "ko": "2026-10-11T16:30:00+00:00",
