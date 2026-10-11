@@ -86,10 +86,11 @@ content3 = """<h3><strong>Combinatiebet maandag 12 oktober</strong></h3>
 <p><em>Gokken is alleen toegestaan voor personen van 18 jaar en ouder. Speel verantwoord. Stop op tijd. De genoemde odds zijn indicatief en kunnen wijzigen. Wat kost gokken jou? Stop op tijd. 18+</em></p>"""
 
 WEDTIPS = {
-    "wedstrijd-1": "Fils vs Van de Zandschulp", "wedtip-1-2": "Fils meer dan 12.5 games", "quotering-wedtip-1": "1.67",
-    "wedstrijd-2": "Medvedev vs Svrčina", "wedtip-2-2": "Medvedev wint in straight sets", "quotering-wedtip-2": "1.52",
-    "wedstrijd-3": "Tsitsipas vs Fritz", "wedtip-3-2": "Fritz wint", "quotering-wedtip-3": "1.50",
-    "wedtip-4-2": "Ruud wint minimaal 1 set (vs Tien)", "quotering-wedtip-4": "1.43",
+    "wedstrijd-1": "Combinatie: alle 5 wedtips",
+    "wedtip-1-2": "Ruud min. 1 set + Fritz wint + Medvedev 2-0 + Fils 12.5+ games + Vacherot +3.5", "quotering-wedtip-1": "7.95",
+    "wedstrijd-2": "Fils vs Van de Zandschulp", "wedtip-2-2": "Fils meer dan 12.5 games", "quotering-wedtip-2": "1.67",
+    "wedstrijd-3": "Medvedev vs Svrčina", "wedtip-3-2": "Medvedev wint in straight sets", "quotering-wedtip-3": "1.52",
+    "wedtip-4-2": "Fritz wint (vs Tsitsipas)", "quotering-wedtip-4": "1.50",
 }
 
 if __name__ == "__main__":
