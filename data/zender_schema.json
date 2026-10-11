@@ -1,90 +1,6 @@
 {
-"bijgewerkt": "2026-10-11T14:18:47.749549+00:00",
+"bijgewerkt": "2026-10-11T15:13:14.046060+00:00",
 "uitzendingen": [
-{
-"ko": "2026-10-11T11:30:00+00:00",
-"titel": "Standard Luik – Charleroi",
-"comp": "Pro League",
-"sport": "voetbal",
-"zenders": [],
-"streams": [
-"711"
-],
-"url": "/nieuws/standard-liege-charleroi-live-gratis-kijken-11-10-2026"
-},
-{
-"ko": "2026-10-11T11:30:00+00:00",
-"titel": "Alejandro Davidovich Fokina – Frances Tiafoe",
-"comp": "ATP Tour",
-"sport": "tennis",
-"zenders": [],
-"streams": [],
-"url": null
-},
-{
-"ko": "2026-10-11T11:30:00+00:00",
-"titel": "Bochum – Arminia Bielefeld",
-"comp": "2. Bundesliga",
-"sport": "voetbal",
-"zenders": [
-"Viaplay"
-],
-"streams": [],
-"url": null
-},
-{
-"ko": "2026-10-11T11:30:00+00:00",
-"titel": "Hertha BSC – Greuther Fürth",
-"comp": "2. Bundesliga",
-"sport": "voetbal",
-"zenders": [
-"Viaplay"
-],
-"streams": [],
-"url": null
-},
-{
-"ko": "2026-10-11T11:30:00+00:00",
-"titel": "St. Pauli – Karlsruher SC",
-"comp": "2. Bundesliga",
-"sport": "voetbal",
-"zenders": [
-"Viaplay"
-],
-"streams": [],
-"url": null
-},
-{
-"ko": "2026-10-11T11:35:00+00:00",
-"titel": "Zheng Qinwen – Mirra Andreeva",
-"comp": "WTA Tour",
-"sport": "tennis",
-"zenders": [],
-"streams": [],
-"url": null
-},
-{
-"ko": "2026-10-11T12:00:00+00:00",
-"titel": "Elche – Celta Vigo",
-"comp": "La Liga",
-"sport": "voetbal",
-"zenders": [
-"Ziggo Sport 2"
-],
-"streams": [],
-"url": null
-},
-{
-"ko": "2026-10-11T12:00:00+00:00",
-"titel": "GP van Singapore",
-"comp": "Formule 1",
-"sport": "autosport",
-"zenders": [
-"Viaplay"
-],
-"streams": [],
-"url": null
-},
 {
 "ko": "2026-10-11T12:30:00+00:00",
 "titel": "PEC Zwolle – SC Cambuur",
@@ -190,7 +106,7 @@
 },
 {
 "ko": "2026-10-11T14:15:00+00:00",
-"titel": "Real Sociedad – Deportivo La Coruna",
+"titel": "Real Sociedad – Deportivo La Coruña",
 "comp": "La Liga",
 "sport": "voetbal",
 "zenders": [
@@ -306,19 +222,6 @@
 },
 {
 "ko": "2026-10-11T18:45:00+00:00",
-"titel": "Cagliari – Juventus",
-"comp": "Serie A",
-"sport": "voetbal",
-"zenders": [
-"Ziggo Sport 1"
-],
-"streams": [
-"Bet365"
-],
-"url": "/nieuws/cagliari-juventus-live-gratis-kijken-11-10-2026"
-},
-{
-"ko": "2026-10-11T18:45:00+00:00",
 "titel": "Estac Troyes – Marseille",
 "comp": "Ligue 1",
 "sport": "voetbal",
@@ -329,6 +232,19 @@
 "711"
 ],
 "url": "/nieuws/troyes-marseille-live-gratis-kijken-11-10-2026"
+},
+{
+"ko": "2026-10-11T18:45:00+00:00",
+"titel": "Cagliari – Juventus",
+"comp": "Serie A",
+"sport": "voetbal",
+"zenders": [
+"Ziggo Sport 1"
+],
+"streams": [
+"Bet365"
+],
+"url": "/nieuws/cagliari-juventus-live-gratis-kijken-11-10-2026"
 },
 {
 "ko": "2026-10-11T19:00:00+00:00",
