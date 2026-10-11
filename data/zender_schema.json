@@ -1,32 +1,6 @@
 {
-"bijgewerkt": "2026-10-11T20:41:38.439993+00:00",
+"bijgewerkt": "2026-10-11T21:46:21.022717+00:00",
 "uitzendingen": [
-{
-"ko": "2026-10-11T18:45:00+00:00",
-"titel": "Estac Troyes – Marseille",
-"comp": "Ligue 1",
-"sport": "voetbal",
-"zenders": [
-"Viaplay TV+"
-],
-"streams": [
-"711"
-],
-"url": "/nieuws/troyes-marseille-live-gratis-kijken-11-10-2026"
-},
-{
-"ko": "2026-10-11T18:45:00+00:00",
-"titel": "Cagliari – Juventus",
-"comp": "Serie A",
-"sport": "voetbal",
-"zenders": [
-"Ziggo Sport 1"
-],
-"streams": [
-"Bet365"
-],
-"url": "/nieuws/cagliari-juventus-live-gratis-kijken-11-10-2026"
-},
 {
 "ko": "2026-10-11T19:00:00+00:00",
 "titel": "Racing Santander – Valencia",
@@ -290,7 +264,7 @@
 "Ziggo Sport 1"
 ],
 "streams": [],
-"url": "/nieuws/rb-leipzig-psv-live-gratis-kijken-13-10-2026"
+"url": null
 },
 {
 "ko": "2026-10-13T16:00:00+00:00",
@@ -361,14 +335,36 @@
 },
 {
 "ko": "2026-10-13T19:00:00+00:00",
+"titel": "Inter – Club Brugge",
+"comp": "Champions League",
+"sport": "voetbal",
+"zenders": [
+"Ziggo Sport 5"
+],
+"streams": [],
+"url": "/nieuws/inter-club-brugge-live-gratis-kijken-13-10-2026"
+},
+{
+"ko": "2026-10-13T19:00:00+00:00",
 "titel": "Arsenal – Lille",
-"comp": "UEFA Champions League",
+"comp": "Champions League",
 "sport": "voetbal",
 "zenders": [
 "Ziggo Sport 6"
 ],
 "streams": [],
 "url": "/nieuws/arsenal-lille-live-gratis-kijken-13-10-2026"
+},
+{
+"ko": "2026-10-13T19:00:00+00:00",
+"titel": "RB Leipzig – PSV",
+"comp": "Champions League",
+"sport": "voetbal",
+"zenders": [
+"Ziggo Sport 1"
+],
+"streams": [],
+"url": "/nieuws/rb-leipzig-psv-live-gratis-kijken-13-10-2026"
 },
 {
 "ko": "2026-10-13T19:00:00+00:00",
@@ -391,28 +387,6 @@
 ],
 "streams": [],
 "url": "/nieuws/galatasaray-fc-barcelona-live-gratis-kijken-13-10-2026"
-},
-{
-"ko": "2026-10-13T19:00:00+00:00",
-"titel": "Inter Milan – Club Brugge",
-"comp": "UEFA Champions League",
-"sport": "voetbal",
-"zenders": [
-"Ziggo Sport 5"
-],
-"streams": [],
-"url": "/nieuws/inter-club-brugge-live-gratis-kijken-13-10-2026"
-},
-{
-"ko": "2026-10-13T19:00:00+00:00",
-"titel": "RB Leipzig – PSV",
-"comp": "UEFA Champions League",
-"sport": "voetbal",
-"zenders": [
-"Ziggo Sport 1"
-],
-"streams": [],
-"url": null
 },
 {
 "ko": "2026-10-13T19:00:00+00:00",
@@ -811,6 +785,17 @@
 "url": null
 },
 {
+"ko": "2026-10-15T18:00:00+00:00",
+"titel": "Al Ahli – Al Nassr",
+"comp": "Saudi Pro League",
+"sport": "voetbal",
+"zenders": [
+"KIJK"
+],
+"streams": [],
+"url": null
+},
+{
 "ko": "2026-10-15T19:00:00+00:00",
 "titel": "FC København – SC Braga",
 "comp": "UEFA Conference League",
@@ -868,11 +853,11 @@
 },
 {
 "ko": "2026-10-16T13:15:00+00:00",
-"titel": "Al-Qadisiyah FC – Abha Club",
+"titel": "Al Qadsiah – Abha",
 "comp": "Saudi Pro League",
 "sport": "voetbal",
 "zenders": [
-"Youtube (Saudi Pro League)"
+"KIJK"
 ],
 "streams": [],
 "url": null
@@ -906,6 +891,17 @@
 "sport": "voetbal",
 "zenders": [
 "Viaplay"
+],
+"streams": [],
+"url": null
+},
+{
+"ko": "2026-10-16T18:00:00+00:00",
+"titel": "Al Ittihad – Al Shabab",
+"comp": "Saudi Pro League",
+"sport": "voetbal",
+"zenders": [
+"KIJK"
 ],
 "streams": [],
 "url": null
