@@ -1,98 +1,6 @@
 {
-"bijgewerkt": "2026-10-11T17:08:56.685871+00:00",
+"bijgewerkt": "2026-10-11T19:14:19.799182+00:00",
 "uitzendingen": [
-{
-"ko": "2026-10-11T14:15:00+00:00",
-"titel": "Real Sociedad – Deportivo La Coruna",
-"comp": "La Liga",
-"sport": "voetbal",
-"zenders": [
-"Ziggo Sport 2"
-],
-"streams": [
-"TOTO"
-],
-"url": "/nieuws/real-sociedad-deportivo-la-coruna-live-gratis-kijken-11-10-2026"
-},
-{
-"ko": "2026-10-11T14:45:00+00:00",
-"titel": "Excelsior – FC Groningen",
-"comp": "Eredivisie",
-"sport": "voetbal",
-"zenders": [
-"ESPN 1"
-],
-"streams": [],
-"url": "/nieuws/excelsior-fc-groningen-live-gratis-kijken-11-10-2026"
-},
-{
-"ko": "2026-10-11T15:15:00+00:00",
-"titel": "Rennes – Auxerre",
-"comp": "Ligue 1",
-"sport": "voetbal",
-"zenders": [
-"Viaplay"
-],
-"streams": [],
-"url": null
-},
-{
-"ko": "2026-10-11T15:30:00+00:00",
-"titel": "SC Freiburg – FC Schalke 04",
-"comp": "Bundesliga",
-"sport": "voetbal",
-"zenders": [
-"Viaplay"
-],
-"streams": [],
-"url": null
-},
-{
-"ko": "2026-10-11T15:30:00+00:00",
-"titel": "Liverpool – Manchester City",
-"comp": "Premier League",
-"sport": "voetbal",
-"zenders": [
-"Viaplay"
-],
-"streams": [],
-"url": "/nieuws/liverpool-manchester-city-live-gratis-kijken-11-10-2026"
-},
-{
-"ko": "2026-10-11T16:00:00+00:00",
-"titel": "Sassuolo – AC Milan",
-"comp": "Serie A",
-"sport": "voetbal",
-"zenders": [
-"Ziggo Sport 3"
-],
-"streams": [
-"Bet365"
-],
-"url": "/nieuws/sassuolo-ac-milan-live-gratis-kijken-11-10-2026"
-},
-{
-"ko": "2026-10-11T16:00:00+00:00",
-"titel": "Besiktas – Kocaelispor",
-"comp": "Süper Lig",
-"sport": "voetbal",
-"zenders": [],
-"streams": [
-"Starcasino"
-],
-"url": "/nieuws/besiktas-kocaelispor-live-gratis-kijken-11-10-2026"
-},
-{
-"ko": "2026-10-11T16:30:00+00:00",
-"titel": "Westerlo – Antwerp",
-"comp": "Pro League",
-"sport": "voetbal",
-"zenders": [],
-"streams": [
-"711"
-],
-"url": "/nieuws/westerlo-antwerp-live-gratis-kijken-11-10-2026"
-},
 {
 "ko": "2026-10-11T16:30:00+00:00",
 "titel": "Real Betis – Osasuna",
@@ -107,6 +15,17 @@
 "url": "/nieuws/real-betis-osasuna-live-gratis-kijken-11-10-2026"
 },
 {
+"ko": "2026-10-11T16:30:00+00:00",
+"titel": "Westerlo – Antwerp",
+"comp": "Pro League",
+"sport": "voetbal",
+"zenders": [],
+"streams": [
+"711"
+],
+"url": "/nieuws/westerlo-antwerp-live-gratis-kijken-11-10-2026"
+},
+{
 "ko": "2026-10-11T17:00:00+00:00",
 "titel": "S.L. Benfica – Vitória SC",
 "comp": "Primeira Liga",
@@ -116,6 +35,19 @@
 ],
 "streams": [],
 "url": "/nieuws/benfica-vitoria-live-gratis-kijken-11-10-2026"
+},
+{
+"ko": "2026-10-11T18:45:00+00:00",
+"titel": "Estac Troyes – Marseille",
+"comp": "Ligue 1",
+"sport": "voetbal",
+"zenders": [
+"Viaplay TV+"
+],
+"streams": [
+"711"
+],
+"url": "/nieuws/troyes-marseille-live-gratis-kijken-11-10-2026"
 },
 {
 "ko": "2026-10-11T18:45:00+00:00",
@@ -131,17 +63,17 @@
 "url": "/nieuws/cagliari-juventus-live-gratis-kijken-11-10-2026"
 },
 {
-"ko": "2026-10-11T18:45:00+00:00",
-"titel": "Troyes – Olympique Marseille",
-"comp": "Ligue 1",
+"ko": "2026-10-11T19:00:00+00:00",
+"titel": "Racing Santander – Valencia",
+"comp": "La Liga",
 "sport": "voetbal",
 "zenders": [
-"Viaplay TV+"
+"Ziggo Sport 2"
 ],
 "streams": [
-"711"
+"TOTO"
 ],
-"url": "/nieuws/troyes-marseille-live-gratis-kijken-11-10-2026"
+"url": "/nieuws/racing-santander-valencia-live-gratis-kijken-11-10-2026"
 },
 {
 "ko": "2026-10-11T22:15:00+00:00",
@@ -586,6 +518,17 @@
 {
 "ko": "2026-10-13T23:30:00+00:00",
 "titel": "Montreal CF – Atlanta United FC",
+"comp": "MLS",
+"sport": "voetbal",
+"zenders": [
+"Apple TV"
+],
+"streams": [],
+"url": null
+},
+{
+"ko": "2026-10-13T23:30:00+00:00",
+"titel": "Toronto FC – Orlando City SC",
 "comp": "MLS",
 "sport": "voetbal",
 "zenders": [
