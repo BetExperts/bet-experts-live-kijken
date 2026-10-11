@@ -1,41 +1,6 @@
 {
-"bijgewerkt": "2026-10-11T19:14:19.799182+00:00",
+"bijgewerkt": "2026-10-11T20:10:17.267307+00:00",
 "uitzendingen": [
-{
-"ko": "2026-10-11T16:30:00+00:00",
-"titel": "Real Betis – Osasuna",
-"comp": "La Liga",
-"sport": "voetbal",
-"zenders": [
-"Ziggo Sport 2"
-],
-"streams": [
-"TOTO"
-],
-"url": "/nieuws/real-betis-osasuna-live-gratis-kijken-11-10-2026"
-},
-{
-"ko": "2026-10-11T16:30:00+00:00",
-"titel": "Westerlo – Antwerp",
-"comp": "Pro League",
-"sport": "voetbal",
-"zenders": [],
-"streams": [
-"711"
-],
-"url": "/nieuws/westerlo-antwerp-live-gratis-kijken-11-10-2026"
-},
-{
-"ko": "2026-10-11T17:00:00+00:00",
-"titel": "S.L. Benfica – Vitória SC",
-"comp": "Primeira Liga",
-"sport": "voetbal",
-"zenders": [
-"Ziggo Sport 4"
-],
-"streams": [],
-"url": "/nieuws/benfica-vitoria-live-gratis-kijken-11-10-2026"
-},
 {
 "ko": "2026-10-11T18:45:00+00:00",
 "titel": "Estac Troyes – Marseille",
@@ -846,17 +811,6 @@
 "url": null
 },
 {
-"ko": "2026-10-15T18:00:00+00:00",
-"titel": "Al Ahli – Al Nassr",
-"comp": "Saudi Pro League",
-"sport": "voetbal",
-"zenders": [
-"KIJK"
-],
-"streams": [],
-"url": null
-},
-{
 "ko": "2026-10-15T19:00:00+00:00",
 "titel": "FC København – SC Braga",
 "comp": "UEFA Conference League",
@@ -914,11 +868,11 @@
 },
 {
 "ko": "2026-10-16T13:15:00+00:00",
-"titel": "Al Qadsiah – Abha",
+"titel": "Al-Qadisiyah FC – Abha Club",
 "comp": "Saudi Pro League",
 "sport": "voetbal",
 "zenders": [
-"KIJK"
+"Youtube (Saudi Pro League)"
 ],
 "streams": [],
 "url": null
