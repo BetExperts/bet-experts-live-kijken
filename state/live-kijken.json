@@ -1185,7 +1185,7 @@
     "away_id": "994",
     "tv_sig": "|TOTO|False|False",
     "og": "og/eyupspor-goztepe-live-gratis-kijken-12-10-2026-5a2c27.webp",
-    "og_done": "og/eyupspor-goztepe-live-gratis-kijken-12-10-2026-8003a5.webp"
+    "og_done": "og/eyupspor-goztepe-live-gratis-kijken-12-10-2026-5a2c27.webp"
   },
   "1570407": {
     "item_id": "6ac7810668e5fc7203d75559",
@@ -1536,7 +1536,7 @@
     "away_id": "34",
     "tv_sig": "Viaplay TV|TOTO|False|True",
     "og": "og/coventry-newcastle-united-live-gratis-kijken-12-10-2026-d019b6.webp",
-    "og_done": "og/coventry-newcastle-united-live-gratis-kijken-12-10-2026-8fcd9f.webp"
+    "og_done": "og/coventry-newcastle-united-live-gratis-kijken-12-10-2026-d019b6.webp"
   },
   "1490525": {
     "item_id": "6ac7b5313dce53008e90f0c7",
@@ -1665,7 +1665,8 @@
     "home_id": "209",
     "away_id": "895",
     "tv_sig": "Ziggo Sport 1|Bet365|False|True",
-    "og": "og/feyenoord-como-live-gratis-kijken-14-10-2026-f6baf9.webp"
+    "og": "og/feyenoord-como-live-gratis-kijken-14-10-2026-f6baf9.webp",
+    "og_done": "og/feyenoord-como-live-gratis-kijken-14-10-2026-f6baf9.webp"
   },
   "1635674": {
     "item_id": "6acb9a869c9c2d9a8ca6ef1b",
@@ -1677,7 +1678,8 @@
     "home_id": "1026",
     "away_id": "40",
     "tv_sig": "Ziggo Sport 3|Bet365|False|True",
-    "og": "og/lask-linz-liverpool-live-gratis-kijken-14-10-2026-a3bad3.webp"
+    "og": "og/lask-linz-liverpool-live-gratis-kijken-14-10-2026-a3bad3.webp",
+    "og_done": "og/lask-linz-liverpool-live-gratis-kijken-14-10-2026-a3bad3.webp"
   },
   "1635690": {
     "item_id": "6acb9a898d8e013d39e9b079",
@@ -1689,7 +1691,8 @@
     "home_id": "50",
     "away_id": "85",
     "tv_sig": "Ziggo Sport 2|Bet365|False|True",
-    "og": "og/manchester-city-paris-saint-germain-psg-live-gratis-kijken-14-10-2026-109386.webp"
+    "og": "og/manchester-city-paris-saint-germain-psg-live-gratis-kijken-14-10-2026-109386.webp",
+    "og_done": "og/manchester-city-paris-saint-germain-psg-live-gratis-kijken-14-10-2026-109386.webp"
   },
   "1635639": {
     "item_id": "6acb9a8b8546dd3581fe5b3b",
@@ -1701,7 +1704,8 @@
     "home_id": "327",
     "away_id": "165",
     "tv_sig": "Ziggo Sport 6|Bet365|False|True",
-    "og": "og/bodo-glimt-borussia-dortmund-live-gratis-kijken-14-10-2026-34e9b6.webp"
+    "og": "og/bodo-glimt-borussia-dortmund-live-gratis-kijken-14-10-2026-34e9b6.webp",
+    "og_done": "og/bodo-glimt-borussia-dortmund-live-gratis-kijken-14-10-2026-34e9b6.webp"
   },
   "1635614": {
     "item_id": "6acb9a8ea264200825de8f8c",
@@ -1713,7 +1717,8 @@
     "home_id": "497",
     "away_id": "541",
     "tv_sig": "Ziggo Sport 3|Bet365|False|True",
-    "og": "og/as-roma-real-madrid-live-gratis-kijken-14-10-2026-54fdca.webp"
+    "og": "og/as-roma-real-madrid-live-gratis-kijken-14-10-2026-54fdca.webp",
+    "og_done": "og/as-roma-real-madrid-live-gratis-kijken-14-10-2026-54fdca.webp"
   },
   "1635635": {
     "item_id": "6acb9a917ef5aa390faeb504",
@@ -1725,6 +1730,7 @@
     "home_id": "543",
     "away_id": "212",
     "tv_sig": "Ziggo Sport|Bet365|False|True",
-    "og": "og/real-betis-fc-porto-live-gratis-kijken-14-10-2026-6996db.webp"
+    "og": "og/real-betis-fc-porto-live-gratis-kijken-14-10-2026-6996db.webp",
+    "og_done": "og/real-betis-fc-porto-live-gratis-kijken-14-10-2026-6996db.webp"
   }
 }
