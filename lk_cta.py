@@ -219,15 +219,10 @@ def schrijf_js(kaart):
     linkjes = {slug: PROVIDERS[slug]["link"].split("//", 1)[1].split("/", 1)[0] for slug in PROVIDERS}
     js = """(function(){
 var K=%s,D=%s;
-var css=".lkcta{display:block;position:relative;margin:22px 0 10px;border-radius:18px;background:#0b1117;overflow:hidden;line-height:0;text-decoration:none!important;box-shadow:0 6px 20px rgba(0,0,0,.18);transition:transform .25s ease,box-shadow .25s ease}"+
-".lkcta img{display:block;width:100%%;height:auto;border-radius:18px;transition:transform .45s ease,filter .3s ease}"+
-".lkcta:after{content:'';position:absolute;inset:0;background:linear-gradient(110deg,transparent 35%%,rgba(255,255,255,.16) 50%%,transparent 65%%);transform:translateX(-130%%);pointer-events:none}"+
-".lkcta:hover{transform:translateY(-3px);box-shadow:0 14px 34px rgba(22,154,71,.30),0 0 0 2px rgba(111,207,143,.65)}"+
-".lkcta:hover img{transform:scale(1.012);filter:brightness(1.06)}"+
-".lkcta:hover:after{transform:translateX(130%%);transition:transform .9s ease}"+
-".lkcta.in:after{animation:lkctaShine 1.4s ease .6s 1}"+
-"@keyframes lkctaShine{from{transform:translateX(-130%%)}to{transform:translateX(130%%)}}"+
-"@media (prefers-reduced-motion:reduce){.lkcta,.lkcta img{transition:none}.lkcta:after{display:none}}";
+var css=".lkcta{display:block;margin:22px 0 10px;border-radius:18px;background:#0b1117;overflow:hidden;line-height:0;text-decoration:none!important}"+
+".lkcta img{display:block;width:100%%;height:auto;transition:transform .5s ease}"+
+".lkcta:hover img{transform:scale(1.03)}"+
+"@media (prefers-reduced-motion:reduce){.lkcta img{transition:none}}";
 var st=document.createElement('style');st.textContent=css;document.head.appendChild(st);
 function slug(h){for(var s in D){if(h.indexOf(D[s])>-1)return s;}return null;}
 var links=document.querySelectorAll('.w-richtext p > a');
@@ -240,7 +235,6 @@ for(var i=0;i<links.length;i++){var a=links[i],t=(a.textContent||'').trim();
  w.setAttribute('aria-label',c.alt);
  w.innerHTML='<picture><source media="(max-width: 640px)" srcset="'+c.mobiel+'" width="'+c.mw+'" height="'+c.mh+'"><img src="'+c.url+'" alt="'+c.alt.replace(/"/g,'&quot;')+'" width="'+c.w+'" height="'+c.h+'" loading="lazy" decoding="async"></picture>';
  p.parentNode.insertBefore(w,p);
- if('IntersectionObserver' in window){(function(el){var io=new IntersectionObserver(function(e){if(e[0].isIntersecting){el.classList.add('in');io.disconnect();}},{threshold:.5});io.observe(el);})(w);}
 }
 })();
 """ % (json.dumps(kaart, ensure_ascii=False), json.dumps(linkjes))
