@@ -1,5 +1,5 @@
 {
-"bijgewerkt": "2026-10-12T10:04:34.913055+00:00",
+"bijgewerkt": "2026-10-12T11:06:34.495426+00:00",
 "uitzendingen": [
 {
 "ko": "2026-10-12T09:15:00+00:00",
@@ -109,7 +109,7 @@
 },
 {
 "ko": "2026-10-12T22:30:00+00:00",
-"titel": "Chapecoense SC – Atletico Paranaense",
+"titel": "Chapecoense – Atletico Paranaense",
 "comp": "Braziliaanse Serie A",
 "sport": "voetbal",
 "zenders": [
@@ -577,7 +577,7 @@
 "Ziggo Sport 1"
 ],
 "streams": [],
-"url": "/nieuws/feyenoord-como-live-gratis-kijken-14-10-2026"
+"url": null
 },
 {
 "ko": "2026-10-14T16:45:00+00:00",
@@ -588,7 +588,7 @@
 "Ziggo Sport 3"
 ],
 "streams": [],
-"url": "/nieuws/lask-linz-liverpool-live-gratis-kijken-14-10-2026"
+"url": null
 },
 {
 "ko": "2026-10-14T19:00:00+00:00",
@@ -596,10 +596,10 @@
 "comp": "Champions League",
 "sport": "voetbal",
 "zenders": [
-"Ziggo Sport 2"
+"Ziggo Sport 1"
 ],
 "streams": [],
-"url": "/nieuws/manchester-city-paris-saint-germain-psg-live-gratis-kijken-14-10-2026"
+"url": null
 },
 {
 "ko": "2026-10-14T19:00:00+00:00",
@@ -621,7 +621,7 @@
 "Ziggo Sport 6"
 ],
 "streams": [],
-"url": "/nieuws/bodo-glimt-borussia-dortmund-live-gratis-kijken-14-10-2026"
+"url": null
 },
 {
 "ko": "2026-10-14T19:00:00+00:00",
@@ -654,7 +654,7 @@
 "Ziggo Sport 3"
 ],
 "streams": [],
-"url": "/nieuws/as-roma-real-madrid-live-gratis-kijken-14-10-2026"
+"url": null
 },
 {
 "ko": "2026-10-14T19:00:00+00:00",
@@ -935,6 +935,17 @@
 {
 "ko": "2026-10-16T23:30:00+00:00",
 "titel": "Atlanta United FC – Inter Miami CF",
+"comp": "MLS",
+"sport": "voetbal",
+"zenders": [
+"Apple TV"
+],
+"streams": [],
+"url": null
+},
+{
+"ko": "2026-10-16T23:30:00+00:00",
+"titel": "Minnesota United FC – St. Louis City",
 "comp": "MLS",
 "sport": "voetbal",
 "zenders": [
@@ -1452,17 +1463,6 @@
 "url": null
 },
 {
-"ko": "2026-10-17T20:30:00+00:00",
-"titel": "Minnesota United FC – St. Louis City",
-"comp": "MLS",
-"sport": "voetbal",
-"zenders": [
-"Apple TV"
-],
-"streams": [],
-"url": null
-},
-{
 "ko": "2026-10-18T05:00:00+00:00",
 "titel": "Daejeon Citizen – Gwangju FC",
 "comp": "K League 1",
@@ -1899,6 +1899,61 @@
 "sport": "voetbal",
 "zenders": [
 "Apple TV"
+],
+"streams": [],
+"url": null
+},
+{
+"ko": "2026-10-19T16:00:00+00:00",
+"titel": "Bayern München (V) – VfB Stuttgart (V)",
+"comp": "Frauen Bundesliga",
+"sport": "voetbal",
+"zenders": [
+"Viaplay"
+],
+"streams": [],
+"url": null
+},
+{
+"ko": "2026-10-19T16:30:00+00:00",
+"titel": "Monza – Cagliari",
+"comp": "Serie A",
+"sport": "voetbal",
+"zenders": [
+"Ziggo Sport 1"
+],
+"streams": [],
+"url": null
+},
+{
+"ko": "2026-10-19T18:45:00+00:00",
+"titel": "Rodez – Montpellier",
+"comp": "Ligue 2",
+"sport": "voetbal",
+"zenders": [
+"Viaplay"
+],
+"streams": [],
+"url": null
+},
+{
+"ko": "2026-10-19T19:00:00+00:00",
+"titel": "Getafe – Rayo Vallecano",
+"comp": "La Liga",
+"sport": "voetbal",
+"zenders": [
+"Ziggo Sport 2"
+],
+"streams": [],
+"url": null
+},
+{
+"ko": "2026-10-19T19:00:00+00:00",
+"titel": "Tottenham Hotspur – Coventry City",
+"comp": "Premier League",
+"sport": "voetbal",
+"zenders": [
+"Viaplay"
 ],
 "streams": [],
 "url": null
