@@ -1,15 +1,6 @@
 {
-"bijgewerkt": "2026-10-12T13:32:38.174578+00:00",
+"bijgewerkt": "2026-10-12T16:07:43.431289+00:00",
 "uitzendingen": [
-{
-"ko": "2026-10-12T10:45:00+00:00",
-"titel": "Arthur Fils – Botic van de Zandschulp",
-"comp": "ATP Tour",
-"sport": "tennis",
-"zenders": [],
-"streams": [],
-"url": null
-},
 {
 "ko": "2026-10-12T13:45:00+00:00",
 "titel": "Pakhtakor – Al Quadisiya",
@@ -141,6 +132,15 @@
 "url": null
 },
 {
+"ko": "2026-10-13T04:30:00+00:00",
+"titel": "Katie Boulter – Diana Shnaider",
+"comp": "WTA Tour",
+"sport": "tennis",
+"zenders": [],
+"streams": [],
+"url": null
+},
+{
 "ko": "2026-10-13T05:30:00+00:00",
 "titel": "Arthur Géa – Jakub Menšík",
 "comp": "ATP Tour",
@@ -166,15 +166,6 @@
 "zenders": [
 "Ziggo Sport 1"
 ],
-"streams": [],
-"url": null
-},
-{
-"ko": "2026-10-13T15:00:00+00:00",
-"titel": "Katie Boulter – Diana Shnaider",
-"comp": "WTA Tour",
-"sport": "tennis",
-"zenders": [],
 "streams": [],
 "url": null
 },
