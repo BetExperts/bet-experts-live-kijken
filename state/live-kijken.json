@@ -162,7 +162,7 @@
     "date": "2026-10-11",
     "league": "eredivisie",
     "hub": true,
-    "sig": "c8aaa7642e08a6469ec526fa72c4fd31",
+    "sig": "baeea501f47c1f0e54c6d96e0b0838c5",
     "og": "og/eredivisie-speelronde-8-op-tv-9-oktober-2026-2f148a.webp",
     "og_done": "og/eredivisie-speelronde-8-op-tv-9-oktober-2026-2f148a.webp",
     "pairs": [
@@ -285,7 +285,7 @@
     "date": "2026-10-12",
     "league": "premier-league",
     "hub": true,
-    "sig": "859e81bce8605b8ef3c5a63cde07b065",
+    "sig": "60dfa7abd74f6deda3415bacfe4bf28a",
     "og": "og/premier-league-speelronde-6-op-tv-10-oktober-2026-aace43.webp",
     "og_done": "og/premier-league-speelronde-6-op-tv-10-oktober-2026-aace43.webp",
     "pairs": [
@@ -349,7 +349,7 @@
     "date": "2026-10-12",
     "league": "la-liga",
     "hub": true,
-    "sig": "d7fe3b5c0a52f9e83197d38a7323edcb",
+    "sig": "7ba06d1d5304fe67bf63ed08d838cb49",
     "og": "og/la-liga-speelronde-8-op-tv-9-oktober-2026-b68fca.webp",
     "og_done": "og/la-liga-speelronde-8-op-tv-9-oktober-2026-b68fca.webp",
     "pairs": [
@@ -413,7 +413,7 @@
     "date": "2026-10-11",
     "league": "bundesliga",
     "hub": true,
-    "sig": "c1fb0b3404e3e85cc3693369aaf58b43",
+    "sig": "6884bc6cddc37fc415fecb108a04fe96",
     "og": "og/bundesliga-speelronde-5-op-tv-9-oktober-2026-a79a6c.webp",
     "og_done": "og/bundesliga-speelronde-5-op-tv-9-oktober-2026-a79a6c.webp",
     "pairs": [
@@ -472,7 +472,7 @@
     "date": "2026-10-11",
     "league": "ligue-1",
     "hub": true,
-    "sig": "08ea796af834c303497347448160aec1",
+    "sig": "634a442ed1c0976b9d3060117668d167",
     "og": "og/ligue-1-speelronde-6-op-tv-9-oktober-2026-abd9a1.webp",
     "og_done": "og/ligue-1-speelronde-6-op-tv-9-oktober-2026-abd9a1.webp",
     "pairs": [
@@ -531,7 +531,7 @@
     "date": "2026-10-12",
     "league": "super-lig",
     "hub": true,
-    "sig": "d58aa94630d0c64fe759f12cf6ca1992",
+    "sig": "09279bab85e7418c199ae6d02f404b35",
     "og": "og/super-lig-speelronde-7-op-tv-9-oktober-2026-c92c0a.webp",
     "og_done": "og/super-lig-speelronde-7-op-tv-9-oktober-2026-c92c0a.webp",
     "pairs": [
@@ -590,7 +590,7 @@
     "date": "2026-10-11",
     "league": "jupiler-pro-league",
     "hub": true,
-    "sig": "c1306c95da48b60ee51c447f83ba69de",
+    "sig": "c601c1bba026da18ba5dc820c5fb8828",
     "og": "og/jupiler-pro-league-speelronde-8-op-tv-9-oktober-2026-02bf42.webp",
     "og_done": "og/jupiler-pro-league-speelronde-8-op-tv-9-oktober-2026-02bf42.webp",
     "pairs": [
@@ -896,7 +896,7 @@
     "date": "2026-10-12",
     "league": "serie-a",
     "hub": true,
-    "sig": "c5b88da69940e8a3a3453c995503173c",
+    "sig": "7805d973dcdb37fa01a4c5596835c0b5",
     "pairs": [
       [
         "495",
@@ -1551,84 +1551,6 @@
     "og": "og/st-louis-city-la-galaxy-live-gratis-kijken-12-10-2026-947538.webp",
     "og_done": "og/st-louis-city-la-galaxy-live-gratis-kijken-12-10-2026-947538.webp"
   },
-  "1635665": {
-    "item_id": "6acb9a8371b5b48fa2853950",
-    "slug": "feyenoord-como-live-gratis-kijken-14-10-2026",
-    "match": "Feyenoord - Como",
-    "date": "2026-10-14",
-    "league": "champions-league",
-    "provider": "Bet365",
-    "home_id": "209",
-    "away_id": "895",
-    "tv_sig": "Ziggo Sport 1|Bet365|False|True",
-    "og": "og/feyenoord-como-live-gratis-kijken-14-10-2026-f6baf9.webp",
-    "og_done": "og/feyenoord-como-live-gratis-kijken-14-10-2026-f6baf9.webp"
-  },
-  "1635674": {
-    "item_id": "6acb9a869c9c2d9a8ca6ef1b",
-    "slug": "lask-linz-liverpool-live-gratis-kijken-14-10-2026",
-    "match": "LASK - Liverpool",
-    "date": "2026-10-14",
-    "league": "champions-league",
-    "provider": "Bet365",
-    "home_id": "1026",
-    "away_id": "40",
-    "tv_sig": "Ziggo Sport 3|Bet365|False|True",
-    "og": "og/lask-linz-liverpool-live-gratis-kijken-14-10-2026-a3bad3.webp",
-    "og_done": "og/lask-linz-liverpool-live-gratis-kijken-14-10-2026-a3bad3.webp"
-  },
-  "1635690": {
-    "item_id": "6acb9a898d8e013d39e9b079",
-    "slug": "manchester-city-paris-saint-germain-psg-live-gratis-kijken-14-10-2026",
-    "match": "Manchester City - Paris Saint-Germain",
-    "date": "2026-10-14",
-    "league": "champions-league",
-    "provider": "Bet365",
-    "home_id": "50",
-    "away_id": "85",
-    "tv_sig": "Ziggo Sport 2|Bet365|False|True",
-    "og": "og/manchester-city-paris-saint-germain-psg-live-gratis-kijken-14-10-2026-109386.webp",
-    "og_done": "og/manchester-city-paris-saint-germain-psg-live-gratis-kijken-14-10-2026-109386.webp"
-  },
-  "1635639": {
-    "item_id": "6acb9a8b8546dd3581fe5b3b",
-    "slug": "bodo-glimt-borussia-dortmund-live-gratis-kijken-14-10-2026",
-    "match": "Bodø/Glimt - Borussia Dortmund",
-    "date": "2026-10-14",
-    "league": "champions-league",
-    "provider": "Bet365",
-    "home_id": "327",
-    "away_id": "165",
-    "tv_sig": "Ziggo Sport 6|Bet365|False|True",
-    "og": "og/bodo-glimt-borussia-dortmund-live-gratis-kijken-14-10-2026-34e9b6.webp",
-    "og_done": "og/bodo-glimt-borussia-dortmund-live-gratis-kijken-14-10-2026-34e9b6.webp"
-  },
-  "1635614": {
-    "item_id": "6acb9a8ea264200825de8f8c",
-    "slug": "as-roma-real-madrid-live-gratis-kijken-14-10-2026",
-    "match": "AS Roma - Real Madrid",
-    "date": "2026-10-14",
-    "league": "champions-league",
-    "provider": "Bet365",
-    "home_id": "497",
-    "away_id": "541",
-    "tv_sig": "Ziggo Sport 3|Bet365|False|True",
-    "og": "og/as-roma-real-madrid-live-gratis-kijken-14-10-2026-54fdca.webp",
-    "og_done": "og/as-roma-real-madrid-live-gratis-kijken-14-10-2026-54fdca.webp"
-  },
-  "1635635": {
-    "item_id": "6acb9a917ef5aa390faeb504",
-    "slug": "real-betis-fc-porto-live-gratis-kijken-14-10-2026",
-    "match": "Real Betis - FC Porto",
-    "date": "2026-10-14",
-    "league": "champions-league",
-    "provider": "Bet365",
-    "home_id": "543",
-    "away_id": "212",
-    "tv_sig": "Ziggo Sport|Bet365|False|True",
-    "og": "og/real-betis-fc-porto-live-gratis-kijken-14-10-2026-6996db.webp",
-    "og_done": "og/real-betis-fc-porto-live-gratis-kijken-14-10-2026-6996db.webp"
-  },
   "1635679": {
     "item_id": "6accb0282c9cca4363e8c2d3",
     "slug": "lens-sporting-cp-live-gratis-kijken-13-10-2026",
@@ -1732,5 +1654,108 @@
     "tv_sig": "Ziggo Sport|Bet365|False|True",
     "og": "og/viking-bayern-munchen-live-gratis-kijken-13-10-2026-5eb069.webp",
     "og_done": "og/viking-bayern-munchen-live-gratis-kijken-13-10-2026-5eb069.webp"
+  },
+  "hub:champions-league-speelronde-2-op-tv-13-oktober-2026": {
+    "item_id": "6accbdac4ae0e9477c533078",
+    "slug": "champions-league-speelronde-2-op-tv-13-oktober-2026",
+    "match": "Champions League speelronde 2",
+    "date": "2026-10-14",
+    "league": "champions-league",
+    "hub": true,
+    "sig": "9aec7c1b3b74fb1d1f19757609617dd3",
+    "pairs": [
+      [
+        "116",
+        "228",
+        "2026-10-13"
+      ],
+      [
+        "13976",
+        "560",
+        "2026-10-13"
+      ],
+      [
+        "42",
+        "79",
+        "2026-10-13"
+      ],
+      [
+        "173",
+        "197",
+        "2026-10-13"
+      ],
+      [
+        "505",
+        "569",
+        "2026-10-13"
+      ],
+      [
+        "33",
+        "530",
+        "2026-10-13"
+      ],
+      [
+        "492",
+        "533",
+        "2026-10-13"
+      ],
+      [
+        "529",
+        "645",
+        "2026-10-13"
+      ],
+      [
+        "157",
+        "759",
+        "2026-10-13"
+      ],
+      [
+        "209",
+        "895",
+        "2026-10-14"
+      ],
+      [
+        "1026",
+        "40",
+        "2026-10-14"
+      ],
+      [
+        "50",
+        "85",
+        "2026-10-14"
+      ],
+      [
+        "611",
+        "66",
+        "2026-10-14"
+      ],
+      [
+        "165",
+        "327",
+        "2026-10-14"
+      ],
+      [
+        "497",
+        "541",
+        "2026-10-14"
+      ],
+      [
+        "212",
+        "543",
+        "2026-10-14"
+      ],
+      [
+        "550",
+        "575",
+        "2026-10-14"
+      ],
+      [
+        "172",
+        "656",
+        "2026-10-14"
+      ]
+    ],
+    "ronde": "League Stage - 2",
+    "og": "og/champions-league-speelronde-2-op-tv-13-oktober-2026-99e68a.webp"
   }
 }

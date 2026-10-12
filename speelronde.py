@@ -38,6 +38,7 @@ HUBS = OrderedDict([
     ("ligue-1", ("Ligue 1", "ligue-1", None, "Viaplay", "viaplay")),
     ("super-lig", ("Süper Lig", "super-lig", "66ed7d481dc85d2ca649595c", None, "stream")),
     ("jupiler-pro-league", ("Jupiler Pro League", "jupiler-pro-league", "65de4c16dd6eb829e1867f4b", "DAZN", "dazn")),
+    ("champions-league", ("Champions League", "champions-league", "65de4adac046f4488dfdebc2", "Ziggo Sport", "ziggo-uefa")),
 ])
 GRATIS_UITLEG = {
     "espn": ("ESPN 1 is gratis: de zender zit standaard in elk tv-pakket, dus die wedstrijden kijk je zonder extra "
@@ -49,6 +50,10 @@ GRATIS_UITLEG = {
                 "Gratis tv-uitzendingen zijn er in deze competitie niet."),
     "dazn": ("De Jupiler Pro League zie je in Nederland bij DAZN, een betaalde streamingdienst. Bij 711 kun je met een "
              "account een deel van de wedstrijden gratis live meekijken."),
+    "ziggo-uefa": ("Alle wedstrijden van de Champions League zijn in Nederland te zien bij Ziggo Sport, dat de rechten heeft "
+                   "tot en met het seizoen 2030/31. Ziggo Sport 1 is het open kanaal: Ziggo-klanten kijken daar zonder extra kosten "
+                   "mee met hun gewone tv-pakket. Voor de andere Ziggo Sport-kanalen heb je Ziggo Sport Totaal nodig, te boeken bij "
+                   "Ziggo, KPN en Odido. Een gratis livestream via een bookmaker is er voor de Champions League niet."),
     "stream": ("De Süper Lig is in Nederland niet op de reguliere tv te zien. Wel kun je de wedstrijden live volgen via de "
                "livestream van een bookmaker, zoals TOTO; daarvoor heb je alleen een gratis account nodig (18+)."),
 }
@@ -382,7 +387,8 @@ def tip_html(t, cl):
     links = match_links(t)
     p = [f"<p><strong>{e(hn)} – {e(an)}</strong> | {e(dag_tijd(t['ko']))}, {e(t['tv'])}</p>"]
     werkw = "speelde tegen" if t.get("score") else "treft"
-    zin = f"{cl(hn, t['hid'])} ({e(ph)}, {pth} punten) {werkw} {cl(an, t['aid'])} ({e(pa)}, {pta} punten)."
+    pt = lambda n: f"{n} punt" if str(n) == "1" else f"{n} punten"
+    zin = f"{cl(hn, t['hid'])} ({e(ph)}, {pt(pth)}) {werkw} {cl(an, t['aid'])} ({e(pa)}, {pt(pta)})."
     vh, va = vorm_zin(hn, t["rh"].get("form")), vorm_zin(an, t["ra"].get("form"))
     if vh and va and not t.get("score"):
         zin += f" {e(vh)}; {e(va)}."
