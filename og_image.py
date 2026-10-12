@@ -218,6 +218,18 @@ def render_live(info):
     footer(d)
     return finish(img)
 
+def render_tekst(info):
+    """Eenvoudige deelafbeelding voor losse artikelen (wedtips tennis, darts, ...): competitie rechtsboven,
+    label, grote titel en ondertitel. info: comp, label, titel, sub."""
+    img = base_canvas(); d = ImageDraw.Draw(img)
+    header(img, d, info.get("comp"))
+    draw_text(d, (60, 200), info.get("label", "LIVE OP TV"), font(PJ_B, 15), GREEN, "lm", spacing=3)
+    draw_text(d, (60, 290), info["titel"], fit_font(info["titel"], POP_B, 72, 1080, 40), WHITE, "lm")
+    draw_text(d, (60, 380), info.get("sub", ""), fit_font(info.get("sub", ""), PJ_M, 26, 1080, 18), LIGHT, "lm")
+    draw_text(d, (1140, 536), "bet-experts.nl", font(PJ_B, 18), GREEN, "rm")
+    footer(d)
+    return finish(img)
+
 def league_logo(slug, league_id=None):
     """Competitielogo: lokale versie (assets/og/leagues/<slug>.png) of het logo uit de API."""
     local = os.path.join(ASSETS, "leagues", f"{slug}.png")
