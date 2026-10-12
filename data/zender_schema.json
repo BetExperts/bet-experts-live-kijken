@@ -1,5 +1,5 @@
 {
-"bijgewerkt": "2026-10-12T16:54:43.772628+00:00",
+"bijgewerkt": "2026-10-12T18:08:06.791193+00:00",
 "uitzendingen": [
 {
 "ko": "2026-10-12T16:30:00+00:00",
@@ -133,6 +133,15 @@
 "ko": "2026-10-13T05:30:00+00:00",
 "titel": "Arthur Géa – Jakub Menšík",
 "comp": "ATP Tour",
+"sport": "tennis",
+"zenders": [],
+"streams": [],
+"url": null
+},
+{
+"ko": "2026-10-13T06:00:00+00:00",
+"titel": "Maria Sakkari – Marta Kostyuk",
+"comp": "WTA Tour",
 "sport": "tennis",
 "zenders": [],
 "streams": [],
@@ -481,8 +490,53 @@
 },
 {
 "ko": "2026-10-14T02:00:00+00:00",
+"titel": "Karolína Muchová – Caty McNally",
+"comp": "WTA Tour",
+"sport": "tennis",
+"zenders": [],
+"streams": [],
+"url": null
+},
+{
+"ko": "2026-10-14T02:00:00+00:00",
 "titel": "Sonay Kartal – Belinda Bencic",
 "comp": "WTA Tour",
+"sport": "tennis",
+"zenders": [],
+"streams": [],
+"url": null
+},
+{
+"ko": "2026-10-14T02:00:00+00:00",
+"titel": "Casper Ruud – Félix Auger-Aliassime",
+"comp": "ATP Tour",
+"sport": "tennis",
+"zenders": [],
+"streams": [],
+"url": null
+},
+{
+"ko": "2026-10-14T02:00:00+00:00",
+"titel": "Magdalena Fręch – Iga Świątek",
+"comp": "WTA Tour",
+"sport": "tennis",
+"zenders": [],
+"streams": [],
+"url": null
+},
+{
+"ko": "2026-10-14T02:00:00+00:00",
+"titel": "Daniil Medvedev – Stefanos Tsitsipas",
+"comp": "ATP Tour",
+"sport": "tennis",
+"zenders": [],
+"streams": [],
+"url": null
+},
+{
+"ko": "2026-10-14T02:00:00+00:00",
+"titel": "Botic van de Zandschulp – Rafael Jódar",
+"comp": "ATP Tour",
 "sport": "tennis",
 "zenders": [],
 "streams": [],
@@ -556,6 +610,28 @@
 },
 {
 "ko": "2026-10-14T19:00:00+00:00",
+"titel": "Shakhtar Donetsk – AEK Athens FC",
+"comp": "Champions League",
+"sport": "voetbal",
+"zenders": [
+"Ziggo Sport 1"
+],
+"streams": [],
+"url": null
+},
+{
+"ko": "2026-10-14T19:00:00+00:00",
+"titel": "Slovan Bratislava – VfB Stuttgart",
+"comp": "Champions League",
+"sport": "voetbal",
+"zenders": [
+"Ziggo Sport 1"
+],
+"streams": [],
+"url": null
+},
+{
+"ko": "2026-10-14T19:00:00+00:00",
 "titel": "Manchester City – Paris Saint-Germain",
 "comp": "Champions League",
 "sport": "voetbal",
@@ -589,33 +665,22 @@
 },
 {
 "ko": "2026-10-14T19:00:00+00:00",
-"titel": "Shakhtar Donetsk – AEK Athens FC",
-"comp": "Champions League",
-"sport": "voetbal",
-"zenders": [
-"Ziggo Sport 1"
-],
-"streams": [],
-"url": null
-},
-{
-"ko": "2026-10-14T19:00:00+00:00",
-"titel": "Slovan Bratislava – VfB Stuttgart",
-"comp": "Champions League",
-"sport": "voetbal",
-"zenders": [
-"Ziggo Sport 1"
-],
-"streams": [],
-"url": null
-},
-{
-"ko": "2026-10-14T19:00:00+00:00",
 "titel": "AS Roma – Real Madrid",
-"comp": "UEFA Champions League",
+"comp": "Champions League",
 "sport": "voetbal",
 "zenders": [
 "Ziggo Sport 3"
+],
+"streams": [],
+"url": null
+},
+{
+"ko": "2026-10-14T19:00:00+00:00",
+"titel": "Real Betis – FC Porto",
+"comp": "Champions League",
+"sport": "voetbal",
+"zenders": [
+"Ziggo Sport 1"
 ],
 "streams": [],
 "url": null
@@ -666,11 +731,11 @@
 },
 {
 "ko": "2026-10-15T16:45:00+00:00",
-"titel": "AZ Alkmaar – Hapoel Be'er Sheva",
-"comp": "UEFA Europa League",
+"titel": "Torreense – Sunderland",
+"comp": "Europa League",
 "sport": "voetbal",
 "zenders": [
-"Ziggo Sport 2"
+"Ziggo Sport 1"
 ],
 "streams": [],
 "url": null
@@ -678,7 +743,7 @@
 {
 "ko": "2026-10-15T16:45:00+00:00",
 "titel": "HNK Hajduk Split – Ajax",
-"comp": "UEFA Conference League",
+"comp": "Conference League",
 "sport": "voetbal",
 "zenders": [
 "Ziggo Sport 1"
@@ -689,7 +754,7 @@
 {
 "ko": "2026-10-15T16:45:00+00:00",
 "titel": "Lyon – Crystal Palace",
-"comp": "UEFA Europa League",
+"comp": "Europa League",
 "sport": "voetbal",
 "zenders": [
 "Ziggo Sport 6"
@@ -699,8 +764,30 @@
 },
 {
 "ko": "2026-10-15T16:45:00+00:00",
+"titel": "AZ – Hapoel Beer Sheva",
+"comp": "Europa League",
+"sport": "voetbal",
+"zenders": [
+"Ziggo Sport 2"
+],
+"streams": [],
+"url": null
+},
+{
+"ko": "2026-10-15T16:45:00+00:00",
+"titel": "Lech Poznan – Bayer Leverkusen",
+"comp": "Europa League",
+"sport": "voetbal",
+"zenders": [
+"Ziggo Sport 1"
+],
+"streams": [],
+"url": null
+},
+{
+"ko": "2026-10-15T16:45:00+00:00",
 "titel": "Red Bull Salzburg – AC Milan",
-"comp": "UEFA Europa League",
+"comp": "Europa League",
 "sport": "voetbal",
 "zenders": [
 "Ziggo Sport 5"
@@ -710,11 +797,33 @@
 },
 {
 "ko": "2026-10-15T16:45:00+00:00",
-"titel": "Union St. Gilloise – Real Sociedad",
-"comp": "UEFA Europa League",
+"titel": "Sparta Praha – Lillestrom",
+"comp": "Europa League",
 "sport": "voetbal",
 "zenders": [
-"VRT Canvas"
+"Ziggo Sport 1"
+],
+"streams": [],
+"url": null
+},
+{
+"ko": "2026-10-15T16:45:00+00:00",
+"titel": "Union Sint-Gillis – Real Sociedad",
+"comp": "Europa League",
+"sport": "voetbal",
+"zenders": [
+"Ziggo Sport 1"
+],
+"streams": [],
+"url": null
+},
+{
+"ko": "2026-10-15T16:45:00+00:00",
+"titel": "Celje – Omonia Nicosia",
+"comp": "Europa League",
+"sport": "voetbal",
+"zenders": [
+"Ziggo Sport 1"
 ],
 "streams": [],
 "url": null

@@ -413,7 +413,7 @@
     "date": "2026-10-11",
     "league": "bundesliga",
     "hub": true,
-    "sig": "f0fd0f3e1c07f1e71ef91b61c8973572",
+    "sig": "513c17891c8a5ea745018af4c86cc128",
     "og": "og/bundesliga-speelronde-5-op-tv-9-oktober-2026-a79a6c.webp",
     "og_done": "og/bundesliga-speelronde-5-op-tv-9-oktober-2026-a79a6c.webp",
     "pairs": [
@@ -531,7 +531,7 @@
     "date": "2026-10-12",
     "league": "super-lig",
     "hub": true,
-    "sig": "09279bab85e7418c199ae6d02f404b35",
+    "sig": "ffc802dcba1bf269a76fbc0e5b7b4e27",
     "og": "og/super-lig-speelronde-7-op-tv-9-oktober-2026-c92c0a.webp",
     "og_done": "og/super-lig-speelronde-7-op-tv-9-oktober-2026-c92c0a.webp",
     "pairs": [
@@ -546,13 +546,13 @@
         "2026-10-10"
       ],
       [
-        "3603",
-        "998",
+        "1009",
+        "996",
         "2026-10-10"
       ],
       [
-        "1009",
-        "996",
+        "3603",
+        "998",
         "2026-10-10"
       ],
       [
@@ -896,7 +896,7 @@
     "date": "2026-10-12",
     "league": "serie-a",
     "hub": true,
-    "sig": "d2ea3e90065d747731c32054cc445b89",
+    "sig": "a111732a2be03a8d8e77c7cc38984032",
     "pairs": [
       [
         "495",
@@ -919,13 +919,13 @@
         "2026-10-11"
       ],
       [
-        "1579",
-        "487",
+        "500",
+        "867",
         "2026-10-11"
       ],
       [
-        "500",
-        "867",
+        "1579",
+        "487",
         "2026-10-11"
       ],
       [
