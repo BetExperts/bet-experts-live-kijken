@@ -1,50 +1,6 @@
 {
-"bijgewerkt": "2026-10-12T20:12:35.137439+00:00",
+"bijgewerkt": "2026-10-12T23:39:13.821582+00:00",
 "uitzendingen": [
-{
-"ko": "2026-10-12T18:15:00+00:00",
-"titel": "Al Nassr FC – Neftchi",
-"comp": "AFC Champions League",
-"sport": "voetbal",
-"zenders": [
-"ESPN 1"
-],
-"streams": [],
-"url": null
-},
-{
-"ko": "2026-10-12T18:45:00+00:00",
-"titel": "Torino – Udinese",
-"comp": "Serie A",
-"sport": "voetbal",
-"zenders": [],
-"streams": [],
-"url": null
-},
-{
-"ko": "2026-10-12T19:00:00+00:00",
-"titel": "Levante – Sevilla",
-"comp": "La Liga",
-"sport": "voetbal",
-"zenders": [
-"Ziggo Sport 2"
-],
-"streams": [
-"TOTO"
-],
-"url": "/nieuws/levante-sevilla-live-gratis-kijken-12-10-2026"
-},
-{
-"ko": "2026-10-12T19:00:00+00:00",
-"titel": "Coventry – Newcastle",
-"comp": "Premier League",
-"sport": "voetbal",
-"zenders": [
-"Viaplay TV"
-],
-"streams": [],
-"url": "/nieuws/coventry-newcastle-united-live-gratis-kijken-12-10-2026"
-},
 {
 "ko": "2026-10-12T22:30:00+00:00",
 "titel": "Chapecoense SC – Atletico Paranaense",
@@ -211,39 +167,6 @@
 },
 {
 "ko": "2026-10-13T19:00:00+00:00",
-"titel": "Villarreal – Napoli",
-"comp": "Champions League",
-"sport": "voetbal",
-"zenders": [
-"Ziggo Sport"
-],
-"streams": [],
-"url": "/nieuws/villarreal-napoli-live-gratis-kijken-13-10-2026"
-},
-{
-"ko": "2026-10-13T19:00:00+00:00",
-"titel": "Galatasaray – FC Barcelona",
-"comp": "Champions League",
-"sport": "voetbal",
-"zenders": [
-"Ziggo Sport 2"
-],
-"streams": [],
-"url": "/nieuws/galatasaray-fc-barcelona-live-gratis-kijken-13-10-2026"
-},
-{
-"ko": "2026-10-13T19:00:00+00:00",
-"titel": "Viking – Bayern München",
-"comp": "Champions League",
-"sport": "voetbal",
-"zenders": [
-"Ziggo Sport"
-],
-"streams": [],
-"url": "/nieuws/viking-bayern-munchen-live-gratis-kijken-13-10-2026"
-},
-{
-"ko": "2026-10-13T19:00:00+00:00",
 "titel": "Arsenal – Lille",
 "comp": "Champions League",
 "sport": "voetbal",
@@ -278,13 +201,46 @@
 {
 "ko": "2026-10-13T19:00:00+00:00",
 "titel": "Atlético Madrid – Manchester United",
-"comp": "UEFA Champions League",
+"comp": "Champions League",
 "sport": "voetbal",
 "zenders": [
 "Ziggo Sport 3"
 ],
 "streams": [],
 "url": "/nieuws/atletico-madrid-manchester-united-live-gratis-kijken-13-10-2026"
+},
+{
+"ko": "2026-10-13T19:00:00+00:00",
+"titel": "Villarreal – Napoli",
+"comp": "Champions League",
+"sport": "voetbal",
+"zenders": [
+"Ziggo Sport"
+],
+"streams": [],
+"url": "/nieuws/villarreal-napoli-live-gratis-kijken-13-10-2026"
+},
+{
+"ko": "2026-10-13T19:00:00+00:00",
+"titel": "Galatasaray – FC Barcelona",
+"comp": "Champions League",
+"sport": "voetbal",
+"zenders": [
+"Ziggo Sport 2"
+],
+"streams": [],
+"url": "/nieuws/galatasaray-fc-barcelona-live-gratis-kijken-13-10-2026"
+},
+{
+"ko": "2026-10-13T19:00:00+00:00",
+"titel": "Viking – Bayern München",
+"comp": "Champions League",
+"sport": "voetbal",
+"zenders": [
+"Ziggo Sport"
+],
+"streams": [],
+"url": "/nieuws/viking-bayern-munchen-live-gratis-kijken-13-10-2026"
 },
 {
 "ko": "2026-10-13T19:00:00+00:00",
@@ -562,22 +518,22 @@
 },
 {
 "ko": "2026-10-14T16:45:00+00:00",
-"titel": "Feyenoord – Como",
+"titel": "Lask Linz – Liverpool",
 "comp": "Champions League",
 "sport": "voetbal",
 "zenders": [
-"Ziggo Sport 1"
+"Ziggo Sport 3"
 ],
 "streams": [],
 "url": null
 },
 {
 "ko": "2026-10-14T16:45:00+00:00",
-"titel": "Lask Linz – Liverpool",
+"titel": "Feyenoord – Como",
 "comp": "Champions League",
 "sport": "voetbal",
 "zenders": [
-"Ziggo Sport 3"
+"Ziggo Sport 1"
 ],
 "streams": [],
 "url": null
@@ -705,39 +661,6 @@
 },
 {
 "ko": "2026-10-15T16:45:00+00:00",
-"titel": "HNK Hajduk Split – Ajax",
-"comp": "Conference League",
-"sport": "voetbal",
-"zenders": [
-"Ziggo Sport 1"
-],
-"streams": [],
-"url": null
-},
-{
-"ko": "2026-10-15T16:45:00+00:00",
-"titel": "Lyon – Crystal Palace",
-"comp": "Europa League",
-"sport": "voetbal",
-"zenders": [
-"Ziggo Sport 6"
-],
-"streams": [],
-"url": null
-},
-{
-"ko": "2026-10-15T16:45:00+00:00",
-"titel": "AZ – Hapoel Beer Sheva",
-"comp": "Europa League",
-"sport": "voetbal",
-"zenders": [
-"Ziggo Sport 2"
-],
-"streams": [],
-"url": null
-},
-{
-"ko": "2026-10-15T16:45:00+00:00",
 "titel": "Lech Poznan – Bayer Leverkusen",
 "comp": "Europa League",
 "sport": "voetbal",
@@ -798,6 +721,39 @@
 "sport": "voetbal",
 "zenders": [
 "Ziggo Sport 1"
+],
+"streams": [],
+"url": null
+},
+{
+"ko": "2026-10-15T16:45:00+00:00",
+"titel": "HNK Hajduk Split – Ajax",
+"comp": "Conference League",
+"sport": "voetbal",
+"zenders": [
+"Ziggo Sport 1"
+],
+"streams": [],
+"url": null
+},
+{
+"ko": "2026-10-15T16:45:00+00:00",
+"titel": "Lyon – Crystal Palace",
+"comp": "Europa League",
+"sport": "voetbal",
+"zenders": [
+"Ziggo Sport 6"
+],
+"streams": [],
+"url": null
+},
+{
+"ko": "2026-10-15T16:45:00+00:00",
+"titel": "AZ – Hapoel Beer Sheva",
+"comp": "Europa League",
+"sport": "voetbal",
+"zenders": [
+"Ziggo Sport 2"
 ],
 "streams": [],
 "url": null
