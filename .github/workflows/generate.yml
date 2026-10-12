@@ -1,8 +1,8 @@
-name: Genereer live-kijken-artikelen (3 dagen vooruit + tv-update)
+name: Genereer live-kijken-artikelen (avond ervoor + tv-update)
 
 on:
   schedule:
-    - cron: "0 18 * * *"   # 18:00 UTC (~20:00 NL) — nieuwe artikelen voor morgen t/m over 3 dagen + tv-update morgen
+    - cron: "13 17 * * *"  # 17:13 UTC (~19:15 NL) — nieuwe artikelen voor morgen (±24 uur voor de aftrap) + tv-update morgen
     - cron: "30 7 * * *"   # 07:30 UTC (~09:30 NL) — tv-update voor vandaag (de tv-gids kijkt 2-3 dagen vooruit)
   workflow_dispatch:
     inputs:
@@ -29,13 +29,17 @@ jobs:
         run: |
           if [ -n "${{ github.event.inputs.date }}" ]; then
             python generate.py --date "${{ github.event.inputs.date }}"
-          elif [ "$(date -u +%H)" -lt 12 ]; then
+          elif [ "${{ github.event.schedule }}" = "30 7 * * *" ]; then
+            # (op de cron zelf sturen, niet op het uur: GitHub start geplande runs soms uren te laat)
             # ochtend: alleen zender/aanbieder van vandaag bijwerken als de tv-gids iets anders zegt
             python generate.py --date "$(date -u +%F)" --update --alleen-tv-wijziging
           else
-            # avond: artikelen zo vroeg mogelijk online (meer tijd om in Google te komen)
-            for d in 1 2 3; do python generate.py --date "$(date -u -d "+$d day" +%F)"; done
-            python generate.py --date "$(date -u -d '+1 day' +%F)" --update --alleen-tv-wijziging
+            # avond: alleen morgen (±24 uur vooruit). 3 dagen vooruit leverde amper kliks op: de artikelen
+            # waren bij de aftrap al 'oud' en zakten in Google (gebruiker, 12 okt 2026)
+            # 'morgen' t.o.v. de geplande dag: ook goed als de run pas na middernacht start
+            MORGEN=$(date -u -d "@$(( $(date +%s) - 43200 + 86400 ))" +%F)
+            python generate.py --date "$MORGEN"
+            python generate.py --date "$MORGEN" --update --alleen-tv-wijziging
           fi
           # speelronde-hubs per competitie (alleen bijwerken als zender/links veranderd zijn)
           python speelronde.py || echo "speelronde-hubs mislukt"
