@@ -207,6 +207,7 @@ def build(slug_api, cfg, gids, widx, state, now, ronde=None):
         t["kans"] = None if t["score"] else kansen(t["fid"])
         t["goals"] = doelpunten(t["fid"]) if t["score"] else []
     return {"slug_api": slug_api, "ronde": ronde, "naam": naam, "comp_slug": comp_slug, "comp_id": comp_id, "soort": soort, "nr": nr,
+            "league_id": fx[0]["league"].get("id"), "land": fx[0]["league"].get("country"),
             "eerste": eerste, "laatste": laatste, "rows": rows, "tips": tips, "telling": telling}
 
 
@@ -338,6 +339,77 @@ def tegelijk(rows):
         return ""
     z = "; ".join(zinnen)
     return "Let op: " + z + "."
+
+
+ZENDER_MERKEN = ("Ziggo Sport", "ESPN", "Viaplay", "DAZN", "Prime Video", "NPO", "RTL", "SBS", "Veronica", "Eurosport", "HBO Max", "Disney+")
+
+
+def zender_merk(tv):
+    """'Ziggo Sport 3' -> 'Ziggo Sport', 'Viaplay TV+' -> 'Viaplay'; livestreams -> None."""
+    if not tv or tv.startswith("livestream"):
+        return None
+    return next((m for m in ZENDER_MERKEN if tv.startswith(m)), tv)
+
+
+def og_info(h):
+    """Gegevens voor de deelafbeelding (og_image.render_hub): speeldagen-kaarten bij hooguit twee
+    speeldagen, anders zender-labels."""
+    import og_image as O
+    from lk_config import LANDEN_NL
+    rows = h["rows"]
+    merken = {}
+    for r in rows:
+        m = zender_merk(r["tv"])
+        if m:
+            merken[m] = merken.get(m, 0) + 1
+    merken = [m for m, _ in sorted(merken.items(), key=lambda x: -x[1])]
+    provs = [pv["naam"] for pv in stream_provs(h)]
+    land = LANDEN_NL.get(h.get("land") or "") if h.get("land") not in (None, "World") else None
+    info = {"comp": h["naam"], "logo": O.league_logo(h["slug_api"], h.get("league_id")),
+            "pill": kort_periode(h["eerste"], h["laatste"]).upper(),
+            "eyebrow": " · ".join(["OP TV"] + ([land.upper()] if land else []) + [f"SPEELRONDE {h['nr']}"])}
+    dagen = OrderedDict()
+    for r in rows:
+        dagen.setdefault(r["ko"].date(), [])
+        t = B.nl_tijd(r["ko"])
+        if t not in dagen[r["ko"].date()]:
+            dagen[r["ko"].date()].append(t)
+    if len(dagen) <= 2 and (merken or provs):
+        info["titel"] = f"{h['naam']} op tv"
+        info["sub"] = "Welke zender en hoe laat: alle wedstrijden van de week."
+        info["dagen"] = []
+        for dag, tijden in dagen.items():
+            tijden = sorted(tijden)
+            if len(tijden) > 3:
+                tijden = [f"{tijden[0]} – {tijden[-1]}"]
+            info["dagen"].append((f"{DAGNAAM[dag.weekday()]} {dag.day} {B.MAAND[dag.month - 1]}", tijden))
+        if merken:
+            info["live_op"] = " & ".join(merken[:2])
+        else:
+            info["live_label"], info["live_op"] = "LIVESTREAM VIA", " & ".join(provs[:2])
+    else:
+        info["titel"] = f"{h['naam']} op tv: welke zenders?"
+        info["sub"] = ("Per wedstrijd de zender, aftraptijd en gratis livestream." if provs
+                       else "Per wedstrijd de zender en de aftraptijd.")
+        kanalen = {}
+        for r in rows:
+            m = zender_merk(r["tv"])
+            if m and r["tv"] not in kanalen.setdefault(m, []):
+                kanalen[m].append(r["tv"])
+        gratis = {}
+        for r in rows:                                    # kanaal is 'gratis' als al zijn wedstrijden gratis/basispakket zijn
+            gratis[r["tv"]] = gratis.get(r["tv"], True) and r["gratis"] in ("gratis", "basispakket")
+        chips = []
+        for m in merken:                                  # hooguit vier kanalen van een merk: los tonen (ESPN 1, ESPN 2)
+            ks = sorted(kanalen[m])
+            if len(ks) > 1 and m in ks and m in ("Ziggo Sport", "ESPN"):   # zonder kanaalnummer naast 'Ziggo Sport 1': weglaten
+                ks.remove(m)
+            if len(ks) <= 4 and (len(merken) == 1 or len(ks) <= 2):
+                chips += [(k, "stream" if gratis.get(k) else "tv") for k in ks]
+            else:
+                chips.append((m, "tv"))
+        info["chips"] = chips + [(f"{p} livestream", "stream") for p in provs]
+    return info
 
 
 def tighten_lists(html_in):
@@ -584,8 +656,7 @@ def main():
                           "ronde": h["ronde"]}
             try:
                 import og_image as O
-                img = O.render_hub({"comp": h["naam"], "titel": h["label"],
-                                    "sub": f"Op tv: {kort_periode(h['eerste'], h['laatste'])} · alle zenders en aftraptijden"})
+                img = O.render_hub(og_info(h))
                 rel = f"og/{slug}-{hashlib.md5(img).hexdigest()[:6]}.webp"
                 open(os.path.join(BASE, rel), "wb").write(img); state[key]["og"] = rel
             except Exception as ex:

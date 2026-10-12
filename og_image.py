@@ -218,15 +218,121 @@ def render_live(info):
     footer(d)
     return finish(img)
 
+def league_logo(slug, league_id=None):
+    """Competitielogo: lokale versie (assets/og/leagues/<slug>.png) of het logo uit de API."""
+    local = os.path.join(ASSETS, "leagues", f"{slug}.png")
+    try:
+        if os.path.exists(local):
+            return Image.open(local).convert("RGBA")
+        if league_id:
+            return Image.open(io.BytesIO(_get(f"https://media.api-sports.io/football/leagues/{league_id}.png"))).convert("RGBA")
+    except Exception:
+        pass
+    return None
+
+def _wrap2(txt, name, size, max_w, min_size):
+    """Eén regel als het past, anders twee regels (bij voorkeur na ':'), met passende grootte."""
+    if text_w(txt, font(name, size)) <= max_w:
+        return [txt], font(name, size)
+    if ": " in txt:
+        a, b = txt.split(": ", 1); parts = [a + ":", b]
+    else:
+        w = txt.split(); best = None
+        for i in range(1, len(w)):
+            a, b = " ".join(w[:i]), " ".join(w[i:])
+            m = max(text_w(a, font(name, size)), text_w(b, font(name, size)))
+            if best is None or m < best[0]:
+                best = (m, a, b)
+        parts = [best[1], best[2]]
+    f = fit_font(max(parts, key=lambda t: text_w(t, font(name, size))), name, size, max_w, min_size)
+    return parts, f
+
 def render_hub(info):
-    """Deelafbeelding voor een speelronde-hub: competitie, grote titel en ondertitel."""
+    """Deelafbeelding voor een speelronde-hub (template van Jasper, okt 2026):
+    logo + periode-pil, competitielogo op witte kaart, eyebrow, titel, ondertitel en onderaan
+    óf kaarten per speeldag + 'LIVE OP'-kaart (info['dagen'] + info['live_op']),
+    óf zender-labels 'TE ZIEN BIJ' (info['chips'] = [(tekst, 'tv'|'stream')])."""
     img = base_canvas(); d = ImageDraw.Draw(img)
-    header(img, d, info.get("comp"))
-    draw_text(d, (60, 200), info.get("label", "LIVE OP TV"), font(PJ_B, 15), GREEN, "lm", spacing=3)
-    draw_text(d, (60, 290), info["titel"], fit_font(info["titel"], POP_B, 72, 1080, 40), WHITE, "lm")
-    draw_text(d, (60, 380), info.get("sub", ""), font(PJ_M, 26), LIGHT, "lm")
-    draw_text(d, (1140, 536), "bet-experts.nl", font(PJ_B, 18), GREEN, "rm")
-    footer(d)
+    # groene lijn bovenaan
+    line = Image.new("RGBA", img.size, (0, 0, 0, 0)); ld = ImageDraw.Draw(line)
+    for x in range(0, _s(760), 2):
+        a = int(255 * max(0.0, 1 - x / _s(760)) ** 1.3)
+        ld.rectangle((x, 0, x + 1, _s(4)), fill=(32, 160, 80, a))
+    img.alpha_composite(line)
+    paste_fit(img, Image.open(os.path.join(ASSETS, "betexperts-logo.png")).convert("RGBA"), (100, 54, 100 + 186, 87))
+    pill = info.get("pill")
+    if pill:
+        fp = font(PJ_B, 14); pw = text_w(pill, fp, 1.5) + 34
+        rrect(d, (1100 - pw, 52, 1100, 88), 18, fill=(14, 22, 25), outline=(52, 84, 66), width=1)
+        draw_text(d, (1100 - pw / 2, 70), pill, fp, (150, 214, 172), "mm", spacing=1.5)
+    # competitielogo op witte kaart
+    cy = 228
+    rrect(d, (100, cy - 90, 280, cy + 90), 30, fill=(255, 255, 255))
+    lg = info.get("logo")
+    if lg is not None:                                   # passend maken, ook vergroten (paste_fit verkleint alleen)
+        bw, bh = _s(132), _s(132) if lg.width / lg.height < 2.5 else _s(60)
+        k = min(bw / lg.width, bh / lg.height)
+        paste_fit(img, lg.resize((max(1, int(lg.width * k)), max(1, int(lg.height * k))), Image.LANCZOS),
+                  (124, cy - 66, 256, cy + 66))
+    else:
+        t = info.get("comp", "")
+        draw_text(d, (190, cy), t, fit_font(t, POP_B, 26, 150, 12), (20, 26, 33), "mm")
+    # tekstblok, verticaal gecentreerd naast de kaart
+    lines, ft = _wrap2(info["titel"], POP_B, 58, 780, 38)
+    lh = ft.size / S * 1.06
+    sub = info.get("sub", "")
+    fs = fit_font(sub, PJ_M, 21, 780, 16)
+    blok = 18 + 20 + lh * len(lines) + 16 + 24
+    y = cy - blok / 2
+    rrect(d, (320, y, 324, y + 18), 1, fill=GREEN)
+    draw_text(d, (337, y + 9), info.get("eyebrow", "OP TV"), font(PJ_B, 15), GREEN, "lm", spacing=2.5)
+    y += 18 + 20
+    for ln in lines:
+        draw_text(d, (318, y + lh / 2), ln, ft, WHITE, "lm"); y += lh
+    draw_text(d, (320, y + 16 + 12), sub, fs, (190, 198, 206), "lm")
+    # onderste rij
+    if info.get("dagen"):
+        kaarten = [(lab.upper(), tijden, False) for lab, tijden in info["dagen"]] + [(info.get("live_label", "LIVE OP"), [info.get("live_op", "")], True)]
+        gap = 18; cw = (1000 - gap * (len(kaarten) - 1)) / len(kaarten)
+        for i, (lab, waarden, accent) in enumerate(kaarten):
+            x0 = 100 + i * (cw + gap)
+            rrect(d, (x0, 382, x0 + cw, 494), 16, fill=(18, 25, 32), outline=(40, 50, 60), width=1)
+            if accent:
+                rrect(d, (x0, 382, x0 + 4, 494), 2, fill=(32, 160, 80))
+            draw_text(d, (x0 + 23, 410), lab, font(PJ_B, 12), GREEN if accent else GREY_D, "lm", spacing=1.6)
+            fv = font(POP_B, 30); sep = 26
+            if accent:
+                fv = fit_font(waarden[0], POP_B, 30, cw - 46, 18)
+                draw_text(d, (x0 + 23, 451), waarden[0], fv, WHITE, "lm")
+                continue
+            tot = sum(text_w(t, fv) for t in waarden) + sep * (len(waarden) - 1)
+            while tot > cw - 46 and fv.size / S > 18:
+                fv = font(POP_B, fv.size / S - 1); sep = max(16, sep - 1)
+                tot = sum(text_w(t, fv) for t in waarden) + sep * (len(waarden) - 1)
+            x = x0 + 23
+            for j, t in enumerate(waarden):
+                if j:
+                    d.ellipse((_s(x + sep / 2 - 2.5), _s(451 - 2.5), _s(x + sep / 2 + 2.5), _s(451 + 2.5)), fill=GREY_D)
+                    x += sep
+                draw_text(d, (x, 451), t, fv, WHITE, "lm"); x += text_w(t, fv)
+    elif info.get("chips"):
+        draw_text(d, (100, 388), info.get("chips_label", "TE ZIEN BIJ"), font(PJ_B, 12), GREY_D, "lm", spacing=1.6)
+        x, fc = 100, font(POP_SB, 19)
+        for tekst, soort in info["chips"]:
+            w = 20 + 8 + 11 + text_w(tekst, fc) + 20
+            if x + w > 1100:
+                break
+            stream = soort == "stream"
+            rrect(d, (x, 407, x + w, 461), 12, fill=(19, 36, 34) if stream else (24, 31, 38),
+                  outline=(46, 92, 72) if stream else (48, 57, 66), width=1)
+            dot = (98, 200, 132) if stream else (138, 148, 158)
+            d.ellipse((_s(x + 20), _s(434 - 4), _s(x + 28), _s(434 + 4)), fill=dot)
+            draw_text(d, (x + 39, 434), tekst, fc, WHITE, "lm")
+            x += w + 14
+    # voet
+    d.line((_s(100), _s(543), _s(1100), _s(543)), fill=LINE, width=_s(1))
+    draw_text(d, (100, 576), "bet-experts.nl", font(PJ_B, 18), GREEN, "lm")
+    draw_text(d, (1100, 576), "18+ · Wat kost gokken jou? Stop op tijd.", font(PJ_M, 14), GREY, "rm")
     return finish(img)
 
 # ------------------------------------------------------------------ opstelling
