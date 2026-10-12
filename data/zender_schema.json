@@ -1,33 +1,9 @@
 {
-"bijgewerkt": "2026-10-12T18:08:06.791193+00:00",
+"bijgewerkt": "2026-10-12T20:12:35.137439+00:00",
 "uitzendingen": [
 {
-"ko": "2026-10-12T16:30:00+00:00",
-"titel": "Atalanta – Venezia",
-"comp": "Serie A",
-"sport": "voetbal",
-"zenders": [
-"Ziggo Sport 1"
-],
-"streams": [
-"Bet365"
-],
-"url": "/nieuws/atalanta-venezia-live-gratis-kijken-12-10-2026"
-},
-{
-"ko": "2026-10-12T17:00:00+00:00",
-"titel": "Eyupspor – Goztepe",
-"comp": "Süper Lig",
-"sport": "voetbal",
-"zenders": [],
-"streams": [
-"TOTO"
-],
-"url": "/nieuws/eyupspor-goztepe-live-gratis-kijken-12-10-2026"
-},
-{
 "ko": "2026-10-12T18:15:00+00:00",
-"titel": "Al Nassr FC – FC Neftchi Fergana",
+"titel": "Al Nassr FC – Neftchi",
 "comp": "AFC Champions League",
 "sport": "voetbal",
 "zenders": [
@@ -213,7 +189,7 @@
 },
 {
 "ko": "2026-10-13T18:15:00+00:00",
-"titel": "Al Ittihad FC – Shabab Al Ahli Dubai",
+"titel": "Al-Ittihad FC – Shabab Al Ahli Dubai",
 "comp": "AFC Champions League",
 "sport": "voetbal",
 "zenders": [
@@ -224,27 +200,14 @@
 },
 {
 "ko": "2026-10-13T18:45:00+00:00",
-"titel": "Nederland – Hongarije",
+"titel": "Nederland (V) – Hongarije Vrouwen",
 "comp": "WK Kwalificatie Vrouwen",
 "sport": "voetbal",
 "zenders": [
-"NPO 3",
-"NOS Live",
-"NOS app"
+"NPO 3"
 ],
 "streams": [],
 "url": null
-},
-{
-"ko": "2026-10-13T19:00:00+00:00",
-"titel": "Atlético Madrid – Manchester United",
-"comp": "Champions League",
-"sport": "voetbal",
-"zenders": [
-"Ziggo Sport 3"
-],
-"streams": [],
-"url": "/nieuws/atletico-madrid-manchester-united-live-gratis-kijken-13-10-2026"
 },
 {
 "ko": "2026-10-13T19:00:00+00:00",
@@ -311,6 +274,17 @@
 ],
 "streams": [],
 "url": "/nieuws/inter-club-brugge-live-gratis-kijken-13-10-2026"
+},
+{
+"ko": "2026-10-13T19:00:00+00:00",
+"titel": "Atlético Madrid – Manchester United",
+"comp": "UEFA Champions League",
+"sport": "voetbal",
+"zenders": [
+"Ziggo Sport 3"
+],
+"streams": [],
+"url": "/nieuws/atletico-madrid-manchester-united-live-gratis-kijken-13-10-2026"
 },
 {
 "ko": "2026-10-13T19:00:00+00:00",
@@ -610,28 +584,6 @@
 },
 {
 "ko": "2026-10-14T19:00:00+00:00",
-"titel": "Shakhtar Donetsk – AEK Athens FC",
-"comp": "Champions League",
-"sport": "voetbal",
-"zenders": [
-"Ziggo Sport 1"
-],
-"streams": [],
-"url": null
-},
-{
-"ko": "2026-10-14T19:00:00+00:00",
-"titel": "Slovan Bratislava – VfB Stuttgart",
-"comp": "Champions League",
-"sport": "voetbal",
-"zenders": [
-"Ziggo Sport 1"
-],
-"streams": [],
-"url": null
-},
-{
-"ko": "2026-10-14T19:00:00+00:00",
 "titel": "Manchester City – Paris Saint-Germain",
 "comp": "Champions League",
 "sport": "voetbal",
@@ -687,6 +639,28 @@
 },
 {
 "ko": "2026-10-14T19:00:00+00:00",
+"titel": "Shakhtar Donetsk – AEK Athens FC",
+"comp": "Champions League",
+"sport": "voetbal",
+"zenders": [
+"Ziggo Sport 1"
+],
+"streams": [],
+"url": null
+},
+{
+"ko": "2026-10-14T19:00:00+00:00",
+"titel": "Slovan Bratislava – VfB Stuttgart",
+"comp": "Champions League",
+"sport": "voetbal",
+"zenders": [
+"Ziggo Sport 1"
+],
+"streams": [],
+"url": null
+},
+{
+"ko": "2026-10-14T19:00:00+00:00",
 "titel": "Lincoln City – West Ham United",
 "comp": "EFL Championship",
 "sport": "voetbal",
@@ -725,17 +699,6 @@
 "sport": "voetbal",
 "zenders": [
 "ESPN 1"
-],
-"streams": [],
-"url": null
-},
-{
-"ko": "2026-10-15T16:45:00+00:00",
-"titel": "Torreense – Sunderland",
-"comp": "Europa League",
-"sport": "voetbal",
-"zenders": [
-"Ziggo Sport 1"
 ],
 "streams": [],
 "url": null
@@ -820,6 +783,17 @@
 {
 "ko": "2026-10-15T16:45:00+00:00",
 "titel": "Celje – Omonia Nicosia",
+"comp": "Europa League",
+"sport": "voetbal",
+"zenders": [
+"Ziggo Sport 1"
+],
+"streams": [],
+"url": null
+},
+{
+"ko": "2026-10-15T16:45:00+00:00",
+"titel": "Torreense – Sunderland",
 "comp": "Europa League",
 "sport": "voetbal",
 "zenders": [
@@ -1962,18 +1936,6 @@
 "zenders": [
 "ESPN 2",
 "ESPN 1"
-],
-"streams": [],
-"url": null
-},
-{
-"ko": "2026-10-18T18:00:00+00:00",
-"titel": "NEC – Fortuna Sittard",
-"comp": "Eredivisie",
-"sport": "voetbal",
-"zenders": [
-"ESPN 1",
-"ESPN 2"
 ],
 "streams": [],
 "url": null
