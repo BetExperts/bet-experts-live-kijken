@@ -338,8 +338,7 @@ def _kijk_blok(prov, homeN, awayN, comp, tv=None, tv_free=False):
     if prov.get("cast"):
         out.append(f"<p><strong>Wil je op groot scherm kijken?</strong> Cast de {esc(naam)}-stream via "
                     f"Chromecast, AirPlay of een HDMI-kabel naar je televisie.</p>")
-    out.append(f'<p><a href="{link}"><strong>Open een {esc(naam)}-account en kijk '
-               f'{esc(homeN)} – {esc(awayN)} live</strong></a></p>')
+    out.append(cta_blok(prov, "stream", homeN, awayN))
     return "\n".join(out)
 
 # ---------- 'Waar te zien op tv': opsomming van alle zenders + streaming-bookmakers ----------
@@ -350,6 +349,30 @@ ZENDER_PAGINAS = [   # (patroon op zendernaam, slug van de zenderpagina)
     (r"^eurosport", "eurosport"), (r"^hbo max", "hbo-max"), (r"^kijk$", "kijk"), (r"^canal\+", "canal-plus"),
     (r"^f1 tv", "f1-tv"), (r"^eyecons", "eyecons"), (r"^onefootball", "onefootball"),
 ]
+# ---------- CTA-afbeelding per bookmaker (lk_cta.py; gebruiker 12 okt 2026) ----------
+def _cta_data():
+    try:
+        import json as _j, os as _o
+        return _j.load(open(_o.path.join(_o.path.dirname(_o.path.abspath(__file__)), "data", "cta_afbeeldingen.json"), encoding="utf-8"))
+    except Exception:
+        return {}
+_CTA = _cta_data()
+
+def cta_blok(prov, variant, homeN, awayN):
+    """Duidelijke affiliate-link ('👉 Klik hier: …'); lk-cta.js zet de klikbare CTA-afbeelding erboven. variant 'stream' (bookmaker zendt uit)
+    of 'wedden' (alleen live meewedden). De afbeelding staat op Cloudflare (be-static), niet bij Webflow."""
+    naam, link = prov["naam"], prov["link"]
+    slug = next((k for k, v in PROVIDERS.items() if v.get("link") == link), (naam or "").lower())
+    M = f"{esc(homeN)} – {esc(awayN)}"
+    if variant == "stream":
+        gratis = "" if prov.get("deposit", True) else "gratis "
+        tekst = f"👉 Klik hier: maak je {gratis}{esc(naam)}-account aan en kijk {M} live"
+    else:
+        tekst = f"👉 Klik hier: maak je {esc(naam)}-account aan en wed live mee op {M}"
+    # De afbeelding zelf zet lk-cta.js (be-static, Cloudflare) boven deze link: een <img> in de rich text
+    # zou Webflow naar zijn eigen CDN kopiëren en dan telt elke weergave mee voor de Webflow-bandbreedte.
+    return f'<p><a href="{link}"><strong>{tekst}</strong></a></p>'
+
 BOOKMAKER_PAGINAS = {"toto": "toto", "bet365": "bet365", "711": "711", "starcasino": "starcasino"}
 
 def zender_pagina(naam):
@@ -473,8 +496,7 @@ def _kijk_blok_gratis(prov, homeN, awayN, tv, dt, extra=None, voorbeschouwing=No
     out.append(f"<h3>Live meewedden op {M}</h3>")
     out.append(f"<p>Wil je tijdens de wedstrijd live meewedden? Bij {esc(prov['naam'])} volg je de actuele "
                f"live-odds van {M} en speel je in op het wedstrijdverloop.</p>")
-    out.append(f'<p><a href="{prov["link"]}"><strong>Open een account bij {esc(prov["naam"])} en wed live '
-               f'mee op {M}</strong></a></p>')
+    out.append(cta_blok(prov, "wedden", homeN, awayN))
     return "\n".join(out)
 
 def _kijk_blok_betaald(prov, homeN, awayN, tv, dt, comp, extra=None):
@@ -497,8 +519,7 @@ def _kijk_blok_betaald(prov, homeN, awayN, tv, dt, comp, extra=None):
     out.append(f"<h3>Live meewedden op {M}</h3>")
     out.append(f"<p>Wil je tijdens de wedstrijd live meewedden? Bij {esc(prov['naam'])} volg je de actuele "
                f"live-odds van {M} en speel je in op het wedstrijdverloop.</p>")
-    out.append(f'<p><a href="{prov["link"]}"><strong>Open een account bij {esc(prov["naam"])} en wed live '
-               f'mee op {M}</strong></a></p>')
+    out.append(cta_blok(prov, "wedden", homeN, awayN))
     return "\n".join(out)
 
 def _kijk_blok_basis(prov, homeN, awayN, tv, dt, comp):
@@ -517,8 +538,7 @@ def _kijk_blok_basis(prov, homeN, awayN, tv, dt, comp):
     out.append(f"<h3>Live meewedden op {M}</h3>")
     out.append(f"<p>Wil je tijdens de wedstrijd live meewedden? Bij {esc(prov['naam'])} volg je de actuele "
                f"live-odds van {M} en speel je in op het wedstrijdverloop.</p>")
-    out.append(f'<p><a href="{prov["link"]}"><strong>Open een account bij {esc(prov["naam"])} en wed live '
-               f'mee op {M}</strong></a></p>')
+    out.append(cta_blok(prov, "wedden", homeN, awayN))
     return "\n".join(out)
 
 # ---------- precieze zenderuitleg per competitie (ESPN / Ziggo Sport UEFA) ----------
@@ -598,8 +618,7 @@ def _kijk_blok_zender(prov, homeN, awayN, tv, dt, comp, soort, nl_club=False, co
     out.append(f"<h3>Live meewedden op {M}</h3>")
     out.append(f"<p>Wil je tijdens de wedstrijd live meewedden? Bij {esc(prov['naam'])} volg je de actuele "
                f"live-odds van {M} en speel je in op het wedstrijdverloop.</p>")
-    out.append(f'<p><a href="{prov["link"]}"><strong>Open een account bij {esc(prov["naam"])} en wed live '
-               f'mee op {M}</strong></a></p>')
+    out.append(cta_blok(prov, "wedden", homeN, awayN))
     return "\n".join(out)
 
 def _faq_zender(homeN, awayN, comp, dt, tv, soort, nl_club=False, competitiefase=False):

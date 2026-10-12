@@ -1,0 +1,74 @@
+{
+ "toto|stream": {
+  "url": "https://www.bet-experts.nl/be-static/cta-toto-stream-539489db.webp",
+  "mobiel": "https://www.bet-experts.nl/be-static/cta-toto-stream-m-234f24d3.webp",
+  "alt": "Kijk live via TOTO: klik om gratis een account aan te maken en live te kijken",
+  "w": 1400,
+  "h": 514,
+  "mw": 1080,
+  "mh": 960
+ },
+ "toto|wedden": {
+  "url": "https://www.bet-experts.nl/be-static/cta-toto-wedden-2186c9ae.webp",
+  "mobiel": "https://www.bet-experts.nl/be-static/cta-toto-wedden-m-a89a68df.webp",
+  "alt": "Wed live mee bij TOTO: klik om een account aan te maken",
+  "w": 1400,
+  "h": 514,
+  "mw": 1080,
+  "mh": 960
+ },
+ "bet365|stream": {
+  "url": "https://www.bet-experts.nl/be-static/cta-bet365-stream-bae0a14a.webp",
+  "mobiel": "https://www.bet-experts.nl/be-static/cta-bet365-stream-m-f8410820.webp",
+  "alt": "Kijk live via Bet365: klik om een account aan te maken en live te kijken",
+  "w": 1400,
+  "h": 514,
+  "mw": 1080,
+  "mh": 960
+ },
+ "bet365|wedden": {
+  "url": "https://www.bet-experts.nl/be-static/cta-bet365-wedden-b6db3b98.webp",
+  "mobiel": "https://www.bet-experts.nl/be-static/cta-bet365-wedden-m-f27ebea1.webp",
+  "alt": "Wed live mee bij Bet365: klik om een account aan te maken",
+  "w": 1400,
+  "h": 514,
+  "mw": 1080,
+  "mh": 960
+ },
+ "711|stream": {
+  "url": "https://www.bet-experts.nl/be-static/cta-711-stream-7c5abd2d.webp",
+  "mobiel": "https://www.bet-experts.nl/be-static/cta-711-stream-m-b60539e4.webp",
+  "alt": "Kijk live via 711: klik om gratis een account aan te maken en live te kijken",
+  "w": 1400,
+  "h": 514,
+  "mw": 1080,
+  "mh": 960
+ },
+ "711|wedden": {
+  "url": "https://www.bet-experts.nl/be-static/cta-711-wedden-59c0e942.webp",
+  "mobiel": "https://www.bet-experts.nl/be-static/cta-711-wedden-m-3faf85af.webp",
+  "alt": "Wed live mee bij 711: klik om een account aan te maken",
+  "w": 1400,
+  "h": 514,
+  "mw": 1080,
+  "mh": 960
+ },
+ "starcasino|stream": {
+  "url": "https://www.bet-experts.nl/be-static/cta-starcasino-stream-51637b04.webp",
+  "mobiel": "https://www.bet-experts.nl/be-static/cta-starcasino-stream-m-20b876d3.webp",
+  "alt": "Kijk live via Starcasino: klik om gratis een account aan te maken en live te kijken",
+  "w": 1400,
+  "h": 514,
+  "mw": 1080,
+  "mh": 960
+ },
+ "starcasino|wedden": {
+  "url": "https://www.bet-experts.nl/be-static/cta-starcasino-wedden-db19fa70.webp",
+  "mobiel": "https://www.bet-experts.nl/be-static/cta-starcasino-wedden-m-cdd1af1b.webp",
+  "alt": "Wed live mee bij Starcasino: klik om een account aan te maken",
+  "w": 1400,
+  "h": 514,
+  "mw": 1080,
+  "mh": 960
+ }
+}
