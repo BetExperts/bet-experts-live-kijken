@@ -219,7 +219,7 @@ def schrijf_js(kaart):
     linkjes = {slug: PROVIDERS[slug]["link"].split("//", 1)[1].split("/", 1)[0] for slug in PROVIDERS}
     js = """(function(){
 var K=%s,D=%s;
-var css=".lkcta{display:block;position:relative;margin:22px 0 10px;border-radius:18px;overflow:hidden;line-height:0;text-decoration:none!important;box-shadow:0 6px 20px rgba(0,0,0,.18);transition:transform .25s ease,box-shadow .25s ease}"+
+var css=".lkcta{display:block;position:relative;margin:22px 0 10px;border-radius:18px;background:#0b1117;overflow:hidden;line-height:0;text-decoration:none!important;box-shadow:0 6px 20px rgba(0,0,0,.18);transition:transform .25s ease,box-shadow .25s ease}"+
 ".lkcta img{display:block;width:100%%;height:auto;border-radius:18px;transition:transform .45s ease,filter .3s ease}"+
 ".lkcta:after{content:'';position:absolute;inset:0;background:linear-gradient(110deg,transparent 35%%,rgba(255,255,255,.16) 50%%,transparent 65%%);transform:translateX(-130%%);pointer-events:none}"+
 ".lkcta:hover{transform:translateY(-3px);box-shadow:0 14px 34px rgba(22,154,71,.30),0 0 0 2px rgba(111,207,143,.65)}"+
