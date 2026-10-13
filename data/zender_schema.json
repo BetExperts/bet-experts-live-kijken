@@ -1,15 +1,6 @@
 {
-"bijgewerkt": "2026-10-13T12:53:20.914639+00:00",
+"bijgewerkt": "2026-10-13T13:24:31.117759+00:00",
 "uitzendingen": [
-{
-"ko": "2026-10-13T10:00:00+00:00",
-"titel": "Alexander Zverev – Alexander Bublik",
-"comp": "ATP Tour",
-"sport": "tennis",
-"zenders": [],
-"streams": [],
-"url": null
-},
 {
 "ko": "2026-10-13T12:00:00+00:00",
 "titel": "RB Leipzig U19 – PSV U19",
@@ -56,7 +47,7 @@
 },
 {
 "ko": "2026-10-13T18:15:00+00:00",
-"titel": "Al Ittihad Club – Shabab Al Ahli",
+"titel": "Al-Ittihad FC – Shabab Al Ahli Dubai",
 "comp": "AFC Champions League",
 "sport": "voetbal",
 "zenders": [
@@ -68,10 +59,12 @@
 {
 "ko": "2026-10-13T18:45:00+00:00",
 "titel": "Nederland – Hongarije",
-"comp": "Women's World Cup Qualification",
+"comp": "WK Kwalificatie Vrouwen",
 "sport": "voetbal",
 "zenders": [
-"NPO 3"
+"NPO 3",
+"NOS Live",
+"NOS app"
 ],
 "streams": [],
 "url": null
@@ -160,6 +153,17 @@
 "sport": "voetbal",
 "zenders": [
 "Viaplay"
+],
+"streams": [],
+"url": null
+},
+{
+"ko": "2026-10-13T20:00:00+00:00",
+"titel": "Estudiantes L.P. – CR Flamengo",
+"comp": "Copa Libertadores",
+"sport": "voetbal",
+"zenders": [
+"ESPN 1"
 ],
 "streams": [],
 "url": null
@@ -2049,6 +2053,107 @@
 "sport": "voetbal",
 "zenders": [
 "Viaplay"
+],
+"streams": [],
+"url": null
+},
+{
+"ko": "2026-10-20T11:00:00+00:00",
+"titel": "Porto O19 – PSV O19",
+"comp": "UEFA Youth League",
+"sport": "voetbal",
+"zenders": [
+"Ziggo Sport 1",
+"Ziggo Sport 2"
+],
+"streams": [],
+"url": null
+},
+{
+"ko": "2026-10-20T16:45:00+00:00",
+"titel": "Fenerbahçe SK – SK Slavia Praag",
+"comp": "UEFA Champions League",
+"sport": "voetbal",
+"zenders": [
+"Ziggo Sport 1",
+"Ziggo Sport 2"
+],
+"streams": [],
+"url": null
+},
+{
+"ko": "2026-10-20T16:45:00+00:00",
+"titel": "Sabah FA – Borussia Dortmund",
+"comp": "UEFA Champions League",
+"sport": "voetbal",
+"zenders": [
+"Ziggo Sport 3"
+],
+"streams": [],
+"url": null
+},
+{
+"ko": "2026-10-20T19:00:00+00:00",
+"titel": "AS Roma – Slovan Bratislava",
+"comp": "UEFA Champions League",
+"sport": "voetbal",
+"zenders": [
+"Ziggo Sport 6"
+],
+"streams": [],
+"url": null
+},
+{
+"ko": "2026-10-20T19:00:00+00:00",
+"titel": "FC Porto – PSV",
+"comp": "UEFA Champions League",
+"sport": "voetbal",
+"zenders": [
+"Ziggo Sport 1"
+],
+"streams": [],
+"url": null
+},
+{
+"ko": "2026-10-20T19:00:00+00:00",
+"titel": "Gillingham – Port Vale",
+"comp": "EFL League Two",
+"sport": "voetbal",
+"zenders": [
+"Viaplay"
+],
+"streams": [],
+"url": null
+},
+{
+"ko": "2026-10-20T19:00:00+00:00",
+"titel": "Liverpool – Villarreal",
+"comp": "UEFA Champions League",
+"sport": "voetbal",
+"zenders": [
+"Ziggo Sport 3"
+],
+"streams": [],
+"url": null
+},
+{
+"ko": "2026-10-20T19:00:00+00:00",
+"titel": "Manchester City – AEK Athens FC",
+"comp": "UEFA Champions League",
+"sport": "voetbal",
+"zenders": [
+"Ziggo Sport 5"
+],
+"streams": [],
+"url": null
+},
+{
+"ko": "2026-10-20T19:00:00+00:00",
+"titel": "Paris Saint-Germain F.C. – FC Barcelona",
+"comp": "UEFA Champions League",
+"sport": "voetbal",
+"zenders": [
+"Ziggo Sport 2"
 ],
 "streams": [],
 "url": null
