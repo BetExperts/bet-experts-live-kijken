@@ -1408,7 +1408,8 @@
       ]
     ],
     "ronde": "Regular Season - 9",
-    "og": "og/eredivisie-speelronde-9-op-tv-16-oktober-2026-3498a9.webp"
+    "og": "og/eredivisie-speelronde-9-op-tv-16-oktober-2026-3498a9.webp",
+    "og_done": "og/eredivisie-speelronde-9-op-tv-16-oktober-2026-3498a9.webp"
   },
   "hub:keuken-kampioen-divisie-speelronde-11-op-tv-16-oktober-2026": {
     "item_id": "6ace853731ffe75f4798f568",
@@ -1471,7 +1472,8 @@
       ]
     ],
     "ronde": "Regular Season - 11",
-    "og": "og/keuken-kampioen-divisie-speelronde-11-op-tv-16-oktober-2026-c33381.webp"
+    "og": "og/keuken-kampioen-divisie-speelronde-11-op-tv-16-oktober-2026-c33381.webp",
+    "og_done": "og/keuken-kampioen-divisie-speelronde-11-op-tv-16-oktober-2026-c33381.webp"
   },
   "hub:la-liga-speelronde-9-op-tv-16-oktober-2026": {
     "item_id": "6ace8539aeff3716209375fd",
@@ -1534,7 +1536,8 @@
       ]
     ],
     "ronde": "Regular Season - 9",
-    "og": "og/la-liga-speelronde-9-op-tv-16-oktober-2026-122209.webp"
+    "og": "og/la-liga-speelronde-9-op-tv-16-oktober-2026-122209.webp",
+    "og_done": "og/la-liga-speelronde-9-op-tv-16-oktober-2026-122209.webp"
   },
   "hub:serie-a-speelronde-7-op-tv-16-oktober-2026": {
     "item_id": "6ace853b595e10ce42f4cb92",
@@ -1597,7 +1600,8 @@
       ]
     ],
     "ronde": "Regular Season - 7",
-    "og": "og/serie-a-speelronde-7-op-tv-16-oktober-2026-1f7079.webp"
+    "og": "og/serie-a-speelronde-7-op-tv-16-oktober-2026-1f7079.webp",
+    "og_done": "og/serie-a-speelronde-7-op-tv-16-oktober-2026-1f7079.webp"
   },
   "hub:bundesliga-speelronde-6-op-tv-16-oktober-2026": {
     "item_id": "6ace853d9efbd056f1c67446",
@@ -1655,7 +1659,8 @@
       ]
     ],
     "ronde": "Regular Season - 6",
-    "og": "og/bundesliga-speelronde-6-op-tv-16-oktober-2026-1e80fc.webp"
+    "og": "og/bundesliga-speelronde-6-op-tv-16-oktober-2026-1e80fc.webp",
+    "og_done": "og/bundesliga-speelronde-6-op-tv-16-oktober-2026-1e80fc.webp"
   },
   "hub:ligue-1-speelronde-7-op-tv-16-oktober-2026": {
     "item_id": "6ace85406a5b05f7e4c40b5c",
@@ -1713,6 +1718,7 @@
       ]
     ],
     "ronde": "Regular Season - 7",
-    "og": "og/ligue-1-speelronde-7-op-tv-16-oktober-2026-f3d310.webp"
+    "og": "og/ligue-1-speelronde-7-op-tv-16-oktober-2026-f3d310.webp",
+    "og_done": "og/ligue-1-speelronde-7-op-tv-16-oktober-2026-f3d310.webp"
   }
 }
