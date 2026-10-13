@@ -65,7 +65,7 @@
     "date": "2026-10-12",
     "league": "premier-league",
     "hub": true,
-    "sig": "01c0198daa023dcae3f576319088716c",
+    "sig": "30b4afad6467e8d852d6bbd35d8d7488",
     "og": "og/premier-league-speelronde-6-op-tv-10-oktober-2026-aace43.webp",
     "og_done": "og/premier-league-speelronde-6-op-tv-10-oktober-2026-aace43.webp",
     "pairs": [
@@ -129,7 +129,7 @@
     "date": "2026-10-12",
     "league": "la-liga",
     "hub": true,
-    "sig": "3cffe4e4506f1267cfdf4cf05d0f0fa7",
+    "sig": "5eca827e1776766ba60e168bde267afc",
     "og": "og/la-liga-speelronde-8-op-tv-9-oktober-2026-b68fca.webp",
     "og_done": "og/la-liga-speelronde-8-op-tv-9-oktober-2026-b68fca.webp",
     "pairs": [
@@ -311,7 +311,7 @@
     "date": "2026-10-12",
     "league": "super-lig",
     "hub": true,
-    "sig": "61a12b1a9966fa2bdc2bbc0c7541fac1",
+    "sig": "9501a56528f1b86e52488f68343135de",
     "og": "og/super-lig-speelronde-7-op-tv-9-oktober-2026-c92c0a.webp",
     "og_done": "og/super-lig-speelronde-7-op-tv-9-oktober-2026-c92c0a.webp",
     "pairs": [
@@ -429,7 +429,7 @@
     "date": "2026-10-12",
     "league": "serie-a",
     "hub": true,
-    "sig": "b5b0cc166bb2195f7fa092a12e970c3c",
+    "sig": "957e1d19990820bb7a73a0d60302daa0",
     "pairs": [
       [
         "495",
@@ -987,7 +987,7 @@
     "date": "2026-10-14",
     "league": "champions-league",
     "hub": true,
-    "sig": "68c386b2bf674fe511f1243a31ca2374",
+    "sig": "8439e2d4732cebb79f04a06949b3589d",
     "pairs": [
       [
         "116",
@@ -1092,7 +1092,7 @@
     "date": "2026-10-15",
     "league": "europa-league",
     "hub": true,
-    "sig": "13a711ff4c177eb006c4175e4c43778d",
+    "sig": "17add2177a5686c7c5b677a63f39a184",
     "pairs": [
       [
         "52",
@@ -1196,7 +1196,7 @@
     "date": "2026-10-15",
     "league": "conference-league",
     "hub": true,
-    "sig": "b43db491d3fea31260f7271e9f5bf289",
+    "sig": "232db494e77f9d20f90fd5a481412b08",
     "pairs": [
       [
         "598",
