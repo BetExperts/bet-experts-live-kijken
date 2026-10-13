@@ -987,7 +987,7 @@
     "date": "2026-10-14",
     "league": "champions-league",
     "hub": true,
-    "sig": "025127597e54a32b7fcf98837fb3df22",
+    "sig": "d6178ece4f338c9064433f407842e3fb",
     "pairs": [
       [
         "116",
@@ -997,6 +997,11 @@
       [
         "13976",
         "560",
+        "2026-10-13"
+      ],
+      [
+        "529",
+        "645",
         "2026-10-13"
       ],
       [
@@ -1020,18 +1025,13 @@
         "2026-10-13"
       ],
       [
-        "492",
-        "533",
-        "2026-10-13"
-      ],
-      [
-        "529",
-        "645",
-        "2026-10-13"
-      ],
-      [
         "157",
         "759",
+        "2026-10-13"
+      ],
+      [
+        "492",
+        "533",
         "2026-10-13"
       ],
       [
@@ -1720,5 +1720,89 @@
     "ronde": "Regular Season - 7",
     "og": "og/ligue-1-speelronde-7-op-tv-16-oktober-2026-f3d310.webp",
     "og_done": "og/ligue-1-speelronde-7-op-tv-16-oktober-2026-f3d310.webp"
+  },
+  "1635665": {
+    "item_id": "6acea7ca7a7f0fc844e94132",
+    "slug": "feyenoord-como-live-gratis-kijken-14-10-2026",
+    "match": "Feyenoord - Como",
+    "date": "2026-10-14",
+    "league": "champions-league",
+    "provider": "Bet365",
+    "home_id": "209",
+    "away_id": "895",
+    "tv_sig": "Ziggo Sport 1|Bet365|False|True",
+    "og": "og/feyenoord-como-live-gratis-kijken-14-10-2026-f6baf9.webp"
+  },
+  "1635674": {
+    "item_id": "6acea7cd66c00df18c167603",
+    "slug": "lask-linz-liverpool-live-gratis-kijken-14-10-2026",
+    "match": "LASK - Liverpool",
+    "date": "2026-10-14",
+    "league": "champions-league",
+    "provider": "Bet365",
+    "home_id": "1026",
+    "away_id": "40",
+    "tv_sig": "Ziggo Sport 3|Bet365|False|True",
+    "og": "og/lask-linz-liverpool-live-gratis-kijken-14-10-2026-a3bad3.webp"
+  },
+  "1635690": {
+    "item_id": "6acea7cfea6c7711b5ab7eb6",
+    "slug": "manchester-city-paris-saint-germain-psg-live-gratis-kijken-14-10-2026",
+    "match": "Manchester City - Paris Saint-Germain",
+    "date": "2026-10-14",
+    "league": "champions-league",
+    "provider": "Bet365",
+    "home_id": "50",
+    "away_id": "85",
+    "tv_sig": "Ziggo Sport 1|Bet365|False|True",
+    "og": "og/manchester-city-paris-saint-germain-psg-live-gratis-kijken-14-10-2026-e71d8b.webp"
+  },
+  "1635620": {
+    "item_id": "6acea7d29eb41a72b7423de0",
+    "slug": "aston-villa-fenerbahce-live-gratis-kijken-14-10-2026",
+    "match": "Aston Villa - Fenerbahçe",
+    "date": "2026-10-14",
+    "league": "champions-league",
+    "provider": "Bet365",
+    "home_id": "66",
+    "away_id": "611",
+    "tv_sig": "Ziggo Sport 5|Bet365|False|True",
+    "og": "og/aston-villa-fenerbahce-live-gratis-kijken-14-10-2026-c711f2.webp"
+  },
+  "1635639": {
+    "item_id": "6acea7d4ea4e733dc95ff92e",
+    "slug": "bodo-glimt-borussia-dortmund-live-gratis-kijken-14-10-2026",
+    "match": "Bodø/Glimt - Borussia Dortmund",
+    "date": "2026-10-14",
+    "league": "champions-league",
+    "provider": "Bet365",
+    "home_id": "327",
+    "away_id": "165",
+    "tv_sig": "Ziggo Sport 6|Bet365|False|True",
+    "og": "og/bodo-glimt-borussia-dortmund-live-gratis-kijken-14-10-2026-34e9b6.webp"
+  },
+  "1635614": {
+    "item_id": "6acea7d7112858bdc4677cc0",
+    "slug": "as-roma-real-madrid-live-gratis-kijken-14-10-2026",
+    "match": "AS Roma - Real Madrid",
+    "date": "2026-10-14",
+    "league": "champions-league",
+    "provider": "Bet365",
+    "home_id": "497",
+    "away_id": "541",
+    "tv_sig": "Ziggo Sport 3|Bet365|False|True",
+    "og": "og/as-roma-real-madrid-live-gratis-kijken-14-10-2026-54fdca.webp"
+  },
+  "1635635": {
+    "item_id": "6acea7d934eb64db176f7ed1",
+    "slug": "real-betis-fc-porto-live-gratis-kijken-14-10-2026",
+    "match": "Real Betis - FC Porto",
+    "date": "2026-10-14",
+    "league": "champions-league",
+    "provider": "Bet365",
+    "home_id": "543",
+    "away_id": "212",
+    "tv_sig": "Ziggo Sport|Bet365|False|True",
+    "og": "og/real-betis-fc-porto-live-gratis-kijken-14-10-2026-6996db.webp"
   }
 }

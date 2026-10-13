@@ -1,50 +1,6 @@
 {
-"bijgewerkt": "2026-10-13T19:23:50.405232+00:00",
+"bijgewerkt": "2026-10-13T21:52:14.307549+00:00",
 "uitzendingen": [
-{
-"ko": "2026-10-13T16:45:00+00:00",
-"titel": "Lens – Sporting CP",
-"comp": "Champions League",
-"sport": "voetbal",
-"zenders": [
-"Ziggo Sport 2"
-],
-"streams": [],
-"url": "/nieuws/lens-sporting-cp-live-gratis-kijken-13-10-2026"
-},
-{
-"ko": "2026-10-13T16:45:00+00:00",
-"titel": "Sabah FA – Slavia Praha",
-"comp": "Champions League",
-"sport": "voetbal",
-"zenders": [
-"Ziggo Sport 3"
-],
-"streams": [],
-"url": null
-},
-{
-"ko": "2026-10-13T18:15:00+00:00",
-"titel": "Al Ittihad Club – Shabab Al Ahli",
-"comp": "AFC Champions League",
-"sport": "voetbal",
-"zenders": [
-"ESPN 1"
-],
-"streams": [],
-"url": null
-},
-{
-"ko": "2026-10-13T18:45:00+00:00",
-"titel": "Nederland – Hongarije",
-"comp": "Women's World Cup Qualification",
-"sport": "voetbal",
-"zenders": [
-"NPO 3"
-],
-"streams": [],
-"url": null
-},
 {
 "ko": "2026-10-13T19:00:00+00:00",
 "titel": "Arsenal – Lille",
@@ -439,7 +395,7 @@
 "Ziggo Sport 3"
 ],
 "streams": [],
-"url": null
+"url": "/nieuws/lask-linz-liverpool-live-gratis-kijken-14-10-2026"
 },
 {
 "ko": "2026-10-14T16:45:00+00:00",
@@ -450,7 +406,7 @@
 "Ziggo Sport 1"
 ],
 "streams": [],
-"url": null
+"url": "/nieuws/feyenoord-como-live-gratis-kijken-14-10-2026"
 },
 {
 "ko": "2026-10-14T19:00:00+00:00",
@@ -461,40 +417,7 @@
 "Ziggo Sport 1"
 ],
 "streams": [],
-"url": null
-},
-{
-"ko": "2026-10-14T19:00:00+00:00",
-"titel": "Aston Villa – Fenerbahce",
-"comp": "Champions League",
-"sport": "voetbal",
-"zenders": [
-"Ziggo Sport 5"
-],
-"streams": [],
-"url": null
-},
-{
-"ko": "2026-10-14T19:00:00+00:00",
-"titel": "Bodo/Glimt – Borussia Dortmund",
-"comp": "Champions League",
-"sport": "voetbal",
-"zenders": [
-"Ziggo Sport 6"
-],
-"streams": [],
-"url": null
-},
-{
-"ko": "2026-10-14T19:00:00+00:00",
-"titel": "AS Roma – Real Madrid",
-"comp": "Champions League",
-"sport": "voetbal",
-"zenders": [
-"Ziggo Sport 3"
-],
-"streams": [],
-"url": null
+"url": "/nieuws/manchester-city-paris-saint-germain-psg-live-gratis-kijken-14-10-2026"
 },
 {
 "ko": "2026-10-14T19:00:00+00:00",
@@ -502,10 +425,10 @@
 "comp": "Champions League",
 "sport": "voetbal",
 "zenders": [
-"Ziggo Sport 1"
+"Ziggo Sport"
 ],
 "streams": [],
-"url": null
+"url": "/nieuws/real-betis-fc-porto-live-gratis-kijken-14-10-2026"
 },
 {
 "ko": "2026-10-14T19:00:00+00:00",
@@ -528,6 +451,39 @@
 ],
 "streams": [],
 "url": null
+},
+{
+"ko": "2026-10-14T19:00:00+00:00",
+"titel": "AS Roma – Real Madrid",
+"comp": "UEFA Champions League",
+"sport": "voetbal",
+"zenders": [
+"Ziggo Sport 3"
+],
+"streams": [],
+"url": "/nieuws/as-roma-real-madrid-live-gratis-kijken-14-10-2026"
+},
+{
+"ko": "2026-10-14T19:00:00+00:00",
+"titel": "Aston Villa – Fenerbahçe SK",
+"comp": "UEFA Champions League",
+"sport": "voetbal",
+"zenders": [
+"Ziggo Sport 5"
+],
+"streams": [],
+"url": "/nieuws/aston-villa-fenerbahce-live-gratis-kijken-14-10-2026"
+},
+{
+"ko": "2026-10-14T19:00:00+00:00",
+"titel": "Bodø / Glimt – Borussia Dortmund",
+"comp": "UEFA Champions League",
+"sport": "voetbal",
+"zenders": [
+"Ziggo Sport 6"
+],
+"streams": [],
+"url": "/nieuws/bodo-glimt-borussia-dortmund-live-gratis-kijken-14-10-2026"
 },
 {
 "ko": "2026-10-14T19:00:00+00:00",
@@ -569,28 +525,6 @@
 "sport": "voetbal",
 "zenders": [
 "ESPN 1"
-],
-"streams": [],
-"url": null
-},
-{
-"ko": "2026-10-15T16:45:00+00:00",
-"titel": "AZ – Hapoel Beer Sheva",
-"comp": "Europa League",
-"sport": "voetbal",
-"zenders": [
-"Ziggo Sport 2"
-],
-"streams": [],
-"url": null
-},
-{
-"ko": "2026-10-15T16:45:00+00:00",
-"titel": "Lech Poznan – Bayer Leverkusen",
-"comp": "Europa League",
-"sport": "voetbal",
-"zenders": [
-"Ziggo Sport 1"
 ],
 "streams": [],
 "url": null
@@ -673,19 +607,19 @@
 "url": null
 },
 {
-"ko": "2026-10-15T18:00:00+00:00",
-"titel": "Al Ahli – Al Nassr",
-"comp": "Saudi Pro League",
+"ko": "2026-10-15T16:45:00+00:00",
+"titel": "AZ – Hapoel Beer Sheva",
+"comp": "Europa League",
 "sport": "voetbal",
 "zenders": [
-"KIJK"
+"Ziggo Sport 2"
 ],
 "streams": [],
 "url": null
 },
 {
-"ko": "2026-10-15T19:00:00+00:00",
-"titel": "1899 Hoffenheim – Besiktas",
+"ko": "2026-10-15T16:45:00+00:00",
+"titel": "Lech Poznan – Bayer Leverkusen",
 "comp": "Europa League",
 "sport": "voetbal",
 "zenders": [
@@ -695,12 +629,12 @@
 "url": null
 },
 {
-"ko": "2026-10-15T19:00:00+00:00",
-"titel": "Benfica – Celtic",
-"comp": "Europa League",
+"ko": "2026-10-15T18:00:00+00:00",
+"titel": "Al Ahli – Al Nassr",
+"comp": "Saudi Pro League",
 "sport": "voetbal",
 "zenders": [
-"Ziggo Sport 5"
+"KIJK"
 ],
 "streams": [],
 "url": null
@@ -800,6 +734,28 @@
 "sport": "voetbal",
 "zenders": [
 "Ziggo Sport 1"
+],
+"streams": [],
+"url": null
+},
+{
+"ko": "2026-10-15T19:00:00+00:00",
+"titel": "1899 Hoffenheim – Besiktas",
+"comp": "Europa League",
+"sport": "voetbal",
+"zenders": [
+"Ziggo Sport 1"
+],
+"streams": [],
+"url": null
+},
+{
+"ko": "2026-10-15T19:00:00+00:00",
+"titel": "Benfica – Celtic",
+"comp": "Europa League",
+"sport": "voetbal",
+"zenders": [
+"Ziggo Sport 5"
 ],
 "streams": [],
 "url": null
