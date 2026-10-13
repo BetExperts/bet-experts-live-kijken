@@ -39,6 +39,8 @@ HUBS = OrderedDict([
     ("super-lig", ("Süper Lig", "super-lig", "66ed7d481dc85d2ca649595c", None, "stream")),
     ("jupiler-pro-league", ("Jupiler Pro League", "jupiler-pro-league", "65de4c16dd6eb829e1867f4b", "DAZN", "dazn")),
     ("champions-league", ("Champions League", "champions-league", "65de4adac046f4488dfdebc2", "Ziggo Sport", "ziggo-uefa")),
+    ("europa-league", ("Europa League", "europa-league", "65de4be481512ad1b77740b1", "Ziggo Sport", "ziggo-el")),
+    ("conference-league", ("Conference League", "conference-league", "65de4bf0f348c222f01bed83", "Ziggo Sport", "ziggo-ecl")),
 ])
 GRATIS_UITLEG = {
     "espn": ("ESPN 1 is gratis: de zender zit standaard in elk tv-pakket, dus die wedstrijden kijk je zonder extra "
@@ -50,6 +52,13 @@ GRATIS_UITLEG = {
                 "Gratis tv-uitzendingen zijn er in deze competitie niet."),
     "dazn": ("De Jupiler Pro League zie je in Nederland bij DAZN, een betaalde streamingdienst. Bij 711 kun je met een "
              "account een deel van de wedstrijden gratis live meekijken."),
+    "ziggo-el": ("De Europa League is in Nederland te zien bij Ziggo Sport. Ziggo Sport 1 is het open kanaal: Ziggo-klanten kijken "
+                 "daar zonder extra kosten mee met hun gewone tv-pakket. Voor de andere Ziggo Sport-kanalen heb je Ziggo Sport Totaal "
+                 "nodig, te boeken bij Ziggo, KPN en Odido. Wedstrijden met Nederlandse clubs krijgen meestal een plek op Ziggo Sport 1."),
+    "ziggo-ecl": ("De Conference League is in Nederland te zien bij Ziggo Sport, net als de Europa League. Ziggo Sport 1 is het open "
+                  "kanaal: Ziggo-klanten kijken daar zonder extra kosten mee met hun gewone tv-pakket. Voor de andere Ziggo Sport-kanalen "
+                  "heb je Ziggo Sport Totaal nodig, te boeken bij Ziggo, KPN en Odido. Wedstrijden met Nederlandse clubs krijgen meestal "
+                  "een plek op Ziggo Sport 1."),
     "ziggo-uefa": ("Alle wedstrijden van de Champions League zijn in Nederland te zien bij Ziggo Sport, dat de rechten heeft "
                    "tot en met het seizoen 2030/31. Ziggo Sport 1 is het open kanaal: Ziggo-klanten kijken daar zonder extra kosten "
                    "mee met hun gewone tv-pakket. Voor de andere Ziggo Sport-kanalen heb je Ziggo Sport Totaal nodig, te boeken bij "
@@ -76,6 +85,8 @@ def zender_van(card, default, soort):
             if tv == "Ziggo Sport 1":
                 return tv, "ziggo"                  # open kanaal: gratis voor Ziggo-klanten
             if card.get("gratis"):
+                if tv.startswith("Ziggo Sport"):
+                    return tv, "ziggo"               # gratis = voor Ziggo-klanten, niet in elk basispakket
                 return tv, ("gratis" if npo else "basispakket")
             return tv, None
         if card.get("bookmakers"):

@@ -100,10 +100,12 @@ def is_topper(fx, cfg):
     """True als de wedstrijd een 'topper' is (of als de competitie geen filter kent)."""
     if not cfg.get("toppers_only"):
         return True
-    tops = [t.lower() for t in cfg.get("top_teams", [])]
+    import unicodedata
+    plat = lambda x: unicodedata.normalize("NFKD", x).encode("ascii", "ignore").decode().lower()   # Beşiktaş -> besiktas
+    tops = [plat(t) for t in cfg.get("top_teams", [])]
     t = fx.get("teams", {})
-    names = ((t.get("home", {}) or {}).get("name", "") + " | " +
-             (t.get("away", {}) or {}).get("name", "")).lower()
+    names = plat((t.get("home", {}) or {}).get("name", "") + " | " +
+                 (t.get("away", {}) or {}).get("name", ""))
     teams = [n.strip() for n in names.split("|")]
     # '=naam' = exacte teamnaam (bv. '=inter' niet laten matchen op 'Inter Club d'Escaldes')
     return any((n == top[1:]) if top.startswith("=") else (top in n) for top in tops for n in teams)
@@ -123,6 +125,11 @@ EU_TOPPERS = ["real madrid", "barcelona", "bayern", "paris saint germain", "manc
               "liverpool", "arsenal", "chelsea", "tottenham", "=inter", "juventus", "ac milan", "napoli", "atletico madrid",
               "borussia dortmund", "bayer leverkusen", "benfica", "porto", "sporting cp", "galatasaray", "fenerbahce",
               "besiktas", "club brugge", "anderlecht", "celtic", "rangers", "as roma", "lazio"]
+# Belgische clubs (veel Vlaamse/Nederlandse kijkers) en extra namen die in Europa League/Conference League toppers zijn
+BE_CLUBS = ["club brugge", "anderlecht", "genk", "gent", "antwerp", "standard", "union st", "st. truiden", "sint-truiden",
+            "cercle brugge", "westerlo", "mechelen", "charleroi"]
+EU_EXTRA = ["lyon", "marseille", "olympiakos", "real sociedad", "crystal palace", "atalanta", "brighton", "fc copenhagen",
+            "sc braga", "aston villa", "fiorentina", "eintracht frankfurt", "vfb stuttgart"]
 
 LEAGUES = [
     {"worker_slug": "super-lig", "comp_slug": "super-lig", "naam": "Süper Lig",
@@ -212,12 +219,12 @@ LEAGUES = [
     {"worker_slug": "europa-league", "comp_slug": "europa-league", "naam": "Europa League",
      "comp_id": "65de4be481512ad1b77740b1", "tv": "Ziggo Sport", "zender_soort": "ziggo-uefa",
      "bookmaker_stream": False, "force_provider": "toto", "toppers_only": True,
-     "nl_clubs": NL_CLUBS, "top_teams": NL_CLUBS + EU_TOPPERS,
+     "nl_clubs": NL_CLUBS, "top_teams": NL_CLUBS + BE_CLUBS + EU_TOPPERS + EU_EXTRA,
      "angle": "De Europa League is in Nederland te zien bij Ziggo Sport, dat de rechten heeft tot en met het seizoen 2030/31."},
     {"worker_slug": "conference-league", "comp_slug": "conference-league", "naam": "Conference League",
      "comp_id": "65de4bf0f348c222f01bed83", "tv": "Ziggo Sport", "zender_soort": "ziggo-uefa",
      "bookmaker_stream": False, "force_provider": "bet365", "toppers_only": True,
-     "nl_clubs": NL_CLUBS, "top_teams": NL_CLUBS + EU_TOPPERS,
+     "nl_clubs": NL_CLUBS, "top_teams": NL_CLUBS + BE_CLUBS + EU_TOPPERS + EU_EXTRA,
      "angle": "De Conference League is in Nederland te zien bij Ziggo Sport, net als de Europa League."},
     # Nations League: alle duels zijn te zien op Ziggo Sport (betaald); Oranje gratis op NPO.
     # bookmaker_stream=False: standaard geen stream beloven en de aanbieder alleen voor live
