@@ -65,7 +65,7 @@
     "date": "2026-10-12",
     "league": "premier-league",
     "hub": true,
-    "sig": "8c6fa2fc7052b8914d62cc181c26f103",
+    "sig": "96eebd82bd9e1fc1fbf82c77c4cc48e1",
     "og": "og/premier-league-speelronde-6-op-tv-10-oktober-2026-aace43.webp",
     "og_done": "og/premier-league-speelronde-6-op-tv-10-oktober-2026-aace43.webp",
     "pairs": [
@@ -129,7 +129,7 @@
     "date": "2026-10-12",
     "league": "la-liga",
     "hub": true,
-    "sig": "86b7727f9decfbe721d50955e67ffec8",
+    "sig": "51ae95119cc78d0db4e643a3cab0ca54",
     "og": "og/la-liga-speelronde-8-op-tv-9-oktober-2026-b68fca.webp",
     "og_done": "og/la-liga-speelronde-8-op-tv-9-oktober-2026-b68fca.webp",
     "pairs": [
@@ -311,7 +311,7 @@
     "date": "2026-10-12",
     "league": "super-lig",
     "hub": true,
-    "sig": "7313f3db3dc12c2bb51233adebccb6a2",
+    "sig": "6d2ddd117287f40b9b72f4700b3d602b",
     "og": "og/super-lig-speelronde-7-op-tv-9-oktober-2026-c92c0a.webp",
     "og_done": "og/super-lig-speelronde-7-op-tv-9-oktober-2026-c92c0a.webp",
     "pairs": [
@@ -429,7 +429,7 @@
     "date": "2026-10-12",
     "league": "serie-a",
     "hub": true,
-    "sig": "62c32c576d1350d78a1daf0752be5e94",
+    "sig": "afd3c3248b81a94c8f4770ba6fd45b97",
     "pairs": [
       [
         "495",
@@ -987,7 +987,7 @@
     "date": "2026-10-14",
     "league": "champions-league",
     "hub": true,
-    "sig": "ed16e8a7f317ff511aa6e9a101240045",
+    "sig": "025127597e54a32b7fcf98837fb3df22",
     "pairs": [
       [
         "116",
@@ -1092,7 +1092,7 @@
     "date": "2026-10-15",
     "league": "europa-league",
     "hub": true,
-    "sig": "abc0f16ba9c2765b8f8520d5a2ebe185",
+    "sig": "e5a23b0a63e83086f6f257804566664b",
     "pairs": [
       [
         "52",
@@ -1196,7 +1196,7 @@
     "date": "2026-10-15",
     "league": "conference-league",
     "hub": true,
-    "sig": "93103bb3cc614e54ab3edfad4befa9e8",
+    "sig": "9bbc35953b27e1dd24ffae9c5b201ffa",
     "pairs": [
       [
         "598",
@@ -1300,7 +1300,7 @@
     "date": "2026-10-19",
     "league": "super-lig",
     "hub": true,
-    "sig": "b2b08c5d4da0b735f7a5d81a8a2e0658",
+    "sig": "88d2590b11cd1ff7ea1e6f5ca90ca9a8",
     "pairs": [
       [
         "1007",
@@ -1351,5 +1351,368 @@
     "ronde": "Regular Season - 8",
     "og": "og/super-lig-speelronde-8-op-tv-16-oktober-2026-0bb120.webp",
     "og_done": "og/super-lig-speelronde-8-op-tv-16-oktober-2026-0bb120.webp"
+  },
+  "hub:eredivisie-speelronde-9-op-tv-16-oktober-2026": {
+    "item_id": "6ace8535aeff37162093756c",
+    "slug": "eredivisie-speelronde-9-op-tv-16-oktober-2026",
+    "match": "Eredivisie speelronde 9",
+    "date": "2026-10-18",
+    "league": "eredivisie",
+    "hub": true,
+    "sig": "a327bd5c42af4345e8cff460f623c3f4",
+    "pairs": [
+      [
+        "196",
+        "210",
+        "2026-10-16"
+      ],
+      [
+        "197",
+        "198",
+        "2026-10-17"
+      ],
+      [
+        "209",
+        "427",
+        "2026-10-17"
+      ],
+      [
+        "195",
+        "426",
+        "2026-10-17"
+      ],
+      [
+        "193",
+        "410",
+        "2026-10-18"
+      ],
+      [
+        "201",
+        "420",
+        "2026-10-18"
+      ],
+      [
+        "194",
+        "202",
+        "2026-10-18"
+      ],
+      [
+        "205",
+        "413",
+        "2026-10-18"
+      ],
+      [
+        "207",
+        "415",
+        "2026-10-18"
+      ]
+    ],
+    "ronde": "Regular Season - 9",
+    "og": "og/eredivisie-speelronde-9-op-tv-16-oktober-2026-3498a9.webp"
+  },
+  "hub:keuken-kampioen-divisie-speelronde-11-op-tv-16-oktober-2026": {
+    "item_id": "6ace853731ffe75f4798f568",
+    "slug": "keuken-kampioen-divisie-speelronde-11-op-tv-16-oktober-2026",
+    "match": "Keuken Kampioen Divisie speelronde 11",
+    "date": "2026-10-19",
+    "league": "eerste-divisie",
+    "hub": true,
+    "sig": "898ee5dc92eab36fb0fe44145bdf092b",
+    "pairs": [
+      [
+        "204",
+        "418",
+        "2026-10-16"
+      ],
+      [
+        "421",
+        "423",
+        "2026-10-16"
+      ],
+      [
+        "200",
+        "422",
+        "2026-10-16"
+      ],
+      [
+        "203",
+        "424",
+        "2026-10-16"
+      ],
+      [
+        "208",
+        "419",
+        "2026-10-17"
+      ],
+      [
+        "416",
+        "417",
+        "2026-10-18"
+      ],
+      [
+        "206",
+        "412",
+        "2026-10-18"
+      ],
+      [
+        "409",
+        "411",
+        "2026-10-19"
+      ],
+      [
+        "199",
+        "425",
+        "2026-10-19"
+      ],
+      [
+        "414",
+        "428",
+        "2026-10-19"
+      ]
+    ],
+    "ronde": "Regular Season - 11",
+    "og": "og/keuken-kampioen-divisie-speelronde-11-op-tv-16-oktober-2026-c33381.webp"
+  },
+  "hub:la-liga-speelronde-9-op-tv-16-oktober-2026": {
+    "item_id": "6ace8539aeff3716209375fd",
+    "slug": "la-liga-speelronde-9-op-tv-16-oktober-2026",
+    "match": "La Liga speelronde 9",
+    "date": "2026-10-19",
+    "league": "la-liga",
+    "hub": true,
+    "sig": "41fc9562d4cf119dc869089f6d81af71",
+    "pairs": [
+      [
+        "539",
+        "544",
+        "2026-10-16"
+      ],
+      [
+        "530",
+        "540",
+        "2026-10-17"
+      ],
+      [
+        "533",
+        "797",
+        "2026-10-17"
+      ],
+      [
+        "529",
+        "543",
+        "2026-10-17"
+      ],
+      [
+        "531",
+        "532",
+        "2026-10-17"
+      ],
+      [
+        "4665",
+        "727",
+        "2026-10-18"
+      ],
+      [
+        "538",
+        "542",
+        "2026-10-18"
+      ],
+      [
+        "535",
+        "548",
+        "2026-10-18"
+      ],
+      [
+        "536",
+        "541",
+        "2026-10-18"
+      ],
+      [
+        "546",
+        "728",
+        "2026-10-19"
+      ]
+    ],
+    "ronde": "Regular Season - 9",
+    "og": "og/la-liga-speelronde-9-op-tv-16-oktober-2026-122209.webp"
+  },
+  "hub:serie-a-speelronde-7-op-tv-16-oktober-2026": {
+    "item_id": "6ace853b595e10ce42f4cb92",
+    "slug": "serie-a-speelronde-7-op-tv-16-oktober-2026",
+    "match": "Serie A speelronde 7",
+    "date": "2026-10-19",
+    "league": "serie-a",
+    "hub": true,
+    "sig": "74308792e674247076a09a72ca4486bf",
+    "pairs": [
+      [
+        "488",
+        "512",
+        "2026-10-16"
+      ],
+      [
+        "492",
+        "517",
+        "2026-10-17"
+      ],
+      [
+        "500",
+        "505",
+        "2026-10-17"
+      ],
+      [
+        "495",
+        "497",
+        "2026-10-17"
+      ],
+      [
+        "494",
+        "867",
+        "2026-10-18"
+      ],
+      [
+        "502",
+        "895",
+        "2026-10-18"
+      ],
+      [
+        "489",
+        "499",
+        "2026-10-18"
+      ],
+      [
+        "487",
+        "496",
+        "2026-10-18"
+      ],
+      [
+        "1579",
+        "490",
+        "2026-10-19"
+      ],
+      [
+        "503",
+        "523",
+        "2026-10-19"
+      ]
+    ],
+    "ronde": "Regular Season - 7",
+    "og": "og/serie-a-speelronde-7-op-tv-16-oktober-2026-1f7079.webp"
+  },
+  "hub:bundesliga-speelronde-6-op-tv-16-oktober-2026": {
+    "item_id": "6ace853d9efbd056f1c67446",
+    "slug": "bundesliga-speelronde-6-op-tv-16-oktober-2026",
+    "match": "Bundesliga speelronde 6",
+    "date": "2026-10-18",
+    "league": "bundesliga",
+    "hub": true,
+    "sig": "c77ccc90d68854faf2e15d1069800299",
+    "pairs": [
+      [
+        "169",
+        "192",
+        "2026-10-16"
+      ],
+      [
+        "162",
+        "185",
+        "2026-10-17"
+      ],
+      [
+        "164",
+        "174",
+        "2026-10-17"
+      ],
+      [
+        "172",
+        "175",
+        "2026-10-17"
+      ],
+      [
+        "165",
+        "182",
+        "2026-10-17"
+      ],
+      [
+        "1660",
+        "170",
+        "2026-10-17"
+      ],
+      [
+        "157",
+        "173",
+        "2026-10-17"
+      ],
+      [
+        "160",
+        "168",
+        "2026-10-18"
+      ],
+      [
+        "163",
+        "167",
+        "2026-10-18"
+      ]
+    ],
+    "ronde": "Regular Season - 6",
+    "og": "og/bundesliga-speelronde-6-op-tv-16-oktober-2026-1e80fc.webp"
+  },
+  "hub:ligue-1-speelronde-7-op-tv-16-oktober-2026": {
+    "item_id": "6ace85406a5b05f7e4c40b5c",
+    "slug": "ligue-1-speelronde-7-op-tv-16-oktober-2026",
+    "match": "Ligue 1 speelronde 7",
+    "date": "2026-10-18",
+    "league": "ligue-1",
+    "hub": true,
+    "sig": "2eca8d6f601d6bd605174e92dd6a02e7",
+    "pairs": [
+      [
+        "1298",
+        "96",
+        "2026-10-16"
+      ],
+      [
+        "85",
+        "95",
+        "2026-10-17"
+      ],
+      [
+        "106",
+        "79",
+        "2026-10-17"
+      ],
+      [
+        "110",
+        "116",
+        "2026-10-17"
+      ],
+      [
+        "77",
+        "81",
+        "2026-10-18"
+      ],
+      [
+        "91",
+        "97",
+        "2026-10-18"
+      ],
+      [
+        "108",
+        "111",
+        "2026-10-18"
+      ],
+      [
+        "114",
+        "94",
+        "2026-10-18"
+      ],
+      [
+        "80",
+        "84",
+        "2026-10-18"
+      ]
+    ],
+    "ronde": "Regular Season - 7",
+    "og": "og/ligue-1-speelronde-7-op-tv-16-oktober-2026-f3d310.webp"
   }
 }
