@@ -65,7 +65,7 @@
     "date": "2026-10-12",
     "league": "premier-league",
     "hub": true,
-    "sig": "30b4afad6467e8d852d6bbd35d8d7488",
+    "sig": "8c6fa2fc7052b8914d62cc181c26f103",
     "og": "og/premier-league-speelronde-6-op-tv-10-oktober-2026-aace43.webp",
     "og_done": "og/premier-league-speelronde-6-op-tv-10-oktober-2026-aace43.webp",
     "pairs": [
@@ -129,7 +129,7 @@
     "date": "2026-10-12",
     "league": "la-liga",
     "hub": true,
-    "sig": "5eca827e1776766ba60e168bde267afc",
+    "sig": "86b7727f9decfbe721d50955e67ffec8",
     "og": "og/la-liga-speelronde-8-op-tv-9-oktober-2026-b68fca.webp",
     "og_done": "og/la-liga-speelronde-8-op-tv-9-oktober-2026-b68fca.webp",
     "pairs": [
@@ -311,7 +311,7 @@
     "date": "2026-10-12",
     "league": "super-lig",
     "hub": true,
-    "sig": "9501a56528f1b86e52488f68343135de",
+    "sig": "7313f3db3dc12c2bb51233adebccb6a2",
     "og": "og/super-lig-speelronde-7-op-tv-9-oktober-2026-c92c0a.webp",
     "og_done": "og/super-lig-speelronde-7-op-tv-9-oktober-2026-c92c0a.webp",
     "pairs": [
@@ -429,7 +429,7 @@
     "date": "2026-10-12",
     "league": "serie-a",
     "hub": true,
-    "sig": "957e1d19990820bb7a73a0d60302daa0",
+    "sig": "62c32c576d1350d78a1daf0752be5e94",
     "pairs": [
       [
         "495",
@@ -987,7 +987,7 @@
     "date": "2026-10-14",
     "league": "champions-league",
     "hub": true,
-    "sig": "65fe575dba471375f7c19eaff96319ab",
+    "sig": "ed16e8a7f317ff511aa6e9a101240045",
     "pairs": [
       [
         "116",
@@ -1092,7 +1092,7 @@
     "date": "2026-10-15",
     "league": "europa-league",
     "hub": true,
-    "sig": "17add2177a5686c7c5b677a63f39a184",
+    "sig": "abc0f16ba9c2765b8f8520d5a2ebe185",
     "pairs": [
       [
         "52",
@@ -1196,7 +1196,7 @@
     "date": "2026-10-15",
     "league": "conference-league",
     "hub": true,
-    "sig": "232db494e77f9d20f90fd5a481412b08",
+    "sig": "93103bb3cc614e54ab3edfad4befa9e8",
     "pairs": [
       [
         "598",
@@ -1292,5 +1292,63 @@
     "ronde": "League Stage - 1",
     "og": "og/conference-league-speelronde-1-op-tv-15-oktober-2026-cc02d9.webp",
     "og_done": "og/conference-league-speelronde-1-op-tv-15-oktober-2026-cc02d9.webp"
+  },
+  "hub:super-lig-speelronde-8-op-tv-16-oktober-2026": {
+    "item_id": "6ace6e155c7267709ccbcc86",
+    "slug": "super-lig-speelronde-8-op-tv-16-oktober-2026",
+    "match": "Süper Lig speelronde 8",
+    "date": "2026-10-19",
+    "league": "super-lig",
+    "hub": true,
+    "sig": "b2b08c5d4da0b735f7a5d81a8a2e0658",
+    "pairs": [
+      [
+        "1007",
+        "6343",
+        "2026-10-16"
+      ],
+      [
+        "1009",
+        "3588",
+        "2026-10-17"
+      ],
+      [
+        "645",
+        "997",
+        "2026-10-17"
+      ],
+      [
+        "3579",
+        "607",
+        "2026-10-17"
+      ],
+      [
+        "611",
+        "996",
+        "2026-10-17"
+      ],
+      [
+        "1004",
+        "3603",
+        "2026-10-18"
+      ],
+      [
+        "7411",
+        "994",
+        "2026-10-18"
+      ],
+      [
+        "3573",
+        "564",
+        "2026-10-18"
+      ],
+      [
+        "549",
+        "998",
+        "2026-10-19"
+      ]
+    ],
+    "ronde": "Regular Season - 8",
+    "og": "og/super-lig-speelronde-8-op-tv-16-oktober-2026-0bb120.webp"
   }
 }
