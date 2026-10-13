@@ -1,24 +1,6 @@
 {
-"bijgewerkt": "2026-10-13T07:12:53.089212+00:00",
+"bijgewerkt": "2026-10-13T09:54:55.430755+00:00",
 "uitzendingen": [
-{
-"ko": "2026-10-13T06:00:00+00:00",
-"titel": "Arthur Géa – Jakub Menšík",
-"comp": "ATP Tour",
-"sport": "tennis",
-"zenders": [],
-"streams": [],
-"url": null
-},
-{
-"ko": "2026-10-13T06:25:00+00:00",
-"titel": "Katie Boulter – Diana Shnaider",
-"comp": "WTA Tour",
-"sport": "tennis",
-"zenders": [],
-"streams": [],
-"url": null
-},
 {
 "ko": "2026-10-13T07:05:00+00:00",
 "titel": "Maria Sakkari – Marta Kostyuk",
@@ -88,6 +70,17 @@
 "sport": "voetbal",
 "zenders": [
 "ESPN 1"
+],
+"streams": [],
+"url": null
+},
+{
+"ko": "2026-10-13T18:45:00+00:00",
+"titel": "Nederland – Hongarije",
+"comp": "Women's World Cup Qualification",
+"sport": "voetbal",
+"zenders": [
+"NPO 3"
 ],
 "streams": [],
 "url": null
@@ -242,6 +235,17 @@
 "sport": "voetbal",
 "zenders": [
 "Apple TV"
+],
+"streams": [],
+"url": null
+},
+{
+"ko": "2026-10-14T00:30:00+00:00",
+"titel": "CA Boca Juniors – Vasco da Gama",
+"comp": "Copa Sudamericana",
+"sport": "voetbal",
+"zenders": [
+"ESPN 1"
 ],
 "streams": [],
 "url": null
@@ -422,6 +426,24 @@
 "url": null
 },
 {
+"ko": "2026-10-14T15:00:00+00:00",
+"titel": "Elina Svitolina – Liudmila Samsonova",
+"comp": "WTA Tour",
+"sport": "tennis",
+"zenders": [],
+"streams": [],
+"url": null
+},
+{
+"ko": "2026-10-14T15:00:00+00:00",
+"titel": "Iva Jovic – Dayana Yastremska",
+"comp": "WTA Tour",
+"sport": "tennis",
+"zenders": [],
+"streams": [],
+"url": null
+},
+{
 "ko": "2026-10-14T16:45:00+00:00",
 "titel": "Lask Linz – Liverpool",
 "comp": "Champions League",
@@ -566,6 +588,17 @@
 },
 {
 "ko": "2026-10-15T16:45:00+00:00",
+"titel": "AZ – Hapoel Beer Sheva",
+"comp": "Europa League",
+"sport": "voetbal",
+"zenders": [
+"Ziggo Sport 2"
+],
+"streams": [],
+"url": null
+},
+{
+"ko": "2026-10-15T16:45:00+00:00",
 "titel": "Lech Poznan – Bayer Leverkusen",
 "comp": "Europa League",
 "sport": "voetbal",
@@ -653,8 +686,52 @@
 "url": null
 },
 {
-"ko": "2026-10-15T16:45:00+00:00",
-"titel": "AZ – Hapoel Beer Sheva",
+"ko": "2026-10-15T18:00:00+00:00",
+"titel": "Al Ahli – Al Nassr",
+"comp": "Saudi Pro League",
+"sport": "voetbal",
+"zenders": [
+"KIJK"
+],
+"streams": [],
+"url": null
+},
+{
+"ko": "2026-10-15T19:00:00+00:00",
+"titel": "1899 Hoffenheim – Besiktas",
+"comp": "Europa League",
+"sport": "voetbal",
+"zenders": [
+"Ziggo Sport 1"
+],
+"streams": [],
+"url": null
+},
+{
+"ko": "2026-10-15T19:00:00+00:00",
+"titel": "Benfica – Celtic",
+"comp": "Europa League",
+"sport": "voetbal",
+"zenders": [
+"Ziggo Sport 5"
+],
+"streams": [],
+"url": null
+},
+{
+"ko": "2026-10-15T19:00:00+00:00",
+"titel": "Jagiellonia – Ararat-Armenia",
+"comp": "Europa League",
+"sport": "voetbal",
+"zenders": [
+"Ziggo Sport 1"
+],
+"streams": [],
+"url": null
+},
+{
+"ko": "2026-10-15T19:00:00+00:00",
+"titel": "NEC – Levski Sofia",
 "comp": "Europa League",
 "sport": "voetbal",
 "zenders": [
@@ -664,12 +741,78 @@
 "url": null
 },
 {
-"ko": "2026-10-15T18:00:00+00:00",
-"titel": "Al Ahli – Al Nassr",
-"comp": "Saudi Pro League",
+"ko": "2026-10-15T19:00:00+00:00",
+"titel": "Celta Vigo – Juventus",
+"comp": "Europa League",
 "sport": "voetbal",
 "zenders": [
-"KIJK"
+"Ziggo Sport 1"
+],
+"streams": [],
+"url": null
+},
+{
+"ko": "2026-10-15T19:00:00+00:00",
+"titel": "Dinamo Zagreb – Anderlecht",
+"comp": "Europa League",
+"sport": "voetbal",
+"zenders": [
+"Ziggo Sport 1"
+],
+"streams": [],
+"url": null
+},
+{
+"ko": "2026-10-15T19:00:00+00:00",
+"titel": "Ferencvarosi TC – Plzen",
+"comp": "Europa League",
+"sport": "voetbal",
+"zenders": [
+"Ziggo Sport 1"
+],
+"streams": [],
+"url": null
+},
+{
+"ko": "2026-10-15T19:00:00+00:00",
+"titel": "Bournemouth – Sturm Graz",
+"comp": "Europa League",
+"sport": "voetbal",
+"zenders": [
+"Ziggo Sport 1"
+],
+"streams": [],
+"url": null
+},
+{
+"ko": "2026-10-15T19:00:00+00:00",
+"titel": "Marseille – Olympiakos Piraeus",
+"comp": "Europa League",
+"sport": "voetbal",
+"zenders": [
+"Ziggo Sport 1"
+],
+"streams": [],
+"url": null
+},
+{
+"ko": "2026-10-15T19:00:00+00:00",
+"titel": "FC Twente – FC Thun",
+"comp": "Conference League",
+"sport": "voetbal",
+"zenders": [
+"Ziggo Sport 1"
+],
+"streams": [],
+"url": null
+},
+{
+"ko": "2026-10-15T19:00:00+00:00",
+"titel": "Rennes – OFI",
+"comp": "Europa League",
+"sport": "voetbal",
+"zenders": [
+"Ziggo Sport 1"
 ],
 "streams": [],
 "url": null
@@ -687,56 +830,11 @@
 },
 {
 "ko": "2026-10-15T19:00:00+00:00",
-"titel": "FC Twente – FC Thun",
-"comp": "UEFA Conference League",
-"sport": "voetbal",
-"zenders": [
-"Ziggo Sport 1",
-"Ziggo Sport 3"
-],
-"streams": [],
-"url": null
-},
-{
-"ko": "2026-10-15T19:00:00+00:00",
-"titel": "GNK Dinamo Zagreb – RSC Anderlecht",
-"comp": "UEFA Europa League",
-"sport": "voetbal",
-"zenders": [
-"VRT Canvas"
-],
-"streams": [],
-"url": null
-},
-{
-"ko": "2026-10-15T19:00:00+00:00",
 "titel": "Mansfield Town – Oxford United",
 "comp": "League One",
 "sport": "voetbal",
 "zenders": [
 "Viaplay"
-],
-"streams": [],
-"url": null
-},
-{
-"ko": "2026-10-15T19:00:00+00:00",
-"titel": "NEC – PFC Levski Sofia",
-"comp": "UEFA Europa League",
-"sport": "voetbal",
-"zenders": [
-"Ziggo Sport 2"
-],
-"streams": [],
-"url": null
-},
-{
-"ko": "2026-10-15T19:00:00+00:00",
-"titel": "S.L. Benfica – Celtic FC",
-"comp": "UEFA Europa League",
-"sport": "voetbal",
-"zenders": [
-"Ziggo Sport 5"
 ],
 "streams": [],
 "url": null
@@ -1817,7 +1915,8 @@
 "comp": "Eredivisie",
 "sport": "voetbal",
 "zenders": [
-"ESPN 1"
+"ESPN 1",
+"ESPN 2"
 ],
 "streams": [],
 "url": null
