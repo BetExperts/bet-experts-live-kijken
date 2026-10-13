@@ -1186,7 +1186,8 @@
       ]
     ],
     "ronde": "League Stage - 2",
-    "og": "og/europa-league-speelronde-2-op-tv-15-oktober-2026-351dd2.webp"
+    "og": "og/europa-league-speelronde-2-op-tv-15-oktober-2026-351dd2.webp",
+    "og_done": "og/europa-league-speelronde-2-op-tv-15-oktober-2026-351dd2.webp"
   },
   "hub:conference-league-speelronde-1-op-tv-15-oktober-2026": {
     "item_id": "6ace0d3a2ab9a68e61287ce9",
@@ -1289,6 +1290,7 @@
       ]
     ],
     "ronde": "League Stage - 1",
-    "og": "og/conference-league-speelronde-1-op-tv-15-oktober-2026-cc02d9.webp"
+    "og": "og/conference-league-speelronde-1-op-tv-15-oktober-2026-cc02d9.webp",
+    "og_done": "og/conference-league-speelronde-1-op-tv-15-oktober-2026-cc02d9.webp"
   }
 }
