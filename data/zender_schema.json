@@ -1,35 +1,8 @@
 {
-"bijgewerkt": "2026-10-14T05:52:20.314930+00:00",
+"bijgewerkt": "2026-10-14T06:52:41.941741+00:00",
 "uitzendingen": [
 {
-"ko": "2026-10-14T03:00:00+00:00",
-"titel": "Sonay Kartal – Belinda Bencic",
-"comp": "WTA Tour",
-"sport": "tennis",
-"zenders": [],
-"streams": [],
-"url": null
-},
-{
-"ko": "2026-10-14T03:00:00+00:00",
-"titel": "Magdalena Fręch – Iga Świątek",
-"comp": "WTA Tour",
-"sport": "tennis",
-"zenders": [],
-"streams": [],
-"url": null
-},
-{
-"ko": "2026-10-14T03:00:00+00:00",
-"titel": "Elina Svitolina – Liudmila Samsonova",
-"comp": "WTA Tour",
-"sport": "tennis",
-"zenders": [],
-"streams": [],
-"url": null
-},
-{
-"ko": "2026-10-14T04:00:00+00:00",
+"ko": "2026-10-14T04:10:00+00:00",
 "titel": "Botic van de Zandschulp – Rafael Jódar",
 "comp": "ATP Tour",
 "sport": "tennis",
@@ -38,16 +11,7 @@
 "url": null
 },
 {
-"ko": "2026-10-14T04:30:00+00:00",
-"titel": "Karolína Muchová – Caty McNally",
-"comp": "WTA Tour",
-"sport": "tennis",
-"zenders": [],
-"streams": [],
-"url": null
-},
-{
-"ko": "2026-10-14T04:30:00+00:00",
+"ko": "2026-10-14T05:05:00+00:00",
 "titel": "Iva Jovic – Dayana Yastremska",
 "comp": "WTA Tour",
 "sport": "tennis",
@@ -56,7 +20,16 @@
 "url": null
 },
 {
-"ko": "2026-10-14T04:30:00+00:00",
+"ko": "2026-10-14T05:10:00+00:00",
+"titel": "Karolína Muchová – Caty McNally",
+"comp": "WTA Tour",
+"sport": "tennis",
+"zenders": [],
+"streams": [],
+"url": null
+},
+{
+"ko": "2026-10-14T05:25:00+00:00",
 "titel": "Yulia Putintseva – Diana Shnaider",
 "comp": "WTA Tour",
 "sport": "tennis",
@@ -65,7 +38,7 @@
 "url": null
 },
 {
-"ko": "2026-10-14T05:30:00+00:00",
+"ko": "2026-10-14T06:15:00+00:00",
 "titel": "Casper Ruud – Félix Auger-Aliassime",
 "comp": "ATP Tour",
 "sport": "tennis",
@@ -74,7 +47,7 @@
 "url": null
 },
 {
-"ko": "2026-10-14T06:00:00+00:00",
+"ko": "2026-10-14T06:40:00+00:00",
 "titel": "Jeļena Ostapenko – Jessica Pegula",
 "comp": "WTA Tour",
 "sport": "tennis",
@@ -256,6 +229,17 @@
 },
 {
 "ko": "2026-10-15T16:45:00+00:00",
+"titel": "HNK Hajduk Split – Ajax",
+"comp": "Conference League",
+"sport": "voetbal",
+"zenders": [
+"Ziggo Sport 1"
+],
+"streams": [],
+"url": null
+},
+{
+"ko": "2026-10-15T16:45:00+00:00",
 "titel": "Lyon – Crystal Palace",
 "comp": "Europa League",
 "sport": "voetbal",
@@ -343,23 +327,23 @@
 "url": null
 },
 {
-"ko": "2026-10-15T16:45:00+00:00",
-"titel": "HNK Hajduk Split – Ajax",
-"comp": "Conference League",
-"sport": "voetbal",
-"zenders": [
-"Ziggo Sport 1"
-],
-"streams": [],
-"url": null
-},
-{
 "ko": "2026-10-15T18:00:00+00:00",
 "titel": "Al Ahli – Al Nassr",
 "comp": "Saudi Pro League",
 "sport": "voetbal",
 "zenders": [
 "KIJK"
+],
+"streams": [],
+"url": null
+},
+{
+"ko": "2026-10-15T19:00:00+00:00",
+"titel": "Marseille – Olympiakos Piraeus",
+"comp": "Europa League",
+"sport": "voetbal",
+"zenders": [
+"Ziggo Sport 1"
 ],
 "streams": [],
 "url": null
@@ -466,17 +450,6 @@
 {
 "ko": "2026-10-15T19:00:00+00:00",
 "titel": "Bournemouth – Sturm Graz",
-"comp": "Europa League",
-"sport": "voetbal",
-"zenders": [
-"Ziggo Sport 1"
-],
-"streams": [],
-"url": null
-},
-{
-"ko": "2026-10-15T19:00:00+00:00",
-"titel": "Marseille – Olympiakos Piraeus",
 "comp": "Europa League",
 "sport": "voetbal",
 "zenders": [
@@ -1838,6 +1811,17 @@
 "sport": "voetbal",
 "zenders": [
 "Ziggo Sport 2"
+],
+"streams": [],
+"url": null
+},
+{
+"ko": "2026-10-21T18:00:00+00:00",
+"titel": "Levante – Athletic Club",
+"comp": "La Liga",
+"sport": "voetbal",
+"zenders": [
+"Ziggo Sport 6"
 ],
 "streams": [],
 "url": null
