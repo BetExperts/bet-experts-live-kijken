@@ -1,15 +1,6 @@
 {
-"bijgewerkt": "2026-10-14T12:59:59.505186+00:00",
+"bijgewerkt": "2026-10-14T13:31:06.883885+00:00",
 "uitzendingen": [
-{
-"ko": "2026-10-14T10:10:00+00:00",
-"titel": "Daniil Medvedev – Stefanos Tsitsipas",
-"comp": "ATP Tour",
-"sport": "tennis",
-"zenders": [],
-"streams": [],
-"url": null
-},
 {
 "ko": "2026-10-14T11:25:00+00:00",
 "titel": "Aryna Sabalenka – Ann Li",
@@ -1609,8 +1600,28 @@
 "comp": "Keuken Kampioen Divisie",
 "sport": "voetbal",
 "zenders": [
-"ESPN 1",
-"ESPN 2",
+"ESPN 1"
+],
+"streams": [],
+"url": null
+},
+{
+"ko": "2026-10-19T18:00:00+00:00",
+"titel": "Jong FC Utrecht – Roda JC",
+"comp": "Keuken Kampioen Divisie",
+"sport": "voetbal",
+"zenders": [
+"ESPN 2"
+],
+"streams": [],
+"url": null
+},
+{
+"ko": "2026-10-19T18:00:00+00:00",
+"titel": "Jong PSV – FC Dordrecht",
+"comp": "Keuken Kampioen Divisie",
+"sport": "voetbal",
+"zenders": [
 "ESPN 3"
 ],
 "streams": [],
