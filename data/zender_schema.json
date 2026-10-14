@@ -1,5 +1,5 @@
 {
-"bijgewerkt": "2026-10-14T20:34:48.246619+00:00",
+"bijgewerkt": "2026-10-14T20:44:34.769785+00:00",
 "uitzendingen": [
 {
 "ko": "2026-10-14T19:00:00+00:00",
@@ -97,8 +97,10 @@
 "zenders": [
 "Apple TV"
 ],
-"streams": [],
-"url": null
+"streams": [
+"Bet365"
+],
+"url": "/nieuws/columbus-crew-charlotte-live-gratis-kijken-15-10-2026"
 },
 {
 "ko": "2026-10-14T23:30:00+00:00",
@@ -130,8 +132,10 @@
 "zenders": [
 "Apple TV"
 ],
-"streams": [],
-"url": null
+"streams": [
+"Bet365"
+],
+"url": "/nieuws/inter-miami-new-york-city-live-gratis-kijken-15-10-2026"
 },
 {
 "ko": "2026-10-14T23:30:00+00:00",
@@ -185,8 +189,10 @@
 "zenders": [
 "Apple TV"
 ],
-"streams": [],
-"url": null
+"streams": [
+"Bet365"
+],
+"url": "/nieuws/fc-dallas-seattle-sounders-live-gratis-kijken-15-10-2026"
 },
 {
 "ko": "2026-10-15T00:30:00+00:00",
@@ -251,8 +257,10 @@
 "zenders": [
 "Apple TV"
 ],
-"streams": [],
-"url": null
+"streams": [
+"Bet365"
+],
+"url": "/nieuws/la-galaxy-portland-timbers-live-gratis-kijken-15-10-2026"
 },
 {
 "ko": "2026-10-15T02:30:00+00:00",
@@ -262,8 +270,10 @@
 "zenders": [
 "Apple TV"
 ],
-"streams": [],
-"url": null
+"streams": [
+"Bet365"
+],
+"url": "/nieuws/los-angeles-austin-fc-live-gratis-kijken-15-10-2026"
 },
 {
 "ko": "2026-10-15T02:30:00+00:00",
@@ -341,7 +351,7 @@
 "Ziggo Sport 6"
 ],
 "streams": [],
-"url": null
+"url": "/nieuws/lyon-crystal-palace-live-gratis-kijken-15-10-2026"
 },
 {
 "ko": "2026-10-15T16:45:00+00:00",
@@ -352,7 +362,7 @@
 "Ziggo Sport 2"
 ],
 "streams": [],
-"url": null
+"url": "/nieuws/az-hapoel-beer-sheva-live-gratis-kijken-15-10-2026"
 },
 {
 "ko": "2026-10-15T16:45:00+00:00",
@@ -360,10 +370,10 @@
 "comp": "Europa League",
 "sport": "voetbal",
 "zenders": [
-"Ziggo Sport 1"
+"Ziggo Sport"
 ],
 "streams": [],
-"url": null
+"url": "/nieuws/lech-poznan-bayer-leverkusen-live-gratis-kijken-15-10-2026"
 },
 {
 "ko": "2026-10-15T16:45:00+00:00",
@@ -374,7 +384,7 @@
 "Ziggo Sport 5"
 ],
 "streams": [],
-"url": null
+"url": "/nieuws/red-bull-salzburg-ac-milan-live-gratis-kijken-15-10-2026"
 },
 {
 "ko": "2026-10-15T16:45:00+00:00",
@@ -393,10 +403,10 @@
 "comp": "Europa League",
 "sport": "voetbal",
 "zenders": [
-"Ziggo Sport 1"
+"Ziggo Sport"
 ],
 "streams": [],
-"url": null
+"url": "/nieuws/union-sint-gilloise-real-sociedad-live-gratis-kijken-15-10-2026"
 },
 {
 "ko": "2026-10-15T16:45:00+00:00",
@@ -429,7 +439,7 @@
 "Ziggo Sport 1"
 ],
 "streams": [],
-"url": null
+"url": "/nieuws/hajduk-split-ajax-live-gratis-kijken-15-10-2026"
 },
 {
 "ko": "2026-10-15T18:00:00+00:00",
@@ -448,10 +458,10 @@
 "comp": "Europa League",
 "sport": "voetbal",
 "zenders": [
-"Ziggo Sport 1"
+"Ziggo Sport"
 ],
 "streams": [],
-"url": null
+"url": "/nieuws/hoffenheim-besiktas-live-gratis-kijken-15-10-2026"
 },
 {
 "ko": "2026-10-15T19:00:00+00:00",
@@ -462,7 +472,7 @@
 "Ziggo Sport 5"
 ],
 "streams": [],
-"url": null
+"url": "/nieuws/benfica-celtic-live-gratis-kijken-15-10-2026"
 },
 {
 "ko": "2026-10-15T19:00:00+00:00",
@@ -484,7 +494,7 @@
 "Ziggo Sport 2"
 ],
 "streams": [],
-"url": null
+"url": "/nieuws/nec-nijmegen-levski-sofia-live-gratis-kijken-15-10-2026"
 },
 {
 "ko": "2026-10-15T19:00:00+00:00",
@@ -492,10 +502,10 @@
 "comp": "Europa League",
 "sport": "voetbal",
 "zenders": [
-"Ziggo Sport 1"
+"Ziggo Sport"
 ],
 "streams": [],
-"url": null
+"url": "/nieuws/celta-vigo-juventus-live-gratis-kijken-15-10-2026"
 },
 {
 "ko": "2026-10-15T19:00:00+00:00",
@@ -503,10 +513,10 @@
 "comp": "Europa League",
 "sport": "voetbal",
 "zenders": [
-"Ziggo Sport 1"
+"Ziggo Sport"
 ],
 "streams": [],
-"url": null
+"url": "/nieuws/dinamo-zagreb-anderlecht-live-gratis-kijken-15-10-2026"
 },
 {
 "ko": "2026-10-15T19:00:00+00:00",
@@ -536,10 +546,10 @@
 "comp": "Europa League",
 "sport": "voetbal",
 "zenders": [
-"Ziggo Sport 1"
+"Ziggo Sport"
 ],
 "streams": [],
-"url": null
+"url": "/nieuws/marseille-olympiakos-piraeus-live-gratis-kijken-15-10-2026"
 },
 {
 "ko": "2026-10-15T19:00:00+00:00",
@@ -550,7 +560,7 @@
 "Ziggo Sport 1"
 ],
 "streams": [],
-"url": null
+"url": "/nieuws/fc-twente-thun-live-gratis-kijken-15-10-2026"
 },
 {
 "ko": "2026-10-15T19:00:00+00:00",
