@@ -1,5 +1,5 @@
 {
-"bijgewerkt": "2026-10-14T07:23:42.906146+00:00",
+"bijgewerkt": "2026-10-14T07:54:58.709595+00:00",
 "uitzendingen": [
 {
 "ko": "2026-10-14T05:05:00+00:00",
@@ -424,6 +424,15 @@
 "zenders": [
 "Ziggo Sport 6"
 ],
+"streams": [],
+"url": null
+},
+{
+"ko": "2026-10-16T02:00:00+00:00",
+"titel": "Alexander Zverev – Alex de Minaur",
+"comp": "ATP Tour",
+"sport": "tennis",
+"zenders": [],
 "streams": [],
 "url": null
 },
