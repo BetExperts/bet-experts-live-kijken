@@ -1,17 +1,6 @@
 {
-"bijgewerkt": "2026-10-14T15:15:25.924657+00:00",
+"bijgewerkt": "2026-10-14T17:28:35.180339+00:00",
 "uitzendingen": [
-{
-"ko": "2026-10-14T14:00:00+00:00",
-"titel": "Manchester City U19 – PSG U19",
-"comp": "UEFA Youth League",
-"sport": "voetbal",
-"zenders": [
-"Ziggo Sport 2"
-],
-"streams": [],
-"url": null
-},
 {
 "ko": "2026-10-14T16:45:00+00:00",
 "titel": "Feyenoord – Como",
@@ -636,6 +625,17 @@
 "url": null
 },
 {
+"ko": "2026-10-16T23:30:00+00:00",
+"titel": "Philadelphia Union – Charlotte FC",
+"comp": "MLS",
+"sport": "voetbal",
+"zenders": [
+"Apple TV"
+],
+"streams": [],
+"url": null
+},
+{
 "ko": "2026-10-17T00:30:00+00:00",
 "titel": "Austin FC – Vancouver Whitecaps FC",
 "comp": "MLS",
@@ -1029,17 +1029,6 @@
 "sport": "voetbal",
 "zenders": [
 "Viaplay"
-],
-"streams": [],
-"url": null
-},
-{
-"ko": "2026-10-17T18:30:00+00:00",
-"titel": "Philadelphia Union – Charlotte FC",
-"comp": "MLS",
-"sport": "voetbal",
-"zenders": [
-"Apple TV"
 ],
 "streams": [],
 "url": null
@@ -1591,28 +1580,8 @@
 "comp": "Keuken Kampioen Divisie",
 "sport": "voetbal",
 "zenders": [
-"ESPN 1"
-],
-"streams": [],
-"url": null
-},
-{
-"ko": "2026-10-19T18:00:00+00:00",
-"titel": "Jong FC Utrecht – Roda JC",
-"comp": "Keuken Kampioen Divisie",
-"sport": "voetbal",
-"zenders": [
-"ESPN 2"
-],
-"streams": [],
-"url": null
-},
-{
-"ko": "2026-10-19T18:00:00+00:00",
-"titel": "Jong PSV – FC Dordrecht",
-"comp": "Keuken Kampioen Divisie",
-"sport": "voetbal",
-"zenders": [
+"ESPN 1",
+"ESPN 2",
 "ESPN 3"
 ],
 "streams": [],
