@@ -426,7 +426,7 @@
     "date": "2026-10-14",
     "league": "champions-league",
     "hub": true,
-    "sig": "7ec1b49a679a7cc790db80fb6cd3f0e9",
+    "sig": "904477739b867e10213377303aae5892",
     "pairs": [
       [
         "116",
@@ -531,7 +531,7 @@
     "date": "2026-10-15",
     "league": "europa-league",
     "hub": true,
-    "sig": "a55dc80e257709c2906f800144665a40",
+    "sig": "2db870fcd4cb55e005a24c8658132695",
     "pairs": [
       [
         "52",
@@ -635,7 +635,7 @@
     "date": "2026-10-15",
     "league": "conference-league",
     "hub": true,
-    "sig": "a9a121af730afff11bb0dd42143bd698",
+    "sig": "6055badb9bf561e4c55dc0e01660b750",
     "pairs": [
       [
         "598",
@@ -739,7 +739,7 @@
     "date": "2026-10-19",
     "league": "super-lig",
     "hub": true,
-    "sig": "f631049da9b2151cf29355cb9a8aa505",
+    "sig": "a2ea8ca5e707911b35174bba964dd954",
     "pairs": [
       [
         "1007",
@@ -798,7 +798,7 @@
     "date": "2026-10-18",
     "league": "eredivisie",
     "hub": true,
-    "sig": "68765450c8bb8dfbbedd93335d640939",
+    "sig": "ec1e93b7c54c964a35171113c11ac07b",
     "pairs": [
       [
         "196",
@@ -857,7 +857,7 @@
     "date": "2026-10-19",
     "league": "eerste-divisie",
     "hub": true,
-    "sig": "987e8c2a806896c7c3bcd93e9bfb88c5",
+    "sig": "bd8d95893b57aca13a3282145f4695af",
     "pairs": [
       [
         "204",
@@ -921,7 +921,7 @@
     "date": "2026-10-19",
     "league": "la-liga",
     "hub": true,
-    "sig": "90064895b2c771a4e6ac24acf273da29",
+    "sig": "018d9e25a43ae5a687d3a76a8426493c",
     "pairs": [
       [
         "539",
@@ -985,7 +985,7 @@
     "date": "2026-10-19",
     "league": "serie-a",
     "hub": true,
-    "sig": "a34b4133be6940a7acff84a6fde05ec2",
+    "sig": "0191a5a1046f85f09ce08260a739a3dc",
     "pairs": [
       [
         "488",
@@ -1049,7 +1049,7 @@
     "date": "2026-10-18",
     "league": "bundesliga",
     "hub": true,
-    "sig": "430d2b88eefc5d213212d2a082b00813",
+    "sig": "1413acc47b55503d43b797baa8a21179",
     "pairs": [
       [
         "169",
@@ -1108,7 +1108,7 @@
     "date": "2026-10-18",
     "league": "ligue-1",
     "hub": true,
-    "sig": "ff47ae7972acf19e0d1c2274cfdaadea",
+    "sig": "c0c57756b41d667e0bc6f5edfef6fd04",
     "pairs": [
       [
         "1298",
@@ -1250,5 +1250,68 @@
     "tv_sig": "Ziggo Sport|Bet365|False|True",
     "og": "og/real-betis-fc-porto-live-gratis-kijken-14-10-2026-6996db.webp",
     "og_done": "og/real-betis-fc-porto-live-gratis-kijken-14-10-2026-6996db.webp"
+  },
+  "hub:premier-league-speelronde-7-op-tv-17-oktober-2026": {
+    "item_id": "6acf7cc973a569eae76ce787",
+    "slug": "premier-league-speelronde-7-op-tv-17-oktober-2026",
+    "match": "Premier League speelronde 7",
+    "date": "2026-10-19",
+    "league": "premier-league",
+    "hub": true,
+    "sig": "ae02508ef5b02ec14cbc2588f199aceb",
+    "pairs": [
+      [
+        "45",
+        "49",
+        "2026-10-17"
+      ],
+      [
+        "36",
+        "64",
+        "2026-10-17"
+      ],
+      [
+        "50",
+        "57",
+        "2026-10-17"
+      ],
+      [
+        "40",
+        "55",
+        "2026-10-17"
+      ],
+      [
+        "34",
+        "66",
+        "2026-10-17"
+      ],
+      [
+        "35",
+        "746",
+        "2026-10-18"
+      ],
+      [
+        "51",
+        "52",
+        "2026-10-18"
+      ],
+      [
+        "33",
+        "63",
+        "2026-10-18"
+      ],
+      [
+        "42",
+        "65",
+        "2026-10-18"
+      ],
+      [
+        "1346",
+        "47",
+        "2026-10-19"
+      ]
+    ],
+    "ronde": "Regular Season - 7",
+    "og": "og/premier-league-speelronde-7-op-tv-17-oktober-2026-2866ef.webp"
   }
 }
