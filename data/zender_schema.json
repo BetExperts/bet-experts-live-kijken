@@ -1,17 +1,8 @@
 {
-"bijgewerkt": "2026-10-15T12:46:58.713896+00:00",
+"bijgewerkt": "2026-10-15T13:42:10.023156+00:00",
 "uitzendingen": [
 {
-"ko": "2026-10-15T10:00:00+00:00",
-"titel": "Alexander Zverev – Alex de Minaur",
-"comp": "ATP Tour",
-"sport": "tennis",
-"zenders": [],
-"streams": [],
-"url": null
-},
-{
-"ko": "2026-10-15T11:00:00+00:00",
+"ko": "2026-10-15T11:25:00+00:00",
 "titel": "Ashlyn Krueger – Iga Świątek",
 "comp": "WTA Tour",
 "sport": "tennis",
@@ -284,7 +275,7 @@
 "url": null
 },
 {
-"ko": "2026-10-16T02:00:00+00:00",
+"ko": "2026-10-16T06:30:00+00:00",
 "titel": "Rafael Jódar – Casper Ruud",
 "comp": "ATP Tour",
 "sport": "tennis",
@@ -293,7 +284,7 @@
 "url": null
 },
 {
-"ko": "2026-10-16T02:00:00+00:00",
+"ko": "2026-10-16T10:00:00+00:00",
 "titel": "Daniil Medvedev – Tommy Paul",
 "comp": "ATP Tour",
 "sport": "tennis",
@@ -880,7 +871,7 @@
 "comp": "Serie A",
 "sport": "voetbal",
 "zenders": [
-"Ziggo Sport 2"
+"Ziggo Sport 7"
 ],
 "streams": [],
 "url": null
@@ -1418,8 +1409,7 @@
 "comp": "Eredivisie",
 "sport": "voetbal",
 "zenders": [
-"ESPN 2",
-"ESPN 1"
+"ESPN 2"
 ],
 "streams": [],
 "url": null
@@ -1591,7 +1581,7 @@
 },
 {
 "ko": "2026-10-20T11:00:00+00:00",
-"titel": "FC Porto O19 – PSV O19",
+"titel": "F.C. Porto O19 – PSV O19",
 "comp": "UEFA Youth League",
 "sport": "voetbal",
 "zenders": [
@@ -1770,7 +1760,7 @@
 },
 {
 "ko": "2026-10-21T19:00:00+00:00",
-"titel": "Inter Milan – FC Shakhtar Donetsk",
+"titel": "Inter Milan – Shakhtar Donetsk",
 "comp": "UEFA Champions League",
 "sport": "voetbal",
 "zenders": [
