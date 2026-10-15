@@ -1308,7 +1308,8 @@
     "home_id": "6343",
     "away_id": "1007",
     "tv_sig": "|TOTO|False|False",
-    "og": "og/corum-fk-rizespor-live-gratis-kijken-16-10-2026-8b0504.webp"
+    "og": "og/corum-fk-rizespor-live-gratis-kijken-16-10-2026-8b0504.webp",
+    "og_done": "og/corum-fk-rizespor-live-gratis-kijken-16-10-2026-8b0504.webp"
   },
   "1575187": {
     "item_id": "6ad135a5f2728ed39bc81b6d",
@@ -1320,7 +1321,8 @@
     "home_id": "169",
     "away_id": "192",
     "tv_sig": "Viaplay TV+|711|False|False",
-    "og": "og/eintracht-frankfurt-fc-koln-live-gratis-kijken-16-10-2026-39a91e.webp"
+    "og": "og/eintracht-frankfurt-fc-koln-live-gratis-kijken-16-10-2026-39a91e.webp",
+    "og_done": "og/eintracht-frankfurt-fc-koln-live-gratis-kijken-16-10-2026-39a91e.webp"
   },
   "1552189": {
     "item_id": "6ad135ab0dd4087185eb1b02",
@@ -1332,7 +1334,8 @@
     "home_id": "210",
     "away_id": "196",
     "tv_sig": "ESPN 2|TOTO|False|True",
-    "og": "og/heerenveen-excelsior-live-gratis-kijken-16-10-2026-e3c486.webp"
+    "og": "og/heerenveen-excelsior-live-gratis-kijken-16-10-2026-e3c486.webp",
+    "og_done": "og/heerenveen-excelsior-live-gratis-kijken-16-10-2026-e3c486.webp"
   },
   "1551840": {
     "item_id": "6ad135b01389dee6a0b7bb92",
@@ -1344,7 +1347,8 @@
     "home_id": "204",
     "away_id": "418",
     "tv_sig": "ESPN 4|TOTO|False|True",
-    "og": "og/vvv-venlo-jong-az-live-gratis-kijken-16-10-2026-8b3ea2.webp"
+    "og": "og/vvv-venlo-jong-az-live-gratis-kijken-16-10-2026-8b3ea2.webp",
+    "og_done": "og/vvv-venlo-jong-az-live-gratis-kijken-16-10-2026-8b3ea2.webp"
   },
   "1551837": {
     "item_id": "6ad135b39a86cd4cb6989055",
@@ -1356,7 +1360,8 @@
     "home_id": "421",
     "away_id": "423",
     "tv_sig": "ESPN Extra|TOTO|False|True",
-    "og": "og/fc-den-bosch-top-oss-live-gratis-kijken-16-10-2026-e96f37.webp"
+    "og": "og/fc-den-bosch-top-oss-live-gratis-kijken-16-10-2026-e96f37.webp",
+    "og_done": "og/fc-den-bosch-top-oss-live-gratis-kijken-16-10-2026-e96f37.webp"
   },
   "1551838": {
     "item_id": "6ad135b5ce7dd0b949bfed03",
@@ -1368,7 +1373,8 @@
     "home_id": "422",
     "away_id": "200",
     "tv_sig": "ESPN Extra|TOTO|False|True",
-    "og": "og/fc-eindhoven-vitesse-live-gratis-kijken-16-10-2026-77edd6.webp"
+    "og": "og/fc-eindhoven-vitesse-live-gratis-kijken-16-10-2026-77edd6.webp",
+    "og_done": "og/fc-eindhoven-vitesse-live-gratis-kijken-16-10-2026-77edd6.webp"
   },
   "1551839": {
     "item_id": "6ad135b8f2728ed39bc826c4",
@@ -1380,6 +1386,7 @@
     "home_id": "424",
     "away_id": "203",
     "tv_sig": "ESPN 3|TOTO|False|True",
-    "og": "og/helmond-sport-nac-breda-live-gratis-kijken-16-10-2026-a9ce55.webp"
+    "og": "og/helmond-sport-nac-breda-live-gratis-kijken-16-10-2026-a9ce55.webp",
+    "og_done": "og/helmond-sport-nac-breda-live-gratis-kijken-16-10-2026-a9ce55.webp"
   }
 }
