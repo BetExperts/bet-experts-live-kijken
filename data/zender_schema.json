@@ -1,5 +1,5 @@
 {
-"bijgewerkt": "2026-10-15T16:18:40.259533+00:00",
+"bijgewerkt": "2026-10-15T18:03:42.277415+00:00",
 "uitzendingen": [
 {
 "ko": "2026-10-15T16:45:00+00:00",
@@ -233,6 +233,24 @@
 "url": null
 },
 {
+"ko": "2026-10-16T03:00:00+00:00",
+"titel": "Diana Shnaider – Jeļena Ostapenko",
+"comp": "WTA Tour",
+"sport": "tennis",
+"zenders": [],
+"streams": [],
+"url": null
+},
+{
+"ko": "2026-10-16T04:30:00+00:00",
+"titel": "Elina Svitolina – Sonay Kartal",
+"comp": "WTA Tour",
+"sport": "tennis",
+"zenders": [],
+"streams": [],
+"url": null
+},
+{
 "ko": "2026-10-16T06:30:00+00:00",
 "titel": "Rafael Jódar – Casper Ruud",
 "comp": "ATP Tour",
@@ -419,6 +437,15 @@
 "zenders": [
 "Viaplay"
 ],
+"streams": [],
+"url": null
+},
+{
+"ko": "2026-10-17T02:00:00+00:00",
+"titel": "Alexander Zverev – Alejandro Davidovich Fokina",
+"comp": "ATP Tour",
+"sport": "tennis",
+"zenders": [],
 "streams": [],
 "url": null
 },
@@ -900,17 +927,6 @@
 },
 {
 "ko": "2026-10-18T10:15:00+00:00",
-"titel": "Ajax (V) – PSV (V)",
-"comp": "Eredivisie Vrouwen",
-"sport": "voetbal",
-"zenders": [
-"ESPN 1"
-],
-"streams": [],
-"url": null
-},
-{
-"ko": "2026-10-18T10:15:00+00:00",
 "titel": "PEC Zwolle – Go Ahead Eagles",
 "comp": "Eredivisie",
 "sport": "voetbal",
@@ -932,14 +948,33 @@
 "url": null
 },
 {
+"ko": "2026-10-18T10:15:00+00:00",
+"titel": "Ajax (V) – PSV (V)",
+"comp": "Eredivisie Vrouwen",
+"sport": "voetbal",
+"zenders": [
+"ESPN 1"
+],
+"streams": [],
+"url": null
+},
+{
 "ko": "2026-10-18T10:30:00+00:00",
 "titel": "Udinese – Lecce",
 "comp": "Serie A",
 "sport": "voetbal",
 "zenders": [
-"Ziggo Sport 1",
-"Ziggo Sport 3"
+"Ziggo Sport 1"
 ],
+"streams": [],
+"url": null
+},
+{
+"ko": "2026-10-18T10:30:00+00:00",
+"titel": "Kasimpasa – Samsunspor",
+"comp": "Süper Lig",
+"sport": "voetbal",
+"zenders": [],
 "streams": [],
 "url": null
 },
@@ -989,7 +1024,7 @@
 },
 {
 "ko": "2026-10-18T12:30:00+00:00",
-"titel": "Cambuur – AZ Alkmaar",
+"titel": "SC Cambuur – AZ",
 "comp": "Eredivisie",
 "sport": "voetbal",
 "zenders": [
@@ -1000,18 +1035,7 @@
 },
 {
 "ko": "2026-10-18T13:00:00+00:00",
-"titel": "Bournemouth – Sunderland",
-"comp": "Premier League",
-"sport": "voetbal",
-"zenders": [
-"Viaplay"
-],
-"streams": [],
-"url": null
-},
-{
-"ko": "2026-10-18T13:00:00+00:00",
-"titel": "Brighton – Crystal Palace",
+"titel": "Leeds – Manchester United",
 "comp": "Premier League",
 "sport": "voetbal",
 "zenders": [
@@ -1033,20 +1057,39 @@
 },
 {
 "ko": "2026-10-18T13:00:00+00:00",
-"titel": "Leeds United – Manchester United",
-"comp": "Premier League",
+"titel": "Kocaelispor – Goztepe",
+"comp": "Süper Lig",
+"sport": "voetbal",
+"zenders": [],
+"streams": [],
+"url": null
+},
+{
+"ko": "2026-10-18T13:00:00+00:00",
+"titel": "Angers – Marseille",
+"comp": "Ligue 1",
 "sport": "voetbal",
 "zenders": [
-"Viaplay",
-"Prime Video"
+"Viaplay"
 ],
 "streams": [],
 "url": null
 },
 {
 "ko": "2026-10-18T13:00:00+00:00",
-"titel": "SCO Angers – Marseille",
-"comp": "Ligue 1",
+"titel": "Bournemouth – Sunderland",
+"comp": "Premier League",
+"sport": "voetbal",
+"zenders": [
+"Viaplay"
+],
+"streams": [],
+"url": null
+},
+{
+"ko": "2026-10-18T13:00:00+00:00",
+"titel": "Brighton – Crystal Palace",
+"comp": "Premier League",
 "sport": "voetbal",
 "zenders": [
 "Viaplay"
@@ -1485,17 +1528,6 @@
 "sport": "voetbal",
 "zenders": [
 "Ziggo Sport 4"
-],
-"streams": [],
-"url": null
-},
-{
-"ko": "2026-10-21T18:00:00+00:00",
-"titel": "Levante – Athletic Club",
-"comp": "La Liga",
-"sport": "voetbal",
-"zenders": [
-"Ziggo Sport 6"
 ],
 "streams": [],
 "url": null
