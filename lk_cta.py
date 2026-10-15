@@ -79,16 +79,19 @@ def canvas():
     return img
 
 
-def logo_kaart(img, slug, box):
-    lg = Image.open(os.path.join(HERE, "assets", "zenders", slug + ".webp")).convert("RGBA")
+def logo_kaart(img, slug, box, logo=None, kleur=None):
+    lg = Image.open(logo or os.path.join(HERE, "assets", "zenders", slug + ".webp")).convert("RGBA")
     sh = Image.new("RGBA", img.size, (0, 0, 0, 0))
     ImageDraw.Draw(sh).rounded_rectangle([_s(v) for v in (box[0], box[1] + 12, box[2], box[3] + 12)],
                                          radius=_s(38), fill=(0, 0, 0, 150))
     img.alpha_composite(sh.filter(ImageFilter.GaussianBlur(_s(16))))
     d = ImageDraw.Draw(img)
     donker = slug in DONKER
-    rrect(d, box, 38, fill=(24, 33, 42) if donker else (255, 255, 255),
-          outline=(48, 60, 70) if donker else None, width=1.5)
+    if kleur:
+        rrect(d, box, 38, fill=kleur, outline=(48, 60, 70) if sum(kleur) < 90 else None, width=1.5)
+    else:
+        rrect(d, box, 38, fill=(24, 33, 42) if donker else (255, 255, 255),
+              outline=(48, 60, 70) if donker else None, width=1.5)
     bb = lg.getchannel("A").getbbox()
     if bb:
         lg = lg.crop(bb)
@@ -96,8 +99,8 @@ def logo_kaart(img, slug, box):
     paste_fit(img, lg, (box[0] + pad, box[1] + pad, box[2] - pad, box[3] - pad))
 
 
-def render(slug, variant):
-    t = teksten(slug, variant)
+def render(slug, variant, t=None, logo=None, kleur=None, leeftijd="18+", rechts="Vergund door de Kansspelautoriteit"):
+    t = t or teksten(slug, variant)
     img = canvas(); d = ImageDraw.Draw(img)
     X = 70
     # label met stip
@@ -107,7 +110,7 @@ def render(slug, variant):
     # betexperts-logo rechtsboven
     paste_fit(img, Image.open(os.path.join(O.ASSETS, "betexperts-logo.png")).convert("RGBA"), (1140, 52, 1330, 88))
     # logo-kaart
-    logo_kaart(img, slug, (X, 122, X + 236, 358))
+    logo_kaart(img, slug, (X, 122, X + 236, 358), logo, kleur)
     d = ImageDraw.Draw(img)
     # titel, uitleg, knop
     tx, maxw = 350, 500
@@ -136,9 +139,9 @@ def render(slug, variant):
     # voet
     d.line((_s(X), _s(410), _s(1330), _s(410)), fill=O.LINE, width=_s(1))
     rrect(d, (X, 438, X + 58, 474), 18, outline=(70, 82, 92), width=1.5)
-    draw_text(d, (X + 29, 456), "18+", font(PJ_B, 16), (215, 222, 228), "mm")
+    draw_text(d, (X + 29, 456), leeftijd, font(PJ_B, 16), (215, 222, 228), "mm")
     draw_text(d, (X + 76, 456), "Wat kost gokken jou? Stop op tijd.", font(PJ_M, 18), (175, 184, 192), "lm")
-    draw_text(d, (1330, 456), "Vergund door de Kansspelautoriteit", font(PJ_M, 17), O.GREY, "rm")
+    draw_text(d, (1330, 456), rechts, font(PJ_M, 17), O.GREY, "rm")
     out = img.resize((W, H), Image.LANCZOS).convert("RGB")
     import io
     b = io.BytesIO(); out.save(b, "WEBP", quality=88, method=6)
@@ -148,9 +151,9 @@ def render(slug, variant):
 MW, MH = 720, 640                    # mobiele variant (wordt op 2x getekend en zo opgeslagen: scherp op retina)
 
 
-def render_mobiel(slug, variant):
+def render_mobiel(slug, variant, t=None, logo=None, kleur=None, leeftijd="18+", rechts="KSA-vergund"):
     """Staande variant voor smalle schermen: zelfde inhoud, groter lettertype na verkleinen."""
-    t = teksten(slug, variant)
+    t = t or teksten(slug, variant)
     img = Image.new("RGBA", (_s(MW), _s(MH)), O.BG + (255,))
     glow = Image.new("RGBA", img.size, (0, 0, 0, 0)); g = ImageDraw.Draw(glow)
     g.ellipse((_s(-300), _s(-320), _s(420), _s(260)), fill=(22, 120, 60, 130))
@@ -161,7 +164,7 @@ def render_mobiel(slug, variant):
     d.ellipse((_s(X + 4), _s(36), _s(X + 16), _s(48)), fill=O.GREEN)
     draw_text(d, (X + 34, 42), t["label"], font(PJ_B, 17), O.GREEN, "lm", spacing=2.2)
     paste_fit(img, Image.open(os.path.join(O.ASSETS, "betexperts-logo.png")).convert("RGBA"), (MW - 36 - 160, 28, MW - 36, 56))
-    logo_kaart(img, slug, (X, 84, X + 168, 252))
+    logo_kaart(img, slug, (X, 84, X + 168, 252), logo, kleur)
     d = ImageDraw.Draw(img)
     tx, maxw = X + 196, MW - 36 - (X + 196)
     draw_text(d, (tx - 2, 124), t["titel"], fit_font(t["titel"], POP_B, 40, maxw, 26), O.WHITE, "lm")
@@ -186,9 +189,9 @@ def render_mobiel(slug, variant):
         draw_text(d, (bx[0] + 46, y), str(i + 1), fn, O.GREEN, "mm")
         draw_text(d, (bx[0] + 78, y), stap, ft, O.WHITE, "lm")
     rrect(d, (X, 578, X + 54, 612), 17, outline=(70, 82, 92), width=1.5)
-    draw_text(d, (X + 27, 595), "18+", font(PJ_B, 16), (215, 222, 228), "mm")
+    draw_text(d, (X + 27, 595), leeftijd, font(PJ_B, 16), (215, 222, 228), "mm")
     draw_text(d, (X + 68, 595), "Wat kost gokken jou? Stop op tijd.", font(PJ_M, 18), (175, 184, 192), "lm")
-    draw_text(d, (MW - X, 595), "KSA-vergund", font(PJ_M, 17), O.GREY, "rm")
+    draw_text(d, (MW - X, 595), rechts, font(PJ_M, 17), O.GREY, "rm")
     out = img.resize((int(MW * 1.5), int(MH * 1.5)), Image.LANCZOS).convert("RGB")   # 1080x960: scherp genoeg, lichter
     import io
     b = io.BytesIO(); out.save(b, "WEBP", quality=82, method=6)
