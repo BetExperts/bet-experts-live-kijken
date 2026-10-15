@@ -1,17 +1,8 @@
 {
-"bijgewerkt": "2026-10-15T07:39:29.332901+00:00",
+"bijgewerkt": "2026-10-15T08:31:48.817910+00:00",
 "uitzendingen": [
 {
-"ko": "2026-10-15T05:20:00+00:00",
-"titel": "Elina Svitolina – Guo Hanyu",
-"comp": "WTA Tour",
-"sport": "tennis",
-"zenders": [],
-"streams": [],
-"url": null
-},
-{
-"ko": "2026-10-15T06:10:00+00:00",
+"ko": "2026-10-15T06:30:00+00:00",
 "titel": "Iva Jovic – Maja Chwalińska",
 "comp": "WTA Tour",
 "sport": "tennis",
@@ -438,22 +429,22 @@
 },
 {
 "ko": "2026-10-16T19:00:00+00:00",
-"titel": "Burnley – Wolverhampton",
-"comp": "EFL Championship",
+"titel": "Deportivo La Coruna – Levante",
+"comp": "La Liga",
 "sport": "voetbal",
 "zenders": [
-"Viaplay"
+"Ziggo Sport 2"
 ],
 "streams": [],
 "url": null
 },
 {
 "ko": "2026-10-16T19:00:00+00:00",
-"titel": "Deportivo de La Coruna – Levante",
-"comp": "La Liga",
+"titel": "Burnley – Wolverhampton",
+"comp": "EFL Championship",
 "sport": "voetbal",
 "zenders": [
-"Ziggo Sport 2"
+"Viaplay"
 ],
 "streams": [],
 "url": null
@@ -586,6 +577,17 @@
 },
 {
 "ko": "2026-10-17T13:30:00+00:00",
+"titel": "Werder Bremen – SC Paderborn 07",
+"comp": "Bundesliga",
+"sport": "voetbal",
+"zenders": [
+"Viaplay"
+],
+"streams": [],
+"url": null
+},
+{
+"ko": "2026-10-17T13:30:00+00:00",
 "titel": "FC Schalke 04 – FSV Mainz 05",
 "comp": "Bundesliga",
 "sport": "voetbal",
@@ -629,9 +631,9 @@
 "url": null
 },
 {
-"ko": "2026-10-17T13:30:00+00:00",
-"titel": "Werder Bremen – SC Paderborn 07",
-"comp": "Bundesliga",
+"ko": "2026-10-17T14:00:00+00:00",
+"titel": "Fulham – Hull City",
+"comp": "Premier League",
 "sport": "voetbal",
 "zenders": [
 "Viaplay"
@@ -653,17 +655,6 @@
 {
 "ko": "2026-10-17T14:00:00+00:00",
 "titel": "Brentford – Liverpool",
-"comp": "Premier League",
-"sport": "voetbal",
-"zenders": [
-"Viaplay"
-],
-"streams": [],
-"url": null
-},
-{
-"ko": "2026-10-17T14:00:00+00:00",
-"titel": "Fulham – Hull City",
 "comp": "Premier League",
 "sport": "voetbal",
 "zenders": [
@@ -749,6 +740,17 @@
 },
 {
 "ko": "2026-10-17T16:30:00+00:00",
+"titel": "Real Betis – FC Barcelona",
+"comp": "La Liga",
+"sport": "voetbal",
+"zenders": [
+"Ziggo Sport 1"
+],
+"streams": [],
+"url": null
+},
+{
+"ko": "2026-10-17T16:30:00+00:00",
 "titel": "Bayern München – RB Leipzig",
 "comp": "Bundesliga",
 "sport": "voetbal",
@@ -760,33 +762,11 @@
 },
 {
 "ko": "2026-10-17T16:30:00+00:00",
-"titel": "Newcastle United – Aston Villa",
+"titel": "Newcastle – Aston Villa",
 "comp": "Premier League",
 "sport": "voetbal",
 "zenders": [
-"Viaplay"
-],
-"streams": [],
-"url": null
-},
-{
-"ko": "2026-10-17T16:30:00+00:00",
-"titel": "Real Betis – FC Barcelona",
-"comp": "La Liga",
-"sport": "voetbal",
-"zenders": [
-"Ziggo Sport 1"
-],
-"streams": [],
-"url": null
-},
-{
-"ko": "2026-10-17T18:00:00+00:00",
-"titel": "RED Star FC 93 – Saint-Étienne",
-"comp": "Ligue 2",
-"sport": "voetbal",
-"zenders": [
-"Viaplay"
+"Viaplay TV+"
 ],
 "streams": [],
 "url": null
@@ -798,6 +778,17 @@
 "sport": "voetbal",
 "zenders": [
 "ESPN 1"
+],
+"streams": [],
+"url": null
+},
+{
+"ko": "2026-10-17T18:00:00+00:00",
+"titel": "RED Star FC 93 – Saint-Étienne",
+"comp": "Ligue 2",
+"sport": "voetbal",
+"zenders": [
+"Viaplay"
 ],
 "streams": [],
 "url": null
@@ -815,7 +806,7 @@
 },
 {
 "ko": "2026-10-17T18:45:00+00:00",
-"titel": "AS Roma – Genoa C.F.C.",
+"titel": "AS Roma – Genoa",
 "comp": "Serie A",
 "sport": "voetbal",
 "zenders": [
@@ -826,7 +817,7 @@
 },
 {
 "ko": "2026-10-17T18:45:00+00:00",
-"titel": "Lille – Brest",
+"titel": "Lille – Stade Brestois 29",
 "comp": "Ligue 1",
 "sport": "voetbal",
 "zenders": [
@@ -837,7 +828,7 @@
 },
 {
 "ko": "2026-10-17T18:45:00+00:00",
-"titel": "Troyes – Lens",
+"titel": "Estac Troyes – Lens",
 "comp": "Ligue 1",
 "sport": "voetbal",
 "zenders": [
@@ -848,22 +839,22 @@
 },
 {
 "ko": "2026-10-17T19:00:00+00:00",
-"titel": "Sparta Rotterdam – Willem II",
-"comp": "Eredivisie",
+"titel": "Valencia – Athletic Club",
+"comp": "La Liga",
 "sport": "voetbal",
 "zenders": [
-"ESPN 2"
+"Ziggo Sport 2"
 ],
 "streams": [],
 "url": null
 },
 {
 "ko": "2026-10-17T19:00:00+00:00",
-"titel": "Valencia – Athletic Bilbao",
-"comp": "La Liga",
+"titel": "Sparta – Willem II",
+"comp": "Eredivisie",
 "sport": "voetbal",
 "zenders": [
-"Ziggo Sport 2"
+"ESPN 2"
 ],
 "streams": [],
 "url": null
