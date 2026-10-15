@@ -1,105 +1,6 @@
 {
-"bijgewerkt": "2026-10-15T19:37:23.874296+00:00",
+"bijgewerkt": "2026-10-15T20:09:25.026234+00:00",
 "uitzendingen": [
-{
-"ko": "2026-10-15T16:45:00+00:00",
-"titel": "Torreense – Sunderland",
-"comp": "Europa League",
-"sport": "voetbal",
-"zenders": [
-"Ziggo Sport 1"
-],
-"streams": [],
-"url": null
-},
-{
-"ko": "2026-10-15T16:45:00+00:00",
-"titel": "HNK Hajduk Split – Ajax",
-"comp": "Conference League",
-"sport": "voetbal",
-"zenders": [
-"Ziggo Sport 1"
-],
-"streams": [],
-"url": "/nieuws/hajduk-split-ajax-live-gratis-kijken-15-10-2026"
-},
-{
-"ko": "2026-10-15T16:45:00+00:00",
-"titel": "Lyon – Crystal Palace",
-"comp": "Europa League",
-"sport": "voetbal",
-"zenders": [
-"Ziggo Sport 6"
-],
-"streams": [],
-"url": "/nieuws/lyon-crystal-palace-live-gratis-kijken-15-10-2026"
-},
-{
-"ko": "2026-10-15T16:45:00+00:00",
-"titel": "AZ – Hapoel Beer Sheva",
-"comp": "Europa League",
-"sport": "voetbal",
-"zenders": [
-"Ziggo Sport 2"
-],
-"streams": [],
-"url": "/nieuws/az-hapoel-beer-sheva-live-gratis-kijken-15-10-2026"
-},
-{
-"ko": "2026-10-15T16:45:00+00:00",
-"titel": "Lech Poznan – Bayer Leverkusen",
-"comp": "Europa League",
-"sport": "voetbal",
-"zenders": [
-"Ziggo Sport"
-],
-"streams": [],
-"url": "/nieuws/lech-poznan-bayer-leverkusen-live-gratis-kijken-15-10-2026"
-},
-{
-"ko": "2026-10-15T16:45:00+00:00",
-"titel": "Red Bull Salzburg – AC Milan",
-"comp": "Europa League",
-"sport": "voetbal",
-"zenders": [
-"Ziggo Sport 5"
-],
-"streams": [],
-"url": "/nieuws/red-bull-salzburg-ac-milan-live-gratis-kijken-15-10-2026"
-},
-{
-"ko": "2026-10-15T16:45:00+00:00",
-"titel": "Sparta Praha – Lillestrom",
-"comp": "Europa League",
-"sport": "voetbal",
-"zenders": [
-"Ziggo Sport 1"
-],
-"streams": [],
-"url": null
-},
-{
-"ko": "2026-10-15T16:45:00+00:00",
-"titel": "Union Sint-Gillis – Real Sociedad",
-"comp": "Europa League",
-"sport": "voetbal",
-"zenders": [
-"Ziggo Sport"
-],
-"streams": [],
-"url": "/nieuws/union-sint-gilloise-real-sociedad-live-gratis-kijken-15-10-2026"
-},
-{
-"ko": "2026-10-15T16:45:00+00:00",
-"titel": "Celje – Omonia Nicosia",
-"comp": "Europa League",
-"sport": "voetbal",
-"zenders": [
-"Ziggo Sport 1"
-],
-"streams": [],
-"url": null
-},
 {
 "ko": "2026-10-15T18:00:00+00:00",
 "titel": "Al Ahli – Al Nassr",
@@ -135,105 +36,6 @@
 },
 {
 "ko": "2026-10-15T19:00:00+00:00",
-"titel": "FC Twente – FC Thun",
-"comp": "Conference League",
-"sport": "voetbal",
-"zenders": [
-"Ziggo Sport 1"
-],
-"streams": [],
-"url": "/nieuws/fc-twente-thun-live-gratis-kijken-15-10-2026"
-},
-{
-"ko": "2026-10-15T19:00:00+00:00",
-"titel": "Rennes – OFI",
-"comp": "Europa League",
-"sport": "voetbal",
-"zenders": [
-"Ziggo Sport 1"
-],
-"streams": [],
-"url": null
-},
-{
-"ko": "2026-10-15T19:00:00+00:00",
-"titel": "1899 Hoffenheim – Besiktas",
-"comp": "Europa League",
-"sport": "voetbal",
-"zenders": [
-"Ziggo Sport"
-],
-"streams": [],
-"url": "/nieuws/hoffenheim-besiktas-live-gratis-kijken-15-10-2026"
-},
-{
-"ko": "2026-10-15T19:00:00+00:00",
-"titel": "Benfica – Celtic",
-"comp": "Europa League",
-"sport": "voetbal",
-"zenders": [
-"Ziggo Sport 5"
-],
-"streams": [],
-"url": "/nieuws/benfica-celtic-live-gratis-kijken-15-10-2026"
-},
-{
-"ko": "2026-10-15T19:00:00+00:00",
-"titel": "Jagiellonia – Ararat-Armenia",
-"comp": "Europa League",
-"sport": "voetbal",
-"zenders": [
-"Ziggo Sport 1"
-],
-"streams": [],
-"url": null
-},
-{
-"ko": "2026-10-15T19:00:00+00:00",
-"titel": "NEC – Levski Sofia",
-"comp": "Europa League",
-"sport": "voetbal",
-"zenders": [
-"Ziggo Sport 2"
-],
-"streams": [],
-"url": "/nieuws/nec-nijmegen-levski-sofia-live-gratis-kijken-15-10-2026"
-},
-{
-"ko": "2026-10-15T19:00:00+00:00",
-"titel": "Celta Vigo – Juventus",
-"comp": "Europa League",
-"sport": "voetbal",
-"zenders": [
-"Ziggo Sport"
-],
-"streams": [],
-"url": "/nieuws/celta-vigo-juventus-live-gratis-kijken-15-10-2026"
-},
-{
-"ko": "2026-10-15T19:00:00+00:00",
-"titel": "Dinamo Zagreb – Anderlecht",
-"comp": "Europa League",
-"sport": "voetbal",
-"zenders": [
-"Ziggo Sport"
-],
-"streams": [],
-"url": "/nieuws/dinamo-zagreb-anderlecht-live-gratis-kijken-15-10-2026"
-},
-{
-"ko": "2026-10-15T19:00:00+00:00",
-"titel": "Ferencvarosi TC – Plzen",
-"comp": "Europa League",
-"sport": "voetbal",
-"zenders": [
-"Ziggo Sport 1"
-],
-"streams": [],
-"url": null
-},
-{
-"ko": "2026-10-15T19:00:00+00:00",
 "titel": "FC København – SC Braga",
 "comp": "UEFA Conference League",
 "sport": "voetbal",
@@ -245,6 +47,17 @@
 },
 {
 "ko": "2026-10-15T19:00:00+00:00",
+"titel": "FC Twente – FC Thun",
+"comp": "UEFA Conference League",
+"sport": "voetbal",
+"zenders": [
+"Ziggo Sport 1"
+],
+"streams": [],
+"url": "/nieuws/fc-twente-thun-live-gratis-kijken-15-10-2026"
+},
+{
+"ko": "2026-10-15T19:00:00+00:00",
 "titel": "Mansfield Town – Oxford United",
 "comp": "League One",
 "sport": "voetbal",
@@ -253,6 +66,28 @@
 ],
 "streams": [],
 "url": null
+},
+{
+"ko": "2026-10-15T19:00:00+00:00",
+"titel": "NEC – PFC Levski Sofia",
+"comp": "UEFA Europa League",
+"sport": "voetbal",
+"zenders": [
+"Ziggo Sport 2"
+],
+"streams": [],
+"url": "/nieuws/nec-nijmegen-levski-sofia-live-gratis-kijken-15-10-2026"
+},
+{
+"ko": "2026-10-15T19:00:00+00:00",
+"titel": "S.L. Benfica – Celtic FC",
+"comp": "UEFA Europa League",
+"sport": "voetbal",
+"zenders": [
+"Ziggo Sport 5"
+],
+"streams": [],
+"url": "/nieuws/benfica-celtic-live-gratis-kijken-15-10-2026"
 },
 {
 "ko": "2026-10-16T03:00:00+00:00",
@@ -345,6 +180,17 @@
 },
 {
 "ko": "2026-10-16T18:00:00+00:00",
+"titel": "Al Ittihad – Al Shabab",
+"comp": "Saudi Pro League",
+"sport": "voetbal",
+"zenders": [
+"KIJK"
+],
+"streams": [],
+"url": null
+},
+{
+"ko": "2026-10-16T18:00:00+00:00",
 "titel": "sc Heerenveen – Excelsior",
 "comp": "Eredivisie",
 "sport": "voetbal",
@@ -394,17 +240,6 @@
 "sport": "voetbal",
 "zenders": [
 "ESPN 3"
-],
-"streams": [],
-"url": null
-},
-{
-"ko": "2026-10-16T18:00:00+00:00",
-"titel": "Al Ittihad – Al Shabab",
-"comp": "Saudi Pro League",
-"sport": "voetbal",
-"zenders": [
-"KIJK"
 ],
 "streams": [],
 "url": null
@@ -786,6 +621,17 @@
 },
 {
 "ko": "2026-10-17T14:00:00+00:00",
+"titel": "Brentford – Liverpool",
+"comp": "Premier League",
+"sport": "voetbal",
+"zenders": [
+"Viaplay"
+],
+"streams": [],
+"url": null
+},
+{
+"ko": "2026-10-17T14:00:00+00:00",
 "titel": "Fulham – Hull City",
 "comp": "Premier League",
 "sport": "voetbal",
@@ -798,17 +644,6 @@
 {
 "ko": "2026-10-17T14:00:00+00:00",
 "titel": "Manchester City – Ipswich",
-"comp": "Premier League",
-"sport": "voetbal",
-"zenders": [
-"Viaplay"
-],
-"streams": [],
-"url": null
-},
-{
-"ko": "2026-10-17T14:00:00+00:00",
-"titel": "Brentford – Liverpool",
 "comp": "Premier League",
 "sport": "voetbal",
 "zenders": [
@@ -841,22 +676,22 @@
 },
 {
 "ko": "2026-10-17T14:30:00+00:00",
-"titel": "ADO Den Haag – PSV",
-"comp": "Eredivisie",
+"titel": "FC Emmen – Almere City FC",
+"comp": "Keuken Kampioen Divisie",
 "sport": "voetbal",
 "zenders": [
-"ESPN 2"
+"ESPN 1"
 ],
 "streams": [],
 "url": null
 },
 {
 "ko": "2026-10-17T14:30:00+00:00",
-"titel": "FC Emmen – Almere City FC",
-"comp": "Keuken Kampioen Divisie",
+"titel": "ADO Den Haag – PSV",
+"comp": "Eredivisie",
 "sport": "voetbal",
 "zenders": [
-"ESPN 1"
+"ESPN 2"
 ],
 "streams": [],
 "url": null
@@ -894,6 +729,17 @@
 },
 {
 "ko": "2026-10-17T16:30:00+00:00",
+"titel": "Newcastle – Aston Villa",
+"comp": "Premier League",
+"sport": "voetbal",
+"zenders": [
+"Viaplay TV+"
+],
+"streams": [],
+"url": null
+},
+{
+"ko": "2026-10-17T16:30:00+00:00",
 "titel": "Real Betis – FC Barcelona",
 "comp": "La Liga",
 "sport": "voetbal",
@@ -910,17 +756,6 @@
 "sport": "voetbal",
 "zenders": [
 "Viaplay"
-],
-"streams": [],
-"url": null
-},
-{
-"ko": "2026-10-17T16:30:00+00:00",
-"titel": "Newcastle – Aston Villa",
-"comp": "Premier League",
-"sport": "voetbal",
-"zenders": [
-"Viaplay TV+"
 ],
 "streams": [],
 "url": null
@@ -1211,6 +1046,17 @@
 },
 {
 "ko": "2026-10-18T13:00:00+00:00",
+"titel": "Angers – Marseille",
+"comp": "Ligue 1",
+"sport": "voetbal",
+"zenders": [
+"Viaplay"
+],
+"streams": [],
+"url": null
+},
+{
+"ko": "2026-10-18T13:00:00+00:00",
 "titel": "Leeds – Manchester United",
 "comp": "Premier League",
 "sport": "voetbal",
@@ -1237,17 +1083,6 @@
 "comp": "Süper Lig",
 "sport": "voetbal",
 "zenders": [],
-"streams": [],
-"url": null
-},
-{
-"ko": "2026-10-18T13:00:00+00:00",
-"titel": "Angers – Marseille",
-"comp": "Ligue 1",
-"sport": "voetbal",
-"zenders": [
-"Viaplay"
-],
 "streams": [],
 "url": null
 },
@@ -1297,22 +1132,11 @@
 },
 {
 "ko": "2026-10-18T14:15:00+00:00",
-"titel": "Celta de Vigo – Alavés",
+"titel": "Celta Vigo – Alaves",
 "comp": "La Liga",
 "sport": "voetbal",
 "zenders": [
 "Ziggo Sport 2"
-],
-"streams": [],
-"url": null
-},
-{
-"ko": "2026-10-18T14:45:00+00:00",
-"titel": "De Graafschap (V) – Feyenoord (V)",
-"comp": "Eredivisie Vrouwen",
-"sport": "voetbal",
-"zenders": [
-"ESPN 1"
 ],
 "streams": [],
 "url": null
@@ -1330,7 +1154,7 @@
 },
 {
 "ko": "2026-10-18T14:45:00+00:00",
-"titel": "MVV – Heracles Almelo",
+"titel": "MVV – Heracles",
 "comp": "Keuken Kampioen Divisie",
 "sport": "voetbal",
 "zenders": [
@@ -1340,8 +1164,19 @@
 "url": null
 },
 {
+"ko": "2026-10-18T14:45:00+00:00",
+"titel": "De Graafschap (V) – Feyenoord (V)",
+"comp": "Eredivisie Vrouwen",
+"sport": "voetbal",
+"zenders": [
+"ESPN 1"
+],
+"streams": [],
+"url": null
+},
+{
 "ko": "2026-10-18T15:15:00+00:00",
-"titel": "Le Havre – Auxerre",
+"titel": "Lorient – Monaco",
 "comp": "Ligue 1",
 "sport": "voetbal",
 "zenders": [
@@ -1352,7 +1187,7 @@
 },
 {
 "ko": "2026-10-18T15:15:00+00:00",
-"titel": "Lorient – Monaco",
+"titel": "Le Havre – Auxerre",
 "comp": "Ligue 1",
 "sport": "voetbal",
 "zenders": [
@@ -1374,7 +1209,7 @@
 },
 {
 "ko": "2026-10-18T15:30:00+00:00",
-"titel": "Borussia Mönchengladbach – Hoffenheim",
+"titel": "Borussia Mönchengladbach – 1899 Hoffenheim",
 "comp": "Bundesliga",
 "sport": "voetbal",
 "zenders": [
@@ -1389,8 +1224,17 @@
 "comp": "Premier League",
 "sport": "voetbal",
 "zenders": [
-"Viaplay"
+"Viaplay TV+"
 ],
+"streams": [],
+"url": null
+},
+{
+"ko": "2026-10-18T16:00:00+00:00",
+"titel": "Basaksehir – Gaziantep",
+"comp": "Süper Lig",
+"sport": "voetbal",
+"zenders": [],
 "streams": [],
 "url": null
 },
