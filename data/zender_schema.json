@@ -1,5 +1,5 @@
 {
-"bijgewerkt": "2026-10-15T20:09:25.026234+00:00",
+"bijgewerkt": "2026-10-15T20:22:31.517178+00:00",
 "uitzendingen": [
 {
 "ko": "2026-10-15T18:00:00+00:00",
@@ -175,8 +175,10 @@
 "comp": "Süper Lig",
 "sport": "voetbal",
 "zenders": [],
-"streams": [],
-"url": null
+"streams": [
+"TOTO"
+],
+"url": "/nieuws/corum-fk-rizespor-live-gratis-kijken-16-10-2026"
 },
 {
 "ko": "2026-10-16T18:00:00+00:00",
@@ -198,7 +200,7 @@
 "ESPN 2"
 ],
 "streams": [],
-"url": null
+"url": "/nieuws/heerenveen-excelsior-live-gratis-kijken-16-10-2026"
 },
 {
 "ko": "2026-10-16T18:00:00+00:00",
@@ -209,7 +211,7 @@
 "ESPN 4"
 ],
 "streams": [],
-"url": null
+"url": "/nieuws/vvv-venlo-jong-az-live-gratis-kijken-16-10-2026"
 },
 {
 "ko": "2026-10-16T18:00:00+00:00",
@@ -220,7 +222,7 @@
 "ESPN Extra"
 ],
 "streams": [],
-"url": null
+"url": "/nieuws/fc-den-bosch-top-oss-live-gratis-kijken-16-10-2026"
 },
 {
 "ko": "2026-10-16T18:00:00+00:00",
@@ -231,7 +233,7 @@
 "ESPN Extra"
 ],
 "streams": [],
-"url": null
+"url": "/nieuws/fc-eindhoven-vitesse-live-gratis-kijken-16-10-2026"
 },
 {
 "ko": "2026-10-16T18:00:00+00:00",
@@ -242,7 +244,7 @@
 "ESPN 3"
 ],
 "streams": [],
-"url": null
+"url": "/nieuws/helmond-sport-nac-breda-live-gratis-kijken-16-10-2026"
 },
 {
 "ko": "2026-10-16T18:30:00+00:00",
@@ -252,8 +254,10 @@
 "zenders": [
 "Viaplay TV+"
 ],
-"streams": [],
-"url": null
+"streams": [
+"711"
+],
+"url": "/nieuws/eintracht-frankfurt-fc-koln-live-gratis-kijken-16-10-2026"
 },
 {
 "ko": "2026-10-16T18:45:00+00:00",
