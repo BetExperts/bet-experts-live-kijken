@@ -1,15 +1,6 @@
 {
-"bijgewerkt": "2026-10-16T14:17:46.799665+00:00",
+"bijgewerkt": "2026-10-16T16:13:35.733714+00:00",
 "uitzendingen": [
-{
-"ko": "2026-10-16T11:20:00+00:00",
-"titel": "Ann Li – Iga Świątek",
-"comp": "WTA Tour",
-"sport": "tennis",
-"zenders": [],
-"streams": [],
-"url": null
-},
 {
 "ko": "2026-10-16T13:15:00+00:00",
 "titel": "Al Qadsiah – Abha",
@@ -1583,6 +1574,17 @@
 "url": null
 },
 {
+"ko": "2026-10-21T20:00:00+00:00",
+"titel": "Vasco da Gama – CA Boca Juniors",
+"comp": "Copa Sudamericana",
+"sport": "voetbal",
+"zenders": [
+"ESPN 1"
+],
+"streams": [],
+"url": null
+},
+{
 "ko": "2026-10-22T14:30:00+00:00",
 "titel": "Kairat Almaty – Panathinaikos FC",
 "comp": "UEFA Conference League",
@@ -1711,17 +1713,6 @@
 "sport": "voetbal",
 "zenders": [
 "VRT Canvas"
-],
-"streams": [],
-"url": null
-},
-{
-"ko": "2026-10-22T20:00:00+00:00",
-"titel": "Vasco da Gama – CA Boca Juniors",
-"comp": "Copa Sudamericana",
-"sport": "voetbal",
-"zenders": [
-"ESPN 1"
 ],
 "streams": [],
 "url": null
