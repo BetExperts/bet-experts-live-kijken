@@ -1,26 +1,6 @@
 {
-"bijgewerkt": "2026-10-16T12:40:26.674221+00:00",
+"bijgewerkt": "2026-10-16T14:17:46.799665+00:00",
 "uitzendingen": [
-{
-"ko": "2026-10-16T10:10:00+00:00",
-"titel": "Daniil Medvedev – Tommy Paul",
-"comp": "ATP Tour",
-"sport": "tennis",
-"zenders": [],
-"streams": [],
-"url": null
-},
-{
-"ko": "2026-10-16T11:00:00+00:00",
-"titel": "Van Duijvenbode – Hurrell",
-"comp": "Dutch Darts Championship",
-"sport": "darts",
-"zenders": [
-"Viaplay TV"
-],
-"streams": [],
-"url": null
-},
 {
 "ko": "2026-10-16T11:20:00+00:00",
 "titel": "Ann Li – Iga Świątek",
@@ -1742,6 +1722,105 @@
 "sport": "voetbal",
 "zenders": [
 "ESPN 1"
+],
+"streams": [],
+"url": null
+},
+{
+"ko": "2026-10-23T16:30:00+00:00",
+"titel": "Bochum – VfL Wolfsburg",
+"comp": "2. Bundesliga",
+"sport": "voetbal",
+"zenders": [
+"Viaplay"
+],
+"streams": [],
+"url": null
+},
+{
+"ko": "2026-10-23T16:30:00+00:00",
+"titel": "Darmstadt 98 – St. Pauli",
+"comp": "2. Bundesliga",
+"sport": "voetbal",
+"zenders": [
+"Viaplay"
+],
+"streams": [],
+"url": null
+},
+{
+"ko": "2026-10-23T16:30:00+00:00",
+"titel": "RB Leipzig (V) – Bayern München (V)",
+"comp": "Frauen Bundesliga",
+"sport": "voetbal",
+"zenders": [
+"Viaplay"
+],
+"streams": [],
+"url": null
+},
+{
+"ko": "2026-10-23T18:00:00+00:00",
+"titel": "Go Ahead Eagles – Telstar",
+"comp": "Eredivisie",
+"sport": "voetbal",
+"zenders": [
+"ESPN 2"
+],
+"streams": [],
+"url": null
+},
+{
+"ko": "2026-10-23T18:30:00+00:00",
+"titel": "VfB Stuttgart – Borussia Mönchengladbach",
+"comp": "Bundesliga",
+"sport": "voetbal",
+"zenders": [
+"Viaplay"
+],
+"streams": [],
+"url": null
+},
+{
+"ko": "2026-10-23T18:45:00+00:00",
+"titel": "Brest – Nice",
+"comp": "Ligue 1",
+"sport": "voetbal",
+"zenders": [
+"Viaplay"
+],
+"streams": [],
+"url": null
+},
+{
+"ko": "2026-10-23T19:00:00+00:00",
+"titel": "Alavés – Málaga",
+"comp": "La Liga",
+"sport": "voetbal",
+"zenders": [
+"Ziggo Sport 2"
+],
+"streams": [],
+"url": null
+},
+{
+"ko": "2026-10-23T19:00:00+00:00",
+"titel": "Bolton Wanderers – Middlesbrough",
+"comp": "EFL Championship",
+"sport": "voetbal",
+"zenders": [
+"Viaplay"
+],
+"streams": [],
+"url": null
+},
+{
+"ko": "2026-10-23T19:00:00+00:00",
+"titel": "Ipswich Town – Nottingham Forest",
+"comp": "Premier League",
+"sport": "voetbal",
+"zenders": [
+"Viaplay"
 ],
 "streams": [],
 "url": null
