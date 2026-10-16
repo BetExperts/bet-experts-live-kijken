@@ -1,17 +1,6 @@
 {
-"bijgewerkt": "2026-10-16T16:13:35.733714+00:00",
+"bijgewerkt": "2026-10-16T18:58:39.399401+00:00",
 "uitzendingen": [
-{
-"ko": "2026-10-16T13:15:00+00:00",
-"titel": "Al Qadsiah – Abha",
-"comp": "Saudi Pro League",
-"sport": "voetbal",
-"zenders": [
-"KIJK"
-],
-"streams": [],
-"url": null
-},
 {
 "ko": "2026-10-16T16:30:00+00:00",
 "titel": "Energie Cottbus – Nürnberg",
@@ -937,17 +926,6 @@
 },
 {
 "ko": "2026-10-18T13:00:00+00:00",
-"titel": "Fiorentina – Como",
-"comp": "Serie A",
-"sport": "voetbal",
-"zenders": [
-"Ziggo Sport 1"
-],
-"streams": [],
-"url": null
-},
-{
-"ko": "2026-10-18T13:00:00+00:00",
 "titel": "Angers – Marseille",
 "comp": "Ligue 1",
 "sport": "voetbal",
@@ -984,6 +962,17 @@
 "sport": "voetbal",
 "zenders": [
 "Viaplay"
+],
+"streams": [],
+"url": null
+},
+{
+"ko": "2026-10-18T13:00:00+00:00",
+"titel": "Fiorentina – Como",
+"comp": "Serie A",
+"sport": "voetbal",
+"zenders": [
+"Ziggo Sport 1"
 ],
 "streams": [],
 "url": null
@@ -1100,22 +1089,22 @@
 },
 {
 "ko": "2026-10-18T15:30:00+00:00",
-"titel": "Borussia Mönchengladbach – 1899 Hoffenheim",
-"comp": "Bundesliga",
+"titel": "Nottingham Forest – Arsenal",
+"comp": "Premier League",
 "sport": "voetbal",
 "zenders": [
-"Viaplay"
+"Viaplay TV+"
 ],
 "streams": [],
 "url": null
 },
 {
 "ko": "2026-10-18T15:30:00+00:00",
-"titel": "Nottingham Forest – Arsenal",
-"comp": "Premier League",
+"titel": "Borussia Mönchengladbach – 1899 Hoffenheim",
+"comp": "Bundesliga",
 "sport": "voetbal",
 "zenders": [
-"Viaplay TV+"
+"Viaplay"
 ],
 "streams": [],
 "url": null
