@@ -1,19 +1,10 @@
 {
-"bijgewerkt": "2026-10-16T10:39:01.586582+00:00",
+"bijgewerkt": "2026-10-16T12:39:04.057578+00:00",
 "uitzendingen": [
 {
-"ko": "2026-10-16T10:00:00+00:00",
+"ko": "2026-10-16T10:10:00+00:00",
 "titel": "Daniil Medvedev – Tommy Paul",
 "comp": "ATP Tour",
-"sport": "tennis",
-"zenders": [],
-"streams": [],
-"url": null
-},
-{
-"ko": "2026-10-16T11:00:00+00:00",
-"titel": "Ann Li – Iga Świątek",
-"comp": "WTA Tour",
 "sport": "tennis",
 "zenders": [],
 "streams": [],
@@ -27,6 +18,15 @@
 "zenders": [
 "Viaplay TV"
 ],
+"streams": [],
+"url": null
+},
+{
+"ko": "2026-10-16T11:20:00+00:00",
+"titel": "Ann Li – Iga Świątek",
+"comp": "WTA Tour",
+"sport": "tennis",
+"zenders": [],
 "streams": [],
 "url": null
 },
@@ -306,15 +306,6 @@
 "url": null
 },
 {
-"ko": "2026-10-17T02:00:00+00:00",
-"titel": "Alexander Zverev – Alejandro Davidovich Fokina",
-"comp": "ATP Tour",
-"sport": "tennis",
-"zenders": [],
-"streams": [],
-"url": null
-},
-{
 "ko": "2026-10-17T02:30:00+00:00",
 "titel": "LA Galaxy – San Diego",
 "comp": "MLS",
@@ -366,6 +357,15 @@
 "zenders": [
 "K League TV"
 ],
+"streams": [],
+"url": null
+},
+{
+"ko": "2026-10-17T08:30:00+00:00",
+"titel": "Alexander Zverev – Alejandro Davidovich Fokina",
+"comp": "ATP Tour",
+"sport": "tennis",
+"zenders": [],
 "streams": [],
 "url": null
 },
