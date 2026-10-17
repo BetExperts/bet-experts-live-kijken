@@ -1,111 +1,6 @@
 {
-"bijgewerkt": "2026-10-17T16:31:20.072545+00:00",
+"bijgewerkt": "2026-10-17T19:25:33.198802+00:00",
 "uitzendingen": [
-{
-"ko": "2026-10-17T14:00:00+00:00",
-"titel": "Brentford – Liverpool",
-"comp": "Premier League",
-"sport": "voetbal",
-"zenders": [
-"Viaplay"
-],
-"streams": [],
-"url": "/nieuws/brentford-liverpool-live-gratis-kijken-17-10-2026"
-},
-{
-"ko": "2026-10-17T14:00:00+00:00",
-"titel": "Fulham – Hull City",
-"comp": "Premier League",
-"sport": "voetbal",
-"zenders": [
-"Viaplay"
-],
-"streams": [],
-"url": null
-},
-{
-"ko": "2026-10-17T14:00:00+00:00",
-"titel": "Manchester City – Ipswich Town",
-"comp": "Premier League",
-"sport": "voetbal",
-"zenders": [
-"Viaplay"
-],
-"streams": [],
-"url": "/nieuws/manchester-city-ipswich-town-live-gratis-kijken-17-10-2026"
-},
-{
-"ko": "2026-10-17T14:00:00+00:00",
-"titel": "Norwich City – Portsmouth",
-"comp": "EFL Championship",
-"sport": "voetbal",
-"zenders": [
-"Viaplay"
-],
-"streams": [],
-"url": null
-},
-{
-"ko": "2026-10-17T14:15:00+00:00",
-"titel": "Villarreal – Elche",
-"comp": "La Liga",
-"sport": "voetbal",
-"zenders": [
-"Ziggo Sport 2"
-],
-"streams": [
-"TOTO"
-],
-"url": "/nieuws/villarreal-elche-live-gratis-kijken-17-10-2026"
-},
-{
-"ko": "2026-10-17T14:30:00+00:00",
-"titel": "ADO Den Haag – PSV",
-"comp": "Eredivisie",
-"sport": "voetbal",
-"zenders": [
-"ESPN 2"
-],
-"streams": [],
-"url": "/nieuws/ado-den-haag-psv-live-gratis-kijken-17-10-2026"
-},
-{
-"ko": "2026-10-17T14:30:00+00:00",
-"titel": "FC Emmen – Almere City",
-"comp": "Keuken Kampioen Divisie",
-"sport": "voetbal",
-"zenders": [
-"ESPN 1"
-],
-"streams": [],
-"url": "/nieuws/fc-emmen-almere-city-live-gratis-kijken-17-10-2026"
-},
-{
-"ko": "2026-10-17T15:15:00+00:00",
-"titel": "Strasbourg – Paris Saint-Germain",
-"comp": "Ligue 1",
-"sport": "voetbal",
-"zenders": [
-"Viaplay"
-],
-"streams": [
-"711"
-],
-"url": "/nieuws/strasbourg-paris-saint-germain-psg-live-gratis-kijken-17-10-2026"
-},
-{
-"ko": "2026-10-17T16:00:00+00:00",
-"titel": "Bologna – Inter Milan",
-"comp": "Serie A",
-"sport": "voetbal",
-"zenders": [
-"Ziggo Sport 7"
-],
-"streams": [
-"Bet365"
-],
-"url": "/nieuws/bologna-inter-live-gratis-kijken-17-10-2026"
-},
 {
 "ko": "2026-10-17T16:30:00+00:00",
 "titel": "Bayern München – RB Leipzig",
@@ -121,17 +16,6 @@
 },
 {
 "ko": "2026-10-17T16:30:00+00:00",
-"titel": "Newcastle United – Aston Villa",
-"comp": "Premier League",
-"sport": "voetbal",
-"zenders": [
-"Viaplay TV+"
-],
-"streams": [],
-"url": "/nieuws/newcastle-united-aston-villa-live-gratis-kijken-17-10-2026"
-},
-{
-"ko": "2026-10-17T16:30:00+00:00",
 "titel": "Real Betis – FC Barcelona",
 "comp": "La Liga",
 "sport": "voetbal",
@@ -142,6 +26,17 @@
 "TOTO"
 ],
 "url": "/nieuws/real-betis-fc-barcelona-live-gratis-kijken-17-10-2026"
+},
+{
+"ko": "2026-10-17T16:30:00+00:00",
+"titel": "Newcastle – Aston Villa",
+"comp": "Premier League",
+"sport": "voetbal",
+"zenders": [
+"Viaplay TV+"
+],
+"streams": [],
+"url": "/nieuws/newcastle-united-aston-villa-live-gratis-kijken-17-10-2026"
 },
 {
 "ko": "2026-10-17T18:00:00+00:00",
@@ -262,6 +157,50 @@
 "url": null
 },
 {
+"ko": "2026-10-17T22:30:00+00:00",
+"titel": "Atletico Paranaense – SE Palmeiras",
+"comp": "Braziliaanse Serie A",
+"sport": "voetbal",
+"zenders": [
+"Fanatiz"
+],
+"streams": [],
+"url": null
+},
+{
+"ko": "2026-10-17T23:00:00+00:00",
+"titel": "Atletico Tucuman – Rosario Central",
+"comp": "Argentijnse Primera Division",
+"sport": "voetbal",
+"zenders": [
+"Fanatiz"
+],
+"streams": [],
+"url": null
+},
+{
+"ko": "2026-10-17T23:00:00+00:00",
+"titel": "CA Vélez Sársfield – CA Gimnasia y Esgrima",
+"comp": "Argentijnse Primera Division",
+"sport": "voetbal",
+"zenders": [
+"Fanatiz"
+],
+"streams": [],
+"url": null
+},
+{
+"ko": "2026-10-18T00:00:00+00:00",
+"titel": "São Paulo FC – Vasco da Gama",
+"comp": "Braziliaanse Serie A",
+"sport": "voetbal",
+"zenders": [
+"Fanatiz"
+],
+"streams": [],
+"url": null
+},
+{
 "ko": "2026-10-18T05:00:00+00:00",
 "titel": "Daejeon Citizen – Gwangju FC",
 "comp": "K League 1",
@@ -279,6 +218,17 @@
 "sport": "voetbal",
 "zenders": [
 "K League TV"
+],
+"streams": [],
+"url": null
+},
+{
+"ko": "2026-10-18T07:00:00+00:00",
+"titel": "FC Machida Zelvia – Avispa Fukuoka",
+"comp": "J1 League",
+"sport": "voetbal",
+"zenders": [
+"YouTube"
 ],
 "streams": [],
 "url": null
@@ -317,6 +267,15 @@
 "url": null
 },
 {
+"ko": "2026-10-18T08:30:00+00:00",
+"titel": "Alejandro Davidovich Fokina – Rafael Jódar",
+"comp": "ATP Tour",
+"sport": "tennis",
+"zenders": [],
+"streams": [],
+"url": null
+},
+{
 "ko": "2026-10-18T10:00:00+00:00",
 "titel": "Real Sociedad (V) – FC Barcelona (V)",
 "comp": "Liga F",
@@ -336,7 +295,7 @@
 "ESPN 2"
 ],
 "streams": [],
-"url": null
+"url": "/nieuws/pec-zwolle-go-ahead-eagles-live-gratis-kijken-18-10-2026"
 },
 {
 "ko": "2026-10-18T10:15:00+00:00",
@@ -347,7 +306,7 @@
 "ESPN 3"
 ],
 "streams": [],
-"url": null
+"url": "/nieuws/rkc-waalwijk-volendam-live-gratis-kijken-18-10-2026"
 },
 {
 "ko": "2026-10-18T10:15:00+00:00",
@@ -362,15 +321,6 @@
 },
 {
 "ko": "2026-10-18T10:30:00+00:00",
-"titel": "Kasimpasa – Samsunspor",
-"comp": "Süper Lig",
-"sport": "voetbal",
-"zenders": [],
-"streams": [],
-"url": null
-},
-{
-"ko": "2026-10-18T10:30:00+00:00",
 "titel": "Udinese – Lecce",
 "comp": "Serie A",
 "sport": "voetbal",
@@ -379,6 +329,17 @@
 ],
 "streams": [],
 "url": null
+},
+{
+"ko": "2026-10-18T10:30:00+00:00",
+"titel": "Kasimpasa – Samsunspor",
+"comp": "Süper Lig",
+"sport": "voetbal",
+"zenders": [],
+"streams": [
+"Bet365"
+],
+"url": "/nieuws/kasimpasa-samsunspor-live-gratis-kijken-18-10-2026"
 },
 {
 "ko": "2026-10-18T11:30:00+00:00",
@@ -433,7 +394,20 @@
 "ESPN 1"
 ],
 "streams": [],
-"url": null
+"url": "/nieuws/sc-cambuur-az-live-gratis-kijken-18-10-2026"
+},
+{
+"ko": "2026-10-18T13:00:00+00:00",
+"titel": "Fiorentina – Como",
+"comp": "Serie A",
+"sport": "voetbal",
+"zenders": [
+"Ziggo Sport 1"
+],
+"streams": [
+"Bet365"
+],
+"url": "/nieuws/fiorentina-como-live-gratis-kijken-18-10-2026"
 },
 {
 "ko": "2026-10-18T13:00:00+00:00",
@@ -443,8 +417,10 @@
 "zenders": [
 "Viaplay"
 ],
-"streams": [],
-"url": null
+"streams": [
+"Starcasino"
+],
+"url": "/nieuws/angers-marseille-live-gratis-kijken-18-10-2026"
 },
 {
 "ko": "2026-10-18T13:00:00+00:00",
@@ -452,8 +428,10 @@
 "comp": "Süper Lig",
 "sport": "voetbal",
 "zenders": [],
-"streams": [],
-"url": null
+"streams": [
+"Starcasino"
+],
+"url": "/nieuws/kocaelispor-goztepe-live-gratis-kijken-18-10-2026"
 },
 {
 "ko": "2026-10-18T13:00:00+00:00",
@@ -475,18 +453,7 @@
 "Viaplay"
 ],
 "streams": [],
-"url": null
-},
-{
-"ko": "2026-10-18T13:00:00+00:00",
-"titel": "Fiorentina – Como",
-"comp": "Serie A",
-"sport": "voetbal",
-"zenders": [
-"Ziggo Sport 1"
-],
-"streams": [],
-"url": null
+"url": "/nieuws/leeds-united-manchester-united-live-gratis-kijken-18-10-2026"
 },
 {
 "ko": "2026-10-18T13:00:00+00:00",
@@ -507,8 +474,10 @@
 "zenders": [
 "Viaplay"
 ],
-"streams": [],
-"url": null
+"streams": [
+"711"
+],
+"url": "/nieuws/bayer-leverkusen-freiburg-live-gratis-kijken-18-10-2026"
 },
 {
 "ko": "2026-10-18T13:30:00+00:00",
@@ -541,7 +510,7 @@
 "ESPN 2"
 ],
 "streams": [],
-"url": null
+"url": "/nieuws/fc-groningen-ajax-live-gratis-kijken-18-10-2026"
 },
 {
 "ko": "2026-10-18T14:45:00+00:00",
@@ -552,7 +521,7 @@
 "ESPN 3"
 ],
 "streams": [],
-"url": null
+"url": "/nieuws/mvv-heracles-almelo-live-gratis-kijken-18-10-2026"
 },
 {
 "ko": "2026-10-18T14:45:00+00:00",
@@ -573,8 +542,10 @@
 "zenders": [
 "Viaplay"
 ],
-"streams": [],
-"url": null
+"streams": [
+"Starcasino"
+],
+"url": "/nieuws/lorient-as-monaco-live-gratis-kijken-18-10-2026"
 },
 {
 "ko": "2026-10-18T15:15:00+00:00",
@@ -600,17 +571,6 @@
 },
 {
 "ko": "2026-10-18T15:30:00+00:00",
-"titel": "Nottingham Forest – Arsenal",
-"comp": "Premier League",
-"sport": "voetbal",
-"zenders": [
-"Viaplay TV+"
-],
-"streams": [],
-"url": null
-},
-{
-"ko": "2026-10-18T15:30:00+00:00",
 "titel": "Borussia Mönchengladbach – 1899 Hoffenheim",
 "comp": "Bundesliga",
 "sport": "voetbal",
@@ -621,6 +581,17 @@
 "url": null
 },
 {
+"ko": "2026-10-18T15:30:00+00:00",
+"titel": "Nottingham Forest – Arsenal",
+"comp": "Premier League",
+"sport": "voetbal",
+"zenders": [
+"Viaplay TV+"
+],
+"streams": [],
+"url": "/nieuws/nottingham-forest-arsenal-live-gratis-kijken-18-10-2026"
+},
+{
 "ko": "2026-10-18T16:00:00+00:00",
 "titel": "AC Milan – Atalanta",
 "comp": "Serie A",
@@ -628,8 +599,10 @@
 "zenders": [
 "Ziggo Sport 1"
 ],
-"streams": [],
-"url": null
+"streams": [
+"Bet365"
+],
+"url": "/nieuws/ac-milan-atalanta-live-gratis-kijken-18-10-2026"
 },
 {
 "ko": "2026-10-18T16:00:00+00:00",
@@ -637,8 +610,10 @@
 "comp": "Süper Lig",
 "sport": "voetbal",
 "zenders": [],
-"streams": [],
-"url": null
+"streams": [
+"Starcasino"
+],
+"url": "/nieuws/istanbul-basaksehir-gaziantep-live-gratis-kijken-18-10-2026"
 },
 {
 "ko": "2026-10-18T16:30:00+00:00",
@@ -648,8 +623,10 @@
 "zenders": [
 "Ziggo Sport 2"
 ],
-"streams": [],
-"url": null
+"streams": [
+"TOTO"
+],
+"url": "/nieuws/malaga-real-sociedad-live-gratis-kijken-18-10-2026"
 },
 {
 "ko": "2026-10-18T16:30:00+00:00",
@@ -663,6 +640,17 @@
 "url": null
 },
 {
+"ko": "2026-10-18T17:45:00+00:00",
+"titel": "Racing Club de Avellaneda – CA Independiente",
+"comp": "Argentijnse Primera Division",
+"sport": "voetbal",
+"zenders": [
+"Fanatiz"
+],
+"streams": [],
+"url": null
+},
+{
 "ko": "2026-10-18T18:00:00+00:00",
 "titel": "NEC – Fortuna Sittard",
 "comp": "Eredivisie",
@@ -671,7 +659,7 @@
 "ESPN 1"
 ],
 "streams": [],
-"url": null
+"url": "/nieuws/nec-nijmegen-fortuna-sittard-live-gratis-kijken-18-10-2026"
 },
 {
 "ko": "2026-10-18T18:00:00+00:00",
@@ -682,7 +670,7 @@
 "ESPN 2"
 ],
 "streams": [],
-"url": null
+"url": "/nieuws/fc-twente-fc-utrecht-live-gratis-kijken-18-10-2026"
 },
 {
 "ko": "2026-10-18T18:45:00+00:00",
@@ -692,8 +680,10 @@
 "zenders": [
 "Viaplay TV+"
 ],
-"streams": [],
-"url": null
+"streams": [
+"711"
+],
+"url": "/nieuws/lyon-ogc-nice-live-gratis-kijken-18-10-2026"
 },
 {
 "ko": "2026-10-18T18:45:00+00:00",
@@ -703,8 +693,10 @@
 "zenders": [
 "Ziggo Sport 2"
 ],
-"streams": [],
-"url": null
+"streams": [
+"Bet365"
+],
+"url": "/nieuws/juventus-lazio-live-gratis-kijken-18-10-2026"
 },
 {
 "ko": "2026-10-18T19:00:00+00:00",
@@ -713,6 +705,30 @@
 "sport": "voetbal",
 "zenders": [
 "Ziggo Sport 1"
+],
+"streams": [
+"TOTO"
+],
+"url": "/nieuws/real-madrid-sevilla-live-gratis-kijken-18-10-2026"
+},
+{
+"ko": "2026-10-18T19:00:00+00:00",
+"titel": "Fluminense FC – Santos FC",
+"comp": "Braziliaanse Serie A",
+"sport": "voetbal",
+"zenders": [
+"Fanatiz"
+],
+"streams": [],
+"url": null
+},
+{
+"ko": "2026-10-18T19:00:00+00:00",
+"titel": "Grêmio FBPA – Cruzeiro EC",
+"comp": "Braziliaanse Serie A",
+"sport": "voetbal",
+"zenders": [
+"Fanatiz"
 ],
 "streams": [],
 "url": null
@@ -730,12 +746,87 @@
 },
 {
 "ko": "2026-10-18T21:00:00+00:00",
+"titel": "Estudiantes de Rio Cuarto – CA Aldosivi",
+"comp": "Argentijnse Primera Division",
+"sport": "voetbal",
+"zenders": [
+"Fanatiz"
+],
+"streams": [],
+"url": null
+},
+{
+"ko": "2026-10-18T21:00:00+00:00",
+"titel": "Estudiantes L.P. – San Lorenzo de Almagro",
+"comp": "Argentijnse Primera Division",
+"sport": "voetbal",
+"zenders": [
+"Fanatiz"
+],
+"streams": [],
+"url": null
+},
+{
+"ko": "2026-10-18T21:00:00+00:00",
 "titel": "FC Cincinnati – Columbus Crew",
 "comp": "MLS",
 "sport": "voetbal",
 "zenders": [
 "Apple TV"
 ],
+"streams": [
+"Bet365"
+],
+"url": "/nieuws/cincinatti-columbus-crew-live-gratis-kijken-18-10-2026"
+},
+{
+"ko": "2026-10-18T21:30:00+00:00",
+"titel": "Bahia – CR Flamengo",
+"comp": "Braziliaanse Serie A",
+"sport": "voetbal",
+"zenders": [
+"Fanatiz"
+],
+"streams": [],
+"url": null
+},
+{
+"ko": "2026-10-18T22:30:00+00:00",
+"titel": "Clube do Remo – Red Bull Bragantino",
+"comp": "Braziliaanse Serie A",
+"sport": "voetbal",
+"zenders": [
+"Fanatiz"
+],
+"streams": [],
+"url": null
+},
+{
+"ko": "2026-10-18T23:15:00+00:00",
+"titel": "CA Belgrano – CA River Plate",
+"comp": "Argentijnse Primera Division",
+"sport": "voetbal",
+"zenders": [
+"Fanatiz"
+],
+"streams": [],
+"url": null
+},
+{
+"ko": "2026-10-19T08:00:00+00:00",
+"titel": "Tallon Griekspoor – Schoenhaus M.",
+"comp": "ATP Tour",
+"sport": "tennis",
+"zenders": [],
+"streams": [],
+"url": null
+},
+{
+"ko": "2026-10-19T08:00:00+00:00",
+"titel": "Botic van de Zandschulp – Kamil Majchrzak",
+"comp": "ATP Tour",
+"sport": "tennis",
+"zenders": [],
 "streams": [],
 "url": null
 },
@@ -772,14 +863,54 @@
 },
 {
 "ko": "2026-10-19T18:00:00+00:00",
+"titel": "Al Hilal – Al Hazem",
+"comp": "Saudi Pro League",
+"sport": "voetbal",
+"zenders": [
+"KIJK"
+],
+"streams": [],
+"url": null
+},
+{
+"ko": "2026-10-19T18:00:00+00:00",
+"titel": "Jong PSV U21 – Dordrecht",
+"comp": "Keuken Kampioen Divisie",
+"sport": "voetbal",
+"zenders": [
+"ESPN 3"
+],
+"streams": [],
+"url": null
+},
+{
+"ko": "2026-10-19T18:00:00+00:00",
 "titel": "Jong Ajax – De Graafschap",
 "comp": "Keuken Kampioen Divisie",
 "sport": "voetbal",
 "zenders": [
-"ESPN 1",
-"ESPN 2",
-"ESPN 3"
+"ESPN 1"
 ],
+"streams": [],
+"url": null
+},
+{
+"ko": "2026-10-19T18:00:00+00:00",
+"titel": "Jong Utrecht – Roda JC",
+"comp": "Keuken Kampioen Divisie",
+"sport": "voetbal",
+"zenders": [
+"ESPN 2"
+],
+"streams": [],
+"url": null
+},
+{
+"ko": "2026-10-19T18:45:00+00:00",
+"titel": "Parma – Torino",
+"comp": "Serie A",
+"sport": "voetbal",
+"zenders": [],
 "streams": [],
 "url": null
 },
@@ -807,11 +938,55 @@
 },
 {
 "ko": "2026-10-19T19:00:00+00:00",
-"titel": "Tottenham Hotspur – Coventry City",
+"titel": "Tottenham – Coventry",
 "comp": "Premier League",
 "sport": "voetbal",
 "zenders": [
-"Viaplay"
+"Viaplay TV"
+],
+"streams": [],
+"url": null
+},
+{
+"ko": "2026-10-19T22:00:00+00:00",
+"titel": "CA Sarmiento – CA Barracas Central",
+"comp": "Argentijnse Primera Division",
+"sport": "voetbal",
+"zenders": [
+"Fanatiz"
+],
+"streams": [],
+"url": null
+},
+{
+"ko": "2026-10-19T22:00:00+00:00",
+"titel": "Newells Old Boys – CA Central Cordoba",
+"comp": "Argentijnse Primera Division",
+"sport": "voetbal",
+"zenders": [
+"Fanatiz"
+],
+"streams": [],
+"url": null
+},
+{
+"ko": "2026-10-19T23:00:00+00:00",
+"titel": "SC Corinthians Paulista – EC Vitoria",
+"comp": "Braziliaanse Serie A",
+"sport": "voetbal",
+"zenders": [
+"Fanatiz"
+],
+"streams": [],
+"url": null
+},
+{
+"ko": "2026-10-20T00:15:00+00:00",
+"titel": "Deportivo Riestra – CA Union",
+"comp": "Argentijnse Primera Division",
+"sport": "voetbal",
+"zenders": [
+"Fanatiz"
 ],
 "streams": [],
 "url": null
@@ -829,7 +1004,7 @@
 },
 {
 "ko": "2026-10-20T11:00:00+00:00",
-"titel": "FC Porto U19 – PSV U19",
+"titel": "F.C. Porto O19 – PSV O19",
 "comp": "UEFA Youth League",
 "sport": "voetbal",
 "zenders": [
@@ -840,24 +1015,45 @@
 "url": null
 },
 {
-"ko": "2026-10-20T16:45:00+00:00",
-"titel": "Fenerbahçe SK – SK Slavia Praha",
-"comp": "UEFA Champions League",
+"ko": "2026-10-20T15:10:00+00:00",
+"titel": "Al Taawoun – Al Qadsiah",
+"comp": "Saudi Pro League",
 "sport": "voetbal",
 "zenders": [
-"Ziggo Sport 1",
-"Ziggo Sport 2"
+"KIJK"
 ],
 "streams": [],
 "url": null
 },
 {
 "ko": "2026-10-20T16:45:00+00:00",
-"titel": "Sabah – Borussia Dortmund",
-"comp": "UEFA Champions League",
+"titel": "Fenerbahce – Slavia Praha",
+"comp": "Champions League",
+"sport": "voetbal",
+"zenders": [
+"Ziggo Sport 1"
+],
+"streams": [],
+"url": null
+},
+{
+"ko": "2026-10-20T16:45:00+00:00",
+"titel": "Sabah FA – Borussia Dortmund",
+"comp": "Champions League",
 "sport": "voetbal",
 "zenders": [
 "Ziggo Sport 3"
+],
+"streams": [],
+"url": null
+},
+{
+"ko": "2026-10-20T18:00:00+00:00",
+"titel": "Al-Ettifaq SC – Al-Ittihad FC",
+"comp": "Saudi Pro League",
+"sport": "voetbal",
+"zenders": [
+"Kijk.nl"
 ],
 "streams": [],
 "url": null
@@ -1074,17 +1270,6 @@
 "url": null
 },
 {
-"ko": "2026-10-22T00:30:00+00:00",
-"titel": "CR Flamengo – Estudiantes de La Plata",
-"comp": "Copa Libertadores",
-"sport": "voetbal",
-"zenders": [
-"ESPN 1"
-],
-"streams": [],
-"url": null
-},
-{
 "ko": "2026-10-22T14:30:00+00:00",
 "titel": "Kairat – Panathinaikos FC",
 "comp": "UEFA Conference League",
@@ -1213,6 +1398,17 @@
 "sport": "voetbal",
 "zenders": [
 "VRT Canvas"
+],
+"streams": [],
+"url": null
+},
+{
+"ko": "2026-10-23T00:30:00+00:00",
+"titel": "CR Flamengo – Estudiantes de La Plata",
+"comp": "Copa Libertadores",
+"sport": "voetbal",
+"zenders": [
+"ESPN 1"
 ],
 "streams": [],
 "url": null
