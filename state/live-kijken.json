@@ -423,7 +423,7 @@
     "date": "2026-10-19",
     "league": "super-lig",
     "hub": true,
-    "sig": "98c17303ef1f9e7e2dbc055b5bdafdb7",
+    "sig": "bbbfdcc34a478b243702639f6a9db282",
     "pairs": [
       [
         "1007",
@@ -482,7 +482,7 @@
     "date": "2026-10-18",
     "league": "eredivisie",
     "hub": true,
-    "sig": "1c0c04b17fe089498b7d93b61726248b",
+    "sig": "6054fc6dd206696cc0d5803c840482f9",
     "pairs": [
       [
         "196",
@@ -541,11 +541,11 @@
     "date": "2026-10-19",
     "league": "eerste-divisie",
     "hub": true,
-    "sig": "48903285fa9c5e648b4f3698d9ff1b68",
+    "sig": "76a9f0809b99eb9a1e524e167aa8d84c",
     "pairs": [
       [
-        "200",
-        "422",
+        "203",
+        "424",
         "2026-10-16"
       ],
       [
@@ -559,8 +559,8 @@
         "2026-10-16"
       ],
       [
-        "203",
-        "424",
+        "200",
+        "422",
         "2026-10-16"
       ],
       [
@@ -605,7 +605,7 @@
     "date": "2026-10-19",
     "league": "la-liga",
     "hub": true,
-    "sig": "aaf9f47c954c18868bd3a35214c90e43",
+    "sig": "eae024ce8be6efae144fb066df8e7f55",
     "pairs": [
       [
         "539",
@@ -669,7 +669,7 @@
     "date": "2026-10-19",
     "league": "serie-a",
     "hub": true,
-    "sig": "4d6581710f7f66f5d2f3993a8bac3115",
+    "sig": "c181df7226c639444425b7b049f5662c",
     "pairs": [
       [
         "488",
@@ -733,7 +733,7 @@
     "date": "2026-10-18",
     "league": "bundesliga",
     "hub": true,
-    "sig": "db219837936301bd5913ea891fc98780",
+    "sig": "210de3a07281feea8f6ce35421f37c14",
     "pairs": [
       [
         "169",
@@ -792,7 +792,7 @@
     "date": "2026-10-18",
     "league": "ligue-1",
     "hub": true,
-    "sig": "7d66e9cfa9a0ee186626d79c33449231",
+    "sig": "1a3d8dd639b213d411600b4ffa232f2d",
     "pairs": [
       [
         "1298",
@@ -942,7 +942,7 @@
     "date": "2026-10-19",
     "league": "premier-league",
     "hub": true,
-    "sig": "763b5111a83b92061a67ebb0832b7a67",
+    "sig": "74aaaa931eee5fd00a99df958775cba7",
     "pairs": [
       [
         "45",
