@@ -1,5 +1,5 @@
 {
-"bijgewerkt": "2026-10-17T09:52:52.056647+00:00",
+"bijgewerkt": "2026-10-17T10:24:20.271688+00:00",
 "uitzendingen": [
 {
 "ko": "2026-10-17T08:30:00+00:00",
@@ -40,6 +40,39 @@
 "url": null
 },
 {
+"ko": "2026-10-17T11:00:00+00:00",
+"titel": "Greuther Fürth – Eintracht Braunschweig",
+"comp": "2. Bundesliga",
+"sport": "voetbal",
+"zenders": [
+"Viaplay"
+],
+"streams": [],
+"url": null
+},
+{
+"ko": "2026-10-17T11:00:00+00:00",
+"titel": "Kaiserslautern – Bochum",
+"comp": "2. Bundesliga",
+"sport": "voetbal",
+"zenders": [
+"Viaplay"
+],
+"streams": [],
+"url": null
+},
+{
+"ko": "2026-10-17T11:00:00+00:00",
+"titel": "VfL Wolfsburg – Heidenheim",
+"comp": "2. Bundesliga",
+"sport": "voetbal",
+"zenders": [
+"Viaplay"
+],
+"streams": [],
+"url": null
+},
+{
 "ko": "2026-10-17T11:30:00+00:00",
 "titel": "Everton – Chelsea",
 "comp": "Premier League",
@@ -49,6 +82,17 @@
 ],
 "streams": [],
 "url": "/nieuws/everton-chelsea-live-gratis-kijken-17-10-2026"
+},
+{
+"ko": "2026-10-17T11:30:00+00:00",
+"titel": "Watford – Charlton Athletic",
+"comp": "EFL Championship",
+"sport": "voetbal",
+"zenders": [
+"Viaplay"
+],
+"streams": [],
+"url": null
 },
 {
 "ko": "2026-10-17T12:00:00+00:00",
@@ -62,6 +106,17 @@
 "TOTO"
 ],
 "url": "/nieuws/espanyol-atletico-madrid-live-gratis-kijken-17-10-2026"
+},
+{
+"ko": "2026-10-17T12:00:00+00:00",
+"titel": "Bayer Leverkusen (V) – Eintracht Frankfurt (V)",
+"comp": "Frauen Bundesliga",
+"sport": "voetbal",
+"zenders": [
+"Viaplay"
+],
+"streams": [],
+"url": null
 },
 {
 "ko": "2026-10-17T13:00:00+00:00",
@@ -103,7 +158,9 @@
 "titel": "Werder Bremen – SC Paderborn 07",
 "comp": "Bundesliga",
 "sport": "voetbal",
-"zenders": [],
+"zenders": [
+"Viaplay"
+],
 "streams": [],
 "url": null
 },
@@ -112,7 +169,9 @@
 "titel": "FC Schalke 04 – FSV Mainz 05",
 "comp": "Bundesliga",
 "sport": "voetbal",
-"zenders": [],
+"zenders": [
+"Viaplay"
+],
 "streams": [],
 "url": null
 },
@@ -147,7 +206,9 @@
 "titel": "SV Elversberg – FC Augsburg",
 "comp": "Bundesliga",
 "sport": "voetbal",
-"zenders": [],
+"zenders": [
+"Viaplay"
+],
 "streams": [],
 "url": null
 },
@@ -183,6 +244,17 @@
 ],
 "streams": [],
 "url": "/nieuws/manchester-city-ipswich-town-live-gratis-kijken-17-10-2026"
+},
+{
+"ko": "2026-10-17T14:00:00+00:00",
+"titel": "Norwich City – Portsmouth",
+"comp": "EFL Championship",
+"sport": "voetbal",
+"zenders": [
+"Viaplay"
+],
+"streams": [],
+"url": null
 },
 {
 "ko": "2026-10-17T14:15:00+00:00",
@@ -305,6 +377,39 @@
 "url": "/nieuws/telstar-feyenoord-live-gratis-kijken-17-10-2026"
 },
 {
+"ko": "2026-10-17T18:00:00+00:00",
+"titel": "Red Star – Saint-Étienne",
+"comp": "Ligue 2",
+"sport": "voetbal",
+"zenders": [
+"Viaplay"
+],
+"streams": [],
+"url": null
+},
+{
+"ko": "2026-10-17T18:30:00+00:00",
+"titel": "Hannover 96 – St. Pauli",
+"comp": "2. Bundesliga",
+"sport": "voetbal",
+"zenders": [
+"Viaplay"
+],
+"streams": [],
+"url": null
+},
+{
+"ko": "2026-10-17T18:30:00+00:00",
+"titel": "Philadelphia Union – Charlotte FC",
+"comp": "MLS",
+"sport": "voetbal",
+"zenders": [
+"Apple TV"
+],
+"streams": [],
+"url": null
+},
+{
 "ko": "2026-10-17T18:45:00+00:00",
 "titel": "AS Roma – Genoa",
 "comp": "Serie A",
@@ -366,6 +471,17 @@
 ],
 "streams": [],
 "url": "/nieuws/sparta-rotterdam-willem-2-live-gratis-kijken-17-10-2026"
+},
+{
+"ko": "2026-10-17T20:30:00+00:00",
+"titel": "Minnesota United FC – St. Louis City",
+"comp": "MLS",
+"sport": "voetbal",
+"zenders": [
+"Apple TV"
+],
+"streams": [],
+"url": null
 },
 {
 "ko": "2026-10-18T05:00:00+00:00",
@@ -618,7 +734,7 @@
 },
 {
 "ko": "2026-10-18T13:30:00+00:00",
-"titel": "Manchester City F.C. (V) – Brighton (V)",
+"titel": "Manchester City (V) – Brighton (V)",
 "comp": "FA WSL",
 "sport": "voetbal",
 "zenders": [
@@ -825,11 +941,22 @@
 },
 {
 "ko": "2026-10-18T21:00:00+00:00",
-"titel": "Bay FC (V) – Portland Thorns (V)",
+"titel": "Bay (V) – Portland Thorns (V)",
 "comp": "National Women's Soccer League",
 "sport": "voetbal",
 "zenders": [
 "ESPN 2"
+],
+"streams": [],
+"url": null
+},
+{
+"ko": "2026-10-18T21:00:00+00:00",
+"titel": "FC Cincinnati – Columbus Crew",
+"comp": "MLS",
+"sport": "voetbal",
+"zenders": [
+"Apple TV"
 ],
 "streams": [],
 "url": null
@@ -915,7 +1042,6 @@
 "comp": "La Liga",
 "sport": "voetbal",
 "zenders": [
-"Ziggo Sport 1",
 "Ziggo Sport 2"
 ],
 "streams": [],
@@ -933,8 +1059,19 @@
 "url": null
 },
 {
+"ko": "2026-10-20T00:30:00+00:00",
+"titel": "Vasco da Gama – CA Boca Juniors",
+"comp": "Copa Sudamericana",
+"sport": "voetbal",
+"zenders": [
+"ESPN 1"
+],
+"streams": [],
+"url": null
+},
+{
 "ko": "2026-10-20T11:00:00+00:00",
-"titel": "F.C. Porto O19 – PSV O19",
+"titel": "F.C. Porto U19 – PSV U19",
 "comp": "UEFA Youth League",
 "sport": "voetbal",
 "zenders": [
@@ -946,7 +1083,7 @@
 },
 {
 "ko": "2026-10-20T16:45:00+00:00",
-"titel": "Fenerbahçe SK – SK Slavia Praag",
+"titel": "Fenerbahçe SK – SK Slavia Praha",
 "comp": "UEFA Champions League",
 "sport": "voetbal",
 "zenders": [
@@ -958,7 +1095,7 @@
 },
 {
 "ko": "2026-10-20T16:45:00+00:00",
-"titel": "Sabah FA – Borussia Dortmund",
+"titel": "Sabah – Borussia Dortmund",
 "comp": "UEFA Champions League",
 "sport": "voetbal",
 "zenders": [
@@ -992,7 +1129,7 @@
 {
 "ko": "2026-10-20T19:00:00+00:00",
 "titel": "Gillingham – Port Vale",
-"comp": "EFL League Two",
+"comp": "League Two",
 "sport": "voetbal",
 "zenders": [
 "Viaplay"
@@ -1013,7 +1150,7 @@
 },
 {
 "ko": "2026-10-20T19:00:00+00:00",
-"titel": "Manchester City – AEK Athens FC",
+"titel": "Manchester City – AEK Athens",
 "comp": "UEFA Champions League",
 "sport": "voetbal",
 "zenders": [
@@ -1024,7 +1161,7 @@
 },
 {
 "ko": "2026-10-20T19:00:00+00:00",
-"titel": "Paris Saint-Germain F.C. – FC Barcelona",
+"titel": "Paris Saint-Germain – FC Barcelona",
 "comp": "UEFA Champions League",
 "sport": "voetbal",
 "zenders": [
@@ -1034,8 +1171,30 @@
 "url": null
 },
 {
+"ko": "2026-10-20T23:00:00+00:00",
+"titel": "FC Cincinnati – DC United",
+"comp": "MLS",
+"sport": "voetbal",
+"zenders": [
+"Apple TV"
+],
+"streams": [],
+"url": null
+},
+{
+"ko": "2026-10-21T00:30:00+00:00",
+"titel": "SE Palmeiras – Fluminense FC",
+"comp": "Copa Libertadores",
+"sport": "voetbal",
+"zenders": [
+"ESPN 1"
+],
+"streams": [],
+"url": null
+},
+{
 "ko": "2026-10-21T14:00:00+00:00",
-"titel": "Internazionale O19 – Shakhtar Donetsk O19",
+"titel": "Inter U19 – Shakhtar Donetsk U19",
 "comp": "UEFA Youth League",
 "sport": "voetbal",
 "zenders": [
@@ -1058,10 +1217,11 @@
 },
 {
 "ko": "2026-10-21T16:45:00+00:00",
-"titel": "Lille – Galatasaray S.K.",
+"titel": "Lille – Galatasaray SK",
 "comp": "UEFA Champions League",
 "sport": "voetbal",
 "zenders": [
+"Ziggo Sport 3",
 "Ziggo Sport 4"
 ],
 "streams": [],
@@ -1102,7 +1262,7 @@
 },
 {
 "ko": "2026-10-21T19:00:00+00:00",
-"titel": "Inter Milan – Shakhtar Donetsk",
+"titel": "Inter Milan – FC Shakhtar Donetsk",
 "comp": "UEFA Champions League",
 "sport": "voetbal",
 "zenders": [
@@ -1114,7 +1274,7 @@
 {
 "ko": "2026-10-21T19:00:00+00:00",
 "titel": "Reading – Leyton Orient",
-"comp": "EFL League One",
+"comp": "League One",
 "sport": "voetbal",
 "zenders": [
 "Viaplay"
@@ -1139,7 +1299,7 @@
 "comp": "UEFA Champions League",
 "sport": "voetbal",
 "zenders": [
-"Ziggo Sport 4"
+"Ziggo Sport 3"
 ],
 "streams": [],
 "url": null
@@ -1157,7 +1317,7 @@
 },
 {
 "ko": "2026-10-22T14:30:00+00:00",
-"titel": "Kairat Almaty – Panathinaikos FC",
+"titel": "Kairat – Panathinaikos FC",
 "comp": "UEFA Conference League",
 "sport": "voetbal",
 "zenders": [
@@ -1168,7 +1328,7 @@
 },
 {
 "ko": "2026-10-22T16:45:00+00:00",
-"titel": "FC Ararat-Armenia – AZ Alkmaar",
+"titel": "Ararat-Armenia – AZ Alkmaar",
 "comp": "UEFA Europa League",
 "sport": "voetbal",
 "zenders": [
@@ -1257,7 +1417,7 @@
 },
 {
 "ko": "2026-10-22T19:00:00+00:00",
-"titel": "Lincoln Red Imps FC – FC Twente",
+"titel": "Lincoln Red Imps – FC Twente",
 "comp": "UEFA Conference League",
 "sport": "voetbal",
 "zenders": [
@@ -1284,6 +1444,17 @@
 "sport": "voetbal",
 "zenders": [
 "VRT Canvas"
+],
+"streams": [],
+"url": null
+},
+{
+"ko": "2026-10-23T00:30:00+00:00",
+"titel": "CR Flamengo – Estudiantes de La Plata",
+"comp": "Copa Libertadores",
+"sport": "voetbal",
+"zenders": [
+"ESPN 1"
 ],
 "streams": [],
 "url": null
