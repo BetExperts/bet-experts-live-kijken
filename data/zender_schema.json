@@ -1,37 +1,6 @@
 {
-"bijgewerkt": "2026-10-18T17:57:43.624447+00:00",
+"bijgewerkt": "2026-10-18T18:29:30.529233+00:00",
 "uitzendingen": [
-{
-"ko": "2026-10-18T15:15:00+00:00",
-"titel": "Lorient – Monaco",
-"comp": "Ligue 1",
-"sport": "voetbal",
-"zenders": [
-"Viaplay"
-],
-"streams": [
-"Starcasino"
-],
-"url": "/nieuws/lorient-as-monaco-live-gratis-kijken-18-10-2026"
-},
-{
-"ko": "2026-10-18T15:15:00+00:00",
-"titel": "Le Havre – Auxerre",
-"comp": "Ligue 1",
-"sport": "voetbal",
-"zenders": [],
-"streams": [],
-"url": null
-},
-{
-"ko": "2026-10-18T15:15:00+00:00",
-"titel": "Paris FC – Rennes",
-"comp": "Ligue 1",
-"sport": "voetbal",
-"zenders": [],
-"streams": [],
-"url": null
-},
 {
 "ko": "2026-10-18T15:30:00+00:00",
 "titel": "Nottingham Forest – Arsenal",
@@ -138,19 +107,6 @@
 "url": "/nieuws/lyon-ogc-nice-live-gratis-kijken-18-10-2026"
 },
 {
-"ko": "2026-10-18T19:00:00+00:00",
-"titel": "Real Madrid – Sevilla",
-"comp": "La Liga",
-"sport": "voetbal",
-"zenders": [
-"Ziggo Sport 1"
-],
-"streams": [
-"TOTO"
-],
-"url": "/nieuws/real-madrid-sevilla-live-gratis-kijken-18-10-2026"
-},
-{
 "ko": "2026-10-18T22:30:00+00:00",
 "titel": "Clube do Remo – Red Bull Bragantino",
 "comp": "Braziliaanse Serie A",
@@ -218,15 +174,6 @@
 "zenders": [
 "Ziggo Sport 1"
 ],
-"streams": [],
-"url": null
-},
-{
-"ko": "2026-10-19T17:00:00+00:00",
-"titel": "Trabzonspor – Besiktas",
-"comp": "Süper Lig",
-"sport": "voetbal",
-"zenders": [],
 "streams": [],
 "url": null
 },
@@ -394,22 +341,22 @@
 },
 {
 "ko": "2026-10-20T16:45:00+00:00",
-"titel": "Fenerbahce – Slavia Praha",
+"titel": "Sabah FA – Borussia Dortmund",
 "comp": "Champions League",
 "sport": "voetbal",
 "zenders": [
-"Ziggo Sport 1"
+"Ziggo Sport 3"
 ],
 "streams": [],
 "url": null
 },
 {
 "ko": "2026-10-20T16:45:00+00:00",
-"titel": "Sabah FA – Borussia Dortmund",
+"titel": "Fenerbahce – Slavia Praha",
 "comp": "Champions League",
 "sport": "voetbal",
 "zenders": [
-"Ziggo Sport 3"
+"Ziggo Sport 1"
 ],
 "streams": [],
 "url": null
@@ -421,17 +368,6 @@
 "sport": "voetbal",
 "zenders": [
 "Kijk.nl"
-],
-"streams": [],
-"url": null
-},
-{
-"ko": "2026-10-20T19:00:00+00:00",
-"titel": "AS Roma – Slovan Bratislava",
-"comp": "Champions League",
-"sport": "voetbal",
-"zenders": [
-"Ziggo Sport 6"
 ],
 "streams": [],
 "url": null
@@ -504,6 +440,17 @@
 },
 {
 "ko": "2026-10-20T19:00:00+00:00",
+"titel": "AS Roma – Slovan Bratislava",
+"comp": "Champions League",
+"sport": "voetbal",
+"zenders": [
+"Ziggo Sport 6"
+],
+"streams": [],
+"url": null
+},
+{
+"ko": "2026-10-20T19:00:00+00:00",
 "titel": "Gillingham – Port Vale",
 "comp": "EFL League Two",
 "sport": "voetbal",
@@ -537,22 +484,22 @@
 },
 {
 "ko": "2026-10-21T16:45:00+00:00",
-"titel": "Lille – Galatasaray",
+"titel": "Como – Manchester United",
 "comp": "Champions League",
 "sport": "voetbal",
 "zenders": [
-"Ziggo Sport 3"
+"Ziggo Sport 1"
 ],
 "streams": [],
 "url": null
 },
 {
 "ko": "2026-10-21T16:45:00+00:00",
-"titel": "Como – Manchester United",
+"titel": "Lille – Galatasaray",
 "comp": "Champions League",
 "sport": "voetbal",
 "zenders": [
-"Ziggo Sport 1"
+"Ziggo Sport 3"
 ],
 "streams": [],
 "url": null
