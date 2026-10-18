@@ -1,27 +1,18 @@
 {
-"bijgewerkt": "2026-10-18T17:26:12.313908+00:00",
+"bijgewerkt": "2026-10-18T17:57:43.624447+00:00",
 "uitzendingen": [
 {
-"ko": "2026-10-18T14:45:00+00:00",
-"titel": "FC Groningen – Ajax",
-"comp": "Eredivisie",
+"ko": "2026-10-18T15:15:00+00:00",
+"titel": "Lorient – Monaco",
+"comp": "Ligue 1",
 "sport": "voetbal",
 "zenders": [
-"ESPN 2"
+"Viaplay"
 ],
-"streams": [],
-"url": "/nieuws/fc-groningen-ajax-live-gratis-kijken-18-10-2026"
-},
-{
-"ko": "2026-10-18T14:45:00+00:00",
-"titel": "MVV – Heracles",
-"comp": "Keuken Kampioen Divisie",
-"sport": "voetbal",
-"zenders": [
-"ESPN 3"
+"streams": [
+"Starcasino"
 ],
-"streams": [],
-"url": "/nieuws/mvv-heracles-almelo-live-gratis-kijken-18-10-2026"
+"url": "/nieuws/lorient-as-monaco-live-gratis-kijken-18-10-2026"
 },
 {
 "ko": "2026-10-18T15:15:00+00:00",
@@ -42,28 +33,6 @@
 "url": null
 },
 {
-"ko": "2026-10-18T15:15:00+00:00",
-"titel": "Lorient – Monaco",
-"comp": "Ligue 1",
-"sport": "voetbal",
-"zenders": [
-"Viaplay"
-],
-"streams": [
-"Starcasino"
-],
-"url": "/nieuws/lorient-as-monaco-live-gratis-kijken-18-10-2026"
-},
-{
-"ko": "2026-10-18T15:30:00+00:00",
-"titel": "Borussia Mönchengladbach – 1899 Hoffenheim",
-"comp": "Bundesliga",
-"sport": "voetbal",
-"zenders": [],
-"streams": [],
-"url": null
-},
-{
 "ko": "2026-10-18T15:30:00+00:00",
 "titel": "Nottingham Forest – Arsenal",
 "comp": "Premier League",
@@ -73,6 +42,15 @@
 ],
 "streams": [],
 "url": "/nieuws/nottingham-forest-arsenal-live-gratis-kijken-18-10-2026"
+},
+{
+"ko": "2026-10-18T15:30:00+00:00",
+"titel": "Borussia Mönchengladbach – 1899 Hoffenheim",
+"comp": "Bundesliga",
+"sport": "voetbal",
+"zenders": [],
+"streams": [],
+"url": null
 },
 {
 "ko": "2026-10-18T16:00:00+00:00",
@@ -123,17 +101,15 @@
 "url": "/nieuws/nec-nijmegen-fortuna-sittard-live-gratis-kijken-18-10-2026"
 },
 {
-"ko": "2026-10-18T18:45:00+00:00",
-"titel": "Lyon – Nice",
-"comp": "Ligue 1",
+"ko": "2026-10-18T18:00:00+00:00",
+"titel": "FC Twente – FC Utrecht",
+"comp": "Eredivisie",
 "sport": "voetbal",
 "zenders": [
-"Viaplay TV+"
+"ESPN 2"
 ],
-"streams": [
-"711"
-],
-"url": "/nieuws/lyon-ogc-nice-live-gratis-kijken-18-10-2026"
+"streams": [],
+"url": "/nieuws/fc-twente-fc-utrecht-live-gratis-kijken-18-10-2026"
 },
 {
 "ko": "2026-10-18T18:45:00+00:00",
@@ -147,6 +123,19 @@
 "Bet365"
 ],
 "url": "/nieuws/juventus-lazio-live-gratis-kijken-18-10-2026"
+},
+{
+"ko": "2026-10-18T18:45:00+00:00",
+"titel": "Lyon – Nice",
+"comp": "Ligue 1",
+"sport": "voetbal",
+"zenders": [
+"Viaplay TV+"
+],
+"streams": [
+"711"
+],
+"url": "/nieuws/lyon-ogc-nice-live-gratis-kijken-18-10-2026"
 },
 {
 "ko": "2026-10-18T19:00:00+00:00",
@@ -180,6 +169,15 @@
 "zenders": [
 "Fanatiz"
 ],
+"streams": [],
+"url": null
+},
+{
+"ko": "2026-10-19T02:00:00+00:00",
+"titel": "Jeļena Ostapenko – Belinda Bencic",
+"comp": "WTA Tour",
+"sport": "tennis",
+"zenders": [],
 "streams": [],
 "url": null
 },
@@ -234,17 +232,6 @@
 },
 {
 "ko": "2026-10-19T18:00:00+00:00",
-"titel": "Al Hilal – Al Hazem",
-"comp": "Saudi Pro League",
-"sport": "voetbal",
-"zenders": [
-"KIJK"
-],
-"streams": [],
-"url": null
-},
-{
-"ko": "2026-10-19T18:00:00+00:00",
 "titel": "Jong PSV U21 – Dordrecht",
 "comp": "Keuken Kampioen Divisie",
 "sport": "voetbal",
@@ -272,6 +259,17 @@
 "sport": "voetbal",
 "zenders": [
 "ESPN 2"
+],
+"streams": [],
+"url": null
+},
+{
+"ko": "2026-10-19T18:00:00+00:00",
+"titel": "Al Hilal – Al Hazem",
+"comp": "Saudi Pro League",
+"sport": "voetbal",
+"zenders": [
+"KIJK"
 ],
 "streams": [],
 "url": null
@@ -375,6 +373,15 @@
 "url": null
 },
 {
+"ko": "2026-10-20T15:00:00+00:00",
+"titel": "Yulia Putintseva – Diana Shnaider",
+"comp": "WTA Tour",
+"sport": "tennis",
+"zenders": [],
+"streams": [],
+"url": null
+},
+{
 "ko": "2026-10-20T15:10:00+00:00",
 "titel": "Al Taawoun – Al Qadsiah",
 "comp": "Saudi Pro League",
@@ -414,28 +421,6 @@
 "sport": "voetbal",
 "zenders": [
 "Kijk.nl"
-],
-"streams": [],
-"url": null
-},
-{
-"ko": "2026-10-20T19:00:00+00:00",
-"titel": "FC Porto – PSV",
-"comp": "Champions League",
-"sport": "voetbal",
-"zenders": [
-"Ziggo Sport 1"
-],
-"streams": [],
-"url": null
-},
-{
-"ko": "2026-10-20T19:00:00+00:00",
-"titel": "Napoli – Bodo/Glimt",
-"comp": "Champions League",
-"sport": "voetbal",
-"zenders": [
-"Ziggo Sport 1"
 ],
 "streams": [],
 "url": null
@@ -497,6 +482,28 @@
 },
 {
 "ko": "2026-10-20T19:00:00+00:00",
+"titel": "FC Porto – PSV",
+"comp": "Champions League",
+"sport": "voetbal",
+"zenders": [
+"Ziggo Sport 1"
+],
+"streams": [],
+"url": null
+},
+{
+"ko": "2026-10-20T19:00:00+00:00",
+"titel": "Napoli – Bodo/Glimt",
+"comp": "Champions League",
+"sport": "voetbal",
+"zenders": [
+"Ziggo Sport 1"
+],
+"streams": [],
+"url": null
+},
+{
+"ko": "2026-10-20T19:00:00+00:00",
 "titel": "Gillingham – Port Vale",
 "comp": "EFL League Two",
 "sport": "voetbal",
@@ -530,23 +537,22 @@
 },
 {
 "ko": "2026-10-21T16:45:00+00:00",
-"titel": "Como – Manchester United",
-"comp": "UEFA Champions League",
+"titel": "Lille – Galatasaray",
+"comp": "Champions League",
 "sport": "voetbal",
 "zenders": [
-"Ziggo Sport 1",
-"Ziggo Sport 2"
+"Ziggo Sport 3"
 ],
 "streams": [],
 "url": null
 },
 {
 "ko": "2026-10-21T16:45:00+00:00",
-"titel": "Lille – Galatasaray S.K.",
-"comp": "UEFA Champions League",
+"titel": "Como – Manchester United",
+"comp": "Champions League",
 "sport": "voetbal",
 "zenders": [
-"Ziggo Sport 3"
+"Ziggo Sport 1"
 ],
 "streams": [],
 "url": null
