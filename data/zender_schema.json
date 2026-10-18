@@ -1,30 +1,6 @@
 {
-"bijgewerkt": "2026-10-18T19:28:22.395398+00:00",
+"bijgewerkt": "2026-10-18T20:03:56.696613+00:00",
 "uitzendingen": [
-{
-"ko": "2026-10-18T16:30:00+00:00",
-"titel": "Malaga – Real Sociedad",
-"comp": "La Liga",
-"sport": "voetbal",
-"zenders": [
-"Ziggo Sport 2"
-],
-"streams": [
-"TOTO"
-],
-"url": "/nieuws/malaga-real-sociedad-live-gratis-kijken-18-10-2026"
-},
-{
-"ko": "2026-10-18T16:30:00+00:00",
-"titel": "Mainz 05 (V) – VfL Wolfsburg (V)",
-"comp": "Frauen Bundesliga",
-"sport": "voetbal",
-"zenders": [
-"Viaplay"
-],
-"streams": [],
-"url": null
-},
 {
 "ko": "2026-10-18T18:00:00+00:00",
 "titel": "NEC – Fortuna Sittard",
@@ -227,31 +203,11 @@
 },
 {
 "ko": "2026-10-19T18:45:00+00:00",
-"titel": "Parma – Torino",
-"comp": "Serie A",
-"sport": "voetbal",
-"zenders": [],
-"streams": [],
-"url": null
-},
-{
-"ko": "2026-10-19T18:45:00+00:00",
 "titel": "Rodez – Montpellier",
 "comp": "Ligue 2",
 "sport": "voetbal",
 "zenders": [
 "Viaplay"
-],
-"streams": [],
-"url": null
-},
-{
-"ko": "2026-10-19T19:00:00+00:00",
-"titel": "Getafe – Rayo Vallecano",
-"comp": "La Liga",
-"sport": "voetbal",
-"zenders": [
-"Ziggo Sport 2"
 ],
 "streams": [],
 "url": null
@@ -266,6 +222,17 @@
 ],
 "streams": [],
 "url": "/nieuws/tottenham-coventry-live-gratis-kijken-19-10-2026"
+},
+{
+"ko": "2026-10-19T19:00:00+00:00",
+"titel": "Getafe – Rayo Vallecano",
+"comp": "La Liga",
+"sport": "voetbal",
+"zenders": [
+"Ziggo Sport 2"
+],
+"streams": [],
+"url": null
 },
 {
 "ko": "2026-10-19T22:00:00+00:00",
@@ -389,17 +356,6 @@
 },
 {
 "ko": "2026-10-20T19:00:00+00:00",
-"titel": "VfB Stuttgart – Atlético Madrid",
-"comp": "Champions League",
-"sport": "voetbal",
-"zenders": [
-"Ziggo Sport 1"
-],
-"streams": [],
-"url": null
-},
-{
-"ko": "2026-10-20T19:00:00+00:00",
 "titel": "FC Porto – PSV",
 "comp": "Champions League",
 "sport": "voetbal",
@@ -460,6 +416,17 @@
 "sport": "voetbal",
 "zenders": [
 "Ziggo Sport 2"
+],
+"streams": [],
+"url": null
+},
+{
+"ko": "2026-10-20T19:00:00+00:00",
+"titel": "VfB Stuttgart – Atlético Madrid",
+"comp": "Champions League",
+"sport": "voetbal",
+"zenders": [
+"Ziggo Sport 1"
 ],
 "streams": [],
 "url": null
