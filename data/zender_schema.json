@@ -1,105 +1,6 @@
 {
-"bijgewerkt": "2026-10-18T13:48:56.030953+00:00",
+"bijgewerkt": "2026-10-18T15:51:46.706464+00:00",
 "uitzendingen": [
-{
-"ko": "2026-10-18T11:00:00+00:00",
-"titel": "Van Veen – Dolan",
-"comp": "Dutch Darts Championship",
-"sport": "darts",
-"zenders": [
-"Viaplay TV"
-],
-"streams": [],
-"url": null
-},
-{
-"ko": "2026-10-18T11:00:00+00:00",
-"titel": "Noppert – Wattimena",
-"comp": "Dutch Darts Championship",
-"sport": "darts",
-"zenders": [
-"Viaplay TV"
-],
-"streams": [],
-"url": null
-},
-{
-"ko": "2026-10-18T11:00:00+00:00",
-"titel": "Price – Zonneveld",
-"comp": "Dutch Darts Championship",
-"sport": "darts",
-"zenders": [
-"Viaplay TV"
-],
-"streams": [],
-"url": null
-},
-{
-"ko": "2026-10-18T11:00:00+00:00",
-"titel": "Nijman – Reyes",
-"comp": "Dutch Darts Championship",
-"sport": "darts",
-"zenders": [
-"Viaplay TV"
-],
-"streams": [],
-"url": null
-},
-{
-"ko": "2026-10-18T11:30:00+00:00",
-"titel": "Arminia Bielefeld – VfL Osnabrück",
-"comp": "2. Bundesliga",
-"sport": "voetbal",
-"zenders": [
-"Viaplay"
-],
-"streams": [],
-"url": null
-},
-{
-"ko": "2026-10-18T11:30:00+00:00",
-"titel": "Dynamo Dresden – Magdeburg",
-"comp": "2. Bundesliga",
-"sport": "voetbal",
-"zenders": [
-"Viaplay"
-],
-"streams": [],
-"url": null
-},
-{
-"ko": "2026-10-18T11:30:00+00:00",
-"titel": "Karlsruher SC – Darmstadt 98",
-"comp": "2. Bundesliga",
-"sport": "voetbal",
-"zenders": [
-"Viaplay"
-],
-"streams": [],
-"url": null
-},
-{
-"ko": "2026-10-18T12:00:00+00:00",
-"titel": "Osasuna – Racing Santander",
-"comp": "La Liga",
-"sport": "voetbal",
-"zenders": [
-"Ziggo Sport 2"
-],
-"streams": [],
-"url": null
-},
-{
-"ko": "2026-10-18T12:30:00+00:00",
-"titel": "SC Cambuur – AZ",
-"comp": "Eredivisie",
-"sport": "voetbal",
-"zenders": [
-"ESPN 1"
-],
-"streams": [],
-"url": "/nieuws/sc-cambuur-az-live-gratis-kijken-18-10-2026"
-},
 {
 "ko": "2026-10-18T13:00:00+00:00",
 "titel": "Leeds – Manchester United",
@@ -240,16 +141,14 @@
 },
 {
 "ko": "2026-10-18T15:15:00+00:00",
-"titel": "Lorient – Monaco",
+"titel": "Paris FC – Rennes",
 "comp": "Ligue 1",
 "sport": "voetbal",
 "zenders": [
 "Viaplay"
 ],
-"streams": [
-"Starcasino"
-],
-"url": "/nieuws/lorient-as-monaco-live-gratis-kijken-18-10-2026"
+"streams": [],
+"url": null
 },
 {
 "ko": "2026-10-18T15:15:00+00:00",
@@ -264,14 +163,16 @@
 },
 {
 "ko": "2026-10-18T15:15:00+00:00",
-"titel": "Paris FC – Rennes",
+"titel": "Lorient – Monaco",
 "comp": "Ligue 1",
 "sport": "voetbal",
 "zenders": [
 "Viaplay"
 ],
-"streams": [],
-"url": null
+"streams": [
+"Starcasino"
+],
+"url": "/nieuws/lorient-as-monaco-live-gratis-kijken-18-10-2026"
 },
 {
 "ko": "2026-10-18T15:30:00+00:00",
@@ -297,6 +198,17 @@
 },
 {
 "ko": "2026-10-18T16:00:00+00:00",
+"titel": "Basaksehir – Gaziantep",
+"comp": "Süper Lig",
+"sport": "voetbal",
+"zenders": [],
+"streams": [
+"Starcasino"
+],
+"url": "/nieuws/istanbul-basaksehir-gaziantep-live-gratis-kijken-18-10-2026"
+},
+{
+"ko": "2026-10-18T16:00:00+00:00",
 "titel": "AC Milan – Atalanta",
 "comp": "Serie A",
 "sport": "voetbal",
@@ -307,17 +219,6 @@
 "Bet365"
 ],
 "url": "/nieuws/ac-milan-atalanta-live-gratis-kijken-18-10-2026"
-},
-{
-"ko": "2026-10-18T16:00:00+00:00",
-"titel": "Basaksehir – Gaziantep",
-"comp": "Süper Lig",
-"sport": "voetbal",
-"zenders": [],
-"streams": [
-"Starcasino"
-],
-"url": "/nieuws/istanbul-basaksehir-gaziantep-live-gratis-kijken-18-10-2026"
 },
 {
 "ko": "2026-10-18T16:30:00+00:00",
@@ -512,17 +413,6 @@
 },
 {
 "ko": "2026-10-19T18:00:00+00:00",
-"titel": "Al Hilal – Al Hazem",
-"comp": "Saudi Pro League",
-"sport": "voetbal",
-"zenders": [
-"KIJK"
-],
-"streams": [],
-"url": null
-},
-{
-"ko": "2026-10-19T18:00:00+00:00",
 "titel": "Jong PSV U21 – Dordrecht",
 "comp": "Keuken Kampioen Divisie",
 "sport": "voetbal",
@@ -550,6 +440,17 @@
 "sport": "voetbal",
 "zenders": [
 "ESPN 2"
+],
+"streams": [],
+"url": null
+},
+{
+"ko": "2026-10-19T18:00:00+00:00",
+"titel": "Al Hilal – Al Hazem",
+"comp": "Saudi Pro League",
+"sport": "voetbal",
+"zenders": [
+"KIJK"
 ],
 "streams": [],
 "url": null
@@ -709,28 +610,6 @@
 },
 {
 "ko": "2026-10-20T19:00:00+00:00",
-"titel": "Napoli – Bodo/Glimt",
-"comp": "Champions League",
-"sport": "voetbal",
-"zenders": [
-"Ziggo Sport 1"
-],
-"streams": [],
-"url": null
-},
-{
-"ko": "2026-10-20T19:00:00+00:00",
-"titel": "AS Roma – Slovan Bratislava",
-"comp": "Champions League",
-"sport": "voetbal",
-"zenders": [
-"Ziggo Sport 6"
-],
-"streams": [],
-"url": null
-},
-{
-"ko": "2026-10-20T19:00:00+00:00",
 "titel": "Liverpool – Villarreal",
 "comp": "Champions League",
 "sport": "voetbal",
@@ -780,6 +659,28 @@
 "sport": "voetbal",
 "zenders": [
 "Ziggo Sport 1"
+],
+"streams": [],
+"url": null
+},
+{
+"ko": "2026-10-20T19:00:00+00:00",
+"titel": "Napoli – Bodo/Glimt",
+"comp": "Champions League",
+"sport": "voetbal",
+"zenders": [
+"Ziggo Sport 1"
+],
+"streams": [],
+"url": null
+},
+{
+"ko": "2026-10-20T19:00:00+00:00",
+"titel": "AS Roma – Slovan Bratislava",
+"comp": "Champions League",
+"sport": "voetbal",
+"zenders": [
+"Ziggo Sport 6"
 ],
 "streams": [],
 "url": null
