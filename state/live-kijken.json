@@ -214,7 +214,7 @@
     "date": "2026-10-19",
     "league": "super-lig",
     "hub": true,
-    "sig": "da01989d349bd556e8a4180f678c449e",
+    "sig": "9c0c3aae2fe6aaa911b0821a982a0522",
     "pairs": [
       [
         "1007",
@@ -273,7 +273,7 @@
     "date": "2026-10-18",
     "league": "eredivisie",
     "hub": true,
-    "sig": "27b2e9e887e39756bd50a50fde1b0fcb",
+    "sig": "c3a399b690b8860de71a82b90be31551",
     "pairs": [
       [
         "196",
@@ -332,7 +332,7 @@
     "date": "2026-10-19",
     "league": "eerste-divisie",
     "hub": true,
-    "sig": "aaeb70e772dd62e23fe1e5dd32c9e377",
+    "sig": "982b8f712408cb420b969734eef38ac1",
     "pairs": [
       [
         "203",
@@ -460,7 +460,7 @@
     "date": "2026-10-19",
     "league": "serie-a",
     "hub": true,
-    "sig": "3148ff5f1a6cd894835cef7ea6da31a4",
+    "sig": "cedb66aabe041c9343312c43e7a8088d",
     "pairs": [
       [
         "488",
@@ -524,12 +524,17 @@
     "date": "2026-10-18",
     "league": "bundesliga",
     "hub": true,
-    "sig": "e766429bbb5f17b9f0624f835b21a2cb",
+    "sig": "57bff34c6056abaf5cc62516c04c4695",
     "pairs": [
       [
         "169",
         "192",
         "2026-10-16"
+      ],
+      [
+        "1660",
+        "170",
+        "2026-10-17"
       ],
       [
         "162",
@@ -549,11 +554,6 @@
       [
         "165",
         "182",
-        "2026-10-17"
-      ],
-      [
-        "1660",
-        "170",
         "2026-10-17"
       ],
       [
@@ -642,7 +642,7 @@
     "date": "2026-10-19",
     "league": "premier-league",
     "hub": true,
-    "sig": "5c23e8d10aef319310896ad33c840020",
+    "sig": "54f673428545c0b46fe9c9befc77ce1a",
     "pairs": [
       [
         "45",
@@ -655,13 +655,13 @@
         "2026-10-17"
       ],
       [
-        "50",
-        "57",
+        "40",
+        "55",
         "2026-10-17"
       ],
       [
-        "40",
-        "55",
+        "50",
+        "57",
         "2026-10-17"
       ],
       [
@@ -1759,7 +1759,7 @@
     "date": "2026-10-21",
     "league": "champions-league",
     "hub": true,
-    "sig": "bf404b790d6314ff273d69f1f557ba70",
+    "sig": "62eedb8b70b72eb63df5196282d8dd59",
     "pairs": [
       [
         "560",
