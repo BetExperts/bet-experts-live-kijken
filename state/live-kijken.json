@@ -214,7 +214,7 @@
     "date": "2026-10-19",
     "league": "super-lig",
     "hub": true,
-    "sig": "d18c57a578bf62ef81393b5399c7efc4",
+    "sig": "be6a85e46ca3a824106e52ab797eedd6",
     "pairs": [
       [
         "1007",
@@ -273,7 +273,7 @@
     "date": "2026-10-18",
     "league": "eredivisie",
     "hub": true,
-    "sig": "c053814981acca11397d25da5e1726b8",
+    "sig": "79115a1b38eea33846e6bd6d4f5dbe77",
     "pairs": [
       [
         "196",
@@ -332,7 +332,7 @@
     "date": "2026-10-19",
     "league": "eerste-divisie",
     "hub": true,
-    "sig": "e5dd8c1155356ea60c9c3aee5750321a",
+    "sig": "fc1f384daec1f11a842d846ae13e7d75",
     "pairs": [
       [
         "203",
@@ -396,7 +396,7 @@
     "date": "2026-10-19",
     "league": "la-liga",
     "hub": true,
-    "sig": "c6749c4f77c653b7883f0025e4101b0a",
+    "sig": "9e9cb2257d7fccdc35535fc12d4552f4",
     "pairs": [
       [
         "539",
@@ -460,7 +460,7 @@
     "date": "2026-10-19",
     "league": "serie-a",
     "hub": true,
-    "sig": "ed1ca66f6c4810ea2f9138de0fd27a77",
+    "sig": "55eeb7e5e403acee65332b13166528fb",
     "pairs": [
       [
         "488",
@@ -583,7 +583,7 @@
     "date": "2026-10-18",
     "league": "ligue-1",
     "hub": true,
-    "sig": "8919e05619ba7a064c27d5b34abcd352",
+    "sig": "d98d84d75a0b59ad5c27184c27731516",
     "pairs": [
       [
         "1298",
@@ -642,7 +642,7 @@
     "date": "2026-10-19",
     "league": "premier-league",
     "hub": true,
-    "sig": "a485d3fce0f532d2f78c9bece1c1e9fb",
+    "sig": "7de05a88b456b0ddf4329e085667618b",
     "pairs": [
       [
         "45",
@@ -1759,7 +1759,7 @@
     "date": "2026-10-21",
     "league": "champions-league",
     "hub": true,
-    "sig": "0b57c14209304889ac826731c758bed6",
+    "sig": "9a1bf0e72854c56253dcabd5ecb6a7ff",
     "pairs": [
       [
         "560",
@@ -1855,5 +1855,77 @@
     "ronde": "League Stage - 3",
     "og": "og/champions-league-speelronde-3-op-tv-20-oktober-2026-4535e1.webp",
     "og_done": "og/champions-league-speelronde-3-op-tv-20-oktober-2026-4535e1.webp"
+  },
+  "1584438": {
+    "item_id": "6ad51d4adc26887f4a46be60",
+    "slug": "trabzonspor-besiktas-live-gratis-kijken-19-10-2026",
+    "match": "Trabzonspor - Beşiktaş",
+    "date": "2026-10-19",
+    "league": "super-lig",
+    "provider": "TOTO",
+    "home_id": "998",
+    "away_id": "549",
+    "tv_sig": "|TOTO|False|False",
+    "og": "og/trabzonspor-besiktas-live-gratis-kijken-19-10-2026-135913.webp"
+  },
+  "1557436": {
+    "item_id": "6ad51d5037f1ea2ac33133f5",
+    "slug": "tottenham-coventry-live-gratis-kijken-19-10-2026",
+    "match": "Tottenham - Coventry",
+    "date": "2026-10-19",
+    "league": "premier-league",
+    "provider": "TOTO",
+    "home_id": "47",
+    "away_id": "1346",
+    "tv_sig": "Viaplay TV|TOTO|False|True",
+    "og": "og/tottenham-coventry-live-gratis-kijken-19-10-2026-86e966.webp"
+  },
+  "1575458": {
+    "item_id": "6ad51d55556a9002f5e2fba9",
+    "slug": "sporting-braga-gil-vicente-live-gratis-kijken-19-10-2026",
+    "match": "SC Braga - GIL Vicente",
+    "date": "2026-10-19",
+    "league": "primeira-liga",
+    "provider": "Bet365",
+    "home_id": "217",
+    "away_id": "762",
+    "tv_sig": "Ziggo Sport|Bet365|False|True",
+    "og": "og/sporting-braga-gil-vicente-live-gratis-kijken-19-10-2026-4d0e5c.webp"
+  },
+  "1551845": {
+    "item_id": "6ad51d57556a9002f5e2fd01",
+    "slug": "jong-psv-fc-dordrecht-live-gratis-kijken-19-10-2026",
+    "match": "Jong PSV - FC Dordrecht",
+    "date": "2026-10-19",
+    "league": "eerste-divisie",
+    "provider": "TOTO",
+    "home_id": "411",
+    "away_id": "409",
+    "tv_sig": "ESPN 3|TOTO|False|True",
+    "og": "og/jong-psv-fc-dordrecht-live-gratis-kijken-19-10-2026-594560.webp"
+  },
+  "1551844": {
+    "item_id": "6ad51d5a7ee37a57b158c7bd",
+    "slug": "jong-ajax-de-graafschap-live-gratis-kijken-19-10-2026",
+    "match": "Jong Ajax - De Graafschap",
+    "date": "2026-10-19",
+    "league": "eerste-divisie",
+    "provider": "TOTO",
+    "home_id": "425",
+    "away_id": "199",
+    "tv_sig": "ESPN 1|TOTO|False|True",
+    "og": "og/jong-ajax-de-graafschap-live-gratis-kijken-19-10-2026-a62bf0.webp"
+  },
+  "1551846": {
+    "item_id": "6ad51d5c193525e8bece33c1",
+    "slug": "jong-fc-utrecht-roda-jc-live-gratis-kijken-19-10-2026",
+    "match": "Jong FC Utrecht - Roda JC",
+    "date": "2026-10-19",
+    "league": "eerste-divisie",
+    "provider": "TOTO",
+    "home_id": "428",
+    "away_id": "414",
+    "tv_sig": "ESPN 2|TOTO|False|True",
+    "og": "og/jong-fc-utrecht-roda-jc-live-gratis-kijken-19-10-2026-e17cec.webp"
   }
 }
