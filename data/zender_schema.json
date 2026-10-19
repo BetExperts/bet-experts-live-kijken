@@ -1,50 +1,6 @@
 {
-"bijgewerkt": "2026-10-19T20:49:14.122766+00:00",
+"bijgewerkt": "2026-10-19T21:33:52.771698+00:00",
 "uitzendingen": [
-{
-"ko": "2026-10-19T18:00:00+00:00",
-"titel": "Jong PSV U21 – Dordrecht",
-"comp": "Keuken Kampioen Divisie",
-"sport": "voetbal",
-"zenders": [
-"ESPN 3"
-],
-"streams": [],
-"url": "/nieuws/jong-psv-fc-dordrecht-live-gratis-kijken-19-10-2026"
-},
-{
-"ko": "2026-10-19T18:00:00+00:00",
-"titel": "Jong Ajax – De Graafschap",
-"comp": "Keuken Kampioen Divisie",
-"sport": "voetbal",
-"zenders": [
-"ESPN 1"
-],
-"streams": [],
-"url": "/nieuws/jong-ajax-de-graafschap-live-gratis-kijken-19-10-2026"
-},
-{
-"ko": "2026-10-19T18:00:00+00:00",
-"titel": "Jong Utrecht – Roda JC",
-"comp": "Keuken Kampioen Divisie",
-"sport": "voetbal",
-"zenders": [
-"ESPN 2"
-],
-"streams": [],
-"url": "/nieuws/jong-fc-utrecht-roda-jc-live-gratis-kijken-19-10-2026"
-},
-{
-"ko": "2026-10-19T18:00:00+00:00",
-"titel": "Al Hilal – Al Hazem",
-"comp": "Saudi Pro League",
-"sport": "voetbal",
-"zenders": [
-"KIJK"
-],
-"streams": [],
-"url": null
-},
 {
 "ko": "2026-10-19T18:45:00+00:00",
 "titel": "Parma – Torino",
@@ -187,10 +143,10 @@
 "sport": "voetbal",
 "zenders": [
 "Ziggo Sport 1",
-"Ziggo Sport 2"
+"Ziggo Sport Free"
 ],
 "streams": [],
-"url": null
+"url": "/nieuws/fc-porto-psv-live-gratis-kijken-20-10-2026"
 },
 {
 "ko": "2026-10-20T15:10:00+00:00",
@@ -238,17 +194,6 @@
 },
 {
 "ko": "2026-10-20T19:00:00+00:00",
-"titel": "Manchester City – AEK Athens FC",
-"comp": "Champions League",
-"sport": "voetbal",
-"zenders": [
-"Ziggo Sport 5"
-],
-"streams": [],
-"url": "/nieuws/manchester-city-aek-athene-live-gratis-kijken-20-10-2026"
-},
-{
-"ko": "2026-10-20T19:00:00+00:00",
 "titel": "Paris Saint-Germain – FC Barcelona",
 "comp": "Champions League",
 "sport": "voetbal",
@@ -271,36 +216,26 @@
 },
 {
 "ko": "2026-10-20T19:00:00+00:00",
-"titel": "FC Porto – PSV",
-"comp": "Champions League",
-"sport": "voetbal",
-"zenders": [
-"Ziggo Sport 1"
-],
-"streams": [],
-"url": "/nieuws/fc-porto-psv-live-gratis-kijken-20-10-2026"
-},
-{
-"ko": "2026-10-20T19:00:00+00:00",
-"titel": "Napoli – Bodo/Glimt",
-"comp": "Champions League",
-"sport": "voetbal",
-"zenders": [
-"Ziggo Sport"
-],
-"streams": [],
-"url": "/nieuws/napoli-bodo-glimt-live-gratis-kijken-20-10-2026"
-},
-{
-"ko": "2026-10-20T19:00:00+00:00",
-"titel": "AS Roma – Slovan Bratislava",
-"comp": "Champions League",
+"titel": "AS Roma – SK Slovan Bratislava",
+"comp": "UEFA Champions League",
 "sport": "voetbal",
 "zenders": [
 "Ziggo Sport 6"
 ],
 "streams": [],
 "url": "/nieuws/as-roma-slovan-bratislava-live-gratis-kijken-20-10-2026"
+},
+{
+"ko": "2026-10-20T19:00:00+00:00",
+"titel": "FC Porto – PSV",
+"comp": "UEFA Champions League",
+"sport": "voetbal",
+"zenders": [
+"Ziggo Sport 1",
+"Ziggo Sport Free"
+],
+"streams": [],
+"url": null
 },
 {
 "ko": "2026-10-20T19:00:00+00:00",
@@ -323,6 +258,28 @@
 ],
 "streams": [],
 "url": "/nieuws/liverpool-villarreal-live-gratis-kijken-20-10-2026"
+},
+{
+"ko": "2026-10-20T19:00:00+00:00",
+"titel": "Manchester City – AEK Athens FC",
+"comp": "UEFA Champions League",
+"sport": "voetbal",
+"zenders": [
+"Ziggo Sport 5"
+],
+"streams": [],
+"url": "/nieuws/manchester-city-aek-athene-live-gratis-kijken-20-10-2026"
+},
+{
+"ko": "2026-10-20T19:00:00+00:00",
+"titel": "Napoli – FK Bodø/Glimt",
+"comp": "UEFA Champions League",
+"sport": "voetbal",
+"zenders": [
+"Switch op Ziggo Sport 4"
+],
+"streams": [],
+"url": "/nieuws/napoli-bodo-glimt-live-gratis-kijken-20-10-2026"
 },
 {
 "ko": "2026-10-20T23:00:00+00:00",
@@ -421,6 +378,39 @@
 },
 {
 "ko": "2026-10-21T19:00:00+00:00",
+"titel": "Real Madrid – RB Leipzig",
+"comp": "Champions League",
+"sport": "voetbal",
+"zenders": [
+"Ziggo Sport 3"
+],
+"streams": [],
+"url": null
+},
+{
+"ko": "2026-10-21T19:00:00+00:00",
+"titel": "Real Betis – Feyenoord",
+"comp": "Champions League",
+"sport": "voetbal",
+"zenders": [
+"Ziggo Sport 1"
+],
+"streams": [],
+"url": null
+},
+{
+"ko": "2026-10-21T19:00:00+00:00",
+"titel": "Club Brugge – Lens",
+"comp": "Champions League",
+"sport": "voetbal",
+"zenders": [
+"Ziggo Sport 1"
+],
+"streams": [],
+"url": null
+},
+{
+"ko": "2026-10-21T19:00:00+00:00",
 "titel": "Aston Villa – Viking",
 "comp": "Champions League",
 "sport": "voetbal",
@@ -459,39 +449,6 @@
 "sport": "voetbal",
 "zenders": [
 "Ziggo Sport 5"
-],
-"streams": [],
-"url": null
-},
-{
-"ko": "2026-10-21T19:00:00+00:00",
-"titel": "Real Madrid – RB Leipzig",
-"comp": "Champions League",
-"sport": "voetbal",
-"zenders": [
-"Ziggo Sport 3"
-],
-"streams": [],
-"url": null
-},
-{
-"ko": "2026-10-21T19:00:00+00:00",
-"titel": "Real Betis – Feyenoord",
-"comp": "Champions League",
-"sport": "voetbal",
-"zenders": [
-"Ziggo Sport 1"
-],
-"streams": [],
-"url": null
-},
-{
-"ko": "2026-10-21T19:00:00+00:00",
-"titel": "Club Brugge – Lens",
-"comp": "Champions League",
-"sport": "voetbal",
-"zenders": [
-"Ziggo Sport 1"
 ],
 "streams": [],
 "url": null
@@ -542,50 +499,6 @@
 },
 {
 "ko": "2026-10-22T16:45:00+00:00",
-"titel": "Sturm Graz – Marseille",
-"comp": "Europa League",
-"sport": "voetbal",
-"zenders": [
-"Ziggo Sport 1"
-],
-"streams": [],
-"url": null
-},
-{
-"ko": "2026-10-22T16:45:00+00:00",
-"titel": "Ferencvarosi TC – Torreense",
-"comp": "Europa League",
-"sport": "voetbal",
-"zenders": [
-"Ziggo Sport 1"
-],
-"streams": [],
-"url": null
-},
-{
-"ko": "2026-10-22T16:45:00+00:00",
-"titel": "OFI – Bayer Leverkusen",
-"comp": "Europa League",
-"sport": "voetbal",
-"zenders": [
-"Ziggo Sport 1"
-],
-"streams": [],
-"url": null
-},
-{
-"ko": "2026-10-22T16:45:00+00:00",
-"titel": "Union Sint-Gillis – Hapoel Beer Sheva",
-"comp": "Europa League",
-"sport": "voetbal",
-"zenders": [
-"Ziggo Sport 1"
-],
-"streams": [],
-"url": null
-},
-{
-"ko": "2026-10-22T16:45:00+00:00",
 "titel": "Ararat-Armenia – AZ",
 "comp": "Europa League",
 "sport": "voetbal",
@@ -624,6 +537,50 @@
 "sport": "voetbal",
 "zenders": [
 "Ziggo Sport 3"
+],
+"streams": [],
+"url": null
+},
+{
+"ko": "2026-10-22T16:45:00+00:00",
+"titel": "Sturm Graz – Marseille",
+"comp": "Europa League",
+"sport": "voetbal",
+"zenders": [
+"Ziggo Sport 1"
+],
+"streams": [],
+"url": null
+},
+{
+"ko": "2026-10-22T16:45:00+00:00",
+"titel": "Ferencvarosi TC – Torreense",
+"comp": "Europa League",
+"sport": "voetbal",
+"zenders": [
+"Ziggo Sport 1"
+],
+"streams": [],
+"url": null
+},
+{
+"ko": "2026-10-22T16:45:00+00:00",
+"titel": "OFI – Bayer Leverkusen",
+"comp": "Europa League",
+"sport": "voetbal",
+"zenders": [
+"Ziggo Sport 1"
+],
+"streams": [],
+"url": null
+},
+{
+"ko": "2026-10-22T16:45:00+00:00",
+"titel": "Union Sint-Gillis – Hapoel Beer Sheva",
+"comp": "Europa League",
+"sport": "voetbal",
+"zenders": [
+"Ziggo Sport 1"
 ],
 "streams": [],
 "url": null
