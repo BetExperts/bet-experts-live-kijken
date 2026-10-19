@@ -2,3 +2,6 @@ __pycache__/
 *.pyc
 preview/
 .cache/
+toto50x_banner/state.json
+toto50x_banner/.t50-*
+toto50x_banner/.tmp-*
