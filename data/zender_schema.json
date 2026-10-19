@@ -1,5 +1,5 @@
 {
-"bijgewerkt": "2026-10-19T14:51:52.339295+00:00",
+"bijgewerkt": "2026-10-19T16:28:41.683453+00:00",
 "uitzendingen": [
 {
 "ko": "2026-10-19T16:30:00+00:00",
@@ -1210,17 +1210,6 @@
 },
 {
 "ko": "2026-10-24T14:00:00+00:00",
-"titel": "Coventry City – Fulham",
-"comp": "Premier League",
-"sport": "voetbal",
-"zenders": [
-"Viaplay"
-],
-"streams": [],
-"url": null
-},
-{
-"ko": "2026-10-24T14:00:00+00:00",
 "titel": "Preston North End – West Bromwich Albion",
 "comp": "EFL Championship",
 "sport": "voetbal",
@@ -1820,6 +1809,61 @@
 "sport": "voetbal",
 "zenders": [
 "ESPN Extra"
+],
+"streams": [],
+"url": null
+},
+{
+"ko": "2026-10-26T13:45:00+00:00",
+"titel": "FC Neftchi Fergana – Al-Ittihad FC",
+"comp": "AFC Champions League",
+"sport": "voetbal",
+"zenders": [
+"ESPN 1"
+],
+"streams": [],
+"url": null
+},
+{
+"ko": "2026-10-26T18:15:00+00:00",
+"titel": "Al-Qadisiyah FC – Al Sadd",
+"comp": "AFC Champions League",
+"sport": "voetbal",
+"zenders": [
+"ESPN 2"
+],
+"streams": [],
+"url": null
+},
+{
+"ko": "2026-10-26T18:45:00+00:00",
+"titel": "CD Santa Clara – S.L. Benfica",
+"comp": "Primeira Liga",
+"sport": "voetbal",
+"zenders": [
+"Ziggo Sport 3"
+],
+"streams": [],
+"url": null
+},
+{
+"ko": "2026-10-26T20:00:00+00:00",
+"titel": "Sevilla – Osasuna",
+"comp": "La Liga",
+"sport": "voetbal",
+"zenders": [
+"Ziggo Sport 2"
+],
+"streams": [],
+"url": null
+},
+{
+"ko": "2026-10-26T20:00:00+00:00",
+"titel": "Walsall – Salford City",
+"comp": "EFL League Two",
+"sport": "voetbal",
+"zenders": [
+"Viaplay"
 ],
 "streams": [],
 "url": null
