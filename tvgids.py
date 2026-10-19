@@ -178,6 +178,29 @@ def _parse_extra(data):
                       "gratis": gratis, "url": "", "bron": "extra"})
     return cards
 
+def uitzendschema(url):
+    """Uitzendschema van de wedstrijdpagina (19-10-2026): {'zender': 'Ziggo Sport 1', 'rijen': [(tijd, onderdeel, programma)]}
+    of None. Feitelijke zendertijden; in artikelen in eigen woorden, nooit met bronvermelding."""
+    if not url:
+        return None
+    try:
+        page = _get(url)
+    except Exception:
+        return None
+    blok = re.search(r'class="waaroptv-uitzending">\s*<table>.*?<tbody>(.*?)</tbody>', page, flags=re.S)
+    if not blok:
+        return None
+    rijen = []
+    for tr in re.findall(r"<tr>(.*?)</tr>", blok.group(1), flags=re.S):
+        cel = [html.unescape(re.sub(r"<[^>]+>", "", c)).strip() for c in re.findall(r"<td>(.*?)</td>", tr, flags=re.S)]
+        if len(cel) == 3 and re.match(r"\d{1,2}:\d{2}", cel[0]):
+            rijen.append((cel[0].replace(" uur", ""), cel[1], cel[2]))
+    z = re.search(r"De uitzending op ([^<]+?) begint om", page) or re.search(r"Uitzendtijden van ([^,<]+)", page)
+    if not rijen:
+        return None
+    return {"zender": html.unescape(z.group(1)).strip() if z else "", "rijen": rijen}
+
+
 class TvGids:
     def __init__(self):
         self.cards = None

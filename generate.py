@@ -11,7 +11,7 @@ import lk_match as M
 import lk_og as OG
 import lk_build as B
 from lk_config import LEAGUES, BASE, WEBFLOW_TOKEN, is_topper, tv_match
-from tvgids import TvGids
+from tvgids import TvGids, uitzendschema
 import lk_webflow as WF
 
 def target_date(arg):
@@ -120,6 +120,7 @@ def main():
             ctx["vb_url"] = None if a.geen_voorbeschouwing else WF.voorbeschouwing_url(vb_idx, ctx["fid"], ctx["homeId"], ctx["awayId"])
             ctx["tvgids"] = None if a.geen_tv else gids.lookup(ctx["homeN"], ctx["awayN"], ctx["dt"])
             c = ctx["tvgids"]
+            ctx["uitzendschema"] = uitzendschema(c.get("url")) if c else None
             if c:
                 print(f"     ↳ waaroptv: {' / '.join(c['zenders']) or '-'}{' (gratis)' if c['gratis'] else ''}"
                       + (f"  ⚠ stream daar bij {', '.join(c['bookmakers'])}, artikel noemt {ctx['prov']['naam']}"

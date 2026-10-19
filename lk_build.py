@@ -471,7 +471,24 @@ def waar_te_zien(ctx):
     ]
     hub = hub_varianten[_variant(f"hub|{homeN}|{awayN}|{dt.date()}", len(hub_varianten))] if tvs else ""
     return (f"<h3>Waar is {esc(homeN)} – {esc(awayN)} op tv?</h3>"
-            "<ul>" + "".join(items) + "</ul>" + tabellen + hub)
+            "<ul>" + "".join(items) + "</ul>" + tabellen + uitzend_blok(ctx) + hub)
+
+def uitzend_blok(ctx):
+    """Uitzendschema (voorbeschouwing, aftrap, nabeschouwing) als de tv-gids het heeft (19-10-2026)."""
+    u = ctx.get("uitzendschema") or {}
+    rijen = u.get("rijen") or []
+    if len(rijen) < 2:
+        return ""
+    zender = esc(u.get("zender") or ctx.get("tv") or "de zender")
+    start, aftrap = rijen[0][0], next((r[0] for r in rijen if r[1].lower().startswith("aftrap")), None)
+    if aftrap and start != aftrap:
+        zin = f"Op {zender} begint de uitzending al om {esc(start)} uur; de aftrap is om {esc(aftrap)} uur."
+    else:
+        zin = f"Zo ziet de uitzending op {zender} eruit:"
+    body = "".join(f"<tr><td {_TD}>{esc(t)} uur</td><td {_TD}>{esc(o)}</td><td {_TD}>{esc(pr)}</td></tr>" for t, o, pr in rijen)
+    return (f"<p><strong>Uitzendschema {zender}</strong><br>{zin}</p>"
+            f"<table {_T}><thead><tr><th {_TH}>Tijd</th><th {_TH}>Onderdeel</th><th {_TH}>Programma</th></tr></thead>"
+            f"<tbody>{body}</tbody></table>")
 
 # ---------- variant voor gratis tv (bv. Oranje op NPO) ----------
 # Hier beloven we GEEN bookmaker-stream (rechten liggen bij de NOS); de aanbieder
