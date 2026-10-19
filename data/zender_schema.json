@@ -1,5 +1,5 @@
 {
-"bijgewerkt": "2026-10-19T07:30:02.779384+00:00",
+"bijgewerkt": "2026-10-19T09:46:39.033933+00:00",
 "uitzendingen": [
 {
 "ko": "2026-10-19T08:00:00+00:00",
@@ -215,6 +215,17 @@
 "url": null
 },
 {
+"ko": "2026-10-20T15:00:00+00:00",
+"titel": "Botic van de Zandschulp – Clément Chidekh",
+"comp": "ATP Tour",
+"sport": "tennis",
+"zenders": [
+"Ziggo Sport 5"
+],
+"streams": [],
+"url": null
+},
+{
 "ko": "2026-10-20T15:10:00+00:00",
 "titel": "Al Taawoun – Al Qadsiah",
 "comp": "Saudi Pro League",
@@ -249,11 +260,11 @@
 },
 {
 "ko": "2026-10-20T18:00:00+00:00",
-"titel": "Al-Ettifaq SC – Al-Ittihad FC",
+"titel": "Al Ettifaq – Al Ittihad",
 "comp": "Saudi Pro League",
 "sport": "voetbal",
 "zenders": [
-"Kijk.nl"
+"KIJK"
 ],
 "streams": [],
 "url": null
@@ -392,22 +403,22 @@
 },
 {
 "ko": "2026-10-21T16:45:00+00:00",
-"titel": "Como – Manchester United",
+"titel": "Lille – Galatasaray",
 "comp": "Champions League",
 "sport": "voetbal",
 "zenders": [
-"Ziggo Sport 1"
+"Ziggo Sport 3"
 ],
 "streams": [],
 "url": null
 },
 {
 "ko": "2026-10-21T16:45:00+00:00",
-"titel": "Lille – Galatasaray",
+"titel": "Como – Manchester United",
 "comp": "Champions League",
 "sport": "voetbal",
 "zenders": [
-"Ziggo Sport 3"
+"Ziggo Sport 1"
 ],
 "streams": [],
 "url": null
@@ -425,8 +436,8 @@
 },
 {
 "ko": "2026-10-21T19:00:00+00:00",
-"titel": "Aston Villa – Viking FK",
-"comp": "UEFA Champions League",
+"titel": "Aston Villa – Viking",
+"comp": "Champions League",
 "sport": "voetbal",
 "zenders": [
 "Ziggo Sport 6"
@@ -437,10 +448,32 @@
 {
 "ko": "2026-10-21T19:00:00+00:00",
 "titel": "Bayern München – Arsenal",
-"comp": "UEFA Champions League",
+"comp": "Champions League",
 "sport": "voetbal",
 "zenders": [
 "Ziggo Sport 2"
+],
+"streams": [],
+"url": null
+},
+{
+"ko": "2026-10-21T19:00:00+00:00",
+"titel": "Sporting CP – Lask Linz",
+"comp": "Champions League",
+"sport": "voetbal",
+"zenders": [
+"Ziggo Sport 1"
+],
+"streams": [],
+"url": null
+},
+{
+"ko": "2026-10-21T19:00:00+00:00",
+"titel": "Club Brugge – Lens",
+"comp": "Champions League",
+"sport": "voetbal",
+"zenders": [
+"Ziggo Sport 1"
 ],
 "streams": [],
 "url": null
