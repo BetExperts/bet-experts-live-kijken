@@ -9,6 +9,9 @@ on:
       date:
         description: "Datum (YYYY-MM-DD), leeg = morgen"
         required: false
+      modus:
+        description: "avond (artikelen morgen) of ochtend (tv-update vandaag); gezet door Cloudflare-worker telegram-dispatch"
+        required: false
 
 permissions:
   contents: write
@@ -27,9 +30,10 @@ jobs:
         env:
           WEBFLOW_TOKEN: ${{ secrets.WEBFLOW_TOKEN }}
         run: |
+          MODUS="${{ github.event.inputs.modus }}"
           if [ -n "${{ github.event.inputs.date }}" ]; then
             python generate.py --date "${{ github.event.inputs.date }}"
-          elif [ "${{ github.event.schedule }}" = "30 7 * * *" ]; then
+          elif [ "$MODUS" = "ochtend" ] || [ "${{ github.event.schedule }}" = "30 7 * * *" ]; then
             # (op de cron zelf sturen, niet op het uur: GitHub start geplande runs soms uren te laat)
             # ochtend: alleen zender/aanbieder van vandaag bijwerken als de tv-gids iets anders zegt
             python generate.py --date "$(date -u +%F)" --update --alleen-tv-wijziging
