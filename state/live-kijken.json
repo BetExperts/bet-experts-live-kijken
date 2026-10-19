@@ -6,7 +6,7 @@
     "date": "2026-10-19",
     "league": "super-lig",
     "hub": true,
-    "sig": "65f6aeea6ab8e09c288610e72198dc41",
+    "sig": "92da2014635abf65b30caa17e406ed7a",
     "pairs": [
       [
         "1007",
@@ -19,13 +19,13 @@
         "2026-10-17"
       ],
       [
-        "645",
-        "997",
+        "3579",
+        "607",
         "2026-10-17"
       ],
       [
-        "3579",
-        "607",
+        "645",
+        "997",
         "2026-10-17"
       ],
       [
@@ -65,7 +65,7 @@
     "date": "2026-10-18",
     "league": "eredivisie",
     "hub": true,
-    "sig": "feb7273c692dd78325130b2c2c2989db",
+    "sig": "359bd4683f59c2031023aa4daf109879",
     "pairs": [
       [
         "196",
@@ -124,7 +124,7 @@
     "date": "2026-10-19",
     "league": "eerste-divisie",
     "hub": true,
-    "sig": "d700ed1dd625dd73a2c5910f26a9f4b7",
+    "sig": "cee2886da82b673c2ebb3d0333dbe731",
     "pairs": [
       [
         "203",
@@ -188,7 +188,7 @@
     "date": "2026-10-19",
     "league": "la-liga",
     "hub": true,
-    "sig": "4d4379f8a18587b777c2d662e223e2b6",
+    "sig": "a11312da95c5c77c8d5b88d92a41cb46",
     "pairs": [
       [
         "539",
@@ -252,7 +252,7 @@
     "date": "2026-10-19",
     "league": "serie-a",
     "hub": true,
-    "sig": "b600f20a3651179ee3e00e1d49cec630",
+    "sig": "e56f564d690b968ff2e0d35c3d8e2fd4",
     "pairs": [
       [
         "488",
@@ -316,7 +316,7 @@
     "date": "2026-10-18",
     "league": "bundesliga",
     "hub": true,
-    "sig": "ffd4d2de571888c77e06fd7c59c9b196",
+    "sig": "4f34d9827341aadc3ae9b08c27c8e0ea",
     "pairs": [
       [
         "169",
@@ -375,7 +375,7 @@
     "date": "2026-10-18",
     "league": "ligue-1",
     "hub": true,
-    "sig": "19d1a4175cc1d1c9ecfc153a372e4d4b",
+    "sig": "c4918028bd57b17ccde04eae18436081",
     "pairs": [
       [
         "1298",
@@ -434,7 +434,7 @@
     "date": "2026-10-19",
     "league": "premier-league",
     "hub": true,
-    "sig": "125fb1912caa50325595d5da3b533335",
+    "sig": "fbb2ce0852f7ad40e9eb634e1f62d8b9",
     "pairs": [
       [
         "45",
@@ -1161,7 +1161,7 @@
     "date": "2026-10-21",
     "league": "champions-league",
     "hub": true,
-    "sig": "00707d380240eecf39d56713db9a38a0",
+    "sig": "6c8c861544d60becdc9f48471e1ace81",
     "pairs": [
       [
         "560",
@@ -1343,7 +1343,7 @@
     "date": "2026-10-22",
     "league": "conference-league",
     "hub": true,
-    "sig": "1191a93767708c268bd5d428f4fc59fd",
+    "sig": "484b6391008742ab86b0a8d5c92ea73e",
     "pairs": [
       [
         "617",
@@ -1564,7 +1564,7 @@
     "date": "2026-10-22",
     "league": "europa-league",
     "hub": true,
-    "sig": "1420e2b118310c3ee5e76246b48afb2c",
+    "sig": "f79c0afaad29cb4ca3927764311091b8",
     "pairs": [
       [
         "347",
@@ -1660,5 +1660,23 @@
     "ronde": "League Stage - 3",
     "og": "og/europa-league-speelronde-3-op-tv-22-oktober-2026-7ac69b.webp",
     "og_done": "og/europa-league-speelronde-3-op-tv-22-oktober-2026-7ac69b.webp"
+  },
+  "hub:la-liga-speelronde-6-op-tv-21-oktober-2026": {
+    "item_id": "6ad6823a1845edafe4c13a92",
+    "slug": "la-liga-speelronde-6-op-tv-21-oktober-2026",
+    "match": "La Liga speelronde 6",
+    "date": "2026-10-21",
+    "league": "la-liga",
+    "hub": true,
+    "sig": "a9bd38a6f786760d27bcb2bc6e7c340e",
+    "pairs": [
+      [
+        "531",
+        "539",
+        "2026-10-21"
+      ]
+    ],
+    "ronde": "Regular Season - 6",
+    "og": "og/la-liga-speelronde-6-op-tv-21-oktober-2026-7577fb.webp"
   }
 }

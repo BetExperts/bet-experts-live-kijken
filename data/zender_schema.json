@@ -1,39 +1,6 @@
 {
-"bijgewerkt": "2026-10-19T18:04:16.046827+00:00",
+"bijgewerkt": "2026-10-19T20:49:14.122766+00:00",
 "uitzendingen": [
-{
-"ko": "2026-10-19T16:30:00+00:00",
-"titel": "Monza – Cagliari",
-"comp": "Serie A",
-"sport": "voetbal",
-"zenders": [
-"Ziggo Sport 1"
-],
-"streams": [],
-"url": null
-},
-{
-"ko": "2026-10-19T17:00:00+00:00",
-"titel": "Trabzonspor – Besiktas",
-"comp": "Süper Lig",
-"sport": "voetbal",
-"zenders": [],
-"streams": [
-"TOTO"
-],
-"url": "/nieuws/trabzonspor-besiktas-live-gratis-kijken-19-10-2026"
-},
-{
-"ko": "2026-10-19T17:30:00+00:00",
-"titel": " – ",
-"comp": "FA Cup",
-"sport": "voetbal",
-"zenders": [
-"Viaplay"
-],
-"streams": [],
-"url": null
-},
 {
 "ko": "2026-10-19T18:00:00+00:00",
 "titel": "Jong PSV U21 – Dordrecht",
@@ -238,17 +205,6 @@
 },
 {
 "ko": "2026-10-20T16:45:00+00:00",
-"titel": "Fenerbahce – Slavia Praha",
-"comp": "Champions League",
-"sport": "voetbal",
-"zenders": [
-"Ziggo Sport 1"
-],
-"streams": [],
-"url": "/nieuws/fenerbahce-slavia-praha-live-gratis-kijken-20-10-2026"
-},
-{
-"ko": "2026-10-20T16:45:00+00:00",
 "titel": "Sabah FA – Borussia Dortmund",
 "comp": "Champions League",
 "sport": "voetbal",
@@ -257,6 +213,17 @@
 ],
 "streams": [],
 "url": "/nieuws/sabah-fk-borussia-dortmund-live-gratis-kijken-20-10-2026"
+},
+{
+"ko": "2026-10-20T16:45:00+00:00",
+"titel": "Fenerbahce – Slavia Praha",
+"comp": "Champions League",
+"sport": "voetbal",
+"zenders": [
+"Ziggo Sport 1"
+],
+"streams": [],
+"url": "/nieuws/fenerbahce-slavia-praha-live-gratis-kijken-20-10-2026"
 },
 {
 "ko": "2026-10-20T18:00:00+00:00",
@@ -268,17 +235,6 @@
 ],
 "streams": [],
 "url": null
-},
-{
-"ko": "2026-10-20T19:00:00+00:00",
-"titel": "Liverpool – Villarreal",
-"comp": "Champions League",
-"sport": "voetbal",
-"zenders": [
-"Ziggo Sport 3"
-],
-"streams": [],
-"url": "/nieuws/liverpool-villarreal-live-gratis-kijken-20-10-2026"
 },
 {
 "ko": "2026-10-20T19:00:00+00:00",
@@ -349,13 +305,24 @@
 {
 "ko": "2026-10-20T19:00:00+00:00",
 "titel": "Gillingham – Port Vale",
-"comp": "League Two",
+"comp": "EFL League Two",
 "sport": "voetbal",
 "zenders": [
 "Viaplay"
 ],
 "streams": [],
 "url": null
+},
+{
+"ko": "2026-10-20T19:00:00+00:00",
+"titel": "Liverpool – Villarreal",
+"comp": "UEFA Champions League",
+"sport": "voetbal",
+"zenders": [
+"Ziggo Sport 3"
+],
+"streams": [],
+"url": "/nieuws/liverpool-villarreal-live-gratis-kijken-20-10-2026"
 },
 {
 "ko": "2026-10-20T23:00:00+00:00",
@@ -552,34 +519,23 @@
 "url": null
 },
 {
+"ko": "2026-10-22T00:30:00+00:00",
+"titel": "SE Palmeiras – Fluminense FC",
+"comp": "Copa Libertadores",
+"sport": "voetbal",
+"zenders": [
+"ESPN 1"
+],
+"streams": [],
+"url": null
+},
+{
 "ko": "2026-10-22T14:30:00+00:00",
 "titel": "Kairat – Panathinaikos FC",
 "comp": "UEFA Conference League",
 "sport": "voetbal",
 "zenders": [
 "Ziggo Sport 4"
-],
-"streams": [],
-"url": null
-},
-{
-"ko": "2026-10-22T16:45:00+00:00",
-"titel": "Juventus – Rennes",
-"comp": "Europa League",
-"sport": "voetbal",
-"zenders": [
-"Ziggo Sport 5"
-],
-"streams": [],
-"url": null
-},
-{
-"ko": "2026-10-22T16:45:00+00:00",
-"titel": "Dinamo Zagreb – NEC",
-"comp": "Europa League",
-"sport": "voetbal",
-"zenders": [
-"Ziggo Sport 3"
 ],
 "streams": [],
 "url": null
@@ -646,6 +602,28 @@
 "sport": "voetbal",
 "zenders": [
 "Ziggo Sport 6"
+],
+"streams": [],
+"url": null
+},
+{
+"ko": "2026-10-22T16:45:00+00:00",
+"titel": "Juventus – Rennes",
+"comp": "Europa League",
+"sport": "voetbal",
+"zenders": [
+"Ziggo Sport 5"
+],
+"streams": [],
+"url": null
+},
+{
+"ko": "2026-10-22T16:45:00+00:00",
+"titel": "Dinamo Zagreb – NEC",
+"comp": "Europa League",
+"sport": "voetbal",
+"zenders": [
+"Ziggo Sport 3"
 ],
 "streams": [],
 "url": null
@@ -1259,6 +1237,17 @@
 {
 "ko": "2026-10-24T14:00:00+00:00",
 "titel": "Arsenal – Everton",
+"comp": "Premier League",
+"sport": "voetbal",
+"zenders": [
+"Viaplay"
+],
+"streams": [],
+"url": null
+},
+{
+"ko": "2026-10-24T14:00:00+00:00",
+"titel": "Coventry City – Fulham",
 "comp": "Premier League",
 "sport": "voetbal",
 "zenders": [
