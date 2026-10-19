@@ -1,24 +1,6 @@
 {
-"bijgewerkt": "2026-10-19T10:49:19.179954+00:00",
+"bijgewerkt": "2026-10-19T12:53:49.718449+00:00",
 "uitzendingen": [
-{
-"ko": "2026-10-19T08:00:00+00:00",
-"titel": "Tallon Griekspoor – Schoenhaus M.",
-"comp": "ATP Tour",
-"sport": "tennis",
-"zenders": [],
-"streams": [],
-"url": null
-},
-{
-"ko": "2026-10-19T08:00:00+00:00",
-"titel": "Botic van de Zandschulp – Kamil Majchrzak",
-"comp": "ATP Tour",
-"sport": "tennis",
-"zenders": [],
-"streams": [],
-"url": null
-},
 {
 "ko": "2026-10-19T16:00:00+00:00",
 "titel": "Bayern München (V) – VfB Stuttgart (V)",
@@ -205,6 +187,24 @@
 "url": null
 },
 {
+"ko": "2026-10-20T05:00:00+00:00",
+"titel": "Yulia Putintseva – Diana Shnaider",
+"comp": "WTA Tour",
+"sport": "tennis",
+"zenders": [],
+"streams": [],
+"url": null
+},
+{
+"ko": "2026-10-20T08:00:00+00:00",
+"titel": "Jeļena Ostapenko – Belinda Bencic",
+"comp": "WTA Tour",
+"sport": "tennis",
+"zenders": [],
+"streams": [],
+"url": null
+},
+{
 "ko": "2026-10-20T11:00:00+00:00",
 "titel": "F.C. Porto O19 – PSV O19",
 "comp": "UEFA Youth League",
@@ -213,15 +213,6 @@
 "Ziggo Sport 1",
 "Ziggo Sport 2"
 ],
-"streams": [],
-"url": null
-},
-{
-"ko": "2026-10-20T15:00:00+00:00",
-"titel": "Yulia Putintseva – Diana Shnaider",
-"comp": "WTA Tour",
-"sport": "tennis",
-"zenders": [],
 "streams": [],
 "url": null
 },
