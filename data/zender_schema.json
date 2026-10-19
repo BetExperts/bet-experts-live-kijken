@@ -1,17 +1,6 @@
 {
-"bijgewerkt": "2026-10-19T12:53:49.718449+00:00",
+"bijgewerkt": "2026-10-19T14:51:52.339295+00:00",
 "uitzendingen": [
-{
-"ko": "2026-10-19T16:00:00+00:00",
-"titel": "Bayern München (V) – VfB Stuttgart (V)",
-"comp": "Frauen Bundesliga",
-"sport": "voetbal",
-"zenders": [
-"Viaplay"
-],
-"streams": [],
-"url": null
-},
 {
 "ko": "2026-10-19T16:30:00+00:00",
 "titel": "Monza – Cagliari",
@@ -36,7 +25,7 @@
 },
 {
 "ko": "2026-10-19T17:30:00+00:00",
-"titel": "First-Round Draw – ",
+"titel": " – ",
 "comp": "FA Cup",
 "sport": "voetbal",
 "zenders": [
@@ -351,7 +340,7 @@
 {
 "ko": "2026-10-20T19:00:00+00:00",
 "titel": "Gillingham – Port Vale",
-"comp": "EFL League Two",
+"comp": "League Two",
 "sport": "voetbal",
 "zenders": [
 "Viaplay"
@@ -527,17 +516,6 @@
 {
 "ko": "2026-10-22T00:30:00+00:00",
 "titel": "CR Flamengo – Estudiantes de La Plata",
-"comp": "Copa Libertadores",
-"sport": "voetbal",
-"zenders": [
-"ESPN 1"
-],
-"streams": [],
-"url": null
-},
-{
-"ko": "2026-10-22T00:30:00+00:00",
-"titel": "SE Palmeiras – Fluminense FC",
 "comp": "Copa Libertadores",
 "sport": "voetbal",
 "zenders": [
@@ -792,6 +770,17 @@
 {
 "ko": "2026-10-23T18:00:00+00:00",
 "titel": "NAC Breda – Heracles Almelo",
+"comp": "Keuken Kampioen Divisie",
+"sport": "voetbal",
+"zenders": [
+"ESPN Extra"
+],
+"streams": [],
+"url": null
+},
+{
+"ko": "2026-10-23T18:00:00+00:00",
+"titel": "TOP Oss – Jong Ajax",
 "comp": "Keuken Kampioen Divisie",
 "sport": "voetbal",
 "zenders": [
@@ -1158,6 +1147,7 @@
 "comp": "Serie A",
 "sport": "voetbal",
 "zenders": [
+"Ziggo Sport 1",
 "Ziggo Sport 2"
 ],
 "streams": [],
@@ -1642,7 +1632,7 @@
 "comp": "Eredivisie Vrouwen",
 "sport": "voetbal",
 "zenders": [
-"ESPN 1"
+"ESPN Extra"
 ],
 "streams": [],
 "url": null

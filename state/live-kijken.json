@@ -6,7 +6,7 @@
     "date": "2026-10-19",
     "league": "super-lig",
     "hub": true,
-    "sig": "57c1ede51a34ee0246ee24e0ee6d4f50",
+    "sig": "0e9e2de0f2c33f5990e1d54d6714b268",
     "pairs": [
       [
         "1007",
@@ -65,7 +65,7 @@
     "date": "2026-10-18",
     "league": "eredivisie",
     "hub": true,
-    "sig": "8fc9d963188bc5953b2223973e6da709",
+    "sig": "f588324aa1189539e34da7c44ffeae30",
     "pairs": [
       [
         "196",
@@ -124,7 +124,7 @@
     "date": "2026-10-19",
     "league": "eerste-divisie",
     "hub": true,
-    "sig": "dd2019cc07bd79f0bbd3e4a6904c4ea2",
+    "sig": "20bfcaa0c27b58fe3c836f152f4fc03d",
     "pairs": [
       [
         "203",
@@ -188,7 +188,7 @@
     "date": "2026-10-19",
     "league": "la-liga",
     "hub": true,
-    "sig": "0bdebabf52acee6035058bf217550268",
+    "sig": "8b0f4be958adcbfdd691a53933200d3f",
     "pairs": [
       [
         "539",
@@ -252,7 +252,7 @@
     "date": "2026-10-19",
     "league": "serie-a",
     "hub": true,
-    "sig": "41e1e588771e1a73e6907d269d329e30",
+    "sig": "85b4f8c1e51e2e671361437ce298c9df",
     "pairs": [
       [
         "488",
@@ -316,7 +316,7 @@
     "date": "2026-10-18",
     "league": "bundesliga",
     "hub": true,
-    "sig": "dd409e1c78ca3966346720e6138c502d",
+    "sig": "d6b3a01eebe53d181726f1f3adc30e37",
     "pairs": [
       [
         "169",
@@ -375,7 +375,7 @@
     "date": "2026-10-18",
     "league": "ligue-1",
     "hub": true,
-    "sig": "085636d5bf1935020032946d1dc457a8",
+    "sig": "54dec9b7b8ef2fae5468ff39345638f6",
     "pairs": [
       [
         "1298",
@@ -434,7 +434,7 @@
     "date": "2026-10-19",
     "league": "premier-league",
     "hub": true,
-    "sig": "7de05a88b456b0ddf4329e085667618b",
+    "sig": "874084981b4b1fc7ecce24b1bee93558",
     "pairs": [
       [
         "45",
@@ -1161,7 +1161,7 @@
     "date": "2026-10-21",
     "league": "champions-league",
     "hub": true,
-    "sig": "278f3c15dfae56bef6c1710e27deb3ce",
+    "sig": "d5ab57d9eddedc066ee01dc8c62a6258",
     "pairs": [
       [
         "560",
@@ -1335,5 +1335,108 @@
     "tv_sig": "ESPN 2|TOTO|False|True",
     "og": "og/jong-fc-utrecht-roda-jc-live-gratis-kijken-19-10-2026-e17cec.webp",
     "og_done": "og/jong-fc-utrecht-roda-jc-live-gratis-kijken-19-10-2026-e17cec.webp"
+  },
+  "hub:conference-league-speelronde-2-op-tv-22-oktober-2026": {
+    "item_id": "6ad62e86d597169c622d0a6a",
+    "slug": "conference-league-speelronde-2-op-tv-22-oktober-2026",
+    "match": "Conference League speelronde 2",
+    "date": "2026-10-22",
+    "league": "conference-league",
+    "hub": true,
+    "sig": "32b817c519c67012e6d26c80b4efe3b0",
+    "pairs": [
+      [
+        "617",
+        "664",
+        "2026-10-22"
+      ],
+      [
+        "398",
+        "853",
+        "2026-10-22"
+      ],
+      [
+        "546",
+        "606",
+        "2026-10-22"
+      ],
+      [
+        "400",
+        "598",
+        "2026-10-22"
+      ],
+      [
+        "254",
+        "998",
+        "2026-10-22"
+      ],
+      [
+        "1122",
+        "51",
+        "2026-10-22"
+      ],
+      [
+        "3342",
+        "632",
+        "2026-10-22"
+      ],
+      [
+        "10124",
+        "3403",
+        "2026-10-22"
+      ],
+      [
+        "2240",
+        "3502",
+        "2026-10-22"
+      ],
+      [
+        "319",
+        "3872",
+        "2026-10-22"
+      ],
+      [
+        "160",
+        "91",
+        "2026-10-22"
+      ],
+      [
+        "194",
+        "499",
+        "2026-10-22"
+      ],
+      [
+        "217",
+        "631",
+        "2026-10-22"
+      ],
+      [
+        "397",
+        "735",
+        "2026-10-22"
+      ],
+      [
+        "3327",
+        "406",
+        "2026-10-22"
+      ],
+      [
+        "415",
+        "667",
+        "2026-10-22"
+      ],
+      [
+        "1012",
+        "608",
+        "2026-10-22"
+      ],
+      [
+        "1165",
+        "3364",
+        "2026-10-22"
+      ]
+    ],
+    "ronde": "League Stage - 2",
+    "og": "og/conference-league-speelronde-2-op-tv-22-oktober-2026-671795.webp"
   }
 }
