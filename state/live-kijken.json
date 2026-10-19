@@ -6,7 +6,7 @@
     "date": "2026-10-19",
     "league": "super-lig",
     "hub": true,
-    "sig": "0e9e2de0f2c33f5990e1d54d6714b268",
+    "sig": "65f6aeea6ab8e09c288610e72198dc41",
     "pairs": [
       [
         "1007",
@@ -19,13 +19,13 @@
         "2026-10-17"
       ],
       [
-        "3579",
-        "607",
+        "645",
+        "997",
         "2026-10-17"
       ],
       [
-        "645",
-        "997",
+        "3579",
+        "607",
         "2026-10-17"
       ],
       [
@@ -65,7 +65,7 @@
     "date": "2026-10-18",
     "league": "eredivisie",
     "hub": true,
-    "sig": "f588324aa1189539e34da7c44ffeae30",
+    "sig": "feb7273c692dd78325130b2c2c2989db",
     "pairs": [
       [
         "196",
@@ -124,7 +124,7 @@
     "date": "2026-10-19",
     "league": "eerste-divisie",
     "hub": true,
-    "sig": "20bfcaa0c27b58fe3c836f152f4fc03d",
+    "sig": "d700ed1dd625dd73a2c5910f26a9f4b7",
     "pairs": [
       [
         "203",
@@ -188,7 +188,7 @@
     "date": "2026-10-19",
     "league": "la-liga",
     "hub": true,
-    "sig": "8b0f4be958adcbfdd691a53933200d3f",
+    "sig": "4d4379f8a18587b777c2d662e223e2b6",
     "pairs": [
       [
         "539",
@@ -252,7 +252,7 @@
     "date": "2026-10-19",
     "league": "serie-a",
     "hub": true,
-    "sig": "9166c749b8a618b3775a0bc59e15db3e",
+    "sig": "b600f20a3651179ee3e00e1d49cec630",
     "pairs": [
       [
         "488",
@@ -316,7 +316,7 @@
     "date": "2026-10-18",
     "league": "bundesliga",
     "hub": true,
-    "sig": "d6b3a01eebe53d181726f1f3adc30e37",
+    "sig": "e71c01428f802454eae05f33f98657b7",
     "pairs": [
       [
         "169",
@@ -375,7 +375,7 @@
     "date": "2026-10-18",
     "league": "ligue-1",
     "hub": true,
-    "sig": "c9996bff1539c7e1647deb640147e3cc",
+    "sig": "19d1a4175cc1d1c9ecfc153a372e4d4b",
     "pairs": [
       [
         "1298",
@@ -434,7 +434,7 @@
     "date": "2026-10-19",
     "league": "premier-league",
     "hub": true,
-    "sig": "791ad0487331143eb91dda76a7a9b244",
+    "sig": "125fb1912caa50325595d5da3b533335",
     "pairs": [
       [
         "45",
@@ -1161,7 +1161,7 @@
     "date": "2026-10-21",
     "league": "champions-league",
     "hub": true,
-    "sig": "3eb19e3a1080fbe22612fd350852610d",
+    "sig": "00707d380240eecf39d56713db9a38a0",
     "pairs": [
       [
         "560",
@@ -1343,7 +1343,7 @@
     "date": "2026-10-22",
     "league": "conference-league",
     "hub": true,
-    "sig": "32b817c519c67012e6d26c80b4efe3b0",
+    "sig": "1191a93767708c268bd5d428f4fc59fd",
     "pairs": [
       [
         "617",
@@ -1439,5 +1439,216 @@
     "ronde": "League Stage - 2",
     "og": "og/conference-league-speelronde-2-op-tv-22-oktober-2026-671795.webp",
     "og_done": "og/conference-league-speelronde-2-op-tv-22-oktober-2026-671795.webp"
+  },
+  "1635661": {
+    "item_id": "6ad654c2b12959a184b3bd03",
+    "slug": "fenerbahce-slavia-praha-live-gratis-kijken-20-10-2026",
+    "match": "Fenerbahçe - Slavia Praha",
+    "date": "2026-10-20",
+    "league": "champions-league",
+    "provider": "Bet365",
+    "home_id": "611",
+    "away_id": "560",
+    "tv_sig": "Ziggo Sport 1|Bet365|False|True",
+    "og": "og/fenerbahce-slavia-praha-live-gratis-kijken-20-10-2026-2d9bf5.webp"
+  },
+  "1635719": {
+    "item_id": "6ad654c530842da21d6d71d5",
+    "slug": "sabah-fk-borussia-dortmund-live-gratis-kijken-20-10-2026",
+    "match": "Sabah FA - Borussia Dortmund",
+    "date": "2026-10-20",
+    "league": "champions-league",
+    "provider": "Bet365",
+    "home_id": "13976",
+    "away_id": "165",
+    "tv_sig": "Ziggo Sport 3|Bet365|False|True",
+    "og": "og/sabah-fk-borussia-dortmund-live-gratis-kijken-20-10-2026-3af7f0.webp"
+  },
+  "1635688": {
+    "item_id": "6ad654cad6be29427e60e3c9",
+    "slug": "liverpool-villarreal-live-gratis-kijken-20-10-2026",
+    "match": "Liverpool - Villarreal",
+    "date": "2026-10-20",
+    "league": "champions-league",
+    "provider": "Bet365",
+    "home_id": "40",
+    "away_id": "533",
+    "tv_sig": "Ziggo Sport 3|Bet365|False|True",
+    "og": "og/liverpool-villarreal-live-gratis-kijken-20-10-2026-2b478d.webp"
+  },
+  "1635693": {
+    "item_id": "6ad654cde05c7317a0566589",
+    "slug": "manchester-city-aek-athene-live-gratis-kijken-20-10-2026",
+    "match": "Manchester City - AEK Athens FC",
+    "date": "2026-10-20",
+    "league": "champions-league",
+    "provider": "Bet365",
+    "home_id": "50",
+    "away_id": "575",
+    "tv_sig": "Ziggo Sport 5|Bet365|False|True",
+    "og": "og/manchester-city-aek-athene-live-gratis-kijken-20-10-2026-aa5404.webp"
+  },
+  "1635702": {
+    "item_id": "6ad654d079c0b4ec1e183d1e",
+    "slug": "paris-saint-germain-psg-fc-barcelona-live-gratis-kijken-20-10-2026",
+    "match": "Paris Saint-Germain - Barcelona",
+    "date": "2026-10-20",
+    "league": "champions-league",
+    "provider": "Bet365",
+    "home_id": "85",
+    "away_id": "529",
+    "tv_sig": "Ziggo Sport 2|Bet365|False|True",
+    "og": "og/paris-saint-germain-psg-fc-barcelona-live-gratis-kijken-20-10-2026-9c6f01.webp"
+  },
+  "1635738": {
+    "item_id": "6ad654d3c233c217f38206ca",
+    "slug": "stuttgart-atletico-madrid-live-gratis-kijken-20-10-2026",
+    "match": "VfB Stuttgart - Atlético Madrid",
+    "date": "2026-10-20",
+    "league": "champions-league",
+    "provider": "Bet365",
+    "home_id": "172",
+    "away_id": "530",
+    "tv_sig": "Ziggo Sport|Bet365|False|True",
+    "og": "og/stuttgart-atletico-madrid-live-gratis-kijken-20-10-2026-cf04e4.webp"
+  },
+  "1635655": {
+    "item_id": "6ad654d6696325ff53c5b312",
+    "slug": "fc-porto-psv-live-gratis-kijken-20-10-2026",
+    "match": "FC Porto - PSV",
+    "date": "2026-10-20",
+    "league": "champions-league",
+    "provider": "Bet365",
+    "home_id": "212",
+    "away_id": "197",
+    "tv_sig": "Ziggo Sport 1|Bet365|False|True",
+    "og": "og/fc-porto-psv-live-gratis-kijken-20-10-2026-ecb8e4.webp"
+  },
+  "1635700": {
+    "item_id": "6ad654d8696325ff53c5b36d",
+    "slug": "napoli-bodo-glimt-live-gratis-kijken-20-10-2026",
+    "match": "Napoli - Bodø/Glimt",
+    "date": "2026-10-20",
+    "league": "champions-league",
+    "provider": "Bet365",
+    "home_id": "492",
+    "away_id": "327",
+    "tv_sig": "Ziggo Sport|Bet365|False|True",
+    "og": "og/napoli-bodo-glimt-live-gratis-kijken-20-10-2026-84d2ff.webp"
+  },
+  "1635617": {
+    "item_id": "6ad654dbddc9c5073aa6037b",
+    "slug": "as-roma-slovan-bratislava-live-gratis-kijken-20-10-2026",
+    "match": "AS Roma - Slovan Bratislava",
+    "date": "2026-10-20",
+    "league": "champions-league",
+    "provider": "Bet365",
+    "home_id": "497",
+    "away_id": "656",
+    "tv_sig": "Ziggo Sport 6|Bet365|False|True",
+    "og": "og/as-roma-slovan-bratislava-live-gratis-kijken-20-10-2026-4cae1d.webp"
+  },
+  "hub:europa-league-speelronde-3-op-tv-22-oktober-2026": {
+    "item_id": "6ad65550d4e646377e745a2e",
+    "slug": "europa-league-speelronde-3-op-tv-22-oktober-2026",
+    "match": "Europa League speelronde 3",
+    "date": "2026-10-22",
+    "league": "europa-league",
+    "hub": true,
+    "sig": "1420e2b118310c3ee5e76246b48afb2c",
+    "pairs": [
+      [
+        "347",
+        "746",
+        "2026-10-22"
+      ],
+      [
+        "496",
+        "94",
+        "2026-10-22"
+      ],
+      [
+        "413",
+        "620",
+        "2026-10-22"
+      ],
+      [
+        "637",
+        "81",
+        "2026-10-22"
+      ],
+      [
+        "4799",
+        "651",
+        "2026-10-22"
+      ],
+      [
+        "1124",
+        "168",
+        "2026-10-22"
+      ],
+      [
+        "1393",
+        "563",
+        "2026-10-22"
+      ],
+      [
+        "201",
+        "3683",
+        "2026-10-22"
+      ],
+      [
+        "35",
+        "489",
+        "2026-10-22"
+      ],
+      [
+        "167",
+        "80",
+        "2026-10-22"
+      ],
+      [
+        "247",
+        "538",
+        "2026-10-22"
+      ],
+      [
+        "321",
+        "548",
+        "2026-10-22"
+      ],
+      [
+        "336",
+        "554",
+        "2026-10-22"
+      ],
+      [
+        "52",
+        "549",
+        "2026-10-22"
+      ],
+      [
+        "553",
+        "628",
+        "2026-10-22"
+      ],
+      [
+        "567",
+        "646",
+        "2026-10-22"
+      ],
+      [
+        "211",
+        "3402",
+        "2026-10-22"
+      ],
+      [
+        "4360",
+        "571",
+        "2026-10-22"
+      ]
+    ],
+    "ronde": "League Stage - 3",
+    "og": "og/europa-league-speelronde-3-op-tv-22-oktober-2026-7ac69b.webp"
   }
 }
