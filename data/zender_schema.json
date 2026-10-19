@@ -1,5 +1,5 @@
 {
-"bijgewerkt": "2026-10-19T09:46:39.033933+00:00",
+"bijgewerkt": "2026-10-19T10:49:19.179954+00:00",
 "uitzendingen": [
 {
 "ko": "2026-10-19T08:00:00+00:00",
@@ -16,6 +16,17 @@
 "comp": "ATP Tour",
 "sport": "tennis",
 "zenders": [],
+"streams": [],
+"url": null
+},
+{
+"ko": "2026-10-19T16:00:00+00:00",
+"titel": "Bayern München (V) – VfB Stuttgart (V)",
+"comp": "Frauen Bundesliga",
+"sport": "voetbal",
+"zenders": [
+"Viaplay"
+],
 "streams": [],
 "url": null
 },
@@ -349,7 +360,7 @@
 {
 "ko": "2026-10-20T19:00:00+00:00",
 "titel": "Gillingham – Port Vale",
-"comp": "League Two",
+"comp": "EFL League Two",
 "sport": "voetbal",
 "zenders": [
 "Viaplay"
@@ -534,6 +545,17 @@
 "url": null
 },
 {
+"ko": "2026-10-22T00:30:00+00:00",
+"titel": "SE Palmeiras – Fluminense FC",
+"comp": "Copa Libertadores",
+"sport": "voetbal",
+"zenders": [
+"ESPN 1"
+],
+"streams": [],
+"url": null
+},
+{
 "ko": "2026-10-22T14:30:00+00:00",
 "titel": "Kairat – Panathinaikos FC",
 "comp": "UEFA Conference League",
@@ -701,11 +723,99 @@
 },
 {
 "ko": "2026-10-23T18:00:00+00:00",
+"titel": "Almere City – Roda JC",
+"comp": "Keuken Kampioen Divisie",
+"sport": "voetbal",
+"zenders": [
+"ESPN 3"
+],
+"streams": [],
+"url": null
+},
+{
+"ko": "2026-10-23T18:00:00+00:00",
+"titel": "De Graafschap – RKC Waalwijk",
+"comp": "Keuken Kampioen Divisie",
+"sport": "voetbal",
+"zenders": [
+"ESPN Extra"
+],
+"streams": [],
+"url": null
+},
+{
+"ko": "2026-10-23T18:00:00+00:00",
+"titel": "FC Den Bosch – MVV",
+"comp": "Keuken Kampioen Divisie",
+"sport": "voetbal",
+"zenders": [
+"ESPN Extra"
+],
+"streams": [],
+"url": null
+},
+{
+"ko": "2026-10-23T18:00:00+00:00",
+"titel": "FC Eindhoven – Jong PSV",
+"comp": "Keuken Kampioen Divisie",
+"sport": "voetbal",
+"zenders": [
+"ESPN Extra"
+],
+"streams": [],
+"url": null
+},
+{
+"ko": "2026-10-23T18:00:00+00:00",
+"titel": "FC Volendam – Jong FC Utrecht",
+"comp": "Keuken Kampioen Divisie",
+"sport": "voetbal",
+"zenders": [
+"ESPN Extra"
+],
+"streams": [],
+"url": null
+},
+{
+"ko": "2026-10-23T18:00:00+00:00",
 "titel": "Go Ahead Eagles – Telstar",
 "comp": "Eredivisie",
 "sport": "voetbal",
 "zenders": [
 "ESPN 2"
+],
+"streams": [],
+"url": null
+},
+{
+"ko": "2026-10-23T18:00:00+00:00",
+"titel": "Jong AZ – Helmond Sport",
+"comp": "Keuken Kampioen Divisie",
+"sport": "voetbal",
+"zenders": [
+"ESPN Extra"
+],
+"streams": [],
+"url": null
+},
+{
+"ko": "2026-10-23T18:00:00+00:00",
+"titel": "NAC Breda – Heracles Almelo",
+"comp": "Keuken Kampioen Divisie",
+"sport": "voetbal",
+"zenders": [
+"ESPN Extra"
+],
+"streams": [],
+"url": null
+},
+{
+"ko": "2026-10-23T18:00:00+00:00",
+"titel": "Vitesse – FC Emmen",
+"comp": "Keuken Kampioen Divisie",
+"sport": "voetbal",
+"zenders": [
+"ESPN 4"
 ],
 "streams": [],
 "url": null
@@ -1548,22 +1658,22 @@
 },
 {
 "ko": "2026-10-25T15:45:00+00:00",
-"titel": "Sparta Rotterdam – Ajax",
-"comp": "Eredivisie",
+"titel": "PEC Zwolle (V) – FC Twente (V)",
+"comp": "Eredivisie Vrouwen",
 "sport": "voetbal",
 "zenders": [
-"ESPN 3"
+"ESPN 1"
 ],
 "streams": [],
 "url": null
 },
 {
 "ko": "2026-10-25T15:45:00+00:00",
-"titel": "PEC Zwolle (V) – FC Twente (V)",
-"comp": "Eredivisie Vrouwen",
+"titel": "Sparta Rotterdam – Ajax",
+"comp": "Eredivisie",
 "sport": "voetbal",
 "zenders": [
-"ESPN 1"
+"ESPN 3"
 ],
 "streams": [],
 "url": null
