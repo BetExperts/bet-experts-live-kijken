@@ -4,6 +4,7 @@ ZONDER de artikeltekst te herschrijven. Daarna committen + pushen en attach_og.p
 
   python backfill_og.py                  # alle artikelen vanaf vandaag
   python backfill_og.py --vanaf 2026-10-01
+  python backfill_og.py --vanaf 2026-10-19 --opnieuw   # ook bestaande afbeeldingen vervangen (nieuw ontwerp)
 """
 import sys
 from datetime import date
@@ -20,7 +21,7 @@ def main():
     gids = TvGids(); gids.load()
     state = WF.load_state()
     for fid, e in sorted(state.items(), key=lambda x: x[1].get("date", "")):
-        if e.get("date", "") < vanaf or e.get("og"):
+        if e.get("date", "") < vanaf or (e.get("og") and "--opnieuw" not in sys.argv):   # --opnieuw: nieuw ontwerp
             continue
         cfg = lcfg.get(e.get("league"))
         fx = api.match(fid)

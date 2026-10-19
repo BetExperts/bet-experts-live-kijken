@@ -40,11 +40,16 @@ def info_from(ctx, cfg):
 
 def make(ctx, cfg, slug):
     try:
-        import og_image as O
-        data = O.render_live(info_from(ctx, cfg))
-    except Exception as e:
-        print(f"     ! deelafbeelding overgeslagen: {e}")
-        return None
+        import lk_og2                                  # nieuw ontwerp (19-10-2026); bij een fout het oude Pillow-ontwerp
+        data = lk_og2.render(ctx, cfg)
+    except Exception as e2:
+        print(f"     · nieuw ontwerp niet gelukt ({e2}), oud ontwerp gebruikt")
+        try:
+            import og_image as O
+            data = O.render_live(info_from(ctx, cfg))
+        except Exception as e:
+            print(f"     ! deelafbeelding overgeslagen: {e}")
+            return None
     os.makedirs(OG_DIR, exist_ok=True)
     rel = f"og/{slug}-{hashlib.md5(data).hexdigest()[:6]}.webp"
     open(os.path.join(BASE, rel), "wb").write(data)

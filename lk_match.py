@@ -108,7 +108,7 @@ def gather(fx, standings=None, force_provider=None, landen=False):
         "hSlug": club_slug(homeId, homeN), "aSlug": club_slug(awayId, awayN),
         "compSlug": None, "compN": None,   # ingevuld door build_fielddata (league config)
         "dt": dt, "venue": stadion_nl(ven.get("name")), "city": ven.get("city") or "",
-        "referee": fixture.get("referee"), "ronde": ronde, "ronde_txt": ronde_txt, "ronde_raw": round_raw,
+        "referee": fixture.get("referee"), "ronde": ronde, "ronde_txt": ronde_txt, "ronde_raw": round_raw, "league_id": league.get("id"),
         "hRow": hRow, "aRow": aRow, "hForm": hForm, "aForm": aForm,
         "hResults": recent_results(homeId, landen=landen), "aResults": recent_results(awayId, landen=landen),
         "h2h": api.h2h(homeId, awayId),
