@@ -1,5 +1,5 @@
 {
-"bijgewerkt": "2026-10-20T14:14:23.705977+00:00",
+"bijgewerkt": "2026-10-20T17:00:38.600803+00:00",
 "uitzendingen": [
 {
 "ko": "2026-10-20T15:10:00+00:00",
@@ -165,15 +165,6 @@
 "url": null
 },
 {
-"ko": "2026-10-21T08:00:00+00:00",
-"titel": "Arthur Fils – Jaume Munar",
-"comp": "ATP Tour",
-"sport": "tennis",
-"zenders": [],
-"streams": [],
-"url": null
-},
-{
 "ko": "2026-10-21T14:00:00+00:00",
 "titel": "Inter U19 – Shakhtar Donetsk U19",
 "comp": "UEFA Youth League",
@@ -324,6 +315,15 @@
 "zenders": [
 "ESPN 1"
 ],
+"streams": [],
+"url": null
+},
+{
+"ko": "2026-10-22T08:00:00+00:00",
+"titel": "Arthur Fils – Jaume Munar",
+"comp": "ATP Tour",
+"sport": "tennis",
+"zenders": [],
 "streams": [],
 "url": null
 },
