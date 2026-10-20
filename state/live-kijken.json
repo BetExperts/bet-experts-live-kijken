@@ -1365,7 +1365,8 @@
     "home_id": "539",
     "away_id": "531",
     "tv_sig": "Ziggo Sport 6|TOTO|False|False",
-    "og": "og/levante-athletic-bilbao-live-gratis-kijken-21-10-2026-b614a1.webp"
+    "og": "og/levante-athletic-bilbao-live-gratis-kijken-21-10-2026-b614a1.webp",
+    "og_done": "og/levante-athletic-bilbao-live-gratis-kijken-21-10-2026-b614a1.webp"
   },
   "1635684": {
     "item_id": "6ad7a166fc12ec1f869673ac",
@@ -1377,7 +1378,8 @@
     "home_id": "79",
     "away_id": "645",
     "tv_sig": "Ziggo Sport 3|Bet365|False|True",
-    "og": "og/lille-galatasaray-live-gratis-kijken-21-10-2026-367767.webp"
+    "og": "og/lille-galatasaray-live-gratis-kijken-21-10-2026-367767.webp",
+    "og_done": "og/lille-galatasaray-live-gratis-kijken-21-10-2026-367767.webp"
   },
   "1635647": {
     "item_id": "6ad7a16a031d2b0a7e747cc6",
@@ -1389,7 +1391,8 @@
     "home_id": "895",
     "away_id": "33",
     "tv_sig": "Ziggo Sport 1|Bet365|False|True",
-    "og": "og/como-manchester-united-live-gratis-kijken-21-10-2026-c55180.webp"
+    "og": "og/como-manchester-united-live-gratis-kijken-21-10-2026-c55180.webp",
+    "og_done": "og/como-manchester-united-live-gratis-kijken-21-10-2026-c55180.webp"
   },
   "1635630": {
     "item_id": "6ad7a17005fa0b4791352cbd",
@@ -1401,7 +1404,8 @@
     "home_id": "157",
     "away_id": "42",
     "tv_sig": "Ziggo Sport 2|Bet365|False|True",
-    "og": "og/bayern-munchen-arsenal-live-gratis-kijken-21-10-2026-921e83.webp"
+    "og": "og/bayern-munchen-arsenal-live-gratis-kijken-21-10-2026-921e83.webp",
+    "og_done": "og/bayern-munchen-arsenal-live-gratis-kijken-21-10-2026-921e83.webp"
   },
   "1635737": {
     "item_id": "6ad7a17616d460286dad3d1c",
@@ -1413,7 +1417,8 @@
     "home_id": "228",
     "away_id": "1026",
     "tv_sig": "Ziggo Sport|Bet365|False|True",
-    "og": "og/sporting-cp-lask-linz-live-gratis-kijken-21-10-2026-ada537.webp"
+    "og": "og/sporting-cp-lask-linz-live-gratis-kijken-21-10-2026-ada537.webp",
+    "og_done": "og/sporting-cp-lask-linz-live-gratis-kijken-21-10-2026-ada537.webp"
   },
   "1635672": {
     "item_id": "6ad7a17de41de661937da247",
@@ -1425,7 +1430,8 @@
     "home_id": "505",
     "away_id": "550",
     "tv_sig": "Ziggo Sport 5|Bet365|False|True",
-    "og": "og/inter-shakhtar-donetsk-live-gratis-kijken-21-10-2026-f9593d.webp"
+    "og": "og/inter-shakhtar-donetsk-live-gratis-kijken-21-10-2026-f9593d.webp",
+    "og_done": "og/inter-shakhtar-donetsk-live-gratis-kijken-21-10-2026-f9593d.webp"
   },
   "1635716": {
     "item_id": "6ad7a18183907877403db3b8",
@@ -1437,7 +1443,8 @@
     "home_id": "541",
     "away_id": "173",
     "tv_sig": "Ziggo Sport 3|Bet365|False|True",
-    "og": "og/real-madrid-rb-leipzig-live-gratis-kijken-21-10-2026-66e04e.webp"
+    "og": "og/real-madrid-rb-leipzig-live-gratis-kijken-21-10-2026-66e04e.webp",
+    "og_done": "og/real-madrid-rb-leipzig-live-gratis-kijken-21-10-2026-66e04e.webp"
   },
   "1635636": {
     "item_id": "6ad7a18805fa0b4791353950",
@@ -1449,7 +1456,8 @@
     "home_id": "543",
     "away_id": "209",
     "tv_sig": "Ziggo Sport 1|Bet365|False|True",
-    "og": "og/real-betis-feyenoord-live-gratis-kijken-21-10-2026-608a1b.webp"
+    "og": "og/real-betis-feyenoord-live-gratis-kijken-21-10-2026-608a1b.webp",
+    "og_done": "og/real-betis-feyenoord-live-gratis-kijken-21-10-2026-608a1b.webp"
   },
   "1635645": {
     "item_id": "6ad7a18de6e98220e3a27cc3",
@@ -1461,7 +1469,8 @@
     "home_id": "569",
     "away_id": "116",
     "tv_sig": "Ziggo Sport|Bet365|False|True",
-    "og": "og/club-brugge-lens-live-gratis-kijken-21-10-2026-a84ff4.webp"
+    "og": "og/club-brugge-lens-live-gratis-kijken-21-10-2026-a84ff4.webp",
+    "og_done": "og/club-brugge-lens-live-gratis-kijken-21-10-2026-a84ff4.webp"
   },
   "hub:super-lig-speelronde-9-op-tv-23-oktober-2026": {
     "item_id": "6ad7a1c93048da693a4696c8",
@@ -1519,6 +1528,7 @@
       ]
     ],
     "ronde": "Regular Season - 9",
-    "og": "og/super-lig-speelronde-9-op-tv-23-oktober-2026-e7dcc8.webp"
+    "og": "og/super-lig-speelronde-9-op-tv-23-oktober-2026-e7dcc8.webp",
+    "og_done": "og/super-lig-speelronde-9-op-tv-23-oktober-2026-e7dcc8.webp"
   }
 }
