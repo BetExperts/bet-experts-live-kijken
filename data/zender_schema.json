@@ -1,15 +1,6 @@
 {
-"bijgewerkt": "2026-10-20T07:34:18.187617+00:00",
+"bijgewerkt": "2026-10-20T08:07:01.943931+00:00",
 "uitzendingen": [
-{
-"ko": "2026-10-20T05:05:00+00:00",
-"titel": "Yulia Putintseva – Diana Shnaider",
-"comp": "WTA Tour",
-"sport": "tennis",
-"zenders": [],
-"streams": [],
-"url": null
-},
 {
 "ko": "2026-10-20T08:50:00+00:00",
 "titel": "Jeļena Ostapenko – Belinda Bencic",
@@ -479,10 +470,21 @@
 {
 "ko": "2026-10-22T19:00:00+00:00",
 "titel": "Ajax – Atalanta",
-"comp": "UEFA Conference League",
+"comp": "Conference League",
 "sport": "voetbal",
 "zenders": [
 "Ziggo Sport 1"
+],
+"streams": [],
+"url": null
+},
+{
+"ko": "2026-10-22T19:00:00+00:00",
+"titel": "Lincoln Red Imps FC – FC Twente",
+"comp": "Conference League",
+"sport": "voetbal",
+"zenders": [
+"Ziggo Sport 2"
 ],
 "streams": [],
 "url": null
@@ -505,17 +507,6 @@
 "sport": "voetbal",
 "zenders": [
 "Ziggo Sport 6"
-],
-"streams": [],
-"url": null
-},
-{
-"ko": "2026-10-22T19:00:00+00:00",
-"titel": "Lincoln Red Imps – FC Twente",
-"comp": "UEFA Conference League",
-"sport": "voetbal",
-"zenders": [
-"Ziggo Sport 2"
 ],
 "streams": [],
 "url": null
