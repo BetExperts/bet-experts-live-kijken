@@ -1,28 +1,6 @@
 {
-"bijgewerkt": "2026-10-20T19:43:07.686133+00:00",
+"bijgewerkt": "2026-10-20T20:37:01.865313+00:00",
 "uitzendingen": [
-{
-"ko": "2026-10-20T16:45:00+00:00",
-"titel": "Fenerbahce – Slavia Praha",
-"comp": "Champions League",
-"sport": "voetbal",
-"zenders": [
-"Ziggo Sport 1"
-],
-"streams": [],
-"url": "/nieuws/fenerbahce-slavia-praha-live-gratis-kijken-20-10-2026"
-},
-{
-"ko": "2026-10-20T16:45:00+00:00",
-"titel": "Sabah FA – Borussia Dortmund",
-"comp": "Champions League",
-"sport": "voetbal",
-"zenders": [
-"Ziggo Sport 3"
-],
-"streams": [],
-"url": "/nieuws/sabah-fk-borussia-dortmund-live-gratis-kijken-20-10-2026"
-},
 {
 "ko": "2026-10-20T18:00:00+00:00",
 "titel": "Al Ettifaq – Al Ittihad",
@@ -205,30 +183,6 @@
 "url": "/nieuws/como-manchester-united-live-gratis-kijken-21-10-2026"
 },
 {
-"ko": "2026-10-21T18:00:00+00:00",
-"titel": "Levante – Athletic Club",
-"comp": "La Liga",
-"sport": "voetbal",
-"zenders": [
-"Ziggo Sport 6"
-],
-"streams": [
-"TOTO"
-],
-"url": "/nieuws/levante-athletic-bilbao-live-gratis-kijken-21-10-2026"
-},
-{
-"ko": "2026-10-21T19:00:00+00:00",
-"titel": "Aston Villa – Viking",
-"comp": "Champions League",
-"sport": "voetbal",
-"zenders": [
-"Ziggo Sport 6"
-],
-"streams": [],
-"url": null
-},
-{
 "ko": "2026-10-21T19:00:00+00:00",
 "titel": "Bayern München – Arsenal",
 "comp": "Champions League",
@@ -293,6 +247,17 @@
 ],
 "streams": [],
 "url": "/nieuws/club-brugge-lens-live-gratis-kijken-21-10-2026"
+},
+{
+"ko": "2026-10-21T19:00:00+00:00",
+"titel": "Aston Villa – Viking FK",
+"comp": "UEFA Champions League",
+"sport": "voetbal",
+"zenders": [
+"Ziggo Sport 6"
+],
+"streams": [],
+"url": null
 },
 {
 "ko": "2026-10-21T19:00:00+00:00",
@@ -387,17 +352,6 @@
 },
 {
 "ko": "2026-10-22T16:45:00+00:00",
-"titel": "Lech Poznan – Sunderland",
-"comp": "Europa League",
-"sport": "voetbal",
-"zenders": [
-"Ziggo Sport 6"
-],
-"streams": [],
-"url": null
-},
-{
-"ko": "2026-10-22T16:45:00+00:00",
 "titel": "Juventus – Rennes",
 "comp": "Europa League",
 "sport": "voetbal",
@@ -474,6 +428,17 @@
 "url": null
 },
 {
+"ko": "2026-10-22T16:45:00+00:00",
+"titel": "Lech Poznan – Sunderland",
+"comp": "Europa League",
+"sport": "voetbal",
+"zenders": [
+"Ziggo Sport 6"
+],
+"streams": [],
+"url": null
+},
+{
 "ko": "2026-10-22T17:00:00+00:00",
 "titel": "Woodhouse – Van Duijvenbode",
 "comp": "EK Darts",
@@ -513,39 +478,6 @@
 "sport": "darts",
 "zenders": [
 "Viaplay TV"
-],
-"streams": [],
-"url": null
-},
-{
-"ko": "2026-10-22T19:00:00+00:00",
-"titel": "1899 Hoffenheim – Lyon",
-"comp": "Europa League",
-"sport": "voetbal",
-"zenders": [
-"Ziggo Sport 6"
-],
-"streams": [],
-"url": null
-},
-{
-"ko": "2026-10-22T19:00:00+00:00",
-"titel": "Lincoln Red Imps FC – FC Twente",
-"comp": "Conference League",
-"sport": "voetbal",
-"zenders": [
-"Ziggo Sport 2"
-],
-"streams": [],
-"url": null
-},
-{
-"ko": "2026-10-22T19:00:00+00:00",
-"titel": "Celtic – Celta Vigo",
-"comp": "Europa League",
-"sport": "voetbal",
-"zenders": [
-"Ziggo Sport 1"
 ],
 "streams": [],
 "url": null
@@ -620,6 +552,39 @@
 "ko": "2026-10-22T19:00:00+00:00",
 "titel": "Ajax – Atalanta",
 "comp": "Conference League",
+"sport": "voetbal",
+"zenders": [
+"Ziggo Sport 1"
+],
+"streams": [],
+"url": null
+},
+{
+"ko": "2026-10-22T19:00:00+00:00",
+"titel": "1899 Hoffenheim – Lyon",
+"comp": "Europa League",
+"sport": "voetbal",
+"zenders": [
+"Ziggo Sport 6"
+],
+"streams": [],
+"url": null
+},
+{
+"ko": "2026-10-22T19:00:00+00:00",
+"titel": "Lincoln Red Imps FC – FC Twente",
+"comp": "Conference League",
+"sport": "voetbal",
+"zenders": [
+"Ziggo Sport 2"
+],
+"streams": [],
+"url": null
+},
+{
+"ko": "2026-10-22T19:00:00+00:00",
+"titel": "Celtic – Celta Vigo",
+"comp": "Europa League",
 "sport": "voetbal",
 "zenders": [
 "Ziggo Sport 1"

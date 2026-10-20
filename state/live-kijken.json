@@ -6,7 +6,7 @@
     "date": "2026-10-19",
     "league": "super-lig",
     "hub": true,
-    "sig": "9d36fdd5113b0e73a45af1c09b18fb28",
+    "sig": "5f521564c3f8735a1878e0e115a217f9",
     "pairs": [
       [
         "1007",
@@ -124,7 +124,7 @@
     "date": "2026-10-19",
     "league": "eerste-divisie",
     "hub": true,
-    "sig": "f5a7fc6098a31e9eea6559e7e6ffdc57",
+    "sig": "1ffe6f6cd716d24b885a5d066ed9edcd",
     "pairs": [
       [
         "203",
@@ -188,7 +188,7 @@
     "date": "2026-10-19",
     "league": "la-liga",
     "hub": true,
-    "sig": "5ce15d2971c5dd27f53a70d59f721c52",
+    "sig": "a041aefc1503b33c4bc81053fff6278e",
     "pairs": [
       [
         "539",
@@ -252,7 +252,7 @@
     "date": "2026-10-19",
     "league": "serie-a",
     "hub": true,
-    "sig": "649104d3bcd90a03837e65af3d4a0690",
+    "sig": "01a2c4a44cbd7b6b8092fb5a5b853a4c",
     "pairs": [
       [
         "488",
@@ -434,7 +434,7 @@
     "date": "2026-10-19",
     "league": "premier-league",
     "hub": true,
-    "sig": "f69432a57c175471acade875eb3f9be9",
+    "sig": "6b15c2ac7d5cb5370b515d3f7195d118",
     "pairs": [
       [
         "45",
@@ -836,7 +836,7 @@
     "date": "2026-10-21",
     "league": "champions-league",
     "hub": true,
-    "sig": "f5a99e2b82caa60866a7ef52ffc89c91",
+    "sig": "f759b99b3cb1b39d01cbc00eac63a4d8",
     "pairs": [
       [
         "560",
@@ -849,28 +849,13 @@
         "2026-10-20"
       ],
       [
-        "40",
-        "533",
-        "2026-10-20"
-      ],
-      [
-        "50",
-        "575",
-        "2026-10-20"
-      ],
-      [
-        "529",
-        "85",
-        "2026-10-20"
-      ],
-      [
-        "172",
-        "530",
-        "2026-10-20"
-      ],
-      [
         "197",
         "212",
+        "2026-10-20"
+      ],
+      [
+        "497",
+        "656",
         "2026-10-20"
       ],
       [
@@ -879,8 +864,23 @@
         "2026-10-20"
       ],
       [
-        "497",
-        "656",
+        "50",
+        "575",
+        "2026-10-20"
+      ],
+      [
+        "172",
+        "530",
+        "2026-10-20"
+      ],
+      [
+        "529",
+        "85",
+        "2026-10-20"
+      ],
+      [
+        "40",
+        "533",
         "2026-10-20"
       ],
       [
@@ -1018,7 +1018,7 @@
     "date": "2026-10-22",
     "league": "conference-league",
     "hub": true,
-    "sig": "5e3e59c39c1a0a1f8c1a036fc5e65a49",
+    "sig": "7cef5df5ae3f367c2e4aeed0202fc73d",
     "pairs": [
       [
         "617",
@@ -1239,7 +1239,7 @@
     "date": "2026-10-22",
     "league": "europa-league",
     "hub": true,
-    "sig": "c52c4408904cbdadd611dbd680c53998",
+    "sig": "dd36e46e541e2a8ba0a66362addff0fb",
     "pairs": [
       [
         "347",
@@ -1343,7 +1343,7 @@
     "date": "2026-10-21",
     "league": "la-liga",
     "hub": true,
-    "sig": "fd2159c70dd80d0dc0088cfa36fb643f",
+    "sig": "ac98dd1c1eded5870a2afd5e95b11e40",
     "pairs": [
       [
         "531",
@@ -1364,8 +1364,8 @@
     "provider": "TOTO",
     "home_id": "539",
     "away_id": "531",
-    "tv_sig": "Ziggo Sport 6|TOTO|False|False",
-    "og": "og/levante-athletic-bilbao-live-gratis-kijken-21-10-2026-b614a1.webp",
+    "tv_sig": "Ziggo Sport|TOTO|False|False",
+    "og": "og/levante-athletic-bilbao-live-gratis-kijken-21-10-2026-b7b527.webp",
     "og_done": "og/levante-athletic-bilbao-live-gratis-kijken-21-10-2026-b614a1.webp"
   },
   "1635684": {
@@ -1479,7 +1479,7 @@
     "date": "2026-10-26",
     "league": "super-lig",
     "hub": true,
-    "sig": "8b389ed8d7fbd1ea7645e9da4b064708",
+    "sig": "1cc4e6d9b9d2abaea64576dba11bced5",
     "pairs": [
       [
         "7411",
@@ -1538,7 +1538,7 @@
     "date": "2026-10-25",
     "league": "eredivisie",
     "hub": true,
-    "sig": "fa981288c5504ed5020fcc5828f8d2c1",
+    "sig": "167c3ab39608ef1151e6b80fc8e702ce",
     "pairs": [
       [
         "410",
@@ -1597,7 +1597,7 @@
     "date": "2026-10-24",
     "league": "eerste-divisie",
     "hub": true,
-    "sig": "496cf7b3250bd77118a24995d717cea4",
+    "sig": "45cfd29c247d9bab798ddc39fd6d06c0",
     "pairs": [
       [
         "199",
@@ -1653,5 +1653,305 @@
     "ronde": "Regular Season - 12",
     "og": "og/keuken-kampioen-divisie-speelronde-12-op-tv-23-oktober-2026-bda2f1.webp",
     "og_done": "og/keuken-kampioen-divisie-speelronde-12-op-tv-23-oktober-2026-bda2f1.webp"
+  },
+  "hub:premier-league-speelronde-8-op-tv-23-oktober-2026": {
+    "item_id": "6ad7d0e295aeb7758652785b",
+    "slug": "premier-league-speelronde-8-op-tv-23-oktober-2026",
+    "match": "Premier League speelronde 8",
+    "date": "2026-10-25",
+    "league": "premier-league",
+    "hub": true,
+    "sig": "6b53f38fafee478429b6dac969c046b9",
+    "pairs": [
+      [
+        "57",
+        "65",
+        "2026-10-23"
+      ],
+      [
+        "50",
+        "66",
+        "2026-10-24"
+      ],
+      [
+        "42",
+        "45",
+        "2026-10-24"
+      ],
+      [
+        "1346",
+        "36",
+        "2026-10-24"
+      ],
+      [
+        "47",
+        "49",
+        "2026-10-24"
+      ],
+      [
+        "33",
+        "35",
+        "2026-10-25"
+      ],
+      [
+        "40",
+        "51",
+        "2026-10-25"
+      ],
+      [
+        "34",
+        "52",
+        "2026-10-25"
+      ],
+      [
+        "55",
+        "64",
+        "2026-10-25"
+      ],
+      [
+        "63",
+        "746",
+        "2026-10-25"
+      ]
+    ],
+    "ronde": "Regular Season - 8",
+    "og": "og/premier-league-speelronde-8-op-tv-23-oktober-2026-924472.webp"
+  },
+  "hub:serie-a-speelronde-8-op-tv-23-oktober-2026": {
+    "item_id": "6ad7d0e416606a64e41aa24a",
+    "slug": "serie-a-speelronde-8-op-tv-23-oktober-2026",
+    "match": "Serie A speelronde 8",
+    "date": "2026-10-25",
+    "league": "serie-a",
+    "hub": true,
+    "sig": "e9acfbe2686b394e0e6849a040edd9b0",
+    "pairs": [
+      [
+        "1579",
+        "503",
+        "2026-10-23"
+      ],
+      [
+        "490",
+        "500",
+        "2026-10-24"
+      ],
+      [
+        "488",
+        "895",
+        "2026-10-24"
+      ],
+      [
+        "492",
+        "497",
+        "2026-10-24"
+      ],
+      [
+        "487",
+        "523",
+        "2026-10-24"
+      ],
+      [
+        "502",
+        "505",
+        "2026-10-25"
+      ],
+      [
+        "495",
+        "517",
+        "2026-10-25"
+      ],
+      [
+        "499",
+        "512",
+        "2026-10-25"
+      ],
+      [
+        "496",
+        "867",
+        "2026-10-25"
+      ],
+      [
+        "489",
+        "494",
+        "2026-10-25"
+      ]
+    ],
+    "ronde": "Regular Season - 8",
+    "og": "og/serie-a-speelronde-8-op-tv-23-oktober-2026-3aeb5c.webp"
+  },
+  "hub:bundesliga-speelronde-7-op-tv-23-oktober-2026": {
+    "item_id": "6ad7d0e6c66ab030528525d3",
+    "slug": "bundesliga-speelronde-7-op-tv-23-oktober-2026",
+    "match": "Bundesliga speelronde 7",
+    "date": "2026-10-25",
+    "league": "bundesliga",
+    "hub": true,
+    "sig": "a1723808fdbb2c42450e8bcfd9625526",
+    "pairs": [
+      [
+        "163",
+        "172",
+        "2026-10-23"
+      ],
+      [
+        "162",
+        "164",
+        "2026-10-24"
+      ],
+      [
+        "170",
+        "182",
+        "2026-10-24"
+      ],
+      [
+        "1660",
+        "173",
+        "2026-10-24"
+      ],
+      [
+        "175",
+        "185",
+        "2026-10-24"
+      ],
+      [
+        "174",
+        "192",
+        "2026-10-24"
+      ],
+      [
+        "165",
+        "169",
+        "2026-10-24"
+      ],
+      [
+        "167",
+        "168",
+        "2026-10-25"
+      ],
+      [
+        "157",
+        "160",
+        "2026-10-25"
+      ]
+    ],
+    "ronde": "Regular Season - 7",
+    "og": "og/bundesliga-speelronde-7-op-tv-23-oktober-2026-f0eaa3.webp"
+  },
+  "hub:ligue-1-speelronde-8-op-tv-23-oktober-2026": {
+    "item_id": "6ad7d0e7e1fc7fcfab97ce28",
+    "slug": "ligue-1-speelronde-8-op-tv-23-oktober-2026",
+    "match": "Ligue 1 speelronde 8",
+    "date": "2026-10-25",
+    "league": "ligue-1",
+    "hub": true,
+    "sig": "d755d9fbf7a0a3861ff906688dddca4b",
+    "pairs": [
+      [
+        "106",
+        "84",
+        "2026-10-23"
+      ],
+      [
+        "110",
+        "96",
+        "2026-10-24"
+      ],
+      [
+        "114",
+        "116",
+        "2026-10-24"
+      ],
+      [
+        "79",
+        "91",
+        "2026-10-25"
+      ],
+      [
+        "77",
+        "97",
+        "2026-10-25"
+      ],
+      [
+        "111",
+        "81",
+        "2026-10-25"
+      ],
+      [
+        "94",
+        "95",
+        "2026-10-25"
+      ],
+      [
+        "108",
+        "1298",
+        "2026-10-25"
+      ],
+      [
+        "80",
+        "85",
+        "2026-10-25"
+      ]
+    ],
+    "ronde": "Regular Season - 8",
+    "og": "og/ligue-1-speelronde-8-op-tv-23-oktober-2026-0c52e6.webp"
+  },
+  "hub:jupiler-pro-league-speelronde-9-op-tv-23-oktober-2026": {
+    "item_id": "6ad7d0e916606a64e41aa486",
+    "slug": "jupiler-pro-league-speelronde-9-op-tv-23-oktober-2026",
+    "match": "Jupiler Pro League speelronde 9",
+    "date": "2026-10-25",
+    "league": "jupiler-pro-league",
+    "hub": true,
+    "sig": "44fd12b6f9c33a62cd8019080552a510",
+    "pairs": [
+      [
+        "266",
+        "734",
+        "2026-10-23"
+      ],
+      [
+        "736",
+        "740",
+        "2026-10-24"
+      ],
+      [
+        "259",
+        "260",
+        "2026-10-24"
+      ],
+      [
+        "261",
+        "738",
+        "2026-10-24"
+      ],
+      [
+        "5902",
+        "600",
+        "2026-10-24"
+      ],
+      [
+        "733",
+        "742",
+        "2026-10-25"
+      ],
+      [
+        "569",
+        "735",
+        "2026-10-25"
+      ],
+      [
+        "554",
+        "631",
+        "2026-10-25"
+      ],
+      [
+        "1393",
+        "741",
+        "2026-10-25"
+      ]
+    ],
+    "ronde": "Regular Season - 9",
+    "og": "og/jupiler-pro-league-speelronde-9-op-tv-23-oktober-2026-23fa41.webp"
   }
 }
