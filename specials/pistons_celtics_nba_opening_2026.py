@@ -99,9 +99,11 @@ content3 = f"""<h3><strong>Onze voorspelling: Detroit wint een taaie opener</str
 <p><strong>1. Detroit Pistons wint (1,99).</strong> Thuisvoordeel, een ingespeelde selectie en een sterke onderlinge reeks. Volgens het voorspellingsmodel van ESPN heeft Detroit iets meer dan 52% kans; bij odds rond 2,00 rekent de bookmaker met 50%. Wie bij TOTO speelt: daar gaat de 1X2-markt alleen over de reguliere speeltijd (gelijkspel 16,0), dus bij een verlenging verlies je je inzet.</p>
 <p><strong>2. Minder dan 216,5 punten (2,35).</strong> Dit is de tip met het meeste risico, maar ook de meeste waarde. Het hoofdtotaal in de markt ligt rond 220,5 punten; deze lijn ligt vier punten lager en levert daardoor ruim twee keer de inzet op. Het tempo van Boston, de verdediging van Detroit en de onwennigheid van opening night pleiten voor een lage score. Van de vier onderlinge duels vorig seizoen bleven er twee onder de 220 punten.</p>
 <p><strong>3. Detroit +6,5 (1,43).</strong> Detroit hoeft niet te winnen; verliezen met maximaal zes punten is ook goed. Een lage quotering, maar handig om een combinatieweddenschap mee op te bouwen.</p>
+<p><a href="https://www.bet365.nl/hub/nl-nl/open-account?affiliate=365_02599619"><strong>👉 Klik hier: maak je Bet365-account aan en wed live mee op Pistons – Celtics</strong></a></p>
 <p>Speel je liever op een speler: Tatum pakte vorig seizoen 10 rebounds per wedstrijd en krijgt zonder Brown meer bal. Covers ziet in zijn reboundlijn van 8,5 een kans op de Over.</p>
 <h3><strong>Pistons – Celtics live kijken in Nederland</strong></h3>
-<p>In de Verenigde Staten zendt NBC de wedstrijd uit. In Nederland heeft ESPN de NBA-rechten; of deze middagwedstrijd (21:00 bij ons) live op een van de ESPN-kanalen te zien is, stond bij publicatie nog niet in de tv-gids. Met <strong>NBA League Pass</strong>, de streamingdienst van de competitie, kun je internationaal normaal gesproken alle wedstrijden live volgen.</p>
+<p>De makkelijkste manier om de NBA-opener te zien: bij <a href="/bookmakers/bet365">Bet365</a> kijk je NBA-wedstrijden gratis live met een account. In de Verenigde Staten zendt NBC de wedstrijd uit; in Nederland heeft ESPN de NBA-rechten, maar niet elke wedstrijd staat op een van de ESPN-kanalen. Met <strong>NBA League Pass</strong>, de betaalde streamingdienst van de competitie, kun je ook alle wedstrijden volgen.</p>
+<p><a href="https://www.bet365.nl/hub/nl-nl/open-account?affiliate=365_02599619"><strong>👉 Klik hier: maak je Bet365-account aan en kijk Pistons – Celtics live</strong></a></p>
 <h3><strong>Meer NBA</strong></h3>
 <p>Wil je weten welke landgenoten dit seizoen in de NBA spelen? Lees ons overzicht <a href="/nieuws/welke-nederlanders-spelen-in-de-nba">Welke Nederlanders spelen in de NBA</a>. Alle basketbaltips vind je op onze pagina <a href="/wedden-op-nba-voorspellingen-en-wedtips---basketbal">wedden op de NBA</a>.</p>
 <h3><strong>Veelgestelde vragen</strong></h3>
@@ -118,6 +120,10 @@ if __name__ == "__main__":
     fd = {"name": TITEL, "slug": SLUG, "content": content, "content-2": content2, "content-3": content3,
           "samenvatting": SAMENVATTING, "rubriek": RUBRIEK_BASKETBAL, "competitie": COMPETITIE_NBA,
           "datum-tijd-van-wedstrijd": "2026-10-20T19:00:00.000Z",
+          "wedtip-1-2": "Detroit Pistons wint (incl. verlenging)", "quotering-wedtip-1": "1.99",
+          "wedtip-2-2": "Minder dan 216.5 punten (incl. verlenging)", "quotering-wedtip-2": "2.35",
+          "wedtip-3-2": "Detroit Pistons +6.5 punten", "quotering-wedtip-3": "1.43",
+          "bookmaker-wedtips": "64ff0fbd5a8f205b05d54670",
           "publicatiedatum": datetime.now(timezone.utc).isoformat()}
     if "--live" not in sys.argv:
         import re
