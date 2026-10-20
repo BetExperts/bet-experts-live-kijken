@@ -6,7 +6,7 @@
     "date": "2026-10-19",
     "league": "super-lig",
     "hub": true,
-    "sig": "75d90b00fa36f230ba4241c6f720f9e4",
+    "sig": "d9b378120c15e48915a165d05f3e9b63",
     "pairs": [
       [
         "1007",
@@ -124,7 +124,7 @@
     "date": "2026-10-19",
     "league": "eerste-divisie",
     "hub": true,
-    "sig": "63bfb043cbc728664919ed8c4fb513de",
+    "sig": "cc2ef59b8bb457ae930adfcb6ba5fac9",
     "pairs": [
       [
         "203",
@@ -188,7 +188,7 @@
     "date": "2026-10-19",
     "league": "la-liga",
     "hub": true,
-    "sig": "ae089840762f9775040d3a7ddacf703e",
+    "sig": "4f3e740606e03f85d50b94ce863e0e29",
     "pairs": [
       [
         "539",
@@ -252,7 +252,7 @@
     "date": "2026-10-19",
     "league": "serie-a",
     "hub": true,
-    "sig": "e1e41f86959f67c6537107655671987f",
+    "sig": "47da9be1578bc6d006a81e894c23a9fd",
     "pairs": [
       [
         "488",
@@ -434,7 +434,7 @@
     "date": "2026-10-19",
     "league": "premier-league",
     "hub": true,
-    "sig": "7855b094dacead1f6884b91accc1a918",
+    "sig": "23420fe4a3501071b146ed5176d87721",
     "pairs": [
       [
         "45",
@@ -836,7 +836,7 @@
     "date": "2026-10-21",
     "league": "champions-league",
     "hub": true,
-    "sig": "21bd63d3d9ad6ae1885eb3c8afc6b8b2",
+    "sig": "f5a99e2b82caa60866a7ef52ffc89c91",
     "pairs": [
       [
         "560",
@@ -1018,7 +1018,7 @@
     "date": "2026-10-22",
     "league": "conference-league",
     "hub": true,
-    "sig": "94e4d2b2762fda659d3e5411d3cbf7cb",
+    "sig": "5e3e59c39c1a0a1f8c1a036fc5e65a49",
     "pairs": [
       [
         "617",
@@ -1239,7 +1239,7 @@
     "date": "2026-10-22",
     "league": "europa-league",
     "hub": true,
-    "sig": "58126160001e59f29bcea9f494c121d4",
+    "sig": "c52c4408904cbdadd611dbd680c53998",
     "pairs": [
       [
         "347",
@@ -1343,7 +1343,7 @@
     "date": "2026-10-21",
     "league": "la-liga",
     "hub": true,
-    "sig": "b244711bdebcaf8c753e27e1438c6503",
+    "sig": "2171670230819a5faee80b7937871a55",
     "pairs": [
       [
         "531",
@@ -1354,5 +1354,171 @@
     "ronde": "Regular Season - 6",
     "og": "og/la-liga-speelronde-6-op-tv-21-oktober-2026-7577fb.webp",
     "og_done": "og/la-liga-speelronde-6-op-tv-21-oktober-2026-7577fb.webp"
+  },
+  "1570389": {
+    "item_id": "6ad7a15fe6e98220e3a270a1",
+    "slug": "levante-athletic-bilbao-live-gratis-kijken-21-10-2026",
+    "match": "Levante - Athletic Club",
+    "date": "2026-10-21",
+    "league": "la-liga",
+    "provider": "TOTO",
+    "home_id": "539",
+    "away_id": "531",
+    "tv_sig": "Ziggo Sport 6|TOTO|False|False",
+    "og": "og/levante-athletic-bilbao-live-gratis-kijken-21-10-2026-b614a1.webp"
+  },
+  "1635684": {
+    "item_id": "6ad7a166fc12ec1f869673ac",
+    "slug": "lille-galatasaray-live-gratis-kijken-21-10-2026",
+    "match": "Lille - Galatasaray",
+    "date": "2026-10-21",
+    "league": "champions-league",
+    "provider": "Bet365",
+    "home_id": "79",
+    "away_id": "645",
+    "tv_sig": "Ziggo Sport 3|Bet365|False|True",
+    "og": "og/lille-galatasaray-live-gratis-kijken-21-10-2026-367767.webp"
+  },
+  "1635647": {
+    "item_id": "6ad7a16a031d2b0a7e747cc6",
+    "slug": "como-manchester-united-live-gratis-kijken-21-10-2026",
+    "match": "Como - Manchester United",
+    "date": "2026-10-21",
+    "league": "champions-league",
+    "provider": "Bet365",
+    "home_id": "895",
+    "away_id": "33",
+    "tv_sig": "Ziggo Sport 1|Bet365|False|True",
+    "og": "og/como-manchester-united-live-gratis-kijken-21-10-2026-c55180.webp"
+  },
+  "1635630": {
+    "item_id": "6ad7a17005fa0b4791352cbd",
+    "slug": "bayern-munchen-arsenal-live-gratis-kijken-21-10-2026",
+    "match": "Bayern München - Arsenal",
+    "date": "2026-10-21",
+    "league": "champions-league",
+    "provider": "Bet365",
+    "home_id": "157",
+    "away_id": "42",
+    "tv_sig": "Ziggo Sport 2|Bet365|False|True",
+    "og": "og/bayern-munchen-arsenal-live-gratis-kijken-21-10-2026-921e83.webp"
+  },
+  "1635737": {
+    "item_id": "6ad7a17616d460286dad3d1c",
+    "slug": "sporting-cp-lask-linz-live-gratis-kijken-21-10-2026",
+    "match": "Sporting Portugal - LASK",
+    "date": "2026-10-21",
+    "league": "champions-league",
+    "provider": "Bet365",
+    "home_id": "228",
+    "away_id": "1026",
+    "tv_sig": "Ziggo Sport|Bet365|False|True",
+    "og": "og/sporting-cp-lask-linz-live-gratis-kijken-21-10-2026-ada537.webp"
+  },
+  "1635672": {
+    "item_id": "6ad7a17de41de661937da247",
+    "slug": "inter-shakhtar-donetsk-live-gratis-kijken-21-10-2026",
+    "match": "Inter - Shakhtar Donetsk",
+    "date": "2026-10-21",
+    "league": "champions-league",
+    "provider": "Bet365",
+    "home_id": "505",
+    "away_id": "550",
+    "tv_sig": "Ziggo Sport 5|Bet365|False|True",
+    "og": "og/inter-shakhtar-donetsk-live-gratis-kijken-21-10-2026-f9593d.webp"
+  },
+  "1635716": {
+    "item_id": "6ad7a18183907877403db3b8",
+    "slug": "real-madrid-rb-leipzig-live-gratis-kijken-21-10-2026",
+    "match": "Real Madrid - RB Leipzig",
+    "date": "2026-10-21",
+    "league": "champions-league",
+    "provider": "Bet365",
+    "home_id": "541",
+    "away_id": "173",
+    "tv_sig": "Ziggo Sport 3|Bet365|False|True",
+    "og": "og/real-madrid-rb-leipzig-live-gratis-kijken-21-10-2026-66e04e.webp"
+  },
+  "1635636": {
+    "item_id": "6ad7a18805fa0b4791353950",
+    "slug": "real-betis-feyenoord-live-gratis-kijken-21-10-2026",
+    "match": "Real Betis - Feyenoord",
+    "date": "2026-10-21",
+    "league": "champions-league",
+    "provider": "Bet365",
+    "home_id": "543",
+    "away_id": "209",
+    "tv_sig": "Ziggo Sport 1|Bet365|False|True",
+    "og": "og/real-betis-feyenoord-live-gratis-kijken-21-10-2026-608a1b.webp"
+  },
+  "1635645": {
+    "item_id": "6ad7a18de6e98220e3a27cc3",
+    "slug": "club-brugge-lens-live-gratis-kijken-21-10-2026",
+    "match": "Club Brugge - Lens",
+    "date": "2026-10-21",
+    "league": "champions-league",
+    "provider": "Bet365",
+    "home_id": "569",
+    "away_id": "116",
+    "tv_sig": "Ziggo Sport|Bet365|False|True",
+    "og": "og/club-brugge-lens-live-gratis-kijken-21-10-2026-a84ff4.webp"
+  },
+  "hub:super-lig-speelronde-9-op-tv-23-oktober-2026": {
+    "item_id": "6ad7a1c93048da693a4696c8",
+    "slug": "super-lig-speelronde-9-op-tv-23-oktober-2026",
+    "match": "Süper Lig speelronde 9",
+    "date": "2026-10-26",
+    "league": "super-lig",
+    "hub": true,
+    "sig": "41d243dc8facdccd9d35620492551046",
+    "pairs": [
+      [
+        "7411",
+        "996",
+        "2026-10-23"
+      ],
+      [
+        "1004",
+        "3588",
+        "2026-10-24"
+      ],
+      [
+        "1009",
+        "3573",
+        "2026-10-24"
+      ],
+      [
+        "3579",
+        "3603",
+        "2026-10-24"
+      ],
+      [
+        "607",
+        "997",
+        "2026-10-25"
+      ],
+      [
+        "6343",
+        "994",
+        "2026-10-25"
+      ],
+      [
+        "549",
+        "564",
+        "2026-10-26"
+      ],
+      [
+        "1007",
+        "998",
+        "2026-10-26"
+      ],
+      [
+        "611",
+        "645",
+        "2026-10-26"
+      ]
+    ],
+    "ronde": "Regular Season - 9",
+    "og": "og/super-lig-speelronde-9-op-tv-23-oktober-2026-e7dcc8.webp"
   }
 }

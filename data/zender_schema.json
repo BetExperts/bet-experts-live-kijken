@@ -1,5 +1,5 @@
 {
-"bijgewerkt": "2026-10-20T17:00:38.600803+00:00",
+"bijgewerkt": "2026-10-20T17:15:58.140958+00:00",
 "uitzendingen": [
 {
 "ko": "2026-10-20T15:10:00+00:00",
@@ -184,7 +184,7 @@
 "Ziggo Sport 3"
 ],
 "streams": [],
-"url": null
+"url": "/nieuws/lille-galatasaray-live-gratis-kijken-21-10-2026"
 },
 {
 "ko": "2026-10-21T16:45:00+00:00",
@@ -195,7 +195,7 @@
 "Ziggo Sport 1"
 ],
 "streams": [],
-"url": null
+"url": "/nieuws/como-manchester-united-live-gratis-kijken-21-10-2026"
 },
 {
 "ko": "2026-10-21T18:00:00+00:00",
@@ -205,8 +205,10 @@
 "zenders": [
 "Ziggo Sport 6"
 ],
-"streams": [],
-"url": null
+"streams": [
+"TOTO"
+],
+"url": "/nieuws/levante-athletic-bilbao-live-gratis-kijken-21-10-2026"
 },
 {
 "ko": "2026-10-21T19:00:00+00:00",
@@ -228,7 +230,7 @@
 "Ziggo Sport 2"
 ],
 "streams": [],
-"url": null
+"url": "/nieuws/bayern-munchen-arsenal-live-gratis-kijken-21-10-2026"
 },
 {
 "ko": "2026-10-21T19:00:00+00:00",
@@ -236,10 +238,10 @@
 "comp": "Champions League",
 "sport": "voetbal",
 "zenders": [
-"Ziggo Sport 1"
+"Ziggo Sport"
 ],
 "streams": [],
-"url": null
+"url": "/nieuws/sporting-cp-lask-linz-live-gratis-kijken-21-10-2026"
 },
 {
 "ko": "2026-10-21T19:00:00+00:00",
@@ -250,7 +252,7 @@
 "Ziggo Sport 5"
 ],
 "streams": [],
-"url": null
+"url": "/nieuws/inter-shakhtar-donetsk-live-gratis-kijken-21-10-2026"
 },
 {
 "ko": "2026-10-21T19:00:00+00:00",
@@ -261,7 +263,7 @@
 "Ziggo Sport 3"
 ],
 "streams": [],
-"url": null
+"url": "/nieuws/real-madrid-rb-leipzig-live-gratis-kijken-21-10-2026"
 },
 {
 "ko": "2026-10-21T19:00:00+00:00",
@@ -272,7 +274,7 @@
 "Ziggo Sport 1"
 ],
 "streams": [],
-"url": null
+"url": "/nieuws/real-betis-feyenoord-live-gratis-kijken-21-10-2026"
 },
 {
 "ko": "2026-10-21T19:00:00+00:00",
@@ -280,10 +282,10 @@
 "comp": "Champions League",
 "sport": "voetbal",
 "zenders": [
-"Ziggo Sport 1"
+"Ziggo Sport"
 ],
 "streams": [],
-"url": null
+"url": "/nieuws/club-brugge-lens-live-gratis-kijken-21-10-2026"
 },
 {
 "ko": "2026-10-21T19:00:00+00:00",
