@@ -6,7 +6,7 @@
     "date": "2026-10-19",
     "league": "super-lig",
     "hub": true,
-    "sig": "d9b378120c15e48915a165d05f3e9b63",
+    "sig": "9d36fdd5113b0e73a45af1c09b18fb28",
     "pairs": [
       [
         "1007",
@@ -124,7 +124,7 @@
     "date": "2026-10-19",
     "league": "eerste-divisie",
     "hub": true,
-    "sig": "cc2ef59b8bb457ae930adfcb6ba5fac9",
+    "sig": "f5a7fc6098a31e9eea6559e7e6ffdc57",
     "pairs": [
       [
         "203",
@@ -188,7 +188,7 @@
     "date": "2026-10-19",
     "league": "la-liga",
     "hub": true,
-    "sig": "4f3e740606e03f85d50b94ce863e0e29",
+    "sig": "5ce15d2971c5dd27f53a70d59f721c52",
     "pairs": [
       [
         "539",
@@ -252,7 +252,7 @@
     "date": "2026-10-19",
     "league": "serie-a",
     "hub": true,
-    "sig": "47da9be1578bc6d006a81e894c23a9fd",
+    "sig": "649104d3bcd90a03837e65af3d4a0690",
     "pairs": [
       [
         "488",
@@ -434,7 +434,7 @@
     "date": "2026-10-19",
     "league": "premier-league",
     "hub": true,
-    "sig": "23420fe4a3501071b146ed5176d87721",
+    "sig": "f69432a57c175471acade875eb3f9be9",
     "pairs": [
       [
         "45",
@@ -1343,7 +1343,7 @@
     "date": "2026-10-21",
     "league": "la-liga",
     "hub": true,
-    "sig": "2171670230819a5faee80b7937871a55",
+    "sig": "fd2159c70dd80d0dc0088cfa36fb643f",
     "pairs": [
       [
         "531",
@@ -1479,7 +1479,7 @@
     "date": "2026-10-26",
     "league": "super-lig",
     "hub": true,
-    "sig": "41d243dc8facdccd9d35620492551046",
+    "sig": "8b389ed8d7fbd1ea7645e9da4b064708",
     "pairs": [
       [
         "7411",
@@ -1530,5 +1530,126 @@
     "ronde": "Regular Season - 9",
     "og": "og/super-lig-speelronde-9-op-tv-23-oktober-2026-e7dcc8.webp",
     "og_done": "og/super-lig-speelronde-9-op-tv-23-oktober-2026-e7dcc8.webp"
+  },
+  "hub:eredivisie-speelronde-10-op-tv-23-oktober-2026": {
+    "item_id": "6ad7b8dea05d22fbafaffba7",
+    "slug": "eredivisie-speelronde-10-op-tv-23-oktober-2026",
+    "match": "Eredivisie speelronde 10",
+    "date": "2026-10-25",
+    "league": "eredivisie",
+    "hub": true,
+    "sig": "fa981288c5504ed5020fcc5828f8d2c1",
+    "pairs": [
+      [
+        "410",
+        "427",
+        "2026-10-23"
+      ],
+      [
+        "193",
+        "207",
+        "2026-10-24"
+      ],
+      [
+        "195",
+        "420",
+        "2026-10-24"
+      ],
+      [
+        "198",
+        "210",
+        "2026-10-24"
+      ],
+      [
+        "196",
+        "205",
+        "2026-10-25"
+      ],
+      [
+        "197",
+        "209",
+        "2026-10-25"
+      ],
+      [
+        "202",
+        "413",
+        "2026-10-25"
+      ],
+      [
+        "194",
+        "426",
+        "2026-10-25"
+      ],
+      [
+        "201",
+        "415",
+        "2026-10-25"
+      ]
+    ],
+    "ronde": "Regular Season - 10",
+    "og": "og/eredivisie-speelronde-10-op-tv-23-oktober-2026-2b926f.webp"
+  },
+  "hub:keuken-kampioen-divisie-speelronde-12-op-tv-23-oktober-2026": {
+    "item_id": "6ad7b8e0684aee5c39e3df20",
+    "slug": "keuken-kampioen-divisie-speelronde-12-op-tv-23-oktober-2026",
+    "match": "Keuken Kampioen Divisie speelronde 12",
+    "date": "2026-10-24",
+    "league": "eerste-divisie",
+    "hub": true,
+    "sig": "496cf7b3250bd77118a24995d717cea4",
+    "pairs": [
+      [
+        "199",
+        "417",
+        "2026-10-23"
+      ],
+      [
+        "200",
+        "208",
+        "2026-10-23"
+      ],
+      [
+        "203",
+        "206",
+        "2026-10-23"
+      ],
+      [
+        "416",
+        "428",
+        "2026-10-23"
+      ],
+      [
+        "418",
+        "424",
+        "2026-10-23"
+      ],
+      [
+        "414",
+        "419",
+        "2026-10-23"
+      ],
+      [
+        "412",
+        "421",
+        "2026-10-23"
+      ],
+      [
+        "411",
+        "422",
+        "2026-10-23"
+      ],
+      [
+        "423",
+        "425",
+        "2026-10-23"
+      ],
+      [
+        "204",
+        "409",
+        "2026-10-24"
+      ]
+    ],
+    "ronde": "Regular Season - 12",
+    "og": "og/keuken-kampioen-divisie-speelronde-12-op-tv-23-oktober-2026-bda2f1.webp"
   }
 }

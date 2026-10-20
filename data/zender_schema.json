@@ -1,17 +1,6 @@
 {
-"bijgewerkt": "2026-10-20T17:15:58.140958+00:00",
+"bijgewerkt": "2026-10-20T19:43:07.686133+00:00",
 "uitzendingen": [
-{
-"ko": "2026-10-20T15:10:00+00:00",
-"titel": "Al Taawoun – Al Qadsiah",
-"comp": "Saudi Pro League",
-"sport": "voetbal",
-"zenders": [
-"KIJK"
-],
-"streams": [],
-"url": null
-},
 {
 "ko": "2026-10-20T16:45:00+00:00",
 "titel": "Fenerbahce – Slavia Praha",
@@ -158,6 +147,24 @@
 {
 "ko": "2026-10-21T02:00:00+00:00",
 "titel": "Marie Bouzková – Iga Świątek",
+"comp": "WTA Tour",
+"sport": "tennis",
+"zenders": [],
+"streams": [],
+"url": null
+},
+{
+"ko": "2026-10-21T11:00:00+00:00",
+"titel": "Mariano Navone – Tallon Griekspoor",
+"comp": "ATP Tour",
+"sport": "tennis",
+"zenders": [],
+"streams": [],
+"url": null
+},
+{
+"ko": "2026-10-21T11:00:00+00:00",
+"titel": "Ekaterina Alexandrova – Marta Kostyuk",
 "comp": "WTA Tour",
 "sport": "tennis",
 "zenders": [],
@@ -321,6 +328,44 @@
 "url": null
 },
 {
+"ko": "2026-10-22T02:00:00+00:00",
+"titel": "Alexandra Eala – Diana Shnaider",
+"comp": "WTA Tour",
+"sport": "tennis",
+"zenders": [],
+"streams": [],
+"url": null
+},
+{
+"ko": "2026-10-22T02:00:00+00:00",
+"titel": "Iva Jovic – Jasmine Paolini",
+"comp": "WTA Tour",
+"sport": "tennis",
+"zenders": [],
+"streams": [],
+"url": null
+},
+{
+"ko": "2026-10-22T02:00:00+00:00",
+"titel": "Elena Rybakina – Polina Kudermetova",
+"comp": "WTA Tour",
+"sport": "tennis",
+"zenders": [],
+"streams": [],
+"url": null
+},
+{
+"ko": "2026-10-22T06:00:00+00:00",
+"titel": "Daniil Medvedev – Sho Shimabukuro",
+"comp": "ATP Tour",
+"sport": "tennis",
+"zenders": [
+"Ziggo Sport 5"
+],
+"streams": [],
+"url": null
+},
+{
 "ko": "2026-10-22T08:00:00+00:00",
 "titel": "Arthur Fils – Jaume Munar",
 "comp": "ATP Tour",
@@ -429,12 +474,56 @@
 "url": null
 },
 {
+"ko": "2026-10-22T17:00:00+00:00",
+"titel": "Woodhouse – Van Duijvenbode",
+"comp": "EK Darts",
+"sport": "darts",
+"zenders": [
+"Viaplay TV"
+],
+"streams": [],
+"url": null
+},
+{
+"ko": "2026-10-22T17:00:00+00:00",
+"titel": "Noppert – Bunting",
+"comp": "EK Darts",
+"sport": "darts",
+"zenders": [
+"Viaplay TV"
+],
+"streams": [],
+"url": null
+},
+{
+"ko": "2026-10-22T17:00:00+00:00",
+"titel": "Zonneveld – Menzies",
+"comp": "EK Darts",
+"sport": "darts",
+"zenders": [
+"Viaplay TV"
+],
+"streams": [],
+"url": null
+},
+{
+"ko": "2026-10-22T17:00:00+00:00",
+"titel": "Van Veen – Gilding",
+"comp": "EK Darts",
+"sport": "darts",
+"zenders": [
+"Viaplay TV"
+],
+"streams": [],
+"url": null
+},
+{
 "ko": "2026-10-22T19:00:00+00:00",
-"titel": "Ajax – Atalanta",
-"comp": "Conference League",
+"titel": "1899 Hoffenheim – Lyon",
+"comp": "Europa League",
 "sport": "voetbal",
 "zenders": [
-"Ziggo Sport 1"
+"Ziggo Sport 6"
 ],
 "streams": [],
 "url": null
@@ -452,8 +541,74 @@
 },
 {
 "ko": "2026-10-22T19:00:00+00:00",
+"titel": "Celtic – Celta Vigo",
+"comp": "Europa League",
+"sport": "voetbal",
+"zenders": [
+"Ziggo Sport 1"
+],
+"streams": [],
+"url": null
+},
+{
+"ko": "2026-10-22T19:00:00+00:00",
+"titel": "Lillestrom – Real Sociedad",
+"comp": "Europa League",
+"sport": "voetbal",
+"zenders": [
+"Ziggo Sport 1"
+],
+"streams": [],
+"url": null
+},
+{
+"ko": "2026-10-22T19:00:00+00:00",
+"titel": "Besiktas – Crystal Palace",
+"comp": "Europa League",
+"sport": "voetbal",
+"zenders": [
+"Ziggo Sport 1"
+],
+"streams": [],
+"url": null
+},
+{
+"ko": "2026-10-22T19:00:00+00:00",
+"titel": "Olympiakos Piraeus – Sparta Praha",
+"comp": "Europa League",
+"sport": "voetbal",
+"zenders": [
+"Ziggo Sport 1"
+],
+"streams": [],
+"url": null
+},
+{
+"ko": "2026-10-22T19:00:00+00:00",
+"titel": "Omonia Nicosia – Benfica",
+"comp": "Europa League",
+"sport": "voetbal",
+"zenders": [
+"Ziggo Sport 1"
+],
+"streams": [],
+"url": null
+},
+{
+"ko": "2026-10-22T19:00:00+00:00",
+"titel": "Celje – Red Bull Salzburg",
+"comp": "Europa League",
+"sport": "voetbal",
+"zenders": [
+"Ziggo Sport 1"
+],
+"streams": [],
+"url": null
+},
+{
+"ko": "2026-10-22T19:00:00+00:00",
 "titel": "Bournemouth – AC Milan",
-"comp": "UEFA Europa League",
+"comp": "Europa League",
 "sport": "voetbal",
 "zenders": [
 "Ziggo Sport 5"
@@ -463,11 +618,11 @@
 },
 {
 "ko": "2026-10-22T19:00:00+00:00",
-"titel": "Hoffenheim – Lyon",
-"comp": "UEFA Europa League",
+"titel": "Ajax – Atalanta",
+"comp": "Conference League",
 "sport": "voetbal",
 "zenders": [
-"Ziggo Sport 6"
+"Ziggo Sport 1"
 ],
 "streams": [],
 "url": null
@@ -524,6 +679,15 @@
 "zenders": [
 "Viaplay"
 ],
+"streams": [],
+"url": null
+},
+{
+"ko": "2026-10-23T17:00:00+00:00",
+"titel": "Alanyaspor – Kocaelispor",
+"comp": "Süper Lig",
+"sport": "voetbal",
+"zenders": [],
 "streams": [],
 "url": null
 },
@@ -1480,7 +1644,7 @@
 "comp": "Eredivisie Vrouwen",
 "sport": "voetbal",
 "zenders": [
-"ESPN 1"
+"ESPN Extra"
 ],
 "streams": [],
 "url": null
