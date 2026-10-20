@@ -1,17 +1,6 @@
 {
-"bijgewerkt": "2026-10-20T20:37:01.865313+00:00",
+"bijgewerkt": "2026-10-20T21:34:06.731952+00:00",
 "uitzendingen": [
-{
-"ko": "2026-10-20T18:00:00+00:00",
-"titel": "Al Ettifaq – Al Ittihad",
-"comp": "Saudi Pro League",
-"sport": "voetbal",
-"zenders": [
-"KIJK"
-],
-"streams": [],
-"url": null
-},
 {
 "ko": "2026-10-20T19:00:00+00:00",
 "titel": "Liverpool – Villarreal",
@@ -184,17 +173,6 @@
 },
 {
 "ko": "2026-10-21T19:00:00+00:00",
-"titel": "Bayern München – Arsenal",
-"comp": "Champions League",
-"sport": "voetbal",
-"zenders": [
-"Ziggo Sport 2"
-],
-"streams": [],
-"url": "/nieuws/bayern-munchen-arsenal-live-gratis-kijken-21-10-2026"
-},
-{
-"ko": "2026-10-21T19:00:00+00:00",
 "titel": "Sporting CP – Lask Linz",
 "comp": "Champions League",
 "sport": "voetbal",
@@ -258,6 +236,17 @@
 ],
 "streams": [],
 "url": null
+},
+{
+"ko": "2026-10-21T19:00:00+00:00",
+"titel": "Bayern München – Arsenal",
+"comp": "UEFA Champions League",
+"sport": "voetbal",
+"zenders": [
+"Ziggo Sport 2"
+],
+"streams": [],
+"url": "/nieuws/bayern-munchen-arsenal-live-gratis-kijken-21-10-2026"
 },
 {
 "ko": "2026-10-21T19:00:00+00:00",
@@ -352,17 +341,6 @@
 },
 {
 "ko": "2026-10-22T16:45:00+00:00",
-"titel": "Juventus – Rennes",
-"comp": "Europa League",
-"sport": "voetbal",
-"zenders": [
-"Ziggo Sport 5"
-],
-"streams": [],
-"url": null
-},
-{
-"ko": "2026-10-22T16:45:00+00:00",
 "titel": "Dinamo Zagreb – NEC",
 "comp": "Europa League",
 "sport": "voetbal",
@@ -439,6 +417,17 @@
 "url": null
 },
 {
+"ko": "2026-10-22T16:45:00+00:00",
+"titel": "Juventus – Rennes",
+"comp": "Europa League",
+"sport": "voetbal",
+"zenders": [
+"Ziggo Sport 5"
+],
+"streams": [],
+"url": null
+},
+{
 "ko": "2026-10-22T17:00:00+00:00",
 "titel": "Woodhouse – Van Duijvenbode",
 "comp": "EK Darts",
@@ -478,17 +467,6 @@
 "sport": "darts",
 "zenders": [
 "Viaplay TV"
-],
-"streams": [],
-"url": null
-},
-{
-"ko": "2026-10-22T19:00:00+00:00",
-"titel": "Lillestrom – Real Sociedad",
-"comp": "Europa League",
-"sport": "voetbal",
-"zenders": [
-"Ziggo Sport 1"
 ],
 "streams": [],
 "url": null
@@ -584,6 +562,17 @@
 {
 "ko": "2026-10-22T19:00:00+00:00",
 "titel": "Celtic – Celta Vigo",
+"comp": "Europa League",
+"sport": "voetbal",
+"zenders": [
+"Ziggo Sport 1"
+],
+"streams": [],
+"url": null
+},
+{
+"ko": "2026-10-22T19:00:00+00:00",
+"titel": "Lillestrom – Real Sociedad",
 "comp": "Europa League",
 "sport": "voetbal",
 "zenders": [
