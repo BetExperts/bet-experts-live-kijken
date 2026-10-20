@@ -19,9 +19,9 @@ TD = 'style="padding:8px 12px;border-bottom:1px solid #E3E8E5"'
 
 
 def tabel(koppen, rijen):
-    kop = "".join(f"<th {TH}>{k}</th>" for k in koppen)
+    kop = "".join(f"<th {TH}>{k}</th>" for k in (koppen or []))
     body = "".join("<tr>" + "".join(f"<td {TD}>{c}</td>" for c in r) + "</tr>" for r in rijen)
-    return f"<table {T}><thead><tr>{kop}</tr></thead><tbody>{body}</tbody></table>"
+    return f"<table {T}>" + (f"<thead><tr>{kop}</tr></thead>" if koppen else "") + f"<tbody>{body}</tbody></table>"
 
 
 def lijst(items):
@@ -31,7 +31,7 @@ def lijst(items):
 content = f"""<p><strong>Het NBA-seizoen 2026/27 begint vanavond om 21:00 Nederlandse tijd in Detroit, met de topper Detroit Pistons – Boston Celtics. De nummers één en twee van het Oosten van vorig seizoen staan direct tegenover elkaar. Onze voorspelling: Detroit wint met 109-104. De hoofdtip is een thuiszege van de Pistons rond odds 2,00, met de Under als waardetip.</strong></p>
 <p>Opening night valt dit jaar op een ongewone tijd. Omdat de NBA de avond opent met een tripleheader op de Amerikaanse zender NBC, begint deze wedstrijd in Detroit al om 15:00 lokale tijd. Voor Nederlandse basketbalfans en wedders is dat ideaal: geen nachtwerk, maar gewoon een wedstrijd na het avondeten. Hieronder lees je wat er veranderd is bij beide ploegen, wie er speelt, wat de bookmakers verwachten en welke weddenschappen wij interessant vinden.</p>
 <h3><strong>Detroit Pistons – Boston Celtics: aftrap en wedstrijdinfo</strong></h3>
-{tabel(["", ""], [
+{tabel(None, [
     ("Wedstrijd", "Detroit Pistons – Boston Celtics"),
     ("Datum", "Dinsdag 20 oktober 2026"),
     ("Aanvang", "21:00 Nederlandse tijd (15:00 in Detroit)"),
