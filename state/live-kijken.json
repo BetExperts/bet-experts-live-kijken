@@ -1366,7 +1366,7 @@
     "away_id": "531",
     "tv_sig": "Ziggo Sport|TOTO|False|False",
     "og": "og/levante-athletic-bilbao-live-gratis-kijken-21-10-2026-b7b527.webp",
-    "og_done": "og/levante-athletic-bilbao-live-gratis-kijken-21-10-2026-b614a1.webp"
+    "og_done": "og/levante-athletic-bilbao-live-gratis-kijken-21-10-2026-b7b527.webp"
   },
   "1635684": {
     "item_id": "6ad7a166fc12ec1f869673ac",
@@ -1715,7 +1715,8 @@
       ]
     ],
     "ronde": "Regular Season - 8",
-    "og": "og/premier-league-speelronde-8-op-tv-23-oktober-2026-924472.webp"
+    "og": "og/premier-league-speelronde-8-op-tv-23-oktober-2026-924472.webp",
+    "og_done": "og/premier-league-speelronde-8-op-tv-23-oktober-2026-924472.webp"
   },
   "hub:serie-a-speelronde-8-op-tv-23-oktober-2026": {
     "item_id": "6ad7d0e416606a64e41aa24a",
@@ -1778,7 +1779,8 @@
       ]
     ],
     "ronde": "Regular Season - 8",
-    "og": "og/serie-a-speelronde-8-op-tv-23-oktober-2026-3aeb5c.webp"
+    "og": "og/serie-a-speelronde-8-op-tv-23-oktober-2026-3aeb5c.webp",
+    "og_done": "og/serie-a-speelronde-8-op-tv-23-oktober-2026-3aeb5c.webp"
   },
   "hub:bundesliga-speelronde-7-op-tv-23-oktober-2026": {
     "item_id": "6ad7d0e6c66ab030528525d3",
@@ -1836,7 +1838,8 @@
       ]
     ],
     "ronde": "Regular Season - 7",
-    "og": "og/bundesliga-speelronde-7-op-tv-23-oktober-2026-f0eaa3.webp"
+    "og": "og/bundesliga-speelronde-7-op-tv-23-oktober-2026-f0eaa3.webp",
+    "og_done": "og/bundesliga-speelronde-7-op-tv-23-oktober-2026-f0eaa3.webp"
   },
   "hub:ligue-1-speelronde-8-op-tv-23-oktober-2026": {
     "item_id": "6ad7d0e7e1fc7fcfab97ce28",
@@ -1894,7 +1897,8 @@
       ]
     ],
     "ronde": "Regular Season - 8",
-    "og": "og/ligue-1-speelronde-8-op-tv-23-oktober-2026-0c52e6.webp"
+    "og": "og/ligue-1-speelronde-8-op-tv-23-oktober-2026-0c52e6.webp",
+    "og_done": "og/ligue-1-speelronde-8-op-tv-23-oktober-2026-0c52e6.webp"
   },
   "hub:jupiler-pro-league-speelronde-9-op-tv-23-oktober-2026": {
     "item_id": "6ad7d0e916606a64e41aa486",
@@ -1952,6 +1956,7 @@
       ]
     ],
     "ronde": "Regular Season - 9",
-    "og": "og/jupiler-pro-league-speelronde-9-op-tv-23-oktober-2026-23fa41.webp"
+    "og": "og/jupiler-pro-league-speelronde-9-op-tv-23-oktober-2026-23fa41.webp",
+    "og_done": "og/jupiler-pro-league-speelronde-9-op-tv-23-oktober-2026-23fa41.webp"
   }
 }
