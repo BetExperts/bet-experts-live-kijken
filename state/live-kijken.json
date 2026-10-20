@@ -6,7 +6,7 @@
     "date": "2026-10-19",
     "league": "super-lig",
     "hub": true,
-    "sig": "fd57b57b8d8a51bf9579fee9a82f216f",
+    "sig": "75d90b00fa36f230ba4241c6f720f9e4",
     "pairs": [
       [
         "1007",
@@ -124,7 +124,7 @@
     "date": "2026-10-19",
     "league": "eerste-divisie",
     "hub": true,
-    "sig": "c2920252951bb4cd024bdbdf66e4c7ec",
+    "sig": "63bfb043cbc728664919ed8c4fb513de",
     "pairs": [
       [
         "203",
@@ -188,7 +188,7 @@
     "date": "2026-10-19",
     "league": "la-liga",
     "hub": true,
-    "sig": "d94437c2339f88e1cd93b3e285910f97",
+    "sig": "ae089840762f9775040d3a7ddacf703e",
     "pairs": [
       [
         "539",
@@ -252,7 +252,7 @@
     "date": "2026-10-19",
     "league": "serie-a",
     "hub": true,
-    "sig": "40d40472eaec042e666c16ba83292431",
+    "sig": "0286419eb54aafed0263ad1815f236df",
     "pairs": [
       [
         "488",
@@ -434,7 +434,7 @@
     "date": "2026-10-19",
     "league": "premier-league",
     "hub": true,
-    "sig": "d7e67422bd428f9349d94d6925f95241",
+    "sig": "7855b094dacead1f6884b91accc1a918",
     "pairs": [
       [
         "45",
@@ -836,7 +836,7 @@
     "date": "2026-10-21",
     "league": "champions-league",
     "hub": true,
-    "sig": "402835dc568fd484e208e3bd826e8f79",
+    "sig": "e6969a06572e445203f820e4ada79787",
     "pairs": [
       [
         "560",
@@ -1202,7 +1202,7 @@
     "provider": "Bet365",
     "home_id": "212",
     "away_id": "197",
-    "tv_sig": "Ziggo Sport 1 en Ziggo Sport Free|Bet365|False|True",
+    "tv_sig": "Ziggo Sport 1|Bet365|False|True",
     "og": "og/fc-porto-psv-live-gratis-kijken-20-10-2026-7fc60d.webp",
     "og_done": "og/fc-porto-psv-live-gratis-kijken-20-10-2026-7fc60d.webp"
   },
@@ -1215,8 +1215,8 @@
     "provider": "Bet365",
     "home_id": "492",
     "away_id": "327",
-    "tv_sig": "Switch op Ziggo Sport 4|Bet365|False|True",
-    "og": "og/napoli-bodo-glimt-live-gratis-kijken-20-10-2026-ff6a6e.webp",
+    "tv_sig": "Ziggo Sport|Bet365|False|True",
+    "og": "og/napoli-bodo-glimt-live-gratis-kijken-20-10-2026-05e4a2.webp",
     "og_done": "og/napoli-bodo-glimt-live-gratis-kijken-20-10-2026-ff6a6e.webp"
   },
   "1635617": {
