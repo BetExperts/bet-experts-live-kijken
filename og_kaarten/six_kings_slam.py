@@ -54,10 +54,7 @@ body = f'''<div class="b">
   <div style="position:absolute;left:56px;right:56px;top:132px;display:flex;gap:44px;align-items:flex-start">
     <div style="flex:1;min-width:0">
       <div class="eb">3e editie · ANB Arena</div>
-      <div style="display:flex;align-items:flex-end;gap:20px;margin-top:18px">
-        <img src=".sks-logo.webp" style="height:104px;filter:drop-shadow(0 8px 24px rgba(232,196,107,.22))">
-        <div class="tt" style="font-size:84px;line-height:.82;color:#E8C46B">2026</div>
-      </div>
+      <img src=".sks-logo.webp" style="display:block;height:112px;margin-top:18px;filter:drop-shadow(0 8px 24px rgba(232,196,107,.22))">
       <div style="margin-top:34px;display:flex;align-items:center;gap:14px">
         <span class="vp">Verplaatst naar 27–30 december</span>
         <span class="sub"><s style="color:#8A97A3">21–24 okt</s></span>
