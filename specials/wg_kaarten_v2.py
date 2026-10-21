@@ -67,6 +67,11 @@ V2.update({
                       OG_DATA=["Vergunninghouders · 31", "Merken met sport · 23", "Merken met casino · 27", "Check · Kansspelwijzer"]),
 })
 
+V2.update({
+ "tennis-opgave-hoofd": K(OG_KOP="TOTO tennis <span>opgave</span>: dit gebeurt", OG_EYEBROW="Tennis · regels per bookmaker", OG_CHIPS=["21 bookmakers vergeleken", "Met gratis pdf"], OG_MOTIEF="logos",
+                          OG_DATA=["toto · Winnaar ongeldig", "bet365 · Winnaar ongeldig", "unibet · Doorgaande speler wint", "BetCity · Doorgaande speler wint"]),
+})
+
 
 def zet(keys, live):
     from strategie import render_objs
