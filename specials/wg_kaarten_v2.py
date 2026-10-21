@@ -41,6 +41,23 @@ V2 = {
                     OG_DATA=["toto · Winnaar ongeldig", "unibet · Doorgaande speler wint", "BetCity · Doorgaande speler wint"]),
 }
 
+V2.update({
+ "nhl-duur": K(OG_KOP="Hoe lang duurt een <span>NHL</span>-wedstrijd?", OG_EYEBROW="IJshockey", OG_CHIPS=["60 minuten speeltijd", "In de praktijk ± 2,5 uur"], OG_MOTIEF="tabel",
+               OG_DATA=["Speeltijd · 3 × 20 min", "Pauzes · 2 × 18 min", "Verlenging · 5 min", "Daarna · shootout"]),
+ "nhl-punten": K(OG_KOP="Wat zijn <span>punten</span> in de NHL?", OG_EYEBROW="Spelerspunten", OG_CHIPS=["Goal + assist", "Tot 3 punten per doelpunt"], OG_MOTIEF="tabel",
+                 OG_DATA=["Doelpunt · 1 punt", "Assist · 1 punt", "Assists per goal · max. 2", "Stand: winst · 2 punten"]),
+ "american-football-duur": K(OG_KOP="Hoe lang duurt <span>American football</span>?", OG_EYEBROW="NFL", OG_CHIPS=["4 × 15 minuten", "Ruim 3 uur in de praktijk"], OG_MOTIEF="tabel",
+                             OG_DATA=["Speeltijd · 4 × 15 min", "Rust · 13 min", "Verlenging · 10 min", "Play clock · 40 sec"]),
+ "gokverslaving": K(OG_KOP="Een <span>gokverslaving</span> voorkomen", OG_EYEBROW="Verantwoord spelen", OG_CHIPS=["12 signalen herkennen", "Gratis hulp"], OG_MOTIEF="lijst",
+                    OG_DATA=["Stel lage limieten in", "Speel nooit om verlies terug te winnen", "AGOG · 0800-22 777 22", "Gokstop · Cruks"]),
+ "beleidsregels-casino": K(OG_KOP="Regels online <span>gokken</span> in 2026", OG_EYEBROW="Wat er veranderde", OG_CHIPS=["Stand oktober 2026", "Plannen kabinet"], OG_MOTIEF="tabel",
+                           OG_DATA=["1-7-2023 · geen ongerichte reclame", "1-10-2024 · stortingsgrens", "1-7-2025 · sponsorverbod", "1-1-2026 · belasting 37,8%"]),
+ "casino-gegevens": K(OG_KOP="Wat doen casino's met je <span>gegevens</span>?", OG_EYEBROW="Privacy en AVG", OG_CHIPS=["Verplicht bewaard", "Jouw rechten"], OG_MOTIEF="tabel",
+                      OG_DATA=["BSN · direct vernietigd", "Speelprofiel · 3 jaar", "Inzet en winst · 7 jaar", "Wwft-dossier · 5 jaar"]),
+ "gokken-haram": K(OG_KOP="Is gokken <span>haram</span>?", OG_EYEBROW="Islam en gokken", OG_CHIPS=["Maysir uitgelegd", "TOTO, loterij en casino"], OG_MOTIEF="lijst",
+                   OG_DATA=["Wat is maysir?", "Wat zegt de Koran?", "TOTO, loterij en casino", "Twijfelgevallen"]),
+})
+
 
 def zet(keys, live):
     from strategie import render_objs
