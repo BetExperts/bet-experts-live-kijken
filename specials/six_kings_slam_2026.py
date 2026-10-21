@@ -65,7 +65,7 @@ content2 = f"""<h3><strong>De spelers van de Six Kings Slam 2026</strong></h3>
     ("Totaal voor de winnaar", "6 miljoen dollar"),
     ("Totale prijzenpot", "13,5 miljoen dollar"),
 ])}
-<p>Met 6 miljoen dollar verdient de winnaar van een toernooi van drie wedstrijddagen meer dan de winnaar van een grandslam. Vorig jaar kreeg Sinner daarbij ook een massief gouden racket van ongeveer vier kilo. Of er dit jaar weer zo'n racket wordt uitgereikt, is nog niet bekend.</p>
+<p>Met 6 miljoen dollar verdient de winnaar van een toernooi van drie wedstrijddagen meer dan de winnaar van een grandslam. Vorig jaar kreeg Sinner daarbij ook een massief gouden racket van ongeveer vier kilo. Of er dit jaar weer zo'n racket wordt uitgereikt, is nog niet bekend. Alle bedragen per plaats, in euro's en vergeleken met de grandslams lees je in ons artikel over het <a href="/nieuws/six-kings-slam-prijzengeld-2026">prijzengeld van de Six Kings Slam 2026</a>.</p>
 <h3><strong>Six Kings Slam kijken in Nederland</strong></h3>
 <p>De Six Kings Slam is in Nederland live te zien op <strong>Netflix</strong>, zonder extra kosten bovenop je abonnement. Volgens Ziggo zijn alle wedstrijden van 27 tot en met 30 december live te zien en kun je ze daarna terugkijken. Heb je Netflix via Ziggo, dan kijk je gewoon via je tv-ontvanger. Andere zenders zoals Ziggo Sport, Eurosport of de NOS hebben geen uitzendrechten.</p>
 <h3><strong>Winnaars van de Six Kings Slam</strong></h3>
