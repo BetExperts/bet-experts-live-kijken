@@ -56,18 +56,22 @@ def kaart_html(m):
 
 
 def render(keys):
+    return render_objs({k: importlib.import_module(f"strategie_{k}") for k in keys}, "strategie")
+
+
+def render_objs(objs, prefix):
+    """objs: {key: object met OG_KOP, OG_EYEBROW, OG_CHIPS, OG_MOTIEF, OG_DATA} -> og/nieuws/<prefix>-<key>.webp"""
     UIT.mkdir(parents=True, exist_ok=True); tmp = []; uit = {}
     try:
         with sync_playwright() as p:
             b = p.chromium.launch(args=["--font-render-hinting=none"])
-            for key in keys:
-                m = importlib.import_module(f"strategie_{key}")
+            for key, m in objs.items():
                 f = A / f".st-{uuid.uuid4().hex[:8]}.html"; tmp.append(f)
                 f.write_text(f"<!doctype html><html lang='nl'><head><meta charset='utf-8'><style>{BASE}</style></head><body>{kaart_html(m)}</body></html>", encoding="utf-8")
                 pg = b.new_page(viewport={"width": 1200, "height": 630}, device_scale_factor=2)
                 pg.goto(f.as_uri()); pg.evaluate("document.fonts.ready"); pg.wait_for_timeout(300)
                 png = pg.screenshot()
-                doel = UIT / f"strategie-{key}.webp"
+                doel = UIT / f"{prefix}-{key}.webp"
                 Image.open(io.BytesIO(png)).convert("RGB").save(doel, "WEBP", quality=88, method=6)
                 uit[key] = doel
             b.close()
