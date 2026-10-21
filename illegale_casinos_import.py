@@ -3,7 +3,7 @@
 en maakt per casino een deelafbeelding (og/illegale-casinos/<slug>-<hash>.webp, via GitHub raw).
 Bestaande slugs worden bijgewerkt (staged), niet dubbel aangemaakt. Publiceren gebeurt pas als de templatepagina er is.
   set -a; . ../superodd-agent/.env; set +a; ../superodd-agent/.venv/bin/python illegale_casinos_import.py batch1.json [...] [--dry]"""
-import sys, json, re, io, hashlib, urllib.request, pathlib, subprocess
+import sys, json, re, io, hashlib, urllib.request, urllib.error, pathlib, subprocess
 from datetime import datetime, timezone
 sys.path.insert(0, str(pathlib.Path(__file__).parent))
 import lk_webflow as WF
@@ -78,10 +78,13 @@ def main(paden, dry):
               "faq": c.get("faq", ""), "seo-titel": c.get("seo_titel", ""), "meta-omschrijving": c.get("meta_omschrijving", ""),
               "deel-afbeelding": RAW + rel[c["slug"]]}
         if art: fd["nieuwsartikel"] = art
-        if c["slug"] in have:
-            api("PATCH", f"{WF.WF_API}/collections/{COLL}/items/{have[c['slug']]}", {"fieldData": fd}); upd.append(c["slug"])
-        else:
-            r = api("POST", f"{WF.WF_API}/collections/{COLL}/items", {"isDraft": True, "fieldData": fd}); nieuw.append(c["slug"])
+        try:
+            if c["slug"] in have:
+                api("PATCH", f"{WF.WF_API}/collections/{COLL}/items/{have[c['slug']]}", {"fieldData": fd}); upd.append(c["slug"])
+            else:
+                r = api("POST", f"{WF.WF_API}/collections/{COLL}/items", {"isDraft": True, "fieldData": fd}); nieuw.append(c["slug"])
+        except urllib.error.HTTPError as e:
+            print("FOUT", c["slug"], e.code, e.read().decode()[:400])
     print("nieuw:", len(nieuw), nieuw); print("bijgewerkt:", len(upd), upd)
 
 
