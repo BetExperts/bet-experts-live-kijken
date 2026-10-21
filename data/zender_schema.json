@@ -1,5 +1,5 @@
 {
-"bijgewerkt": "2026-10-21T14:11:06.752199+00:00",
+"bijgewerkt": "2026-10-21T16:25:38.576280+00:00",
 "uitzendingen": [
 {
 "ko": "2026-10-21T14:00:00+00:00",
@@ -986,6 +986,17 @@
 },
 {
 "ko": "2026-10-24T13:30:00+00:00",
+"titel": "Köln – Schalke 04",
+"comp": "Bundesliga",
+"sport": "voetbal",
+"zenders": [
+"Viaplay"
+],
+"streams": [],
+"url": null
+},
+{
+"ko": "2026-10-24T13:30:00+00:00",
 "titel": "Mainz 05 – Werder Bremen",
 "comp": "Bundesliga",
 "sport": "voetbal",
@@ -1244,6 +1255,17 @@
 "sport": "voetbal",
 "zenders": [
 "Ziggo Sport 5"
+],
+"streams": [],
+"url": null
+},
+{
+"ko": "2026-10-24T20:00:00+00:00",
+"titel": "Kansas City Current (V) – Washington Spirit (V)",
+"comp": "National Women's Soccer League",
+"sport": "voetbal",
+"zenders": [
+"ESPN Extra"
 ],
 "streams": [],
 "url": null
@@ -1546,6 +1568,17 @@
 "url": null
 },
 {
+"ko": "2026-10-25T16:15:00+00:00",
+"titel": "Toulouse – Troyes",
+"comp": "Ligue 1",
+"sport": "voetbal",
+"zenders": [
+"Viaplay"
+],
+"streams": [],
+"url": null
+},
+{
 "ko": "2026-10-25T16:30:00+00:00",
 "titel": "Freiburg – Bayern München",
 "comp": "Bundesliga",
@@ -1640,17 +1673,6 @@
 "sport": "voetbal",
 "zenders": [
 "Ziggo Sport 1"
-],
-"streams": [],
-"url": null
-},
-{
-"ko": "2026-10-25T21:00:00+00:00",
-"titel": "Kansas City Current (V) – Washington Spirit (V)",
-"comp": "National Women's Soccer League",
-"sport": "voetbal",
-"zenders": [
-"ESPN Extra"
 ],
 "streams": [],
 "url": null
