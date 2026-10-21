@@ -26,6 +26,17 @@ def visual(motief, data):
                         f'<div style="width:100%;height:{h}px;border-radius:10px 10px 4px 4px;background:linear-gradient(180deg,{G},rgba(47,212,110,.35))"></div></div>'
                         for d, h in zip(data, hoog))
         return f'<div style="display:flex;align-items:flex-end;gap:10px;height:330px">{staaf}</div>'
+    if motief == "logos":   # "toto · 2 Goals Up!" -> echt logo (assets/bm/<key>.png) + tekst
+        rijen = []
+        for d in data:
+            merk, _, tekst = d.partition("·"); merk = merk.strip()
+            logo = A / "bm" / f"{merk}.png"
+            links = (f'<img src="bm/{merk}.png" style="height:34px;max-width:150px;object-fit:contain;object-position:left">' if logo.exists()
+                     else f'<span style="font:800 19px Poppins;color:#F5F9FA">{merk}</span>')
+            rijen.append(f'<div style="display:flex;justify-content:space-between;align-items:center;gap:14px;border-radius:12px;padding:0 18px;height:{min(64, 300 // n)}px;'
+                         f'background:rgba(255,255,255,.06);border:1px solid rgba(255,255,255,.09)">{links}'
+                         f'<span style="font:800 17px Poppins;color:{G};text-align:right">{tekst.strip()}</span></div>')
+        return f'<div style="display:flex;flex-direction:column;gap:9px">{"".join(rijen)}</div>'
     rijen = []
     for k, d in enumerate(data):
         links, _, rechts = d.partition("·")
