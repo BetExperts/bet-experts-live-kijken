@@ -55,7 +55,7 @@ def kaart_html(m):
     grootte = 62 if len(kop) < 90 else 54
     return f'''<div class="b">{GLOW}
   <img src="betexperts_logo.png" style="position:absolute;left:56px;top:44px;height:28px">
-  <div style="position:absolute;right:56px;top:40px;font:700 15px 'Plus Jakarta Sans'">Wedgids <span style="color:#8A97A3;font-weight:600">· uitleg met voorbeelden</span></div>
+  <div style="position:absolute;right:56px;top:40px;font:700 15px 'Plus Jakarta Sans'">{getattr(m, "OG_HEADER", "Wedgids")} <span style="color:#8A97A3;font-weight:600">· {getattr(m, "OG_HEADER_SUB", "uitleg met voorbeelden")}</span></div>
   <div style="position:absolute;left:56px;right:56px;top:140px;bottom:90px;display:flex;gap:44px;align-items:center">
     <div style="flex:1;min-width:0"><div class="eb">{m.OG_EYEBROW}</div>
       <div style="font:800 {grootte}px/1.02 'Poppins';letter-spacing:-1.6px;margin-top:14px">{kop}</div>
