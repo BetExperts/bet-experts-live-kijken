@@ -9,7 +9,7 @@ sys.path.insert(0, ROOT); sys.path.insert(0, HIER); sys.path.insert(0, os.path.j
 import lk_webflow as WF
 
 RAW = "https://raw.githubusercontent.com/BetExperts/bet-experts-live-kijken/main/og/nieuws/"
-KOP = {"cl": "Champions League", "el": "Europa League"}
+KOP = {"cl": "Champions League", "el": "Europa League", "ecl": "Conference League"}
 
 
 def main(keys, live):

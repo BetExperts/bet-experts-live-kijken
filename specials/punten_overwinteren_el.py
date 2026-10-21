@@ -186,6 +186,7 @@ content3 = f"""<h3><strong>Hoe werkt de tussenronde van de Europa League?</stron
 <p>Dit seizoen heeft AZ na twee duels 3 punten (0-1 verlies bij Sunderland, 2-1 winst op Hapoel Beer-Sheva). NEC staat op 1 punt (5-0 verlies bij Juventus, 1-1 tegen Levski Sofia). Op 22 oktober speelt AZ bij Ararat-Armenia en NEC bij Dinamo Zagreb. Met de vuistregel van 10 punten heeft AZ nog zo'n 7 punten nodig uit zes duels, NEC zo'n 9.</p>
 <h3><strong>Wedden op de top 24 of de winnaar van de Europa League</strong></h3>
 <p>Omdat de stand in de Europa League zo dicht op elkaar zit, is wedden op de eindstand lastig te voorspellen. Bij een deel van de legale bookmakers vind je markten als "plaatst zich voor de knock-outfase", "eindigt in de top 8" of de toernooiwinnaar. Kijk vooral naar het resterende programma en het doelsaldo. Twee clubs met evenveel punten kunnen er heel anders voor staan. Vergelijk de odds, zet nooit meer in dan je kunt missen en lees in onze <a href="/wedgids">wedgids</a> hoe zulke langetermijnweddenschappen werken. Hoe de knock-outfase na speelronde 8 verloopt, lees je in onze <a href="{FORMAT}">uitleg over het nieuwe format en de tussenronde</a>.</p>
+<p>In de Conference League speel je maar zes duels en valt de beslissing al op 17 december; daar was 7 à 8 punten genoeg. Lees <a href="/nieuws/hoeveel-punten-nodig-overwinteren-conference-league">hoeveel punten je nodig hebt om te overwinteren in de Conference League</a>.</p>
 <h3><strong>Veelgestelde vragen over overwinteren in de Europa League</strong></h3>
 <p><strong>Hoeveel punten heb je nodig om te overwinteren in de Europa League?</strong><br>Meestal 10 punten. Met 11 punten of meer ging tot nu toe elke club door. In 2024/25 had de nummer 24 10 punten, in 2025/26 9 punten.</p>
 <p><strong>Hoeveel punten heb je nodig voor de top 8 van de Europa League?</strong><br>Reken op 16 à 17 punten. In 2024/25 was 14 punten net genoeg voor plek 8, in 2025/26 was 16 punten nodig.</p>
@@ -208,5 +209,5 @@ if __name__ == "__main__":
     w = len(tekst.split())
     print(len(TITEL), "titel |", len(SAMENVATTING), "samenvatting |", w, "woorden |", faq, "faq |",
           len(content), len(content2), len(content3), "tekens per veld")
-    assert 1300 <= w <= 2000, w
+    assert 1300 <= w <= 2100, w
     print("Dry run: er is niets gepubliceerd.")

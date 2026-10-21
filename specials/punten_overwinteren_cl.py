@@ -204,6 +204,7 @@ content3 = f"""<h3><strong>Hoe werkt de tussenronde van de Champions League?</st
 <p>Dit seizoen spelen PSV en Feyenoord weer in de Champions League. PSV heeft na drie duels 4 punten: 1-1 tegen Sjachtar Donetsk, 1-0 verlies bij RB Leipzig en een 0-1 zege bij FC Porto. Feyenoord had na twee duels 3 punten (5-1 verlies bij Barcelona, 3-2 winst op Como) en speelt op woensdag 21 oktober bij Real Betis. Met de vuistregel in je achterhoofd heeft PSV na speelronde 3 nog zo'n 6 à 7 punten nodig uit vijf duels.</p>
 <h3><strong>Wedden op de top 8 en de top 24</strong></h3>
 <p>Bij een deel van de legale bookmakers kun je ook op de eindstand wedden, met markten als "eindigt in de top 8: ja of nee" of de toernooiwinnaar. Kijk dan vooral naar het resterende programma: welke tegenstanders en hoeveel thuisduels komen er nog? Met de grenzen van 16 en 10 à 11 punten schat je de kans realistischer in. Vergelijk de odds en speel binnen je limieten. Meer uitleg over soorten weddenschappen vind je in onze <a href="/wedgids">wedgids</a>. Hoe de knock-outfase precies verloopt, lees je in onze <a href="{FORMAT}">uitleg over het nieuwe format en de tussenronde</a>. En in de Europa League liggen de grenzen weer net anders: lees <a href="{EL_ART}">hoeveel punten je nodig hebt om te overwinteren in de Europa League</a>.</p>
+<p>In de Conference League, met maar zes duels, ligt de grens lager: daar was 7 à 8 punten genoeg voor de top 24. Lees <a href="/nieuws/hoeveel-punten-nodig-overwinteren-conference-league">hoeveel punten je nodig hebt om te overwinteren in de Conference League</a>.</p>
 <h3><strong>Veelgestelde vragen over overwinteren in de Champions League</strong></h3>
 <p><strong>Hoeveel punten heb je nodig om te overwinteren in de Champions League?</strong><br>Voor de top 24 meestal 10 à 11 punten. De nummer 24 had 11 punten (2024/25) en 9 punten (2025/26).</p>
 <p><strong>Hoeveel punten heb je nodig voor de top 8 van de Champions League?</strong><br>Ongeveer 16 punten. In 2024/25 en 2025/26 had de nummer 8 precies 16 punten en de nummer 9 precies 15.</p>
@@ -226,5 +227,5 @@ if __name__ == "__main__":
     w = len(tekst.split())
     print(len(TITEL), "titel |", len(SAMENVATTING), "samenvatting |", w, "woorden |", faq, "faq |",
           len(content), len(content2), len(content3), "tekens per veld")
-    assert 1300 <= w <= 2000, w
+    assert 1300 <= w <= 2100, w
     print("Dry run: er is niets gepubliceerd.")
