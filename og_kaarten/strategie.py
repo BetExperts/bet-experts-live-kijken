@@ -83,7 +83,7 @@ def render_objs(objs, prefix):
                 pg.goto(f.as_uri()); pg.evaluate("document.fonts.ready"); pg.wait_for_timeout(300)
                 png = pg.screenshot()
                 doel = UIT / f"{prefix}-{key}.webp"
-                Image.open(io.BytesIO(png)).convert("RGB").save(doel, "WEBP", quality=88, method=6)
+                Image.open(io.BytesIO(png)).convert("RGB").resize((1200, 630), Image.LANCZOS).save(doel, "WEBP", quality=84, method=6)
                 uit[key] = doel
             b.close()
     finally:

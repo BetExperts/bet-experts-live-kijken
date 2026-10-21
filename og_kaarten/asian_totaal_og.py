@@ -40,7 +40,7 @@ if __name__ == "__main__":
             b = p.chromium.launch(args=["--font-render-hinting=none"])
             pg = b.new_page(viewport={"width": 1200, "height": 630}, device_scale_factor=2)
             pg.goto(f.as_uri()); pg.evaluate("document.fonts.ready"); pg.wait_for_timeout(300)
-            Image.open(io.BytesIO(pg.screenshot())).convert("RGB").save(uit, "WEBP", quality=88, method=6)
+            Image.open(io.BytesIO(pg.screenshot())).convert("RGB").resize((1200, 630), Image.LANCZOS).save(uit, "WEBP", quality=84, method=6)
             b.close()
     finally:
         f.unlink(missing_ok=True)
