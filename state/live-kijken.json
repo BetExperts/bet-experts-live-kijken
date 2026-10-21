@@ -836,7 +836,7 @@
     "date": "2026-10-21",
     "league": "champions-league",
     "hub": true,
-    "sig": "30eafca416a6e6bb34fc7b57f6baec9c",
+    "sig": "c453de5559b6456c9f1c2c6c2fbf81a9",
     "pairs": [
       [
         "560",
@@ -1018,7 +1018,7 @@
     "date": "2026-10-22",
     "league": "conference-league",
     "hub": true,
-    "sig": "ccc786f7ef2bb30d516fddb37f2d3ddb",
+    "sig": "1b4bf170a10c9f0383c3a966133987e8",
     "pairs": [
       [
         "617",
@@ -1239,7 +1239,7 @@
     "date": "2026-10-22",
     "league": "europa-league",
     "hub": true,
-    "sig": "f7e2a402513249b6e56731db65922dcc",
+    "sig": "ab0237d0b8e14ec35c027334323f070e",
     "pairs": [
       [
         "347",
@@ -1343,7 +1343,7 @@
     "date": "2026-10-21",
     "league": "la-liga",
     "hub": true,
-    "sig": "60b8e5893ff7a4736fc99cb6e6665049",
+    "sig": "66b524efdf8b0962cc2393167dbd07ad",
     "pairs": [
       [
         "531",
@@ -1364,8 +1364,8 @@
     "provider": "TOTO",
     "home_id": "539",
     "away_id": "531",
-    "tv_sig": "Ziggo Sport|TOTO|False|False",
-    "og": "og/levante-athletic-bilbao-live-gratis-kijken-21-10-2026-b7b527.webp",
+    "tv_sig": "Ziggo Sport 6|TOTO|False|False",
+    "og": "og/levante-athletic-bilbao-live-gratis-kijken-21-10-2026-b614a1.webp",
     "og_done": "og/levante-athletic-bilbao-live-gratis-kijken-21-10-2026-b7b527.webp"
   },
   "1635684": {
