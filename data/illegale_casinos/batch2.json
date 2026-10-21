@@ -1,30 +1,5 @@
 [
  {
-  "name": "BOF Casino",
-  "slug": "bof-casino",
-  "bedrijf": "Elite Cyber Services Limited",
-  "vergunning_elders": "Onbekend",
-  "vergunning_toelichting": "Naar verluidt claimt BOF Casino een licentie uit Anjouan (Comoren); soms worden ook Belize of een Curaçaose N.V. genoemd, en geen van die claims is te controleren.",
-  "website": "bof.casino",
-  "ideal": false,
-  "crypto": true,
-  "ksa_maatregel": "",
-  "korte_omschrijving": "BOF Casino is een online casino uit 2024 dat zich ook op Nederlanders richt. Het heeft geen vergunning van de Kansspelautoriteit en is dus illegaal in Nederland.",
-  "waarom_illegaal_html": "<p>BOF Casino is in 2024 gestart als online casino met duizenden gokkasten en live spellen. Achter het merk zou Elite Cyber Services Limited zitten, een bedrijf dat in Belize geregistreerd zou zijn. Over dit bedrijf is weinig openbare informatie te vinden. Sommige sites noemen ook een Curaçaose vennootschap als exploitant. Wie er echt achter zit, is dus niet met zekerheid vast te stellen.</p><p>Voor zover bekend claimt BOF Casino een licentie uit Anjouan, een eiland van de Comoren. Soms wordt ook Belize genoemd. Een licentienummer hebben we niet kunnen vinden. Maar ook als zo'n buitenlandse licentie bestaat, is die in Nederland niets waard. In Nederland mag je alleen online gokken bij een aanbieder met een vergunning van de Kansspelautoriteit (Ksa).</p><p>BOF Casino staat niet in de Kansspelwijzer van de Ksa, de officiële lijst met legale aanbieders. Daarom is het casino illegaal in Nederland. Een maatregel van de Ksa tegen BOF Casino of Elite Cyber Services Limited hebben we (nog) niet gevonden. Dat betekent niet dat het casino wél mag: zonder Nederlandse vergunning is het aanbieden van kansspelen aan Nederlanders altijd verboden.</p>",
-  "uitbetalen_en_bonus_html": "<p>Voor zover bekend kun je bij BOF Casino storten met creditcards, e-wallets en cryptomunten zoals Bitcoin, Ethereum en Tether. Of iDEAL echt werkt, konden we niet vaststellen. De oorspronkelijke site bof.casino lijkt bovendien offline te zijn, terwijl er wel allerlei kopiesites onder de naam BOF actief zijn. Dat maakt het extra lastig om te weten met wie je zaken doet.</p><p>Het casino lokt naar verluidt met een welkomstpakket verspreid over meerdere stortingen en wekelijkse cashback. Zulke bonussen hebben vaak strenge inzetvoorwaarden. Omdat er geen Nederlands toezicht is, heb je geen garantie dat je winst wordt uitbetaald. Er is geen Cruks-controle en geen verplichte stortingslimiet.</p><p>Win je in een maand meer dan je inzet, dan moet je zelf aangifte doen van kansspelbelasting. Let op: volgens de Hoge Raad (3 juli 2026) is een overeenkomst met een illegale aanbieder niet nietig. Je verlies terugvorderen op die grond lukt dus niet.</p>",
-  "faq": "Is BOF Casino legaal in Nederland?\nNee. BOF Casino heeft geen vergunning van de Kansspelautoriteit en staat niet in de Kansspelwijzer. Spelen bij een aanbieder zonder vergunning is volgens de Wet op de kansspelen strafbaar.\n\nWelke licentie heeft BOF Casino?\nDat is niet zeker. Naar verluidt claimt het casino een licentie uit Anjouan, soms wordt ook Belize genoemd. Een buitenlandse licentie geeft in Nederland hoe dan ook geen toestemming.\n\nKan ik met iDEAL storten bij BOF Casino?\nDat konden we niet vaststellen. Voor zover bekend gaat het vooral om creditcards, e-wallets en crypto. Bij een illegale aanbieder heb je geen bescherming als er iets misgaat met je geld.\n\nKrijg ik mijn winst uitbetaald bij BOF Casino?\nDaar is geen garantie voor. Er is geen Nederlands toezicht, dus bij een conflict kun je nergens terecht.\n\nWat zijn legale alternatieven voor BOF Casino?\nKies een casino met een vergunning van de Kansspelautoriteit, zoals JACKS.NL, BetMGM of Circus. Daar gelden Cruks, stortingslimieten en betaalt de aanbieder de kansspelbelasting.",
-  "seo_titel": "Is BOF Casino legaal in Nederland? Nee, dit moet je weten (2026)",
-  "meta_omschrijving": "BOF Casino heeft geen vergunning van de Kansspelautoriteit en is illegaal in Nederland. Lees wie erachter zit, welke licentie het claimt en de risico's.",
-  "bronnen": [
-   "https://uk.trustpilot.com/review/bof.casino (21-10-2026)",
-   "https://bofcasino.net/ (21-10-2026, derde partij)",
-   "https://bof.co.nl/ (21-10-2026, derde partij)",
-   "https://bofcasino.co.nl/ (21-10-2026, derde partij)",
-   "https://kansspelautoriteit.nl/sanctiebesluiten (21-10-2026)"
-  ],
-  "onzeker": "Officiële site bof.casino resolveert niet meer (Trustpilot: website gesloten); alle info komt van derden/kopiesites die elkaar tegenspreken (Elite Cyber Services Ltd Belize + Anjouan vs. 'Bof Gaming N.V.' Curaçao). Licentienummer, actueel domein en iDEAL niet vast te stellen; crypto alleen volgens derden. Geen Ksa-maatregel gevonden."
- },
- {
   "name": "Happy Slots",
   "slug": "happy-slots",
   "bedrijf": "EverEdge Marketing Solutions SRL",
@@ -74,31 +49,6 @@
    "https://uk.trustpilot.com/review/slotshammer-casino.nl (21-10-2026)"
   ],
   "onzeker": "MGA-licentie niet in het MGA-register gecontroleerd. Ksa-boete betreft sonsofslots.com (zelfde exploitant), niet Slots Hammer; boetebesluit 12-10-2023, door Ksa gepubliceerd 19-03-2025, bezwaar/beroep loopt. Crypto: niet op stortingspagina (Trustpilot-bedrijfstekst noemt wel 'crypto') -> false. T&C sluit Nederland uit, maar site toonde NL-betaalmethoden."
- },
- {
-  "name": "Scarabet",
-  "slug": "scarabet",
-  "bedrijf": "L.C.S Limited",
-  "vergunning_elders": "Malta (MGA)",
-  "vergunning_toelichting": "Claimt voor zover bekend een licentie van de Malta Gaming Authority (MGA/B2C/233/2013) via L.C.S Limited; niet op de eigen site te controleren.",
-  "website": "scarabet.com",
-  "ideal": false,
-  "crypto": false,
-  "ksa_maatregel": "Geen maatregel tegen Scarabet zelf bekend; exploitant L.C.S Limited kreeg wel een boete van €2.074.000 voor de site sonsofslots.com (gepubliceerd 19 maart 2025, bezwaar/beroep loopt)",
-  "korte_omschrijving": "Scarabet is een online casino en sportsbook met een Egyptisch thema van het Maltese L.C.S Limited. Zonder Ksa-vergunning is het illegaal in Nederland.",
-  "waarom_illegaal_html": "<p>Scarabet is een online casino met sportweddenschappen en een Oud-Egyptisch thema. Het merk is in 2024 gestart. Voor zover bekend is de exploitant L.C.S Limited uit Malta, hetzelfde bedrijf dat achter Slots Hammer zit.</p><p>Scarabet claimt voor zover bekend een licentie van de Malta Gaming Authority. Een Maltese licentie is in Nederland echter niets waard: wie hier kansspelen aanbiedt, heeft een vergunning van de Kansspelautoriteit (Ksa) nodig. Die heeft Scarabet niet. Het merk staat ook niet in de Kansspelwijzer, de officiële lijst met legale aanbieders.</p><p>De Ksa heeft L.C.S Limited al eerder beboet. Het bedrijf kreeg een boete van €2.074.000 omdat het via sonsofslots.com zonder vergunning kansspelen aanbood aan Nederlanders. Daar loopt nog bezwaar of beroep tegen. Een aparte maatregel tegen Scarabet hebben we niet gevonden. Toch is spelen er voor Nederlanders niet toegestaan.</p>",
-  "uitbetalen_en_bonus_html": "<p>Hoe storten en uitbetalen bij Scarabet precies werkt, konden we niet op de eigen site controleren: het domein scarabet.com toonde bij onze controle alleen een parkeerpagina. Voor zover bekend gebruikt Scarabet geen iDEAL en geen crypto, maar wel kaarten, e-wallets en bankbetalingen via tussenpartijen. Uitbetalingen zouden via e-wallets of een bankoverschrijving gaan, na een identiteitscheck.</p><p>Er wordt geworven met een welkomstbonus voor nieuwe spelers, met volgens reviewers hoge inzetvoorwaarden. Omdat er geen Nederlands toezicht is, heb je geen garantie dat je winst wordt uitbetaald. Er is geen Cruks-controle en geen verplichte stortingslimiet.</p><p>Win je in een maand meer dan je inzet, dan moet je zelf aangifte doen van kansspelbelasting. Let op: volgens de Hoge Raad (3 juli 2026) is een overeenkomst met een illegale aanbieder niet nietig. Je verlies terugvorderen op die grond lukt dus niet.</p>",
-  "faq": "Is Scarabet legaal in Nederland?\nNee. Scarabet heeft geen vergunning van de Kansspelautoriteit en staat niet in de Kansspelwijzer. Spelen bij een aanbieder zonder vergunning is volgens de Wet op de kansspelen strafbaar.\n\nWie zit er achter Scarabet?\nVoor zover bekend is dat L.C.S Limited uit Malta. De Ksa gaf dit bedrijf eerder een boete van €2.074.000 voor de site sonsofslots.com.\n\nKan ik met iDEAL storten bij Scarabet?\nVoor zover bekend niet. Bij een illegale aanbieder heb je bovendien geen bescherming als er iets misgaat met je geld.\n\nIs een Maltese licentie geldig in Nederland?\nNee. Alleen een vergunning van de Kansspelautoriteit geeft toestemming om in Nederland kansspelen aan te bieden.\n\nWat zijn legale alternatieven voor Scarabet?\nKies een casino met een vergunning van de Kansspelautoriteit, zoals JACKS.NL, BetMGM of Circus. Daar gelden Cruks, stortingslimieten en betaalt de aanbieder de kansspelbelasting.",
-  "seo_titel": "Is Scarabet legaal in Nederland? Nee, dit moet je weten (2026)",
-  "meta_omschrijving": "Scarabet heeft geen vergunning van de Kansspelautoriteit en is illegaal in Nederland. Lees wie erachter zit, welke licentie het claimt en de risico's.",
-  "bronnen": [
-   "https://sigma.world/play/online-casinos/scarabet-casino-review/ (zoekresultaat, 21-10-2026)",
-   "https://uk.trustpilot.com/review/scarabet.nl (21-10-2026)",
-   "https://scarabet.casino/ (21-10-2026, derde partij)",
-   "https://kansspelautoriteit.nl/l-c-s-limited (21-10-2026)",
-   "https://kansspelautoriteit.nl/sanctiebesluiten (21-10-2026)"
-  ],
-  "onzeker": "Officieel domein onduidelijk: scarabet.com toonde op 21-10-2026 een GoDaddy-parkeerpagina, scarabet.nl gaf 403. Exploitant (L.C.S Limited) en MGA-nummer alleen via derden (Sigma, Trustpilot-bedrijfstekst, affiliate). iDEAL/crypto alleen via reviewsites (beide nee). Ksa-boete betreft sonsofslots.com van dezelfde exploitant."
  },
  {
   "name": "Qbet",
