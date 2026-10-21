@@ -1,19 +1,6 @@
 {
-"bijgewerkt": "2026-10-21T20:38:35.473028+00:00",
+"bijgewerkt": "2026-10-21T21:12:39.183556+00:00",
 "uitzendingen": [
-{
-"ko": "2026-10-21T18:00:00+00:00",
-"titel": "Levante – Athletic Club",
-"comp": "La Liga",
-"sport": "voetbal",
-"zenders": [
-"Ziggo Sport 6"
-],
-"streams": [
-"TOTO"
-],
-"url": "/nieuws/levante-athletic-bilbao-live-gratis-kijken-21-10-2026"
-},
 {
 "ko": "2026-10-21T19:00:00+00:00",
 "titel": "Aston Villa – Viking",
@@ -226,28 +213,6 @@
 },
 {
 "ko": "2026-10-22T16:45:00+00:00",
-"titel": "Ferencvarosi TC – Torreense",
-"comp": "Europa League",
-"sport": "voetbal",
-"zenders": [
-"Ziggo Sport 1"
-],
-"streams": [],
-"url": null
-},
-{
-"ko": "2026-10-22T16:45:00+00:00",
-"titel": "OFI – Bayer Leverkusen",
-"comp": "Europa League",
-"sport": "voetbal",
-"zenders": [
-"Ziggo Sport"
-],
-"streams": [],
-"url": "/nieuws/ofi-bayer-leverkusen-live-gratis-kijken-22-10-2026"
-},
-{
-"ko": "2026-10-22T16:45:00+00:00",
 "titel": "Union Sint-Gillis – Hapoel Beer Sheva",
 "comp": "Europa League",
 "sport": "voetbal",
@@ -311,17 +276,6 @@
 ],
 "streams": [],
 "url": null
-},
-{
-"ko": "2026-10-22T19:00:00+00:00",
-"titel": "Lillestrom – Real Sociedad",
-"comp": "Europa League",
-"sport": "voetbal",
-"zenders": [
-"Ziggo Sport"
-],
-"streams": [],
-"url": "/nieuws/lillestrom-sk-real-sociedad-live-gratis-kijken-22-10-2026"
 },
 {
 "ko": "2026-10-22T19:00:00+00:00",
@@ -446,6 +400,17 @@
 },
 {
 "ko": "2026-10-22T19:00:00+00:00",
+"titel": "Lillestrom – Real Sociedad",
+"comp": "Europa League",
+"sport": "voetbal",
+"zenders": [
+"Ziggo Sport"
+],
+"streams": [],
+"url": "/nieuws/lillestrom-sk-real-sociedad-live-gratis-kijken-22-10-2026"
+},
+{
+"ko": "2026-10-22T19:00:00+00:00",
 "titel": "Monaco – Freiburg",
 "comp": "UEFA Conference League",
 "sport": "voetbal",
@@ -543,17 +508,6 @@
 "comp": "EK Darts",
 "sport": "darts",
 "zenders": [],
-"streams": [],
-"url": null
-},
-{
-"ko": "2026-10-23T18:00:00+00:00",
-"titel": "Vitesse – FC Emmen",
-"comp": "Keuken Kampioen Divisie",
-"sport": "voetbal",
-"zenders": [
-"ESPN 4"
-],
 "streams": [],
 "url": null
 },
@@ -668,9 +622,31 @@
 "url": null
 },
 {
+"ko": "2026-10-23T18:00:00+00:00",
+"titel": "Vitesse – FC Emmen",
+"comp": "Keuken Kampioen Divisie",
+"sport": "voetbal",
+"zenders": [
+"ESPN 4"
+],
+"streams": [],
+"url": null
+},
+{
 "ko": "2026-10-23T18:30:00+00:00",
 "titel": "VfB Stuttgart – Borussia Mönchengladbach",
 "comp": "Bundesliga",
+"sport": "voetbal",
+"zenders": [
+"Viaplay"
+],
+"streams": [],
+"url": null
+},
+{
+"ko": "2026-10-23T18:45:00+00:00",
+"titel": "Stade Brestois 29 – Nice",
+"comp": "Ligue 1",
 "sport": "voetbal",
 "zenders": [
 "Viaplay"
@@ -684,17 +660,6 @@
 "comp": "Serie A",
 "sport": "voetbal",
 "zenders": [],
-"streams": [],
-"url": null
-},
-{
-"ko": "2026-10-23T18:45:00+00:00",
-"titel": "Stade Brestois 29 – Nice",
-"comp": "Ligue 1",
-"sport": "voetbal",
-"zenders": [
-"Viaplay"
-],
 "streams": [],
 "url": null
 },
@@ -1028,15 +993,6 @@
 },
 {
 "ko": "2026-10-24T13:00:00+00:00",
-"titel": "Cagliari – Bologna",
-"comp": "Serie A",
-"sport": "voetbal",
-"zenders": [],
-"streams": [],
-"url": null
-},
-{
-"ko": "2026-10-24T13:00:00+00:00",
 "titel": "Como – Sassuolo",
 "comp": "Serie A",
 "sport": "voetbal",
@@ -1050,6 +1006,15 @@
 "ko": "2026-10-24T13:00:00+00:00",
 "titel": "Gaziantep – Erzurumspor",
 "comp": "Süper Lig",
+"sport": "voetbal",
+"zenders": [],
+"streams": [],
+"url": null
+},
+{
+"ko": "2026-10-24T13:00:00+00:00",
+"titel": "Cagliari – Bologna",
+"comp": "Serie A",
 "sport": "voetbal",
 "zenders": [],
 "streams": [],
