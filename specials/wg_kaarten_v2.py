@@ -58,6 +58,15 @@ V2.update({
                    OG_DATA=["Wat is maysir?", "Wat zegt de Koran?", "TOTO, loterij en casino", "Twijfelgevallen"]),
 })
 
+V2.update({
+ "paysafecard": K(OG_KOP="Bookmakers met <span>Paysafecard</span>", OG_EYEBROW="Betalen · stand oktober 2026", OG_CHIPS=["Alleen bet365 en Unibet", "Uitbetalen via de bank"], OG_MOTIEF="logos",
+                  OG_DATA=["bet365 · €5 – €1.000", "unibet · €10 – €500", "Uitbetalen · altijd per bank"]),
+ "ideal": K(OG_KOP="Bookmakers met <span>iDEAL</span>", OG_EYEBROW="iDEAL | Wero", OG_CHIPS=["Bij vrijwel alle legale bookmakers", "Overstap naar Wero"], OG_MOTIEF="logos",
+            OG_DATA=["toto · iDEAL | Wero", "bet365 · €5 – €10.000", "unibet · iDEAL | Wero", "jacks · iDEAL | Wero"]),
+ "legale-goksites": K(OG_KOP="Legale <span>goksites</span> in Nederland", OG_EYEBROW="Met Ksa-vergunning", OG_CHIPS=["Alle vergunninghouders", "Zo check je het"], OG_MOTIEF="tabel",
+                      OG_DATA=["Vergunninghouders · 31", "Merken met sport · 23", "Merken met casino · 27", "Check · Kansspelwijzer"]),
+})
+
 
 def zet(keys, live):
     from strategie import render_objs
