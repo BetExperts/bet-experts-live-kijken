@@ -35,8 +35,8 @@ V2 = {
                          OG_DATA=["bet365 · 2 goals voor", "unibet · 2UP", "toto · 2 Goals Up!", "BetCity · 2 goals voor"]),
  "superboost": K(OG_KOP="Wat is een <span>odds boost</span>?", OG_EYEBROW="Superboost en Super Odd", OG_CHIPS=["Verhoogde quotering", "Let op de maximale inzet"], OG_MOTIEF="logos",
                  OG_DATA=["bet365 · Super Boost", "unibet · Uniboost", "jacks · Superboost", "starcasino · Gouden Boost"]),
- "wedstrijd-gestaakt": K(OG_KOP="Wedstrijd <span>gestaakt</span>?", OG_EYEBROW="Termijn om te hervatten", OG_CHIPS=["Regels per bookmaker", "Wat telt al wel?"], OG_MOTIEF="logos",
-                         OG_DATA=["toto · 2 dagen", "unibet · 12 uur", "BetCity · 12 uur"]),
+ "wedstrijd-gestaakt": K(OG_KOP="TOTO wedstrijd <span>gestaakt</span>?", OG_EYEBROW="Afgelast: termijn per bookmaker", OG_CHIPS=["21 bookmakers vergeleken", "Met gratis pdf"], OG_MOTIEF="logos",
+                         OG_DATA=["toto · 2 dagen", "bet365 · 5 dagen", "unibet · 12 uur", "BetCity · 12 uur"]),
  "tennis-opgave": K(OG_KOP="Tennisspeler geeft <span>op</span>?", OG_EYEBROW="Opgave na de eerste set", OG_CHIPS=["Walkover = ongeldig", "Regels per bookmaker"], OG_MOTIEF="logos",
                     OG_DATA=["toto · Winnaar ongeldig", "unibet · Doorgaande speler wint", "BetCity · Doorgaande speler wint"]),
 }
@@ -73,17 +73,20 @@ V2.update({
 })
 
 
+SUFFIX = {"wedstrijd-gestaakt": "v3"}
+
+
 def zet(keys, live):
     from strategie import render_objs
     idx = {r[0]: {"id": r[1], "draft": r[2] == "draft"} for r in json.load(open(ITEMS))}
-    objs = {f"{k}-v2": V2[k] for k in keys}
+    objs = {f"{k}-{SUFFIX.get(k, 'v2')}": V2[k] for k in keys}
     render_objs(objs, "wedgids")
     if not live:
         return
-    subprocess.run("git add og/nieuws/wedgids-*-v2.webp og_kaarten/strategie.py specials/wg_kaarten_v2.py && git commit -qm 'Wedgids: deelkaarten v2' && "
+    subprocess.run("git add og/nieuws/wedgids-*-v*.webp og_kaarten/strategie.py specials/wg_kaarten_v2.py && git commit -qm 'Wedgids: deelkaarten v2' && "
                    "git stash -q; git pull -q --rebase; git push -q; git stash pop -q", shell=True, cwd=ROOT)
     for k in keys:
-        url = RAW + f"wedgids-{k}-v2.webp"
+        url = RAW + f"wedgids-{k}-{SUFFIX.get(k, 'v2')}.webp"
         for _ in range(20):
             try:
                 if urllib.request.urlopen(url, timeout=20).status == 200: break
