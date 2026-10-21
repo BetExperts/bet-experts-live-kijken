@@ -5,7 +5,7 @@ from playwright.sync_api import sync_playwright
 
 A = pathlib.Path(kaart.ASSETS)
 SP = pathlib.Path(__file__).parent.parent
-shutil.copy(pathlib.Path(__file__).parent / "sks-logo.png", A / ".sks-logo.png")
+shutil.copy(pathlib.Path(__file__).parent / "sks-logo-breed.webp", A / ".sks-logo.webp")
 OUT = pathlib.Path(sys.argv[1] if len(sys.argv) > 1 else SP / "og_sks2.png")
 
 GOUD = "#E8C46B"
@@ -53,12 +53,10 @@ body = f'''<div class="b">
 
   <div style="position:absolute;left:56px;right:56px;top:132px;display:flex;gap:44px;align-items:flex-start">
     <div style="flex:1;min-width:0">
-      <div style="display:flex;align-items:center;gap:26px">
-        <div class="lt"><img src=".sks-logo.png"></div>
-        <div>
-          <div class="eb">3e editie · ANB Arena</div>
-          <div class="tt" style="margin-top:10px">Six Kings<br>Slam <em>2026</em></div>
-        </div>
+      <div class="eb">3e editie · ANB Arena</div>
+      <div style="display:flex;align-items:flex-end;gap:20px;margin-top:18px">
+        <img src=".sks-logo.webp" style="height:104px;filter:drop-shadow(0 8px 24px rgba(232,196,107,.22))">
+        <div class="tt" style="font-size:84px;line-height:.82;color:#E8C46B">2026</div>
       </div>
       <div style="margin-top:34px;display:flex;align-items:center;gap:14px">
         <span class="vp">Verplaatst naar 27–30 december</span>
@@ -92,5 +90,5 @@ try:
         pg.screenshot(path=str(OUT))
         b.close()
 finally:
-    f.unlink(missing_ok=True); (A / ".sks-logo.png").unlink(missing_ok=True)
+    f.unlink(missing_ok=True); (A / ".sks-logo.webp").unlink(missing_ok=True)
 print(OUT)

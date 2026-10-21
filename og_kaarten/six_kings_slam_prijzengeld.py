@@ -8,7 +8,7 @@ from playwright.sync_api import sync_playwright
 
 HIER = pathlib.Path(__file__).parent
 A = pathlib.Path(kaart.ASSETS)
-LOGO = HIER / "sks-logo.png"
+LOGO = HIER / "sks-logo-breed.webp"
 OUT = pathlib.Path(sys.argv[1] if len(sys.argv) > 1 else HIER / "sks-prijzengeld.png")
 GOUD = "#E8C46B"
 
@@ -56,11 +56,9 @@ body = f'''<div class="b">
 
   <div style="position:absolute;left:56px;right:56px;top:146px;display:flex;gap:40px;align-items:center">
     <div style="flex:1;min-width:0">
-      <div style="display:flex;align-items:center;gap:22px">
-        <div class="lt"><img src=".sks-logo.png"></div>
-        <div><div class="eb">Prijzengeld 2026</div><div class="tt" style="margin-top:8px">Six Kings Slam</div></div>
-      </div>
-      <div class="big" style="margin-top:30px">$6 miljoen</div>
+      <div class="eb">Prijzengeld 2026</div>
+      <img src=".sks-logo.webp" style="display:block;height:76px;margin-top:16px;filter:drop-shadow(0 8px 24px rgba(232,196,107,.22))">
+      <div class="big" style="margin-top:26px">$6 miljoen</div>
       <div class="lab" style="margin-top:12px">voor de winnaar · <b>± €5,35 miljoen</b></div>
       <div style="margin-top:26px;display:flex;gap:10px;flex-wrap:wrap">
         <span class="ch g">Startgeld <b>$1,5 mln</b> p.p.</span>
@@ -83,7 +81,7 @@ body = f'''<div class="b">
 </div>'''
 
 html = f"<!doctype html><html lang='nl'><head><meta charset='utf-8'><style>{css}</style></head><body>{body}</body></html>"
-shutil.copy(LOGO, A / ".sks-logo.png")
+shutil.copy(LOGO, A / ".sks-logo.webp")
 f = A / f".sks-{uuid.uuid4().hex[:8]}.html"
 f.write_text(html, encoding="utf-8")
 try:
@@ -94,5 +92,5 @@ try:
         pg.screenshot(path=str(OUT))
         b.close()
 finally:
-    f.unlink(missing_ok=True); (A / ".sks-logo.png").unlink(missing_ok=True)
+    f.unlink(missing_ok=True); (A / ".sks-logo.webp").unlink(missing_ok=True)
 print(OUT)
