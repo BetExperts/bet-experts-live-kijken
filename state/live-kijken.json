@@ -836,7 +836,7 @@
     "date": "2026-10-21",
     "league": "champions-league",
     "hub": true,
-    "sig": "c453de5559b6456c9f1c2c6c2fbf81a9",
+    "sig": "928b71470577873663470a93f244d932",
     "pairs": [
       [
         "560",
@@ -846,21 +846,6 @@
       [
         "13976",
         "165",
-        "2026-10-20"
-      ],
-      [
-        "197",
-        "212",
-        "2026-10-20"
-      ],
-      [
-        "497",
-        "656",
-        "2026-10-20"
-      ],
-      [
-        "327",
-        "492",
         "2026-10-20"
       ],
       [
@@ -881,6 +866,21 @@
       [
         "40",
         "533",
+        "2026-10-20"
+      ],
+      [
+        "327",
+        "492",
+        "2026-10-20"
+      ],
+      [
+        "197",
+        "212",
+        "2026-10-20"
+      ],
+      [
+        "497",
+        "656",
         "2026-10-20"
       ],
       [
@@ -1018,7 +1018,7 @@
     "date": "2026-10-22",
     "league": "conference-league",
     "hub": true,
-    "sig": "0b120f0ebfb9bc85b49903331abbb6f8",
+    "sig": "7ee42de2efd1065572b2c4dd974ae589",
     "pairs": [
       [
         "617",
@@ -1239,7 +1239,7 @@
     "date": "2026-10-22",
     "league": "europa-league",
     "hub": true,
-    "sig": "ecea882510aa3d0ae16f58ecb8165a60",
+    "sig": "3088c85a0c72fff5349494165005f80b",
     "pairs": [
       [
         "347",
@@ -1958,5 +1958,245 @@
     "ronde": "Regular Season - 9",
     "og": "og/jupiler-pro-league-speelronde-9-op-tv-23-oktober-2026-23fa41.webp",
     "og_done": "og/jupiler-pro-league-speelronde-9-op-tv-23-oktober-2026-23fa41.webp"
+  },
+  "1636276": {
+    "item_id": "6ad8f2e74c44da4cc0dc1e1d",
+    "slug": "juventus-rennes-live-gratis-kijken-22-10-2026",
+    "match": "Juventus - Rennes",
+    "date": "2026-10-22",
+    "league": "europa-league",
+    "provider": "TOTO",
+    "home_id": "496",
+    "away_id": "94",
+    "tv_sig": "Ziggo Sport 5|TOTO|False|True",
+    "og": "og/juventus-rennes-live-gratis-kijken-22-10-2026-bd27a9.webp"
+  },
+  "1636258": {
+    "item_id": "6ad8f2eddd12cb83d7653bd4",
+    "slug": "dinamo-zagreb-nec-nijmegen-live-gratis-kijken-22-10-2026",
+    "match": "Dinamo Zagreb - NEC",
+    "date": "2026-10-22",
+    "league": "europa-league",
+    "provider": "TOTO",
+    "home_id": "620",
+    "away_id": "413",
+    "tv_sig": "Ziggo Sport 3|TOTO|False|True",
+    "og": "og/dinamo-zagreb-nec-nijmegen-live-gratis-kijken-22-10-2026-48a0f6.webp"
+  },
+  "1636340": {
+    "item_id": "6ad8f2f20f38e56832deb7ac",
+    "slug": "sturm-graz-marseille-live-gratis-kijken-22-10-2026",
+    "match": "Sturm Graz - Marseille",
+    "date": "2026-10-22",
+    "league": "europa-league",
+    "provider": "TOTO",
+    "home_id": "637",
+    "away_id": "81",
+    "tv_sig": "Ziggo Sport|TOTO|False|True",
+    "og": "og/sturm-graz-marseille-live-gratis-kijken-22-10-2026-4368de.webp"
+  },
+  "1636303": {
+    "item_id": "6ad8f2f64c44da4cc0dc222d",
+    "slug": "ofi-bayer-leverkusen-live-gratis-kijken-22-10-2026",
+    "match": "OFI - Bayer Leverkusen",
+    "date": "2026-10-22",
+    "league": "europa-league",
+    "provider": "TOTO",
+    "home_id": "1124",
+    "away_id": "168",
+    "tv_sig": "Ziggo Sport|TOTO|False|True",
+    "og": "og/ofi-bayer-leverkusen-live-gratis-kijken-22-10-2026-9a866e.webp"
+  },
+  "1636330": {
+    "item_id": "6ad8f2fbf231d6630f0b5a26",
+    "slug": "union-sint-gilloise-hapoel-beer-sheva-live-gratis-kijken-22-10-2026",
+    "match": "Union St. Gilloise - Hapoel Beer Sheva",
+    "date": "2026-10-22",
+    "league": "europa-league",
+    "provider": "TOTO",
+    "home_id": "1393",
+    "away_id": "563",
+    "tv_sig": "Ziggo Sport|TOTO|False|True",
+    "og": "og/union-sint-gilloise-hapoel-beer-sheva-live-gratis-kijken-22-10-2026-e1067b.webp"
+  },
+  "1636215": {
+    "item_id": "6ad8f3017b2d760c3b2090ae",
+    "slug": "ararat-armenia-az-live-gratis-kijken-22-10-2026",
+    "match": "Ararat-Armenia - AZ",
+    "date": "2026-10-22",
+    "league": "europa-league",
+    "provider": "TOTO",
+    "home_id": "3683",
+    "away_id": "201",
+    "tv_sig": "Ziggo Sport 2|TOTO|False|True",
+    "og": "og/ararat-armenia-az-live-gratis-kijken-22-10-2026-c55445.webp"
+  },
+  "1636235": {
+    "item_id": "6ad8f3067b2d760c3b209371",
+    "slug": "bournemouth-ac-milan-live-gratis-kijken-22-10-2026",
+    "match": "Bournemouth - AC Milan",
+    "date": "2026-10-22",
+    "league": "europa-league",
+    "provider": "TOTO",
+    "home_id": "35",
+    "away_id": "489",
+    "tv_sig": "Ziggo Sport 5|TOTO|False|True",
+    "og": "og/bournemouth-ac-milan-live-gratis-kijken-22-10-2026-6d8cd2.webp"
+  },
+  "1636267": {
+    "item_id": "6ad8f30b7b2d760c3b20963c",
+    "slug": "hoffenheim-lyon-live-gratis-kijken-22-10-2026",
+    "match": "1899 Hoffenheim - Lyon",
+    "date": "2026-10-22",
+    "league": "europa-league",
+    "provider": "TOTO",
+    "home_id": "167",
+    "away_id": "80",
+    "tv_sig": "Ziggo Sport 6|TOTO|False|True",
+    "og": "og/hoffenheim-lyon-live-gratis-kijken-22-10-2026-8c3461.webp"
+  },
+  "1636249": {
+    "item_id": "6ad8f310abb8a0bbb33240a4",
+    "slug": "celtic-celta-vigo-live-gratis-kijken-22-10-2026",
+    "match": "Celtic - Celta Vigo",
+    "date": "2026-10-22",
+    "league": "europa-league",
+    "provider": "TOTO",
+    "home_id": "247",
+    "away_id": "538",
+    "tv_sig": "Ziggo Sport|TOTO|False|True",
+    "og": "og/celtic-celta-vigo-live-gratis-kijken-22-10-2026-e0bcce.webp"
+  },
+  "1636288": {
+    "item_id": "6ad8f3150f38e56832dec4aa",
+    "slug": "lillestrom-sk-real-sociedad-live-gratis-kijken-22-10-2026",
+    "match": "Lillestrom - Real Sociedad",
+    "date": "2026-10-22",
+    "league": "europa-league",
+    "provider": "TOTO",
+    "home_id": "321",
+    "away_id": "548",
+    "tv_sig": "Ziggo Sport|TOTO|False|True",
+    "og": "og/lillestrom-sk-real-sociedad-live-gratis-kijken-22-10-2026-764ca3.webp"
+  },
+  "1636273": {
+    "item_id": "6ad8f31b1986551dbbe372b8",
+    "slug": "jagiellonia-anderlecht-live-gratis-kijken-22-10-2026",
+    "match": "Jagiellonia - Anderlecht",
+    "date": "2026-10-22",
+    "league": "europa-league",
+    "provider": "TOTO",
+    "home_id": "336",
+    "away_id": "554",
+    "tv_sig": "Ziggo Sport|TOTO|False|True",
+    "og": "og/jagiellonia-anderlecht-live-gratis-kijken-22-10-2026-503942.webp"
+  },
+  "1636234": {
+    "item_id": "6ad8f320c5d151b3f205e85a",
+    "slug": "besiktas-crystal-palace-live-gratis-kijken-22-10-2026",
+    "match": "Beşiktaş - Crystal Palace",
+    "date": "2026-10-22",
+    "league": "europa-league",
+    "provider": "TOTO",
+    "home_id": "549",
+    "away_id": "52",
+    "tv_sig": "Ziggo Sport|TOTO|False|True",
+    "og": "og/besiktas-crystal-palace-live-gratis-kijken-22-10-2026-52b8c6.webp"
+  },
+  "1636308": {
+    "item_id": "6ad8f3256d41c447e85421ed",
+    "slug": "olympiakos-piraeus-sparta-praha-live-gratis-kijken-22-10-2026",
+    "match": "Olympiakos Piraeus - Sparta Praha",
+    "date": "2026-10-22",
+    "league": "europa-league",
+    "provider": "TOTO",
+    "home_id": "553",
+    "away_id": "628",
+    "tv_sig": "Ziggo Sport|TOTO|False|True",
+    "og": "og/olympiakos-piraeus-sparta-praha-live-gratis-kijken-22-10-2026-51e52d.webp"
+  },
+  "1636311": {
+    "item_id": "6ad8f329bf954c003cde4a4c",
+    "slug": "omonia-nicosia-benfica-live-gratis-kijken-22-10-2026",
+    "match": "Omonia Nicosia - Benfica",
+    "date": "2026-10-22",
+    "league": "europa-league",
+    "provider": "TOTO",
+    "home_id": "3402",
+    "away_id": "211",
+    "tv_sig": "Ziggo Sport|TOTO|False|True",
+    "og": "og/omonia-nicosia-benfica-live-gratis-kijken-22-10-2026-2ac296.webp"
+  },
+  "1636397": {
+    "item_id": "6ad8f32f54c66e8fdfcadd47",
+    "slug": "fk-crvena-zvezda-copenhagen-live-gratis-kijken-22-10-2026",
+    "match": "FK Crvena Zvezda - FC Copenhagen",
+    "date": "2026-10-22",
+    "league": "conference-league",
+    "provider": "Bet365",
+    "home_id": "598",
+    "away_id": "400",
+    "tv_sig": "Ziggo Sport|Bet365|False|True",
+    "og": "og/fk-crvena-zvezda-copenhagen-live-gratis-kijken-22-10-2026-487499.webp"
+  },
+  "1636430": {
+    "item_id": "6ad8f3321986551dbbe38327",
+    "slug": "fk-jablonec-brighton-live-gratis-kijken-22-10-2026",
+    "match": "FK Jablonec - Brighton",
+    "date": "2026-10-22",
+    "league": "conference-league",
+    "provider": "Bet365",
+    "home_id": "1122",
+    "away_id": "51",
+    "tv_sig": "Ziggo Sport|Bet365|False|True",
+    "og": "og/fk-jablonec-brighton-live-gratis-kijken-22-10-2026-40c1cc.webp"
+  },
+  "1636379": {
+    "item_id": "6ad8f337f231d6630f0b7bd5",
+    "slug": "ajax-atalanta-live-gratis-kijken-22-10-2026",
+    "match": "Ajax - Atalanta",
+    "date": "2026-10-22",
+    "league": "conference-league",
+    "provider": "Bet365",
+    "home_id": "194",
+    "away_id": "499",
+    "tv_sig": "Ziggo Sport 1|Bet365|False|True",
+    "og": "og/ajax-atalanta-live-gratis-kijken-22-10-2026-fc0466.webp"
+  },
+  "1636388": {
+    "item_id": "6ad8f33baca55c8a28b06f62",
+    "slug": "sporting-braga-gent-live-gratis-kijken-22-10-2026",
+    "match": "SC Braga - Gent",
+    "date": "2026-10-22",
+    "league": "conference-league",
+    "provider": "Bet365",
+    "home_id": "217",
+    "away_id": "631",
+    "tv_sig": "VRT Canvas|Bet365|False|True",
+    "og": "og/sporting-braga-gent-live-gratis-kijken-22-10-2026-a2db1c.webp"
+  },
+  "1636449": {
+    "item_id": "6ad8f33f23f7d0e9520eff7a",
+    "slug": "midtjylland-sint-truidense-live-gratis-kijken-22-10-2026",
+    "match": "FC Midtjylland - St. Truiden",
+    "date": "2026-10-22",
+    "league": "conference-league",
+    "provider": "Bet365",
+    "home_id": "397",
+    "away_id": "735",
+    "tv_sig": "Ziggo Sport|Bet365|False|True",
+    "og": "og/midtjylland-sint-truidense-live-gratis-kijken-22-10-2026-c8b2bd.webp"
+  },
+  "1636442": {
+    "item_id": "6ad8f344d3445299a5cafe19",
+    "slug": "lincoln-red-imps-fc-fc-twente-live-gratis-kijken-22-10-2026",
+    "match": "Lincoln Red Imps FC - FC Twente",
+    "date": "2026-10-22",
+    "league": "conference-league",
+    "provider": "Bet365",
+    "home_id": "667",
+    "away_id": "415",
+    "tv_sig": "Ziggo Sport 2|Bet365|False|True",
+    "og": "og/lincoln-red-imps-fc-fc-twente-live-gratis-kijken-22-10-2026-9b288c.webp"
   }
 }
