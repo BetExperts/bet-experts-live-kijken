@@ -76,6 +76,14 @@ KAARTEN = {
             ("no", "Geen toezicht en geen Cruks"), ("no", "Geen garantie op uitbetaling"),
             ("no", "Verlies niet terug te vorderen"), ("no", "Strafbaar, boete tot €11.000"),
             ("ok", "Kies een casino met Ksa-vergunning")]) + '</div>', top=150),
+    "corners": frame("Regels Kansspelautoriteit",
+        f'''<div class="eb">Verboden in Nederland</div>
+        <div class="tt" style="margin-top:14px">Wedden op<br><i>corners</i>?</div>
+        <div style="margin-top:26px;display:flex;gap:10px;flex-wrap:wrap"><span class="fm">Waarom: <b>matchfixing</b></span><span class="fm">Sinds <b>2021</b></span></div>''',
+        '<div class="pan"><div class="k" style="margin-bottom:6px">Bij legale bookmakers</div>' + lijst([
+            ("no", "Corners, gele en rode kaarten"), ("no", "Inworpen, overtredingen, buitenspel"),
+            ("no", "Wedstrijden onder 21 jaar"), ("ok", "Schoten op doel en doelpunten"),
+            ("ok", "Over/under, BTTS, handicap, bet builder")]) + '</div>', top=150),
 }
 
 
