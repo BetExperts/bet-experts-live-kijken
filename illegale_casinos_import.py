@@ -47,6 +47,10 @@ def main(paden, dry):
     nu = datetime.now(timezone.utc).replace(microsecond=0).isoformat().replace("+00:00", "Z")
     # deelafbeeldingen
     og = pathlib.Path(__file__).parent / "og" / "illegale-casinos"; og.mkdir(parents=True, exist_ok=True)
+    LOGOS = pathlib.Path(__file__).parent / "og" / "illegale-casinos" / "logos"
+    for c in rijen:
+        lf = LOGOS / f"{c['slug']}.png"
+        if lf.exists(): c["logo_file"] = str(lf)
     pngs = render_kaarten(rijen, "/tmp/ic_og")
     from PIL import Image
     rel = {}
@@ -78,6 +82,7 @@ def main(paden, dry):
               "faq": c.get("faq", ""), "seo-titel": c.get("seo_titel", ""), "meta-omschrijving": c.get("meta_omschrijving", ""),
               "deel-afbeelding": RAW + rel[c["slug"]]}
         if art: fd["nieuwsartikel"] = art
+        if c.get("logo_file"): fd["logo"] = RAW + "og/illegale-casinos/logos/" + c["slug"] + ".png"
         try:
             if c["slug"] in have:
                 api("PATCH", f"{WF.WF_API}/collections/{COLL}/items/{have[c['slug']]}", {"fieldData": fd}); upd.append(c["slug"])

@@ -1,7 +1,7 @@
 # -*- coding: utf-8 -*-
 """Deelafbeelding per illegaal casino (collectie Illegale casino's), stijl: kaart.py + hero-ontwerp 'Is X legaal? Nee.'
   from og_kaarten.illegaal_casino import render_kaarten; render_kaarten([{name, bedrijf, vergunning_elders, crypto, ideal, ksa_maatregel}], uitmap)"""
-import sys, uuid, pathlib, html
+import sys, uuid, pathlib, html, shutil
 sys.path.insert(0, "/Users/jaspervandenboogaard/bet-experts/preview-images-agent")
 import kaart
 from playwright.sync_api import sync_playwright
@@ -13,7 +13,7 @@ E = html.escape
 CSS = kaart.CSS + f"""
 .eb{{font:700 14px 'Plus Jakarta Sans';letter-spacing:3px;color:#FF8FA3;text-transform:uppercase}}
 .tt{{font:800 62px/1.0 'Poppins';letter-spacing:-1.6px}} .tt em{{font-style:normal;color:{R}}}
-.mono{{width:64px;height:64px;border-radius:16px;background:rgba(255,255,255,.08);border:1px solid rgba(255,255,255,.14);
+.mono{{width:64px;height:64px;border-radius:16px;background:rgba(255,255,255,.08);border:1px solid rgba(255,255,255,.14);overflow:hidden;
   display:flex;align-items:center;justify-content:center;font:800 24px 'Poppins';color:#F5F9FA}}
 .pill{{display:inline-flex;align-items:center;gap:8px;border-radius:999px;padding:7px 14px;font:700 14px 'Plus Jakarta Sans';
   background:rgba(255,90,110,.14);color:#FF8FA3;border:1px solid rgba(255,90,110,.35)}} .pill i{{width:7px;height:7px;border-radius:50%;background:{R}}}
@@ -47,7 +47,7 @@ def body(c):
     <span style="font:600 13px 'Plus Jakarta Sans';color:#8A97A3">· Gecontroleerd 2026</span></div>
   <div style="position:absolute;left:56px;right:56px;top:118px;display:flex;gap:44px;align-items:center">
     <div style="flex:1;min-width:0">
-      <div style="display:flex;align-items:center;gap:16px"><div class="mono">{E(mono)}</div><span class="pill"><i></i>Illegaal in Nederland</span></div>
+      <div style="display:flex;align-items:center;gap:16px">{('<div class="mono" style="background:#fff;border:none"><img src="'+c['logo_asset']+'" style="width:100%;height:100%;object-fit:cover"></div>') if c.get('logo_asset') else ('<div class="mono">'+E(mono)+'</div>')}<span class="pill"><i></i>Illegaal in Nederland</span></div>
       <div class="tt" style="margin-top:22px;font-size:{tt}px">Is {E(naam)} legaal in Nederland? <em>Nee.</em></div>
       <div style="margin-top:18px;font:600 18px/1.4 'Plus Jakarta Sans';color:#C9D3DB;max-width:520px">Geen vergunning van de Kansspelautoriteit. Kies een casino met een Nederlandse vergunning.</div>
     </div>
@@ -69,6 +69,8 @@ def render_kaarten(casinos, uitmap):
             b = p.chromium.launch(args=["--font-render-hinting=none"])
             pg = b.new_page(viewport={"width": 1200, "height": 630}, device_scale_factor=2)
             for c in casinos:
+                if c.get("logo_file"):
+                    la = A / f".icl-{c['slug']}.png"; shutil.copy(c["logo_file"], la); tmp.append(la); c = dict(c, logo_asset=la.name)
                 f = A / f".ic-{uuid.uuid4().hex[:8]}.html"; tmp.append(f)
                 f.write_text(f"<!doctype html><html lang='nl'><head><meta charset='utf-8'><style>{CSS}</style></head><body>{body(c)}</body></html>", encoding="utf-8")
                 pg.goto(f.as_uri()); pg.evaluate("document.fonts.ready"); pg.wait_for_timeout(200)
