@@ -35,16 +35,16 @@ PROVIDERS = {
     },
     "bet365": {
         "naam": "Bet365",
-        "link": "https://www.bet365.nl/hub/nl-nl/open-account?affiliate=365_02599619",
+        "link": "https://www.bet-experts.nl/go/bet365",
         "cast": True, "deposit": True,
     },
     "711": {
         "naam": "711",
-        "link": "https://media1.711affiliates.nl/redirect.aspx?pid=2395&bid=1505",
+        "link": "https://www.bet-experts.nl/go/711",
         "cast": False, "deposit": False,
     },    "starcasino": {
         "naam": "Starcasino",
-        "link": "https://media1.affiliates.starcasino.nl/redirect.aspx?pid=2170&bid=1478",
+        "link": "https://www.bet-experts.nl/go/starcasino",
         "cast": False, "deposit": False,      # alleen een account nodig, geen saldo (gebruiker, 9 okt 2026)
     },
 }

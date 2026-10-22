@@ -21,7 +21,7 @@ RAW = "https://raw.githubusercontent.com/BetExperts/bet-experts-live-kijken/main
 BOOKMAKER_ID = {"711": "66a8a87062108480763b7309", "toto": "669ab9f5aceb8b717cea24c3",
                 "bet365": "651bd6728c40de720bd8072a", "starcasino": "6a7afdaa4a7453c17d31cab5"}
 AFFILIATE = {"711": PROVIDERS["711"]["link"], "toto": PROVIDERS["toto"]["link"], "bet365": PROVIDERS["bet365"]["link"],
-             "starcasino": "https://media1.affiliates.starcasino.nl/redirect.aspx?pid=2170&bid=1477"}
+             "starcasino": "https://www.bet-experts.nl/go/starcasino-casino"}
 BOOKMAKER_LOGO = {   # eigen logo's uit het Bookmakers-CMS
     # 711: officiële SVG via logo_bron (CMS-png heeft te veel witruimte)
     "toto": "https://cdn.prod.website-files.com/64f9f8e867f73b8e88841e09/6ab1340bb72e4a54909ac597_6a03695c98efe52e8452132c_logo-toto-groen.webp",
