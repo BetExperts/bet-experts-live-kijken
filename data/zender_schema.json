@@ -1,90 +1,13 @@
 {
-"bijgewerkt": "2026-10-21T21:44:40.800009+00:00",
+"bijgewerkt": "2026-10-22T01:15:30.154176+00:00",
 "uitzendingen": [
 {
-"ko": "2026-10-21T19:00:00+00:00",
-"titel": "Aston Villa – Viking",
-"comp": "Champions League",
+"ko": "2026-10-21T23:00:00+00:00",
+"titel": "FC Cincinnati – DC United",
+"comp": "MLS",
 "sport": "voetbal",
 "zenders": [
-"Ziggo Sport 6"
-],
-"streams": [],
-"url": null
-},
-{
-"ko": "2026-10-21T19:00:00+00:00",
-"titel": "Bayern München – Arsenal",
-"comp": "Champions League",
-"sport": "voetbal",
-"zenders": [
-"Ziggo Sport 2"
-],
-"streams": [],
-"url": "/nieuws/bayern-munchen-arsenal-live-gratis-kijken-21-10-2026"
-},
-{
-"ko": "2026-10-21T19:00:00+00:00",
-"titel": "Sporting CP – Lask Linz",
-"comp": "Champions League",
-"sport": "voetbal",
-"zenders": [
-"Ziggo Sport"
-],
-"streams": [],
-"url": "/nieuws/sporting-cp-lask-linz-live-gratis-kijken-21-10-2026"
-},
-{
-"ko": "2026-10-21T19:00:00+00:00",
-"titel": "Inter – Shakhtar Donetsk",
-"comp": "Champions League",
-"sport": "voetbal",
-"zenders": [
-"Ziggo Sport 5"
-],
-"streams": [],
-"url": "/nieuws/inter-shakhtar-donetsk-live-gratis-kijken-21-10-2026"
-},
-{
-"ko": "2026-10-21T19:00:00+00:00",
-"titel": "Real Madrid – RB Leipzig",
-"comp": "Champions League",
-"sport": "voetbal",
-"zenders": [
-"Ziggo Sport 3"
-],
-"streams": [],
-"url": "/nieuws/real-madrid-rb-leipzig-live-gratis-kijken-21-10-2026"
-},
-{
-"ko": "2026-10-21T19:00:00+00:00",
-"titel": "Real Betis – Feyenoord",
-"comp": "Champions League",
-"sport": "voetbal",
-"zenders": [
-"Ziggo Sport 1"
-],
-"streams": [],
-"url": "/nieuws/real-betis-feyenoord-live-gratis-kijken-21-10-2026"
-},
-{
-"ko": "2026-10-21T19:00:00+00:00",
-"titel": "Club Brugge – Lens",
-"comp": "Champions League",
-"sport": "voetbal",
-"zenders": [
-"Ziggo Sport"
-],
-"streams": [],
-"url": "/nieuws/club-brugge-lens-live-gratis-kijken-21-10-2026"
-},
-{
-"ko": "2026-10-21T19:00:00+00:00",
-"titel": "Reading – Leyton Orient",
-"comp": "League One",
-"sport": "voetbal",
-"zenders": [
-"Viaplay"
+"Apple TV"
 ],
 "streams": [],
 "url": null
@@ -92,6 +15,17 @@
 {
 "ko": "2026-10-22T00:30:00+00:00",
 "titel": "CR Flamengo – Estudiantes de La Plata",
+"comp": "Copa Libertadores",
+"sport": "voetbal",
+"zenders": [
+"ESPN 1"
+],
+"streams": [],
+"url": null
+},
+{
+"ko": "2026-10-22T00:30:00+00:00",
+"titel": "SE Palmeiras – Fluminense FC",
 "comp": "Copa Libertadores",
 "sport": "voetbal",
 "zenders": [
@@ -213,6 +147,28 @@
 },
 {
 "ko": "2026-10-22T16:45:00+00:00",
+"titel": "Ferencvarosi TC – Torreense",
+"comp": "Europa League",
+"sport": "voetbal",
+"zenders": [
+"Ziggo Sport 1"
+],
+"streams": [],
+"url": null
+},
+{
+"ko": "2026-10-22T16:45:00+00:00",
+"titel": "OFI – Bayer Leverkusen",
+"comp": "Europa League",
+"sport": "voetbal",
+"zenders": [
+"Ziggo Sport"
+],
+"streams": [],
+"url": "/nieuws/ofi-bayer-leverkusen-live-gratis-kijken-22-10-2026"
+},
+{
+"ko": "2026-10-22T16:45:00+00:00",
 "titel": "Union Sint-Gillis – Hapoel Beer Sheva",
 "comp": "Europa League",
 "sport": "voetbal",
@@ -273,72 +229,6 @@
 "sport": "darts",
 "zenders": [
 "Viaplay TV"
-],
-"streams": [],
-"url": null
-},
-{
-"ko": "2026-10-22T19:00:00+00:00",
-"titel": "Jagiellonia – Anderlecht",
-"comp": "Europa League",
-"sport": "voetbal",
-"zenders": [
-"Ziggo Sport"
-],
-"streams": [],
-"url": "/nieuws/jagiellonia-anderlecht-live-gratis-kijken-22-10-2026"
-},
-{
-"ko": "2026-10-22T19:00:00+00:00",
-"titel": "Besiktas – Crystal Palace",
-"comp": "Europa League",
-"sport": "voetbal",
-"zenders": [
-"Ziggo Sport"
-],
-"streams": [],
-"url": "/nieuws/besiktas-crystal-palace-live-gratis-kijken-22-10-2026"
-},
-{
-"ko": "2026-10-22T19:00:00+00:00",
-"titel": "Olympiakos Piraeus – Sparta Praha",
-"comp": "Europa League",
-"sport": "voetbal",
-"zenders": [
-"Ziggo Sport"
-],
-"streams": [],
-"url": "/nieuws/olympiakos-piraeus-sparta-praha-live-gratis-kijken-22-10-2026"
-},
-{
-"ko": "2026-10-22T19:00:00+00:00",
-"titel": "Plzen – Levski Sofia",
-"comp": "Europa League",
-"sport": "voetbal",
-"zenders": [
-"Ziggo Sport 1"
-],
-"streams": [],
-"url": null
-},
-{
-"ko": "2026-10-22T19:00:00+00:00",
-"titel": "Omonia Nicosia – Benfica",
-"comp": "Europa League",
-"sport": "voetbal",
-"zenders": [
-"Ziggo Sport"
-],
-"streams": [],
-"url": "/nieuws/omonia-nicosia-benfica-live-gratis-kijken-22-10-2026"
-},
-{
-"ko": "2026-10-22T19:00:00+00:00",
-"titel": "Celje – Red Bull Salzburg",
-"comp": "Europa League",
-"sport": "voetbal",
-"zenders": [
-"Ziggo Sport 1"
 ],
 "streams": [],
 "url": null
@@ -411,6 +301,72 @@
 },
 {
 "ko": "2026-10-22T19:00:00+00:00",
+"titel": "Jagiellonia – Anderlecht",
+"comp": "Europa League",
+"sport": "voetbal",
+"zenders": [
+"Ziggo Sport"
+],
+"streams": [],
+"url": "/nieuws/jagiellonia-anderlecht-live-gratis-kijken-22-10-2026"
+},
+{
+"ko": "2026-10-22T19:00:00+00:00",
+"titel": "Besiktas – Crystal Palace",
+"comp": "Europa League",
+"sport": "voetbal",
+"zenders": [
+"Ziggo Sport"
+],
+"streams": [],
+"url": "/nieuws/besiktas-crystal-palace-live-gratis-kijken-22-10-2026"
+},
+{
+"ko": "2026-10-22T19:00:00+00:00",
+"titel": "Olympiakos Piraeus – Sparta Praha",
+"comp": "Europa League",
+"sport": "voetbal",
+"zenders": [
+"Ziggo Sport"
+],
+"streams": [],
+"url": "/nieuws/olympiakos-piraeus-sparta-praha-live-gratis-kijken-22-10-2026"
+},
+{
+"ko": "2026-10-22T19:00:00+00:00",
+"titel": "Plzen – Levski Sofia",
+"comp": "Europa League",
+"sport": "voetbal",
+"zenders": [
+"Ziggo Sport 1"
+],
+"streams": [],
+"url": null
+},
+{
+"ko": "2026-10-22T19:00:00+00:00",
+"titel": "Omonia Nicosia – Benfica",
+"comp": "Europa League",
+"sport": "voetbal",
+"zenders": [
+"Ziggo Sport"
+],
+"streams": [],
+"url": "/nieuws/omonia-nicosia-benfica-live-gratis-kijken-22-10-2026"
+},
+{
+"ko": "2026-10-22T19:00:00+00:00",
+"titel": "Celje – Red Bull Salzburg",
+"comp": "Europa League",
+"sport": "voetbal",
+"zenders": [
+"Ziggo Sport 1"
+],
+"streams": [],
+"url": null
+},
+{
+"ko": "2026-10-22T19:00:00+00:00",
 "titel": "Monaco – Freiburg",
 "comp": "UEFA Conference League",
 "sport": "voetbal",
@@ -419,17 +375,6 @@
 ],
 "streams": [],
 "url": null
-},
-{
-"ko": "2026-10-22T19:00:00+00:00",
-"titel": "SC Braga – KAA Gent",
-"comp": "UEFA Conference League",
-"sport": "voetbal",
-"zenders": [
-"VRT Canvas"
-],
-"streams": [],
-"url": "/nieuws/sporting-braga-gent-live-gratis-kijken-22-10-2026"
 },
 {
 "ko": "2026-10-23T00:30:00+00:00",
@@ -508,6 +453,39 @@
 "comp": "EK Darts",
 "sport": "darts",
 "zenders": [],
+"streams": [],
+"url": null
+},
+{
+"ko": "2026-10-23T18:00:00+00:00",
+"titel": "Go Ahead Eagles – Telstar",
+"comp": "Eredivisie",
+"sport": "voetbal",
+"zenders": [
+"ESPN 2"
+],
+"streams": [],
+"url": null
+},
+{
+"ko": "2026-10-23T18:00:00+00:00",
+"titel": "De Graafschap – RKC Waalwijk",
+"comp": "Keuken Kampioen Divisie",
+"sport": "voetbal",
+"zenders": [
+"ESPN Extra"
+],
+"streams": [],
+"url": null
+},
+{
+"ko": "2026-10-23T18:00:00+00:00",
+"titel": "Vitesse – FC Emmen",
+"comp": "Keuken Kampioen Divisie",
+"sport": "voetbal",
+"zenders": [
+"ESPN 4"
+],
 "streams": [],
 "url": null
 },
@@ -595,39 +573,6 @@
 "sport": "voetbal",
 "zenders": [
 "ESPN Extra"
-],
-"streams": [],
-"url": null
-},
-{
-"ko": "2026-10-23T18:00:00+00:00",
-"titel": "Go Ahead Eagles – Telstar",
-"comp": "Eredivisie",
-"sport": "voetbal",
-"zenders": [
-"ESPN 2"
-],
-"streams": [],
-"url": null
-},
-{
-"ko": "2026-10-23T18:00:00+00:00",
-"titel": "De Graafschap – RKC Waalwijk",
-"comp": "Keuken Kampioen Divisie",
-"sport": "voetbal",
-"zenders": [
-"ESPN Extra"
-],
-"streams": [],
-"url": null
-},
-{
-"ko": "2026-10-23T18:00:00+00:00",
-"titel": "Vitesse – FC Emmen",
-"comp": "Keuken Kampioen Divisie",
-"sport": "voetbal",
-"zenders": [
-"ESPN 4"
 ],
 "streams": [],
 "url": null
@@ -993,6 +938,15 @@
 },
 {
 "ko": "2026-10-24T13:00:00+00:00",
+"titel": "Cagliari – Bologna",
+"comp": "Serie A",
+"sport": "voetbal",
+"zenders": [],
+"streams": [],
+"url": null
+},
+{
+"ko": "2026-10-24T13:00:00+00:00",
 "titel": "Como – Sassuolo",
 "comp": "Serie A",
 "sport": "voetbal",
@@ -1006,15 +960,6 @@
 "ko": "2026-10-24T13:00:00+00:00",
 "titel": "Gaziantep – Erzurumspor",
 "comp": "Süper Lig",
-"sport": "voetbal",
-"zenders": [],
-"streams": [],
-"url": null
-},
-{
-"ko": "2026-10-24T13:00:00+00:00",
-"titel": "Cagliari – Bologna",
-"comp": "Serie A",
 "sport": "voetbal",
 "zenders": [],
 "streams": [],
@@ -1532,7 +1477,7 @@
 "comp": "Eredivisie Vrouwen",
 "sport": "voetbal",
 "zenders": [
-"ESPN Extra"
+"ESPN 1"
 ],
 "streams": [],
 "url": null
