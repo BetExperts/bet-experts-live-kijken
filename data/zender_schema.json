@@ -1,15 +1,6 @@
 {
-"bijgewerkt": "2026-10-22T09:08:04.394293+00:00",
+"bijgewerkt": "2026-10-22T10:45:26.655300+00:00",
 "uitzendingen": [
-{
-"ko": "2026-10-22T06:50:00+00:00",
-"titel": "Katarzyna Kawa – Belinda Bencic",
-"comp": "WTA Tour",
-"sport": "tennis",
-"zenders": [],
-"streams": [],
-"url": null
-},
 {
 "ko": "2026-10-22T08:00:00+00:00",
 "titel": "Arthur Fils – Jaume Munar",
@@ -20,22 +11,11 @@
 "url": null
 },
 {
-"ko": "2026-10-22T08:15:00+00:00",
+"ko": "2026-10-22T08:55:00+00:00",
 "titel": "Alexandra Eala – Diana Shnaider",
 "comp": "WTA Tour",
 "sport": "tennis",
 "zenders": [],
-"streams": [],
-"url": null
-},
-{
-"ko": "2026-10-22T09:30:00+00:00",
-"titel": "Daniil Medvedev – Sho Shimabukuro",
-"comp": "ATP Tour",
-"sport": "tennis",
-"zenders": [
-"Ziggo Sport 5"
-],
 "streams": [],
 "url": null
 },
@@ -45,6 +25,17 @@
 "comp": "WTA Tour",
 "sport": "tennis",
 "zenders": [],
+"streams": [],
+"url": null
+},
+{
+"ko": "2026-10-22T11:15:00+00:00",
+"titel": "Daniil Medvedev – Sho Shimabukuro",
+"comp": "ATP Tour",
+"sport": "tennis",
+"zenders": [
+"Ziggo Sport 5"
+],
 "streams": [],
 "url": null
 },
@@ -1356,6 +1347,7 @@
 "comp": "Serie A",
 "sport": "voetbal",
 "zenders": [
+"Ziggo Sport 1",
 "Ziggo Sport 3"
 ],
 "streams": [],
