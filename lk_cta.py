@@ -219,7 +219,14 @@ def main():
 def schrijf_js(kaart):
     """Klein script (Cloudflare, gecachet) dat de CTA-afbeelding boven de link '👉 Klik hier: …' in een
     artikel zet. Zo komt de afbeelding niet in de Webflow-CMS (die host plaatjes zelf -> bandbreedte)."""
-    linkjes = {slug: PROVIDERS[slug]["link"].split("//", 1)[1].split("/", 1)[0] for slug in PROVIDERS}
+    # herkenning op domein van de affiliatelink; via de doorverwijzer (bet-experts.nl/go/<slug>...) herkent slug() de
+    # link aan '/go/'+slug, dus dan het oorspronkelijke domein invullen (anders zou elke eigen link matchen)
+    DOMEIN = {"toto": "partner.toto.nl", "bet365": "www.bet365.nl", "711": "media1.711affiliates.nl",
+              "starcasino": "media1.affiliates.starcasino.nl"}
+    linkjes = {}
+    for slug in PROVIDERS:
+        host = PROVIDERS[slug]["link"].split("//", 1)[1].split("/", 1)[0]
+        linkjes[slug] = DOMEIN.get(slug, host) if host.endswith("bet-experts.nl") else host
     js = """(function(){
 var K=%s,D=%s;
 var css=".lkcta{display:block;margin:22px 0 10px;border-radius:18px;background:#0b1117;overflow:hidden;line-height:0;text-decoration:none!important}"+
@@ -227,7 +234,7 @@ var css=".lkcta{display:block;margin:22px 0 10px;border-radius:18px;background:#
 ".lkcta:hover img{transform:scale(1.03)}"+
 "@media (prefers-reduced-motion:reduce){.lkcta img{transition:none}}";
 var st=document.createElement('style');st.textContent=css;document.head.appendChild(st);
-function slug(h){for(var s in D){if(h.indexOf(D[s])>-1)return s;}return null;}
+function slug(h){for(var s in D){if(h.indexOf(D[s])>-1||h.indexOf('/go/'+s)>-1)return s;}return null;}
 var links=document.querySelectorAll('.w-richtext p > a');
 for(var i=0;i<links.length;i++){var a=links[i],t=(a.textContent||'').trim();
  if(t.indexOf('\\ud83d\\udc49 Klik hier')!==0)continue;

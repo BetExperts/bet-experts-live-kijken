@@ -27,7 +27,7 @@ BONUS = {
     "toto": ("TOTO", (0, 118, 49), "€50 aan free bets",
              "Zet €10 in op een sportweddenschap en ontvang daarna vijf free bets van €10.",
              ["Open je TOTO-account", "Zet €10 in (odds 1.50+)", "Ontvang €50 aan free bets"],
-             "https://partner.toto.nl/C.ashx?btag=a_375b_445c_&affid=184&siteid=375&adid=445&c="),
+             "https://www.bet-experts.nl/go/toto"),
     "bet365": ("Bet365", (2, 123, 91), "Tot €50 aan wedtegoed",
                "Stort €10 en zet in op sport. Daarna ontvang je tot €50 aan wedtegoed.",
                ["Open een Bet365-account", "Stort €10 en zet in", "Ontvang je wedtegoed"],

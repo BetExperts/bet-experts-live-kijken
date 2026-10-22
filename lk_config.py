@@ -30,7 +30,7 @@ RETENTION_DAYS = 3   # 3 dagen na de wedstrijd opruimen (met 301 via Cloudflare)
 PROVIDERS = {
     "toto": {
         "naam": "TOTO",
-        "link": "https://partner.toto.nl/C.ashx?btag=a_375b_619c_&affid=184&siteid=375&adid=619&c=",
+        "link": "https://www.bet-experts.nl/go/toto-live-kijken",
         "cast": False, "deposit": False,      # kijken kan zonder saldo (gebruiker, 8 okt 2026)
     },
     "bet365": {
