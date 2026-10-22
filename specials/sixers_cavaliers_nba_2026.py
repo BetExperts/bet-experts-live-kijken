@@ -131,6 +131,7 @@ content3 = f"""<h3><strong>Onze voorspelling: 76ers winnen hun thuisdebuut</stro
 <p><strong>Wat is onze voorspelling voor 76ers – Cavaliers?</strong><br>De 76ers winnen met 115-108. Onze hoofdtip is een zege van Philadelphia (1,67 bij TOTO).</p>
 <p><em>Wat kost gokken jou? Stop op tijd. 18+</em></p>"""
 
+KAART = {"home": "76ers", "away": "Cavaliers", "home_abbr": "phi", "away_abbr": "cle", "home_pos": "45-37 · nr. 7 Oost 2025/26", "away_pos": "52-30 · nr. 4 Oost 2025/26", "hs": 115, "as": 108, "datum": "Vr 23 okt", "tijd": "01:00", "odd_home": "1,67", "odd_away": "2,30"}
 WEDTIPS = {"wedtip-1-2": "Philadelphia 76ers wint (incl. verlenging)", "quotering-wedtip-1": "1.67",
            "wedtip-2-2": "Minder dan 235,5 punten (incl. verlenging)", "quotering-wedtip-2": "1.93",
            "wedtip-3-2": "Philadelphia 76ers -4,5 punten (incl. verlenging)", "quotering-wedtip-3": "1.98",

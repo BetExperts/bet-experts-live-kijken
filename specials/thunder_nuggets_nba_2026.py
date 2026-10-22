@@ -132,6 +132,7 @@ content3 = f"""<h3><strong>Onze voorspelling: Thunder wint, maar Denver blijft d
 <p><strong>Wat is onze voorspelling voor Thunder – Nuggets?</strong><br>Oklahoma City wint met 122-116. Onze hoofdtip is Denver +8,5 punten inclusief verlenging (1,87 bij TOTO).</p>
 <p><em>Wat kost gokken jou? Stop op tijd. 18+</em></p>"""
 
+KAART = {"home": "OKC Thunder", "away": "Nuggets", "home_abbr": "okc", "away_abbr": "den", "home_pos": "64-18 · nr. 1 West 2025/26", "away_pos": "54-28 · nr. 3 West 2025/26", "hs": 122, "as": 116, "datum": "Vr 23 okt", "tijd": "03:30", "odd_home": "1,31", "odd_away": "3,60"}
 WEDTIPS = {"wedtip-1-2": "Denver Nuggets +8.5 punten (incl. verlenging)", "quotering-wedtip-1": "1.87",
            "wedtip-2-2": "Meer dan 235.5 punten (incl. verlenging)", "quotering-wedtip-2": "1.91",
            "wedtip-3-2": "Shai Gilgeous-Alexander 30+ punten", "quotering-wedtip-3": "1.56",
