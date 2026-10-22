@@ -4,6 +4,21 @@ Uitleg 3-weg handicap met tabel per handicap (−1, −2, +1, +2), euro-voorbeel
 Feiten nagelopen op 21-10-2026:
 - TOTO 'Nadere regels per sport' (online): 2-way en 3-way handicap als wedoptie; bij voetbal geldt de reguliere speeltijd.
   Menunaam 'handicap resultaat' niet in een actueel TOTO-document teruggevonden -> voorzichtig geformuleerd.
+Update 22-10-2026 (autocomplete 'handicap resultaat toto', 'wat is handicap toto', 'handicap resultaat 1.0 betekenis'):
+- TOTO-wedstrijdpagina's gelezen op 22-10-2026 in de ingebouwde browser (alleen lezen, geen cookie- of inlogklikken):
+  sport.toto.nl/wedden/wedstrijd/12542803/psv-vs-feyenoord (Eredivisie, 25-10-2026 14:30) en
+  sport.toto.nl/wedden/wedstrijd/12542801/sparta-rotterdam-vs-ajax (25-10-2026 16:45). De 3-weg handicap heet daar
+  letterlijk 'Handicap Resultaat' (DOM-tekst 'Handicap Resultaat', in hoofdletters getoond via CSS), in het filtertabblad
+  'Handicap (2)'. Kolommen: thuisploeg | Gelijkspel | uitploeg. Lijnen in hele doelpunten met punt en teken: '-1.0', '+1.0',
+  '-2.0', '+3.0'; per rij thuis X / Gelijkspel X / uit -X (de Gelijkspel-kolom toont de handicap van de thuisploeg),
+  bv. 'PSV -1.0 3,15 | Gelijkspel -1.0 4,50 | Feyenoord +1.0 1,72' en 'PSV +1.0 1,34 | Gelijkspel +1.0 5,25 | Feyenoord
+  -1.0 5,50' (quoteringen alleen gebruikt om de opbouw te controleren, niet in de tekst). Geen notatie '(0:1)' bij TOTO.
+  De tweede markt in het tabblad 'Handicap (2)' niet kunnen zien (tabblad niet geopend achter de cookiebanner).
+- TOTO 'Nadere regels per sport' (pdf via toto.nl/deelnemersreglement, 'Geldig vanaf 23 september 2026', gelezen 22-10):
+  2-way en 3-way handicap; Asian Handicap 'Heel doelpunt (bijvoorbeeld Team A -0, Team A -1.0, Team A -2.0)': gelijk na
+  handicap -> quotering 1,00. Daarom in de tekst het verschil Handicap Resultaat (-1.0, X wint) vs Asian -1.0 (inzet terug).
+- Bestaande tabellen ongewijzigd; dit script heeft geen INFOGRAPHIC/pdf. Nieuwe tabel 'Handicap resultaat +1.0' berekend
+  met eh()/score() en ge-assert; teams en quoteringen fictief.
 - Handicapmarkten vallen niet onder Bijlage 2, onderdeel 2.3 Regeling kansspelen op afstand (verboden gebeurtenissen).
 - Marges en equivalenties worden hieronder berekend en ge-assert; Asian-afrekening via og_kaarten/asian_rekenen.py.
   python3 specials/strategie_europese_handicap.py [--live]"""
@@ -19,12 +34,12 @@ from asian_rekenen import handicap
 ITEM_ID = "65048b0a11426cdbe93aef1a"   # Nieuws
 SLUG = "wat-een-europese-handicap-weddenschap"
 RUBRIEK = "6502b66cd9992658b4037cf5"
-TITEL = "Europese handicap: uitleg met tabellen en voorbeelden"
-SAMENVATTING = ("Europese handicap (3-weg) uitgelegd: per handicap −1, −2, +1 en +2 zie je welke uitkomst wint. "
-                "Met rekenvoorbeelden en het verschil met Asian.")
+TITEL = "Handicap resultaat (Europese handicap) uitgelegd: TOTO-voorbeelden"
+SAMENVATTING = ("Handicap resultaat (Europese handicap) uitgelegd: zo lees je +1.0 en -1.0 bij TOTO, met tabellen per "
+                "handicap en het verschil met Asian.")
 
-OG_KOP = "Europese <span>handicap</span>"
-OG_EYEBROW = "3-weg handicap"
+OG_KOP = "Handicap <span>resultaat</span> uitgelegd"
+OG_EYEBROW = "Europese handicap · TOTO-voorbeelden"
 OG_CHIPS = ["Tabel per handicap", "Verschil met Asian"]
 OG_MOTIEF = "tabel"
 OG_DATA = ["−1 · wint met 2+ · 1", "−1 · wint met 1 · X", "−1 · gelijk of verlies · 2"]
@@ -82,6 +97,21 @@ assert pct(marge(O1, OX, O2)) == "6,3%" and pct(marge(2.08, 1.82)) == "3,0%"
 assert eur(10 * O1 - 20) == "€0,50" and eur(10 * OX - 20) == "€18,00"
 
 
+# ---- TOTO Handicap Resultaat, lijn +1.0 voor de thuisploeg (fictief: NEC thuis tegen PSV) ----
+T1, TX, T2 = 1.95, 3.90, 3.30   # NEC +1.0 | Gelijkspel +1.0 | PSV -1.0
+TOTO_RIJEN = []
+for keuze, odd, uitkomst, (t, u), wanneer in [
+        ("NEC +1.0", T1, "1", (1, 1), "NEC wint of speelt gelijk"),
+        ("Gelijkspel +1.0", TX, "X", (1, 2), "PSV wint met precies 1 verschil"),
+        ("PSV -1.0", T2, "2", (0, 2), "PSV wint met 2 of meer verschil")]:
+    vt, vu = score(t, u, 1)
+    assert eh(1, t - u) == uitkomst
+    TOTO_RIJEN.append((f"<strong>{keuze}</strong> ({q(odd)})", wanneer, f"NEC - PSV {t}-{u} wordt {vt}-{vu}", eur(10 * odd)))
+assert [eh(1, s) for s in (2, 1, 0)] == ["1", "1", "1"] and eh(1, -1) == "X" and [eh(1, s) for s in (-2, -3)] == ["2", "2"]
+assert [r[3] for r in TOTO_RIJEN] == ["€19,50", "€39,00", "€33,00"] and pct(marge(T1, TX, T2)) == "7,2%"
+assert eh(-1, 1) == "X" and handicap(-1.0, 1) == 0.0     # 1 verschil: Handicap Resultaat -1.0 -> X; Asian -1.0 -> inzet terug
+
+
 def hc_tabel(lijn, voorbeelden):
     rijen = []
     for t, u in voorbeelden:
@@ -94,13 +124,21 @@ overzicht = tabel(["Handicap thuisploeg"] + KOLOMMEN,
                   [(f"<strong>{n}</strong>",) + tuple(LABEL[eh(l, s)] for s in SALDI)
                    for n, l in [("−2 (0:2)", -2), ("−1 (0:1)", -1), ("+1 (1:0)", 1), ("+2 (2:0)", 2)]])
 
-content = f"""<p><strong>Een Europese handicap is een weddenschap waarbij een team vooraf een virtuele voorsprong of achterstand krijgt van een heel aantal doelpunten, zoals −1 of +2. Na de wedstrijd tel je die handicap op bij de uitslag. Je kiest net als bij 1X2 uit drie uitkomsten: thuiswinst (1), gelijkspel na handicap (X) of uitwinst (2). Speel je PSV −1 en wint PSV met precies één doelpunt verschil, dan wint de X en verlies je je inzet op PSV. Omdat er drie uitkomsten zijn, heet het ook 3-weg handicap.</strong></p>
+content = f"""<p><strong>Handicap resultaat, ook wel Europese handicap of 3-weg handicap, is een weddenschap waarbij een team vooraf een virtuele voorsprong of achterstand krijgt van een heel aantal doelpunten, zoals −1 of +2. Na de wedstrijd tel je die handicap op bij de uitslag. Je kiest net als bij 1X2 uit drie uitkomsten: thuiswinst (1), gelijkspel na handicap (X) of uitwinst (2). Speel je PSV −1 en wint PSV met precies één doelpunt verschil, dan wint de X en verlies je je inzet op PSV. Bij TOTO heet deze markt Handicap Resultaat.</strong></p>
 <p>De Europese handicap is de oudste en simpelste vorm van handicap wedden. Je ziet hem vooral bij voetbal, maar ook bij handbal en ijshockey. Ga je voor het eerst met een Europese handicap gokken, dan is de X het onderdeel dat de meeste verwarring geeft. Hieronder vind je per handicap een tabel met welke uitkomst wint bij welke uitslag, rekenvoorbeelden in euro's en een eerlijke vergelijking met de <a href="/nieuws/wat-is-een-asian-handicap-weddenschap">Asian handicap</a>. Wil je eerst het grotere plaatje? Lees dan onze <a href="/nieuws/wat-is-handicap-wedden-de-complete-gids">complete gids over handicap wedden</a>.</p>
 <h3><strong>Hoe werkt een Europese handicap?</strong></h3>
 <p>De bookmaker geeft een van de twee ploegen een virtuele achterstand of voorsprong in hele doelpunten. Meestal krijgt de favoriet een achterstand. Bij veel bookmakers zie je dat als notatie tussen haakjes: <strong>(0:1)</strong> betekent dat de uitploeg met 1-0 voor begint, dus de thuisploeg speelt −1. <strong>(2:0)</strong> betekent dat de thuisploeg met 2-0 voor begint.</p>
 <p>Daarna werkt het als een gewone 1X2-weddenschap, maar op de aangepaste stand:</p>
 <ul><li><strong>1:</strong> de thuisploeg wint na de handicap.</li><li><strong>X:</strong> het staat gelijk na de handicap.</li><li><strong>2:</strong> de uitploeg wint na de handicap.</li></ul>
 <p>Het belangrijkste om te onthouden: de X betekent hier <strong>niet</strong> dat de wedstrijd echt gelijk eindigt. Het is het gelijkspel ná de handicap. Bij PSV −1 valt de X juist als PSV met precies één doelpunt wint.</p>
+<h3><strong>Handicap resultaat bij TOTO: zo lees je 1.0 en -1.0</strong></h3>
+<p>Bij TOTO vind je de Europese handicap bij een voetbalwedstrijd onder <strong>Handicap Resultaat</strong>, in het tabblad Handicap. TOTO gebruikt geen notatie zoals (0:1). Je ziet drie kolommen: de thuisploeg, <strong>Gelijkspel</strong> en de uitploeg. Per rij staat bij elke keuze een lijn in hele doelpunten, met een punt: +1.0, -1.0, +2.0 enzovoort.</p>
+<ul><li><strong>+1.0</strong> betekent dat die ploeg virtueel met één doelpunt voor begint.</li><li><strong>-1.0</strong> betekent dat die ploeg virtueel met één doelpunt achter begint.</li><li>In de kolom <strong>Gelijkspel</strong> staat de lijn van de thuisploeg. 'Gelijkspel +1.0' is dus: gelijk nadat de thuisploeg er één doelpunt bij krijgt.</li></ul>
+<p>Een voorbeeld met de rij thuis +1.0, met NEC thuis tegen PSV en €10 inzet:</p>
+{tabel(["Keuze bij TOTO", "Je wint als...", "Uitslag na handicap", "€10 wordt"], TOTO_RIJEN)}
+<p><em>Teams en quoteringen in dit voorbeeld zijn fictief.</em></p>
+<p>De rij met <strong>-1.0</strong> voor de thuisploeg lees je net zo, maar dan omgekeerd. Thuis -1.0 wint als de thuisploeg met 2 of meer verschil wint. Gelijkspel -1.0 wint als de thuisploeg met precies 1 verschil wint. Uit +1.0 wint bij een gelijkspel of een zege van de uitploeg. Dat is dezelfde weddenschap als (0:1) in de tabellen hieronder.</p>
+<p>Let op het verschil met de Asian handicap. In de regels van TOTO staat ook een Asian handicap met dezelfde schrijfwijze, zoals -1.0. Daar krijg je bij gelijk na de handicap je inzet terug. Bij Handicap Resultaat niet: dan wint de keuze Gelijkspel en verlies je je inzet op de andere twee. Kijk dus altijd of er een kolom Gelijkspel bij staat.</p>
 <h3><strong>Europese handicap tabel: alle uitkomsten in één overzicht</strong></h3>
 <p>Zoek links de handicap van de thuisploeg en kijk in de kolom naar het echte doelsaldo van de thuisploeg. In de cel staat welke uitkomst wint.</p>
 {overzicht}
@@ -154,13 +192,14 @@ content3 = f"""<h3><strong>Welke Europese handicap is gelijk aan welke Asian han
 <h3><strong>Tips en valkuilen</strong></h3>
 <ul><li><strong>Lees de notatie goed.</strong> (0:1) en (1:0) lijken op elkaar maar zijn elkaars tegenovergestelde.</li><li><strong>Alleen de reguliere speeltijd telt.</strong> Blessuretijd telt mee, verlenging en strafschoppen niet.</li><li><strong>Vergelijk met de Asian lijn.</strong> Voor dezelfde uitkomst kan de quotering verschillen. Gebruik onze <a href="/odds-vergelijken-bij-alle-bookmakers-beste-odds-vandaag">odds vergelijker</a>.</li><li><strong>Een hogere quotering is geen voordeel op zich.</strong> Je krijgt meer omdat je kans kleiner is. Alleen als jouw inschatting beter is dan die van de bookmaker heb je waarde; lees meer over <a href="/nieuws/wat-is-de-wedstrategie-value-betting">value betting</a>.</li><li><strong>Speel bewust.</strong> Bepaal vooraf je budget en zet nooit meer in dan je kunt missen.</li></ul>
 <h3><strong>Europese handicap bij TOTO en andere legale bookmakers</strong></h3>
-<p>Legale bookmakers in Nederland bieden de Europese handicap vrijwel allemaal aan, maar de naam verschilt. Je vindt hem onder namen als "Handicap", "3-weg handicap" of "handicap resultaat", vaak met de notatie (0:1). De 2-weg variant staat er meestal los van als "Asian handicap" of "Aziatische handicap". Handicapmarkten zijn in Nederland toegestaan, omdat ze over de uitslag gaan. Dat geldt niet voor markten op corners of kaarten; lees <a href="/nieuws/dit-is-waarom-wedden-op-corners-niet-meer-legaal-is-in-nederland">waarom wedden op corners niet legaal is</a>. Wed alleen bij een bookmaker met een vergunning van de Kansspelautoriteit. Bij een site zonder vergunning speel je illegaal en zonder bescherming.</p>
+<p>Legale bookmakers in Nederland bieden de Europese handicap vrijwel allemaal aan, maar de naam verschilt. Bij TOTO heet hij Handicap Resultaat, met lijnen als +1.0 en -1.0. Andere bookmakers gebruiken namen als "Handicap" of "3-weg handicap", vaak met de notatie (0:1). De 2-weg variant staat er meestal los van als "Asian handicap" of "Aziatische handicap". Handicapmarkten zijn in Nederland toegestaan, omdat ze over de uitslag gaan. Dat geldt niet voor markten op corners of kaarten; lees <a href="/nieuws/dit-is-waarom-wedden-op-corners-niet-meer-legaal-is-in-nederland">waarom wedden op corners niet legaal is</a>. Wed alleen bij een bookmaker met een vergunning van de Kansspelautoriteit. Bij een site zonder vergunning speel je illegaal en zonder bescherming.</p>
 <p>Legale bookmakers die wij aanraden:</p>
 {aanraders()}
 <h3><strong>Veelgestelde vragen over de Europese handicap</strong></h3>
 <p><strong>Wat is een Europese handicap?</strong><br>Een weddenschap met drie uitkomsten waarbij een team een virtuele voor- of achterstand in hele doelpunten krijgt. Je wedt op 1, X of 2 nadat de handicap bij de uitslag is opgeteld.</p>
 <p><strong>Wat betekent handicap (0:1)?</strong><br>De uitploeg begint virtueel met 1-0 voor. De thuisploeg moet dus met 2 of meer verschil winnen voor uitkomst 1. Wint de thuisploeg met precies 1, dan wint de X.</p>
-<p><strong>Wat is handicap resultaat?</strong><br>Daarmee wordt meestal de Europese of 3-weg handicap bedoeld: het resultaat 1, X of 2 na het toepassen van de handicap.</p>
+<p><strong>Wat is handicap resultaat bij TOTO?</strong><br>Zo heet de Europese of 3-weg handicap bij TOTO. Je kiest de thuisploeg, Gelijkspel of de uitploeg, nadat de handicap bij de uitslag is opgeteld.</p>
+<p><strong>Wat betekent handicap resultaat 1.0?</strong><br>Een virtuele voorsprong (+1.0) of achterstand (-1.0) van één heel doelpunt. Bij +1.0 voor de thuisploeg wint die keuze als de thuisploeg wint of gelijkspeelt. Verliest de thuisploeg met precies 1 verschil, dan wint Gelijkspel.</p>
 <p><strong>Krijg je je inzet terug bij een gelijkspel na de handicap?</strong><br>Nee, bij de Europese handicap niet. Dan wint de X en verliest wie op 1 of 2 heeft ingezet. Inzet terug krijg je alleen bij een Asian handicap met een hele lijn.</p>
 <p><strong>Is een Europese handicap −1 hetzelfde als Asian −1?</strong><br>Nee. Wint je team met precies 1 verschil, dan verlies je bij Europees −1 en krijg je bij Asian −1 je inzet terug. Europees −1 (uitkomst 1) is wel hetzelfde als Asian −1,5.</p>
 <p><strong>Telt de verlenging mee?</strong><br>Bij voetbal niet. Alleen de reguliere speeltijd inclusief blessuretijd telt, tenzij de bookmaker bij de markt iets anders vermeldt.</p>
