@@ -1,5 +1,5 @@
 {
-"bijgewerkt": "2026-10-22T15:11:38.984774+00:00",
+"bijgewerkt": "2026-10-22T16:15:44.254185+00:00",
 "uitzendingen": [
 {
 "ko": "2026-10-22T14:30:00+00:00",
@@ -1405,22 +1405,22 @@
 },
 {
 "ko": "2026-10-25T15:45:00+00:00",
-"titel": "PEC Zwolle (V) – FC Twente (V)",
-"comp": "Eredivisie Vrouwen",
+"titel": "Sparta Rotterdam – Ajax",
+"comp": "Eredivisie",
 "sport": "voetbal",
 "zenders": [
-"ESPN 1"
+"ESPN 3"
 ],
 "streams": [],
 "url": null
 },
 {
 "ko": "2026-10-25T15:45:00+00:00",
-"titel": "Sparta Rotterdam – Ajax",
-"comp": "Eredivisie",
+"titel": "PEC Zwolle (V) – FC Twente (V)",
+"comp": "Eredivisie Vrouwen",
 "sport": "voetbal",
 "zenders": [
-"ESPN 3"
+"ESPN 1"
 ],
 "streams": [],
 "url": null
@@ -1991,7 +1991,7 @@
 },
 {
 "ko": "2026-10-28T20:00:00+00:00",
-"titel": "Arsenal F.C. (V) – S.L. Benfica (V)",
+"titel": "Arsenal (V) – S.L. Benfica (V)",
 "comp": "UEFA Women's Champions League",
 "sport": "voetbal",
 "zenders": [
