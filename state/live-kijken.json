@@ -110,7 +110,7 @@
     "date": "2026-10-22",
     "league": "conference-league",
     "hub": true,
-    "sig": "ee77938ad9b2a751bbce21f4ae0e9369",
+    "sig": "ba8098b8ac77013b32bcdcd26424e5f4",
     "pairs": [
       [
         "617",
@@ -331,7 +331,7 @@
     "date": "2026-10-22",
     "league": "europa-league",
     "hub": true,
-    "sig": "40bfac276b06416ca95843dffa4c6e43",
+    "sig": "176a1487aacba645081d5d23039e9b0a",
     "pairs": [
       [
         "347",
@@ -435,7 +435,7 @@
     "date": "2026-10-21",
     "league": "la-liga",
     "hub": true,
-    "sig": "1aac6eb42bb07357ef202a33641fd272",
+    "sig": "79ce582d8e524ccc95f6a791c91b454b",
     "pairs": [
       [
         "531",
@@ -753,7 +753,7 @@
     "date": "2026-10-25",
     "league": "premier-league",
     "hub": true,
-    "sig": "023b28ea38de5a595a359db1a3770f73",
+    "sig": "0f148961240e8d5cb4ab08b2a69709c1",
     "pairs": [
       [
         "57",
