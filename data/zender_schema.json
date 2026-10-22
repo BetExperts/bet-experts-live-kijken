@@ -1,17 +1,6 @@
 {
-"bijgewerkt": "2026-10-22T17:21:15.090005+00:00",
+"bijgewerkt": "2026-10-22T18:10:24.641212+00:00",
 "uitzendingen": [
-{
-"ko": "2026-10-22T14:30:00+00:00",
-"titel": "Kairat – Panathinaikos FC",
-"comp": "UEFA Conference League",
-"sport": "voetbal",
-"zenders": [
-"Ziggo Sport 4"
-],
-"streams": [],
-"url": null
-},
 {
 "ko": "2026-10-22T16:45:00+00:00",
 "titel": "Lech Poznan – Sunderland",
@@ -295,6 +284,53 @@
 "zenders": [
 "ESPN 1"
 ],
+"streams": [],
+"url": null
+},
+{
+"ko": "2026-10-23T08:00:00+00:00",
+"titel": "Iva Jovic – Diana Shnaider",
+"comp": "WTA Tour",
+"sport": "tennis",
+"zenders": [],
+"streams": [],
+"url": null
+},
+{
+"ko": "2026-10-23T09:30:00+00:00",
+"titel": "Daniil Medvedev – Térence Atmane",
+"comp": "ATP Tour",
+"sport": "tennis",
+"zenders": [],
+"streams": [],
+"url": null
+},
+{
+"ko": "2026-10-23T11:00:00+00:00",
+"titel": "Elena Rybakina – Katarzyna Kawa",
+"comp": "WTA Tour",
+"sport": "tennis",
+"zenders": [],
+"streams": [],
+"url": null
+},
+{
+"ko": "2026-10-23T14:00:00+00:00",
+"titel": "Tallon Griekspoor – Jiří Lehečka",
+"comp": "ATP Tour",
+"sport": "tennis",
+"zenders": [
+"Ziggo Sport 5"
+],
+"streams": [],
+"url": null
+},
+{
+"ko": "2026-10-23T16:30:00+00:00",
+"titel": "Arthur Fils – Alex Michelsen",
+"comp": "ATP Tour",
+"sport": "tennis",
+"zenders": [],
 "streams": [],
 "url": null
 },
@@ -855,6 +891,15 @@
 },
 {
 "ko": "2026-10-24T13:00:00+00:00",
+"titel": "Gaziantep – Erzurumspor",
+"comp": "Süper Lig",
+"sport": "voetbal",
+"zenders": [],
+"streams": [],
+"url": null
+},
+{
+"ko": "2026-10-24T13:00:00+00:00",
 "titel": "Cagliari – Bologna",
 "comp": "Serie A",
 "sport": "voetbal",
@@ -870,15 +915,6 @@
 "zenders": [
 "Ziggo Sport 1"
 ],
-"streams": [],
-"url": null
-},
-{
-"ko": "2026-10-24T13:00:00+00:00",
-"titel": "Gaziantep – Erzurumspor",
-"comp": "Süper Lig",
-"sport": "voetbal",
-"zenders": [],
 "streams": [],
 "url": null
 },
@@ -939,15 +975,6 @@
 },
 {
 "ko": "2026-10-24T14:00:00+00:00",
-"titel": "Antwerp – Charleroi",
-"comp": "Pro League",
-"sport": "voetbal",
-"zenders": [],
-"streams": [],
-"url": null
-},
-{
-"ko": "2026-10-24T14:00:00+00:00",
 "titel": "Arsenal – Everton",
 "comp": "Premier League",
 "sport": "voetbal",
@@ -965,6 +992,15 @@
 "zenders": [
 "Viaplay TV"
 ],
+"streams": [],
+"url": null
+},
+{
+"ko": "2026-10-24T14:00:00+00:00",
+"titel": "Antwerp – Charleroi",
+"comp": "Pro League",
+"sport": "voetbal",
+"zenders": [],
 "streams": [],
 "url": null
 },
@@ -992,22 +1028,22 @@
 },
 {
 "ko": "2026-10-24T14:30:00+00:00",
-"titel": "Dordrecht – VVV Venlo",
-"comp": "Keuken Kampioen Divisie",
+"titel": "FC Utrecht – PEC Zwolle",
+"comp": "Eredivisie",
 "sport": "voetbal",
 "zenders": [
-"ESPN 1"
+"ESPN 2"
 ],
 "streams": [],
 "url": null
 },
 {
 "ko": "2026-10-24T14:30:00+00:00",
-"titel": "FC Utrecht – PEC Zwolle",
-"comp": "Eredivisie",
+"titel": "Dordrecht – VVV Venlo",
+"comp": "Keuken Kampioen Divisie",
 "sport": "voetbal",
 "zenders": [
-"ESPN 2"
+"ESPN 1"
 ],
 "streams": [],
 "url": null
@@ -1020,6 +1056,15 @@
 "zenders": [
 "Viaplay"
 ],
+"streams": [],
+"url": null
+},
+{
+"ko": "2026-10-24T16:00:00+00:00",
+"titel": "Samsunspor – Amedspor",
+"comp": "Süper Lig",
+"sport": "voetbal",
+"zenders": [],
 "streams": [],
 "url": null
 },
@@ -1069,7 +1114,7 @@
 },
 {
 "ko": "2026-10-24T16:45:00+00:00",
-"titel": "Willem II – Cambuur",
+"titel": "Willem II – SC Cambuur",
 "comp": "Eredivisie",
 "sport": "voetbal",
 "zenders": [
@@ -1113,22 +1158,22 @@
 },
 {
 "ko": "2026-10-24T18:45:00+00:00",
-"titel": "Lens – Paris FC",
-"comp": "Ligue 1",
+"titel": "Lazio – Parma",
+"comp": "Serie A",
 "sport": "voetbal",
 "zenders": [
-"Viaplay TV"
+"Ziggo Sport 2"
 ],
 "streams": [],
 "url": null
 },
 {
 "ko": "2026-10-24T18:45:00+00:00",
-"titel": "Lazio – Parma",
-"comp": "Serie A",
+"titel": "Lens – Paris FC",
+"comp": "Ligue 1",
 "sport": "voetbal",
 "zenders": [
-"Ziggo Sport 2"
+"Viaplay TV"
 ],
 "streams": [],
 "url": null
@@ -1146,7 +1191,7 @@
 },
 {
 "ko": "2026-10-24T19:00:00+00:00",
-"titel": "Atlético Madrid – Deportivo La Coruña",
+"titel": "Atlético Madrid – Deportivo La Coruna",
 "comp": "La Liga",
 "sport": "voetbal",
 "zenders": [
@@ -1200,6 +1245,17 @@
 "url": null
 },
 {
+"ko": "2026-10-25T11:00:00+00:00",
+"titel": "MotoGP van Australië",
+"comp": "MotoGP",
+"sport": "autosport",
+"zenders": [
+"Ziggo Sport 1"
+],
+"streams": [],
+"url": null
+},
+{
 "ko": "2026-10-25T11:15:00+00:00",
 "titel": "Fortuna Sittard – Excelsior",
 "comp": "Eredivisie",
@@ -1223,12 +1279,21 @@
 },
 {
 "ko": "2026-10-25T11:30:00+00:00",
-"titel": "Inter Milan – Fiorentina",
+"titel": "Inter – Fiorentina",
 "comp": "Serie A",
 "sport": "voetbal",
 "zenders": [
 "Ziggo Sport 3"
 ],
+"streams": [],
+"url": null
+},
+{
+"ko": "2026-10-25T12:30:00+00:00",
+"titel": "KRC Genk – Standard Luik",
+"comp": "Pro League",
+"sport": "voetbal",
+"zenders": [],
 "streams": [],
 "url": null
 },
@@ -1267,12 +1332,21 @@
 },
 {
 "ko": "2026-10-25T13:00:00+00:00",
-"titel": "Athletic Bilbao – Getafe",
+"titel": "Athletic Club – Getafe",
 "comp": "La Liga",
 "sport": "voetbal",
 "zenders": [
 "Ziggo Sport 2"
 ],
+"streams": [],
+"url": null
+},
+{
+"ko": "2026-10-25T13:00:00+00:00",
+"titel": "Konyaspor – Genclerbirligi",
+"comp": "Süper Lig",
+"sport": "voetbal",
+"zenders": [],
 "streams": [],
 "url": null
 },
@@ -1311,6 +1385,28 @@
 },
 {
 "ko": "2026-10-25T14:00:00+00:00",
+"titel": "Liverpool – Brighton",
+"comp": "Premier League",
+"sport": "voetbal",
+"zenders": [
+"Viaplay"
+],
+"streams": [],
+"url": null
+},
+{
+"ko": "2026-10-25T14:00:00+00:00",
+"titel": "Crystal Palace – Newcastle",
+"comp": "Premier League",
+"sport": "voetbal",
+"zenders": [
+"Viaplay TV"
+],
+"streams": [],
+"url": null
+},
+{
+"ko": "2026-10-25T14:00:00+00:00",
 "titel": "Atalanta – Frosinone",
 "comp": "Serie A",
 "sport": "voetbal",
@@ -1323,29 +1419,7 @@
 },
 {
 "ko": "2026-10-25T14:00:00+00:00",
-"titel": "Crystal Palace – Newcastle United",
-"comp": "Premier League",
-"sport": "voetbal",
-"zenders": [
-"Viaplay"
-],
-"streams": [],
-"url": null
-},
-{
-"ko": "2026-10-25T14:00:00+00:00",
 "titel": "Hull City – Brentford",
-"comp": "Premier League",
-"sport": "voetbal",
-"zenders": [
-"Viaplay"
-],
-"streams": [],
-"url": null
-},
-{
-"ko": "2026-10-25T14:00:00+00:00",
-"titel": "Liverpool – Brighton",
 "comp": "Premier League",
 "sport": "voetbal",
 "zenders": [
