@@ -1,5 +1,5 @@
 {
-"bijgewerkt": "2026-10-23T03:37:39.736681+00:00",
+"bijgewerkt": "2026-10-23T07:35:33.053244+00:00",
 "uitzendingen": [
 {
 "ko": "2026-10-23T08:00:00+00:00",
@@ -45,39 +45,6 @@
 "comp": "ATP Tour",
 "sport": "tennis",
 "zenders": [],
-"streams": [],
-"url": null
-},
-{
-"ko": "2026-10-23T16:30:00+00:00",
-"titel": "Bochum – VfL Wolfsburg",
-"comp": "2. Bundesliga",
-"sport": "voetbal",
-"zenders": [
-"Viaplay"
-],
-"streams": [],
-"url": null
-},
-{
-"ko": "2026-10-23T16:30:00+00:00",
-"titel": "Darmstadt 98 – St. Pauli",
-"comp": "2. Bundesliga",
-"sport": "voetbal",
-"zenders": [
-"Viaplay"
-],
-"streams": [],
-"url": null
-},
-{
-"ko": "2026-10-23T16:30:00+00:00",
-"titel": "RB Leipzig (V) – Bayern München (V)",
-"comp": "Frauen Bundesliga",
-"sport": "voetbal",
-"zenders": [
-"Viaplay"
-],
 "streams": [],
 "url": null
 },
@@ -245,9 +212,7 @@
 "titel": "VfB Stuttgart – Borussia Mönchengladbach",
 "comp": "Bundesliga",
 "sport": "voetbal",
-"zenders": [
-"Viaplay"
-],
+"zenders": [],
 "streams": [
 "711"
 ],
@@ -258,9 +223,7 @@
 "titel": "Stade Brestois 29 – Nice",
 "comp": "Ligue 1",
 "sport": "voetbal",
-"zenders": [
-"Viaplay"
-],
+"zenders": [],
 "streams": [
 "711"
 ],
@@ -293,138 +256,6 @@
 "sport": "voetbal",
 "zenders": [
 "Viaplay"
-],
-"streams": [],
-"url": null
-},
-{
-"ko": "2026-10-23T19:00:00+00:00",
-"titel": "Bolton Wanderers – Middlesbrough",
-"comp": "EFL Championship",
-"sport": "voetbal",
-"zenders": [
-"Viaplay"
-],
-"streams": [],
-"url": null
-},
-{
-"ko": "2026-10-23T23:30:00+00:00",
-"titel": "Atlanta United FC – Chicago Fire FC",
-"comp": "MLS",
-"sport": "voetbal",
-"zenders": [
-"Apple TV"
-],
-"streams": [],
-"url": null
-},
-{
-"ko": "2026-10-23T23:30:00+00:00",
-"titel": "DC United – FC Cincinnati",
-"comp": "MLS",
-"sport": "voetbal",
-"zenders": [
-"Apple TV"
-],
-"streams": [],
-"url": null
-},
-{
-"ko": "2026-10-23T23:30:00+00:00",
-"titel": "Orlando City SC – New York City",
-"comp": "MLS",
-"sport": "voetbal",
-"zenders": [
-"Apple TV"
-],
-"streams": [],
-"url": null
-},
-{
-"ko": "2026-10-23T23:30:00+00:00",
-"titel": "Philadelphia Union – New England Revolution",
-"comp": "MLS",
-"sport": "voetbal",
-"zenders": [
-"Apple TV"
-],
-"streams": [],
-"url": null
-},
-{
-"ko": "2026-10-24T00:30:00+00:00",
-"titel": "Colorado Rapids – Vancouver Whitecaps FC",
-"comp": "MLS",
-"sport": "voetbal",
-"zenders": [
-"Apple TV"
-],
-"streams": [],
-"url": null
-},
-{
-"ko": "2026-10-24T00:30:00+00:00",
-"titel": "FC Dallas – San Jose Earthquakes",
-"comp": "MLS",
-"sport": "voetbal",
-"zenders": [
-"Apple TV"
-],
-"streams": [],
-"url": null
-},
-{
-"ko": "2026-10-24T00:30:00+00:00",
-"titel": "Houston Dynamo FC – Minnesota United FC",
-"comp": "MLS",
-"sport": "voetbal",
-"zenders": [
-"Apple TV"
-],
-"streams": [],
-"url": null
-},
-{
-"ko": "2026-10-24T00:30:00+00:00",
-"titel": "Real Salt Lake – St. Louis City",
-"comp": "MLS",
-"sport": "voetbal",
-"zenders": [
-"Apple TV"
-],
-"streams": [],
-"url": null
-},
-{
-"ko": "2026-10-24T00:30:00+00:00",
-"titel": "Sporting Kansas City – Austin FC",
-"comp": "MLS",
-"sport": "voetbal",
-"zenders": [
-"Apple TV"
-],
-"streams": [],
-"url": null
-},
-{
-"ko": "2026-10-24T01:30:00+00:00",
-"titel": "Portland Timbers – Charlotte FC",
-"comp": "MLS",
-"sport": "voetbal",
-"zenders": [
-"Apple TV"
-],
-"streams": [],
-"url": null
-},
-{
-"ko": "2026-10-24T01:30:00+00:00",
-"titel": "San Diego – Seattle Sounders FC",
-"comp": "MLS",
-"sport": "voetbal",
-"zenders": [
-"Apple TV"
 ],
 "streams": [],
 "url": null
@@ -497,7 +328,7 @@
 },
 {
 "ko": "2026-10-24T10:00:00+00:00",
-"titel": "VfL Wolfsburg (V) – Köln (V)",
+"titel": "VfL Wolfsburg (V) – FC Koln (V)",
 "comp": "Frauen Bundesliga",
 "sport": "voetbal",
 "zenders": [
@@ -561,7 +392,7 @@
 },
 {
 "ko": "2026-10-24T11:30:00+00:00",
-"titel": "Charlton Athletic – Norwich City",
+"titel": "Charlton Athletic FC – Norwich City",
 "comp": "EFL Championship",
 "sport": "voetbal",
 "zenders": [
@@ -572,7 +403,7 @@
 },
 {
 "ko": "2026-10-24T11:45:00+00:00",
-"titel": "Tottenham Hotspur (V) – Arsenal (V)",
+"titel": "Tottenham Hotspur (V) – Arsenal F.C. (V)",
 "comp": "FA WSL",
 "sport": "voetbal",
 "zenders": [
@@ -763,17 +594,6 @@
 "url": null
 },
 {
-"ko": "2026-10-24T15:15:00+00:00",
-"titel": "Toulouse – Estac Troyes",
-"comp": "Ligue 1",
-"sport": "voetbal",
-"zenders": [
-"Viaplay"
-],
-"streams": [],
-"url": null
-},
-{
 "ko": "2026-10-24T16:00:00+00:00",
 "titel": "Samsunspor – Amedspor",
 "comp": "Süper Lig",
@@ -833,17 +653,6 @@
 "sport": "voetbal",
 "zenders": [
 "ESPN 1"
-],
-"streams": [],
-"url": null
-},
-{
-"ko": "2026-10-24T17:30:00+00:00",
-"titel": "Montreal CF – Nashville SC",
-"comp": "MLS",
-"sport": "voetbal",
-"zenders": [
-"Apple TV"
 ],
 "streams": [],
 "url": null
@@ -916,44 +725,12 @@
 },
 {
 "ko": "2026-10-24T19:30:00+00:00",
-"titel": "Columbus Crew – Toronto FC",
-"comp": "MLS",
-"sport": "voetbal",
-"zenders": [
-"Apple TV"
-],
-"streams": [],
-"url": null
-},
-{
-"ko": "2026-10-24T19:30:00+00:00",
 "titel": "Gil Vicente – FC Porto",
 "comp": "Primeira Liga",
 "sport": "voetbal",
 "zenders": [
+"Ziggo Sport 1",
 "Ziggo Sport 5"
-],
-"streams": [],
-"url": null
-},
-{
-"ko": "2026-10-24T21:30:00+00:00",
-"titel": "New York Red Bulls – Inter Miami CF",
-"comp": "MLS",
-"sport": "voetbal",
-"zenders": [
-"Apple TV"
-],
-"streams": [],
-"url": null
-},
-{
-"ko": "2026-10-25T00:00:00+00:00",
-"titel": "Los Angeles FC – LA Galaxy",
-"comp": "MLS",
-"sport": "voetbal",
-"zenders": [
-"Apple TV"
 ],
 "streams": [],
 "url": null
@@ -982,7 +759,7 @@
 },
 {
 "ko": "2026-10-25T11:15:00+00:00",
-"titel": "SC Heerenveen (V) – AZ (V)",
+"titel": "sc Heerenveen (V) – AZ (V)",
 "comp": "Eredivisie Vrouwen",
 "sport": "voetbal",
 "zenders": [
@@ -1066,7 +843,7 @@
 },
 {
 "ko": "2026-10-25T13:00:00+00:00",
-"titel": "Werder Bremen (V) – Freiburg (V)",
+"titel": "Werder Bremen (V) – SC Freiburg (V)",
 "comp": "Frauen Bundesliga",
 "sport": "voetbal",
 "zenders": [
@@ -1227,20 +1004,20 @@
 "url": null
 },
 {
-"ko": "2026-10-25T15:45:00+00:00",
-"titel": "PEC Zwolle (V) – FC Twente (V)",
-"comp": "Eredivisie Vrouwen",
+"ko": "2026-10-25T16:00:00+00:00",
+"titel": "Hamburger SV (V) – Union Berlin (V)",
+"comp": "Frauen Bundesliga",
 "sport": "voetbal",
 "zenders": [
-"ESPN 1"
+"Viaplay"
 ],
 "streams": [],
 "url": null
 },
 {
-"ko": "2026-10-25T16:00:00+00:00",
-"titel": "Hamburger SV (V) – Union Berlin (V)",
-"comp": "Frauen Bundesliga",
+"ko": "2026-10-25T16:15:00+00:00",
+"titel": "Toulouse – Estac Troyes",
+"comp": "Ligue 1",
 "sport": "voetbal",
 "zenders": [
 "Viaplay"
@@ -1284,17 +1061,6 @@
 {
 "ko": "2026-10-25T16:15:00+00:00",
 "titel": "Marseille – Le Havre",
-"comp": "Ligue 1",
-"sport": "voetbal",
-"zenders": [
-"Viaplay"
-],
-"streams": [],
-"url": null
-},
-{
-"ko": "2026-10-25T16:15:00+00:00",
-"titel": "Toulouse – Troyes",
 "comp": "Ligue 1",
 "sport": "voetbal",
 "zenders": [
@@ -1349,7 +1115,7 @@
 },
 {
 "ko": "2026-10-25T18:00:00+00:00",
-"titel": "Manchester United (V) – Manchester City (V)",
+"titel": "Manchester United (V) – Manchester City F.C. (V)",
 "comp": "FA WSL",
 "sport": "voetbal",
 "zenders": [
@@ -1360,7 +1126,7 @@
 },
 {
 "ko": "2026-10-25T19:00:00+00:00",
-"titel": "AZ – FC Twente",
+"titel": "AZ Alkmaar – FC Twente",
 "comp": "Eredivisie",
 "sport": "voetbal",
 "zenders": [
@@ -1403,17 +1169,6 @@
 "url": null
 },
 {
-"ko": "2026-10-25T21:00:00+00:00",
-"titel": "Kansas City Current (V) – Washington Spirit (V)",
-"comp": "National Women's Soccer League",
-"sport": "voetbal",
-"zenders": [
-"ESPN Extra"
-],
-"streams": [],
-"url": null
-},
-{
 "ko": "2026-10-26T13:45:00+00:00",
 "titel": "FC Neftchi Fergana – Al-Ittihad FC",
 "comp": "AFC Champions League",
@@ -1426,7 +1181,7 @@
 },
 {
 "ko": "2026-10-26T18:15:00+00:00",
-"titel": "Al Quadisiya – Al Sadd",
+"titel": "Al-Qadisiyah FC – Al Sadd",
 "comp": "AFC Champions League",
 "sport": "voetbal",
 "zenders": [
@@ -1437,22 +1192,11 @@
 },
 {
 "ko": "2026-10-26T18:45:00+00:00",
-"titel": "CD Santa Clara – S.L. Benfica",
+"titel": "CD Santa Clara – Benfica",
 "comp": "Primeira Liga",
 "sport": "voetbal",
 "zenders": [
 "Ziggo Sport 3"
-],
-"streams": [],
-"url": null
-},
-{
-"ko": "2026-10-26T19:45:00+00:00",
-"titel": "Montpellier – Red Star",
-"comp": "Ligue 2",
-"sport": "voetbal",
-"zenders": [
-"Viaplay"
 ],
 "streams": [],
 "url": null
@@ -1471,7 +1215,7 @@
 {
 "ko": "2026-10-26T20:00:00+00:00",
 "titel": "Walsall – Salford City",
-"comp": "League Two",
+"comp": "EFL League Two",
 "sport": "voetbal",
 "zenders": [
 "Viaplay"
@@ -1514,7 +1258,7 @@
 },
 {
 "ko": "2026-10-27T19:00:00+00:00",
-"titel": "Kloetinge – Cambuur",
+"titel": "VV Kloetinge – Cambuur",
 "comp": "KNVB Beker",
 "sport": "voetbal",
 "zenders": [
@@ -1580,61 +1324,6 @@
 "url": null
 },
 {
-"ko": "2026-10-27T23:30:00+00:00",
-"titel": "Charlotte FC – Montreal CF",
-"comp": "MLS",
-"sport": "voetbal",
-"zenders": [
-"Apple TV"
-],
-"streams": [],
-"url": null
-},
-{
-"ko": "2026-10-27T23:30:00+00:00",
-"titel": "Inter Miami CF – FC Cincinnati",
-"comp": "MLS",
-"sport": "voetbal",
-"zenders": [
-"Apple TV"
-],
-"streams": [],
-"url": null
-},
-{
-"ko": "2026-10-27T23:30:00+00:00",
-"titel": "New England Revolution – New York Red Bulls",
-"comp": "MLS",
-"sport": "voetbal",
-"zenders": [
-"Apple TV"
-],
-"streams": [],
-"url": null
-},
-{
-"ko": "2026-10-27T23:30:00+00:00",
-"titel": "New York City – Atlanta United FC",
-"comp": "MLS",
-"sport": "voetbal",
-"zenders": [
-"Apple TV"
-],
-"streams": [],
-"url": null
-},
-{
-"ko": "2026-10-27T23:30:00+00:00",
-"titel": "Toronto FC – DC United",
-"comp": "MLS",
-"sport": "voetbal",
-"zenders": [
-"Apple TV"
-],
-"streams": [],
-"url": null
-},
-{
 "ko": "2026-10-28T17:00:00+00:00",
 "titel": "Dynamo Dresden – Schalke 04",
 "comp": "DFB Pokal",
@@ -1673,30 +1362,19 @@
 "comp": "UEFA Women's Champions League",
 "sport": "voetbal",
 "zenders": [
-"Disney+"
-],
-"streams": [],
-"url": null
-},
-{
-"ko": "2026-10-28T17:45:00+00:00",
-"titel": "Chelsea (V) – AS Roma (V)",
-"comp": "UEFA Women's Champions League",
-"sport": "voetbal",
-"zenders": [
-"Disney+"
-],
-"streams": [],
-"url": null
-},
-{
-"ko": "2026-10-28T17:45:00+00:00",
-"titel": "Servette Chênois (V) – OH Leuven (V)",
-"comp": "UEFA Women's Champions League",
-"sport": "voetbal",
-"zenders": [
 "Disney+",
 "VRT Canvas"
+],
+"streams": [],
+"url": null
+},
+{
+"ko": "2026-10-28T17:45:00+00:00",
+"titel": "Chelsea F.C. (V) – AS Roma (V)",
+"comp": "UEFA Women's Champions League",
+"sport": "voetbal",
+"zenders": [
+"Disney+"
 ],
 "streams": [],
 "url": null
@@ -1707,7 +1385,7 @@
 "comp": "KNVB Beker",
 "sport": "voetbal",
 "zenders": [
-"ESPN 2"
+"Ziggo Sport 2"
 ],
 "streams": [],
 "url": null
@@ -1836,7 +1514,7 @@
 },
 {
 "ko": "2026-10-28T20:00:00+00:00",
-"titel": "Lyon (V) – Inter Milan (V)",
+"titel": "OL Lyonnes (V) – Inter Milan (V)",
 "comp": "UEFA Women's Champions League",
 "sport": "voetbal",
 "zenders": [

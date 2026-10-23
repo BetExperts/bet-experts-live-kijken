@@ -110,7 +110,7 @@
     "date": "2026-10-22",
     "league": "conference-league",
     "hub": true,
-    "sig": "7a54e26a749dbe6d3859a8eef873ee3a",
+    "sig": "8d6069f012d2ed594fcf02cb15294a5f",
     "pairs": [
       [
         "617",
@@ -331,7 +331,7 @@
     "date": "2026-10-22",
     "league": "europa-league",
     "hub": true,
-    "sig": "6400cb0f854bcb9aee12054c1401ec37",
+    "sig": "039673cbb812057c39d3d474367c270b",
     "pairs": [
       [
         "413",
@@ -1397,8 +1397,8 @@
     "provider": "711",
     "home_id": "172",
     "away_id": "163",
-    "tv_sig": "Viaplay|711|False|False",
-    "og": "og/stuttgart-borussia-monchengladbach-live-gratis-kijken-23-10-2026-387362.webp",
+    "tv_sig": "|711|False|False",
+    "og": "og/stuttgart-borussia-monchengladbach-live-gratis-kijken-23-10-2026-903362.webp",
     "og_done": "og/stuttgart-borussia-monchengladbach-live-gratis-kijken-23-10-2026-387362.webp"
   },
   "1552794": {
@@ -1410,8 +1410,8 @@
     "provider": "711",
     "home_id": "106",
     "away_id": "84",
-    "tv_sig": "Viaplay|711|False|False",
-    "og": "og/brest-ogc-nice-live-gratis-kijken-23-10-2026-ad13f1.webp",
+    "tv_sig": "|711|False|False",
+    "og": "og/brest-ogc-nice-live-gratis-kijken-23-10-2026-163ffc.webp",
     "og_done": "og/brest-ogc-nice-live-gratis-kijken-23-10-2026-ad13f1.webp"
   },
   "1552198": {
