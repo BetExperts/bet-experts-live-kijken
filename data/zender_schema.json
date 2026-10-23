@@ -1,5 +1,5 @@
 {
-"bijgewerkt": "2026-10-23T17:18:36.475555+00:00",
+"bijgewerkt": "2026-10-23T18:47:06.185037+00:00",
 "uitzendingen": [
 {
 "ko": "2026-10-23T16:30:00+00:00",
@@ -458,6 +458,15 @@
 "url": null
 },
 {
+"ko": "2026-10-24T09:30:00+00:00",
+"titel": "Elena Rybakina – Diana Shnaider",
+"comp": "WTA Tour",
+"sport": "tennis",
+"zenders": [],
+"streams": [],
+"url": null
+},
+{
 "ko": "2026-10-24T10:00:00+00:00",
 "titel": "VfL Wolfsburg (V) – Köln (V)",
 "comp": "Frauen Bundesliga",
@@ -478,6 +487,15 @@
 "TOTO"
 ],
 "url": "/nieuws/eyupspor-kasimpasa-live-gratis-kijken-24-10-2026"
+},
+{
+"ko": "2026-10-24T11:00:00+00:00",
+"titel": "Van Veen – Woodhouse",
+"comp": "EK Darts",
+"sport": "darts",
+"zenders": [],
+"streams": [],
+"url": null
 },
 {
 "ko": "2026-10-24T11:00:00+00:00",
@@ -1076,11 +1094,53 @@
 },
 {
 "ko": "2026-10-25T14:00:00+00:00",
+"titel": "Hull City – Brentford",
+"comp": "Premier League",
+"sport": "voetbal",
+"zenders": [
+"Viaplay"
+],
+"streams": [],
+"url": null
+},
+{
+"ko": "2026-10-25T14:00:00+00:00",
+"titel": "Monaco – Lille",
+"comp": "Ligue 1",
+"sport": "voetbal",
+"zenders": [
+"Viaplay"
+],
+"streams": [],
+"url": null
+},
+{
+"ko": "2026-10-25T14:00:00+00:00",
+"titel": "Genoa – Venezia",
+"comp": "Serie A",
+"sport": "voetbal",
+"zenders": [],
+"streams": [],
+"url": null
+},
+{
+"ko": "2026-10-25T14:00:00+00:00",
 "titel": "Manchester United – Bournemouth",
 "comp": "Premier League",
 "sport": "voetbal",
 "zenders": [
 "Viaplay"
+],
+"streams": [],
+"url": null
+},
+{
+"ko": "2026-10-25T14:00:00+00:00",
+"titel": "Atalanta – Frosinone",
+"comp": "Serie A",
+"sport": "voetbal",
+"zenders": [
+"Ziggo Sport 1"
 ],
 "streams": [],
 "url": null
@@ -1103,49 +1163,6 @@
 "sport": "voetbal",
 "zenders": [
 "Viaplay TV"
-],
-"streams": [],
-"url": null
-},
-{
-"ko": "2026-10-25T14:00:00+00:00",
-"titel": "Hull City – Brentford",
-"comp": "Premier League",
-"sport": "voetbal",
-"zenders": [
-"Viaplay"
-],
-"streams": [],
-"url": null
-},
-{
-"ko": "2026-10-25T14:00:00+00:00",
-"titel": "Genoa – Venezia",
-"comp": "Serie A",
-"sport": "voetbal",
-"zenders": [],
-"streams": [],
-"url": null
-},
-{
-"ko": "2026-10-25T14:00:00+00:00",
-"titel": "Monaco – Lille",
-"comp": "Ligue 1",
-"sport": "voetbal",
-"zenders": [
-"Viaplay"
-],
-"streams": [],
-"url": null
-},
-{
-"ko": "2026-10-25T14:00:00+00:00",
-"titel": "Atalanta – Frosinone",
-"comp": "Serie A",
-"sport": "voetbal",
-"zenders": [
-"Ziggo Sport 1",
-"Ziggo Sport 3"
 ],
 "streams": [],
 "url": null
@@ -1211,6 +1228,15 @@
 "zenders": [
 "ESPN 1"
 ],
+"streams": [],
+"url": null
+},
+{
+"ko": "2026-10-25T16:00:00+00:00",
+"titel": "Goztepe – Corum",
+"comp": "Süper Lig",
+"sport": "voetbal",
+"zenders": [],
 "streams": [],
 "url": null
 },
@@ -1282,19 +1308,19 @@
 },
 {
 "ko": "2026-10-25T16:30:00+00:00",
-"titel": "Freiburg – Bayern München",
-"comp": "Bundesliga",
+"titel": "Sunderland – Leeds",
+"comp": "Premier League",
 "sport": "voetbal",
 "zenders": [
-"Viaplay"
+"Viaplay TV+"
 ],
 "streams": [],
 "url": null
 },
 {
 "ko": "2026-10-25T16:30:00+00:00",
-"titel": "Sunderland – Leeds United",
-"comp": "Premier League",
+"titel": "SC Freiburg – Bayern München",
+"comp": "Bundesliga",
 "sport": "voetbal",
 "zenders": [
 "Viaplay"
@@ -1325,6 +1351,15 @@
 "url": null
 },
 {
+"ko": "2026-10-25T17:30:00+00:00",
+"titel": "KAA Gent – Anderlecht",
+"comp": "Pro League",
+"sport": "voetbal",
+"zenders": [],
+"streams": [],
+"url": null
+},
+{
 "ko": "2026-10-25T18:00:00+00:00",
 "titel": "Manchester United (V) – Manchester City (V)",
 "comp": "FA WSL",
@@ -1332,6 +1367,15 @@
 "zenders": [
 "Ziggo Sport 5"
 ],
+"streams": [],
+"url": null
+},
+{
+"ko": "2026-10-25T18:15:00+00:00",
+"titel": "Union Sint-Gillis – Cercle Brugge",
+"comp": "Pro League",
+"sport": "voetbal",
+"zenders": [],
 "streams": [],
 "url": null
 },
@@ -1364,6 +1408,17 @@
 "sport": "voetbal",
 "zenders": [
 "Ziggo Sport 2"
+],
+"streams": [],
+"url": null
+},
+{
+"ko": "2026-10-25T20:00:00+00:00",
+"titel": "GP van de Verenigde Staten",
+"comp": "Formule 1",
+"sport": "autosport",
+"zenders": [
+"Viaplay"
 ],
 "streams": [],
 "url": null
