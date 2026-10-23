@@ -1,72 +1,6 @@
 {
-"bijgewerkt": "2026-10-22T21:22:50.922571+00:00",
+"bijgewerkt": "2026-10-23T03:37:39.736681+00:00",
 "uitzendingen": [
-{
-"ko": "2026-10-22T19:00:00+00:00",
-"titel": "Bournemouth – AC Milan",
-"comp": "Europa League",
-"sport": "voetbal",
-"zenders": [
-"Ziggo Sport 5"
-],
-"streams": [],
-"url": "/nieuws/bournemouth-ac-milan-live-gratis-kijken-22-10-2026"
-},
-{
-"ko": "2026-10-22T19:00:00+00:00",
-"titel": "Ajax – Atalanta",
-"comp": "Conference League",
-"sport": "voetbal",
-"zenders": [
-"Ziggo Sport 1"
-],
-"streams": [],
-"url": "/nieuws/ajax-atalanta-live-gratis-kijken-22-10-2026"
-},
-{
-"ko": "2026-10-22T19:00:00+00:00",
-"titel": "1899 Hoffenheim – Lyon",
-"comp": "Europa League",
-"sport": "voetbal",
-"zenders": [
-"Ziggo Sport 6"
-],
-"streams": [],
-"url": "/nieuws/hoffenheim-lyon-live-gratis-kijken-22-10-2026"
-},
-{
-"ko": "2026-10-22T19:00:00+00:00",
-"titel": "Lincoln Red Imps FC – FC Twente",
-"comp": "Conference League",
-"sport": "voetbal",
-"zenders": [
-"Ziggo Sport 2"
-],
-"streams": [],
-"url": "/nieuws/lincoln-red-imps-fc-fc-twente-live-gratis-kijken-22-10-2026"
-},
-{
-"ko": "2026-10-22T19:00:00+00:00",
-"titel": "Monaco – Freiburg",
-"comp": "UEFA Conference League",
-"sport": "voetbal",
-"zenders": [
-"Ziggo Sport 3"
-],
-"streams": [],
-"url": null
-},
-{
-"ko": "2026-10-23T00:30:00+00:00",
-"titel": "CR Flamengo – Estudiantes de La Plata",
-"comp": "Copa Libertadores",
-"sport": "voetbal",
-"zenders": [
-"ESPN 1"
-],
-"streams": [],
-"url": null
-},
 {
 "ko": "2026-10-23T08:00:00+00:00",
 "titel": "Iva Jovic – Diana Shnaider",
@@ -187,17 +121,6 @@
 },
 {
 "ko": "2026-10-23T18:00:00+00:00",
-"titel": "FC Eindhoven – Jong PSV U21",
-"comp": "Keuken Kampioen Divisie",
-"sport": "voetbal",
-"zenders": [
-"ESPN Extra"
-],
-"streams": [],
-"url": "/nieuws/fc-eindhoven-jong-psv-live-gratis-kijken-23-10-2026"
-},
-{
-"ko": "2026-10-23T18:00:00+00:00",
 "titel": "TOP Oss – Jong Ajax",
 "comp": "Keuken Kampioen Divisie",
 "sport": "voetbal",
@@ -305,6 +228,17 @@
 ],
 "streams": [],
 "url": "/nieuws/fc-den-bosch-mvv-live-gratis-kijken-23-10-2026"
+},
+{
+"ko": "2026-10-23T18:00:00+00:00",
+"titel": "FC Eindhoven – Jong PSV U21",
+"comp": "Keuken Kampioen Divisie",
+"sport": "voetbal",
+"zenders": [
+"ESPN Extra"
+],
+"streams": [],
+"url": "/nieuws/fc-eindhoven-jong-psv-live-gratis-kijken-23-10-2026"
 },
 {
 "ko": "2026-10-23T18:30:00+00:00",
@@ -700,28 +634,6 @@
 },
 {
 "ko": "2026-10-24T13:30:00+00:00",
-"titel": "RB Leipzig – SV Elversberg",
-"comp": "Bundesliga",
-"sport": "voetbal",
-"zenders": [
-"Viaplay"
-],
-"streams": [],
-"url": null
-},
-{
-"ko": "2026-10-24T13:30:00+00:00",
-"titel": "SC Paderborn 07 – Hamburger SV",
-"comp": "Bundesliga",
-"sport": "voetbal",
-"zenders": [
-"Viaplay"
-],
-"streams": [],
-"url": null
-},
-{
-"ko": "2026-10-24T13:30:00+00:00",
 "titel": "1. FC Köln – FC Schalke 04",
 "comp": "Bundesliga",
 "sport": "voetbal",
@@ -745,6 +657,28 @@
 {
 "ko": "2026-10-24T13:30:00+00:00",
 "titel": "FC Augsburg – Union Berlin",
+"comp": "Bundesliga",
+"sport": "voetbal",
+"zenders": [
+"Viaplay"
+],
+"streams": [],
+"url": null
+},
+{
+"ko": "2026-10-24T13:30:00+00:00",
+"titel": "RB Leipzig – SV Elversberg",
+"comp": "Bundesliga",
+"sport": "voetbal",
+"zenders": [
+"Viaplay"
+],
+"streams": [],
+"url": null
+},
+{
+"ko": "2026-10-24T13:30:00+00:00",
+"titel": "SC Paderborn 07 – Hamburger SV",
 "comp": "Bundesliga",
 "sport": "voetbal",
 "zenders": [
@@ -938,17 +872,6 @@
 },
 {
 "ko": "2026-10-24T18:45:00+00:00",
-"titel": "Lazio – Parma",
-"comp": "Serie A",
-"sport": "voetbal",
-"zenders": [
-"Ziggo Sport 2"
-],
-"streams": [],
-"url": null
-},
-{
-"ko": "2026-10-24T18:45:00+00:00",
 "titel": "Lens – Paris FC",
 "comp": "Ligue 1",
 "sport": "voetbal",
@@ -959,12 +882,12 @@
 "url": null
 },
 {
-"ko": "2026-10-24T19:00:00+00:00",
-"titel": "Atlético Madrid – Deportivo La Coruna",
-"comp": "La Liga",
+"ko": "2026-10-24T18:45:00+00:00",
+"titel": "Lazio – Parma",
+"comp": "Serie A",
 "sport": "voetbal",
 "zenders": [
-"Ziggo Sport 1"
+"Ziggo Sport 2"
 ],
 "streams": [],
 "url": null
@@ -976,6 +899,17 @@
 "sport": "voetbal",
 "zenders": [
 "ESPN 1"
+],
+"streams": [],
+"url": null
+},
+{
+"ko": "2026-10-24T19:00:00+00:00",
+"titel": "Atlético Madrid – Deportivo La Coruna",
+"comp": "La Liga",
+"sport": "voetbal",
+"zenders": [
+"Ziggo Sport 1"
 ],
 "streams": [],
 "url": null
@@ -1327,6 +1261,17 @@
 },
 {
 "ko": "2026-10-25T16:15:00+00:00",
+"titel": "Rennes – Strasbourg",
+"comp": "Ligue 1",
+"sport": "voetbal",
+"zenders": [
+"Viaplay"
+],
+"streams": [],
+"url": null
+},
+{
+"ko": "2026-10-25T16:15:00+00:00",
 "titel": "Auxerre – Le Mans",
 "comp": "Ligue 1",
 "sport": "voetbal",
@@ -1339,17 +1284,6 @@
 {
 "ko": "2026-10-25T16:15:00+00:00",
 "titel": "Marseille – Le Havre",
-"comp": "Ligue 1",
-"sport": "voetbal",
-"zenders": [
-"Viaplay"
-],
-"streams": [],
-"url": null
-},
-{
-"ko": "2026-10-25T16:15:00+00:00",
-"titel": "Rennes – Strasbourg",
 "comp": "Ligue 1",
 "sport": "voetbal",
 "zenders": [
@@ -1869,7 +1803,7 @@
 },
 {
 "ko": "2026-10-28T20:00:00+00:00",
-"titel": "Arsenal (V) – S.L. Benfica (V)",
+"titel": "Arsenal F.C. (V) – SL Benfica (V)",
 "comp": "UEFA Women's Champions League",
 "sport": "voetbal",
 "zenders": [
