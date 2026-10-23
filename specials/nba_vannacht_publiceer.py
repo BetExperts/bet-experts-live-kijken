@@ -1,23 +1,25 @@
 # -*- coding: utf-8 -*-
-"""Publiceert specials/nba_vannacht_2026_10_22.py: deelkaart (og/nieuws/nieuws-<slug>.webp via GitHub raw), Nieuws-item live
+"""Publiceert een NBA-vannacht-artikel (standaard specials/nba_vannacht_2026_10_22.py, of de module als eerste argument): deelkaart (og/nieuws/nieuws-<slug>.webp via GitHub raw), Nieuws-item live
 (rubriek Basketball, competitie NBA, wedtip-velden) en de 4 tips als losse Wedtips-items (rubriek Nachtkraker, status Open).
-  set -a; . ../superodd-agent/.env; set +a; ../superodd-agent/.venv/bin/python specials/nba_vannacht_publiceer.py [--live]"""
+  set -a; . ../superodd-agent/.env; set +a; ../superodd-agent/.venv/bin/python specials/nba_vannacht_publiceer.py [nba_vannacht_2026_10_24] [--live]
+Optioneel in de module: DATUM (eerste aanvang, ISO UTC), NAMEN en STAKE (per tip), anders de waarden hieronder."""
 import os, sys, re, time, subprocess, urllib.request
 from datetime import datetime, timezone
 HIER = os.path.dirname(os.path.abspath(__file__)); ROOT = os.path.join(HIER, "..")
 sys.path.insert(0, ROOT); sys.path.insert(0, HIER); sys.path.insert(0, os.path.join(ROOT, "og_kaarten"))
+import importlib
 import lk_webflow as WF
-import nba_vannacht_2026_10_22 as A
+A = importlib.import_module(next((a for a in sys.argv[1:] if not a.startswith("--")), "nba_vannacht_2026_10_22"))
 
 RAW = "https://raw.githubusercontent.com/BetExperts/bet-experts-live-kijken/main/og/nieuws/"
-BET365 = "https://www.bet365.nl/hub/nl-nl/open-account?affiliate=365_02599619"
+BET365 = "https://www.bet-experts.nl/go/bet365"
 WEDTIPS = "6a2037823226b3069c415cb3"
 NACHTKRAKER = "64ff0fbd5a8f205b05d54694"
 TOTO = "669ab9f5aceb8b717cea24c3"
 COMPETITIE_NBA = "66703df1b7a346f6d0897dbe"
 BASKETBALL, OPEN = "784d598a0d9dcf16f7a3afe894cc7305", "3d380375c3388a2f82083a0beb5652eb"
-STAKE = [4, 4, 4, 5]
-NAMEN = ["Utah stunt in Memphis!", "Hawks houden Orlando bij!", "Haliburton is terug!", "Trae Young en Davis openen met winst!"]
+STAKE = getattr(A, "STAKE", [4, 4, 4, 5])
+NAMEN = getattr(A, "NAMEN", ["Utah stunt in Memphis!", "Hawks houden Orlando bij!", "Haliburton is terug!", "Trae Young en Davis openen met winst!"])
 CTA = (f'<p><a href="{BET365}"><strong>👉 Klik hier: maak je Bet365-account aan en kijk de NBA vannacht live</strong></a></p>')
 
 
@@ -54,7 +56,7 @@ def main(live):
     # Nieuws-item
     fd = {"name": A.TITEL, "slug": A.SLUG, "content": content, "content-2": A.content2, "content-3": A.content3,
           "samenvatting": A.SAMENVATTING, "rubriek": A.RUBRIEK, "competitie": COMPETITIE_NBA,
-          "datum-tijd-van-wedstrijd": "2026-10-21T23:00:00.000Z", "publicatiedatum": datetime.now(timezone.utc).isoformat(),
+          "datum-tijd-van-wedstrijd": getattr(A, "DATUM", "2026-10-21T23:00:00.000Z"), "publicatiedatum": datetime.now(timezone.utc).isoformat(),
           "afbeelding": beeld, "seo-afbeelding": beeld, "bookmaker-wedtips": TOTO}
     for i, t in enumerate(tips[:3], 1):
         fd[f"wedtip-{i}-2"] = f"{t['wedstrijd'].replace(' vs. ', ' – ')}: {t['tip']}"
