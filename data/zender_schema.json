@@ -1,28 +1,6 @@
 {
-"bijgewerkt": "2026-10-24T14:01:08.857357+00:00",
+"bijgewerkt": "2026-10-24T14:37:58.429504+00:00",
 "uitzendingen": [
-{
-"ko": "2026-10-24T11:30:00+00:00",
-"titel": "Aston Villa – Manchester City",
-"comp": "Premier League",
-"sport": "voetbal",
-"zenders": [
-"Prime Video"
-],
-"streams": [],
-"url": "/nieuws/aston-villa-manchester-city-live-gratis-kijken-24-10-2026"
-},
-{
-"ko": "2026-10-24T11:30:00+00:00",
-"titel": "Charlton Athletic – Norwich City",
-"comp": "EFL Championship",
-"sport": "voetbal",
-"zenders": [
-"Viaplay"
-],
-"streams": [],
-"url": null
-},
 {
 "ko": "2026-10-24T11:45:00+00:00",
 "titel": "Tottenham Hotspur (V) – Arsenal (V)",
@@ -154,17 +132,6 @@
 ],
 "streams": [],
 "url": "/nieuws/arsenal-everton-live-gratis-kijken-24-10-2026"
-},
-{
-"ko": "2026-10-24T14:00:00+00:00",
-"titel": "Antwerp – Charleroi",
-"comp": "Pro League",
-"sport": "voetbal",
-"zenders": [],
-"streams": [
-"711"
-],
-"url": "/nieuws/antwerp-charleroi-live-gratis-kijken-24-10-2026"
 },
 {
 "ko": "2026-10-24T14:00:00+00:00",
@@ -594,28 +561,6 @@
 },
 {
 "ko": "2026-10-25T14:00:00+00:00",
-"titel": "Manchester United – Bournemouth",
-"comp": "Premier League",
-"sport": "voetbal",
-"zenders": [
-"Viaplay"
-],
-"streams": [],
-"url": null
-},
-{
-"ko": "2026-10-25T14:00:00+00:00",
-"titel": "Atalanta – Frosinone",
-"comp": "Serie A",
-"sport": "voetbal",
-"zenders": [
-"Ziggo Sport 1"
-],
-"streams": [],
-"url": null
-},
-{
-"ko": "2026-10-25T14:00:00+00:00",
 "titel": "Liverpool – Brighton",
 "comp": "Premier League",
 "sport": "voetbal",
@@ -664,6 +609,28 @@
 "comp": "Serie A",
 "sport": "voetbal",
 "zenders": [],
+"streams": [],
+"url": null
+},
+{
+"ko": "2026-10-25T14:00:00+00:00",
+"titel": "Manchester United – Bournemouth",
+"comp": "Premier League",
+"sport": "voetbal",
+"zenders": [
+"Viaplay"
+],
+"streams": [],
+"url": null
+},
+{
+"ko": "2026-10-25T14:00:00+00:00",
+"titel": "Atalanta – Frosinone",
+"comp": "Serie A",
+"sport": "voetbal",
+"zenders": [
+"Ziggo Sport 1"
+],
 "streams": [],
 "url": null
 },
