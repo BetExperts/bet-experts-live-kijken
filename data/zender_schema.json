@@ -1,27 +1,16 @@
 {
-"bijgewerkt": "2026-10-24T17:29:33.895038+00:00",
+"bijgewerkt": "2026-10-24T18:04:56.526469+00:00",
 "uitzendingen": [
 {
-"ko": "2026-10-24T14:30:00+00:00",
-"titel": "FC Utrecht – PEC Zwolle",
-"comp": "Eredivisie",
+"ko": "2026-10-24T16:00:00+00:00",
+"titel": "Samsunspor – Amedspor",
+"comp": "Süper Lig",
 "sport": "voetbal",
-"zenders": [
-"ESPN 2"
+"zenders": [],
+"streams": [
+"TOTO"
 ],
-"streams": [],
-"url": "/nieuws/fc-utrecht-pec-zwolle-live-gratis-kijken-24-10-2026"
-},
-{
-"ko": "2026-10-24T14:30:00+00:00",
-"titel": "Dordrecht – VVV Venlo",
-"comp": "Keuken Kampioen Divisie",
-"sport": "voetbal",
-"zenders": [
-"ESPN 1"
-],
-"streams": [],
-"url": "/nieuws/fc-dordrecht-vvv-venlo-live-gratis-kijken-24-10-2026"
+"url": "/nieuws/samsunspor-amed-live-gratis-kijken-24-10-2026"
 },
 {
 "ko": "2026-10-24T16:00:00+00:00",
@@ -35,17 +24,6 @@
 "Bet365"
 ],
 "url": "/nieuws/napoli-as-roma-live-gratis-kijken-24-10-2026"
-},
-{
-"ko": "2026-10-24T16:00:00+00:00",
-"titel": "Samsunspor – Amedspor",
-"comp": "Süper Lig",
-"sport": "voetbal",
-"zenders": [],
-"streams": [
-"TOTO"
-],
-"url": "/nieuws/samsunspor-amed-live-gratis-kijken-24-10-2026"
 },
 {
 "ko": "2026-10-24T16:30:00+00:00",
@@ -150,19 +128,6 @@
 },
 {
 "ko": "2026-10-24T18:45:00+00:00",
-"titel": "Lazio – Parma",
-"comp": "Serie A",
-"sport": "voetbal",
-"zenders": [
-"Ziggo Sport 2"
-],
-"streams": [
-"Bet365"
-],
-"url": "/nieuws/lazio-parma-live-gratis-kijken-24-10-2026"
-},
-{
-"ko": "2026-10-24T18:45:00+00:00",
 "titel": "Lens – Paris FC",
 "comp": "Ligue 1",
 "sport": "voetbal",
@@ -173,6 +138,19 @@
 "Starcasino"
 ],
 "url": "/nieuws/lens-paris-fc-live-gratis-kijken-24-10-2026"
+},
+{
+"ko": "2026-10-24T18:45:00+00:00",
+"titel": "Lazio – Parma",
+"comp": "Serie A",
+"sport": "voetbal",
+"zenders": [
+"Ziggo Sport 2"
+],
+"streams": [
+"Bet365"
+],
+"url": "/nieuws/lazio-parma-live-gratis-kijken-24-10-2026"
 },
 {
 "ko": "2026-10-24T18:45:00+00:00",
@@ -269,6 +247,24 @@
 "url": null
 },
 {
+"ko": "2026-10-25T08:00:00+00:00",
+"titel": "Elena Rybakina – Leylah Fernandez",
+"comp": "WTA Tour",
+"sport": "tennis",
+"zenders": [],
+"streams": [],
+"url": null
+},
+{
+"ko": "2026-10-25T10:00:00+00:00",
+"titel": "Daniil Medvedev – Nikoloz Basilashvili",
+"comp": "ATP Tour",
+"sport": "tennis",
+"zenders": [],
+"streams": [],
+"url": null
+},
+{
 "ko": "2026-10-25T11:15:00+00:00",
 "titel": "Fortuna Sittard – Excelsior",
 "comp": "Eredivisie",
@@ -349,17 +345,6 @@
 },
 {
 "ko": "2026-10-25T13:00:00+00:00",
-"titel": "Konyaspor – Genclerbirligi",
-"comp": "Süper Lig",
-"sport": "voetbal",
-"zenders": [],
-"streams": [
-"Bet365"
-],
-"url": "/nieuws/konyaspor-genclerbirligi-live-gratis-kijken-25-10-2026"
-},
-{
-"ko": "2026-10-25T13:00:00+00:00",
 "titel": "Athletic Club – Getafe",
 "comp": "La Liga",
 "sport": "voetbal",
@@ -370,6 +355,17 @@
 "TOTO"
 ],
 "url": "/nieuws/athletic-bilbao-getafe-live-gratis-kijken-25-10-2026"
+},
+{
+"ko": "2026-10-25T13:00:00+00:00",
+"titel": "Konyaspor – Genclerbirligi",
+"comp": "Süper Lig",
+"sport": "voetbal",
+"zenders": [],
+"streams": [
+"Bet365"
+],
+"url": "/nieuws/konyaspor-genclerbirligi-live-gratis-kijken-25-10-2026"
 },
 {
 "ko": "2026-10-25T13:00:00+00:00",
@@ -403,17 +399,6 @@
 ],
 "streams": [],
 "url": "/nieuws/psv-feyenoord-live-gratis-kijken-25-10-2026"
-},
-{
-"ko": "2026-10-25T14:00:00+00:00",
-"titel": "Hull City – Brentford",
-"comp": "Premier League",
-"sport": "voetbal",
-"zenders": [
-"Viaplay"
-],
-"streams": [],
-"url": null
 },
 {
 "ko": "2026-10-25T14:00:00+00:00",
@@ -482,6 +467,17 @@
 ],
 "streams": [],
 "url": "/nieuws/crystal-palace-newcastle-united-live-gratis-kijken-25-10-2026"
+},
+{
+"ko": "2026-10-25T14:00:00+00:00",
+"titel": "Hull City – Brentford",
+"comp": "Premier League",
+"sport": "voetbal",
+"zenders": [
+"Viaplay"
+],
+"streams": [],
+"url": null
 },
 {
 "ko": "2026-10-25T14:30:00+00:00",
@@ -632,17 +628,6 @@
 },
 {
 "ko": "2026-10-25T16:30:00+00:00",
-"titel": "Sunderland – Leeds",
-"comp": "Premier League",
-"sport": "voetbal",
-"zenders": [
-"Viaplay TV+"
-],
-"streams": [],
-"url": null
-},
-{
-"ko": "2026-10-25T16:30:00+00:00",
 "titel": "SC Freiburg – Bayern München",
 "comp": "Bundesliga",
 "sport": "voetbal",
@@ -653,6 +638,17 @@
 "711"
 ],
 "url": "/nieuws/freiburg-bayern-munchen-live-gratis-kijken-25-10-2026"
+},
+{
+"ko": "2026-10-25T16:30:00+00:00",
+"titel": "Sunderland – Leeds",
+"comp": "Premier League",
+"sport": "voetbal",
+"zenders": [
+"Viaplay TV+"
+],
+"streams": [],
+"url": null
 },
 {
 "ko": "2026-10-25T17:00:00+00:00",
@@ -669,6 +665,17 @@
 },
 {
 "ko": "2026-10-25T17:30:00+00:00",
+"titel": "KAA Gent – Anderlecht",
+"comp": "Pro League",
+"sport": "voetbal",
+"zenders": [],
+"streams": [
+"711"
+],
+"url": "/nieuws/gent-anderlecht-live-gratis-kijken-25-10-2026"
+},
+{
+"ko": "2026-10-25T17:30:00+00:00",
 "titel": "Real Sociedad – Levante",
 "comp": "La Liga",
 "sport": "voetbal",
@@ -679,17 +686,6 @@
 "TOTO"
 ],
 "url": "/nieuws/real-sociedad-levante-live-gratis-kijken-25-10-2026"
-},
-{
-"ko": "2026-10-25T17:30:00+00:00",
-"titel": "KAA Gent – Anderlecht",
-"comp": "Pro League",
-"sport": "voetbal",
-"zenders": [],
-"streams": [
-"711"
-],
-"url": "/nieuws/gent-anderlecht-live-gratis-kijken-25-10-2026"
 },
 {
 "ko": "2026-10-25T18:00:00+00:00",
