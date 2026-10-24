@@ -1,127 +1,6 @@
 {
-"bijgewerkt": "2026-10-24T01:11:46.787140+00:00",
+"bijgewerkt": "2026-10-24T06:56:39.464764+00:00",
 "uitzendingen": [
-{
-"ko": "2026-10-23T23:30:00+00:00",
-"titel": "Atlanta United FC – Chicago Fire FC",
-"comp": "MLS",
-"sport": "voetbal",
-"zenders": [
-"Apple TV"
-],
-"streams": [],
-"url": null
-},
-{
-"ko": "2026-10-23T23:30:00+00:00",
-"titel": "DC United – FC Cincinnati",
-"comp": "MLS",
-"sport": "voetbal",
-"zenders": [
-"Apple TV"
-],
-"streams": [],
-"url": null
-},
-{
-"ko": "2026-10-23T23:30:00+00:00",
-"titel": "Orlando City SC – New York City",
-"comp": "MLS",
-"sport": "voetbal",
-"zenders": [
-"Apple TV"
-],
-"streams": [],
-"url": null
-},
-{
-"ko": "2026-10-23T23:30:00+00:00",
-"titel": "Philadelphia Union – New England Revolution",
-"comp": "MLS",
-"sport": "voetbal",
-"zenders": [
-"Apple TV"
-],
-"streams": [],
-"url": null
-},
-{
-"ko": "2026-10-24T00:30:00+00:00",
-"titel": "Colorado Rapids – Vancouver Whitecaps FC",
-"comp": "MLS",
-"sport": "voetbal",
-"zenders": [
-"Apple TV"
-],
-"streams": [],
-"url": null
-},
-{
-"ko": "2026-10-24T00:30:00+00:00",
-"titel": "FC Dallas – San Jose Earthquakes",
-"comp": "MLS",
-"sport": "voetbal",
-"zenders": [
-"Apple TV"
-],
-"streams": [],
-"url": null
-},
-{
-"ko": "2026-10-24T00:30:00+00:00",
-"titel": "Houston Dynamo FC – Minnesota United FC",
-"comp": "MLS",
-"sport": "voetbal",
-"zenders": [
-"Apple TV"
-],
-"streams": [],
-"url": null
-},
-{
-"ko": "2026-10-24T00:30:00+00:00",
-"titel": "Real Salt Lake – St. Louis City",
-"comp": "MLS",
-"sport": "voetbal",
-"zenders": [
-"Apple TV"
-],
-"streams": [],
-"url": null
-},
-{
-"ko": "2026-10-24T00:30:00+00:00",
-"titel": "Sporting Kansas City – Austin FC",
-"comp": "MLS",
-"sport": "voetbal",
-"zenders": [
-"Apple TV"
-],
-"streams": [],
-"url": null
-},
-{
-"ko": "2026-10-24T01:30:00+00:00",
-"titel": "Portland Timbers – Charlotte FC",
-"comp": "MLS",
-"sport": "voetbal",
-"zenders": [
-"Apple TV"
-],
-"streams": [],
-"url": null
-},
-{
-"ko": "2026-10-24T01:30:00+00:00",
-"titel": "San Diego – Seattle Sounders FC",
-"comp": "MLS",
-"sport": "voetbal",
-"zenders": [
-"Apple TV"
-],
-"streams": [],
-"url": null
-},
 {
 "ko": "2026-10-24T09:30:00+00:00",
 "titel": "Elena Rybakina – Diana Shnaider",
@@ -1617,7 +1496,7 @@
 },
 {
 "ko": "2026-10-28T20:00:00+00:00",
-"titel": "Arsenal (V) – S.L. Benfica (V)",
+"titel": "Arsenal – SL Benfica",
 "comp": "UEFA Women's Champions League",
 "sport": "voetbal",
 "zenders": [
@@ -1650,7 +1529,7 @@
 },
 {
 "ko": "2026-10-28T20:00:00+00:00",
-"titel": "Lyon (V) – Inter Milan (V)",
+"titel": "Lyon – Inter Milan",
 "comp": "UEFA Women's Champions League",
 "sport": "voetbal",
 "zenders": [
@@ -1661,7 +1540,7 @@
 },
 {
 "ko": "2026-10-29T07:45:00+00:00",
-"titel": "Adelaide United FC – Lion City Sailors F.C.",
+"titel": "Adelaide United FC – Lion City Sailors FC",
 "comp": "AFC Champions League Two",
 "sport": "voetbal",
 "zenders": [
@@ -1684,7 +1563,7 @@
 },
 {
 "ko": "2026-10-29T17:45:00+00:00",
-"titel": "Austria Wien (V) – Juventus (V)",
+"titel": "Austria Wien – Juventus",
 "comp": "UEFA Women's Champions League",
 "sport": "voetbal",
 "zenders": [
@@ -1706,7 +1585,7 @@
 },
 {
 "ko": "2026-10-29T17:45:00+00:00",
-"titel": "Paris FC (V) – BK Häcken (V)",
+"titel": "Paris FC – BK Häcken",
 "comp": "UEFA Women's Champions League",
 "sport": "voetbal",
 "zenders": [
@@ -1772,7 +1651,7 @@
 },
 {
 "ko": "2026-10-29T20:00:00+00:00",
-"titel": "Manchester City (V) – Paris Saint-Germain (V)",
+"titel": "Manchester City (V) – Paris Saint Germain (V)",
 "comp": "UEFA Women's Champions League",
 "sport": "voetbal",
 "zenders": [
@@ -1805,7 +1684,7 @@
 },
 {
 "ko": "2026-10-30T18:00:00+00:00",
-"titel": "Le Havre – Paris Saint-Germain F.C.",
+"titel": "Le Havre – Paris Saint-Germain",
 "comp": "Ligue 1",
 "sport": "voetbal",
 "zenders": [
@@ -1827,7 +1706,7 @@
 },
 {
 "ko": "2026-10-30T20:00:00+00:00",
-"titel": "Sheffield United – Wrexham AFC",
+"titel": "Sheffield United – Wrexham",
 "comp": "EFL Championship",
 "sport": "voetbal",
 "zenders": [

@@ -571,7 +571,7 @@
     "date": "2026-10-26",
     "league": "super-lig",
     "hub": true,
-    "sig": "e86622806729ee27597b623548ea3a01",
+    "sig": "afb6939e20ce5ff5b028cb48fb4b4853",
     "pairs": [
       [
         "7411",
@@ -630,7 +630,7 @@
     "date": "2026-10-25",
     "league": "eredivisie",
     "hub": true,
-    "sig": "ecd2cf55bdd88e07dcf4ab25d2cbec92",
+    "sig": "d54975b3b9abb5f7d2a8bc2ffffed6fa",
     "pairs": [
       [
         "410",
@@ -689,7 +689,7 @@
     "date": "2026-10-24",
     "league": "eerste-divisie",
     "hub": true,
-    "sig": "d6c1b91ddae5251334193aa927dd765f",
+    "sig": "6dae0d552edc18b6bb6b6403aadbf693",
     "pairs": [
       [
         "200",
@@ -753,7 +753,7 @@
     "date": "2026-10-25",
     "league": "premier-league",
     "hub": true,
-    "sig": "8298c36cf2c9b0df7772b09773f73972",
+    "sig": "650fffaa6050ffd8a2454ecfd42c6c4b",
     "pairs": [
       [
         "57",
@@ -817,7 +817,7 @@
     "date": "2026-10-25",
     "league": "serie-a",
     "hub": true,
-    "sig": "e4cebb7620c5b839d879d033e254964a",
+    "sig": "4c225c1407a284f6bea2e77fb2e67755",
     "pairs": [
       [
         "1579",
@@ -881,7 +881,7 @@
     "date": "2026-10-25",
     "league": "bundesliga",
     "hub": true,
-    "sig": "a9224b27745af759af2bd39a7baedae6",
+    "sig": "fdf23311b697b5feb07fe9a6cdddd1b6",
     "pairs": [
       [
         "163",
@@ -940,7 +940,7 @@
     "date": "2026-10-25",
     "league": "ligue-1",
     "hub": true,
-    "sig": "b36e90e1b3bc49d2993ec86f400c3379",
+    "sig": "1de3d415b8b5b9fdb36c20d2ca9950e3",
     "pairs": [
       [
         "106",
@@ -1318,7 +1318,7 @@
     "date": "2026-10-26",
     "league": "la-liga",
     "hub": true,
-    "sig": "16af299f96dbadd8725fad4cc85084e1",
+    "sig": "53dcb333e212f19a18a0be0f89897a36",
     "pairs": [
       [
         "535",
@@ -1816,5 +1816,63 @@
     "tv_sig": "ESPN 1|TOTO|False|True",
     "og": "og/fc-dordrecht-vvv-venlo-live-gratis-kijken-24-10-2026-4a4d58.webp",
     "og_done": "og/fc-dordrecht-vvv-venlo-live-gratis-kijken-24-10-2026-4a4d58.webp"
+  },
+  "hub:jupiler-pro-league-speelronde-9-op-tv-24-oktober-2026": {
+    "item_id": "6adc56a51abe63fa652681d4",
+    "slug": "jupiler-pro-league-speelronde-9-op-tv-24-oktober-2026",
+    "match": "Jupiler Pro League speelronde 9",
+    "date": "2026-11-04",
+    "league": "jupiler-pro-league",
+    "hub": true,
+    "sig": "c0e35f86305513304bb1493bc5fc59be",
+    "pairs": [
+      [
+        "736",
+        "740",
+        "2026-10-24"
+      ],
+      [
+        "259",
+        "260",
+        "2026-10-24"
+      ],
+      [
+        "261",
+        "738",
+        "2026-10-24"
+      ],
+      [
+        "5902",
+        "600",
+        "2026-10-24"
+      ],
+      [
+        "733",
+        "742",
+        "2026-10-25"
+      ],
+      [
+        "569",
+        "735",
+        "2026-10-25"
+      ],
+      [
+        "554",
+        "631",
+        "2026-10-25"
+      ],
+      [
+        "1393",
+        "741",
+        "2026-10-25"
+      ],
+      [
+        "266",
+        "734",
+        "2026-11-04"
+      ]
+    ],
+    "ronde": "Regular Season - 9",
+    "og": "og/jupiler-pro-league-speelronde-9-op-tv-24-oktober-2026-b22e23.webp"
   }
 }
