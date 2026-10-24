@@ -396,7 +396,7 @@
     "date": "2026-10-25",
     "league": "premier-league",
     "hub": true,
-    "sig": "650fffaa6050ffd8a2454ecfd42c6c4b",
+    "sig": "3d275a57406559c903d16f1e1de3fae6",
     "pairs": [
       [
         "57",
@@ -460,7 +460,7 @@
     "date": "2026-10-25",
     "league": "serie-a",
     "hub": true,
-    "sig": "4c225c1407a284f6bea2e77fb2e67755",
+    "sig": "2afe84952aca8c24913cbb4d08a5f1f7",
     "pairs": [
       [
         "1579",
@@ -1339,8 +1339,8 @@
     "provider": "711",
     "home_id": "173",
     "away_id": "1660",
-    "tv_sig": "Viaplay|711|False|False",
-    "og": "og/rb-leipzig-elversberg-live-gratis-kijken-24-10-2026-9a3384.webp",
+    "tv_sig": "|711|False|False",
+    "og": "og/rb-leipzig-elversberg-live-gratis-kijken-24-10-2026-3fef4a.webp",
     "og_done": "og/rb-leipzig-elversberg-live-gratis-kijken-24-10-2026-9a3384.webp"
   },
   "1575194": {
@@ -1352,8 +1352,8 @@
     "provider": "711",
     "home_id": "165",
     "away_id": "169",
-    "tv_sig": "Viaplay|711|False|False",
-    "og": "og/borussia-dortmund-eintracht-frankfurt-live-gratis-kijken-24-10-2026-a1da7c.webp",
+    "tv_sig": "|711|False|False",
+    "og": "og/borussia-dortmund-eintracht-frankfurt-live-gratis-kijken-24-10-2026-e36e4b.webp",
     "og_done": "og/borussia-dortmund-eintracht-frankfurt-live-gratis-kijken-24-10-2026-a1da7c.webp"
   },
   "1552795": {
@@ -1378,8 +1378,8 @@
     "provider": "Bet365",
     "home_id": "762",
     "away_id": "212",
-    "tv_sig": "Ziggo Sport 5|Bet365|False|True",
-    "og": "og/gil-vicente-fc-porto-live-gratis-kijken-24-10-2026-1029ae.webp",
+    "tv_sig": "Ziggo Sport|Bet365|False|True",
+    "og": "og/gil-vicente-fc-porto-live-gratis-kijken-24-10-2026-b5c1c4.webp",
     "og_done": "og/gil-vicente-fc-porto-live-gratis-kijken-24-10-2026-1029ae.webp"
   },
   "1490556": {
