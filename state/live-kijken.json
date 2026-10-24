@@ -214,7 +214,7 @@
     "date": "2026-10-26",
     "league": "super-lig",
     "hub": true,
-    "sig": "170b7ac8665617bac0cb93827cd7bc97",
+    "sig": "7faf495f1847c3f0301b7eacbdc8a5d0",
     "pairs": [
       [
         "7411",
@@ -273,7 +273,7 @@
     "date": "2026-10-25",
     "league": "eredivisie",
     "hub": true,
-    "sig": "89b421b78dcbaf7fba9a4e3149663df5",
+    "sig": "96548a7a15bcd7154181276e22fc447a",
     "pairs": [
       [
         "410",
@@ -460,7 +460,7 @@
     "date": "2026-10-25",
     "league": "serie-a",
     "hub": true,
-    "sig": "2d16f66138074a583a59b68d9adc7898",
+    "sig": "bf2a80d7ba0ed853140088b05433ac3d",
     "pairs": [
       [
         "1579",
@@ -1606,8 +1606,8 @@
     "provider": "711",
     "home_id": "742",
     "away_id": "733",
-    "tv_sig": "|711|False|False",
-    "og": "og/genk-standard-liege-live-gratis-kijken-25-10-2026-7a5c71.webp",
+    "tv_sig": "DAZN|711|False|False",
+    "og": "og/genk-standard-liege-live-gratis-kijken-25-10-2026-9f8c27.webp",
     "og_done": "og/genk-standard-liege-live-gratis-kijken-25-10-2026-7a5c71.webp"
   },
   "1558654": {
