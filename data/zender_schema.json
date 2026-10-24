@@ -1,17 +1,6 @@
 {
-"bijgewerkt": "2026-10-24T17:17:17.095419+00:00",
+"bijgewerkt": "2026-10-24T17:29:33.895038+00:00",
 "uitzendingen": [
-{
-"ko": "2026-10-24T14:30:00+00:00",
-"titel": "FC Dordrecht – VVV-Venlo",
-"comp": "Keuken Kampioen Divisie",
-"sport": "voetbal",
-"zenders": [
-"ESPN 1"
-],
-"streams": [],
-"url": "/nieuws/fc-dordrecht-vvv-venlo-live-gratis-kijken-24-10-2026"
-},
 {
 "ko": "2026-10-24T14:30:00+00:00",
 "titel": "FC Utrecht – PEC Zwolle",
@@ -22,6 +11,17 @@
 ],
 "streams": [],
 "url": "/nieuws/fc-utrecht-pec-zwolle-live-gratis-kijken-24-10-2026"
+},
+{
+"ko": "2026-10-24T14:30:00+00:00",
+"titel": "Dordrecht – VVV Venlo",
+"comp": "Keuken Kampioen Divisie",
+"sport": "voetbal",
+"zenders": [
+"ESPN 1"
+],
+"streams": [],
+"url": "/nieuws/fc-dordrecht-vvv-venlo-live-gratis-kijken-24-10-2026"
 },
 {
 "ko": "2026-10-24T16:00:00+00:00",
@@ -37,13 +37,15 @@
 "url": "/nieuws/napoli-as-roma-live-gratis-kijken-24-10-2026"
 },
 {
-"ko": "2026-10-24T16:30:00+00:00",
-"titel": "Arthur Fils – Struff J-L.",
-"comp": "ATP Tour",
-"sport": "tennis",
+"ko": "2026-10-24T16:00:00+00:00",
+"titel": "Samsunspor – Amedspor",
+"comp": "Süper Lig",
+"sport": "voetbal",
 "zenders": [],
-"streams": [],
-"url": null
+"streams": [
+"TOTO"
+],
+"url": "/nieuws/samsunspor-amed-live-gratis-kijken-24-10-2026"
 },
 {
 "ko": "2026-10-24T16:30:00+00:00",
@@ -60,17 +62,6 @@
 },
 {
 "ko": "2026-10-24T16:30:00+00:00",
-"titel": "Chelsea – Tottenham Hotspur",
-"comp": "Premier League",
-"sport": "voetbal",
-"zenders": [
-"Viaplay"
-],
-"streams": [],
-"url": "/nieuws/chelsea-tottenham-live-gratis-kijken-24-10-2026"
-},
-{
-"ko": "2026-10-24T16:30:00+00:00",
 "titel": "Valencia – Villarreal",
 "comp": "La Liga",
 "sport": "voetbal",
@@ -83,8 +74,28 @@
 "url": "/nieuws/valencia-villarreal-live-gratis-kijken-24-10-2026"
 },
 {
+"ko": "2026-10-24T16:30:00+00:00",
+"titel": "Chelsea – Tottenham",
+"comp": "Premier League",
+"sport": "voetbal",
+"zenders": [
+"Viaplay"
+],
+"streams": [],
+"url": "/nieuws/chelsea-tottenham-live-gratis-kijken-24-10-2026"
+},
+{
+"ko": "2026-10-24T16:30:00+00:00",
+"titel": "Arthur Fils – Struff J-L.",
+"comp": "ATP Tour",
+"sport": "tennis",
+"zenders": [],
+"streams": [],
+"url": null
+},
+{
 "ko": "2026-10-24T16:45:00+00:00",
-"titel": "Willem II – Cambuur",
+"titel": "Willem II – SC Cambuur",
 "comp": "Eredivisie",
 "sport": "voetbal",
 "zenders": [
@@ -176,7 +187,7 @@
 },
 {
 "ko": "2026-10-24T19:00:00+00:00",
-"titel": "ADO Den Haag – SC Heerenveen",
+"titel": "ADO Den Haag – sc Heerenveen",
 "comp": "Eredivisie",
 "sport": "voetbal",
 "zenders": [
@@ -187,7 +198,7 @@
 },
 {
 "ko": "2026-10-24T19:00:00+00:00",
-"titel": "Atlético Madrid – Deportivo La Coruña",
+"titel": "Atlético Madrid – Deportivo La Coruna",
 "comp": "La Liga",
 "sport": "voetbal",
 "zenders": [
