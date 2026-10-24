@@ -1,50 +1,6 @@
 {
-"bijgewerkt": "2026-10-24T19:31:33.922225+00:00",
+"bijgewerkt": "2026-10-24T20:51:13.416931+00:00",
 "uitzendingen": [
-{
-"ko": "2026-10-24T16:45:00+00:00",
-"titel": "Willem II – SC Cambuur",
-"comp": "Eredivisie",
-"sport": "voetbal",
-"zenders": [
-"ESPN 1"
-],
-"streams": [],
-"url": "/nieuws/willem-2-sc-cambuur-live-gratis-kijken-24-10-2026"
-},
-{
-"ko": "2026-10-24T17:00:00+00:00",
-"titel": "Ratajski – Doets",
-"comp": "EK Darts",
-"sport": "darts",
-"zenders": [
-"Viaplay TV"
-],
-"streams": [],
-"url": null
-},
-{
-"ko": "2026-10-24T17:00:00+00:00",
-"titel": "Schindler – Wattimena",
-"comp": "EK Darts",
-"sport": "darts",
-"zenders": [
-"Viaplay TV"
-],
-"streams": [],
-"url": null
-},
-{
-"ko": "2026-10-24T17:30:00+00:00",
-"titel": "Montreal CF – Nashville SC",
-"comp": "MLS",
-"sport": "voetbal",
-"zenders": [
-"Apple TV"
-],
-"streams": [],
-"url": null
-},
 {
 "ko": "2026-10-24T18:30:00+00:00",
 "titel": "Nürnberg – Kaiserslautern",
@@ -310,41 +266,6 @@
 },
 {
 "ko": "2026-10-25T14:00:00+00:00",
-"titel": "Manchester United – Bournemouth",
-"comp": "Premier League",
-"sport": "voetbal",
-"zenders": [
-"Viaplay"
-],
-"streams": [],
-"url": "/nieuws/manchester-united-bournemouth-live-gratis-kijken-25-10-2026"
-},
-{
-"ko": "2026-10-25T14:00:00+00:00",
-"titel": "Atalanta – Frosinone",
-"comp": "Serie A",
-"sport": "voetbal",
-"zenders": [
-"Ziggo Sport 1"
-],
-"streams": [
-"Bet365"
-],
-"url": "/nieuws/atalanta-frosinone-live-gratis-kijken-25-10-2026"
-},
-{
-"ko": "2026-10-25T14:00:00+00:00",
-"titel": "Liverpool – Brighton",
-"comp": "Premier League",
-"sport": "voetbal",
-"zenders": [
-"Viaplay"
-],
-"streams": [],
-"url": "/nieuws/liverpool-brighton-live-gratis-kijken-25-10-2026"
-},
-{
-"ko": "2026-10-25T14:00:00+00:00",
 "titel": "Crystal Palace – Newcastle",
 "comp": "Premier League",
 "sport": "voetbal",
@@ -377,6 +298,50 @@
 "Starcasino"
 ],
 "url": "/nieuws/as-monaco-lille-live-gratis-kijken-25-10-2026"
+},
+{
+"ko": "2026-10-25T14:00:00+00:00",
+"titel": "Genoa – Venezia",
+"comp": "Serie A",
+"sport": "voetbal",
+"zenders": [],
+"streams": [],
+"url": null
+},
+{
+"ko": "2026-10-25T14:00:00+00:00",
+"titel": "Manchester United – Bournemouth",
+"comp": "Premier League",
+"sport": "voetbal",
+"zenders": [
+"Viaplay"
+],
+"streams": [],
+"url": "/nieuws/manchester-united-bournemouth-live-gratis-kijken-25-10-2026"
+},
+{
+"ko": "2026-10-25T14:00:00+00:00",
+"titel": "Atalanta – Frosinone",
+"comp": "Serie A",
+"sport": "voetbal",
+"zenders": [
+"Ziggo Sport 1"
+],
+"streams": [
+"Bet365"
+],
+"url": "/nieuws/atalanta-frosinone-live-gratis-kijken-25-10-2026"
+},
+{
+"ko": "2026-10-25T14:00:00+00:00",
+"titel": "Liverpool – Brighton",
+"comp": "Premier League",
+"sport": "voetbal",
+"zenders": [
+"Viaplay"
+],
+"streams": [],
+"url": "/nieuws/liverpool-brighton-live-gratis-kijken-25-10-2026"
 },
 {
 "ko": "2026-10-25T14:30:00+00:00",
