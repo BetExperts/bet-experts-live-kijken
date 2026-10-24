@@ -1,79 +1,6 @@
 {
-"bijgewerkt": "2026-10-24T12:10:57.580198+00:00",
+"bijgewerkt": "2026-10-24T14:01:08.857357+00:00",
 "uitzendingen": [
-{
-"ko": "2026-10-24T09:30:00+00:00",
-"titel": "Elena Rybakina – Diana Shnaider",
-"comp": "WTA Tour",
-"sport": "tennis",
-"zenders": [],
-"streams": [],
-"url": null
-},
-{
-"ko": "2026-10-24T10:00:00+00:00",
-"titel": "VfL Wolfsburg (V) – Köln (V)",
-"comp": "Frauen Bundesliga",
-"sport": "voetbal",
-"zenders": [
-"Viaplay"
-],
-"streams": [],
-"url": null
-},
-{
-"ko": "2026-10-24T10:30:00+00:00",
-"titel": "Eyupspor – Kasimpasa",
-"comp": "Süper Lig",
-"sport": "voetbal",
-"zenders": [],
-"streams": [
-"TOTO"
-],
-"url": "/nieuws/eyupspor-kasimpasa-live-gratis-kijken-24-10-2026"
-},
-{
-"ko": "2026-10-24T11:00:00+00:00",
-"titel": "Van Veen – Woodhouse",
-"comp": "EK Darts",
-"sport": "darts",
-"zenders": [],
-"streams": [],
-"url": null
-},
-{
-"ko": "2026-10-24T11:00:00+00:00",
-"titel": "Heidenheim – Energie Cottbus",
-"comp": "2. Bundesliga",
-"sport": "voetbal",
-"zenders": [
-"Viaplay"
-],
-"streams": [],
-"url": null
-},
-{
-"ko": "2026-10-24T11:00:00+00:00",
-"titel": "Hertha BSC – Arminia Bielefeld",
-"comp": "2. Bundesliga",
-"sport": "voetbal",
-"zenders": [
-"Viaplay"
-],
-"streams": [],
-"url": null
-},
-{
-"ko": "2026-10-24T11:00:00+00:00",
-"titel": "Magdeburg – Karlsruher SC",
-"comp": "2. Bundesliga",
-"sport": "voetbal",
-"zenders": [
-"Viaplay"
-],
-"streams": [],
-"url": null
-},
 {
 "ko": "2026-10-24T11:30:00+00:00",
 "titel": "Aston Villa – Manchester City",
@@ -227,17 +154,6 @@
 ],
 "streams": [],
 "url": "/nieuws/arsenal-everton-live-gratis-kijken-24-10-2026"
-},
-{
-"ko": "2026-10-24T14:00:00+00:00",
-"titel": "Coventry – Fulham",
-"comp": "Premier League",
-"sport": "voetbal",
-"zenders": [
-"Viaplay TV"
-],
-"streams": [],
-"url": null
 },
 {
 "ko": "2026-10-24T14:00:00+00:00",
@@ -678,15 +594,6 @@
 },
 {
 "ko": "2026-10-25T14:00:00+00:00",
-"titel": "Genoa – Venezia",
-"comp": "Serie A",
-"sport": "voetbal",
-"zenders": [],
-"streams": [],
-"url": null
-},
-{
-"ko": "2026-10-25T14:00:00+00:00",
 "titel": "Manchester United – Bournemouth",
 "comp": "Premier League",
 "sport": "voetbal",
@@ -752,6 +659,15 @@
 "url": null
 },
 {
+"ko": "2026-10-25T14:00:00+00:00",
+"titel": "Genoa – Venezia",
+"comp": "Serie A",
+"sport": "voetbal",
+"zenders": [],
+"streams": [],
+"url": null
+},
+{
 "ko": "2026-10-25T14:30:00+00:00",
 "titel": "1899 Hoffenheim – Bayer Leverkusen",
 "comp": "Bundesliga",
@@ -799,7 +715,7 @@
 "comp": "Eredivisie Vrouwen",
 "sport": "voetbal",
 "zenders": [
-"ESPN Extra"
+"ESPN 1"
 ],
 "streams": [],
 "url": null
@@ -976,22 +892,22 @@
 },
 {
 "ko": "2026-10-25T19:45:00+00:00",
-"titel": "Paris Saint-Germain – Lyon",
-"comp": "Ligue 1",
+"titel": "Udinese – AC Milan",
+"comp": "Serie A",
 "sport": "voetbal",
 "zenders": [
-"Viaplay TV"
+"Ziggo Sport 2"
 ],
 "streams": [],
 "url": null
 },
 {
 "ko": "2026-10-25T19:45:00+00:00",
-"titel": "Udinese – AC Milan",
-"comp": "Serie A",
+"titel": "Paris Saint-Germain – Lyon",
+"comp": "Ligue 1",
 "sport": "voetbal",
 "zenders": [
-"Ziggo Sport 2"
+"Viaplay TV"
 ],
 "streams": [],
 "url": null
@@ -1404,7 +1320,17 @@
 "comp": "Serie A",
 "sport": "voetbal",
 "zenders": [
-"Ziggo Sport 5",
+"Ziggo Sport 5"
+],
+"streams": [],
+"url": null
+},
+{
+"ko": "2026-10-28T17:30:00+00:00",
+"titel": "Venezia – Inter Milan",
+"comp": "Serie A",
+"sport": "voetbal",
+"zenders": [
 "Ziggo Sport 2"
 ],
 "streams": [],
@@ -1546,7 +1472,7 @@
 },
 {
 "ko": "2026-10-28T20:00:00+00:00",
-"titel": "Arsenal (V) – SL Benfica (V)",
+"titel": "Arsenal (V) – S.L. Benfica (V)",
 "comp": "UEFA Women's Champions League",
 "sport": "voetbal",
 "zenders": [
