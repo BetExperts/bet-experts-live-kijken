@@ -273,7 +273,7 @@
     "date": "2026-10-25",
     "league": "eredivisie",
     "hub": true,
-    "sig": "1082213c113b3a22aeb0d50ded5a7ccc",
+    "sig": "819f0289ed9ec088eb503891d985f018",
     "pairs": [
       [
         "410",
@@ -460,7 +460,7 @@
     "date": "2026-10-25",
     "league": "serie-a",
     "hub": true,
-    "sig": "bf2a80d7ba0ed853140088b05433ac3d",
+    "sig": "76c7f16566a64de9618025f36f7b9cd6",
     "pairs": [
       [
         "1579",
@@ -583,7 +583,7 @@
     "date": "2026-10-26",
     "league": "ligue-1",
     "hub": true,
-    "sig": "588dd86526b1e2d668b73c4fcab17879",
+    "sig": "c418da9cfa2417f0340e8f66e4f5c7a0",
     "pairs": [
       [
         "106",
@@ -961,7 +961,7 @@
     "date": "2026-10-26",
     "league": "la-liga",
     "hub": true,
-    "sig": "59803bfca7eef738627ebcf91892269c",
+    "sig": "473a5678fd522c1dd66cec304f7bbafb",
     "pairs": [
       [
         "535",
@@ -1467,7 +1467,7 @@
     "date": "2026-11-04",
     "league": "jupiler-pro-league",
     "hub": true,
-    "sig": "6910d597942f6df5dff9e1ee44d82f35",
+    "sig": "29b60a2909e9d7f7df433e0224e966a4",
     "pairs": [
       [
         "736",
@@ -1480,13 +1480,13 @@
         "2026-10-24"
       ],
       [
-        "261",
-        "738",
+        "5902",
+        "600",
         "2026-10-24"
       ],
       [
-        "5902",
-        "600",
+        "261",
+        "738",
         "2026-10-24"
       ],
       [
