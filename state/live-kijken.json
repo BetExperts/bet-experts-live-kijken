@@ -273,7 +273,7 @@
     "date": "2026-10-25",
     "league": "eredivisie",
     "hub": true,
-    "sig": "d54975b3b9abb5f7d2a8bc2ffffed6fa",
+    "sig": "89353684a4f67e13f9897541f3dca216",
     "pairs": [
       [
         "410",
@@ -396,7 +396,7 @@
     "date": "2026-10-25",
     "league": "premier-league",
     "hub": true,
-    "sig": "3d275a57406559c903d16f1e1de3fae6",
+    "sig": "79aaa8532bfa69f3061d5a41a3e94fa7",
     "pairs": [
       [
         "57",
@@ -580,10 +580,10 @@
     "item_id": "6ad7d0e7e1fc7fcfab97ce28",
     "slug": "ligue-1-speelronde-8-op-tv-23-oktober-2026",
     "match": "Ligue 1 speelronde 8",
-    "date": "2026-10-25",
+    "date": "2026-10-26",
     "league": "ligue-1",
     "hub": true,
-    "sig": "1de3d415b8b5b9fdb36c20d2ca9950e3",
+    "sig": "52f1f7adbe1fdbddc08a1cd8f46102ef",
     "pairs": [
       [
         "106",
@@ -628,7 +628,7 @@
       [
         "80",
         "85",
-        "2026-10-25"
+        "2026-10-26"
       ]
     ],
     "ronde": "Regular Season - 8",
@@ -961,7 +961,7 @@
     "date": "2026-10-26",
     "league": "la-liga",
     "hub": true,
-    "sig": "53dcb333e212f19a18a0be0f89897a36",
+    "sig": "6b3f3d950da77933ee7477a689d7ec1e",
     "pairs": [
       [
         "535",
