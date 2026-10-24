@@ -273,7 +273,7 @@
     "date": "2026-10-25",
     "league": "eredivisie",
     "hub": true,
-    "sig": "f83536516b6fc70989c64c98a9a5a617",
+    "sig": "5fe450daa6cdae03efc0eba8e1a7740b",
     "pairs": [
       [
         "410",
@@ -396,7 +396,7 @@
     "date": "2026-10-25",
     "league": "premier-league",
     "hub": true,
-    "sig": "79aaa8532bfa69f3061d5a41a3e94fa7",
+    "sig": "bd95bef2808e3c81e0eec7b1a1cbaa8d",
     "pairs": [
       [
         "57",
@@ -524,7 +524,7 @@
     "date": "2026-10-25",
     "league": "bundesliga",
     "hub": true,
-    "sig": "5372e0e56c8696354e100f85f6491db8",
+    "sig": "df16eada5c8729a88b21a90d6524166c",
     "pairs": [
       [
         "163",
@@ -583,7 +583,7 @@
     "date": "2026-10-26",
     "league": "ligue-1",
     "hub": true,
-    "sig": "55cc312994e07a0a278939403ffaab06",
+    "sig": "ce2f902e0a83fe5c9d02d1a73af5ef25",
     "pairs": [
       [
         "106",
@@ -1339,8 +1339,8 @@
     "provider": "711",
     "home_id": "173",
     "away_id": "1660",
-    "tv_sig": "|711|False|False",
-    "og": "og/rb-leipzig-elversberg-live-gratis-kijken-24-10-2026-3fef4a.webp",
+    "tv_sig": "Viaplay|711|False|False",
+    "og": "og/rb-leipzig-elversberg-live-gratis-kijken-24-10-2026-9a3384.webp",
     "og_done": "og/rb-leipzig-elversberg-live-gratis-kijken-24-10-2026-3fef4a.webp"
   },
   "1575194": {
@@ -1352,8 +1352,8 @@
     "provider": "711",
     "home_id": "165",
     "away_id": "169",
-    "tv_sig": "|711|False|False",
-    "og": "og/borussia-dortmund-eintracht-frankfurt-live-gratis-kijken-24-10-2026-e36e4b.webp",
+    "tv_sig": "Viaplay|711|False|False",
+    "og": "og/borussia-dortmund-eintracht-frankfurt-live-gratis-kijken-24-10-2026-a1da7c.webp",
     "og_done": "og/borussia-dortmund-eintracht-frankfurt-live-gratis-kijken-24-10-2026-e36e4b.webp"
   },
   "1552795": {
@@ -1378,8 +1378,8 @@
     "provider": "Bet365",
     "home_id": "762",
     "away_id": "212",
-    "tv_sig": "Ziggo Sport|Bet365|False|True",
-    "og": "og/gil-vicente-fc-porto-live-gratis-kijken-24-10-2026-b5c1c4.webp",
+    "tv_sig": "Ziggo Sport 5|Bet365|False|True",
+    "og": "og/gil-vicente-fc-porto-live-gratis-kijken-24-10-2026-1029ae.webp",
     "og_done": "og/gil-vicente-fc-porto-live-gratis-kijken-24-10-2026-b5c1c4.webp"
   },
   "1490556": {
