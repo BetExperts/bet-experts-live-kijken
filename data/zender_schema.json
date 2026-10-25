@@ -1,85 +1,6 @@
 {
-"bijgewerkt": "2026-10-25T16:30:07.913935+00:00",
+"bijgewerkt": "2026-10-25T17:04:28.822307+00:00",
 "uitzendingen": [
-{
-"ko": "2026-10-25T14:00:00+00:00",
-"titel": "Monaco – Lille",
-"comp": "Ligue 1",
-"sport": "voetbal",
-"zenders": [
-"Viaplay"
-],
-"streams": [
-"Starcasino"
-],
-"url": "/nieuws/as-monaco-lille-live-gratis-kijken-25-10-2026"
-},
-{
-"ko": "2026-10-25T14:00:00+00:00",
-"titel": "Genoa – Venezia",
-"comp": "Serie A",
-"sport": "voetbal",
-"zenders": [],
-"streams": [],
-"url": null
-},
-{
-"ko": "2026-10-25T14:00:00+00:00",
-"titel": "Manchester United – Bournemouth",
-"comp": "Premier League",
-"sport": "voetbal",
-"zenders": [
-"Viaplay"
-],
-"streams": [],
-"url": "/nieuws/manchester-united-bournemouth-live-gratis-kijken-25-10-2026"
-},
-{
-"ko": "2026-10-25T14:00:00+00:00",
-"titel": "Atalanta – Frosinone",
-"comp": "Serie A",
-"sport": "voetbal",
-"zenders": [
-"Ziggo Sport 1"
-],
-"streams": [
-"Bet365"
-],
-"url": "/nieuws/atalanta-frosinone-live-gratis-kijken-25-10-2026"
-},
-{
-"ko": "2026-10-25T14:00:00+00:00",
-"titel": "Liverpool – Brighton",
-"comp": "Premier League",
-"sport": "voetbal",
-"zenders": [
-"Viaplay"
-],
-"streams": [],
-"url": "/nieuws/liverpool-brighton-live-gratis-kijken-25-10-2026"
-},
-{
-"ko": "2026-10-25T14:00:00+00:00",
-"titel": "Crystal Palace – Newcastle",
-"comp": "Premier League",
-"sport": "voetbal",
-"zenders": [
-"Viaplay TV"
-],
-"streams": [],
-"url": "/nieuws/crystal-palace-newcastle-united-live-gratis-kijken-25-10-2026"
-},
-{
-"ko": "2026-10-25T14:00:00+00:00",
-"titel": "Hull City – Brentford",
-"comp": "Premier League",
-"sport": "voetbal",
-"zenders": [
-"Viaplay"
-],
-"streams": [],
-"url": null
-},
 {
 "ko": "2026-10-25T14:30:00+00:00",
 "titel": "Hoffenheim – Bayer Leverkusen",
@@ -161,18 +82,7 @@
 },
 {
 "ko": "2026-10-25T16:15:00+00:00",
-"titel": "Rennes – Strasbourg",
-"comp": "Ligue 1",
-"sport": "voetbal",
-"zenders": [
-"Viaplay"
-],
-"streams": [],
-"url": null
-},
-{
-"ko": "2026-10-25T16:15:00+00:00",
-"titel": "Toulouse – Estac Troyes",
+"titel": "Angers – Lorient",
 "comp": "Ligue 1",
 "sport": "voetbal",
 "zenders": [
@@ -184,17 +94,6 @@
 {
 "ko": "2026-10-25T16:15:00+00:00",
 "titel": "Auxerre – Le Mans",
-"comp": "Ligue 1",
-"sport": "voetbal",
-"zenders": [
-"Viaplay"
-],
-"streams": [],
-"url": null
-},
-{
-"ko": "2026-10-25T16:15:00+00:00",
-"titel": "Angers – Lorient",
 "comp": "Ligue 1",
 "sport": "voetbal",
 "zenders": [
@@ -217,8 +116,30 @@
 "url": "/nieuws/marseille-le-havre-live-gratis-kijken-25-10-2026"
 },
 {
+"ko": "2026-10-25T16:15:00+00:00",
+"titel": "Rennes – Strasbourg",
+"comp": "Ligue 1",
+"sport": "voetbal",
+"zenders": [
+"Viaplay"
+],
+"streams": [],
+"url": null
+},
+{
+"ko": "2026-10-25T16:15:00+00:00",
+"titel": "Toulouse – Troyes",
+"comp": "Ligue 1",
+"sport": "voetbal",
+"zenders": [
+"Viaplay"
+],
+"streams": [],
+"url": null
+},
+{
 "ko": "2026-10-25T16:30:00+00:00",
-"titel": "SC Freiburg – Bayern München",
+"titel": "Freiburg – Bayern München",
 "comp": "Bundesliga",
 "sport": "voetbal",
 "zenders": [
@@ -231,11 +152,11 @@
 },
 {
 "ko": "2026-10-25T16:30:00+00:00",
-"titel": "Sunderland – Leeds",
+"titel": "Sunderland – Leeds United",
 "comp": "Premier League",
 "sport": "voetbal",
 "zenders": [
-"Viaplay TV+"
+"Viaplay"
 ],
 "streams": [],
 "url": null
@@ -255,6 +176,17 @@
 },
 {
 "ko": "2026-10-25T17:30:00+00:00",
+"titel": "KAA Gent – Anderlecht",
+"comp": "Pro League",
+"sport": "voetbal",
+"zenders": [],
+"streams": [
+"711"
+],
+"url": "/nieuws/gent-anderlecht-live-gratis-kijken-25-10-2026"
+},
+{
+"ko": "2026-10-25T17:30:00+00:00",
 "titel": "Real Sociedad – Levante",
 "comp": "La Liga",
 "sport": "voetbal",
@@ -265,17 +197,6 @@
 "TOTO"
 ],
 "url": "/nieuws/real-sociedad-levante-live-gratis-kijken-25-10-2026"
-},
-{
-"ko": "2026-10-25T17:30:00+00:00",
-"titel": "KAA Gent – Anderlecht",
-"comp": "Pro League",
-"sport": "voetbal",
-"zenders": [],
-"streams": [
-"711"
-],
-"url": "/nieuws/gent-anderlecht-live-gratis-kijken-25-10-2026"
 },
 {
 "ko": "2026-10-25T18:00:00+00:00",
@@ -371,7 +292,7 @@
 },
 {
 "ko": "2026-10-26T16:00:00+00:00",
-"titel": "Besiktas – Basaksehir",
+"titel": "Rizespor – Trabzonspor",
 "comp": "Süper Lig",
 "sport": "voetbal",
 "zenders": [],
@@ -380,7 +301,7 @@
 },
 {
 "ko": "2026-10-26T16:00:00+00:00",
-"titel": "Rizespor – Trabzonspor",
+"titel": "Besiktas – Basaksehir",
 "comp": "Süper Lig",
 "sport": "voetbal",
 "zenders": [],
