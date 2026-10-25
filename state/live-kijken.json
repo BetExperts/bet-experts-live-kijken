@@ -6,7 +6,7 @@
     "date": "2026-10-26",
     "league": "super-lig",
     "hub": true,
-    "sig": "b70732af96526d1223914b44e0c3414e",
+    "sig": "d2ca8278c47de8990c504369687f6a96",
     "pairs": [
       [
         "7411",
@@ -65,7 +65,7 @@
     "date": "2026-10-25",
     "league": "eredivisie",
     "hub": true,
-    "sig": "cb4aea936021dc57b8d38e83b89d8ef8",
+    "sig": "a58c6ff7f361d50949e3a0c73f054923",
     "pairs": [
       [
         "410",
@@ -124,7 +124,7 @@
     "date": "2026-10-24",
     "league": "eerste-divisie",
     "hub": true,
-    "sig": "21a136d199411650317bd61ce1ee193d",
+    "sig": "9243c16b05e0dc8fb5b23ef24a21a0be",
     "pairs": [
       [
         "200",
@@ -188,7 +188,7 @@
     "date": "2026-10-25",
     "league": "premier-league",
     "hub": true,
-    "sig": "b4767129d00759f6dcfec67c023c4df9",
+    "sig": "59a8bb034c174e9f8f13233d72ba6495",
     "pairs": [
       [
         "57",
@@ -252,7 +252,7 @@
     "date": "2026-10-25",
     "league": "serie-a",
     "hub": true,
-    "sig": "eee8281e2e0896477565d147cc621a1d",
+    "sig": "9c8fab3ca0dc8ae0696ee504b0ed48f9",
     "pairs": [
       [
         "1579",
@@ -316,7 +316,7 @@
     "date": "2026-10-25",
     "league": "bundesliga",
     "hub": true,
-    "sig": "41b03dbc4215368ff1e6d4b036da036a",
+    "sig": "ec8f51f5673f623179c0290bc3edddb0",
     "pairs": [
       [
         "163",
@@ -375,7 +375,7 @@
     "date": "2026-10-26",
     "league": "ligue-1",
     "hub": true,
-    "sig": "67c301e5121116e228845ecf09fa9339",
+    "sig": "c28711be214788def76baafadd6550c4",
     "pairs": [
       [
         "106",
@@ -493,7 +493,7 @@
     "date": "2026-10-26",
     "league": "la-liga",
     "hub": true,
-    "sig": "89bce0774a0c8f2ba30f6496ba69c3e5",
+    "sig": "88d424c8d43af9db79a05a16c98100fd",
     "pairs": [
       [
         "535",
@@ -999,7 +999,7 @@
     "date": "2026-11-04",
     "league": "jupiler-pro-league",
     "hub": true,
-    "sig": "34ac8dcbda00138cf673af6985d706dd",
+    "sig": "066a24ecbc891e05d699768ede06b7bb",
     "pairs": [
       [
         "736",
@@ -1532,5 +1532,68 @@
     "tv_sig": "Apple TV|Bet365|False|False",
     "og": "og/los-angeles-la-galaxy-live-gratis-kijken-26-10-2026-3b59de.webp",
     "og_done": "og/los-angeles-la-galaxy-live-gratis-kijken-26-10-2026-3b59de.webp"
+  },
+  "hub:serie-a-speelronde-9-op-tv-27-oktober-2026": {
+    "item_id": "6ade6c544f6effac234c84b2",
+    "slug": "serie-a-speelronde-9-op-tv-27-oktober-2026",
+    "match": "Serie A speelronde 9",
+    "date": "2026-10-29",
+    "league": "serie-a",
+    "hub": true,
+    "sig": "e411ab50381392464a17c1ed66f24d6f",
+    "pairs": [
+      [
+        "487",
+        "488",
+        "2026-10-27"
+      ],
+      [
+        "490",
+        "497",
+        "2026-10-27"
+      ],
+      [
+        "503",
+        "895",
+        "2026-10-27"
+      ],
+      [
+        "489",
+        "500",
+        "2026-10-28"
+      ],
+      [
+        "505",
+        "517",
+        "2026-10-28"
+      ],
+      [
+        "494",
+        "523",
+        "2026-10-28"
+      ],
+      [
+        "495",
+        "496",
+        "2026-10-28"
+      ],
+      [
+        "1579",
+        "492",
+        "2026-10-28"
+      ],
+      [
+        "512",
+        "867",
+        "2026-10-29"
+      ],
+      [
+        "499",
+        "502",
+        "2026-10-29"
+      ]
+    ],
+    "ronde": "Regular Season - 9",
+    "og": "og/serie-a-speelronde-9-op-tv-27-oktober-2026-51fe75.webp"
   }
 }
