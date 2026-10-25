@@ -1,5 +1,5 @@
 {
-"bijgewerkt": "2026-10-25T07:39:08.663482+00:00",
+"bijgewerkt": "2026-10-25T08:33:26.370471+00:00",
 "uitzendingen": [
 {
 "ko": "2026-10-25T08:00:00+00:00",
@@ -59,9 +59,7 @@
 "titel": "KRC Genk – Standard Luik",
 "comp": "Pro League",
 "sport": "voetbal",
-"zenders": [
-"DAZN"
-],
+"zenders": [],
 "streams": [
 "711"
 ],
@@ -272,6 +270,15 @@
 "url": "/nieuws/celta-vigo-real-betis-live-gratis-kijken-25-10-2026"
 },
 {
+"ko": "2026-10-25T15:30:00+00:00",
+"titel": "Jan-Lennard Struff – Tallon Griekspoor",
+"comp": "ATP Tour",
+"sport": "tennis",
+"zenders": [],
+"streams": [],
+"url": null
+},
+{
 "ko": "2026-10-25T15:45:00+00:00",
 "titel": "Sparta – Ajax",
 "comp": "Eredivisie",
@@ -288,7 +295,7 @@
 "comp": "Eredivisie Vrouwen",
 "sport": "voetbal",
 "zenders": [
-"ESPN Extra"
+"ESPN 1"
 ],
 "streams": [],
 "url": null
@@ -626,6 +633,69 @@
 "zenders": [
 "Viaplay"
 ],
+"streams": [],
+"url": null
+},
+{
+"ko": "2026-10-27T16:00:00+00:00",
+"titel": "Taylor Fritz – Stefanos Tsitsipas",
+"comp": "ATP Tour",
+"sport": "tennis",
+"zenders": [],
+"streams": [],
+"url": null
+},
+{
+"ko": "2026-10-27T16:00:00+00:00",
+"titel": "Hubert Hurkacz – Arthur Fils",
+"comp": "ATP Tour",
+"sport": "tennis",
+"zenders": [],
+"streams": [],
+"url": null
+},
+{
+"ko": "2026-10-27T16:00:00+00:00",
+"titel": "Alex Michelsen – Botic van de Zandschulp",
+"comp": "ATP Tour",
+"sport": "tennis",
+"zenders": [],
+"streams": [],
+"url": null
+},
+{
+"ko": "2026-10-27T16:00:00+00:00",
+"titel": "Alejandro Tabilo – Rafael Jódar",
+"comp": "ATP Tour",
+"sport": "tennis",
+"zenders": [],
+"streams": [],
+"url": null
+},
+{
+"ko": "2026-10-27T16:00:00+00:00",
+"titel": "Karen Khachanov – Carlos Alcaraz",
+"comp": "ATP Tour",
+"sport": "tennis",
+"zenders": [],
+"streams": [],
+"url": null
+},
+{
+"ko": "2026-10-27T16:00:00+00:00",
+"titel": "Merida Aguilar D. – Daniil Medvedev",
+"comp": "ATP Tour",
+"sport": "tennis",
+"zenders": [],
+"streams": [],
+"url": null
+},
+{
+"ko": "2026-10-27T16:00:00+00:00",
+"titel": "Alexander Zverev – Martín Landaluce",
+"comp": "ATP Tour",
+"sport": "tennis",
+"zenders": [],
 "streams": [],
 "url": null
 },
@@ -1266,7 +1336,17 @@
 "comp": "EFL Championship",
 "sport": "voetbal",
 "zenders": [
-"Viaplay",
+"Viaplay"
+],
+"streams": [],
+"url": null
+},
+{
+"ko": "2026-10-30T20:00:00+00:00",
+"titel": "Villarreal – Espanyol",
+"comp": "La Liga",
+"sport": "voetbal",
+"zenders": [
 "Ziggo Sport 2"
 ],
 "streams": [],
