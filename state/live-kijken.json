@@ -6,7 +6,7 @@
     "date": "2026-10-26",
     "league": "super-lig",
     "hub": true,
-    "sig": "38f58601d547a779eeccfe359e687f45",
+    "sig": "6e9b8fb1815b78625c9b24b496d7324e",
     "pairs": [
       [
         "7411",
@@ -65,7 +65,7 @@
     "date": "2026-10-25",
     "league": "eredivisie",
     "hub": true,
-    "sig": "87e00c2c93bd1fa4d0761d0085b66946",
+    "sig": "9f33185b7456675a125e3de03788e7c3",
     "pairs": [
       [
         "410",
@@ -188,7 +188,7 @@
     "date": "2026-10-25",
     "league": "premier-league",
     "hub": true,
-    "sig": "4dbe6b3fc3afec314e00d7b07624f57b",
+    "sig": "3060c1d5411d96abe0bfe3457fc1a188",
     "pairs": [
       [
         "57",
@@ -221,11 +221,6 @@
         "2026-10-25"
       ],
       [
-        "34",
-        "52",
-        "2026-10-25"
-      ],
-      [
         "33",
         "35",
         "2026-10-25"
@@ -233,6 +228,11 @@
       [
         "40",
         "51",
+        "2026-10-25"
+      ],
+      [
+        "34",
+        "52",
         "2026-10-25"
       ],
       [
@@ -316,7 +316,7 @@
     "date": "2026-10-25",
     "league": "bundesliga",
     "hub": true,
-    "sig": "9bdac0abe645e07a190089169ff410c7",
+    "sig": "4cc94a3bcea5d8f54b015267b2577a44",
     "pairs": [
       [
         "163",
@@ -324,13 +324,13 @@
         "2026-10-23"
       ],
       [
-        "162",
-        "164",
+        "170",
+        "182",
         "2026-10-24"
       ],
       [
-        "170",
-        "182",
+        "162",
+        "164",
         "2026-10-24"
       ],
       [
@@ -375,7 +375,7 @@
     "date": "2026-10-26",
     "league": "ligue-1",
     "hub": true,
-    "sig": "c837e1c1ea347eb7bb5c032e59f691cf",
+    "sig": "8c81656529aefcfe0c13fa6c03c09a8f",
     "pairs": [
       [
         "106",
@@ -393,18 +393,13 @@
         "2026-10-25"
       ],
       [
-        "77",
-        "97",
-        "2026-10-25"
-      ],
-      [
-        "111",
-        "81",
-        "2026-10-25"
-      ],
-      [
         "94",
         "95",
+        "2026-10-25"
+      ],
+      [
+        "77",
+        "97",
         "2026-10-25"
       ],
       [
@@ -415,6 +410,11 @@
       [
         "108",
         "1298",
+        "2026-10-25"
+      ],
+      [
+        "111",
+        "81",
         "2026-10-25"
       ],
       [
@@ -493,7 +493,7 @@
     "date": "2026-10-26",
     "league": "la-liga",
     "hub": true,
-    "sig": "90d916a7fa06300685dbd8a5fbc9d270",
+    "sig": "c995c9a1de2daaf57a6e49ca20503f17",
     "pairs": [
       [
         "535",
@@ -999,7 +999,7 @@
     "date": "2026-11-04",
     "league": "jupiler-pro-league",
     "hub": true,
-    "sig": "8ac22ba84e8f547ceb12de4ede94b12f",
+    "sig": "8c0e14466f346424cd076419491141fa",
     "pairs": [
       [
         "736",
@@ -1441,5 +1441,89 @@
     "tv_sig": "ESPN 1|TOTO|False|True",
     "og": "og/az-fc-twente-live-gratis-kijken-25-10-2026-b04f99.webp",
     "og_done": "og/az-fc-twente-live-gratis-kijken-25-10-2026-b04f99.webp"
+  },
+  "1584440": {
+    "item_id": "6ade46ed2d5fe349f62ad460",
+    "slug": "besiktas-istanbul-basaksehir-live-gratis-kijken-26-10-2026",
+    "match": "Beşiktaş - Başakşehir",
+    "date": "2026-10-26",
+    "league": "super-lig",
+    "provider": "Starcasino",
+    "home_id": "549",
+    "away_id": "564",
+    "tv_sig": "|Starcasino|False|False",
+    "og": "og/besiktas-istanbul-basaksehir-live-gratis-kijken-26-10-2026-5a3df3.webp"
+  },
+  "1584446": {
+    "item_id": "6ade46f334bdff49b81611bb",
+    "slug": "rizespor-trabzonspor-live-gratis-kijken-26-10-2026",
+    "match": "Rizespor - Trabzonspor",
+    "date": "2026-10-26",
+    "league": "super-lig",
+    "provider": "Starcasino",
+    "home_id": "1007",
+    "away_id": "998",
+    "tv_sig": "|Starcasino|False|False",
+    "og": "og/rizespor-trabzonspor-live-gratis-kijken-26-10-2026-22d9e9.webp"
+  },
+  "1584442": {
+    "item_id": "6ade46f73914e9f1b85b9ab8",
+    "slug": "galatasaray-fenerbahce-live-gratis-kijken-26-10-2026",
+    "match": "Galatasaray - Fenerbahçe",
+    "date": "2026-10-26",
+    "league": "super-lig",
+    "provider": "Bet365",
+    "home_id": "645",
+    "away_id": "611",
+    "tv_sig": "|Bet365|False|False",
+    "og": "og/galatasaray-fenerbahce-live-gratis-kijken-26-10-2026-dc88dc.webp"
+  },
+  "1570431": {
+    "item_id": "6ade46fd6561c3d01715d504",
+    "slug": "sevilla-osasuna-live-gratis-kijken-26-10-2026",
+    "match": "Sevilla - Osasuna",
+    "date": "2026-10-26",
+    "league": "la-liga",
+    "provider": "TOTO",
+    "home_id": "536",
+    "away_id": "727",
+    "tv_sig": "Ziggo Sport 2|TOTO|False|False",
+    "og": "og/sevilla-osasuna-live-gratis-kijken-26-10-2026-34f750.webp"
+  },
+  "1552800": {
+    "item_id": "6ade47062d5fe349f62add9b",
+    "slug": "paris-saint-germain-psg-lyon-live-gratis-kijken-26-10-2026",
+    "match": "Paris Saint-Germain - Lyon",
+    "date": "2026-10-26",
+    "league": "ligue-1",
+    "provider": "711",
+    "home_id": "85",
+    "away_id": "80",
+    "tv_sig": "Viaplay TV|711|False|False",
+    "og": "og/paris-saint-germain-psg-lyon-live-gratis-kijken-26-10-2026-7e5a9b.webp"
+  },
+  "1575524": {
+    "item_id": "6ade470a55d4432af38689b1",
+    "slug": "santa-clara-benfica-live-gratis-kijken-26-10-2026",
+    "match": "Santa Clara - Benfica",
+    "date": "2026-10-26",
+    "league": "primeira-liga",
+    "provider": "Bet365",
+    "home_id": "227",
+    "away_id": "211",
+    "tv_sig": "Ziggo Sport 3|Bet365|False|True",
+    "og": "og/santa-clara-benfica-live-gratis-kijken-26-10-2026-018790.webp"
+  },
+  "1490570": {
+    "item_id": "6ade470e34c2eb4e300add48",
+    "slug": "los-angeles-la-galaxy-live-gratis-kijken-26-10-2026",
+    "match": "Los Angeles FC - Los Angeles Galaxy",
+    "date": "2026-10-26",
+    "league": "mls",
+    "provider": "Bet365",
+    "home_id": "1616",
+    "away_id": "1605",
+    "tv_sig": "Apple TV|Bet365|False|False",
+    "og": "og/los-angeles-la-galaxy-live-gratis-kijken-26-10-2026-3b59de.webp"
   }
 }
