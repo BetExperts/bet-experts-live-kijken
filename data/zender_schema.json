@@ -1,26 +1,6 @@
 {
-"bijgewerkt": "2026-10-25T18:15:44.171642+00:00",
+"bijgewerkt": "2026-10-25T18:52:30.591435+00:00",
 "uitzendingen": [
-{
-"ko": "2026-10-25T15:30:00+00:00",
-"titel": "Jan-Lennard Struff – Tallon Griekspoor",
-"comp": "ATP Tour",
-"sport": "tennis",
-"zenders": [],
-"streams": [],
-"url": null
-},
-{
-"ko": "2026-10-25T15:45:00+00:00",
-"titel": "Sparta – Ajax",
-"comp": "Eredivisie",
-"sport": "voetbal",
-"zenders": [
-"ESPN 3"
-],
-"streams": [],
-"url": "/nieuws/sparta-rotterdam-ajax-live-gratis-kijken-25-10-2026"
-},
 {
 "ko": "2026-10-25T16:00:00+00:00",
 "titel": "Goztepe – Corum",
@@ -70,17 +50,6 @@
 },
 {
 "ko": "2026-10-25T16:30:00+00:00",
-"titel": "Sunderland – Leeds",
-"comp": "Premier League",
-"sport": "voetbal",
-"zenders": [
-"Viaplay TV+"
-],
-"streams": [],
-"url": null
-},
-{
-"ko": "2026-10-25T16:30:00+00:00",
 "titel": "SC Freiburg – Bayern München",
 "comp": "Bundesliga",
 "sport": "voetbal",
@@ -91,6 +60,17 @@
 "711"
 ],
 "url": "/nieuws/freiburg-bayern-munchen-live-gratis-kijken-25-10-2026"
+},
+{
+"ko": "2026-10-25T16:30:00+00:00",
+"titel": "Sunderland – Leeds",
+"comp": "Premier League",
+"sport": "voetbal",
+"zenders": [
+"Viaplay TV+"
+],
+"streams": [],
+"url": null
 },
 {
 "ko": "2026-10-25T17:00:00+00:00",
@@ -128,6 +108,17 @@
 "TOTO"
 ],
 "url": "/nieuws/real-sociedad-levante-live-gratis-kijken-25-10-2026"
+},
+{
+"ko": "2026-10-25T18:15:00+00:00",
+"titel": "Union Sint-Gillis – Cercle Brugge",
+"comp": "Pro League",
+"sport": "voetbal",
+"zenders": [],
+"streams": [
+"711"
+],
+"url": "/nieuws/union-sint-gilloise-cercle-brugge-live-gratis-kijken-25-10-2026"
 },
 {
 "ko": "2026-10-25T19:00:00+00:00",
@@ -291,6 +282,15 @@
 },
 {
 "ko": "2026-10-27T16:00:00+00:00",
+"titel": "Novak Djokovic – Ugo Humbert",
+"comp": "ATP Tour",
+"sport": "tennis",
+"zenders": [],
+"streams": [],
+"url": null
+},
+{
+"ko": "2026-10-27T16:00:00+00:00",
 "titel": "Alexander Zverev – Martín Landaluce",
 "comp": "ATP Tour",
 "sport": "tennis",
@@ -414,11 +414,33 @@
 },
 {
 "ko": "2026-10-27T19:00:00+00:00",
-"titel": "VV Kloetinge – Cambuur",
+"titel": "Telstar – Almere City FC",
+"comp": "KNVB Beker",
+"sport": "voetbal",
+"zenders": [
+"ESPN 1"
+],
+"streams": [],
+"url": null
+},
+{
+"ko": "2026-10-27T19:00:00+00:00",
+"titel": "Kloetinge – SC Cambuur",
 "comp": "KNVB Beker",
 "sport": "voetbal",
 "zenders": [
 "ESPN 3"
+],
+"streams": [],
+"url": null
+},
+{
+"ko": "2026-10-27T19:00:00+00:00",
+"titel": "Helmond Sport – Willem II",
+"comp": "KNVB Beker",
+"sport": "voetbal",
+"zenders": [
+"ESPN 1"
 ],
 "streams": [],
 "url": null
@@ -431,6 +453,15 @@
 "zenders": [
 "Ziggo Sport 2"
 ],
+"streams": [],
+"url": null
+},
+{
+"ko": "2026-10-27T19:45:00+00:00",
+"titel": "Torino – Como",
+"comp": "Serie A",
+"sport": "voetbal",
+"zenders": [],
 "streams": [],
 "url": null
 },
@@ -459,22 +490,22 @@
 },
 {
 "ko": "2026-10-27T20:00:00+00:00",
-"titel": "Fleetwood Town – Arsenal",
-"comp": "EFL Cup",
+"titel": "Koninklijke HFC – Go Ahead Eagles",
+"comp": "KNVB Beker",
 "sport": "voetbal",
 "zenders": [
-"Viaplay"
+"ESPN 4"
 ],
 "streams": [],
 "url": null
 },
 {
 "ko": "2026-10-27T20:00:00+00:00",
-"titel": "Koninklijke HFC – Go Ahead Eagles",
-"comp": "KNVB Beker",
+"titel": "Fleetwood Town – Arsenal",
+"comp": "EFL Cup",
 "sport": "voetbal",
 "zenders": [
-"ESPN 4"
+"Viaplay"
 ],
 "streams": [],
 "url": null
@@ -503,11 +534,33 @@
 },
 {
 "ko": "2026-10-28T17:30:00+00:00",
-"titel": "Venezia – Inter Milan",
+"titel": "Venezia – Inter",
 "comp": "Serie A",
 "sport": "voetbal",
 "zenders": [
 "Ziggo Sport 2"
+],
+"streams": [],
+"url": null
+},
+{
+"ko": "2026-10-28T17:30:00+00:00",
+"titel": "Parma – Udinese",
+"comp": "Serie A",
+"sport": "voetbal",
+"zenders": [
+"Ziggo Sport 5"
+],
+"streams": [],
+"url": null
+},
+{
+"ko": "2026-10-28T17:45:00+00:00",
+"titel": "Sparta – Fortuna Sittard",
+"comp": "KNVB Beker",
+"sport": "voetbal",
+"zenders": [
+"ESPN 2"
 ],
 "streams": [],
 "url": null
@@ -542,17 +595,6 @@
 "zenders": [
 "VRT Canvas",
 "Disney+"
-],
-"streams": [],
-"url": null
-},
-{
-"ko": "2026-10-28T17:45:00+00:00",
-"titel": "Sparta Rotterdam – Fortuna Sittard",
-"comp": "KNVB Beker",
-"sport": "voetbal",
-"zenders": [
-"Ziggo Sport 2"
 ],
 "streams": [],
 "url": null
