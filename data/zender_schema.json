@@ -1,41 +1,6 @@
 {
-"bijgewerkt": "2026-10-25T14:07:24.720022+00:00",
+"bijgewerkt": "2026-10-25T14:39:38.711707+00:00",
 "uitzendingen": [
-{
-"ko": "2026-10-25T11:15:00+00:00",
-"titel": "Fortuna Sittard – Excelsior",
-"comp": "Eredivisie",
-"sport": "voetbal",
-"zenders": [
-"ESPN 3"
-],
-"streams": [],
-"url": "/nieuws/fortuna-sittard-excelsior-live-gratis-kijken-25-10-2026"
-},
-{
-"ko": "2026-10-25T11:15:00+00:00",
-"titel": "SC Heerenveen (V) – AZ (V)",
-"comp": "Eredivisie Vrouwen",
-"sport": "voetbal",
-"zenders": [
-"ESPN 1"
-],
-"streams": [],
-"url": null
-},
-{
-"ko": "2026-10-25T11:30:00+00:00",
-"titel": "Inter – Fiorentina",
-"comp": "Serie A",
-"sport": "voetbal",
-"zenders": [
-"Ziggo Sport 3"
-],
-"streams": [
-"Bet365"
-],
-"url": "/nieuws/inter-fiorentina-live-gratis-kijken-25-10-2026"
-},
 {
 "ko": "2026-10-25T12:30:00+00:00",
 "titel": "KRC Genk – Standard Luik",
@@ -218,7 +183,7 @@
 },
 {
 "ko": "2026-10-25T14:30:00+00:00",
-"titel": "1899 Hoffenheim – Bayer Leverkusen",
+"titel": "Hoffenheim – Bayer Leverkusen",
 "comp": "Bundesliga",
 "sport": "voetbal",
 "zenders": [
@@ -277,7 +242,7 @@
 "comp": "Eredivisie Vrouwen",
 "sport": "voetbal",
 "zenders": [
-"ESPN 1"
+"ESPN Extra"
 ],
 "streams": [],
 "url": null
@@ -2044,8 +2009,18 @@
 "comp": "Eredivisie Vrouwen",
 "sport": "voetbal",
 "zenders": [
-"ESPN 4",
-"ESPN 1"
+"ESPN 4"
+],
+"streams": [],
+"url": null
+},
+{
+"ko": "2026-11-01T15:45:00+00:00",
+"titel": "AZ (V) – PEC Zwolle (V)",
+"comp": "Eredivisie Vrouwen",
+"sport": "voetbal",
+"zenders": [
+"ESPN Extra"
 ],
 "streams": [],
 "url": null
@@ -2057,6 +2032,28 @@
 "sport": "voetbal",
 "zenders": [
 "ESPN 2"
+],
+"streams": [],
+"url": null
+},
+{
+"ko": "2026-11-01T15:45:00+00:00",
+"titel": "FC Utrecht (V) – De Graafschap (V)",
+"comp": "Eredivisie Vrouwen",
+"sport": "voetbal",
+"zenders": [
+"ESPN Extra"
+],
+"streams": [],
+"url": null
+},
+{
+"ko": "2026-11-01T15:45:00+00:00",
+"titel": "PSV (V) – sc Heerenveen (V)",
+"comp": "Eredivisie Vrouwen",
+"sport": "voetbal",
+"zenders": [
+"ESPN 1"
 ],
 "streams": [],
 "url": null
