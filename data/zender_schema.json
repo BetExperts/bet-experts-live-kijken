@@ -1,107 +1,6 @@
 {
-"bijgewerkt": "2026-10-25T14:39:38.711707+00:00",
+"bijgewerkt": "2026-10-25T16:30:07.913935+00:00",
 "uitzendingen": [
-{
-"ko": "2026-10-25T12:30:00+00:00",
-"titel": "KRC Genk – Standard Luik",
-"comp": "Pro League",
-"sport": "voetbal",
-"zenders": [],
-"streams": [
-"711"
-],
-"url": "/nieuws/genk-standard-liege-live-gratis-kijken-25-10-2026"
-},
-{
-"ko": "2026-10-25T12:30:00+00:00",
-"titel": "Eintracht Braunschweig – Hannover 96",
-"comp": "2. Bundesliga",
-"sport": "voetbal",
-"zenders": [
-"Viaplay"
-],
-"streams": [],
-"url": null
-},
-{
-"ko": "2026-10-25T12:30:00+00:00",
-"titel": "Holstein Kiel – Dynamo Dresden",
-"comp": "2. Bundesliga",
-"sport": "voetbal",
-"zenders": [
-"Viaplay"
-],
-"streams": [],
-"url": null
-},
-{
-"ko": "2026-10-25T12:30:00+00:00",
-"titel": "VfL Osnabrück – Greuther Fürth",
-"comp": "2. Bundesliga",
-"sport": "voetbal",
-"zenders": [
-"Viaplay"
-],
-"streams": [],
-"url": null
-},
-{
-"ko": "2026-10-25T13:00:00+00:00",
-"titel": "Athletic Club – Getafe",
-"comp": "La Liga",
-"sport": "voetbal",
-"zenders": [
-"Ziggo Sport 2"
-],
-"streams": [
-"TOTO"
-],
-"url": "/nieuws/athletic-bilbao-getafe-live-gratis-kijken-25-10-2026"
-},
-{
-"ko": "2026-10-25T13:00:00+00:00",
-"titel": "Konyaspor – Genclerbirligi",
-"comp": "Süper Lig",
-"sport": "voetbal",
-"zenders": [],
-"streams": [
-"Bet365"
-],
-"url": "/nieuws/konyaspor-genclerbirligi-live-gratis-kijken-25-10-2026"
-},
-{
-"ko": "2026-10-25T13:00:00+00:00",
-"titel": "Werder Bremen (V) – Freiburg (V)",
-"comp": "Frauen Bundesliga",
-"sport": "voetbal",
-"zenders": [
-"Viaplay"
-],
-"streams": [],
-"url": null
-},
-{
-"ko": "2026-10-25T13:30:00+00:00",
-"titel": "NEC – FC Groningen",
-"comp": "Eredivisie",
-"sport": "voetbal",
-"zenders": [
-"ESPN 1"
-],
-"streams": [],
-"url": "/nieuws/nec-nijmegen-fc-groningen-live-gratis-kijken-25-10-2026"
-},
-{
-"ko": "2026-10-25T13:30:00+00:00",
-"titel": "PSV – Feyenoord",
-"comp": "Eredivisie",
-"sport": "voetbal",
-"zenders": [
-"ESPN 2"
-],
-"streams": [],
-"url": "/nieuws/psv-feyenoord-live-gratis-kijken-25-10-2026"
-},
 {
 "ko": "2026-10-25T14:00:00+00:00",
 "titel": "Monaco – Lille",
@@ -195,17 +94,8 @@
 "url": "/nieuws/hoffenheim-bayer-leverkusen-live-gratis-kijken-25-10-2026"
 },
 {
-"ko": "2026-10-25T15:00:00+00:00",
-"titel": "Club Brugge – STVV",
-"comp": "Pro League",
-"sport": "voetbal",
-"zenders": [],
-"streams": [],
-"url": null
-},
-{
 "ko": "2026-10-25T15:15:00+00:00",
-"titel": "Celta Vigo – Real Betis",
+"titel": "Celta de Vigo – Real Betis",
 "comp": "La Liga",
 "sport": "voetbal",
 "zenders": [
@@ -224,17 +114,6 @@
 "zenders": [],
 "streams": [],
 "url": null
-},
-{
-"ko": "2026-10-25T15:45:00+00:00",
-"titel": "Sparta – Ajax",
-"comp": "Eredivisie",
-"sport": "voetbal",
-"zenders": [
-"ESPN 3"
-],
-"streams": [],
-"url": "/nieuws/sparta-rotterdam-ajax-live-gratis-kijken-25-10-2026"
 },
 {
 "ko": "2026-10-25T15:45:00+00:00",
@@ -259,42 +138,20 @@
 "url": null
 },
 {
-"ko": "2026-10-25T16:00:00+00:00",
-"titel": "Goztepe – Corum",
-"comp": "Süper Lig",
+"ko": "2026-10-25T15:45:00+00:00",
+"titel": "Sparta Rotterdam – Ajax",
+"comp": "Eredivisie",
 "sport": "voetbal",
-"zenders": [],
-"streams": [
-"TOTO"
+"zenders": [
+"ESPN 3"
 ],
-"url": "/nieuws/goztepe-corum-fk-live-gratis-kijken-25-10-2026"
+"streams": [],
+"url": "/nieuws/sparta-rotterdam-ajax-live-gratis-kijken-25-10-2026"
 },
 {
 "ko": "2026-10-25T16:00:00+00:00",
 "titel": "Hamburger SV (V) – Union Berlin (V)",
 "comp": "Frauen Bundesliga",
-"sport": "voetbal",
-"zenders": [
-"Viaplay"
-],
-"streams": [],
-"url": null
-},
-{
-"ko": "2026-10-25T16:15:00+00:00",
-"titel": "Toulouse – Estac Troyes",
-"comp": "Ligue 1",
-"sport": "voetbal",
-"zenders": [
-"Viaplay"
-],
-"streams": [],
-"url": null
-},
-{
-"ko": "2026-10-25T16:15:00+00:00",
-"titel": "Angers – Lorient",
-"comp": "Ligue 1",
 "sport": "voetbal",
 "zenders": [
 "Viaplay"
@@ -315,7 +172,29 @@
 },
 {
 "ko": "2026-10-25T16:15:00+00:00",
+"titel": "Toulouse – Estac Troyes",
+"comp": "Ligue 1",
+"sport": "voetbal",
+"zenders": [
+"Viaplay"
+],
+"streams": [],
+"url": null
+},
+{
+"ko": "2026-10-25T16:15:00+00:00",
 "titel": "Auxerre – Le Mans",
+"comp": "Ligue 1",
+"sport": "voetbal",
+"zenders": [
+"Viaplay"
+],
+"streams": [],
+"url": null
+},
+{
+"ko": "2026-10-25T16:15:00+00:00",
+"titel": "Angers – Lorient",
 "comp": "Ligue 1",
 "sport": "voetbal",
 "zenders": [
@@ -376,17 +255,6 @@
 },
 {
 "ko": "2026-10-25T17:30:00+00:00",
-"titel": "KAA Gent – Anderlecht",
-"comp": "Pro League",
-"sport": "voetbal",
-"zenders": [],
-"streams": [
-"711"
-],
-"url": "/nieuws/gent-anderlecht-live-gratis-kijken-25-10-2026"
-},
-{
-"ko": "2026-10-25T17:30:00+00:00",
 "titel": "Real Sociedad – Levante",
 "comp": "La Liga",
 "sport": "voetbal",
@@ -397,6 +265,17 @@
 "TOTO"
 ],
 "url": "/nieuws/real-sociedad-levante-live-gratis-kijken-25-10-2026"
+},
+{
+"ko": "2026-10-25T17:30:00+00:00",
+"titel": "KAA Gent – Anderlecht",
+"comp": "Pro League",
+"sport": "voetbal",
+"zenders": [],
+"streams": [
+"711"
+],
+"url": "/nieuws/gent-anderlecht-live-gratis-kijken-25-10-2026"
 },
 {
 "ko": "2026-10-25T18:00:00+00:00",
