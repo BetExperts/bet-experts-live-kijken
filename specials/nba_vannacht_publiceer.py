@@ -1,6 +1,6 @@
 # -*- coding: utf-8 -*-
 """Publiceert een NBA-vannacht-artikel (standaard specials/nba_vannacht_2026_10_22.py, of de module als eerste argument): deelkaart (og/nieuws/nieuws-<slug>.webp via GitHub raw), Nieuws-item live
-(rubriek Basketball, competitie NBA, wedtip-velden) en de 4 tips als losse Wedtips-items (rubriek Nachtkraker, status Open).
+(rubriek Basketball, competitie NBA, wedtip-velden). Maakt GEEN losse Wedtips-items aan (niet de bedoeling, Jasper 24-10-2026).
   set -a; . ../superodd-agent/.env; set +a; ../superodd-agent/.venv/bin/python specials/nba_vannacht_publiceer.py [nba_vannacht_2026_10_24] [--live]
 Optioneel in de module: DATUM (eerste aanvang, ISO UTC), NAMEN en STAKE (per tip), anders de waarden hieronder."""
 import os, sys, re, time, subprocess, urllib.request
@@ -13,11 +13,8 @@ A = importlib.import_module(next((a for a in sys.argv[1:] if not a.startswith("-
 
 RAW = "https://raw.githubusercontent.com/BetExperts/bet-experts-live-kijken/main/og/nieuws/"
 BET365 = "https://www.bet-experts.nl/go/bet365"
-WEDTIPS = "6a2037823226b3069c415cb3"
-NACHTKRAKER = "64ff0fbd5a8f205b05d54694"
 TOTO = "669ab9f5aceb8b717cea24c3"
 COMPETITIE_NBA = "66703df1b7a346f6d0897dbe"
-BASKETBALL, OPEN = "784d598a0d9dcf16f7a3afe894cc7305", "3d380375c3388a2f82083a0beb5652eb"
 STAKE = getattr(A, "STAKE", [4, 4, 4, 5])
 NAMEN = getattr(A, "NAMEN", ["Utah stunt in Memphis!", "Hawks houden Orlando bij!", "Haliburton is terug!", "Trae Young en Davis openen met winst!"])
 CTA = (f'<p><a href="{BET365}"><strong>👉 Klik hier: maak je Bet365-account aan en kijk de NBA vannacht live</strong></a></p>')
@@ -61,15 +58,15 @@ def main(live):
     for i, t in enumerate(tips[:3], 1):
         fd[f"wedtip-{i}-2"] = f"{t['wedstrijd'].replace(' vs. ', ' – ')}: {t['tip']}"
         fd[f"quotering-wedtip-{i}"] = t["odds"]
-    print("nieuws:", WF.create_live(fd))
-    # Wedtips-items
-    for t, n, s in zip(tips, NAMEN, STAKE):
-        w = {"name": n, "slug": slug(n), "rubriek-2": NACHTKRAKER, "is-combinatie": False, "stake": s, "bookmaker-wedtips": TOTO,
-             "wedstrijd-1": t["wedstrijd"], "competitie-1": "NBA", "tijd-1": t["tijd_nl"],
-             "speeltijd-1": t["speeltijd_utc"].replace("Z", ".000Z"), "tip-1": tiptekst(t["tip"]), "analyse-1-2": t["analyse"],
-             "odds-1": t["odds"], "sport-1": BASKETBALL, "status": OPEN}
-        r = WF._req("POST", f"{WF.WF_API}/collections/{WEDTIPS}/items/live", {"isDraft": False, "fieldData": w})
-        print("wedtip:", r.get("id"), n)
+    iid = WF.create_live(fd)
+    print("nieuws:", iid)
+    # 25-10-2026: Webflow haalde bij het aanmaken soms de <table>'s weg. Controleren en zo nodig opnieuw zetten.
+    for veld in ("content", "content-2", "content-3"):
+        if fd[veld].count("<table") and not (WF.get_item(iid, live=True).get("fieldData", {}).get(veld) or "").count("<table"):
+            WF.update_staged(iid, {veld: fd[veld]})
+            WF._req("PATCH", f"{WF.WF_API}/collections/{WF.NIEUWS_COLLECTION}/items/live", {"items": [{"id": iid, "fieldData": {veld: fd[veld]}}]})
+            print(f"  tabellen in {veld} opnieuw gezet")
+    # Geen losse Wedtips-items meer aanmaken (Jasper, 24-10-2026): de tips staan alleen in het artikel.
 
 
 if __name__ == "__main__":
