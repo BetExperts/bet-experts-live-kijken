@@ -1,77 +1,6 @@
 {
-"bijgewerkt": "2026-10-25T18:52:30.591435+00:00",
+"bijgewerkt": "2026-10-25T19:38:13.123796+00:00",
 "uitzendingen": [
-{
-"ko": "2026-10-25T16:00:00+00:00",
-"titel": "Goztepe – Corum",
-"comp": "Süper Lig",
-"sport": "voetbal",
-"zenders": [],
-"streams": [
-"TOTO"
-],
-"url": "/nieuws/goztepe-corum-fk-live-gratis-kijken-25-10-2026"
-},
-{
-"ko": "2026-10-25T16:15:00+00:00",
-"titel": "Toulouse – Estac Troyes",
-"comp": "Ligue 1",
-"sport": "voetbal",
-"zenders": [],
-"streams": [],
-"url": null
-},
-{
-"ko": "2026-10-25T16:15:00+00:00",
-"titel": "Angers – Lorient",
-"comp": "Ligue 1",
-"sport": "voetbal",
-"zenders": [],
-"streams": [],
-"url": null
-},
-{
-"ko": "2026-10-25T16:15:00+00:00",
-"titel": "Rennes – Strasbourg",
-"comp": "Ligue 1",
-"sport": "voetbal",
-"zenders": [],
-"streams": [],
-"url": null
-},
-{
-"ko": "2026-10-25T16:15:00+00:00",
-"titel": "Auxerre – Le Mans",
-"comp": "Ligue 1",
-"sport": "voetbal",
-"zenders": [],
-"streams": [],
-"url": null
-},
-{
-"ko": "2026-10-25T16:30:00+00:00",
-"titel": "SC Freiburg – Bayern München",
-"comp": "Bundesliga",
-"sport": "voetbal",
-"zenders": [
-"Viaplay"
-],
-"streams": [
-"711"
-],
-"url": "/nieuws/freiburg-bayern-munchen-live-gratis-kijken-25-10-2026"
-},
-{
-"ko": "2026-10-25T16:30:00+00:00",
-"titel": "Sunderland – Leeds",
-"comp": "Premier League",
-"sport": "voetbal",
-"zenders": [
-"Viaplay TV+"
-],
-"streams": [],
-"url": null
-},
 {
 "ko": "2026-10-25T17:00:00+00:00",
 "titel": "Lecce – Juventus",
@@ -132,32 +61,6 @@
 "url": "/nieuws/az-fc-twente-live-gratis-kijken-25-10-2026"
 },
 {
-"ko": "2026-10-25T19:45:00+00:00",
-"titel": "Udinese – AC Milan",
-"comp": "Serie A",
-"sport": "voetbal",
-"zenders": [
-"Ziggo Sport 2"
-],
-"streams": [
-"Bet365"
-],
-"url": "/nieuws/udinese-ac-milan-live-gratis-kijken-25-10-2026"
-},
-{
-"ko": "2026-10-25T20:00:00+00:00",
-"titel": "FC Barcelona – Real Madrid",
-"comp": "La Liga",
-"sport": "voetbal",
-"zenders": [
-"Ziggo Sport 1"
-],
-"streams": [
-"TOTO"
-],
-"url": "/nieuws/fc-barcelona-real-madrid-live-gratis-kijken-25-10-2026"
-},
-{
 "ko": "2026-10-25T20:00:00+00:00",
 "titel": "GP van de Verenigde Staten",
 "comp": "Formule 1",
@@ -180,28 +83,6 @@
 "url": null
 },
 {
-"ko": "2026-10-26T16:00:00+00:00",
-"titel": "Besiktas – Basaksehir",
-"comp": "Süper Lig",
-"sport": "voetbal",
-"zenders": [],
-"streams": [
-"Starcasino"
-],
-"url": "/nieuws/besiktas-istanbul-basaksehir-live-gratis-kijken-26-10-2026"
-},
-{
-"ko": "2026-10-26T16:00:00+00:00",
-"titel": "Rizespor – Trabzonspor",
-"comp": "Süper Lig",
-"sport": "voetbal",
-"zenders": [],
-"streams": [
-"Starcasino"
-],
-"url": "/nieuws/rizespor-trabzonspor-live-gratis-kijken-26-10-2026"
-},
-{
 "ko": "2026-10-26T18:15:00+00:00",
 "titel": "Al-Qadisiyah FC – Al Sadd",
 "comp": "AFC Champions League",
@@ -213,17 +94,6 @@
 "url": null
 },
 {
-"ko": "2026-10-26T18:30:00+00:00",
-"titel": "Galatasaray – Fenerbahce",
-"comp": "Süper Lig",
-"sport": "voetbal",
-"zenders": [],
-"streams": [
-"Bet365"
-],
-"url": "/nieuws/galatasaray-fenerbahce-live-gratis-kijken-26-10-2026"
-},
-{
 "ko": "2026-10-26T18:45:00+00:00",
 "titel": "CD Santa Clara – S.L. Benfica",
 "comp": "Primeira Liga",
@@ -233,19 +103,6 @@
 ],
 "streams": [],
 "url": "/nieuws/santa-clara-benfica-live-gratis-kijken-26-10-2026"
-},
-{
-"ko": "2026-10-26T19:30:00+00:00",
-"titel": "Paris Saint-Germain – Lyon",
-"comp": "Ligue 1",
-"sport": "voetbal",
-"zenders": [
-"Viaplay TV"
-],
-"streams": [
-"711"
-],
-"url": "/nieuws/paris-saint-germain-psg-lyon-live-gratis-kijken-26-10-2026"
 },
 {
 "ko": "2026-10-26T20:00:00+00:00",
@@ -414,6 +271,17 @@
 },
 {
 "ko": "2026-10-27T19:00:00+00:00",
+"titel": "Helmond Sport – Willem II",
+"comp": "KNVB Beker",
+"sport": "voetbal",
+"zenders": [
+"ESPN 1"
+],
+"streams": [],
+"url": null
+},
+{
+"ko": "2026-10-27T19:00:00+00:00",
 "titel": "Telstar – Almere City FC",
 "comp": "KNVB Beker",
 "sport": "voetbal",
@@ -430,17 +298,6 @@
 "sport": "voetbal",
 "zenders": [
 "ESPN 3"
-],
-"streams": [],
-"url": null
-},
-{
-"ko": "2026-10-27T19:00:00+00:00",
-"titel": "Helmond Sport – Willem II",
-"comp": "KNVB Beker",
-"sport": "voetbal",
-"zenders": [
-"ESPN 1"
 ],
 "streams": [],
 "url": null
@@ -523,17 +380,6 @@
 },
 {
 "ko": "2026-10-28T17:30:00+00:00",
-"titel": "AC Milan – Bologna",
-"comp": "Serie A",
-"sport": "voetbal",
-"zenders": [
-"Ziggo Sport 5"
-],
-"streams": [],
-"url": null
-},
-{
-"ko": "2026-10-28T17:30:00+00:00",
 "titel": "Venezia – Inter",
 "comp": "Serie A",
 "sport": "voetbal",
@@ -546,6 +392,17 @@
 {
 "ko": "2026-10-28T17:30:00+00:00",
 "titel": "Parma – Udinese",
+"comp": "Serie A",
+"sport": "voetbal",
+"zenders": [
+"Ziggo Sport 5"
+],
+"streams": [],
+"url": null
+},
+{
+"ko": "2026-10-28T17:30:00+00:00",
+"titel": "AC Milan – Bologna",
 "comp": "Serie A",
 "sport": "voetbal",
 "zenders": [

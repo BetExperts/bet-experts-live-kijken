@@ -6,7 +6,7 @@
     "date": "2026-10-26",
     "league": "super-lig",
     "hub": true,
-    "sig": "6e9b8fb1815b78625c9b24b496d7324e",
+    "sig": "b70732af96526d1223914b44e0c3414e",
     "pairs": [
       [
         "7411",
@@ -65,7 +65,7 @@
     "date": "2026-10-25",
     "league": "eredivisie",
     "hub": true,
-    "sig": "097ecfc4f819a7fe52b1fd9df2849313",
+    "sig": "cb4aea936021dc57b8d38e83b89d8ef8",
     "pairs": [
       [
         "410",
@@ -252,7 +252,7 @@
     "date": "2026-10-25",
     "league": "serie-a",
     "hub": true,
-    "sig": "a96bab9ea78a0aaeaf02f5ac97c8ba31",
+    "sig": "eee8281e2e0896477565d147cc621a1d",
     "pairs": [
       [
         "1579",
@@ -493,7 +493,7 @@
     "date": "2026-10-26",
     "league": "la-liga",
     "hub": true,
-    "sig": "c995c9a1de2daaf57a6e49ca20503f17",
+    "sig": "89bce0774a0c8f2ba30f6496ba69c3e5",
     "pairs": [
       [
         "535",
@@ -999,7 +999,7 @@
     "date": "2026-11-04",
     "league": "jupiler-pro-league",
     "hub": true,
-    "sig": "f16d507817d3a10addbb9dadcdeaf5e7",
+    "sig": "34ac8dcbda00138cf673af6985d706dd",
     "pairs": [
       [
         "736",
@@ -1012,13 +1012,13 @@
         "2026-10-24"
       ],
       [
-        "261",
-        "738",
+        "5902",
+        "600",
         "2026-10-24"
       ],
       [
-        "5902",
-        "600",
+        "261",
+        "738",
         "2026-10-24"
       ],
       [
@@ -1503,8 +1503,8 @@
     "provider": "711",
     "home_id": "85",
     "away_id": "80",
-    "tv_sig": "Viaplay TV|711|False|False",
-    "og": "og/paris-saint-germain-psg-lyon-live-gratis-kijken-26-10-2026-7e5a9b.webp",
+    "tv_sig": "Viaplay|711|False|False",
+    "og": "og/paris-saint-germain-psg-lyon-live-gratis-kijken-26-10-2026-2048d8.webp",
     "og_done": "og/paris-saint-germain-psg-lyon-live-gratis-kijken-26-10-2026-7e5a9b.webp"
   },
   "1575524": {
