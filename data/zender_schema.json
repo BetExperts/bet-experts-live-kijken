@@ -1,5 +1,5 @@
 {
-"bijgewerkt": "2026-10-26T18:15:28.574085+00:00",
+"bijgewerkt": "2026-10-26T18:45:05.048528+00:00",
 "uitzendingen": [
 {
 "ko": "2026-10-26T16:00:00+00:00",
@@ -24,7 +24,7 @@
 "url": "/nieuws/rizespor-trabzonspor-live-gratis-kijken-26-10-2026"
 },
 {
-"ko": "2026-10-26T16:30:00+00:00",
+"ko": "2026-10-26T16:50:00+00:00",
 "titel": "Jakub Menšík – Lukas Neumayer",
 "comp": "ATP Tour",
 "sport": "tennis",
@@ -243,34 +243,18 @@
 "url": null
 },
 {
-"ko": "2026-10-27T16:00:00+00:00",
-"titel": "Novak Djokovic – Ugo Humbert",
+"ko": "2026-10-27T13:00:00+00:00",
+"titel": "Alejandro Tabilo – Rafael Jódar",
 "comp": "ATP Tour",
 "sport": "tennis",
-"zenders": [],
+"zenders": [
+"Ziggo Sport 5"
+],
 "streams": [],
 "url": null
 },
 {
-"ko": "2026-10-27T16:00:00+00:00",
-"titel": "Alexander Zverev – Martín Landaluce",
-"comp": "ATP Tour",
-"sport": "tennis",
-"zenders": [],
-"streams": [],
-"url": null
-},
-{
-"ko": "2026-10-27T16:00:00+00:00",
-"titel": "Ben Shelton – Aleksandar Kovacevic",
-"comp": "ATP Tour",
-"sport": "tennis",
-"zenders": [],
-"streams": [],
-"url": null
-},
-{
-"ko": "2026-10-27T16:00:00+00:00",
+"ko": "2026-10-27T14:00:00+00:00",
 "titel": "Alex Michelsen – Botic van de Zandschulp",
 "comp": "ATP Tour",
 "sport": "tennis",
@@ -279,8 +263,8 @@
 "url": null
 },
 {
-"ko": "2026-10-27T16:00:00+00:00",
-"titel": "Alejandro Tabilo – Rafael Jódar",
+"ko": "2026-10-27T14:00:00+00:00",
+"titel": "Karen Khachanov – Carlos Alcaraz",
 "comp": "ATP Tour",
 "sport": "tennis",
 "zenders": [],
@@ -288,8 +272,8 @@
 "url": null
 },
 {
-"ko": "2026-10-27T16:00:00+00:00",
-"titel": "Taylor Fritz – Rinky Hijikata",
+"ko": "2026-10-27T14:30:00+00:00",
+"titel": "Giovanni Mpetshi Perricard – Arthur Fils",
 "comp": "ATP Tour",
 "sport": "tennis",
 "zenders": [],
@@ -297,11 +281,24 @@
 "url": null
 },
 {
-"ko": "2026-10-27T16:00:00+00:00",
-"titel": "Flavio Cobolli – Grigor Dimitrov",
+"ko": "2026-10-27T16:30:00+00:00",
+"titel": "Alexander Zverev – Martín Landaluce",
 "comp": "ATP Tour",
 "sport": "tennis",
-"zenders": [],
+"zenders": [
+"Ziggo Sport 5"
+],
+"streams": [],
+"url": null
+},
+{
+"ko": "2026-10-27T17:00:00+00:00",
+"titel": "Ben Shelton – Aleksandar Kovacevic",
+"comp": "ATP Tour",
+"sport": "tennis",
+"zenders": [
+"Ziggo Sport 5"
+],
 "streams": [],
 "url": null
 },
@@ -370,6 +367,15 @@
 "zenders": [
 "ESPN 3"
 ],
+"streams": [],
+"url": null
+},
+{
+"ko": "2026-10-27T19:00:00+00:00",
+"titel": "Flavio Cobolli – Grigor Dimitrov",
+"comp": "ATP Tour",
+"sport": "tennis",
+"zenders": [],
 "streams": [],
 "url": null
 },
@@ -593,6 +599,15 @@
 "zenders": [
 "Apple TV"
 ],
+"streams": [],
+"url": null
+},
+{
+"ko": "2026-10-28T09:00:00+00:00",
+"titel": "Novak Djokovic – Ugo Humbert",
+"comp": "ATP Tour",
+"sport": "tennis",
+"zenders": [],
 "streams": [],
 "url": null
 },
