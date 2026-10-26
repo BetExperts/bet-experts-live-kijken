@@ -1,5 +1,5 @@
 {
-"bijgewerkt": "2026-10-26T08:36:31.028829+00:00",
+"bijgewerkt": "2026-10-26T10:07:01.759957+00:00",
 "uitzendingen": [
 {
 "ko": "2026-10-26T13:45:00+00:00",
@@ -9,6 +9,15 @@
 "zenders": [
 "ESPN 1"
 ],
+"streams": [],
+"url": null
+},
+{
+"ko": "2026-10-26T14:00:00+00:00",
+"titel": "Tomáš Macháč – Alex de Minaur",
+"comp": "ATP Tour",
+"sport": "tennis",
+"zenders": [],
 "streams": [],
 "url": null
 },
@@ -33,6 +42,15 @@
 "Starcasino"
 ],
 "url": "/nieuws/rizespor-trabzonspor-live-gratis-kijken-26-10-2026"
+},
+{
+"ko": "2026-10-26T16:30:00+00:00",
+"titel": "Jakub Menšík – Lukas Neumayer",
+"comp": "ATP Tour",
+"sport": "tennis",
+"zenders": [],
+"streams": [],
+"url": null
 },
 {
 "ko": "2026-10-26T17:00:00+00:00",
@@ -264,6 +282,15 @@
 },
 {
 "ko": "2026-10-27T16:00:00+00:00",
+"titel": "Ben Shelton – Aleksandar Kovacevic",
+"comp": "ATP Tour",
+"sport": "tennis",
+"zenders": [],
+"streams": [],
+"url": null
+},
+{
+"ko": "2026-10-27T16:00:00+00:00",
 "titel": "Alex Michelsen – Botic van de Zandschulp",
 "comp": "ATP Tour",
 "sport": "tennis",
@@ -282,7 +309,25 @@
 },
 {
 "ko": "2026-10-27T16:00:00+00:00",
+"titel": "Taylor Fritz – Rinky Hijikata",
+"comp": "ATP Tour",
+"sport": "tennis",
+"zenders": [],
+"streams": [],
+"url": null
+},
+{
+"ko": "2026-10-27T16:00:00+00:00",
 "titel": "Flavio Cobolli – Grigor Dimitrov",
+"comp": "ATP Tour",
+"sport": "tennis",
+"zenders": [],
+"streams": [],
+"url": null
+},
+{
+"ko": "2026-10-27T16:00:00+00:00",
+"titel": "Giovanni Mpetshi Perricard – Arthur Fils",
 "comp": "ATP Tour",
 "sport": "tennis",
 "zenders": [],
@@ -701,6 +746,28 @@
 },
 {
 "ko": "2026-10-28T19:00:00+00:00",
+"titel": "PEC Zwolle – TOP Oss",
+"comp": "KNVB Beker",
+"sport": "voetbal",
+"zenders": [
+"ESPN 1"
+],
+"streams": [],
+"url": null
+},
+{
+"ko": "2026-10-28T19:00:00+00:00",
+"titel": "MVV – Excelsior",
+"comp": "KNVB Beker",
+"sport": "voetbal",
+"zenders": [
+"ESPN 1"
+],
+"streams": [],
+"url": null
+},
+{
+"ko": "2026-10-28T19:00:00+00:00",
 "titel": "JOS Watergraafsmeer – NAC Breda",
 "comp": "KNVB Beker",
 "sport": "voetbal",
@@ -717,6 +784,17 @@
 "sport": "voetbal",
 "zenders": [
 "Viaplay"
+],
+"streams": [],
+"url": null
+},
+{
+"ko": "2026-10-28T19:45:00+00:00",
+"titel": "Genoa – Juventus",
+"comp": "Serie A",
+"sport": "voetbal",
+"zenders": [
+"Ziggo Sport 5"
 ],
 "streams": [],
 "url": null
@@ -757,17 +835,6 @@
 },
 {
 "ko": "2026-10-28T19:45:00+00:00",
-"titel": "Genoa – Juventus",
-"comp": "Serie A",
-"sport": "voetbal",
-"zenders": [
-"Ziggo Sport 5"
-],
-"streams": [],
-"url": null
-},
-{
-"ko": "2026-10-28T19:45:00+00:00",
 "titel": "Monza – Napoli",
 "comp": "Serie A",
 "sport": "voetbal",
@@ -790,22 +857,22 @@
 },
 {
 "ko": "2026-10-28T20:00:00+00:00",
-"titel": "Arsenal (V) – S.L. Benfica (V)",
-"comp": "UEFA Women's Champions League",
+"titel": "Excelsior Maassluis – sc Heerenveen",
+"comp": "KNVB Beker",
 "sport": "voetbal",
 "zenders": [
-"Disney+"
+"ESPN 4"
 ],
 "streams": [],
 "url": null
 },
 {
 "ko": "2026-10-28T20:00:00+00:00",
-"titel": "Excelsior Maassluis – SC Heerenveen",
-"comp": "KNVB Beker",
+"titel": "Arsenal (V) – S.L. Benfica (V)",
+"comp": "UEFA Women's Champions League",
 "sport": "voetbal",
 "zenders": [
-"ESPN 4"
+"Disney+"
 ],
 "streams": [],
 "url": null
