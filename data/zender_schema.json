@@ -1,19 +1,6 @@
 {
-"bijgewerkt": "2026-10-26T22:02:37.519950+00:00",
+"bijgewerkt": "2026-10-26T22:35:19.703391+00:00",
 "uitzendingen": [
-{
-"ko": "2026-10-26T19:30:00+00:00",
-"titel": "Paris Saint-Germain – Lyon",
-"comp": "Ligue 1",
-"sport": "voetbal",
-"zenders": [
-"Viaplay TV"
-],
-"streams": [
-"711"
-],
-"url": "/nieuws/paris-saint-germain-psg-lyon-live-gratis-kijken-26-10-2026"
-},
 {
 "ko": "2026-10-26T19:45:00+00:00",
 "titel": "Montpellier – Red Star",
@@ -206,15 +193,6 @@
 },
 {
 "ko": "2026-10-27T19:45:00+00:00",
-"titel": "Torino – Como",
-"comp": "Serie A",
-"sport": "voetbal",
-"zenders": [],
-"streams": [],
-"url": null
-},
-{
-"ko": "2026-10-27T19:45:00+00:00",
 "titel": "AS Roma – Cagliari",
 "comp": "Serie A",
 "sport": "voetbal",
@@ -225,6 +203,15 @@
 "Bet365"
 ],
 "url": "/nieuws/as-roma-cagliari-live-gratis-kijken-27-10-2026"
+},
+{
+"ko": "2026-10-27T19:45:00+00:00",
+"titel": "Torino – Como",
+"comp": "Serie A",
+"sport": "voetbal",
+"zenders": [],
+"streams": [],
+"url": null
 },
 {
 "ko": "2026-10-27T19:45:00+00:00",
@@ -496,18 +483,7 @@
 },
 {
 "ko": "2026-10-28T17:30:00+00:00",
-"titel": "Parma – Udinese",
-"comp": "Serie A",
-"sport": "voetbal",
-"zenders": [
-"Ziggo Sport 5"
-],
-"streams": [],
-"url": null
-},
-{
-"ko": "2026-10-28T17:30:00+00:00",
-"titel": "Venezia – Inter Milan",
+"titel": "Venezia – Inter",
 "comp": "Serie A",
 "sport": "voetbal",
 "zenders": [
