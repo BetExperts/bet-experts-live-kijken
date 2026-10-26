@@ -34,19 +34,19 @@ MERKEN = [
     ("TOTO en Winnitt", "toto.nl, winn-itt.nl", "TOTO Online B.V.", "CPS", "toto"),
     ("Unibet", "unibet.nl", "Optdeck Service Ltd", "CPSH", "unibet"),
     ("Vbet", "vbet.nl", "SCGO Ltd", "CS", "vbet"),
-    ("winz.nl", "winz.nl", "Orange Gaming B.V.", "C", None),
+    ("Winz", "winz.nl", "Orange Gaming B.V.", "C", "winz"),
     ("ZEbet en ZEturf", "zebet.nl, zeturf.nl", "ZEbetting & Gaming Nederland B.V.", "SH", None),
 ]
 PROD = {"C": "Casino", "P": "Poker", "S": "Sport", "H": "Paarden"}
 
 # Aanraders (ranking Bookmakers-CMS 21-10-2026): (merk, review-slug, affiliate-url)
 AANRADERS = [
-    ("Bingoal", "bingoal", "https://www.awin1.com/cread.php?awinmid=25635&awinaffid=2599519&campaign=XX&clickref=XX&ued=https%3A%2F%2Fwww.bingoal.nl%2Fnl%2FPromotie%2FWELKOMSTBONUSSPORT25"),
-    ("JACKS.NL", "jacks-nl", "https://media.friendsofjacks.eu/redirect.aspx?pid=2527&bid=2224"),
-    ("BetMGM", "betmgm", "https://casino.betmgm.nl/redirect.aspx?pid=3781431&lpid=3329&bid=20762"),
-    ("Starcasino", "starcasino", "https://media1.affiliates.starcasino.nl/redirect.aspx?pid=2170&bid=1478"),
-    ("TOTO", "toto", "https://partner.toto.nl/C.ashx?btag=a_375b_445c_&affid=184&siteid=375&adid=445&c="),
-    ("bet365", "bet365", "https://www.bet365.nl/hub/nl-nl/open-account?affiliate=365_02599619"),
+    ("Bingoal", "bingoal", "https://www.bet-experts.nl/go/bingoal-sport"),
+    ("JACKS.NL", "jacks-nl", "https://www.bet-experts.nl/go/jacks-registratie"),
+    ("BetMGM", "betmgm", "https://www.bet-experts.nl/go/betmgm"),
+    ("Starcasino", "starcasino", "https://www.bet-experts.nl/go/starcasino"),
+    ("TOTO", "toto", "https://www.bet-experts.nl/go/toto"),
+    ("bet365", "bet365", "https://www.bet-experts.nl/go/bet365"),
 ]
 
 T = 'style="width:100%;border-collapse:collapse;margin:8px 0 18px"'
