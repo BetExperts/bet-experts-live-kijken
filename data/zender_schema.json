@@ -1,70 +1,6 @@
 {
-"bijgewerkt": "2026-10-26T18:45:05.048528+00:00",
+"bijgewerkt": "2026-10-26T20:58:41.204034+00:00",
 "uitzendingen": [
-{
-"ko": "2026-10-26T16:00:00+00:00",
-"titel": "Besiktas – Basaksehir",
-"comp": "Süper Lig",
-"sport": "voetbal",
-"zenders": [],
-"streams": [
-"Starcasino"
-],
-"url": "/nieuws/besiktas-istanbul-basaksehir-live-gratis-kijken-26-10-2026"
-},
-{
-"ko": "2026-10-26T16:00:00+00:00",
-"titel": "Rizespor – Trabzonspor",
-"comp": "Süper Lig",
-"sport": "voetbal",
-"zenders": [],
-"streams": [
-"Starcasino"
-],
-"url": "/nieuws/rizespor-trabzonspor-live-gratis-kijken-26-10-2026"
-},
-{
-"ko": "2026-10-26T16:50:00+00:00",
-"titel": "Jakub Menšík – Lukas Neumayer",
-"comp": "ATP Tour",
-"sport": "tennis",
-"zenders": [],
-"streams": [],
-"url": null
-},
-{
-"ko": "2026-10-26T17:00:00+00:00",
-"titel": "Hamburger SV – Eintracht Frankfurt",
-"comp": "DFB Pokal",
-"sport": "voetbal",
-"zenders": [
-"Ziggo Sport 1"
-],
-"streams": [],
-"url": null
-},
-{
-"ko": "2026-10-26T17:30:00+00:00",
-"titel": "Sassuolo – Lazio",
-"comp": "Serie A",
-"sport": "voetbal",
-"zenders": [
-"Ziggo Sport 2"
-],
-"streams": [],
-"url": null
-},
-{
-"ko": "2026-10-26T17:45:00+00:00",
-"titel": "Excelsior '31 – ADO Den Haag",
-"comp": "KNVB Beker",
-"sport": "voetbal",
-"zenders": [
-"ESPN 2"
-],
-"streams": [],
-"url": null
-},
 {
 "ko": "2026-10-26T18:15:00+00:00",
 "titel": "Al-Qadisiyah FC – Al Sadd",
@@ -89,7 +25,7 @@
 },
 {
 "ko": "2026-10-26T18:45:00+00:00",
-"titel": "CD Santa Clara – S.L. Benfica",
+"titel": "Santa Clara – S.L. Benfica",
 "comp": "Primeira Liga",
 "sport": "voetbal",
 "zenders": [
@@ -110,17 +46,6 @@
 "url": null
 },
 {
-"ko": "2026-10-26T19:00:00+00:00",
-"titel": "VV Kloetinge – Cambuur",
-"comp": "KNVB Beker",
-"sport": "voetbal",
-"zenders": [
-"ESPN 3"
-],
-"streams": [],
-"url": null
-},
-{
 "ko": "2026-10-26T19:30:00+00:00",
 "titel": "Paris Saint-Germain – Lyon",
 "comp": "Ligue 1",
@@ -132,40 +57,6 @@
 "711"
 ],
 "url": "/nieuws/paris-saint-germain-psg-lyon-live-gratis-kijken-26-10-2026"
-},
-{
-"ko": "2026-10-26T19:45:00+00:00",
-"titel": "AS Roma – Cagliari",
-"comp": "Serie A",
-"sport": "voetbal",
-"zenders": [
-"Ziggo Sport 2"
-],
-"streams": [],
-"url": null
-},
-{
-"ko": "2026-10-26T19:45:00+00:00",
-"titel": "Borussia Dortmund – Werder Bremen",
-"comp": "DFB Pokal",
-"sport": "voetbal",
-"zenders": [
-"Ziggo Sport 1",
-"Ziggo Sport 3"
-],
-"streams": [],
-"url": null
-},
-{
-"ko": "2026-10-26T19:45:00+00:00",
-"titel": "Bradford – Peterborough",
-"comp": "EFL Cup",
-"sport": "voetbal",
-"zenders": [
-"Viaplay"
-],
-"streams": [],
-"url": null
 },
 {
 "ko": "2026-10-26T19:45:00+00:00",
@@ -190,28 +81,6 @@
 "TOTO"
 ],
 "url": "/nieuws/sevilla-osasuna-live-gratis-kijken-26-10-2026"
-},
-{
-"ko": "2026-10-26T20:00:00+00:00",
-"titel": "Fleetwood Town – Arsenal",
-"comp": "EFL Cup",
-"sport": "voetbal",
-"zenders": [
-"Viaplay"
-],
-"streams": [],
-"url": null
-},
-{
-"ko": "2026-10-26T20:00:00+00:00",
-"titel": "Koninklijke HFC – Go Ahead Eagles",
-"comp": "KNVB Beker",
-"sport": "voetbal",
-"zenders": [
-"ESPN 4"
-],
-"streams": [],
-"url": null
 },
 {
 "ko": "2026-10-26T20:00:00+00:00",
@@ -381,6 +250,15 @@
 },
 {
 "ko": "2026-10-27T19:45:00+00:00",
+"titel": "Torino – Como",
+"comp": "Serie A",
+"sport": "voetbal",
+"zenders": [],
+"streams": [],
+"url": null
+},
+{
+"ko": "2026-10-27T19:45:00+00:00",
 "titel": "AS Roma – Cagliari",
 "comp": "Serie A",
 "sport": "voetbal",
@@ -391,15 +269,6 @@
 "Bet365"
 ],
 "url": "/nieuws/as-roma-cagliari-live-gratis-kijken-27-10-2026"
-},
-{
-"ko": "2026-10-27T19:45:00+00:00",
-"titel": "Torino – Como",
-"comp": "Serie A",
-"sport": "voetbal",
-"zenders": [],
-"streams": [],
-"url": null
 },
 {
 "ko": "2026-10-27T19:45:00+00:00",
@@ -860,7 +729,7 @@
 },
 {
 "ko": "2026-10-28T20:00:00+00:00",
-"titel": "Arsenal (V) – S.L. Benfica (V)",
+"titel": "Arsenal (V) – SL Benfica (V)",
 "comp": "UEFA Women's Champions League",
 "sport": "voetbal",
 "zenders": [
@@ -1580,7 +1449,8 @@
 "comp": "Ligue 1",
 "sport": "voetbal",
 "zenders": [
-"Viaplay"
+"Viaplay",
+"Viaplay|Viaplay TV"
 ],
 "streams": [],
 "url": null
@@ -1976,7 +1846,8 @@
 "comp": "Ligue 1",
 "sport": "voetbal",
 "zenders": [
-"Viaplay"
+"Viaplay",
+"Viaplay TV"
 ],
 "streams": [],
 "url": null
@@ -2087,7 +1958,8 @@
 "comp": "Premier League",
 "sport": "voetbal",
 "zenders": [
-"Viaplay"
+"Viaplay",
+"Viaplay TV"
 ],
 "streams": [],
 "url": null
