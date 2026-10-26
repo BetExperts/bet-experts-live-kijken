@@ -1,5 +1,5 @@
 {
-"bijgewerkt": "2026-10-26T10:07:01.759957+00:00",
+"bijgewerkt": "2026-10-26T12:20:46.977288+00:00",
 "uitzendingen": [
 {
 "ko": "2026-10-26T13:45:00+00:00",
@@ -53,41 +53,8 @@
 "url": null
 },
 {
-"ko": "2026-10-26T17:00:00+00:00",
-"titel": "Hamburger SV – Eintracht Frankfurt",
-"comp": "DFB Pokal",
-"sport": "voetbal",
-"zenders": [
-"Ziggo Sport 1"
-],
-"streams": [],
-"url": null
-},
-{
-"ko": "2026-10-26T17:30:00+00:00",
-"titel": "Sassuolo – Lazio",
-"comp": "Serie A",
-"sport": "voetbal",
-"zenders": [
-"Ziggo Sport 2"
-],
-"streams": [],
-"url": null
-},
-{
-"ko": "2026-10-26T17:45:00+00:00",
-"titel": "Excelsior '31 – ADO Den Haag",
-"comp": "KNVB Beker",
-"sport": "voetbal",
-"zenders": [
-"ESPN 2"
-],
-"streams": [],
-"url": null
-},
-{
 "ko": "2026-10-26T18:15:00+00:00",
-"titel": "Al Quadisiya – Al Sadd",
+"titel": "Al-Qadisiyah FC – Al Sadd",
 "comp": "AFC Champions League",
 "sport": "voetbal",
 "zenders": [
@@ -130,17 +97,6 @@
 "url": null
 },
 {
-"ko": "2026-10-26T19:00:00+00:00",
-"titel": "VV Kloetinge – Cambuur",
-"comp": "KNVB Beker",
-"sport": "voetbal",
-"zenders": [
-"ESPN 3"
-],
-"streams": [],
-"url": null
-},
-{
 "ko": "2026-10-26T19:30:00+00:00",
 "titel": "Paris Saint-Germain – Lyon",
 "comp": "Ligue 1",
@@ -152,40 +108,6 @@
 "711"
 ],
 "url": "/nieuws/paris-saint-germain-psg-lyon-live-gratis-kijken-26-10-2026"
-},
-{
-"ko": "2026-10-26T19:45:00+00:00",
-"titel": "AS Roma – Cagliari",
-"comp": "Serie A",
-"sport": "voetbal",
-"zenders": [
-"Ziggo Sport 2"
-],
-"streams": [],
-"url": null
-},
-{
-"ko": "2026-10-26T19:45:00+00:00",
-"titel": "Borussia Dortmund – Werder Bremen",
-"comp": "DFB Pokal",
-"sport": "voetbal",
-"zenders": [
-"Ziggo Sport 1",
-"Ziggo Sport 3"
-],
-"streams": [],
-"url": null
-},
-{
-"ko": "2026-10-26T19:45:00+00:00",
-"titel": "Bradford – Peterborough",
-"comp": "EFL Cup",
-"sport": "voetbal",
-"zenders": [
-"Viaplay"
-],
-"streams": [],
-"url": null
 },
 {
 "ko": "2026-10-26T19:45:00+00:00",
@@ -210,28 +132,6 @@
 "TOTO"
 ],
 "url": "/nieuws/sevilla-osasuna-live-gratis-kijken-26-10-2026"
-},
-{
-"ko": "2026-10-26T20:00:00+00:00",
-"titel": "Fleetwood Town – Arsenal",
-"comp": "EFL Cup",
-"sport": "voetbal",
-"zenders": [
-"Viaplay"
-],
-"streams": [],
-"url": null
-},
-{
-"ko": "2026-10-26T20:00:00+00:00",
-"titel": "Koninklijke HFC – Go Ahead Eagles",
-"comp": "KNVB Beker",
-"sport": "voetbal",
-"zenders": [
-"ESPN 4"
-],
-"streams": [],
-"url": null
 },
 {
 "ko": "2026-10-26T20:00:00+00:00",
@@ -746,6 +646,17 @@
 },
 {
 "ko": "2026-10-28T19:00:00+00:00",
+"titel": "JOS Watergraafsmeer – NAC Breda",
+"comp": "KNVB Beker",
+"sport": "voetbal",
+"zenders": [
+"ESPN 3"
+],
+"streams": [],
+"url": null
+},
+{
+"ko": "2026-10-28T19:00:00+00:00",
 "titel": "PEC Zwolle – TOP Oss",
 "comp": "KNVB Beker",
 "sport": "voetbal",
@@ -762,17 +673,6 @@
 "sport": "voetbal",
 "zenders": [
 "ESPN 1"
-],
-"streams": [],
-"url": null
-},
-{
-"ko": "2026-10-28T19:00:00+00:00",
-"titel": "JOS Watergraafsmeer – NAC Breda",
-"comp": "KNVB Beker",
-"sport": "voetbal",
-"zenders": [
-"ESPN 3"
 ],
 "streams": [],
 "url": null
@@ -924,22 +824,22 @@
 },
 {
 "ko": "2026-10-29T17:45:00+00:00",
-"titel": "Austria Wien (V) – Juventus (V)",
-"comp": "UEFA Women's Champions League",
+"titel": "Kozakken Boys – FC Utrecht",
+"comp": "KNVB Beker",
 "sport": "voetbal",
 "zenders": [
-"Disney+"
+"ESPN 2"
 ],
 "streams": [],
 "url": null
 },
 {
 "ko": "2026-10-29T17:45:00+00:00",
-"titel": "Kozakken Boys – FC Utrecht",
-"comp": "KNVB Beker",
+"titel": "Austria Wien (V) – Juventus (V)",
+"comp": "UEFA Women's Champions League",
 "sport": "voetbal",
 "zenders": [
-"ESPN 2"
+"Disney+"
 ],
 "streams": [],
 "url": null
@@ -957,7 +857,7 @@
 },
 {
 "ko": "2026-10-29T19:00:00+00:00",
-"titel": "De Treffers – Heracles Almelo",
+"titel": "De Treffers – Heracles",
 "comp": "KNVB Beker",
 "sport": "voetbal",
 "zenders": [
@@ -1050,6 +950,17 @@
 "sport": "voetbal",
 "zenders": [
 "Viaplay"
+],
+"streams": [],
+"url": null
+},
+{
+"ko": "2026-10-30T19:00:00+00:00",
+"titel": "FC Volendam – De Graafschap",
+"comp": "Keuken Kampioen Divisie",
+"sport": "voetbal",
+"zenders": [
+"ESPN Extra"
 ],
 "streams": [],
 "url": null
@@ -1809,7 +1720,8 @@
 "comp": "Eredivisie Vrouwen",
 "sport": "voetbal",
 "zenders": [
-"ESPN 4"
+"ESPN 4",
+"ESPN 1"
 ],
 "streams": [],
 "url": null
@@ -1821,28 +1733,6 @@
 "sport": "voetbal",
 "zenders": [
 "ESPN 2"
-],
-"streams": [],
-"url": null
-},
-{
-"ko": "2026-11-01T15:45:00+00:00",
-"titel": "FC Utrecht (V) – De Graafschap (V)",
-"comp": "Eredivisie Vrouwen",
-"sport": "voetbal",
-"zenders": [
-"ESPN Extra"
-],
-"streams": [],
-"url": null
-},
-{
-"ko": "2026-11-01T15:45:00+00:00",
-"titel": "PSV (V) – SC Heerenveen (V)",
-"comp": "Eredivisie Vrouwen",
-"sport": "voetbal",
-"zenders": [
-"ESPN 1"
 ],
 "streams": [],
 "url": null
@@ -1965,6 +1855,83 @@
 "sport": "voetbal",
 "zenders": [
 "Apple TV"
+],
+"streams": [],
+"url": null
+},
+{
+"ko": "2026-11-02T13:45:00+00:00",
+"titel": "Pachtakor Tasjkent – Al Nassr FC",
+"comp": "AFC Champions League",
+"sport": "voetbal",
+"zenders": [
+"ESPN 1"
+],
+"streams": [],
+"url": null
+},
+{
+"ko": "2026-11-02T17:00:00+00:00",
+"titel": "VfL Wolfsburg (V) – 1899 Hoffenheim (V)",
+"comp": "DFB-Pokal Vrouwen",
+"sport": "voetbal",
+"zenders": [
+"Viaplay"
+],
+"streams": [],
+"url": null
+},
+{
+"ko": "2026-11-02T17:30:00+00:00",
+"titel": "Sassuolo – Fiorentina",
+"comp": "Serie A",
+"sport": "voetbal",
+"zenders": [
+"Ziggo Sport 2"
+],
+"streams": [],
+"url": null
+},
+{
+"ko": "2026-11-02T19:00:00+00:00",
+"titel": "Jong PSV – NAC Breda",
+"comp": "Keuken Kampioen Divisie",
+"sport": "voetbal",
+"zenders": [
+"ESPN 2"
+],
+"streams": [],
+"url": null
+},
+{
+"ko": "2026-11-02T19:45:00+00:00",
+"titel": "Atalanta – Parma",
+"comp": "Serie A",
+"sport": "voetbal",
+"zenders": [
+"Ziggo Sport 2"
+],
+"streams": [],
+"url": null
+},
+{
+"ko": "2026-11-02T20:00:00+00:00",
+"titel": "Newcastle United – Everton",
+"comp": "Premier League",
+"sport": "voetbal",
+"zenders": [
+"Viaplay"
+],
+"streams": [],
+"url": null
+},
+{
+"ko": "2026-11-02T20:15:00+00:00",
+"titel": "S.L. Benfica – FC Alverca",
+"comp": "Primeira Liga",
+"sport": "voetbal",
+"zenders": [
+"Ziggo Sport 3"
 ],
 "streams": [],
 "url": null
