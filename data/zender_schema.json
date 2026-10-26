@@ -1,5 +1,5 @@
 {
-"bijgewerkt": "2026-10-26T14:37:14.539252+00:00",
+"bijgewerkt": "2026-10-26T15:32:04.793613+00:00",
 "uitzendingen": [
 {
 "ko": "2026-10-26T13:45:00+00:00",
@@ -227,33 +227,6 @@
 },
 {
 "ko": "2026-10-27T16:00:00+00:00",
-"titel": "Giovanni Mpetshi Perricard – Arthur Fils",
-"comp": "ATP Tour",
-"sport": "tennis",
-"zenders": [],
-"streams": [],
-"url": null
-},
-{
-"ko": "2026-10-27T16:00:00+00:00",
-"titel": "Tallon Griekspoor – Brandon Nakashima",
-"comp": "ATP Tour",
-"sport": "tennis",
-"zenders": [],
-"streams": [],
-"url": null
-},
-{
-"ko": "2026-10-27T16:00:00+00:00",
-"titel": "Karen Khachanov – Carlos Alcaraz",
-"comp": "ATP Tour",
-"sport": "tennis",
-"zenders": [],
-"streams": [],
-"url": null
-},
-{
-"ko": "2026-10-27T16:00:00+00:00",
 "titel": "Merida Aguilar D. – Daniil Medvedev",
 "comp": "ATP Tour",
 "sport": "tennis",
@@ -267,6 +240,17 @@
 "comp": "ATP Tour",
 "sport": "tennis",
 "zenders": [],
+"streams": [],
+"url": null
+},
+{
+"ko": "2026-10-27T17:00:00+00:00",
+"titel": "Ben Shelton – Aleksandar Kovacevic",
+"comp": "ATP Tour",
+"sport": "tennis",
+"zenders": [
+"Ziggo Sport 5"
+],
 "streams": [],
 "url": null
 },
@@ -552,6 +536,24 @@
 "zenders": [
 "Apple TV"
 ],
+"streams": [],
+"url": null
+},
+{
+"ko": "2026-10-28T09:00:00+00:00",
+"titel": "Novak Djokovic – Ugo Humbert",
+"comp": "ATP Tour",
+"sport": "tennis",
+"zenders": [],
+"streams": [],
+"url": null
+},
+{
+"ko": "2026-10-28T09:00:00+00:00",
+"titel": "Taylor Fritz – Rinky Hijikata",
+"comp": "ATP Tour",
+"sport": "tennis",
+"zenders": [],
 "streams": [],
 "url": null
 },
