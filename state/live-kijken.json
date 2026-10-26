@@ -6,7 +6,7 @@
     "date": "2026-10-26",
     "league": "super-lig",
     "hub": true,
-    "sig": "08337d9ed6f2dd2df7259881de375f31",
+    "sig": "3e4618f271c01e714218f0105d486b33",
     "pairs": [
       [
         "7411",
@@ -316,7 +316,7 @@
     "date": "2026-10-25",
     "league": "bundesliga",
     "hub": true,
-    "sig": "160b48394da2f0ca1bbeb2df4e80261e",
+    "sig": "6441eb600fccf14cdb83ac8e1c681393",
     "pairs": [
       [
         "163",
@@ -1371,7 +1371,7 @@
     "date": "2026-10-29",
     "league": "serie-a",
     "hub": true,
-    "sig": "b124c38bb04fabc448a00232357c629d",
+    "sig": "80cf1920a1e4563db70243f0394e29b9",
     "pairs": [
       [
         "487",
@@ -1427,5 +1427,41 @@
     "ronde": "Regular Season - 9",
     "og": "og/serie-a-speelronde-9-op-tv-27-oktober-2026-51fe75.webp",
     "og_done": "og/serie-a-speelronde-9-op-tv-27-oktober-2026-51fe75.webp"
+  },
+  "1550174": {
+    "item_id": "6adf98684fc22d6486a4fd5c",
+    "slug": "sassuolo-lazio-live-gratis-kijken-27-10-2026",
+    "match": "Sassuolo - Lazio",
+    "date": "2026-10-27",
+    "league": "serie-a",
+    "provider": "Bet365",
+    "home_id": "488",
+    "away_id": "487",
+    "tv_sig": "Ziggo Sport 2|Bet365|False|False",
+    "og": "og/sassuolo-lazio-live-gratis-kijken-27-10-2026-06d22c.webp"
+  },
+  "1550168": {
+    "item_id": "6adf986e0c28e42b2a4cf578",
+    "slug": "as-roma-cagliari-live-gratis-kijken-27-10-2026",
+    "match": "AS Roma - Cagliari",
+    "date": "2026-10-27",
+    "league": "serie-a",
+    "provider": "Bet365",
+    "home_id": "497",
+    "away_id": "490",
+    "tv_sig": "Ziggo Sport 2|Bet365|False|False",
+    "og": "og/as-roma-cagliari-live-gratis-kijken-27-10-2026-4747fc.webp"
+  },
+  "1640386": {
+    "item_id": "6adf9878eb58125f08326f5e",
+    "slug": "fleetwood-town-arsenal-live-gratis-kijken-27-10-2026",
+    "match": "Fleetwood Town - Arsenal",
+    "date": "2026-10-27",
+    "league": "efl-cup",
+    "provider": "Bet365",
+    "home_id": "1336",
+    "away_id": "42",
+    "tv_sig": "Viaplay|Bet365|False|False",
+    "og": "og/fleetwood-town-arsenal-live-gratis-kijken-27-10-2026-0cedfa.webp"
   }
 }
