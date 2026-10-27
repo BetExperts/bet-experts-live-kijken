@@ -1,28 +1,8 @@
 {
-"bijgewerkt": "2026-10-27T14:12:01.473888+00:00",
+"bijgewerkt": "2026-10-27T16:55:04.831959+00:00",
 "uitzendingen": [
 {
-"ko": "2026-10-27T13:00:00+00:00",
-"titel": "Alejandro Tabilo – Rafael Jódar",
-"comp": "ATP Tour",
-"sport": "tennis",
-"zenders": [
-"Ziggo Sport 5"
-],
-"streams": [],
-"url": null
-},
-{
-"ko": "2026-10-27T14:00:00+00:00",
-"titel": "Alex Michelsen – Botic van de Zandschulp",
-"comp": "ATP Tour",
-"sport": "tennis",
-"zenders": [],
-"streams": [],
-"url": null
-},
-{
-"ko": "2026-10-27T14:00:00+00:00",
+"ko": "2026-10-27T14:35:00+00:00",
 "titel": "Karen Khachanov – Carlos Alcaraz",
 "comp": "ATP Tour",
 "sport": "tennis",
@@ -31,8 +11,17 @@
 "url": null
 },
 {
-"ko": "2026-10-27T14:30:00+00:00",
+"ko": "2026-10-27T14:55:00+00:00",
 "titel": "Giovanni Mpetshi Perricard – Arthur Fils",
+"comp": "ATP Tour",
+"sport": "tennis",
+"zenders": [],
+"streams": [],
+"url": null
+},
+{
+"ko": "2026-10-27T15:30:00+00:00",
+"titel": "Alex Michelsen – Botic van de Zandschulp",
 "comp": "ATP Tour",
 "sport": "tennis",
 "zenders": [],
@@ -330,6 +319,15 @@
 "url": null
 },
 {
+"ko": "2026-10-28T02:00:00+00:00",
+"titel": "Belinda Bencic – Ekaterina Alexandrova",
+"comp": "WTA Tour",
+"sport": "tennis",
+"zenders": [],
+"streams": [],
+"url": null
+},
+{
 "ko": "2026-10-28T02:30:00+00:00",
 "titel": "San Jose Earthquakes – Colorado Rapids",
 "comp": "MLS",
@@ -363,8 +361,8 @@
 "url": null
 },
 {
-"ko": "2026-10-28T09:00:00+00:00",
-"titel": "Novak Djokovic – Ugo Humbert",
+"ko": "2026-10-28T12:30:00+00:00",
+"titel": "Tallon Griekspoor – Brandon Nakashima",
 "comp": "ATP Tour",
 "sport": "tennis",
 "zenders": [],
@@ -372,25 +370,7 @@
 "url": null
 },
 {
-"ko": "2026-10-28T09:00:00+00:00",
-"titel": "Taylor Fritz – Rinky Hijikata",
-"comp": "ATP Tour",
-"sport": "tennis",
-"zenders": [],
-"streams": [],
-"url": null
-},
-{
-"ko": "2026-10-28T16:00:00+00:00",
-"titel": "Learner Tien – Alex de Minaur",
-"comp": "ATP Tour",
-"sport": "tennis",
-"zenders": [],
-"streams": [],
-"url": null
-},
-{
-"ko": "2026-10-28T16:00:00+00:00",
+"ko": "2026-10-28T12:30:00+00:00",
 "titel": "Merida Aguilar D. – Daniil Medvedev",
 "comp": "ATP Tour",
 "sport": "tennis",
@@ -399,8 +379,26 @@
 "url": null
 },
 {
-"ko": "2026-10-28T16:00:00+00:00",
+"ko": "2026-10-28T14:00:00+00:00",
 "titel": "Lorenzo Musetti – Frances Tiafoe",
+"comp": "ATP Tour",
+"sport": "tennis",
+"zenders": [],
+"streams": [],
+"url": null
+},
+{
+"ko": "2026-10-28T14:30:00+00:00",
+"titel": "Novak Djokovic – Ugo Humbert",
+"comp": "ATP Tour",
+"sport": "tennis",
+"zenders": [],
+"streams": [],
+"url": null
+},
+{
+"ko": "2026-10-28T17:00:00+00:00",
+"titel": "Taylor Fritz – Rinky Hijikata",
 "comp": "ATP Tour",
 "sport": "tennis",
 "zenders": [],
@@ -530,6 +528,15 @@
 "url": null
 },
 {
+"ko": "2026-10-28T19:00:00+00:00",
+"titel": "Learner Tien – Alex de Minaur",
+"comp": "ATP Tour",
+"sport": "tennis",
+"zenders": [],
+"streams": [],
+"url": null
+},
+{
 "ko": "2026-10-28T19:30:00+00:00",
 "titel": "Manchester City – Brighton",
 "comp": "EFL Cup",
@@ -620,7 +627,7 @@
 },
 {
 "ko": "2026-10-28T20:00:00+00:00",
-"titel": "Arsenal F.C. (V) – SL Benfica (V)",
+"titel": "Arsenal (V) – S.L. Benfica (V)",
 "comp": "UEFA Women's Champions League",
 "sport": "voetbal",
 "zenders": [
@@ -775,7 +782,7 @@
 },
 {
 "ko": "2026-10-29T20:00:00+00:00",
-"titel": "Manchester City F.C. (V) – Paris Saint-Germain (V)",
+"titel": "Manchester City (V) – Paris Saint-Germain (V)",
 "comp": "UEFA Women's Champions League",
 "sport": "voetbal",
 "zenders": [
@@ -809,6 +816,17 @@
 {
 "ko": "2026-10-30T18:00:00+00:00",
 "titel": "Le Havre – Paris Saint-Germain",
+"comp": "Ligue 1",
+"sport": "voetbal",
+"zenders": [
+"Viaplay"
+],
+"streams": [],
+"url": null
+},
+{
+"ko": "2026-10-30T18:00:00+00:00",
+"titel": "Nice – Rennes",
 "comp": "Ligue 1",
 "sport": "voetbal",
 "zenders": [
@@ -1230,7 +1248,8 @@
 "comp": "Eredivisie",
 "sport": "voetbal",
 "zenders": [
-"ESPN 2"
+"ESPN 2",
+"ESPN 1"
 ],
 "streams": [],
 "url": null
@@ -1241,7 +1260,8 @@
 "comp": "Eredivisie",
 "sport": "voetbal",
 "zenders": [
-"ESPN 1"
+"ESPN 1",
+"ESPN 2"
 ],
 "streams": [],
 "url": null
@@ -1352,7 +1372,7 @@
 "sport": "voetbal",
 "zenders": [
 "Viaplay",
-"Viaplay TV"
+"Viaplay|Viaplay TV"
 ],
 "streams": [],
 "url": null
@@ -1374,7 +1394,8 @@
 "comp": "Eredivisie",
 "sport": "voetbal",
 "zenders": [
-"ESPN 2"
+"ESPN 2",
+"ESPN 1"
 ],
 "streams": [],
 "url": null
@@ -1916,6 +1937,17 @@
 "sport": "voetbal",
 "zenders": [
 "Ziggo Sport 2"
+],
+"streams": [],
+"url": null
+},
+{
+"ko": "2026-11-02T19:45:00+00:00",
+"titel": "Lorient – Brest",
+"comp": "Ligue 1",
+"sport": "voetbal",
+"zenders": [
+"Viaplay"
 ],
 "streams": [],
 "url": null
