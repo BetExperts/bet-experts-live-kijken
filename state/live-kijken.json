@@ -6,7 +6,7 @@
     "date": "2026-10-26",
     "league": "super-lig",
     "hub": true,
-    "sig": "210786ae34c9b1069eef5c19888dac08",
+    "sig": "3d76a94fecc06b522c08b7d96063d396",
     "pairs": [
       [
         "7411",
@@ -375,7 +375,7 @@
     "date": "2026-10-26",
     "league": "ligue-1",
     "hub": true,
-    "sig": "b4925a8e457586786d55433a7173e1c4",
+    "sig": "f32cf80b5583edce1862e5b6c6a3eec5",
     "pairs": [
       [
         "106",
@@ -493,7 +493,7 @@
     "date": "2026-10-26",
     "league": "la-liga",
     "hub": true,
-    "sig": "8bf133a0335e09f33f48be6fa416b9fa",
+    "sig": "2559970367510750578a78d612387147",
     "pairs": [
       [
         "535",
@@ -830,7 +830,7 @@
     "date": "2026-11-04",
     "league": "jupiler-pro-league",
     "hub": true,
-    "sig": "2f164ec0a2bf031779bbafa917b143c2",
+    "sig": "8b2f37892e77e8140fadda3dea16f032",
     "pairs": [
       [
         "736",
@@ -1371,7 +1371,7 @@
     "date": "2026-10-29",
     "league": "serie-a",
     "hub": true,
-    "sig": "6b167d645893049b21778f05686fd254",
+    "sig": "154d10f7bd1b7ffe533e7edc25c32334",
     "pairs": [
       [
         "487",
@@ -1466,5 +1466,205 @@
     "tv_sig": "Viaplay|Bet365|False|False",
     "og": "og/fleetwood-town-arsenal-live-gratis-kijken-27-10-2026-0cedfa.webp",
     "og_done": "og/fleetwood-town-arsenal-live-gratis-kijken-27-10-2026-0cedfa.webp"
+  },
+  "1550167": {
+    "item_id": "6ae0ea16d4552df831bfd8bb",
+    "slug": "ac-milan-bologna-live-gratis-kijken-28-10-2026",
+    "match": "AC Milan - Bologna",
+    "date": "2026-10-28",
+    "league": "serie-a",
+    "provider": "Bet365",
+    "home_id": "489",
+    "away_id": "500",
+    "tv_sig": "Ziggo Sport 5|Bet365|False|False",
+    "og": "og/ac-milan-bologna-live-gratis-kijken-28-10-2026-3ff226.webp"
+  },
+  "1550176": {
+    "item_id": "6ae0ea1b94d5f4c0bdbe1b23",
+    "slug": "venezia-inter-live-gratis-kijken-28-10-2026",
+    "match": "Venezia - Inter",
+    "date": "2026-10-28",
+    "league": "serie-a",
+    "provider": "Bet365",
+    "home_id": "517",
+    "away_id": "505",
+    "tv_sig": "Ziggo Sport 2|Bet365|False|False",
+    "og": "og/venezia-inter-live-gratis-kijken-28-10-2026-a2d750.webp"
+  },
+  "1550171": {
+    "item_id": "6ae0ea20d4552df831bfdaad",
+    "slug": "genoa-juventus-live-gratis-kijken-28-10-2026",
+    "match": "Genoa - Juventus",
+    "date": "2026-10-28",
+    "league": "serie-a",
+    "provider": "Bet365",
+    "home_id": "495",
+    "away_id": "496",
+    "tv_sig": "Ziggo Sport 5|Bet365|False|False",
+    "og": "og/genoa-juventus-live-gratis-kijken-28-10-2026-2d6bf5.webp"
+  },
+  "1550172": {
+    "item_id": "6ae0ea23173dd3d1c031d1cd",
+    "slug": "monza-napoli-live-gratis-kijken-28-10-2026",
+    "match": "Monza - Napoli",
+    "date": "2026-10-28",
+    "league": "serie-a",
+    "provider": "Bet365",
+    "home_id": "1579",
+    "away_id": "492",
+    "tv_sig": "Ziggo Sport 2|Bet365|False|False",
+    "og": "og/monza-napoli-live-gratis-kijken-28-10-2026-f10eba.webp"
+  },
+  "1640575": {
+    "item_id": "6ae0ea2eb7b9d1aaa75da89a",
+    "slug": "manchester-city-brighton-live-gratis-kijken-28-10-2026",
+    "match": "Manchester City - Brighton",
+    "date": "2026-10-28",
+    "league": "efl-cup",
+    "provider": "Bet365",
+    "home_id": "50",
+    "away_id": "51",
+    "tv_sig": "Viaplay|Bet365|False|False",
+    "og": "og/manchester-city-brighton-live-gratis-kijken-28-10-2026-8825cf.webp"
+  },
+  "1640383": {
+    "item_id": "6ae0ea32914a8fab7e0831fb",
+    "slug": "bournemouth-aston-villa-live-gratis-kijken-28-10-2026",
+    "match": "Bournemouth - Aston Villa",
+    "date": "2026-10-28",
+    "league": "efl-cup",
+    "provider": "Bet365",
+    "home_id": "35",
+    "away_id": "66",
+    "tv_sig": "Viaplay|Bet365|False|False",
+    "og": "og/bournemouth-aston-villa-live-gratis-kijken-28-10-2026-ab9faa.webp"
+  },
+  "1640388": {
+    "item_id": "6ae0ea37b3c8c52d2ff981dd",
+    "slug": "liverpool-chelsea-live-gratis-kijken-28-10-2026",
+    "match": "Liverpool - Chelsea",
+    "date": "2026-10-28",
+    "league": "efl-cup",
+    "provider": "Bet365",
+    "home_id": "40",
+    "away_id": "49",
+    "tv_sig": "Viaplay|Bet365|False|False",
+    "og": "og/liverpool-chelsea-live-gratis-kijken-28-10-2026-c1b985.webp"
+  },
+  "hub:ligue-1-speelronde-9-op-tv-30-oktober-2026": {
+    "item_id": "6ae0ea71933a9a576be68075",
+    "slug": "ligue-1-speelronde-9-op-tv-30-oktober-2026",
+    "match": "Ligue 1 speelronde 9",
+    "date": "2026-11-01",
+    "league": "ligue-1",
+    "hub": true,
+    "sig": "43bd44ee459b6ecf1b6f6cc592ab6a81",
+    "pairs": [
+      [
+        "111",
+        "85",
+        "2026-10-30"
+      ],
+      [
+        "116",
+        "79",
+        "2026-10-30"
+      ],
+      [
+        "84",
+        "94",
+        "2026-10-31"
+      ],
+      [
+        "77",
+        "80",
+        "2026-10-31"
+      ],
+      [
+        "106",
+        "97",
+        "2026-10-31"
+      ],
+      [
+        "110",
+        "1298",
+        "2026-10-31"
+      ],
+      [
+        "108",
+        "95",
+        "2026-11-01"
+      ],
+      [
+        "114",
+        "91",
+        "2026-11-01"
+      ],
+      [
+        "81",
+        "96",
+        "2026-11-01"
+      ]
+    ],
+    "ronde": "Regular Season - 9",
+    "og": "og/ligue-1-speelronde-9-op-tv-30-oktober-2026-62c559.webp"
+  },
+  "hub:super-lig-speelronde-10-op-tv-30-oktober-2026": {
+    "item_id": "6ae0ea74df932a4d2c8916aa",
+    "slug": "super-lig-speelronde-10-op-tv-30-oktober-2026",
+    "match": "Süper Lig speelronde 10",
+    "date": "2026-11-02",
+    "league": "super-lig",
+    "hub": true,
+    "sig": "72d3f169f8ada6529c16febeb2afcdec",
+    "pairs": [
+      [
+        "607",
+        "645",
+        "2026-10-30"
+      ],
+      [
+        "1009",
+        "6343",
+        "2026-10-31"
+      ],
+      [
+        "1007",
+        "7411",
+        "2026-10-31"
+      ],
+      [
+        "611",
+        "994",
+        "2026-10-31"
+      ],
+      [
+        "3579",
+        "3588",
+        "2026-11-01"
+      ],
+      [
+        "3603",
+        "564",
+        "2026-11-01"
+      ],
+      [
+        "3573",
+        "998",
+        "2026-11-01"
+      ],
+      [
+        "1004",
+        "549",
+        "2026-11-01"
+      ],
+      [
+        "996",
+        "997",
+        "2026-11-02"
+      ]
+    ],
+    "ronde": "Regular Season - 10",
+    "og": "og/super-lig-speelronde-10-op-tv-30-oktober-2026-e4afe9.webp"
   }
 }
