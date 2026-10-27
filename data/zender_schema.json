@@ -1,17 +1,19 @@
 {
-"bijgewerkt": "2026-10-27T18:16:23.223748+00:00",
+"bijgewerkt": "2026-10-27T18:46:31.003889+00:00",
 "uitzendingen": [
 {
-"ko": "2026-10-27T15:30:00+00:00",
-"titel": "Alex Michelsen – Botic van de Zandschulp",
-"comp": "ATP Tour",
-"sport": "tennis",
-"zenders": [],
+"ko": "2026-10-27T17:00:00+00:00",
+"titel": "Hamburger SV – Eintracht Frankfurt",
+"comp": "DFB Pokal",
+"sport": "voetbal",
+"zenders": [
+"Ziggo Sport 1"
+],
 "streams": [],
 "url": null
 },
 {
-"ko": "2026-10-27T16:30:00+00:00",
+"ko": "2026-10-27T17:05:00+00:00",
 "titel": "Alexander Zverev – Martín Landaluce",
 "comp": "ATP Tour",
 "sport": "tennis",
@@ -22,23 +24,12 @@
 "url": null
 },
 {
-"ko": "2026-10-27T17:00:00+00:00",
+"ko": "2026-10-27T17:10:00+00:00",
 "titel": "Ben Shelton – Aleksandar Kovacevic",
 "comp": "ATP Tour",
 "sport": "tennis",
 "zenders": [
 "Ziggo Sport 5"
-],
-"streams": [],
-"url": null
-},
-{
-"ko": "2026-10-27T17:00:00+00:00",
-"titel": "Hamburger SV – Eintracht Frankfurt",
-"comp": "DFB Pokal",
-"sport": "voetbal",
-"zenders": [
-"Ziggo Sport 1"
 ],
 "streams": [],
 "url": null
@@ -354,6 +345,15 @@
 "zenders": [
 "ESPN 1"
 ],
+"streams": [],
+"url": null
+},
+{
+"ko": "2026-10-28T19:00:00+00:00",
+"titel": "Learner Tien – Alex de Minaur",
+"comp": "ATP Tour",
+"sport": "tennis",
+"zenders": [],
 "streams": [],
 "url": null
 },
