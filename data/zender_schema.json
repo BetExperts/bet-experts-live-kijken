@@ -1,5 +1,5 @@
 {
-"bijgewerkt": "2026-10-27T13:29:39.787225+00:00",
+"bijgewerkt": "2026-10-27T14:12:01.473888+00:00",
 "uitzendingen": [
 {
 "ko": "2026-10-27T13:00:00+00:00",
@@ -14,7 +14,7 @@
 },
 {
 "ko": "2026-10-27T14:00:00+00:00",
-"titel": "Karen Khachanov – Carlos Alcaraz",
+"titel": "Alex Michelsen – Botic van de Zandschulp",
 "comp": "ATP Tour",
 "sport": "tennis",
 "zenders": [],
@@ -22,8 +22,8 @@
 "url": null
 },
 {
-"ko": "2026-10-27T14:15:00+00:00",
-"titel": "Alex Michelsen – Botic van de Zandschulp",
+"ko": "2026-10-27T14:00:00+00:00",
+"titel": "Karen Khachanov – Carlos Alcaraz",
 "comp": "ATP Tour",
 "sport": "tennis",
 "zenders": [],
@@ -330,15 +330,6 @@
 "url": null
 },
 {
-"ko": "2026-10-28T02:00:00+00:00",
-"titel": "Belinda Bencic – Ekaterina Alexandrova",
-"comp": "WTA Tour",
-"sport": "tennis",
-"zenders": [],
-"streams": [],
-"url": null
-},
-{
 "ko": "2026-10-28T02:30:00+00:00",
 "titel": "San Jose Earthquakes – Colorado Rapids",
 "comp": "MLS",
@@ -373,7 +364,7 @@
 },
 {
 "ko": "2026-10-28T09:00:00+00:00",
-"titel": "Taylor Fritz – Rinky Hijikata",
+"titel": "Novak Djokovic – Ugo Humbert",
 "comp": "ATP Tour",
 "sport": "tennis",
 "zenders": [],
@@ -382,7 +373,7 @@
 },
 {
 "ko": "2026-10-28T09:00:00+00:00",
-"titel": "Novak Djokovic – Ugo Humbert",
+"titel": "Taylor Fritz – Rinky Hijikata",
 "comp": "ATP Tour",
 "sport": "tennis",
 "zenders": [],
@@ -392,15 +383,6 @@
 {
 "ko": "2026-10-28T16:00:00+00:00",
 "titel": "Learner Tien – Alex de Minaur",
-"comp": "ATP Tour",
-"sport": "tennis",
-"zenders": [],
-"streams": [],
-"url": null
-},
-{
-"ko": "2026-10-28T16:00:00+00:00",
-"titel": "Tallon Griekspoor – Brandon Nakashima",
 "comp": "ATP Tour",
 "sport": "tennis",
 "zenders": [],
