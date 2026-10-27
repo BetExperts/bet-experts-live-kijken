@@ -1737,7 +1737,8 @@
       ]
     ],
     "ronde": "Regular Season - 13",
-    "og": "og/keuken-kampioen-divisie-speelronde-13-op-tv-30-oktober-2026-7ff446.webp"
+    "og": "og/keuken-kampioen-divisie-speelronde-13-op-tv-30-oktober-2026-7ff446.webp",
+    "og_done": "og/keuken-kampioen-divisie-speelronde-13-op-tv-30-oktober-2026-7ff446.webp"
   },
   "hub:bundesliga-speelronde-8-op-tv-30-oktober-2026": {
     "item_id": "6ae100e8f0f1166b53ec6829",
@@ -1795,7 +1796,8 @@
       ]
     ],
     "ronde": "Regular Season - 8",
-    "og": "og/bundesliga-speelronde-8-op-tv-30-oktober-2026-1b2829.webp"
+    "og": "og/bundesliga-speelronde-8-op-tv-30-oktober-2026-1b2829.webp",
+    "og_done": "og/bundesliga-speelronde-8-op-tv-30-oktober-2026-1b2829.webp"
   },
   "hub:jupiler-pro-league-speelronde-10-op-tv-30-oktober-2026": {
     "item_id": "6ae100f1514caf937c377f00",
@@ -1853,6 +1855,7 @@
       ]
     ],
     "ronde": "Regular Season - 10",
-    "og": "og/jupiler-pro-league-speelronde-10-op-tv-30-oktober-2026-fa044a.webp"
+    "og": "og/jupiler-pro-league-speelronde-10-op-tv-30-oktober-2026-fa044a.webp",
+    "og_done": "og/jupiler-pro-league-speelronde-10-op-tv-30-oktober-2026-fa044a.webp"
   }
 }
