@@ -6,7 +6,7 @@
     "date": "2026-10-26",
     "league": "super-lig",
     "hub": true,
-    "sig": "3d76a94fecc06b522c08b7d96063d396",
+    "sig": "244c0d0839cbf0ffe91819ae092464e0",
     "pairs": [
       [
         "7411",
@@ -375,7 +375,7 @@
     "date": "2026-10-26",
     "league": "ligue-1",
     "hub": true,
-    "sig": "f32cf80b5583edce1862e5b6c6a3eec5",
+    "sig": "b2ad9b215f40b6f1feb76ab4eb2391c9",
     "pairs": [
       [
         "106",
@@ -493,7 +493,7 @@
     "date": "2026-10-26",
     "league": "la-liga",
     "hub": true,
-    "sig": "2559970367510750578a78d612387147",
+    "sig": "8e2763cd5bf5d0b032396469f370d9bc",
     "pairs": [
       [
         "535",
@@ -830,7 +830,7 @@
     "date": "2026-11-04",
     "league": "jupiler-pro-league",
     "hub": true,
-    "sig": "8b2f37892e77e8140fadda3dea16f032",
+    "sig": "010b18057eea54f9a0ded340f1e99a1b",
     "pairs": [
       [
         "736",
@@ -1371,7 +1371,7 @@
     "date": "2026-10-29",
     "league": "serie-a",
     "hub": true,
-    "sig": "154d10f7bd1b7ffe533e7edc25c32334",
+    "sig": "dca2a580c5f0668d873299ca26fc4e2e",
     "pairs": [
       [
         "487",
@@ -1565,7 +1565,7 @@
     "date": "2026-11-01",
     "league": "ligue-1",
     "hub": true,
-    "sig": "43bd44ee459b6ecf1b6f6cc592ab6a81",
+    "sig": "ab6175f17094351eaa4545c4bc783335",
     "pairs": [
       [
         "111",
@@ -1624,7 +1624,7 @@
     "date": "2026-11-02",
     "league": "super-lig",
     "hub": true,
-    "sig": "72d3f169f8ada6529c16febeb2afcdec",
+    "sig": "3cb5014a3963c8f55c972e02ba821f8f",
     "pairs": [
       [
         "607",
@@ -1675,5 +1675,184 @@
     "ronde": "Regular Season - 10",
     "og": "og/super-lig-speelronde-10-op-tv-30-oktober-2026-e4afe9.webp",
     "og_done": "og/super-lig-speelronde-10-op-tv-30-oktober-2026-e4afe9.webp"
+  },
+  "hub:keuken-kampioen-divisie-speelronde-13-op-tv-30-oktober-2026": {
+    "item_id": "6ae100e5af61f7e475811e47",
+    "slug": "keuken-kampioen-divisie-speelronde-13-op-tv-30-oktober-2026",
+    "match": "Keuken Kampioen Divisie speelronde 13",
+    "date": "2026-11-02",
+    "league": "eerste-divisie",
+    "hub": true,
+    "sig": "8d18911ba84865905491ed016f632e18",
+    "pairs": [
+      [
+        "208",
+        "421",
+        "2026-10-30"
+      ],
+      [
+        "414",
+        "418",
+        "2026-10-30"
+      ],
+      [
+        "199",
+        "416",
+        "2026-10-30"
+      ],
+      [
+        "417",
+        "419",
+        "2026-10-30"
+      ],
+      [
+        "422",
+        "424",
+        "2026-10-30"
+      ],
+      [
+        "204",
+        "412",
+        "2026-10-31"
+      ],
+      [
+        "206",
+        "423",
+        "2026-11-02"
+      ],
+      [
+        "203",
+        "411",
+        "2026-11-02"
+      ],
+      [
+        "200",
+        "425",
+        "2026-11-02"
+      ],
+      [
+        "409",
+        "428",
+        "2026-11-02"
+      ]
+    ],
+    "ronde": "Regular Season - 13",
+    "og": "og/keuken-kampioen-divisie-speelronde-13-op-tv-30-oktober-2026-7ff446.webp"
+  },
+  "hub:bundesliga-speelronde-8-op-tv-30-oktober-2026": {
+    "item_id": "6ae100e8f0f1166b53ec6829",
+    "slug": "bundesliga-speelronde-8-op-tv-30-oktober-2026",
+    "match": "Bundesliga speelronde 8",
+    "date": "2026-11-01",
+    "league": "bundesliga",
+    "hub": true,
+    "sig": "90c1dcd51cf3e4964a3651a7fb618d3b",
+    "pairs": [
+      [
+        "164",
+        "1660",
+        "2026-10-30"
+      ],
+      [
+        "162",
+        "167",
+        "2026-10-31"
+      ],
+      [
+        "163",
+        "185",
+        "2026-10-31"
+      ],
+      [
+        "168",
+        "172",
+        "2026-10-31"
+      ],
+      [
+        "160",
+        "170",
+        "2026-10-31"
+      ],
+      [
+        "173",
+        "174",
+        "2026-10-31"
+      ],
+      [
+        "157",
+        "165",
+        "2026-10-31"
+      ],
+      [
+        "182",
+        "192",
+        "2026-11-01"
+      ],
+      [
+        "169",
+        "175",
+        "2026-11-01"
+      ]
+    ],
+    "ronde": "Regular Season - 8",
+    "og": "og/bundesliga-speelronde-8-op-tv-30-oktober-2026-1b2829.webp"
+  },
+  "hub:jupiler-pro-league-speelronde-10-op-tv-30-oktober-2026": {
+    "item_id": "6ae100f1514caf937c377f00",
+    "slug": "jupiler-pro-league-speelronde-10-op-tv-30-oktober-2026",
+    "match": "Jupiler Pro League speelronde 10",
+    "date": "2026-11-01",
+    "league": "jupiler-pro-league",
+    "hub": true,
+    "sig": "b2f49d118d21e3e6d748bc4f79843de2",
+    "pairs": [
+      [
+        "569",
+        "600",
+        "2026-10-30"
+      ],
+      [
+        "266",
+        "742",
+        "2026-10-31"
+      ],
+      [
+        "733",
+        "734",
+        "2026-10-31"
+      ],
+      [
+        "261",
+        "554",
+        "2026-10-31"
+      ],
+      [
+        "1393",
+        "738",
+        "2026-10-31"
+      ],
+      [
+        "740",
+        "741",
+        "2026-11-01"
+      ],
+      [
+        "260",
+        "735",
+        "2026-11-01"
+      ],
+      [
+        "259",
+        "631",
+        "2026-11-01"
+      ],
+      [
+        "5902",
+        "736",
+        "2026-11-01"
+      ]
+    ],
+    "ronde": "Regular Season - 10",
+    "og": "og/jupiler-pro-league-speelronde-10-op-tv-30-oktober-2026-fa044a.webp"
   }
 }
