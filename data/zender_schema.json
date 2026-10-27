@@ -1,30 +1,6 @@
 {
-"bijgewerkt": "2026-10-27T20:25:08.357141+00:00",
+"bijgewerkt": "2026-10-27T21:20:53.018065+00:00",
 "uitzendingen": [
-{
-"ko": "2026-10-27T17:30:00+00:00",
-"titel": "Sassuolo – Lazio",
-"comp": "Serie A",
-"sport": "voetbal",
-"zenders": [
-"Ziggo Sport 2"
-],
-"streams": [
-"Bet365"
-],
-"url": "/nieuws/sassuolo-lazio-live-gratis-kijken-27-10-2026"
-},
-{
-"ko": "2026-10-27T17:45:00+00:00",
-"titel": "Excelsior '31 – ADO Den Haag",
-"comp": "KNVB Beker",
-"sport": "voetbal",
-"zenders": [
-"ESPN 2"
-],
-"streams": [],
-"url": null
-},
 {
 "ko": "2026-10-27T19:00:00+00:00",
 "titel": "Helmond Sport – Willem II",
@@ -439,33 +415,11 @@
 },
 {
 "ko": "2026-10-28T19:00:00+00:00",
-"titel": "MVV – Excelsior",
-"comp": "KNVB Beker",
-"sport": "voetbal",
-"zenders": [
-"ESPN 1"
-],
-"streams": [],
-"url": null
-},
-{
-"ko": "2026-10-28T19:00:00+00:00",
 "titel": "JOS Watergraafsmeer – NAC Breda",
 "comp": "KNVB Beker",
 "sport": "voetbal",
 "zenders": [
 "ESPN 3"
-],
-"streams": [],
-"url": null
-},
-{
-"ko": "2026-10-28T19:00:00+00:00",
-"titel": "PEC Zwolle – TOP Oss",
-"comp": "KNVB Beker",
-"sport": "voetbal",
-"zenders": [
-"ESPN 1"
 ],
 "streams": [],
 "url": null
