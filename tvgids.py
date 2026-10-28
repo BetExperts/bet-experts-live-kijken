@@ -13,8 +13,8 @@ opstellingen-agent.
 import re, urllib.request, html, difflib, unicodedata
 from datetime import datetime
 
-BASE = "https://waaroptv.nl"
-START = BASE + "/sport/voetbal/"
+BASE = ""      # 28-10-2026: waaroptv.nl verwijderd (zelfde eigenaar als opstellingvandaag.nl); geen externe tv-gids meer
+START = ""
 UA = "Mozilla/5.0 (compatible; BetExpertsBot/1.0; +https://www.bet-experts.nl)"
 MAX_PAGES = 6
 
@@ -59,7 +59,15 @@ def _sim(a, b):
     jac = len(ta & tb) / len(ta | tb)
     return max(jac, difflib.SequenceMatcher(None, a, b).ratio())
 
+# 28-10-2026 (Jasper): waaroptv.nl NIET MEER GEBRUIKEN (zelfde eigenaar als opstellingvandaag.nl, waar spam in de
+# data stond en de voorwaarden scrapen verbieden). Elke aanvraag naar waaroptv wordt geweigerd; de agents vallen terug
+# op hun eigen zenderconfig (en de reservebron). Niet weer aanzetten.
+UIT_WAAROPTV = True
+
+
 def _get(url):
+    if UIT_WAAROPTV and "waaroptv" in url:
+        raise RuntimeError("waaroptv.nl staat uit (28-10-2026)")
     r = urllib.request.Request(url, headers={"User-Agent": UA, "Accept": "text/html"})
     with urllib.request.urlopen(r, timeout=25) as resp:
         return resp.read().decode("utf-8", "ignore")
@@ -179,26 +187,8 @@ def _parse_extra(data):
     return cards
 
 def uitzendschema(url):
-    """Uitzendschema van de wedstrijdpagina (19-10-2026): {'zender': 'Ziggo Sport 1', 'rijen': [(tijd, onderdeel, programma)]}
-    of None. Feitelijke zendertijden; in artikelen in eigen woorden, nooit met bronvermelding."""
-    if not url:
-        return None
-    try:
-        page = _get(url)
-    except Exception:
-        return None
-    blok = re.search(r'class="waaroptv-uitzending">\s*<table>.*?<tbody>(.*?)</tbody>', page, flags=re.S)
-    if not blok:
-        return None
-    rijen = []
-    for tr in re.findall(r"<tr>(.*?)</tr>", blok.group(1), flags=re.S):
-        cel = [html.unescape(re.sub(r"<[^>]+>", "", c)).strip() for c in re.findall(r"<td>(.*?)</td>", tr, flags=re.S)]
-        if len(cel) == 3 and re.match(r"\d{1,2}:\d{2}", cel[0]):
-            rijen.append((cel[0].replace(" uur", ""), cel[1], cel[2]))
-    z = re.search(r"De uitzending op ([^<]+?) begint om", page) or re.search(r"Uitzendtijden van ([^,<]+)", page)
-    if not rijen:
-        return None
-    return {"zender": html.unescape(z.group(1)).strip() if z else "", "rijen": rijen}
+    """Uitzendschema van de externe gids: verwijderd (28-10-2026)."""
+    return None
 
 
 class TvGids:
@@ -208,31 +198,14 @@ class TvGids:
         self.extra = None
 
     def load(self):
-        if self.cards is not None:
-            return self.cards
-        self.cards, url = [], START
-        try:
-            for _ in range(MAX_PAGES):
-                page = _get(url)
-                self.cards += _parse(page)
-                nxt = re.search(r'<a href="([^"]+)" class="wp-block-query-pagination-next"', page)
-                if not nxt:
-                    break
-                url = nxt.group(1) if nxt.group(1).startswith("http") else BASE + html.unescape(nxt.group(1))
-        except Exception as e:           # netwerk/Cloudflare: agent valt terug op eigen config
-            self.error = f"{type(e).__name__}: {e}"
+        """Hoofdgids: verwijderd (28-10-2026). Altijd leeg, de agents gebruiken hun eigen zenderconfig."""
+        if self.cards is None:
+            self.cards = []
         return self.cards
 
     def add_ronde(self, comp_slug, nr, eerste):
-        """Speelronde-overzicht van één competitie erbij laden (exacte zender per wedstrijd). Aantal toegevoegde kaarten."""
-        self.load()
-        url = f"{BASE}/{comp_slug}-speelronde-{nr}-op-tv-{eerste.day}-{_MND[eerste.month-1]}/"
-        try:
-            extra = _parse_ronde(_get(url), eerste.year)
-        except Exception:
-            return 0
-        self.cards = extra + self.cards        # eerst de rondekaarten: die zijn het meest specifiek
-        return len(extra)
+        """Speelronde-overzicht van de externe gids: verwijderd (28-10-2026)."""
+        return 0
 
     def load_extra(self):
         if self.extra is not None:
