@@ -6,7 +6,7 @@
     "date": "2026-11-04",
     "league": "jupiler-pro-league",
     "hub": true,
-    "sig": "29b1439688e8449596fda909f39a4714",
+    "sig": "f61e95eb3f9cd0356881a488bba9bd57",
     "pairs": [
       [
         "736",
@@ -65,7 +65,7 @@
     "date": "2026-10-29",
     "league": "serie-a",
     "hub": true,
-    "sig": "a5123ab008b4ed2f0e874918d52ba604",
+    "sig": "b14f66c4769bf31324a8faa69c8787b0",
     "pairs": [
       [
         "487",
@@ -220,7 +220,7 @@
     "date": "2026-11-01",
     "league": "ligue-1",
     "hub": true,
-    "sig": "9753b4570b2a0797c49e82c558926ff1",
+    "sig": "5830b4060df269010c9d58420d13271f",
     "pairs": [
       [
         "84",
@@ -279,7 +279,7 @@
     "date": "2026-11-02",
     "league": "super-lig",
     "hub": true,
-    "sig": "6a8a5a4f090652fc4dd2938b47f50473",
+    "sig": "17fba9f9e3ad2627181cf331d6ef548f",
     "pairs": [
       [
         "607",
@@ -338,7 +338,7 @@
     "date": "2026-11-02",
     "league": "eerste-divisie",
     "hub": true,
-    "sig": "1cabee9a3953ae17eb6608cdf180fc0e",
+    "sig": "af88253512f5fba444184fbc60da00da",
     "pairs": [
       [
         "208",
@@ -402,7 +402,7 @@
     "date": "2026-11-01",
     "league": "bundesliga",
     "hub": true,
-    "sig": "8c6834bac1840f5900b513ee2902f1c5",
+    "sig": "c4be1a1af9a6cbfe8fbe1d20b70f5563",
     "pairs": [
       [
         "164",
@@ -461,7 +461,7 @@
     "date": "2026-11-01",
     "league": "jupiler-pro-league",
     "hub": true,
-    "sig": "c0c4259600ac251638080fe5fa3ad1a0",
+    "sig": "d1a8c76de084cbaf0095b46f4b223128",
     "pairs": [
       [
         "569",
@@ -520,7 +520,7 @@
     "date": "2026-11-02",
     "league": "la-liga",
     "hub": true,
-    "sig": "3267bd71b6aeb89045df8881f6dbac41",
+    "sig": "1ce4a43406bf3f7503453bf0cb6baf5c",
     "pairs": [
       [
         "533",
@@ -688,7 +688,7 @@
     "date": "2026-11-02",
     "league": "premier-league",
     "hub": true,
-    "sig": "3d6bb7c74bd13e23e58c39d734a74d25",
+    "sig": "b53a38c5b4c136a9efda81a556489b35",
     "pairs": [
       [
         "33",
@@ -744,5 +744,63 @@
     "ronde": "Regular Season - 9",
     "og": "og/premier-league-speelronde-9-op-tv-31-oktober-2026-2022fb.webp",
     "og_done": "og/premier-league-speelronde-9-op-tv-31-oktober-2026-2022fb.webp"
+  },
+  "hub:eredivisie-speelronde-11-op-tv-31-oktober-2026": {
+    "item_id": "6ae21807a49322433f818551",
+    "slug": "eredivisie-speelronde-11-op-tv-31-oktober-2026",
+    "match": "Eredivisie speelronde 11",
+    "date": "2026-11-01",
+    "league": "eredivisie",
+    "hub": true,
+    "sig": "e8fb998116ad233314e3277bc7701f34",
+    "pairs": [
+      [
+        "205",
+        "209",
+        "2026-10-31"
+      ],
+      [
+        "195",
+        "197",
+        "2026-10-31"
+      ],
+      [
+        "210",
+        "413",
+        "2026-10-31"
+      ],
+      [
+        "194",
+        "201",
+        "2026-10-31"
+      ],
+      [
+        "410",
+        "420",
+        "2026-10-31"
+      ],
+      [
+        "193",
+        "198",
+        "2026-11-01"
+      ],
+      [
+        "196",
+        "415",
+        "2026-11-01"
+      ],
+      [
+        "207",
+        "427",
+        "2026-11-01"
+      ],
+      [
+        "202",
+        "426",
+        "2026-11-01"
+      ]
+    ],
+    "ronde": "Regular Season - 11",
+    "og": "og/eredivisie-speelronde-11-op-tv-31-oktober-2026-5e5a12.webp"
   }
 }
