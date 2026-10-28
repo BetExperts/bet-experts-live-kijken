@@ -830,7 +830,7 @@
     "date": "2026-11-04",
     "league": "jupiler-pro-league",
     "hub": true,
-    "sig": "78d0d005596d0103b1a591487bcabbb8",
+    "sig": "29b1439688e8449596fda909f39a4714",
     "pairs": [
       [
         "736",
@@ -1371,7 +1371,7 @@
     "date": "2026-10-29",
     "league": "serie-a",
     "hub": true,
-    "sig": "be1ce2452acc8cdd600efd197fc3b454",
+    "sig": "e7e9be264e534dc2d649e67161de2aa3",
     "pairs": [
       [
         "487",
@@ -1565,7 +1565,7 @@
     "date": "2026-11-01",
     "league": "ligue-1",
     "hub": true,
-    "sig": "f8bb75fa1beff7d076c13530b64a4d3f",
+    "sig": "9753b4570b2a0797c49e82c558926ff1",
     "pairs": [
       [
         "84",
@@ -1624,7 +1624,7 @@
     "date": "2026-11-02",
     "league": "super-lig",
     "hub": true,
-    "sig": "1933e2cbfd071304e9f07e23f7e9c48a",
+    "sig": "6a8a5a4f090652fc4dd2938b47f50473",
     "pairs": [
       [
         "607",
@@ -1683,7 +1683,7 @@
     "date": "2026-11-02",
     "league": "eerste-divisie",
     "hub": true,
-    "sig": "a1df78a620a058dc88d4af533d5717ad",
+    "sig": "1cabee9a3953ae17eb6608cdf180fc0e",
     "pairs": [
       [
         "208",
@@ -1747,7 +1747,7 @@
     "date": "2026-11-01",
     "league": "bundesliga",
     "hub": true,
-    "sig": "dd024c2263c51c12a5360f0283846ba5",
+    "sig": "8c6834bac1840f5900b513ee2902f1c5",
     "pairs": [
       [
         "164",
@@ -1806,7 +1806,7 @@
     "date": "2026-11-01",
     "league": "jupiler-pro-league",
     "hub": true,
-    "sig": "60643c2df0a5cc20c939c6ddbbf8cf42",
+    "sig": "c0c4259600ac251638080fe5fa3ad1a0",
     "pairs": [
       [
         "569",
@@ -1865,7 +1865,7 @@
     "date": "2026-11-02",
     "league": "la-liga",
     "hub": true,
-    "sig": "8da5dfc4de97b4bee742cef76ad67871",
+    "sig": "3267bd71b6aeb89045df8881f6dbac41",
     "pairs": [
       [
         "533",
@@ -2025,5 +2025,68 @@
     "tv_sig": "ESPN 4|TOTO|False|True",
     "og": "og/fc-groningen-fc-emmen-live-gratis-kijken-29-10-2026-3756d5.webp",
     "og_done": "og/fc-groningen-fc-emmen-live-gratis-kijken-29-10-2026-3756d5.webp"
+  },
+  "hub:premier-league-speelronde-9-op-tv-31-oktober-2026": {
+    "item_id": "6ae1f0e3c008030c5166e02b",
+    "slug": "premier-league-speelronde-9-op-tv-31-oktober-2026",
+    "match": "Premier League speelronde 9",
+    "date": "2026-11-02",
+    "league": "premier-league",
+    "hub": true,
+    "sig": "3d6bb7c74bd13e23e58c39d734a74d25",
+    "pairs": [
+      [
+        "33",
+        "49",
+        "2026-10-31"
+      ],
+      [
+        "35",
+        "63",
+        "2026-10-31"
+      ],
+      [
+        "50",
+        "51",
+        "2026-10-31"
+      ],
+      [
+        "55",
+        "65",
+        "2026-10-31"
+      ],
+      [
+        "57",
+        "64",
+        "2026-10-31"
+      ],
+      [
+        "1346",
+        "746",
+        "2026-10-31"
+      ],
+      [
+        "47",
+        "52",
+        "2026-10-31"
+      ],
+      [
+        "36",
+        "66",
+        "2026-10-31"
+      ],
+      [
+        "40",
+        "42",
+        "2026-11-01"
+      ],
+      [
+        "34",
+        "45",
+        "2026-11-02"
+      ]
+    ],
+    "ronde": "Regular Season - 9",
+    "og": "og/premier-league-speelronde-9-op-tv-31-oktober-2026-2022fb.webp"
   }
 }
