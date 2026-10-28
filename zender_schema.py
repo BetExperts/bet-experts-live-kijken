@@ -34,7 +34,10 @@ def norm_zender(z):
 
 
 def _cards_tvgids(sport):
-    """Kaarten van één sportpagina (met paginering). Ook evenementen zonder tegenstander."""
+    """Kaarten van één sportpagina (met paginering). Ook evenementen zonder tegenstander.
+    28-10-2026: de externe tv-gids is verwijderd, dus altijd leeg (zie tvgids.py)."""
+    if not G.BASE:
+        return []
     out, url = [], f"{G.BASE}/sport/{sport}/"
     for _ in range(MAX_PAGES.get(sport, 2)):
         try:
