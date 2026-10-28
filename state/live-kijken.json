@@ -65,7 +65,7 @@
     "date": "2026-10-29",
     "league": "serie-a",
     "hub": true,
-    "sig": "a9bd2483737cdfa4ed84bf4cf9d0847d",
+    "sig": "4b47520e20ff291bccb5c896d7c812f3",
     "pairs": [
       [
         "487",
@@ -157,8 +157,8 @@
     "provider": "Bet365",
     "home_id": "495",
     "away_id": "496",
-    "tv_sig": "Ziggo Sport|Bet365|False|False",
-    "og": "og/genoa-juventus-live-gratis-kijken-28-10-2026-6a480e.webp",
+    "tv_sig": "Ziggo Sport 5|Bet365|False|False",
+    "og": "og/genoa-juventus-live-gratis-kijken-28-10-2026-fb0240.webp",
     "og_done": "og/genoa-juventus-live-gratis-kijken-28-10-2026-6a480e.webp"
   },
   "1550172": {
@@ -170,8 +170,8 @@
     "provider": "Bet365",
     "home_id": "1579",
     "away_id": "492",
-    "tv_sig": "Ziggo Sport|Bet365|False|False",
-    "og": "og/monza-napoli-live-gratis-kijken-28-10-2026-f91c29.webp",
+    "tv_sig": "Ziggo Sport 2|Bet365|False|False",
+    "og": "og/monza-napoli-live-gratis-kijken-28-10-2026-f8d597.webp",
     "og_done": "og/monza-napoli-live-gratis-kijken-28-10-2026-f91c29.webp"
   },
   "1640575": {
@@ -220,7 +220,7 @@
     "date": "2026-11-01",
     "league": "ligue-1",
     "hub": true,
-    "sig": "0478adcc0193f1ad9e703fb9165e72bf",
+    "sig": "5830b4060df269010c9d58420d13271f",
     "pairs": [
       [
         "84",
@@ -338,7 +338,7 @@
     "date": "2026-11-02",
     "league": "eerste-divisie",
     "hub": true,
-    "sig": "0ab042106fa39a3310fe88f0c1b090d0",
+    "sig": "f49f59bd73bf4c45b3c889d39bc73e1e",
     "pairs": [
       [
         "208",
@@ -402,7 +402,7 @@
     "date": "2026-11-01",
     "league": "bundesliga",
     "hub": true,
-    "sig": "c4be1a1af9a6cbfe8fbe1d20b70f5563",
+    "sig": "d6b3fe6d3bf1fed69fbe0372efeb39b6",
     "pairs": [
       [
         "164",
@@ -520,7 +520,7 @@
     "date": "2026-11-02",
     "league": "la-liga",
     "hub": true,
-    "sig": "ed8fa2b1c1ed5bd32062f8c44b677a28",
+    "sig": "9dba5c5f0113631b646771c9479f7c8f",
     "pairs": [
       [
         "533",
@@ -601,7 +601,9 @@
     "away_id": "423",
     "tv_sig": "ESPN|TOTO|False|True",
     "og": "og/pec-zwolle-top-oss-live-gratis-kijken-28-10-2026-d41b05.webp",
-    "og_done": "og/pec-zwolle-top-oss-live-gratis-kijken-28-10-2026-d41b05.webp"
+    "og_done": "og/pec-zwolle-top-oss-live-gratis-kijken-28-10-2026-d41b05.webp",
+    "niet_live_nl": true,
+    "draft": true
   },
   "1641979": {
     "item_id": "6ae1ed91bbdeaff2b3a6ae54",
@@ -614,7 +616,9 @@
     "away_id": "196",
     "tv_sig": "ESPN|TOTO|False|True",
     "og": "og/mvv-excelsior-live-gratis-kijken-28-10-2026-1b1d2c.webp",
-    "og_done": "og/mvv-excelsior-live-gratis-kijken-28-10-2026-1b1d2c.webp"
+    "og_done": "og/mvv-excelsior-live-gratis-kijken-28-10-2026-1b1d2c.webp",
+    "niet_live_nl": true,
+    "draft": true
   },
   "1641989": {
     "item_id": "6ae1ed9863c8a14f5af5128c",
@@ -625,8 +629,8 @@
     "provider": "TOTO",
     "home_id": "3895",
     "away_id": "203",
-    "tv_sig": "ESPN|TOTO|False|True",
-    "og": "og/jos-watergraafsmeer-nac-breda-live-gratis-kijken-28-10-2026-86475c.webp",
+    "tv_sig": "ESPN 3|TOTO|False|True",
+    "og": "og/jos-watergraafsmeer-nac-breda-live-gratis-kijken-28-10-2026-367546.webp",
     "og_done": "og/jos-watergraafsmeer-nac-breda-live-gratis-kijken-28-10-2026-86475c.webp"
   },
   "1641970": {
@@ -638,8 +642,8 @@
     "provider": "TOTO",
     "home_id": "17129",
     "away_id": "210",
-    "tv_sig": "ESPN|TOTO|False|True",
-    "og": "og/excelsior-maassluis-heerenveen-live-gratis-kijken-28-10-2026-12cc0c.webp",
+    "tv_sig": "ESPN 4|TOTO|False|True",
+    "og": "og/excelsior-maassluis-heerenveen-live-gratis-kijken-28-10-2026-184c4e.webp",
     "og_done": "og/excelsior-maassluis-heerenveen-live-gratis-kijken-28-10-2026-12cc0c.webp"
   },
   "1641978": {
@@ -651,8 +655,8 @@
     "provider": "TOTO",
     "home_id": "1242",
     "away_id": "207",
-    "tv_sig": "ESPN|TOTO|False|True",
-    "og": "og/kozakken-boys-fc-utrecht-live-gratis-kijken-29-10-2026-6d96de.webp",
+    "tv_sig": "ESPN 2|TOTO|False|True",
+    "og": "og/kozakken-boys-fc-utrecht-live-gratis-kijken-29-10-2026-2da7ba.webp",
     "og_done": "og/kozakken-boys-fc-utrecht-live-gratis-kijken-29-10-2026-6d96de.webp"
   },
   "1641967": {
@@ -664,8 +668,8 @@
     "provider": "TOTO",
     "home_id": "1277",
     "away_id": "206",
-    "tv_sig": "ESPN|TOTO|False|True",
-    "og": "og/de-treffers-heracles-almelo-live-gratis-kijken-29-10-2026-929e18.webp",
+    "tv_sig": "ESPN 3|TOTO|False|True",
+    "og": "og/de-treffers-heracles-almelo-live-gratis-kijken-29-10-2026-84284a.webp",
     "og_done": "og/de-treffers-heracles-almelo-live-gratis-kijken-29-10-2026-929e18.webp"
   },
   "1641972": {
@@ -677,8 +681,8 @@
     "provider": "TOTO",
     "home_id": "202",
     "away_id": "208",
-    "tv_sig": "ESPN|TOTO|False|True",
-    "og": "og/fc-groningen-fc-emmen-live-gratis-kijken-29-10-2026-2c3eeb.webp",
+    "tv_sig": "ESPN 4|TOTO|False|True",
+    "og": "og/fc-groningen-fc-emmen-live-gratis-kijken-29-10-2026-3756d5.webp",
     "og_done": "og/fc-groningen-fc-emmen-live-gratis-kijken-29-10-2026-2c3eeb.webp"
   },
   "hub:premier-league-speelronde-9-op-tv-31-oktober-2026": {
@@ -688,7 +692,7 @@
     "date": "2026-11-02",
     "league": "premier-league",
     "hub": true,
-    "sig": "62b913a731576ac60458fbd2ffc30eb4",
+    "sig": "b17c7c9c715f557e90e215bac918c3e1",
     "pairs": [
       [
         "33",
@@ -752,7 +756,7 @@
     "date": "2026-11-01",
     "league": "eredivisie",
     "hub": true,
-    "sig": "575dccee6d2d84df96ecd94bb5d2d980",
+    "sig": "30855e1d32b369c5eeba5d0bbce968a3",
     "pairs": [
       [
         "205",
@@ -826,7 +830,7 @@
     "provider": "Bet365",
     "home_id": "45",
     "away_id": "34",
-    "tv_sig": "Viaplay|Bet365|False|False",
+    "tv_sig": "Viaplay en Viaplay TV|Bet365|False|False",
     "og": "og/everton-newcastle-united-live-gratis-kijken-29-10-2026-bbe57b.webp",
     "og_done": "og/everton-newcastle-united-live-gratis-kijken-29-10-2026-bbe57b.webp"
   }
