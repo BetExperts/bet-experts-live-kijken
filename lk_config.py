@@ -211,6 +211,11 @@ LEAGUES = [
      "comp_id": "65de4bc0a8777b9898d6374e", "tv": "ESPN", "zender_soort": "espn", "bookmaker_stream": False,
      "force_provider": "toto",
      "angle": "Alle wedstrijden in de Keuken Kampioen Divisie worden in Nederland live uitgezonden door ESPN."},
+    # KNVB Beker (28-10-2026): ESPN heeft de rechten; exact kanaal (ESPN 1-4 / ESPN Extra) uit de tv-gids.
+    {"worker_slug": "knvb-beker", "comp_slug": "knvb-beker", "naam": "KNVB Beker",
+     "comp_id": "65de2f987de877fdf6583d0e", "tv": "ESPN", "zender_soort": "espn", "bookmaker_stream": False,
+     "force_provider": "toto", "alleen_tv": True,          # alleen wedstrijden met een zender in de tv-gids
+     "angle": "De KNVB Beker is in Nederland live te zien bij ESPN."},
     {"worker_slug": "champions-league", "comp_slug": "champions-league", "naam": "Champions League",
      "comp_id": "65de4adac046f4488dfdebc2", "tv": "Ziggo Sport", "zender_soort": "ziggo-uefa",
      "bookmaker_stream": False, "force_provider": "bet365", "toppers_only": True,

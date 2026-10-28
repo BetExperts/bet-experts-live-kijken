@@ -120,6 +120,9 @@ def main():
             ctx["vb_url"] = None if a.geen_voorbeschouwing else WF.voorbeschouwing_url(vb_idx, ctx["fid"], ctx["homeId"], ctx["awayId"])
             ctx["tvgids"] = None if a.geen_tv else gids.lookup(ctx["homeN"], ctx["awayN"], ctx["dt"])
             c = ctx["tvgids"]
+            if cfg.get("alleen_tv") and not only and not (c and c.get("zenders")):
+                # bv. KNVB Beker: niet elk amateurduel is op tv, dus geen artikel zonder bekende zender
+                print(f"  · overslaan (geen zender in de tv-gids): {ctx['homeN']} – {ctx['awayN']}"); continue
             ctx["uitzendschema"] = uitzendschema(c.get("url")) if c else None
             if c:
                 print(f"     ↳ waaroptv: {' / '.join(c['zenders']) or '-'}{' (gratis)' if c['gratis'] else ''}"

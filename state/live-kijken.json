@@ -1921,5 +1921,101 @@
     "ronde": "Regular Season - 11",
     "og": "og/la-liga-speelronde-11-op-tv-30-oktober-2026-1ed189.webp",
     "og_done": "og/la-liga-speelronde-11-op-tv-30-oktober-2026-1ed189.webp"
+  },
+  "1641985": {
+    "item_id": "6ae1ed87a94fb856c097aded",
+    "slug": "sparta-rotterdam-fortuna-sittard-live-gratis-kijken-28-10-2026",
+    "match": "Sparta Rotterdam - Fortuna Sittard",
+    "date": "2026-10-28",
+    "league": "knvb-beker",
+    "provider": "TOTO",
+    "home_id": "426",
+    "away_id": "205",
+    "tv_sig": "ESPN 2|TOTO|False|True",
+    "og": "og/sparta-rotterdam-fortuna-sittard-live-gratis-kijken-28-10-2026-09eb91.webp"
+  },
+  "1641990": {
+    "item_id": "6ae1ed8cfc527976877aaffc",
+    "slug": "pec-zwolle-top-oss-live-gratis-kijken-28-10-2026",
+    "match": "PEC Zwolle - TOP Oss",
+    "date": "2026-10-28",
+    "league": "knvb-beker",
+    "provider": "TOTO",
+    "home_id": "193",
+    "away_id": "423",
+    "tv_sig": "ESPN|TOTO|False|True",
+    "og": "og/pec-zwolle-top-oss-live-gratis-kijken-28-10-2026-d41b05.webp"
+  },
+  "1641979": {
+    "item_id": "6ae1ed91bbdeaff2b3a6ae54",
+    "slug": "mvv-excelsior-live-gratis-kijken-28-10-2026",
+    "match": "MVV Maastricht - Excelsior",
+    "date": "2026-10-28",
+    "league": "knvb-beker",
+    "provider": "TOTO",
+    "home_id": "412",
+    "away_id": "196",
+    "tv_sig": "ESPN|TOTO|False|True",
+    "og": "og/mvv-excelsior-live-gratis-kijken-28-10-2026-1b1d2c.webp"
+  },
+  "1641989": {
+    "item_id": "6ae1ed9863c8a14f5af5128c",
+    "slug": "jos-watergraafsmeer-nac-breda-live-gratis-kijken-28-10-2026",
+    "match": "JOS Watergraafsmeer - NAC Breda",
+    "date": "2026-10-28",
+    "league": "knvb-beker",
+    "provider": "TOTO",
+    "home_id": "3895",
+    "away_id": "203",
+    "tv_sig": "ESPN 3|TOTO|False|True",
+    "og": "og/jos-watergraafsmeer-nac-breda-live-gratis-kijken-28-10-2026-367546.webp"
+  },
+  "1641970": {
+    "item_id": "6ae1ed9b44fa06233c2e1cd4",
+    "slug": "excelsior-maassluis-heerenveen-live-gratis-kijken-28-10-2026",
+    "match": "Excelsior Maassluis - sc Heerenveen",
+    "date": "2026-10-28",
+    "league": "knvb-beker",
+    "provider": "TOTO",
+    "home_id": "17129",
+    "away_id": "210",
+    "tv_sig": "ESPN 4|TOTO|False|True",
+    "og": "og/excelsior-maassluis-heerenveen-live-gratis-kijken-28-10-2026-184c4e.webp"
+  },
+  "1641978": {
+    "item_id": "6ae1edaa7241261ed9ddef3a",
+    "slug": "kozakken-boys-fc-utrecht-live-gratis-kijken-29-10-2026",
+    "match": "Kozakken Boys - FC Utrecht",
+    "date": "2026-10-29",
+    "league": "knvb-beker",
+    "provider": "TOTO",
+    "home_id": "1242",
+    "away_id": "207",
+    "tv_sig": "ESPN 2|TOTO|False|True",
+    "og": "og/kozakken-boys-fc-utrecht-live-gratis-kijken-29-10-2026-2da7ba.webp"
+  },
+  "1641967": {
+    "item_id": "6ae1edb46706767b1b14e3bf",
+    "slug": "de-treffers-heracles-almelo-live-gratis-kijken-29-10-2026",
+    "match": "De Treffers - Heracles Almelo",
+    "date": "2026-10-29",
+    "league": "knvb-beker",
+    "provider": "TOTO",
+    "home_id": "1277",
+    "away_id": "206",
+    "tv_sig": "ESPN 3|TOTO|False|True",
+    "og": "og/de-treffers-heracles-almelo-live-gratis-kijken-29-10-2026-84284a.webp"
+  },
+  "1641972": {
+    "item_id": "6ae1edbd45c5ea9343fc5e91",
+    "slug": "fc-groningen-fc-emmen-live-gratis-kijken-29-10-2026",
+    "match": "FC Groningen - FC Emmen",
+    "date": "2026-10-29",
+    "league": "knvb-beker",
+    "provider": "TOTO",
+    "home_id": "202",
+    "away_id": "208",
+    "tv_sig": "ESPN 4|TOTO|False|True",
+    "og": "og/fc-groningen-fc-emmen-live-gratis-kijken-29-10-2026-3756d5.webp"
   }
 }

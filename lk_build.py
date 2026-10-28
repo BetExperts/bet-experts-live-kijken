@@ -577,6 +577,13 @@ def zender_uitleg(soort, tv, comp, nl_club=False, competitiefase=False):
             zin = ("Deze wedstrijd staat niet op een vast ESPN-kanaal, maar wordt live uitgezonden als extra stream "
                    "(ESPN Extra) in de ESPN-app. Daarvoor heb je een ESPN-abonnement nodig.")
             gratis = "Nee, ESPN Extra kijk je met een ESPN-abonnement in de ESPN-app."
+        elif "beker" in comp.lower():       # niet elk bekerduel is op tv: alleen deze wedstrijd noemen
+            zin = (f"Deze {comp}-wedstrijd wordt uitgezonden door ESPN. Op welk kanaal (ESPN 1 tot en met 4 of de "
+                   "ESPN-app) maakt ESPN kort van tevoren bekend; we werken dit artikel bij zodra dat bekend is. "
+                   "ESPN 1 zit bij vrijwel elke aanbieder in het basispakket, bij Ziggo zitten ook ESPN 2, 3 en 4 "
+                   "standaard in het pakket.")
+            gratis = ("Dat hangt af van het kanaal: ESPN 1 zit bij vrijwel elke aanbieder in het basispakket, en bij "
+                      "Ziggo zitten ook ESPN 2, 3 en 4 standaard in het tv-pakket.")
         else:
             zin = (f"Alle {comp}-wedstrijden worden uitgezonden door ESPN, op ESPN 1 tot en met 4 en in de ESPN-app. "
                    "Welk kanaal deze wedstrijd krijgt, maakt ESPN ongeveer een week van tevoren bekend; we werken dit "
