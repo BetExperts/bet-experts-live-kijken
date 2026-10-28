@@ -65,7 +65,7 @@ def main():
     ap.add_argument("--league", help="alleen deze worker_slug verwerken (bv. afrika-cup-kwalificatie)")
     ap.add_argument("--fixture", help="alleen deze fixture-id(s), komma-gescheiden")
     ap.add_argument("--provider", help="aanbieder forceren (toto/bet365/711), overschrijft de competitie-config")
-    ap.add_argument("--geen-tv", action="store_true", help="niet op NL-tv: tv-gids (waaroptv) negeren")
+    ap.add_argument("--geen-tv", action="store_true", help="niet op NL-tv: tv-gids negeren")
     ap.add_argument("--draft", action="store_true", help="als concept aanmaken (niet publiceren), bv. om zelf in te plannen")
     ap.add_argument("--geen-voorbeschouwing", action="store_true", help="geen link naar een voorbeschouwing (bv. 2e duel tussen dezelfde landen)")
     a = ap.parse_args()
@@ -120,9 +120,9 @@ def main():
             ctx["vb_url"] = None if a.geen_voorbeschouwing else WF.voorbeschouwing_url(vb_idx, ctx["fid"], ctx["homeId"], ctx["awayId"])
             ctx["tvgids"] = None if a.geen_tv else gids.lookup(ctx["homeN"], ctx["awayN"], ctx["dt"])
             c = ctx["tvgids"]
-            if cfg.get("alleen_tv") and not only and not (c and c.get("zenders")) and not (exists and a.update):
+            if cfg.get("alleen_tv") and not only and not (c and c.get("zenders")) and not tv_match(fid) and not (exists and a.update):
                 # bv. KNVB Beker: niet elk amateurduel is op tv, dus geen artikel zonder bekende zender
-                print(f"  · overslaan (geen zender in de tv-gids): {ctx['homeN']} – {ctx['awayN']}"); continue
+                print(f"  · overslaan (geen zender bekend, niet in data/tv_wedstrijden.json): {ctx['homeN']} – {ctx['awayN']}"); continue
             ctx["uitzendschema"] = uitzendschema(c.get("url")) if c else None
             if c:
                 print(f"     ↳ tv-gids (reserve): {' / '.join(c['zenders']) or '-'}{' (gratis)' if c['gratis'] else ''}"
