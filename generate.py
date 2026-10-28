@@ -85,7 +85,7 @@ def main():
             print(f"   (voorbeschouwing-index overgeslagen: {e})")
     gids = TvGids()
     n = len(gids.load())
-    print(f"   tv-gids (waaroptv.nl): {n} wedstrijden" + (f"  — NIET beschikbaar ({gids.error}), val terug op config" if gids.error else ""))
+    print(f"   tv-gids: {n} wedstrijden" + (f"  — NIET beschikbaar ({gids.error}), val terug op config" if gids.error else ""))
     made = 0
     only = set((a.fixture or "").replace(" ", "").split(",")) - {""}
     for cfg in [c for c in LEAGUES if (c["worker_slug"] == a.league if a.league else not c.get("manual_only"))]:
@@ -120,12 +120,12 @@ def main():
             ctx["vb_url"] = None if a.geen_voorbeschouwing else WF.voorbeschouwing_url(vb_idx, ctx["fid"], ctx["homeId"], ctx["awayId"])
             ctx["tvgids"] = None if a.geen_tv else gids.lookup(ctx["homeN"], ctx["awayN"], ctx["dt"])
             c = ctx["tvgids"]
-            if cfg.get("alleen_tv") and not only and not (c and c.get("zenders")):
+            if cfg.get("alleen_tv") and not only and not (c and c.get("zenders")) and not (exists and a.update):
                 # bv. KNVB Beker: niet elk amateurduel is op tv, dus geen artikel zonder bekende zender
                 print(f"  · overslaan (geen zender in de tv-gids): {ctx['homeN']} – {ctx['awayN']}"); continue
             ctx["uitzendschema"] = uitzendschema(c.get("url")) if c else None
             if c:
-                print(f"     ↳ waaroptv: {' / '.join(c['zenders']) or '-'}{' (gratis)' if c['gratis'] else ''}"
+                print(f"     ↳ tv-gids (reserve): {' / '.join(c['zenders']) or '-'}{' (gratis)' if c['gratis'] else ''}"
                       + (f"  ⚠ stream daar bij {', '.join(c['bookmakers'])}, artikel noemt {ctx['prov']['naam']}"
                          if c['bookmakers'] and ctx['prov']['naam'].lower() not in
                             [b.lower().replace(' sport', '') for b in c['bookmakers']] else ""))
