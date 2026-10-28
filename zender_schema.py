@@ -72,6 +72,22 @@ def _cards_extra():
              "zenders": c["zenders"], "sport": "voetbal"} for c in g.load_extra()]
 
 
+def _cards_hand():
+    """Handmatige zenders per wedstrijd (data/tv_wedstrijden.json, door Jasper opgezocht) met aftrap."""
+    try:
+        d = json.load(open(os.path.join(os.path.dirname(os.path.abspath(__file__)), "data", "tv_wedstrijden.json"), encoding="utf-8"))
+    except (OSError, ValueError):
+        return []
+    out = []
+    for fid, e in d.items():
+        if not isinstance(e, dict) or not e.get("aftrap") or not e.get("tv"):
+            continue
+        ko = datetime.fromisoformat(e["aftrap"]).replace(tzinfo=AMS)
+        out.append({"titel": (e.get("wedstrijd") or "").replace(" - ", " – "), "ko": ko, "comp": e.get("comp") or "",
+                    "zenders": [z.strip() for z in re.split(r",| en ", e["tv"]) if z.strip()], "sport": "voetbal"})
+    return out
+
+
 def _teams(titel):
     p = re.split(r"\s+[–-]\s+", titel, maxsplit=1)
     return (p[0], p[1]) if len(p) == 2 else (titel, "")
@@ -92,7 +108,7 @@ def main():
     bronnen = []
     for sp in SPORTEN:
         bronnen += _cards_tvgids(sp)                  # eerst: hoofdgids (leidend bij verschillen)
-    bronnen += _cards_extra()
+    bronnen += _cards_hand() + _cards_extra()
     items = []
     for c in bronnen:
         if not (lo <= c["ko"] <= hi):

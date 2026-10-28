@@ -22,7 +22,7 @@ from datetime import datetime, timedelta, timezone
 import lk_api as api
 import lk_build as B
 import lk_webflow as WF
-from lk_config import nl_name, club_slug, WEBFLOW_TOKEN, BASE, PROVIDERS
+from lk_config import nl_name, club_slug, WEBFLOW_TOKEN, BASE, PROVIDERS, tv_match
 from tvgids import TvGids, tv_label, BOOKMAKERS
 
 DAGEN_VOORUIT = 3
@@ -82,7 +82,7 @@ def zender_van(card, default, soort):
             npo = all(z.upper().startswith("NPO") for z in card["tv"])
             if tv == "ESPN 1":
                 return tv, "gratis"                 # ESPN 1 zit gratis in elk tv-pakket
-            if tv == "Ziggo Sport 1":
+            if tv in ("Ziggo Sport 1", "Ziggo Sport"):
                 return tv, "ziggo"                  # open kanaal: gratis voor Ziggo-klanten
             if card.get("gratis"):
                 if tv.startswith("Ziggo Sport"):
@@ -197,7 +197,10 @@ def build(slug_api, cfg, gids, widx, state, now, ronde=None):
         h, a = f["teams"]["home"], f["teams"]["away"]
         hN, aN = nl_name(h["name"]), nl_name(a["name"])
         ko = B._local(f["fixture"]["date"])
-        card = gids.lookup(hN, aN, ko) if gids else None
+        hand = tv_match(f["fixture"]["id"])   # handmatige zender (data/tv_wedstrijden.json) gaat voor
+        card = ({"tv": [z.strip() for z in re.split(r",| en ", hand["tv"]) if z.strip()], "bookmakers": [],
+                 "gratis": bool(hand.get("gratis"))} if hand and hand.get("tv") else None) \
+               or (gids.lookup(hN, aN, ko) if gids else None)
         tv, gratis = zender_van(card, default_tv, soort)
         stream = [b for b in (card or {}).get("bookmakers") or [] if not tv.startswith("livestream")]
         telling[tv] = telling.get(tv, 0) + 1
