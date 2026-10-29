@@ -65,16 +65,11 @@
     "date": "2026-10-29",
     "league": "serie-a",
     "hub": true,
-    "sig": "dc8097cb368401fee61d615d8793530d",
+    "sig": "cdc32a0c895abfeb65f6292072c1e85c",
     "pairs": [
       [
         "487",
         "488",
-        "2026-10-27"
-      ],
-      [
-        "490",
-        "497",
         "2026-10-27"
       ],
       [
@@ -83,18 +78,23 @@
         "2026-10-27"
       ],
       [
+        "490",
+        "497",
+        "2026-10-27"
+      ],
+      [
         "489",
         "500",
         "2026-10-28"
       ],
       [
-        "494",
-        "523",
+        "505",
+        "517",
         "2026-10-28"
       ],
       [
-        "505",
-        "517",
+        "494",
+        "523",
         "2026-10-28"
       ],
       [
@@ -220,7 +220,7 @@
     "date": "2026-11-01",
     "league": "ligue-1",
     "hub": true,
-    "sig": "47dc139bbc3fdb386090f15886a69bfd",
+    "sig": "bcf8fda727222c02a8ff66b51b65eb60",
     "pairs": [
       [
         "84",
@@ -279,7 +279,7 @@
     "date": "2026-11-02",
     "league": "super-lig",
     "hub": true,
-    "sig": "3323cd43fb0e91e9df837fa8de031130",
+    "sig": "63c92fc429f990c63c2049f5180ea1be",
     "pairs": [
       [
         "607",
@@ -338,7 +338,7 @@
     "date": "2026-11-02",
     "league": "eerste-divisie",
     "hub": true,
-    "sig": "7e21a94536f0e43b59d0a5a14b27f26d",
+    "sig": "6f0256a9b26312fb9332b4fd2a80a5de",
     "pairs": [
       [
         "414",
@@ -461,7 +461,7 @@
     "date": "2026-11-01",
     "league": "jupiler-pro-league",
     "hub": true,
-    "sig": "4fb71074cf3b6dbbacb350f0ef083734",
+    "sig": "bfd355057d37accd1dcec12153fe9c01",
     "pairs": [
       [
         "569",
@@ -520,7 +520,7 @@
     "date": "2026-11-02",
     "league": "la-liga",
     "hub": true,
-    "sig": "f608b75508af986aa0fcf8356b17bd09",
+    "sig": "e876b582b2f9c390d54dd9fff1f3632d",
     "pairs": [
       [
         "533",
@@ -903,5 +903,137 @@
     "og": "og/purmersteijn-gemert-live-gratis-kijken-29-10-2026-c8ab03.webp",
     "og_done": "og/purmersteijn-gemert-live-gratis-kijken-29-10-2026-c8ab03.webp",
     "dubbel_item": "6ae30487d432bade1d2bb51c"
+  },
+  "1584455": {
+    "item_id": "6ae38ce4d5631b4702f857bc",
+    "slug": "konyaspor-galatasaray-live-gratis-kijken-30-10-2026",
+    "match": "Konyaspor - Galatasaray",
+    "date": "2026-10-30",
+    "league": "super-lig",
+    "provider": "Starcasino",
+    "home_id": "607",
+    "away_id": "645",
+    "tv_sig": "|Starcasino|False|False",
+    "og": "og/konyaspor-galatasaray-live-gratis-kijken-30-10-2026-13d229.webp"
+  },
+  "1570442": {
+    "item_id": "6ae38cea84e38168bba9df33",
+    "slug": "villarreal-espanyol-live-gratis-kijken-30-10-2026",
+    "match": "Villarreal - Espanyol",
+    "date": "2026-10-30",
+    "league": "la-liga",
+    "provider": "TOTO",
+    "home_id": "533",
+    "away_id": "540",
+    "tv_sig": "Ziggo Sport 2|TOTO|False|False",
+    "og": "og/villarreal-espanyol-live-gratis-kijken-30-10-2026-52e222.webp"
+  },
+  "1558670": {
+    "item_id": "6ae38ceee2cb780a433e56b7",
+    "slug": "zulte-waregem-club-brugge-live-gratis-kijken-30-10-2026",
+    "match": "Zulte Waregem - Club Brugge",
+    "date": "2026-10-30",
+    "league": "jupiler-pro-league",
+    "provider": "711",
+    "home_id": "600",
+    "away_id": "569",
+    "tv_sig": "DAZN|711|False|False",
+    "og": "og/zulte-waregem-club-brugge-live-gratis-kijken-30-10-2026-485b06.webp"
+  },
+  "1552806": {
+    "item_id": "6ae38cf5d84610e47e2a4349",
+    "slug": "ogc-nice-rennes-live-gratis-kijken-30-10-2026",
+    "match": "Nice - Rennes",
+    "date": "2026-10-30",
+    "league": "ligue-1",
+    "provider": "711",
+    "home_id": "84",
+    "away_id": "94",
+    "tv_sig": "Viaplay|711|False|False",
+    "og": "og/ogc-nice-rennes-live-gratis-kijken-30-10-2026-ee29d8.webp"
+  },
+  "1552801": {
+    "item_id": "6ae38cf9e309b822d69be93e",
+    "slug": "le-havre-paris-saint-germain-psg-live-gratis-kijken-30-10-2026",
+    "match": "Le Havre - Paris Saint-Germain",
+    "date": "2026-10-30",
+    "league": "ligue-1",
+    "provider": "Starcasino",
+    "home_id": "111",
+    "away_id": "85",
+    "tv_sig": "Viaplay|Starcasino|False|False",
+    "og": "og/le-havre-paris-saint-germain-psg-live-gratis-kijken-30-10-2026-d24cc9.webp"
+  },
+  "1552802": {
+    "item_id": "6ae38cfd952f39eef917daff",
+    "slug": "lille-lens-live-gratis-kijken-30-10-2026",
+    "match": "Lille - Lens",
+    "date": "2026-10-30",
+    "league": "ligue-1",
+    "provider": "711",
+    "home_id": "79",
+    "away_id": "116",
+    "tv_sig": "Viaplay|711|False|False",
+    "og": "og/lille-lens-live-gratis-kijken-30-10-2026-8c5903.webp"
+  },
+  "1575531": {
+    "item_id": "6ae38d0a1f0525562aca174b",
+    "slug": "casa-pia-ac-sporting-cp-live-gratis-kijken-30-10-2026",
+    "match": "Casa Pia - Sporting Portugal",
+    "date": "2026-10-30",
+    "league": "primeira-liga",
+    "provider": "Bet365",
+    "home_id": "4716",
+    "away_id": "228",
+    "tv_sig": "Ziggo Sport|Bet365|False|True",
+    "og": "og/casa-pia-ac-sporting-cp-live-gratis-kijken-30-10-2026-169a85.webp"
+  },
+  "1551861": {
+    "item_id": "6ae38d121f0525562aca1be8",
+    "slug": "roda-jc-jong-az-live-gratis-kijken-30-10-2026",
+    "match": "Roda JC - Jong AZ",
+    "date": "2026-10-30",
+    "league": "eerste-divisie",
+    "provider": "TOTO",
+    "home_id": "414",
+    "away_id": "418",
+    "tv_sig": "ESPN 3|TOTO|False|True",
+    "og": "og/roda-jc-jong-az-live-gratis-kijken-30-10-2026-f5746b.webp"
+  },
+  "1551858": {
+    "item_id": "6ae38d16d5631b4702f86755",
+    "slug": "volendam-de-graafschap-live-gratis-kijken-30-10-2026",
+    "match": "FC Volendam - De Graafschap",
+    "date": "2026-10-30",
+    "league": "eerste-divisie",
+    "provider": "TOTO",
+    "home_id": "416",
+    "away_id": "199",
+    "tv_sig": "ESPN|TOTO|False|True",
+    "og": "og/volendam-de-graafschap-live-gratis-kijken-30-10-2026-c0da22.webp"
+  },
+  "1551862": {
+    "item_id": "6ae38d1ad84610e47e2a54c3",
+    "slug": "rkc-waalwijk-almere-city-live-gratis-kijken-30-10-2026",
+    "match": "RKC Waalwijk - Almere City",
+    "date": "2026-10-30",
+    "league": "eerste-divisie",
+    "provider": "TOTO",
+    "home_id": "417",
+    "away_id": "419",
+    "tv_sig": "ESPN 2|TOTO|False|True",
+    "og": "og/rkc-waalwijk-almere-city-live-gratis-kijken-30-10-2026-692e88.webp"
+  },
+  "1551859": {
+    "item_id": "6ae38d1e882ba74811ee98ed",
+    "slug": "helmond-sport-fc-eindhoven-live-gratis-kijken-30-10-2026",
+    "match": "Helmond Sport - FC Eindhoven",
+    "date": "2026-10-30",
+    "league": "eerste-divisie",
+    "provider": "TOTO",
+    "home_id": "424",
+    "away_id": "422",
+    "tv_sig": "ESPN 4|TOTO|False|True",
+    "og": "og/helmond-sport-fc-eindhoven-live-gratis-kijken-30-10-2026-0b4cda.webp"
   }
 }
