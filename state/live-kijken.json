@@ -6,7 +6,7 @@
     "date": "2026-11-04",
     "league": "jupiler-pro-league",
     "hub": true,
-    "sig": "f61e95eb3f9cd0356881a488bba9bd57",
+    "sig": "653611c20bd1a27541b929b42e3b50f6",
     "pairs": [
       [
         "736",
@@ -65,16 +65,11 @@
     "date": "2026-10-29",
     "league": "serie-a",
     "hub": true,
-    "sig": "cdc32a0c895abfeb65f6292072c1e85c",
+    "sig": "ca482f59771d41fb522728c421bdf05c",
     "pairs": [
       [
         "487",
         "488",
-        "2026-10-27"
-      ],
-      [
-        "503",
-        "895",
         "2026-10-27"
       ],
       [
@@ -83,18 +78,23 @@
         "2026-10-27"
       ],
       [
+        "503",
+        "895",
+        "2026-10-27"
+      ],
+      [
         "489",
         "500",
         "2026-10-28"
       ],
       [
-        "505",
-        "517",
+        "494",
+        "523",
         "2026-10-28"
       ],
       [
-        "494",
-        "523",
+        "505",
+        "517",
         "2026-10-28"
       ],
       [
@@ -220,7 +220,7 @@
     "date": "2026-11-01",
     "league": "ligue-1",
     "hub": true,
-    "sig": "bcf8fda727222c02a8ff66b51b65eb60",
+    "sig": "54b83d778775881c07e0382d086cc930",
     "pairs": [
       [
         "84",
@@ -279,7 +279,7 @@
     "date": "2026-11-02",
     "league": "super-lig",
     "hub": true,
-    "sig": "63c92fc429f990c63c2049f5180ea1be",
+    "sig": "daa0578e3fca4f4946a252683ffcc665",
     "pairs": [
       [
         "607",
@@ -338,7 +338,7 @@
     "date": "2026-11-02",
     "league": "eerste-divisie",
     "hub": true,
-    "sig": "6f0256a9b26312fb9332b4fd2a80a5de",
+    "sig": "a36b18ea892ca1a4989275fad138bdfa",
     "pairs": [
       [
         "414",
@@ -402,7 +402,7 @@
     "date": "2026-11-01",
     "league": "bundesliga",
     "hub": true,
-    "sig": "091ab6955f27b638f0d8b9927991db96",
+    "sig": "5f1f9a7c41bf37afc3c4050c2e1e8689",
     "pairs": [
       [
         "164",
@@ -461,7 +461,7 @@
     "date": "2026-11-01",
     "league": "jupiler-pro-league",
     "hub": true,
-    "sig": "bfd355057d37accd1dcec12153fe9c01",
+    "sig": "8a35ad9ca027ba268a9e134462abdb7d",
     "pairs": [
       [
         "569",
@@ -520,7 +520,7 @@
     "date": "2026-11-02",
     "league": "la-liga",
     "hub": true,
-    "sig": "e876b582b2f9c390d54dd9fff1f3632d",
+    "sig": "8068ad25842bcab0344270a8348796d2",
     "pairs": [
       [
         "533",
@@ -692,7 +692,7 @@
     "date": "2026-11-02",
     "league": "premier-league",
     "hub": true,
-    "sig": "d41834b34c4feccd1053b970b2b31b1e",
+    "sig": "38371ee6add016a530ba39f4919cfdf4",
     "pairs": [
       [
         "33",
@@ -756,7 +756,7 @@
     "date": "2026-11-01",
     "league": "eredivisie",
     "hub": true,
-    "sig": "30855e1d32b369c5eeba5d0bbce968a3",
+    "sig": "1d787eb81095b650777a92ebaead0d2f",
     "pairs": [
       [
         "205",
@@ -1041,5 +1041,68 @@
     "tv_sig": "ESPN 4|TOTO|False|True",
     "og": "og/helmond-sport-fc-eindhoven-live-gratis-kijken-30-10-2026-0b4cda.webp",
     "og_done": "og/helmond-sport-fc-eindhoven-live-gratis-kijken-30-10-2026-0b4cda.webp"
+  },
+  "hub:serie-a-speelronde-10-op-tv-31-oktober-2026": {
+    "item_id": "6ae3bfbd8acc9d258d9e7f91",
+    "slug": "serie-a-speelronde-10-op-tv-31-oktober-2026",
+    "match": "Serie A speelronde 10",
+    "date": "2026-11-02",
+    "league": "serie-a",
+    "hub": true,
+    "sig": "b43ecdd7a0aa3990c815ade55ed4057c",
+    "pairs": [
+      [
+        "1579",
+        "500",
+        "2026-10-31"
+      ],
+      [
+        "494",
+        "497",
+        "2026-10-31"
+      ],
+      [
+        "489",
+        "505",
+        "2026-10-31"
+      ],
+      [
+        "517",
+        "895",
+        "2026-11-01"
+      ],
+      [
+        "487",
+        "490",
+        "2026-11-01"
+      ],
+      [
+        "503",
+        "512",
+        "2026-11-01"
+      ],
+      [
+        "495",
+        "867",
+        "2026-11-01"
+      ],
+      [
+        "492",
+        "496",
+        "2026-11-01"
+      ],
+      [
+        "488",
+        "502",
+        "2026-11-02"
+      ],
+      [
+        "499",
+        "523",
+        "2026-11-02"
+      ]
+    ],
+    "ronde": "Regular Season - 10",
+    "og": "og/serie-a-speelronde-10-op-tv-31-oktober-2026-f58fb1.webp"
   }
 }
