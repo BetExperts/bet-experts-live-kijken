@@ -53,7 +53,10 @@ def write_preview(fd, title):
 INDEXNOW = []   # nieuwe/bijgewerkte URL's -> na afloop aanmelden bij IndexNow (Bing e.a.)
 
 def tv_sig(ctx, prov):
-    return f"{ctx.get('tv') or ''}|{prov.get('naam') or ''}|{bool(ctx.get('tv_free'))}|{bool(ctx.get('tv_paid_only'))}"
+    sig = f"{ctx.get('tv') or ''}|{prov.get('naam') or ''}|{bool(ctx.get('tv_free'))}|{bool(ctx.get('tv_paid_only'))}"
+    # 5e veld alleen bij 'niet op tv en geen stream' (anders veranderen alle bestaande sigs): de hub-Worker
+    # live-kijken-zenders toont dan 'Niet op tv' zonder stream-badge
+    return sig + "|geen" if ctx.get("geen_uitzending") else sig
 
 def main():
     ap = argparse.ArgumentParser()
