@@ -833,5 +833,65 @@
     "tv_sig": "Viaplay en Viaplay TV|Bet365|False|False",
     "og": "og/everton-newcastle-united-live-gratis-kijken-29-10-2026-bbe57b.webp",
     "og_done": "og/everton-newcastle-united-live-gratis-kijken-29-10-2026-bbe57b.webp"
+  },
+  "1641983": {
+    "item_id": "6ae304751424428bf4e2c4c1",
+    "slug": "rkav-volendam-rohda-raalte-live-gratis-kijken-29-10-2026",
+    "match": "RKAV Volendam - ROHDA Raalte",
+    "date": "2026-10-29",
+    "league": "knvb-beker",
+    "provider": "TOTO",
+    "home_id": "1238",
+    "away_id": "6269",
+    "tv_sig": "|TOTO|False|False",
+    "og": "og/rkav-volendam-rohda-raalte-live-gratis-kijken-29-10-2026-6e603e.webp"
+  },
+  "1641973": {
+    "item_id": "6ae3047aaa68f14ab313664a",
+    "slug": "gvvv-veenendaal-noordwijk-live-gratis-kijken-29-10-2026",
+    "match": "GVVV Veenendaal - Noordwijk",
+    "date": "2026-10-29",
+    "league": "knvb-beker",
+    "provider": "TOTO",
+    "home_id": "1261",
+    "away_id": "1247",
+    "tv_sig": "|TOTO|False|False",
+    "og": "og/gvvv-veenendaal-noordwijk-live-gratis-kijken-29-10-2026-21c35d.webp"
+  },
+  "1641976": {
+    "item_id": "6ae3047e1424428bf4e2ca02",
+    "slug": "hoek-sparta-nijkerk-live-gratis-kijken-29-10-2026",
+    "match": "Hoek - Sparta Nijkerk",
+    "date": "2026-10-29",
+    "league": "knvb-beker",
+    "provider": "TOTO",
+    "home_id": "1276",
+    "away_id": "1274",
+    "tv_sig": "|TOTO|False|False",
+    "og": "og/hoek-sparta-nijkerk-live-gratis-kijken-29-10-2026-2781ad.webp"
+  },
+  "1641965": {
+    "item_id": "6ae30483b361f33b6636ade6",
+    "slug": "acv-afc-amsterdam-live-gratis-kijken-29-10-2026",
+    "match": "ACV - AFC Amsterdam",
+    "date": "2026-10-29",
+    "league": "knvb-beker",
+    "provider": "TOTO",
+    "home_id": "3911",
+    "away_id": "1252",
+    "tv_sig": "|TOTO|False|False",
+    "og": "og/acv-afc-amsterdam-live-gratis-kijken-29-10-2026-650bcc.webp"
+  },
+  "1641980": {
+    "item_id": "6ae30487d432bade1d2bb51c",
+    "slug": "purmersteijn-gemert-live-gratis-kijken-29-10-2026",
+    "match": "Purmersteijn - Gemert",
+    "date": "2026-10-29",
+    "league": "knvb-beker",
+    "provider": "TOTO",
+    "home_id": "3920",
+    "away_id": "1230",
+    "tv_sig": "|TOTO|False|False",
+    "og": "og/purmersteijn-gemert-live-gratis-kijken-29-10-2026-62a1bc.webp"
   }
 }
