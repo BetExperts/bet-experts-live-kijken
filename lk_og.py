@@ -22,6 +22,8 @@ def info_from(ctx, cfg):
     prov = ctx.get("prov") or {}
     if ctx.get("tv_free"):
         eyebrow, via_naam, via_sub, via_logo = "GRATIS OP TV", tv, "gratis, zonder abonnement", None
+    elif ctx.get("geen_uitzending"):
+        eyebrow, via_naam, via_sub, via_logo = "NIET LIVE OP TV", "Geen tv", f"live wedden bij {prov.get('naam', '')}", None
     elif ctx.get("tv_paid_only"):
         eyebrow, via_naam, via_logo = "LIVE OP TV", tv, None
         via_sub = "in het basispakket" if ctx.get("tv_basis") else "met abonnement"

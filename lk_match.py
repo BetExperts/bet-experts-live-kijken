@@ -168,6 +168,7 @@ def build_fielddata(ctx, league_cfg, slug=None):
         ctx["stream_bron"] = "waaroptv"
     ctx["tv_paid_only"] = geen_stream and bool(ctx.get("tv")) and not ctx.get("tv_free")
     ctx["stream_ok"] = not geen_stream
+    ctx["geen_uitzending"] = geen_stream and not ctx.get("tv")   # niet op tv en geen stream: alleen live wedden
     # precieze zenderuitleg (ESPN-kanalen, Ziggo Sport 1/Totaal/Free) voor Eredivisie, KKD en Europese bekers
     ctx["zender_soort"] = league_cfg.get("zender_soort")
     if ctx["zender_soort"]:
@@ -179,13 +180,13 @@ def build_fielddata(ctx, league_cfg, slug=None):
     dt = ctx["dt"]
     content, content2, content3 = B.build_content(ctx)
     title = B.build_title(ctx["homeN"], ctx["awayN"], dt, paid_tv=ctx["tv"] if ctx["tv_paid_only"] else None,
-                          free_tv=ctx["tv"] if ctx.get("tv_free") else None)
+                          free_tv=ctx["tv"] if ctx.get("tv_free") else None, geen_tv=ctx["geen_uitzending"])
     stream = not ctx["tv_paid_only"] and not ctx.get("tv_free")
     samenvatting = B.build_samenvatting(ctx["homeN"], ctx["awayN"], league_cfg["naam"], dt,
                                         ctx["prov"]["naam"], free_tv=ctx["tv"] if ctx.get("tv_free") else None,
                                         paid_tv=ctx["tv"] if ctx["tv_paid_only"] else None,
                                         stream_tv=ctx["tv"] if stream else None,
-                                        deposit=ctx["prov"].get("deposit", True))
+                                        deposit=ctx["prov"].get("deposit", True), geen_tv=ctx["geen_uitzending"])
     if not slug:
         hs = ctx["hSlug"] or B.slugify(ctx["homeN"]); as_ = ctx["aSlug"] or B.slugify(ctx["awayN"])
         slug = B.build_slug(hs, as_, dt, gratis=True)   # 'gratis' altijd in de slug (wens gebruiker)

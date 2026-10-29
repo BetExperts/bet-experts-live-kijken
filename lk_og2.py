@@ -112,6 +112,9 @@ def gegevens(ctx, cfg, tmp):
         eyebrow, badge, klasse = "LIVE OP TV", ("In het basispakket" if ctx.get("tv_basis") else "Met abonnement"), "paid"
     elif tv:
         eyebrow, badge, klasse = "LIVE OP TV", "Met abonnement", "paid"
+    elif ctx.get("geen_uitzending"):                          # niet op tv en geen stream
+        eyebrow, badge, klasse = "NIET LIVE OP TV", "Geen uitzending", "paid"
+        basis, nr, logo = "Geen tv", "", None
     else:                                                     # alleen een bookmaker-stream
         eyebrow = "GRATIS LIVESTREAM"
         badge, klasse = ("● Gratis na €10 storting" if prov.get("deposit", True) else "● Gratis met account"), "free"
@@ -121,7 +124,7 @@ def gegevens(ctx, cfg, tmp):
     plogo = plogo if os.path.exists(plogo) else None
     if tv and ctx.get("stream_ok") and pnaam:
         prov_tekst = f'Ook live via {E(pnaam)} <span style="color:#8A97A3">(met account)</span>'
-    elif tv and pnaam:
+    elif (tv or ctx.get("geen_uitzending")) and pnaam:
         prov_tekst = f"Live meewedden bij {E(pnaam)}"
     else:
         prov_tekst = ""
