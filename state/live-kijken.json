@@ -217,10 +217,10 @@
     "item_id": "6ae0ea71933a9a576be68075",
     "slug": "ligue-1-speelronde-9-op-tv-30-oktober-2026",
     "match": "Ligue 1 speelronde 9",
-    "date": "2026-11-01",
+    "date": "2026-11-02",
     "league": "ligue-1",
     "hub": true,
-    "sig": "54b83d778775881c07e0382d086cc930",
+    "sig": "c84f3872d1d0eeecc203a9e1ee2fcfc3",
     "pairs": [
       [
         "84",
@@ -236,11 +236,6 @@
         "116",
         "79",
         "2026-10-30"
-      ],
-      [
-        "106",
-        "97",
-        "2026-10-31"
       ],
       [
         "110",
@@ -266,6 +261,11 @@
         "81",
         "96",
         "2026-11-01"
+      ],
+      [
+        "106",
+        "97",
+        "2026-11-02"
       ]
     ],
     "ronde": "Regular Season - 9",
@@ -279,7 +279,7 @@
     "date": "2026-11-02",
     "league": "super-lig",
     "hub": true,
-    "sig": "daa0578e3fca4f4946a252683ffcc665",
+    "sig": "2a1049f6d3fe20d538febaaca0782dee",
     "pairs": [
       [
         "607",
@@ -692,7 +692,7 @@
     "date": "2026-11-02",
     "league": "premier-league",
     "hub": true,
-    "sig": "38371ee6add016a530ba39f4919cfdf4",
+    "sig": "54345625d27fc3c3a7b63e32acfac49b",
     "pairs": [
       [
         "33",
