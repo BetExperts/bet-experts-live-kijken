@@ -1,167 +1,6 @@
 {
-"bijgewerkt": "2026-10-31T16:01:41.155210+00:00",
+"bijgewerkt": "2026-10-31T18:17:21.189356+00:00",
 "uitzendingen": [
-{
-"ko": "2026-10-31T14:00:00+00:00",
-"titel": "Bologna – Monza",
-"comp": "Serie A",
-"sport": "voetbal",
-"zenders": [
-"Ziggo Sport 1"
-],
-"streams": [],
-"url": null
-},
-{
-"ko": "2026-10-31T14:30:00+00:00",
-"titel": "Bayer Leverkusen – VfB Stuttgart",
-"comp": "Bundesliga",
-"sport": "voetbal",
-"zenders": [
-"Viaplay"
-],
-"streams": [
-"711"
-],
-"url": "/nieuws/bayer-leverkusen-stuttgart-live-gratis-kijken-31-10-2026"
-},
-{
-"ko": "2026-10-31T14:30:00+00:00",
-"titel": "Borussia Mönchengladbach – SC Paderborn 07",
-"comp": "Bundesliga",
-"sport": "voetbal",
-"zenders": [
-"Viaplay"
-],
-"streams": [],
-"url": null
-},
-{
-"ko": "2026-10-31T14:30:00+00:00",
-"titel": "FC Augsburg – SC Freiburg",
-"comp": "Bundesliga",
-"sport": "voetbal",
-"zenders": [
-"Viaplay"
-],
-"streams": [],
-"url": null
-},
-{
-"ko": "2026-10-31T14:30:00+00:00",
-"titel": "FC Schalke 04 – RB Leipzig",
-"comp": "Bundesliga",
-"sport": "voetbal",
-"zenders": [
-"Viaplay"
-],
-"streams": [
-"711"
-],
-"url": "/nieuws/schalke-04-rb-leipzig-live-gratis-kijken-31-10-2026"
-},
-{
-"ko": "2026-10-31T14:30:00+00:00",
-"titel": "Werder Bremen – 1899 Hoffenheim",
-"comp": "Bundesliga",
-"sport": "voetbal",
-"zenders": [
-"Viaplay"
-],
-"streams": [],
-"url": null
-},
-{
-"ko": "2026-10-31T15:00:00+00:00",
-"titel": "Bournemouth – Leeds",
-"comp": "Premier League",
-"sport": "voetbal",
-"zenders": [
-"Viaplay"
-],
-"streams": [],
-"url": null
-},
-{
-"ko": "2026-10-31T15:00:00+00:00",
-"titel": "Brentford – Nottingham Forest",
-"comp": "Premier League",
-"sport": "voetbal",
-"zenders": [
-"Viaplay"
-],
-"streams": [],
-"url": null
-},
-{
-"ko": "2026-10-31T15:00:00+00:00",
-"titel": "Coventry – Sunderland",
-"comp": "Premier League",
-"sport": "voetbal",
-"zenders": [
-"Viaplay"
-],
-"streams": [],
-"url": null
-},
-{
-"ko": "2026-10-31T15:00:00+00:00",
-"titel": "Hull City – Ipswich",
-"comp": "Premier League",
-"sport": "voetbal",
-"zenders": [
-"Viaplay",
-"Viaplay TV"
-],
-"streams": [],
-"url": null
-},
-{
-"ko": "2026-10-31T15:00:00+00:00",
-"titel": "KV Mechelen – Genk",
-"comp": "Jupiler Pro League",
-"sport": "voetbal",
-"zenders": [
-"DAZN"
-],
-"streams": [
-"711"
-],
-"url": "/nieuws/kv-mechelen-genk-live-gratis-kijken-31-10-2026"
-},
-{
-"ko": "2026-10-31T15:00:00+00:00",
-"titel": "Manchester City – Brighton",
-"comp": "Premier League",
-"sport": "voetbal",
-"zenders": [
-"Viaplay"
-],
-"streams": [],
-"url": "/nieuws/manchester-city-brighton-live-gratis-kijken-31-10-2026"
-},
-{
-"ko": "2026-10-31T15:00:00+00:00",
-"titel": "Millwall – Derby",
-"comp": "EFL Championship",
-"sport": "voetbal",
-"zenders": [
-"Viaplay"
-],
-"streams": [],
-"url": null
-},
-{
-"ko": "2026-10-31T15:15:00+00:00",
-"titel": "Rayo Vallecano – Celta Vigo",
-"comp": "Primera Division",
-"sport": "voetbal",
-"zenders": [
-"Ziggo Sport 2"
-],
-"streams": [],
-"url": null
-},
 {
 "ko": "2026-10-31T15:30:00+00:00",
 "titel": "Feyenoord – Fortuna Sittard",
@@ -544,7 +383,7 @@
 "ESPN 2"
 ],
 "streams": [],
-"url": null
+"url": "/nieuws/pec-zwolle-ado-den-haag-live-gratis-kijken-01-11-2026"
 },
 {
 "ko": "2026-11-01T11:30:00+00:00",
@@ -597,10 +436,12 @@
 "comp": "Primera Division",
 "sport": "voetbal",
 "zenders": [
-"Ziggo Sport 1"
+"Ziggo Sport"
 ],
-"streams": [],
-"url": null
+"streams": [
+"TOTO"
+],
+"url": "/nieuws/getafe-sevilla-live-gratis-kijken-01-11-2026"
 },
 {
 "ko": "2026-11-01T13:30:00+00:00",
@@ -608,10 +449,10 @@
 "comp": "Eredivisie",
 "sport": "voetbal",
 "zenders": [
-"ESPN 1"
+"ESPN"
 ],
 "streams": [],
-"url": null
+"url": "/nieuws/excelsior-fc-twente-live-gratis-kijken-01-11-2026"
 },
 {
 "ko": "2026-11-01T13:30:00+00:00",
@@ -633,7 +474,7 @@
 "ESPN 3"
 ],
 "streams": [],
-"url": null
+"url": "/nieuws/telstar-fc-utrecht-live-gratis-kijken-01-11-2026"
 },
 {
 "ko": "2026-11-01T13:30:00+00:00",
@@ -665,8 +506,10 @@
 "zenders": [
 "Ziggo Sport 2"
 ],
-"streams": [],
-"url": null
+"streams": [
+"Bet365"
+],
+"url": "/nieuws/lazio-cagliari-live-gratis-kijken-01-11-2026"
 },
 {
 "ko": "2026-11-01T14:30:00+00:00",
@@ -697,10 +540,12 @@
 "comp": "Primera Division",
 "sport": "voetbal",
 "zenders": [
-"Ziggo Sport 1"
+"Ziggo Sport"
 ],
-"streams": [],
-"url": null
+"streams": [
+"TOTO"
+],
+"url": "/nieuws/racing-santander-real-madrid-live-gratis-kijken-01-11-2026"
 },
 {
 "ko": "2026-11-01T15:45:00+00:00",
@@ -733,7 +578,7 @@
 "ESPN 2"
 ],
 "streams": [],
-"url": null
+"url": "/nieuws/fc-groningen-sparta-rotterdam-live-gratis-kijken-01-11-2026"
 },
 {
 "ko": "2026-11-01T15:45:00+00:00",
@@ -776,8 +621,10 @@
 "zenders": [
 "Viaplay"
 ],
-"streams": [],
-"url": null
+"streams": [
+"Starcasino"
+],
+"url": "/nieuws/paris-fc-as-monaco-live-gratis-kijken-01-11-2026"
 },
 {
 "ko": "2026-11-01T16:30:00+00:00",
@@ -788,8 +635,10 @@
 "Viaplay",
 "Viaplay TV"
 ],
-"streams": [],
-"url": null
+"streams": [
+"711"
+],
+"url": "/nieuws/eintracht-frankfurt-hamburger-sv-live-gratis-kijken-01-11-2026"
 },
 {
 "ko": "2026-11-01T16:30:00+00:00",
@@ -800,7 +649,7 @@
 "Viaplay"
 ],
 "streams": [],
-"url": null
+"url": "/nieuws/liverpool-arsenal-live-gratis-kijken-01-11-2026"
 },
 {
 "ko": "2026-11-01T17:00:00+00:00",
@@ -819,10 +668,12 @@
 "comp": "Primera Division",
 "sport": "voetbal",
 "zenders": [
-"Ziggo Sport 1"
+"Ziggo Sport"
 ],
-"streams": [],
-"url": null
+"streams": [
+"TOTO"
+],
+"url": "/nieuws/elche-valencia-live-gratis-kijken-01-11-2026"
 },
 {
 "ko": "2026-11-01T19:45:00+00:00",
@@ -832,8 +683,10 @@
 "zenders": [
 "Ziggo Sport 2"
 ],
-"streams": [],
-"url": null
+"streams": [
+"Bet365"
+],
+"url": "/nieuws/juventus-napoli-live-gratis-kijken-01-11-2026"
 },
 {
 "ko": "2026-11-01T19:45:00+00:00",
@@ -844,8 +697,10 @@
 "Viaplay",
 "Viaplay TV"
 ],
-"streams": [],
-"url": null
+"streams": [
+"Starcasino"
+],
+"url": "/nieuws/marseille-toulouse-live-gratis-kijken-01-11-2026"
 },
 {
 "ko": "2026-11-01T20:00:00+00:00",
@@ -853,11 +708,13 @@
 "comp": "Primera Division",
 "sport": "voetbal",
 "zenders": [
-"Ziggo Sport 1",
+"Ziggo Sport",
 "Ziggo Sport 4"
 ],
-"streams": [],
-"url": null
+"streams": [
+"TOTO"
+],
+"url": "/nieuws/athletic-bilbao-real-sociedad-live-gratis-kijken-01-11-2026"
 },
 {
 "ko": "2026-11-01T21:30:00+00:00",
@@ -889,8 +746,10 @@
 "zenders": [
 "Apple TV+"
 ],
-"streams": [],
-"url": null
+"streams": [
+"Bet365"
+],
+"url": "/nieuws/vancouver-whitecaps-seattle-sounders-live-gratis-kijken-01-11-2026"
 },
 {
 "ko": "2026-11-02T00:00:00+00:00",
