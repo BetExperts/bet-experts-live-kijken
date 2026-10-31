@@ -338,7 +338,7 @@
     "date": "2026-11-02",
     "league": "eerste-divisie",
     "hub": true,
-    "sig": "c427bc7d7625780bebe21ca8059c7c3b",
+    "sig": "791ea9192b9288eff284c39180270c40",
     "pairs": [
       [
         "199",
@@ -402,7 +402,7 @@
     "date": "2026-11-01",
     "league": "bundesliga",
     "hub": true,
-    "sig": "67e61d7279960e1119451d8154972a6d",
+    "sig": "402b2696ba0cad2820a754148a413abc",
     "pairs": [
       [
         "164",
@@ -520,7 +520,7 @@
     "date": "2026-11-02",
     "league": "la-liga",
     "hub": true,
-    "sig": "21e8de3681b57ab634b3d51eca881508",
+    "sig": "7c9154dda6cc9fd06d850c8d47554755",
     "pairs": [
       [
         "533",
@@ -692,7 +692,7 @@
     "date": "2026-11-02",
     "league": "premier-league",
     "hub": true,
-    "sig": "64c7c6b21f4f06d56b2b1b1a650baa9f",
+    "sig": "5360bab90f352dea8f3d83ac48794917",
     "pairs": [
       [
         "33",
@@ -756,7 +756,7 @@
     "date": "2026-11-01",
     "league": "eredivisie",
     "hub": true,
-    "sig": "a9603306adddfa915b30b97ae2bea270",
+    "sig": "9bfd23ce90d069e0a9b41bd525981e58",
     "pairs": [
       [
         "205",
@@ -1049,7 +1049,7 @@
     "date": "2026-11-02",
     "league": "serie-a",
     "hub": true,
-    "sig": "363470f6753d1d85e16c4edaa40cb970",
+    "sig": "e3a989fc6619c81686dc1f449218a90b",
     "pairs": [
       [
         "1579",
