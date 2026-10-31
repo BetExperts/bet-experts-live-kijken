@@ -220,7 +220,7 @@
     "date": "2026-11-02",
     "league": "ligue-1",
     "hub": true,
-    "sig": "e90c7f56fb0ef9352510160ae757d36e",
+    "sig": "064d9d0c86736cb04d11ce3ccef7deb9",
     "pairs": [
       [
         "84",
@@ -279,7 +279,7 @@
     "date": "2026-11-02",
     "league": "super-lig",
     "hub": true,
-    "sig": "c0e853ced60126449056c92fafd8cd9c",
+    "sig": "f224bd20190bad4c9d6af540bbb40b53",
     "pairs": [
       [
         "607",
@@ -1049,7 +1049,7 @@
     "date": "2026-11-02",
     "league": "serie-a",
     "hub": true,
-    "sig": "f6f3d65df2770ef294bf9df50a0c5cca",
+    "sig": "ba38da222bdd276d7c92e2380f612a73",
     "pairs": [
       [
         "1579",
