@@ -6,7 +6,7 @@
     "date": "2026-11-04",
     "league": "jupiler-pro-league",
     "hub": true,
-    "sig": "694239c0312b4e595514565cdaf03554",
+    "sig": "9dc67b9d47defb1d82b1f16421fa099e",
     "pairs": [
       [
         "736",
@@ -65,7 +65,7 @@
     "date": "2026-11-02",
     "league": "ligue-1",
     "hub": true,
-    "sig": "61cecf70d3c22d6e7d9dbbfabd31c214",
+    "sig": "e04c47222c17d64a3ac9fd116f0242b3",
     "pairs": [
       [
         "84",
@@ -124,7 +124,7 @@
     "date": "2026-11-02",
     "league": "super-lig",
     "hub": true,
-    "sig": "b7424b59f9ba1fcfb86f9894a78ae197",
+    "sig": "a62a88336cefecc2f71b5974d1efc3f7",
     "pairs": [
       [
         "607",
@@ -152,13 +152,13 @@
         "2026-11-01"
       ],
       [
-        "3603",
-        "564",
+        "3573",
+        "998",
         "2026-11-01"
       ],
       [
-        "3573",
-        "998",
+        "3603",
+        "564",
         "2026-11-01"
       ],
       [
@@ -183,16 +183,11 @@
     "date": "2026-11-02",
     "league": "eerste-divisie",
     "hub": true,
-    "sig": "c3cd0e4f23b2936cf83b5008ac41e1c8",
+    "sig": "f51cbd63ef09c27132fb7bdb0b27a965",
     "pairs": [
       [
-        "414",
-        "418",
-        "2026-10-30"
-      ],
-      [
-        "417",
-        "419",
+        "199",
+        "416",
         "2026-10-30"
       ],
       [
@@ -201,8 +196,13 @@
         "2026-10-30"
       ],
       [
-        "199",
-        "416",
+        "414",
+        "418",
+        "2026-10-30"
+      ],
+      [
+        "417",
+        "419",
         "2026-10-30"
       ],
       [
@@ -247,7 +247,7 @@
     "date": "2026-11-01",
     "league": "bundesliga",
     "hub": true,
-    "sig": "2e4dc145ceb9b8ae5ef15ff9c36f72c4",
+    "sig": "f5f4c2421a45da84b31f84cfb11ec04d",
     "pairs": [
       [
         "164",
@@ -306,7 +306,7 @@
     "date": "2026-11-01",
     "league": "jupiler-pro-league",
     "hub": true,
-    "sig": "e37779bdf3844ae1d677b3b7b13aaa0f",
+    "sig": "e4abe8d3f877b505aa0fb1ab46eb8388",
     "pairs": [
       [
         "569",
@@ -365,7 +365,7 @@
     "date": "2026-11-02",
     "league": "la-liga",
     "hub": true,
-    "sig": "c43a14353de519726f5d7d077fea3e57",
+    "sig": "ffd6eae79b88a4edb09d88f7cd466a67",
     "pairs": [
       [
         "533",
@@ -429,7 +429,7 @@
     "date": "2026-11-02",
     "league": "premier-league",
     "hub": true,
-    "sig": "eff8e2f1ffd4af4e85c4cb15f355ef7f",
+    "sig": "c38a897b0ece44b12b5145ed03fdc5c9",
     "pairs": [
       [
         "33",
@@ -493,7 +493,7 @@
     "date": "2026-11-01",
     "league": "eredivisie",
     "hub": true,
-    "sig": "5d0c47aa87df4bc4916a562c193f2ba8",
+    "sig": "5bae8a666c0eb37878ff69a85763257e",
     "pairs": [
       [
         "205",
@@ -511,13 +511,13 @@
         "2026-10-31"
       ],
       [
-        "410",
-        "420",
+        "194",
+        "201",
         "2026-10-31"
       ],
       [
-        "194",
-        "201",
+        "410",
+        "420",
         "2026-10-31"
       ],
       [
@@ -695,7 +695,7 @@
     "date": "2026-11-02",
     "league": "serie-a",
     "hub": true,
-    "sig": "95ed55d96b1fcb247a30e2669a70a838",
+    "sig": "10334600b4207398573de49514762ef9",
     "pairs": [
       [
         "1579",
@@ -1448,7 +1448,7 @@
     "date": "2026-11-04",
     "league": "champions-league",
     "hub": true,
-    "sig": "fe743cce3e5eaf53183e2eae57f45151",
+    "sig": "828e7e3f1ef4a7fed9606c172e3bba4d",
     "pairs": [
       [
         "228",
@@ -1544,5 +1544,108 @@
     "ronde": "League Stage - 4",
     "og": "og/champions-league-speelronde-4-op-tv-3-november-2026-9b999d.webp",
     "og_done": "og/champions-league-speelronde-4-op-tv-3-november-2026-9b999d.webp"
+  },
+  "hub:europa-league-speelronde-4-op-tv-4-november-2026": {
+    "item_id": "6ae7642ec72bb9a96ee3d9f8",
+    "slug": "europa-league-speelronde-4-op-tv-4-november-2026",
+    "match": "Europa League speelronde 4",
+    "date": "2026-11-05",
+    "league": "europa-league",
+    "hub": true,
+    "sig": "9382a3d2e61daa01032a3aa9aad6059a",
+    "pairs": [
+      [
+        "553",
+        "94",
+        "2026-11-04"
+      ],
+      [
+        "167",
+        "52",
+        "2026-11-05"
+      ],
+      [
+        "321",
+        "567",
+        "2026-11-05"
+      ],
+      [
+        "3402",
+        "413",
+        "2026-11-05"
+      ],
+      [
+        "489",
+        "651",
+        "2026-11-05"
+      ],
+      [
+        "548",
+        "80",
+        "2026-11-05"
+      ],
+      [
+        "554",
+        "571",
+        "2026-11-05"
+      ],
+      [
+        "35",
+        "628",
+        "2026-11-05"
+      ],
+      [
+        "336",
+        "646",
+        "2026-11-05"
+      ],
+      [
+        "168",
+        "81",
+        "2026-11-05"
+      ],
+      [
+        "201",
+        "496",
+        "2026-11-05"
+      ],
+      [
+        "211",
+        "347",
+        "2026-11-05"
+      ],
+      [
+        "247",
+        "549",
+        "2026-11-05"
+      ],
+      [
+        "1393",
+        "538",
+        "2026-11-05"
+      ],
+      [
+        "1124",
+        "563",
+        "2026-11-05"
+      ],
+      [
+        "4360",
+        "637",
+        "2026-11-05"
+      ],
+      [
+        "620",
+        "746",
+        "2026-11-05"
+      ],
+      [
+        "3683",
+        "4799",
+        "2026-11-05"
+      ]
+    ],
+    "ronde": "League Stage - 4",
+    "og": "og/europa-league-speelronde-4-op-tv-4-november-2026-0ace38.webp"
   }
 }
