@@ -1,66 +1,6 @@
 {
-"bijgewerkt": "2026-11-01T16:57:59.263338+00:00",
+"bijgewerkt": "2026-11-01T18:15:27.461526+00:00",
 "uitzendingen": [
-{
-"ko": "2026-11-01T14:00:00+00:00",
-"titel": "Strasbourg – Auxerre",
-"comp": "Ligue 1",
-"sport": "voetbal",
-"zenders": [
-"Viaplay"
-],
-"streams": [],
-"url": null
-},
-{
-"ko": "2026-11-01T14:00:00+00:00",
-"titel": "Lazio – Cagliari",
-"comp": "Serie A",
-"sport": "voetbal",
-"zenders": [
-"Ziggo Sport 2"
-],
-"streams": [
-"Bet365"
-],
-"url": "/nieuws/lazio-cagliari-live-gratis-kijken-01-11-2026"
-},
-{
-"ko": "2026-11-01T14:30:00+00:00",
-"titel": "Union Berlin – 1. FC Köln",
-"comp": "Bundesliga",
-"sport": "voetbal",
-"zenders": [
-"Viaplay",
-"Viaplay TV"
-],
-"streams": [],
-"url": null
-},
-{
-"ko": "2026-11-01T15:00:00+00:00",
-"titel": "St. Truiden – OH Leuven",
-"comp": "Jupiler Pro League",
-"sport": "voetbal",
-"zenders": [
-"DAZN"
-],
-"streams": [],
-"url": null
-},
-{
-"ko": "2026-11-01T15:15:00+00:00",
-"titel": "Racing Santander – Real Madrid",
-"comp": "Primera Division",
-"sport": "voetbal",
-"zenders": [
-"Ziggo Sport"
-],
-"streams": [
-"TOTO"
-],
-"url": "/nieuws/racing-santander-real-madrid-live-gratis-kijken-01-11-2026"
-},
 {
 "ko": "2026-11-01T15:45:00+00:00",
 "titel": "ADO Den Haag W – Feyenoord W",
@@ -273,8 +213,10 @@
 "zenders": [
 "Apple TV+"
 ],
-"streams": [],
-"url": null
+"streams": [
+"Bet365"
+],
+"url": "/nieuws/new-england-revolution-inter-miami-live-gratis-kijken-02-11-2026"
 },
 {
 "ko": "2026-11-02T01:30:00+00:00",
@@ -284,8 +226,10 @@
 "zenders": [
 "Apple TV+"
 ],
-"streams": [],
-"url": null
+"streams": [
+"Bet365"
+],
+"url": "/nieuws/los-angeles-minnesota-united-fc-live-gratis-kijken-02-11-2026"
 },
 {
 "ko": "2026-11-02T02:30:00+00:00",
@@ -317,8 +261,10 @@
 "zenders": [
 "Ziggo Sport 2"
 ],
-"streams": [],
-"url": null
+"streams": [
+"Bet365"
+],
+"url": "/nieuws/sassuolo-fiorentina-live-gratis-kijken-02-11-2026"
 },
 {
 "ko": "2026-11-02T19:00:00+00:00",
@@ -329,7 +275,7 @@
 "ESPN 2"
 ],
 "streams": [],
-"url": null
+"url": "/nieuws/jong-psv-nac-breda-live-gratis-kijken-02-11-2026"
 },
 {
 "ko": "2026-11-02T19:45:00+00:00",
@@ -339,8 +285,10 @@
 "zenders": [
 "Ziggo Sport 2"
 ],
-"streams": [],
-"url": null
+"streams": [
+"Bet365"
+],
+"url": "/nieuws/atalanta-parma-live-gratis-kijken-02-11-2026"
 },
 {
 "ko": "2026-11-02T20:00:00+00:00",
@@ -348,12 +296,11 @@
 "comp": "Premier League",
 "sport": "voetbal",
 "zenders": [
-"Viaplay",
-"Viaplay TV",
+"Viaplay, Viaplay TV",
 "Prime Video"
 ],
 "streams": [],
-"url": null
+"url": "/nieuws/newcastle-united-everton-live-gratis-kijken-02-11-2026"
 },
 {
 "ko": "2026-11-02T20:15:00+00:00",
@@ -364,7 +311,7 @@
 "Ziggo Sport 3"
 ],
 "streams": [],
-"url": null
+"url": "/nieuws/benfica-alverca-live-gratis-kijken-02-11-2026"
 },
 {
 "ko": "2026-11-03T17:45:00+00:00",
