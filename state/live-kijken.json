@@ -6,7 +6,7 @@
     "date": "2026-11-04",
     "league": "jupiler-pro-league",
     "hub": true,
-    "sig": "c3b1cb0db30c6d7de876ee38d0ed58d5",
+    "sig": "9dc67b9d47defb1d82b1f16421fa099e",
     "pairs": [
       [
         "736",
@@ -19,13 +19,13 @@
         "2026-10-24"
       ],
       [
-        "261",
-        "738",
+        "5902",
+        "600",
         "2026-10-24"
       ],
       [
-        "5902",
-        "600",
+        "261",
+        "738",
         "2026-10-24"
       ],
       [
@@ -65,7 +65,7 @@
     "date": "2026-11-02",
     "league": "ligue-1",
     "hub": true,
-    "sig": "87d2a6ad7e3bd84919aaf206ff5778df",
+    "sig": "acb0714f56997956bbd035fe59056843",
     "pairs": [
       [
         "84",
@@ -124,7 +124,7 @@
     "date": "2026-11-02",
     "league": "super-lig",
     "hub": true,
-    "sig": "4e3bf50b4f5247fa5333b6250f832ad9",
+    "sig": "feebc6922a5113cf8f97b0f8c1a085e0",
     "pairs": [
       [
         "607",
@@ -247,7 +247,7 @@
     "date": "2026-11-01",
     "league": "bundesliga",
     "hub": true,
-    "sig": "9859ec0fe6dc02010662e56f0751473a",
+    "sig": "12606c5e128b01f7d68816d4866515ec",
     "pairs": [
       [
         "164",
@@ -306,7 +306,7 @@
     "date": "2026-11-01",
     "league": "jupiler-pro-league",
     "hub": true,
-    "sig": "835089517247bffd3b4480fa9c011f46",
+    "sig": "808f78e324cd202286476d0c313c625d",
     "pairs": [
       [
         "569",
@@ -324,13 +324,13 @@
         "2026-10-31"
       ],
       [
-        "261",
-        "554",
+        "1393",
+        "738",
         "2026-10-31"
       ],
       [
-        "1393",
-        "738",
+        "261",
+        "554",
         "2026-10-31"
       ],
       [
@@ -365,7 +365,7 @@
     "date": "2026-11-02",
     "league": "la-liga",
     "hub": true,
-    "sig": "fa414677c70f88ded18636e605c3a30a",
+    "sig": "ada2958bf9bb7f8cdd4120c6aa12e718",
     "pairs": [
       [
         "533",
@@ -429,7 +429,7 @@
     "date": "2026-11-02",
     "league": "premier-league",
     "hub": true,
-    "sig": "da6db5f75bda676f821d10a45a2835f2",
+    "sig": "2107cedbf7fbd937367bcd797c3fe11e",
     "pairs": [
       [
         "33",
@@ -1448,7 +1448,7 @@
     "date": "2026-11-04",
     "league": "champions-league",
     "hub": true,
-    "sig": "828e7e3f1ef4a7fed9606c172e3bba4d",
+    "sig": "b87a94f6fb88b661d233eee89223e727",
     "pairs": [
       [
         "228",
@@ -1552,7 +1552,7 @@
     "date": "2026-11-05",
     "league": "europa-league",
     "hub": true,
-    "sig": "9382a3d2e61daa01032a3aa9aad6059a",
+    "sig": "e0e2233e9ddffb764b8d41951786941a",
     "pairs": [
       [
         "553",
