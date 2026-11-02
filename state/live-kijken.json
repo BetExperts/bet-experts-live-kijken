@@ -1906,7 +1906,8 @@
     "home_id": "550",
     "away_id": "228",
     "tv_sig": "Ziggo Sport 3|Bet365|False|True",
-    "og": "og/shakhtar-donetsk-sporting-cp-live-gratis-kijken-03-11-2026-93ab33.webp"
+    "og": "og/shakhtar-donetsk-sporting-cp-live-gratis-kijken-03-11-2026-93ab33.webp",
+    "og_done": "og/shakhtar-donetsk-sporting-cp-live-gratis-kijken-03-11-2026-93ab33.webp"
   },
   "1635669": {
     "item_id": "6ae9228167503643590ed51b",
@@ -1918,7 +1919,8 @@
     "home_id": "645",
     "away_id": "172",
     "tv_sig": "Ziggo Sport en Ziggo Sport 2|Bet365|False|True",
-    "og": "og/galatasaray-stuttgart-live-gratis-kijken-03-11-2026-706a37.webp"
+    "og": "og/galatasaray-stuttgart-live-gratis-kijken-03-11-2026-706a37.webp",
+    "og_done": "og/galatasaray-stuttgart-live-gratis-kijken-03-11-2026-706a37.webp"
   },
   "1635695": {
     "item_id": "6ae922853c059f6e70dbe1a3",
@@ -1930,7 +1932,8 @@
     "home_id": "33",
     "away_id": "497",
     "tv_sig": "Ziggo Sport 5|Bet365|False|True",
-    "og": "og/manchester-united-as-roma-live-gratis-kijken-03-11-2026-55bd3d.webp"
+    "og": "og/manchester-united-as-roma-live-gratis-kijken-03-11-2026-55bd3d.webp",
+    "og_done": "og/manchester-united-as-roma-live-gratis-kijken-03-11-2026-55bd3d.webp"
   },
   "1635662": {
     "item_id": "6ae922886f42c7e21470b2b8",
@@ -1942,7 +1945,8 @@
     "home_id": "209",
     "away_id": "505",
     "tv_sig": "Ziggo Sport|Bet365|False|True",
-    "og": "og/feyenoord-inter-live-gratis-kijken-03-11-2026-e44188.webp"
+    "og": "og/feyenoord-inter-live-gratis-kijken-03-11-2026-e44188.webp",
+    "og_done": "og/feyenoord-inter-live-gratis-kijken-03-11-2026-e44188.webp"
   },
   "1635627": {
     "item_id": "6ae9228c806a4c526f484ac3",
@@ -1954,7 +1958,8 @@
     "home_id": "529",
     "away_id": "66",
     "tv_sig": "Ziggo Sport 2|Bet365|False|True",
-    "og": "og/fc-barcelona-aston-villa-live-gratis-kijken-03-11-2026-1beffc.webp"
+    "og": "og/fc-barcelona-aston-villa-live-gratis-kijken-03-11-2026-1beffc.webp",
+    "og_done": "og/fc-barcelona-aston-villa-live-gratis-kijken-03-11-2026-1beffc.webp"
   },
   "1635622": {
     "item_id": "6ae9228f4f9dc22b3bdd6b3b",
@@ -1966,7 +1971,8 @@
     "home_id": "530",
     "away_id": "157",
     "tv_sig": "Ziggo Sport 3|Bet365|False|True",
-    "og": "og/atletico-madrid-bayern-munchen-live-gratis-kijken-03-11-2026-82cb40.webp"
+    "og": "og/atletico-madrid-bayern-munchen-live-gratis-kijken-03-11-2026-82cb40.webp",
+    "og_done": "og/atletico-madrid-bayern-munchen-live-gratis-kijken-03-11-2026-82cb40.webp"
   },
   "1635746": {
     "item_id": "6ae92293eab97d42775a2560",
@@ -1978,6 +1984,7 @@
     "home_id": "533",
     "away_id": "85",
     "tv_sig": "Ziggo Sport 6|Bet365|False|True",
-    "og": "og/villarreal-paris-saint-germain-psg-live-gratis-kijken-03-11-2026-597c21.webp"
+    "og": "og/villarreal-paris-saint-germain-psg-live-gratis-kijken-03-11-2026-597c21.webp",
+    "og_done": "og/villarreal-paris-saint-germain-psg-live-gratis-kijken-03-11-2026-597c21.webp"
   }
 }
