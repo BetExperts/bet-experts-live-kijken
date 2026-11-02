@@ -6,7 +6,7 @@
     "date": "2026-11-04",
     "league": "jupiler-pro-league",
     "hub": true,
-    "sig": "fe65ae97d473dd579956528bd60d4fec",
+    "sig": "97a1145baced21c666cf3d34bf275611",
     "pairs": [
       [
         "736",
@@ -65,7 +65,7 @@
     "date": "2026-11-02",
     "league": "ligue-1",
     "hub": true,
-    "sig": "ad785f4e33abbf201db834841e210642",
+    "sig": "bd64ac57028281dec8ecc63ac2ca5c91",
     "pairs": [
       [
         "84",
@@ -124,7 +124,7 @@
     "date": "2026-11-02",
     "league": "super-lig",
     "hub": true,
-    "sig": "94c7ac875ca550d6dfc799d402eae117",
+    "sig": "017809d365601aa8ad4e9e88c8555b70",
     "pairs": [
       [
         "607",
@@ -152,13 +152,13 @@
         "2026-11-01"
       ],
       [
-        "3603",
-        "564",
+        "3573",
+        "998",
         "2026-11-01"
       ],
       [
-        "3573",
-        "998",
+        "3603",
+        "564",
         "2026-11-01"
       ],
       [
@@ -183,11 +183,11 @@
     "date": "2026-11-02",
     "league": "eerste-divisie",
     "hub": true,
-    "sig": "7e45e1d11cdc99f9708eb74661f6e8b4",
+    "sig": "800b858005aa4b799b48986836360821",
     "pairs": [
       [
-        "199",
-        "416",
+        "414",
+        "418",
         "2026-10-30"
       ],
       [
@@ -196,13 +196,13 @@
         "2026-10-30"
       ],
       [
-        "414",
-        "418",
+        "417",
+        "419",
         "2026-10-30"
       ],
       [
-        "417",
-        "419",
+        "199",
+        "416",
         "2026-10-30"
       ],
       [
@@ -247,7 +247,7 @@
     "date": "2026-11-01",
     "league": "bundesliga",
     "hub": true,
-    "sig": "12606c5e128b01f7d68816d4866515ec",
+    "sig": "415ea6930cfeb2738abc6e1cbf406cbd",
     "pairs": [
       [
         "164",
@@ -306,7 +306,7 @@
     "date": "2026-11-01",
     "league": "jupiler-pro-league",
     "hub": true,
-    "sig": "808f78e324cd202286476d0c313c625d",
+    "sig": "8ff5fe4408bda1c7edacddecc9af8c6c",
     "pairs": [
       [
         "569",
@@ -365,7 +365,7 @@
     "date": "2026-11-02",
     "league": "la-liga",
     "hub": true,
-    "sig": "60afa84577de475b3366820fdd56cc91",
+    "sig": "bdebb2d213272aaa09d3dc0d573a6338",
     "pairs": [
       [
         "533",
@@ -429,7 +429,7 @@
     "date": "2026-11-02",
     "league": "premier-league",
     "hub": true,
-    "sig": "858620c7308bb1a869eef7d05f6c0e60",
+    "sig": "eea236c952cf75237d102755bfb613bb",
     "pairs": [
       [
         "33",
@@ -493,7 +493,7 @@
     "date": "2026-11-01",
     "league": "eredivisie",
     "hub": true,
-    "sig": "4b216c36fd82f92be94506b5faa159ac",
+    "sig": "5484d775eb0328f590b2f99b754167fb",
     "pairs": [
       [
         "205",
@@ -695,7 +695,7 @@
     "date": "2026-11-02",
     "league": "serie-a",
     "hub": true,
-    "sig": "377530cf8f85acfac90b9dabbbab3632",
+    "sig": "50f0ed16213641dfe9a1fdabbe992700",
     "pairs": [
       [
         "1579",
@@ -1448,7 +1448,7 @@
     "date": "2026-11-04",
     "league": "champions-league",
     "hub": true,
-    "sig": "8a89828ef554d5416a195b768618940e",
+    "sig": "32b491092967dcee3a14de4bbd80bd6f",
     "pairs": [
       [
         "228",
@@ -1552,7 +1552,7 @@
     "date": "2026-11-05",
     "league": "europa-league",
     "hub": true,
-    "sig": "0685e1d0e5febe70dc1a4c7a0e201b79",
+    "sig": "d75cb299bcc9511f5c8079719218e661",
     "pairs": [
       [
         "553",
@@ -1791,5 +1791,108 @@
     "tv_sig": "ESPN|TOTO|False|True",
     "og": "og/jong-fc-utrecht-fc-dordrecht-live-gratis-kijken-02-11-2026-b4c5d0.webp",
     "og_done": "og/jong-fc-utrecht-fc-dordrecht-live-gratis-kijken-02-11-2026-b4c5d0.webp"
+  },
+  "hub:conference-league-speelronde-3-op-tv-5-november-2026": {
+    "item_id": "6ae8e57f9581d28cdb702fc7",
+    "slug": "conference-league-speelronde-3-op-tv-5-november-2026",
+    "match": "Conference League speelronde 3",
+    "date": "2026-11-05",
+    "league": "conference-league",
+    "hub": true,
+    "sig": "69416b76c3267fc3b1e5b3e502d3b1a7",
+    "pairs": [
+      [
+        "194",
+        "397",
+        "2026-11-05"
+      ],
+      [
+        "217",
+        "406",
+        "2026-11-05"
+      ],
+      [
+        "499",
+        "664",
+        "2026-11-05"
+      ],
+      [
+        "3342",
+        "598",
+        "2026-11-05"
+      ],
+      [
+        "608",
+        "667",
+        "2026-11-05"
+      ],
+      [
+        "160",
+        "998",
+        "2026-11-05"
+      ],
+      [
+        "1012",
+        "254",
+        "2026-11-05"
+      ],
+      [
+        "1165",
+        "631",
+        "2026-11-05"
+      ],
+      [
+        "2240",
+        "3364",
+        "2026-11-05"
+      ],
+      [
+        "398",
+        "91",
+        "2026-11-05"
+      ],
+      [
+        "3502",
+        "400",
+        "2026-11-05"
+      ],
+      [
+        "3403",
+        "415",
+        "2026-11-05"
+      ],
+      [
+        "51",
+        "546",
+        "2026-11-05"
+      ],
+      [
+        "3872",
+        "606",
+        "2026-11-05"
+      ],
+      [
+        "617",
+        "853",
+        "2026-11-05"
+      ],
+      [
+        "3327",
+        "632",
+        "2026-11-05"
+      ],
+      [
+        "319",
+        "735",
+        "2026-11-05"
+      ],
+      [
+        "10124",
+        "1122",
+        "2026-11-05"
+      ]
+    ],
+    "ronde": "League Stage - 3",
+    "og": "og/conference-league-speelronde-3-op-tv-5-november-2026-267469.webp"
   }
 }
