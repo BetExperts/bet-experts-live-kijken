@@ -1448,7 +1448,7 @@
     "date": "2026-11-04",
     "league": "champions-league",
     "hub": true,
-    "sig": "cbdb836edcd3a52204e6b972ede6726c",
+    "sig": "bb9f047bc73202fd46634ea11a18e1ca",
     "pairs": [
       [
         "228",
@@ -1552,7 +1552,7 @@
     "date": "2026-11-05",
     "league": "europa-league",
     "hub": true,
-    "sig": "df25af50a9c81116f183b0439779bca4",
+    "sig": "06c362c94d8f04796efacb2a68724142",
     "pairs": [
       [
         "553",
@@ -2478,5 +2478,101 @@
     "ronde": "Regular Season - 11",
     "og": "og/super-lig-speelronde-11-op-tv-6-november-2026-5ae008.webp",
     "og_done": "og/super-lig-speelronde-11-op-tv-6-november-2026-5ae008.webp"
+  },
+  "1635606": {
+    "item_id": "6aea5dd2b4bcd2498150fba5",
+    "slug": "aek-athene-real-madrid-live-gratis-kijken-04-11-2026",
+    "match": "AEK Athens FC - Real Madrid",
+    "date": "2026-11-04",
+    "league": "champions-league",
+    "provider": "Bet365",
+    "home_id": "575",
+    "away_id": "541",
+    "tv_sig": "Ziggo Sport 3|Bet365|False|True",
+    "og": "og/aek-athene-real-madrid-live-gratis-kijken-04-11-2026-629d99.webp"
+  },
+  "1635658": {
+    "item_id": "6aea5dd5bc3102038ae9301d",
+    "slug": "fenerbahce-liverpool-live-gratis-kijken-04-11-2026",
+    "match": "Fenerbahçe - Liverpool",
+    "date": "2026-11-04",
+    "league": "champions-league",
+    "provider": "Bet365",
+    "home_id": "611",
+    "away_id": "40",
+    "tv_sig": "Ziggo Sport en Ziggo Sport 2|Bet365|False|True",
+    "og": "og/fenerbahce-liverpool-live-gratis-kijken-04-11-2026-3e6bc2.webp"
+  },
+  "1635651": {
+    "item_id": "6aea5dd9c3ab889ceb7842ec",
+    "slug": "borussia-dortmund-real-betis-live-gratis-kijken-04-11-2026",
+    "match": "Borussia Dortmund - Real Betis",
+    "date": "2026-11-04",
+    "league": "champions-league",
+    "provider": "Bet365",
+    "home_id": "165",
+    "away_id": "543",
+    "tv_sig": "Ziggo Sport 5|Bet365|False|True",
+    "og": "og/borussia-dortmund-real-betis-live-gratis-kijken-04-11-2026-74cfd5.webp"
+  },
+  "1635710": {
+    "item_id": "6aea5ddc1768af3bd27f0e3c",
+    "slug": "rb-leipzig-manchester-city-live-gratis-kijken-04-11-2026",
+    "match": "RB Leipzig - Manchester City",
+    "date": "2026-11-04",
+    "league": "champions-league",
+    "provider": "Bet365",
+    "home_id": "173",
+    "away_id": "50",
+    "tv_sig": "Ziggo Sport 3|Bet365|False|True",
+    "og": "og/rb-leipzig-manchester-city-live-gratis-kijken-04-11-2026-a4930a.webp"
+  },
+  "1635707": {
+    "item_id": "6aea5ddfa07cbb87a41d74eb",
+    "slug": "psv-club-brugge-live-gratis-kijken-04-11-2026",
+    "match": "PSV - Club Brugge",
+    "date": "2026-11-04",
+    "league": "champions-league",
+    "provider": "Bet365",
+    "home_id": "197",
+    "away_id": "569",
+    "tv_sig": "Ziggo Sport|Bet365|False|True",
+    "og": "og/psv-club-brugge-live-gratis-kijken-04-11-2026-d39532.webp"
+  },
+  "1635656": {
+    "item_id": "6aea5de3d76c4d48b72b4d6d",
+    "slug": "fc-porto-napoli-live-gratis-kijken-04-11-2026",
+    "match": "FC Porto - Napoli",
+    "date": "2026-11-04",
+    "league": "champions-league",
+    "provider": "Bet365",
+    "home_id": "212",
+    "away_id": "492",
+    "tv_sig": "Ziggo Sport 2|Bet365|False|True",
+    "og": "og/fc-porto-napoli-live-gratis-kijken-04-11-2026-eaf665.webp"
+  },
+  "1635726": {
+    "item_id": "6aea5de6be3ee27ff0c1b80a",
+    "slug": "slavia-praha-arsenal-live-gratis-kijken-04-11-2026",
+    "match": "Slavia Praha - Arsenal",
+    "date": "2026-11-04",
+    "league": "champions-league",
+    "provider": "Bet365",
+    "home_id": "560",
+    "away_id": "42",
+    "tv_sig": "Ziggo Sport 6|Bet365|False|True",
+    "og": "og/slavia-praha-arsenal-live-gratis-kijken-04-11-2026-21a40c.webp"
+  },
+  "1636324": {
+    "item_id": "6aea5deac3ab889ceb7844c9",
+    "slug": "rennes-olympiakos-piraeus-live-gratis-kijken-04-11-2026",
+    "match": "Rennes - Olympiakos Piraeus",
+    "date": "2026-11-04",
+    "league": "europa-league",
+    "provider": "Bet365",
+    "home_id": "94",
+    "away_id": "553",
+    "tv_sig": "Ziggo Sport|Bet365|False|True",
+    "og": "og/rennes-olympiakos-piraeus-live-gratis-kijken-04-11-2026-503e78.webp"
   }
 }
