@@ -2171,7 +2171,8 @@
       ]
     ],
     "ronde": "Regular Season - 10",
-    "og": "og/premier-league-speelronde-10-op-tv-6-november-2026-c41693.webp"
+    "og": "og/premier-league-speelronde-10-op-tv-6-november-2026-c41693.webp",
+    "og_done": "og/premier-league-speelronde-10-op-tv-6-november-2026-c41693.webp"
   },
   "hub:la-liga-speelronde-12-op-tv-6-november-2026": {
     "item_id": "6aea5595031ce16a88403d1e",
@@ -2234,7 +2235,8 @@
       ]
     ],
     "ronde": "Regular Season - 12",
-    "og": "og/la-liga-speelronde-12-op-tv-6-november-2026-59d4a4.webp"
+    "og": "og/la-liga-speelronde-12-op-tv-6-november-2026-59d4a4.webp",
+    "og_done": "og/la-liga-speelronde-12-op-tv-6-november-2026-59d4a4.webp"
   },
   "hub:serie-a-speelronde-11-op-tv-6-november-2026": {
     "item_id": "6aea5597905e0772fb70b566",
@@ -2297,7 +2299,8 @@
       ]
     ],
     "ronde": "Regular Season - 11",
-    "og": "og/serie-a-speelronde-11-op-tv-6-november-2026-4c6824.webp"
+    "og": "og/serie-a-speelronde-11-op-tv-6-november-2026-4c6824.webp",
+    "og_done": "og/serie-a-speelronde-11-op-tv-6-november-2026-4c6824.webp"
   },
   "hub:bundesliga-speelronde-9-op-tv-6-november-2026": {
     "item_id": "6aea559a613fbcb7ce5af6b6",
@@ -2355,7 +2358,8 @@
       ]
     ],
     "ronde": "Regular Season - 9",
-    "og": "og/bundesliga-speelronde-9-op-tv-6-november-2026-8ca88d.webp"
+    "og": "og/bundesliga-speelronde-9-op-tv-6-november-2026-8ca88d.webp",
+    "og_done": "og/bundesliga-speelronde-9-op-tv-6-november-2026-8ca88d.webp"
   },
   "hub:ligue-1-speelronde-10-op-tv-6-november-2026": {
     "item_id": "6aea559b6b7848ff4f4c3ce5",
@@ -2413,7 +2417,8 @@
       ]
     ],
     "ronde": "Regular Season - 10",
-    "og": "og/ligue-1-speelronde-10-op-tv-6-november-2026-43b4e2.webp"
+    "og": "og/ligue-1-speelronde-10-op-tv-6-november-2026-43b4e2.webp",
+    "og_done": "og/ligue-1-speelronde-10-op-tv-6-november-2026-43b4e2.webp"
   },
   "hub:super-lig-speelronde-11-op-tv-6-november-2026": {
     "item_id": "6aea559d82cf310cada96049",
@@ -2471,6 +2476,7 @@
       ]
     ],
     "ronde": "Regular Season - 11",
-    "og": "og/super-lig-speelronde-11-op-tv-6-november-2026-5ae008.webp"
+    "og": "og/super-lig-speelronde-11-op-tv-6-november-2026-5ae008.webp",
+    "og_done": "og/super-lig-speelronde-11-op-tv-6-november-2026-5ae008.webp"
   }
 }
