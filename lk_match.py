@@ -163,7 +163,8 @@ def build_fielddata(ctx, league_cfg, slug=None):
     gids_prov = [p for p in ((card or {}).get("providers") or []) if p in PROVIDERS]
     if geen_stream and gids_prov:
         if ctx["prov"]["naam"].lower() not in gids_prov:
-            ctx["prov"] = PROVIDERS[gids_prov[0]]
+            # Bet365 heeft voorrang als die de wedstrijd ook streamt (gebruiker 3 nov 2026)
+            ctx["prov"] = PROVIDERS["bet365" if "bet365" in gids_prov else gids_prov[0]]
         geen_stream = False
         ctx["stream_bron"] = "waaroptv"
     ctx["tv_paid_only"] = geen_stream and bool(ctx.get("tv")) and not ctx.get("tv_free")

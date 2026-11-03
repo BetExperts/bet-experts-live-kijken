@@ -162,7 +162,7 @@ def build_samenvatting(homeN, awayN, comp, dt, prov_naam, free_tv=None, paid_tv=
                       f"aftraptijd en wedstrijdinfo." for w in (w_lang, w_kort)]
                      + [f"{M} is {w_kort} niet op tv; live wedden kan wel bij {prov_naam}.",
                         f"{M}: niet op tv, wel live wedden bij {prov_naam}."])
-    acc = (f"met een gestort {prov_naam}-account kijk je gratis mee" if deposit
+    acc = (f"met €10 saldo bij {prov_naam} kijk je live mee (die €10 kun je daarna weer opnemen)" if deposit
            else f"met een gratis {prov_naam}-account kijk je mee")
     if stream_tv:
         return _kort([f"{M} is {w} live te zien op {stream_tv}, maar ook zonder abonnement: {acc}. Zender, aftrap en livestream."
@@ -288,11 +288,11 @@ def _h2h_line(m):
 
 # ---------- het gratis-kijken-blok (provider-afhankelijk) ----------
 def _kijk_blok(prov, homeN, awayN, comp, tv=None, tv_free=False):
-    """Stream via een bookmaker. Geen 'volledig gratis'-claims: bij een storting-aanbieder kijk je
-    gratis mee met een gestort account en kun je de storting weer opnemen."""
+    """Stream via een bookmaker. Geen 'volledig gratis'-claims: bij een storting-aanbieder (Bet365) stort je €10,
+    kijk je live mee en kun je die €10 na de wedstrijd weer opnemen (eigen saldo, gewone voorwaarden)."""
     naam = prov["naam"]; link = prov["link"]; M = f"{esc(homeN)} vs {esc(awayN)}"
     deposit = prov.get("deposit", True)
-    account = "een gestort account" if deposit else "een gratis account"
+    account = "€10 saldo op je account" if deposit else "een gratis account"
     if tv and tv_free:
         out = [f"<h3>Op welke zender is {esc(homeN)} – {esc(awayN)}? Gratis op {esc(tv)} en via {esc(naam)}</h3>"]
         out.append(f"<p>{M} is gratis live te zien op {esc(tv)}: daarvoor heb je geen abonnement nodig. "
@@ -316,13 +316,21 @@ def _kijk_blok(prov, homeN, awayN, comp, tv=None, tv_free=False):
                     f"{account}.</p>")
     out.append(f"<p><strong>Zo werkt gratis meekijken via {esc(naam)}:</strong></p>")
     if deposit:
+        # €10-flow (gebruiker 3 nov 2026: "stort €10, kijk live, cash het daarna weer uit"), eerlijk verwoord:
+        # de €10 is geen inzet of abonnement maar eigen saldo; opnemen volgens de gewone voorwaarden.
+        regel = (" Bet365 opent de livestream ook als je in de afgelopen 24 uur een weddenschap hebt geplaatst."
+                 if naam.lower() == "bet365" else "")
         out.append("<ol>"
-                   f"<li>Maak een account aan bij {esc(naam)} via de link hieronder</li>"
-                   "<li>Stort €10 op je account; met een gestort account krijg je toegang tot de livestream</li>"
-                   f"<li>Kijk {M} live mee in HD</li>"
-                   "<li>Je storting kun je daarna weer opnemen</li>"
+                   f"<li><strong>Open een account</strong> bij {esc(naam)} via de link hieronder (18+, met ID-controle)</li>"
+                   f"<li><strong>Stort €10</strong> op je account. Met saldo op je account krijg je toegang tot de livestream</li>"
+                   f"<li><strong>Kijk {M} live</strong> in HD op je telefoon, tablet of laptop</li>"
+                   f"<li><strong>Neem je €10 weer op</strong> na de wedstrijd: via Opnemen (uitcashen) zet je het saldo "
+                   f"terug op je eigen rekening</li>"
                    "</ol>")
-        out.append("<p>Het meekijken zelf is gratis met een gestort account; je storting kun je weer opnemen.</p>")
+        out.append(f"<p><strong>Het kijken zelf kost niets.</strong> De €10 is geen inzet en geen abonnement: het "
+                   f"blijft je eigen saldo. Zet je het niet in, dan staat het na de wedstrijd nog op je account en kun "
+                   f"je het weer opnemen.{regel} Voor opnemen gelden de gewone voorwaarden van {esc(naam)}, zoals een "
+                   f"geverifieerd account.</p>")
     else:
         out.append("<ol>"
                    f"<li>Maak een gratis account aan bij {esc(naam)} via de link hieronder</li>"
@@ -377,8 +385,11 @@ def cta_blok(prov, variant, homeN, awayN):
     slug = next((k for k, v in PROVIDERS.items() if v.get("link") == link), (naam or "").lower())
     M = f"{esc(homeN)} – {esc(awayN)}"
     if variant == "stream":
-        gratis = "" if prov.get("deposit", True) else "gratis "
-        tekst = f"👉 Klik hier: maak je {gratis}{esc(naam)}-account aan en kijk {M} live"
+        if prov.get("deposit", True):      # geen 'wed live mee' in deze tekst: lk-cta.js kiest daarop de variant
+            tekst = (f"👉 Klik hier: open je {esc(naam)}-account, stort €10 en kijk {M} live "
+                     f"(je €10 kun je daarna weer opnemen)")
+        else:
+            tekst = f"👉 Klik hier: maak je gratis {esc(naam)}-account aan en kijk {M} live"
     else:
         tekst = f"👉 Klik hier: maak je {esc(naam)}-account aan en wed live mee op {M}"
     # De afbeelding zelf zet lk-cta.js (be-static, Cloudflare) boven deze link: een <img> in de rich text
@@ -468,7 +479,7 @@ def waar_te_zien(ctx):
         items.append("<li><strong>Nederlandse tv</strong>: niet te zien</li>")
     for naam, link in _streams(ctx):
         pv = next((p for p in PROVIDERS.values() if p["naam"].lower() == naam.lower()), None)
-        acc = ("met een gestort account" if pv.get("deposit", True) else "met een gratis account") if pv else "met een account"
+        acc = ("met €10 saldo, daarna weer op te nemen" if pv.get("deposit", True) else "met een gratis account") if pv else "met een account"
         n = f'<a href="{link}">{esc(naam)}</a>' if link else esc(naam)
         items.append(f"<li><strong>Livestream {n}</strong> ({acc}, 18+)</li>")
     tabellen = "".join(kanaal_tabel(z) for z in tvs)
@@ -755,7 +766,7 @@ def _faq_gratis(homeN, awayN, comp, dt, tv, extra=None):
 # ---------- FAQ ----------
 def _faq(homeN, awayN, comp, dt, prov, tv=None, tv_free=False):
     naam = prov["naam"]; deposit = prov.get("deposit", True)
-    account = f"een gestort {naam}-account" if deposit else f"een gratis {naam}-account"
+    account = f"€10 saldo op je {naam}-account" if deposit else f"een gratis {naam}-account"
     if tv and tv_free:
         q = [(f"Waar kun je {homeN} – {awayN} kijken?",
               f"Gratis op {tv}, en online via de livestream van {naam} met {account}."),
@@ -782,11 +793,16 @@ def _faq(homeN, awayN, comp, dt, prov, tv=None, tv_free=False):
           f"Niet op de Nederlandse tv, wel via de livestream van {naam} met {account}.")),
         (f"Hoe laat begint {homeN} – {awayN}?", _aftrap_antwoord(dt)),
         (f"Is {homeN} – {awayN} gratis te kijken?",
-         (f"Ja, met een gestort account bij {naam} kijk je gratis mee in HD. Daarvoor stort je eerst "
-          f"€10; die storting kun je daarna weer opnemen.") if deposit else
+         (f"Ja, met €10 saldo op je {naam}-account kijk je gratis live mee in HD. Die €10 is geen inzet en geen "
+          f"abonnement: na de wedstrijd kun je het bedrag weer opnemen (uitcashen).") if deposit else
          (f"Ja, met een gratis account bij {naam} kijk je de wedstrijd live in HD. "
           f"Een storting is niet nodig.")),
     ]
+    if deposit:
+        q.append(("Krijg ik mijn €10 terug na het kijken?",
+                  f"Ja, als je de €10 niet inzet. Het is je eigen saldo: na de wedstrijd vraag je het via Opnemen weer "
+                  f"op naar je eigen rekening. Daarvoor gelden de gewone voorwaarden van {naam}, zoals een "
+                  f"geverifieerd account."))
     if prov.get("cast"):   # alleen als de aanbieder casten ondersteunt
         q.append(("Kan ik de stream op groot scherm bekijken?",
                   "Ja, via Chromecast, AirPlay of een HDMI-kabel zet je de stream op je televisie."))
@@ -828,9 +844,12 @@ def build_content(ctx):
     elif free:
         slot = f"Goed nieuws: je kijkt {esc(homeN)} – {esc(awayN)} gewoon gratis op {esc(ctx.get('tv'))}."
     else:
-        acc = "gestort" if prov.get("deposit", True) else "gratis"
-        slot = (f"Goed nieuws: met een {acc} {esc(prov['naam'])}-account kijk je {esc(homeN)} – {esc(awayN)} "
-                f"gratis live mee.")
+        if prov.get("deposit", True):
+            slot = (f"Goed nieuws: met €10 saldo bij {esc(prov['naam'])} kijk je {esc(homeN)} – {esc(awayN)} "
+                    f"gratis live mee, en die €10 kun je na de wedstrijd weer opnemen.")
+        else:
+            slot = (f"Goed nieuws: met een gratis {esc(prov['naam'])}-account kijk je {esc(homeN)} – {esc(awayN)} "
+                    f"gratis live mee.")
     c1.append(f"<p><strong>{hLink} treft {aLink} {nl_wanneer(dt)} in {ctx.get('comp_lidwoord', 'de')} "
               f"{compLink}. {angle} {slot}</strong></p>")
     if geen:

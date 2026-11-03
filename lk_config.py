@@ -49,9 +49,21 @@ PROVIDERS = {
     },
 }
 
+# Bet365 vaker inzetten (gebruiker, 3 nov 2026: "Gebruik Bet365 een stuk vaker dan andere bookmakers voor
+# live kijken"). Rotatie op fixture-id (mod 8, vast per wedstrijd): 6x Bet365 = 75%, TOTO en Starcasino elk 1x.
+# Starcasino blijft in de Süper Lig-rotatie (wens gebruiker 9 okt 2026), maar met een kleiner aandeel.
+ROTATIE_BET365 = ["bet365", "toto", "bet365", "bet365", "starcasino", "bet365", "bet365", "bet365"]
+# Competitie zonder force_provider: 3 van de 4 Bet365, de rest TOTO (was om-en-om op pariteit).
+ROTATIE_STANDAARD = ["bet365", "bet365", "toto", "bet365"]
+
+def provider_key(prov):
+    """'Bet365' / PROVIDERS-dict -> sleutel in PROVIDERS ('bet365'), of None."""
+    naam = (prov.get("naam") if isinstance(prov, dict) else prov) or ""
+    return next((k for k, v in PROVIDERS.items() if v["naam"].lower() == str(naam).strip().lower()), None)
+
 def provider_for(fixture_id, force=None):
-    """Kies aanbieder. `force` ('toto'/'bet365') = vast per competitie; anders
-    deterministisch afwisselen op fixture-id-pariteit (~50/50)."""
+    """Kies aanbieder. `force` ('toto'/'bet365') = vast per competitie; lijst = rotatie per wedstrijd
+    (fixture-id modulo lengte). Zonder `force`: ROTATIE_STANDAARD (75% Bet365, 25% TOTO)."""
     if isinstance(force, str) and force in PROVIDERS:
         return PROVIDERS[force]
     if isinstance(force, (list, tuple)) and force:     # rotatie, vast per wedstrijd (fixture-id)
@@ -60,11 +72,7 @@ def provider_for(fixture_id, force=None):
         except Exception:
             i = sum(ord(c) for c in str(fixture_id)) % len(force)
         return PROVIDERS[force[i]]
-    try:
-        even = int(str(fixture_id)) % 2 == 0
-    except Exception:
-        even = sum(ord(c) for c in str(fixture_id)) % 2 == 0
-    return PROVIDERS["toto"] if even else PROVIDERS["bet365"]
+    return provider_for(fixture_id, ROTATIE_STANDAARD)
 
 # --- Op welke NL-zender is een competitie te zien? (uit data/tv_zenders.json) ---
 def _tv_map():
@@ -115,7 +123,9 @@ def is_topper(fx, cfg):
 # comp_slug   = slug van de competitiepagina op de site (/competities/<slug>)
 # naam        = weergavenaam in de tekst
 # comp_id     = item-id in de Competities-collectie (referentieveld 'competitie')
-# force_provider : 'toto'/'bet365' = vaste aanbieder; lijst = rotatie per wedstrijd (anders TOTO/Bet365 om-en-om)
+# force_provider : 'toto'/'bet365' = vaste aanbieder; lijst = rotatie per wedstrijd (anders ROTATIE_STANDAARD, 75% Bet365)
+#                  Bij bookmaker_stream=False is dit alleen de aanbieder voor 'live meewedden': dan Bet365 (3 nov 2026),
+#                  behalve waar een andere aanbieder een eigen reden heeft (TOTO = naamsponsor KNVB Beker).
 # toppers_only   : True = alleen wedstrijden met een 'groot team' (top_teams) krijgen een artikel
 # angle          : introzin die de competitie-invalshoek zet
 # Nederlandse clubs (API-namen, kleine letters) en Europese toppers met veel Nederlandse kijkers
@@ -134,7 +144,7 @@ EU_EXTRA = ["lyon", "marseille", "olympiakos", "real sociedad", "crystal palace"
 LEAGUES = [
     {"worker_slug": "super-lig", "comp_slug": "super-lig", "naam": "Süper Lig",
      "comp_id": "66ed7d481dc85d2ca649595c", "tv": None,
-     "force_provider": ["toto", "bet365", "starcasino"],      # rotatie (gebruiker, 9 okt 2026)
+     "force_provider": ROTATIE_BET365,      # 75% Bet365, rest TOTO/Starcasino (gebruiker 3 nov 2026; was 1/3 elk sinds 9 okt)
      "angle": ("Veel Turkse voetbalfans in Nederland willen dit duel live volgen, maar de Süper Lig "
                "is hier niet op de reguliere tv te zien.")},
     {"worker_slug": "la-liga", "comp_slug": "la-liga", "naam": "La Liga",
@@ -167,7 +177,7 @@ LEAGUES = [
     # --- Topduels uit de grote buitenlandse competities (08-10-2026) ---
     {"worker_slug": "premier-league", "comp_slug": "premier-league", "naam": "Premier League",
      "comp_id": "65de4d0c4b5e9d86b7abf7e4", "tv": "Viaplay",
-     "force_provider": "toto", "toppers_only": True, "bookmaker_stream": False,
+     "force_provider": "bet365", "toppers_only": True, "bookmaker_stream": False,   # meewedden (3 nov 2026; was TOTO)
      "top_teams": ["manchester city", "manchester united", "liverpool", "arsenal", "chelsea", "tottenham",
                    "newcastle", "aston villa"],
      "angle": ("De Premier League zie je in Nederland bij Viaplay; één wedstrijd per speelronde zendt Prime Video "
@@ -205,16 +215,17 @@ LEAGUES = [
     # Geen bookmaker-stream (ESPN/Ziggo exclusief); aanbieder alleen voor live meewedden.
     {"worker_slug": "eredivisie", "comp_slug": "eredivisie", "naam": "Eredivisie",
      "comp_id": "65de2f987de877fdf6583d10", "tv": "ESPN", "zender_soort": "espn", "bookmaker_stream": False,
-     "force_provider": "toto",
+     "force_provider": "bet365",          # alleen live meewedden (3 nov 2026; was TOTO)
      "angle": "Alle Eredivisie-wedstrijden worden in Nederland live uitgezonden door ESPN."},
     {"worker_slug": "eerste-divisie", "comp_slug": "keuken-kampioen-divisie", "naam": "Keuken Kampioen Divisie",
      "comp_id": "65de4bc0a8777b9898d6374e", "tv": "ESPN", "zender_soort": "espn", "bookmaker_stream": False,
-     "force_provider": "toto",
+     "force_provider": "bet365",          # alleen live meewedden (3 nov 2026; was TOTO)
      "angle": "Alle wedstrijden in de Keuken Kampioen Divisie worden in Nederland live uitgezonden door ESPN."},
     # KNVB Beker (28-10-2026): ESPN heeft de rechten; exact kanaal (ESPN 1-4 / ESPN Extra) uit de tv-gids.
     {"worker_slug": "knvb-beker", "comp_slug": "knvb-beker", "naam": "KNVB Beker",
      "comp_id": "65de2f987de877fdf6583d0e", "tv": "ESPN", "zender_soort": "espn", "bookmaker_stream": False,
      "force_provider": "toto", "alleen_tv": True,          # alleen wedstrijden met een zender in de tv-gids
+     # TOTO bewust behouden: TOTO is naamsponsor van de (TOTO) KNVB Beker.
      "angle": "De KNVB Beker is in Nederland live te zien bij ESPN."},
     {"worker_slug": "champions-league", "comp_slug": "champions-league", "naam": "Champions League",
      "comp_id": "65de4adac046f4488dfdebc2", "tv": "Ziggo Sport", "zender_soort": "ziggo-uefa",
@@ -223,7 +234,7 @@ LEAGUES = [
      "angle": "De Champions League is in Nederland te zien bij Ziggo Sport, dat de rechten heeft tot en met het seizoen 2030/31."},
     {"worker_slug": "europa-league", "comp_slug": "europa-league", "naam": "Europa League",
      "comp_id": "65de4be481512ad1b77740b1", "tv": "Ziggo Sport", "zender_soort": "ziggo-uefa",
-     "bookmaker_stream": False, "force_provider": "toto", "toppers_only": True,
+     "bookmaker_stream": False, "force_provider": "bet365", "toppers_only": True,   # meewedden (3 nov 2026; was TOTO)
      "nl_clubs": NL_CLUBS, "top_teams": NL_CLUBS + BE_CLUBS + EU_TOPPERS + EU_EXTRA,
      "angle": "De Europa League is in Nederland te zien bij Ziggo Sport, dat de rechten heeft tot en met het seizoen 2030/31."},
     {"worker_slug": "conference-league", "comp_slug": "conference-league", "naam": "Conference League",
@@ -260,7 +271,7 @@ LEAGUES = [
     # tv-aanbieders). Geen bookmaker-stream beloven; aanbieder alleen voor live meewedden.
     {"worker_slug": "u21-ek-kwalificatie", "landen": True, "comp_slug": "ek-onder-21-kwalificatie",
      "naam": "EK onder 21-kwalificatie", "comp_id": "6abaf551b3633bce07b3312c", "tv": "ESPN 1",
-     "bookmaker_stream": False, "tv_basis": True, "geen_ronde": True,
+     "bookmaker_stream": False, "tv_basis": True, "geen_ronde": True, "force_provider": "bet365",   # meewedden
      "toppers_only": True, "top_teams": ["netherlands u21"],
      "angle": ("De EK-kwalificatieduels van Jong Oranje worden in Nederland live uitgezonden door ESPN.")},
     # Oefeninterlands: alleen op verzoek (manual_only -> niet in de nachtelijke run),

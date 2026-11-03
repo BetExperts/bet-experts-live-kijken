@@ -41,8 +41,8 @@ def teksten(slug, variant):
                 "alt": f"Wed live mee bij {naam}: klik om een account aan te maken"}
     if dep:
         return {"label": "LIVESTREAM", "titel": f"Kijk live via {naam}",
-                "sub": "Met een gestort account kijk je live mee. Je storting kun je daarna weer opnemen.",
-                "stappen": ["Maak een account aan", "Stort €10 en open Live", "Kies je wedstrijd"],
+                "sub": "Stort €10 en kijk live mee. Na de wedstrijd kun je die €10 weer opnemen.",
+                "stappen": ["Open een account", "Stort €10 en kijk live", "Neem je €10 weer op"],
                 "knop": "Account aanmaken & live kijken",
                 "alt": f"Kijk live via {naam}: klik om een account aan te maken en live te kijken"}
     return {"label": "GRATIS LIVESTREAM", "titel": f"Kijk live via {naam}",

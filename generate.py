@@ -10,7 +10,7 @@ import lk_api as api
 import lk_match as M
 import lk_og as OG
 import lk_build as B
-from lk_config import LEAGUES, BASE, WEBFLOW_TOKEN, is_topper, tv_match
+from lk_config import LEAGUES, BASE, WEBFLOW_TOKEN, is_topper, tv_match, provider_key
 from tvgids import TvGids, uitzendschema
 import lk_webflow as WF
 
@@ -118,7 +118,10 @@ def main():
             exists = fid in state
             if exists and not (a.update or a.preview or a.dry):
                 print(f"  · overslaan (bestaat al): {fid}"); continue
-            ctx = M.gather(fx, standings=stand, force_provider=a.provider or cfg.get("force_provider"),
+            # Bestaand artikel houdt zijn aanbieder (uit de state): een gewijzigde rotatie/config (bv. Bet365 vaker,
+            # 3 nov 2026) geldt alleen voor nieuwe artikelen, zodat de tv-update live items niet omzet. --provider wint.
+            vast = provider_key(state[fid].get("provider")) if exists else None
+            ctx = M.gather(fx, standings=stand, force_provider=a.provider or vast or cfg.get("force_provider"),
                            landen=bool(cfg.get("landen")))
             ctx["vb_url"] = None if a.geen_voorbeschouwing else WF.voorbeschouwing_url(vb_idx, ctx["fid"], ctx["homeId"], ctx["awayId"])
             ctx["tvgids"] = None if a.geen_tv else gids.lookup(ctx["homeN"], ctx["awayN"], ctx["dt"])
