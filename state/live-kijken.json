@@ -183,7 +183,7 @@
     "date": "2026-11-02",
     "league": "eerste-divisie",
     "hub": true,
-    "sig": "3988c3ba37338bcf02abd86e9cf8843c",
+    "sig": "1beaf34d4558243940897fb3b552d20c",
     "pairs": [
       [
         "199",
@@ -429,7 +429,7 @@
     "date": "2026-11-02",
     "league": "premier-league",
     "hub": true,
-    "sig": "bed25c41c50c54b01f835b47c33505a1",
+    "sig": "5df227010f77e7d45f8eaeabf46bc148",
     "pairs": [
       [
         "33",
@@ -1986,5 +1986,126 @@
     "tv_sig": "Ziggo Sport 6|Bet365|False|True",
     "og": "og/villarreal-paris-saint-germain-psg-live-gratis-kijken-03-11-2026-597c21.webp",
     "og_done": "og/villarreal-paris-saint-germain-psg-live-gratis-kijken-03-11-2026-597c21.webp"
+  },
+  "hub:eredivisie-speelronde-12-op-tv-6-november-2026": {
+    "item_id": "6aea38e3f7e1ab73c0724704",
+    "slug": "eredivisie-speelronde-12-op-tv-6-november-2026",
+    "match": "Eredivisie speelronde 12",
+    "date": "2026-11-08",
+    "league": "eredivisie",
+    "hub": true,
+    "sig": "54c08f32cacf4c4831738a89eb133685",
+    "pairs": [
+      [
+        "193",
+        "195",
+        "2026-11-06"
+      ],
+      [
+        "205",
+        "427",
+        "2026-11-07"
+      ],
+      [
+        "198",
+        "426",
+        "2026-11-07"
+      ],
+      [
+        "196",
+        "410",
+        "2026-11-07"
+      ],
+      [
+        "209",
+        "210",
+        "2026-11-08"
+      ],
+      [
+        "194",
+        "415",
+        "2026-11-08"
+      ],
+      [
+        "201",
+        "202",
+        "2026-11-08"
+      ],
+      [
+        "197",
+        "420",
+        "2026-11-08"
+      ],
+      [
+        "207",
+        "413",
+        "2026-11-08"
+      ]
+    ],
+    "ronde": "Regular Season - 12",
+    "og": "og/eredivisie-speelronde-12-op-tv-6-november-2026-cfb0b2.webp"
+  },
+  "hub:keuken-kampioen-divisie-speelronde-14-op-tv-6-november-2026": {
+    "item_id": "6aea38e574e890593097412e",
+    "slug": "keuken-kampioen-divisie-speelronde-14-op-tv-6-november-2026",
+    "match": "Keuken Kampioen Divisie speelronde 14",
+    "date": "2026-11-08",
+    "league": "eerste-divisie",
+    "hub": true,
+    "sig": "e17d1cb742f482179477bebb6b1c0823",
+    "pairs": [
+      [
+        "204",
+        "411",
+        "2026-11-06"
+      ],
+      [
+        "206",
+        "414",
+        "2026-11-06"
+      ],
+      [
+        "203",
+        "409",
+        "2026-11-06"
+      ],
+      [
+        "418",
+        "419",
+        "2026-11-06"
+      ],
+      [
+        "422",
+        "425",
+        "2026-11-06"
+      ],
+      [
+        "417",
+        "423",
+        "2026-11-06"
+      ],
+      [
+        "416",
+        "424",
+        "2026-11-06"
+      ],
+      [
+        "421",
+        "428",
+        "2026-11-07"
+      ],
+      [
+        "199",
+        "200",
+        "2026-11-08"
+      ],
+      [
+        "208",
+        "412",
+        "2026-11-08"
+      ]
+    ],
+    "ronde": "Regular Season - 14",
+    "og": "og/keuken-kampioen-divisie-speelronde-14-op-tv-6-november-2026-5337f2.webp"
   }
 }
