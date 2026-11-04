@@ -4,6 +4,7 @@ import re
 from datetime import datetime, timezone
 import lk_api as api
 import lk_build as B
+import bet365_streams as B365
 from lk_config import (club_slug, provider_for, RUBRIEK_ID, tv_for, nl_name, tv_match, angle_for_match,
                        stadion_nl, PROVIDERS, LANDEN_NL)
 from tvgids import tv_label
@@ -167,6 +168,29 @@ def build_fielddata(ctx, league_cfg, slug=None):
             ctx["prov"] = PROVIDERS["bet365" if "bet365" in gids_prov else gids_prov[0]]
         geen_stream = False
         ctx["stream_bron"] = "waaroptv"
+    # Officieel Bet365-streamschema (data/bet365_streams.json, gebruiker 4 nov 2026): een Bet365-stream
+    # beloven we alleen als de wedstrijd in het schema staat én in NL niet geblokkeerd is.
+    b365 = B365.status(ctx["homeN"], ctx["awayN"], ctx["dt"],
+                       namen=[(ctx.get("homeApi"), ctx.get("awayApi"))])
+    ctx["b365_stream"] = b365
+    is_b365 = ctx["prov"]["naam"].lower() == "bet365"
+    if b365 == "ja":
+        if is_b365 or geen_stream:
+            # Bet365 streamt hem: dan is Bet365 de aanbieder als de huidige aanbieder (of competitie) geen stream heeft
+            ctx["prov"] = PROVIDERS["bet365"]; geen_stream = False; ctx["stream_bron"] = "bet365-schema"
+    elif is_b365 and not geen_stream:
+        # Bet365 gekozen, maar niet in (of geblokkeerd volgens) het schema: geen Bet365-stream beloven.
+        # Andere aanbieder uit de rotatie van deze competitie (die streamen volgens de config), anders alleen meewedden.
+        fp = league_cfg.get("force_provider")
+        anders = [p for p in (fp if isinstance(fp, (list, tuple)) else []) if p != "bet365" and p in PROVIDERS]
+        if anders and league_cfg.get("bookmaker_stream", True) is not False:
+            try:
+                k = int(str(ctx["fid"])) % len(anders)
+            except Exception:
+                k = 0
+            ctx["prov"] = PROVIDERS[anders[k]]; ctx["stream_bron"] = f"config (Bet365-schema: {b365})"
+        else:
+            geen_stream = True; ctx["stream_bron"] = f"geen (Bet365-schema: {b365})"
     ctx["tv_paid_only"] = geen_stream and bool(ctx.get("tv")) and not ctx.get("tv_free")
     ctx["stream_ok"] = not geen_stream
     ctx["geen_uitzending"] = geen_stream and not ctx.get("tv")   # niet op tv en geen stream: alleen live wedden

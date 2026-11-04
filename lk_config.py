@@ -149,7 +149,7 @@ LEAGUES = [
                "is hier niet op de reguliere tv te zien.")},
     {"worker_slug": "la-liga", "comp_slug": "la-liga", "naam": "La Liga",
      "comp_id": "65eafa89159aadee0c5d81d2", "tv": "Ziggo Sport",
-     "force_provider": "toto", "toppers_only": True,
+     "force_provider": ["bet365", "toto", "bet365"], "toppers_only": True,   # Bet365 streamt LaLiga (schema 4 nov 2026), afwisselen met TOTO
      "top_teams": ["real madrid", "barcelona", "atletico madrid", "atlético madrid", "athletic",
                    "real sociedad", "sevilla", "real betis", "villarreal", "valencia"],
      "angle": ("La Liga is in Nederland te zien op Ziggo Sport, maar daarvoor heb je een betaald "
@@ -165,15 +165,15 @@ LEAGUES = [
      "force_provider": "bet365", "toppers_only": True,
      "top_teams": ["juventus", "inter", "milan", "napoli", "roma", "lazio", "atalanta", "fiorentina"],
      "angle": ("Serie A is in Nederland te zien op Ziggo Sport, maar daarvoor heb je een betaald "
-               "abonnement nodig. Bet365 streamt de Serie A live: met een gestort account kijk je dit "
-               "Italiaanse topduel zonder abonnement mee.")},
+               "abonnement nodig.")},
     {"worker_slug": "efl-cup", "comp_slug": "efl-cup", "naam": "EFL Cup",
      "comp_id": "66cc403600c5cbae73af3c82", "tv": "Viaplay",
      "force_provider": "bet365", "toppers_only": True,
+     "bookmaker_stream": False,   # niet in het Bet365-streamschema (4 nov 2026); het schema zet de stream aan als hij er wel in staat
      "top_teams": ["manchester city", "manchester united", "liverpool", "arsenal", "chelsea",
                    "tottenham", "newcastle", "aston villa", "west ham"],
      "angle": ("De EFL Cup (Carabao Cup) wordt in Nederland uitgezonden door Viaplay, waarvoor je een "
-               "abonnement nodig hebt. Zonder abonnement volg je dit Engelse bekerduel gewoon gratis.")},
+               "abonnement nodig hebt.")},
     # --- Topduels uit de grote buitenlandse competities (08-10-2026) ---
     {"worker_slug": "premier-league", "comp_slug": "premier-league", "naam": "Premier League",
      "comp_id": "65de4d0c4b5e9d86b7abf7e4", "tv": "Viaplay",
@@ -184,20 +184,20 @@ LEAGUES = [
                "uit. Een gratis livestream bij een bookmaker is er voor de Premier League niet.")},
     {"worker_slug": "bundesliga", "comp_slug": "bundesliga", "naam": "Bundesliga",
      "comp_id": "65eb00d99d1e7b5cb35fe067", "tv": "Viaplay",
-     "force_provider": "711", "toppers_only": True,
+     "force_provider": ["bet365", "711", "bet365"], "toppers_only": True,   # Bet365 streamt de Bundesliga (schema 4 nov 2026), afwisselen met 711
      "top_teams": ["bayern", "borussia dortmund", "bayer leverkusen", "rb leipzig", "eintracht frankfurt",
                    "vfb stuttgart"],
      "angle": ("De Bundesliga is in Nederland te zien bij Viaplay, waarvoor je een abonnement nodig hebt. "
-               "Bij 711 kijk je dit Duitse topduel gratis mee met een account.")},
+               "Bij een vergunde bookmaker kijk je dit Duitse topduel ook zonder abonnement live mee.")},
     {"worker_slug": "ligue-1", "comp_slug": "ligue-1", "naam": "Ligue 1",
      "comp_id": "65de4c075bc6f2f430bb4ab7", "tv": "Viaplay",
-     "force_provider": ["711", "starcasino"], "toppers_only": True,      # om-en-om (gebruiker, 9 okt 2026)
+     "force_provider": ["bet365", "711", "bet365", "starcasino"], "toppers_only": True,   # + Bet365 (schema 4 nov 2026); 711/Starcasino blijven (9 okt 2026)
      "top_teams": ["paris saint germain", "marseille", "monaco", "lyon", "lille", "lens", "nice"],
      "angle": ("De Ligue 1 zendt Viaplay in Nederland uit, maar daarvoor heb je een abonnement nodig. "
                "Bij een vergunde bookmaker volg je dit Franse topduel gratis met alleen een account.")},
     {"worker_slug": "primeira-liga", "comp_slug": "liga-portugal", "naam": "Liga Portugal",
      "comp_id": "67a377b8b6c71bb8630a5a5e", "tv": "Ziggo Sport",
-     "force_provider": "bet365", "toppers_only": True, "bookmaker_stream": False,
+     "force_provider": "bet365", "toppers_only": True, "bookmaker_stream": False,   # stream alleen als het Bet365-schema hem noemt (4 nov 2026)
      "top_teams": ["benfica", "porto", "sporting", "braga"],
      "angle": ("De Liga Portugal is in Nederland te zien bij Ziggo Sport. Welk kanaal het wordt, verschilt per "
                "wedstrijd.")},
@@ -207,7 +207,7 @@ LEAGUES = [
      "top_teams": ["inter miami", "los angeles fc", "los angeles galaxy", "la galaxy", "new york city",
                    "columbus crew", "seattle sounders"],
      "angle": ("De MLS zie je in Nederland bij Apple TV: sinds 2026 zitten alle wedstrijden in het gewone "
-               "abonnement. Zonder Apple TV volg je dit Amerikaanse topduel via de livestream van Bet365.")},
+               "abonnement.")},
     # --- Eredivisie, KKD en Europese bekers (07-10-2026) ---
     # zender_soort: precieze uitleg per kanaal (lk_build.zender_uitleg). Het exacte kanaal (ESPN 2, Ziggo Sport 1)
     # komt uit de tv-gids zodra die het weet; tot dan staat er 'ESPN'/'Ziggo Sport' met uitleg dat het kanaal

@@ -139,7 +139,9 @@ def main():
             fd, slug, title = M.build_fielddata(ctx, cfg, slug=keep_slug)
             prov = M.LAST_CTX["prov"]   # kan door de tv-gids zijn aangepast (stream bij een andere aanbieder)
             if prov is not ctx["prov"]:
-                print(f"     ↳ stream volgens waaroptv bij {prov['naam']} (i.p.v. {ctx['prov']['naam']})")
+                print(f"     ↳ aanbieder {prov['naam']} (i.p.v. {ctx['prov']['naam']}; {M.LAST_CTX.get('stream_bron') or 'tv-gids'})")
+            print(f"     ↳ Bet365-streamschema: {M.LAST_CTX.get('b365_stream')}, stream beloofd: "
+                  f"{'ja' if M.LAST_CTX.get('stream_ok') else 'nee'} ({prov['naam']})")
             if ctx["vb_url"]:
                 print(f"     ↳ voorbeschouwing gelinkt: {ctx['vb_url']}")
             if a.preview:
