@@ -195,6 +195,34 @@ def status(thuis, uit, wanneer, sport="Soccer", namen=()):
     return "nee" if dekt(wanneer, sport) else "onbekend"
 
 
+def in_schema_nacht(sport, datum, paren):
+    """Voor 'vannacht'-artikelen (NBA/NHL): welke (thuis, uit)-paren staan rond `datum` (YYYY-MM-DD, NL-ochtend) in het
+    schema en zijn in NL te zien? Kijkt naar die dag en de dag ervoor (UK-datum), zonder tijdvenster."""
+    d = dt.date.fromisoformat(datum)
+    dagen = {d.isoformat(), (d - dt.timedelta(days=1)).isoformat()}
+    kand = [i for i in _items() if i["sport"] == sport and i["d"] in dagen]
+    ja, nee = [], []
+    for h, u in paren:
+        i = next((i for i in kand if zelfde(h, i["home"]) and zelfde(u, i["away"])), None)
+        (ja if i and i["nl"] else nee).append((h, u))
+    return ja, nee
+
+
+def kijk_zin(sport, datum, paren, link="https://www.bet-experts.nl/go/bet365", kort=lambda n: n):
+    """Kant-en-klare HTML-zin voor het 'Kijken?'-blok, of '' als niets in het schema staat (dan niets beloven)."""
+    ja, nee = in_schema_nacht(sport, datum, paren)
+    if not ja:
+        return ""
+    bm = f'<a href="{link}">Bet365</a>'
+    if not nee:
+        return (f"Alle wedstrijden van vannacht staan in het streamingschema van {bm}: met saldo op je account "
+                f"(of een weddenschap in de afgelopen 24 uur) kijk je ze live in de app of op de site.")
+    lijst = [f"{kort(h)} – {kort(u)}" for h, u in ja]
+    tekst = ", ".join(lijst[:-1]) + (" en " if len(lijst) > 1 else "") + lijst[-1]
+    return (f"Live bij {bm}: {tekst} {'staat' if len(lijst) == 1 else 'staan'} in het streamingschema van Bet365. "
+            f"Met saldo op je account (of een weddenschap in de afgelopen 24 uur) kijk je live mee.")
+
+
 if __name__ == "__main__":
     a = sys.argv[1:]
     if a[:1] == ["--check"]:
