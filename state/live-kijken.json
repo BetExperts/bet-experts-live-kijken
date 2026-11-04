@@ -452,7 +452,7 @@
     "date": "2026-11-04",
     "league": "champions-league",
     "hub": true,
-    "sig": "b6cd3cbc8623dcb9e68e76162623ad38",
+    "sig": "1b2f79046927b254c8d440f7c3db0e25",
     "pairs": [
       [
         "228",
@@ -556,7 +556,7 @@
     "date": "2026-11-05",
     "league": "europa-league",
     "hub": true,
-    "sig": "994bd3561b89a060e1650022782a3633",
+    "sig": "e4b1321a4eec24867e3a144567ee3a81",
     "pairs": [
       [
         "553",
@@ -803,7 +803,7 @@
     "date": "2026-11-05",
     "league": "conference-league",
     "hub": true,
-    "sig": "01fd31a7ee4d89102cf1ac465e480d29",
+    "sig": "d4741f1888b902e6ca76d6e0072ba99d",
     "pairs": [
       [
         "194",
@@ -1744,5 +1744,221 @@
     "ronde": "Regular Season - 11",
     "og": "og/jupiler-pro-league-speelronde-11-op-tv-6-november-2026-f2bd33.webp",
     "og_done": "og/jupiler-pro-league-speelronde-11-op-tv-6-november-2026-f2bd33.webp"
+  },
+  "1636254": {
+    "item_id": "6aebb3d617d8577838402b52",
+    "slug": "crystal-palace-hoffenheim-live-gratis-kijken-05-11-2026",
+    "match": "Crystal Palace - 1899 Hoffenheim",
+    "date": "2026-11-05",
+    "league": "europa-league",
+    "provider": "Bet365",
+    "home_id": "52",
+    "away_id": "167",
+    "tv_sig": "Ziggo Sport 6|Bet365|False|True",
+    "og": "og/crystal-palace-hoffenheim-live-gratis-kijken-05-11-2026-596021.webp"
+  },
+  "1636302": {
+    "item_id": "6aebb3dabe27633c28270e2c",
+    "slug": "nec-nijmegen-omonia-nicosia-live-gratis-kijken-05-11-2026",
+    "match": "NEC - Omonia Nicosia",
+    "date": "2026-11-05",
+    "league": "europa-league",
+    "provider": "Bet365",
+    "home_id": "413",
+    "away_id": "3402",
+    "tv_sig": "Ziggo Sport 2|Bet365|False|True",
+    "og": "og/nec-nijmegen-omonia-nicosia-live-gratis-kijken-05-11-2026-773855.webp"
+  },
+  "1636208": {
+    "item_id": "6aebb3dee3255bcfc2984250",
+    "slug": "ac-milan-ferencvaros-live-gratis-kijken-05-11-2026",
+    "match": "AC Milan - Ferencvarosi TC",
+    "date": "2026-11-05",
+    "league": "europa-league",
+    "provider": "Bet365",
+    "home_id": "489",
+    "away_id": "651",
+    "tv_sig": "Ziggo Sport 5|Bet365|False|True",
+    "og": "og/ac-milan-ferencvaros-live-gratis-kijken-05-11-2026-00dbac.webp"
+  },
+  "1636319": {
+    "item_id": "6aebb3e18f03b9b7afc9e798",
+    "slug": "real-sociedad-lyon-live-gratis-kijken-05-11-2026",
+    "match": "Real Sociedad - Lyon",
+    "date": "2026-11-05",
+    "league": "europa-league",
+    "provider": "Bet365",
+    "home_id": "548",
+    "away_id": "80",
+    "tv_sig": "Ziggo Sport|Bet365|False|True",
+    "og": "og/real-sociedad-lyon-live-gratis-kijken-05-11-2026-8ac937.webp"
+  },
+  "1636211": {
+    "item_id": "6aebb3e55261b3f0e8d38bdb",
+    "slug": "anderlecht-red-bull-salzburg-live-gratis-kijken-05-11-2026",
+    "match": "Anderlecht - Red Bull Salzburg",
+    "date": "2026-11-05",
+    "league": "europa-league",
+    "provider": "Bet365",
+    "home_id": "554",
+    "away_id": "571",
+    "tv_sig": "VRT Canvas|Bet365|False|True",
+    "og": "og/anderlecht-red-bull-salzburg-live-gratis-kijken-05-11-2026-bbdaeb.webp"
+  },
+  "1636223": {
+    "item_id": "6aebb3e85b47e214466f66b2",
+    "slug": "bayer-leverkusen-marseille-live-gratis-kijken-05-11-2026",
+    "match": "Bayer Leverkusen - Marseille",
+    "date": "2026-11-05",
+    "league": "europa-league",
+    "provider": "Bet365",
+    "home_id": "168",
+    "away_id": "81",
+    "tv_sig": "Ziggo Sport 5|Bet365|False|True",
+    "og": "og/bayer-leverkusen-marseille-live-gratis-kijken-05-11-2026-154ff7.webp"
+  },
+  "1636219": {
+    "item_id": "6aebb3ece3255bcfc2984835",
+    "slug": "az-juventus-live-gratis-kijken-05-11-2026",
+    "match": "AZ - Juventus",
+    "date": "2026-11-05",
+    "league": "europa-league",
+    "provider": "Bet365",
+    "home_id": "201",
+    "away_id": "496",
+    "tv_sig": "Ziggo Sport en Ziggo Sport 3|Bet365|False|True",
+    "og": "og/az-juventus-live-gratis-kijken-05-11-2026-77570f.webp"
+  },
+  "1636229": {
+    "item_id": "6aebb3ef2a58d9988d815348",
+    "slug": "benfica-lech-poznan-live-gratis-kijken-05-11-2026",
+    "match": "Benfica - Lech Poznan",
+    "date": "2026-11-05",
+    "league": "europa-league",
+    "provider": "Bet365",
+    "home_id": "211",
+    "away_id": "347",
+    "tv_sig": "Ziggo Sport|Bet365|False|True",
+    "og": "og/benfica-lech-poznan-live-gratis-kijken-05-11-2026-f5a22e.webp"
+  },
+  "1636250": {
+    "item_id": "6aebb3f25261b3f0e8d39261",
+    "slug": "celtic-besiktas-live-gratis-kijken-05-11-2026",
+    "match": "Celtic - Beşiktaş",
+    "date": "2026-11-05",
+    "league": "europa-league",
+    "provider": "Bet365",
+    "home_id": "247",
+    "away_id": "549",
+    "tv_sig": "Ziggo Sport 6|Bet365|False|True",
+    "og": "og/celtic-besiktas-live-gratis-kijken-05-11-2026-6d63c7.webp"
+  },
+  "1636245": {
+    "item_id": "6aebb3f6910db39e59b017e8",
+    "slug": "celta-vigo-union-sint-gilloise-live-gratis-kijken-05-11-2026",
+    "match": "Celta Vigo - Union St. Gilloise",
+    "date": "2026-11-05",
+    "league": "europa-league",
+    "provider": "Bet365",
+    "home_id": "538",
+    "away_id": "1393",
+    "tv_sig": "Ziggo Sport|Bet365|False|True",
+    "og": "og/celta-vigo-union-sint-gilloise-live-gratis-kijken-05-11-2026-80ddc7.webp"
+  },
+  "1636448": {
+    "item_id": "6aebb3fa0df17c3c82de6253",
+    "slug": "midtjylland-ajax-live-gratis-kijken-05-11-2026",
+    "match": "FC Midtjylland - Ajax",
+    "date": "2026-11-05",
+    "league": "conference-league",
+    "provider": "Bet365",
+    "home_id": "397",
+    "away_id": "194",
+    "tv_sig": "Ziggo Sport|Bet365|False|True",
+    "og": "og/midtjylland-ajax-live-gratis-kijken-05-11-2026-1569a0.webp"
+  },
+  "1636376": {
+    "item_id": "6aebb3fd8cd05ac9ecf2b027",
+    "slug": "aarhus-sporting-braga-live-gratis-kijken-05-11-2026",
+    "match": "Aarhus - SC Braga",
+    "date": "2026-11-05",
+    "league": "conference-league",
+    "provider": "Bet365",
+    "home_id": "406",
+    "away_id": "217",
+    "tv_sig": "Ziggo Sport|Bet365|False|True",
+    "og": "og/aarhus-sporting-braga-live-gratis-kijken-05-11-2026-59f345.webp"
+  },
+  "1636383": {
+    "item_id": "6aebb4001d318bf5bb3666a1",
+    "slug": "atalanta-kairat-almaty-live-gratis-kijken-05-11-2026",
+    "match": "Atalanta - Kairat Almaty",
+    "date": "2026-11-05",
+    "league": "conference-league",
+    "provider": "Bet365",
+    "home_id": "499",
+    "away_id": "664",
+    "tv_sig": "Ziggo Sport|Bet365|False|True",
+    "og": "og/atalanta-kairat-almaty-live-gratis-kijken-05-11-2026-37e48c.webp"
+  },
+  "1636439": {
+    "item_id": "6aebb403e3255bcfc2985241",
+    "slug": "kups-gent-live-gratis-kijken-05-11-2026",
+    "match": "KuPS - Gent",
+    "date": "2026-11-05",
+    "league": "conference-league",
+    "provider": "Bet365",
+    "home_id": "1165",
+    "away_id": "631",
+    "tv_sig": "Ziggo Sport|Bet365|False|True",
+    "og": "og/kups-gent-live-gratis-kijken-05-11-2026-5c5c94.webp"
+  },
+  "1636408": {
+    "item_id": "6aebb4074f115c050f83be4c",
+    "slug": "copenhagen-iberia-1999-live-gratis-kijken-05-11-2026",
+    "match": "FC Copenhagen - FC Iberia 1999",
+    "date": "2026-11-05",
+    "league": "conference-league",
+    "provider": "Bet365",
+    "home_id": "400",
+    "away_id": "3502",
+    "tv_sig": "Ziggo Sport|Bet365|False|True",
+    "og": "og/copenhagen-iberia-1999-live-gratis-kijken-05-11-2026-f68afe.webp"
+  },
+  "1636478": {
+    "item_id": "6aebb40ae3255bcfc298561b",
+    "slug": "fc-twente-pafos-live-gratis-kijken-05-11-2026",
+    "match": "FC Twente - Pafos",
+    "date": "2026-11-05",
+    "league": "conference-league",
+    "provider": "Bet365",
+    "home_id": "415",
+    "away_id": "3403",
+    "tv_sig": "Ziggo Sport 2|Bet365|False|True",
+    "og": "og/fc-twente-pafos-live-gratis-kijken-05-11-2026-0b5a1c.webp"
+  },
+  "1636416": {
+    "item_id": "6aebb40dec660dd5699d5b3f",
+    "slug": "getafe-brighton-live-gratis-kijken-05-11-2026",
+    "match": "Getafe - Brighton",
+    "date": "2026-11-05",
+    "league": "conference-league",
+    "provider": "Bet365",
+    "home_id": "546",
+    "away_id": "51",
+    "tv_sig": "Ziggo Sport|Bet365|False|True",
+    "og": "og/getafe-brighton-live-gratis-kijken-05-11-2026-986b6a.webp"
+  },
+  "1636469": {
+    "item_id": "6aebb4112a58d9988d815dc3",
+    "slug": "sint-truidense-brann-live-gratis-kijken-05-11-2026",
+    "match": "St. Truiden - Brann",
+    "date": "2026-11-05",
+    "league": "conference-league",
+    "provider": "Bet365",
+    "home_id": "735",
+    "away_id": "319",
+    "tv_sig": "Ziggo Sport|Bet365|False|True",
+    "og": "og/sint-truidense-brann-live-gratis-kijken-05-11-2026-e4306d.webp"
   }
 }
