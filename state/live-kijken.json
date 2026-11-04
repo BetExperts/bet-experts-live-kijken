@@ -6,7 +6,7 @@
     "date": "2026-11-04",
     "league": "jupiler-pro-league",
     "hub": true,
-    "sig": "e9c3b179960ec1cdb6320ae2dcb40128",
+    "sig": "48b1f912baabfdc742bc252cc596b66c",
     "pairs": [
       [
         "736",
@@ -452,26 +452,26 @@
     "date": "2026-11-04",
     "league": "champions-league",
     "hub": true,
-    "sig": "d4b7019faa5e5efd551a12189f1e3b93",
+    "sig": "80e794c023acba67edb4e9563a71a308",
     "pairs": [
-      [
-        "172",
-        "645",
-        "2026-11-03"
-      ],
       [
         "228",
         "550",
         "2026-11-03"
       ],
       [
-        "327",
-        "79",
+        "172",
+        "645",
         "2026-11-03"
       ],
       [
         "529",
         "66",
+        "2026-11-03"
+      ],
+      [
+        "1026",
+        "656",
         "2026-11-03"
       ],
       [
@@ -485,18 +485,18 @@
         "2026-11-03"
       ],
       [
-        "209",
-        "505",
-        "2026-11-03"
-      ],
-      [
         "157",
         "530",
         "2026-11-03"
       ],
       [
-        "1026",
-        "656",
+        "209",
+        "505",
+        "2026-11-03"
+      ],
+      [
+        "327",
+        "79",
         "2026-11-03"
       ],
       [
@@ -556,7 +556,7 @@
     "date": "2026-11-05",
     "league": "europa-league",
     "hub": true,
-    "sig": "a0bfd97794ef3161f84d631f7e542d1a",
+    "sig": "994bd3561b89a060e1650022782a3633",
     "pairs": [
       [
         "553",
@@ -803,7 +803,7 @@
     "date": "2026-11-05",
     "league": "conference-league",
     "hub": true,
-    "sig": "30c06b526dde4380325f3423305b3fe8",
+    "sig": "01fd31a7ee4d89102cf1ac465e480d29",
     "pairs": [
       [
         "194",
@@ -998,7 +998,7 @@
     "date": "2026-11-08",
     "league": "eredivisie",
     "hub": true,
-    "sig": "2b848dfd250e72ed7c51755625c11235",
+    "sig": "c3214a65ef891150de59d3714e774185",
     "pairs": [
       [
         "193",
@@ -1057,7 +1057,7 @@
     "date": "2026-11-08",
     "league": "eerste-divisie",
     "hub": true,
-    "sig": "5721687297a637b4ed38ecefe5032916",
+    "sig": "64ba1afa3d8a09616923e3299efbf635",
     "pairs": [
       [
         "204",
@@ -1121,7 +1121,7 @@
     "date": "2026-11-08",
     "league": "premier-league",
     "hub": true,
-    "sig": "481d1a9410d7ffe9307f5bfb659d9022",
+    "sig": "c06f089e1a93cdf4e2348ebe8460230b",
     "pairs": [
       [
         "1346",
@@ -1185,7 +1185,7 @@
     "date": "2026-11-08",
     "league": "la-liga",
     "hub": true,
-    "sig": "056470584a647c12d3f6ee595d0a0dfe",
+    "sig": "b6fce38c08833d70ade7861cc5bffb38",
     "pairs": [
       [
         "536",
@@ -1249,7 +1249,7 @@
     "date": "2026-11-08",
     "league": "serie-a",
     "hub": true,
-    "sig": "0abeaee5f400e3c722ca1c0d565e901e",
+    "sig": "835ea2e05e754bd5fa078c0076f36b46",
     "pairs": [
       [
         "494",
@@ -1313,7 +1313,7 @@
     "date": "2026-11-08",
     "league": "bundesliga",
     "hub": true,
-    "sig": "060f282228470de29e59cada2ea82ea1",
+    "sig": "a85d6de9be39cb6f9e66b4f31520767f",
     "pairs": [
       [
         "163",
@@ -1372,7 +1372,7 @@
     "date": "2026-11-08",
     "league": "ligue-1",
     "hub": true,
-    "sig": "680927d5bf71c9bfce9c290316914a78",
+    "sig": "caa1d2b10921fcc1eee6eedb92a7cef3",
     "pairs": [
       [
         "95",
@@ -1431,7 +1431,7 @@
     "date": "2026-11-08",
     "league": "super-lig",
     "hub": true,
-    "sig": "fb94ead44963964be5a8917a77ce7eb6",
+    "sig": "342eccb377133010212a583a34ea798b",
     "pairs": [
       [
         "1004",
@@ -1685,5 +1685,63 @@
     "ronde": "League Stage - 4",
     "og": "og/europa-league-speelronde-4-op-tv-5-november-2026-ddcd59.webp",
     "og_done": "og/europa-league-speelronde-4-op-tv-5-november-2026-ddcd59.webp"
+  },
+  "hub:jupiler-pro-league-speelronde-11-op-tv-6-november-2026": {
+    "item_id": "6aeb9ca4fb92a693bb8ae044",
+    "slug": "jupiler-pro-league-speelronde-11-op-tv-6-november-2026",
+    "match": "Jupiler Pro League speelronde 11",
+    "date": "2026-11-08",
+    "league": "jupiler-pro-league",
+    "hub": true,
+    "sig": "ecdd28888381e4786115978cdf33e624",
+    "pairs": [
+      [
+        "733",
+        "738",
+        "2026-11-06"
+      ],
+      [
+        "261",
+        "736",
+        "2026-11-07"
+      ],
+      [
+        "260",
+        "266",
+        "2026-11-07"
+      ],
+      [
+        "259",
+        "740",
+        "2026-11-07"
+      ],
+      [
+        "5902",
+        "741",
+        "2026-11-07"
+      ],
+      [
+        "554",
+        "569",
+        "2026-11-08"
+      ],
+      [
+        "631",
+        "734",
+        "2026-11-08"
+      ],
+      [
+        "1393",
+        "742",
+        "2026-11-08"
+      ],
+      [
+        "600",
+        "735",
+        "2026-11-08"
+      ]
+    ],
+    "ronde": "Regular Season - 11",
+    "og": "og/jupiler-pro-league-speelronde-11-op-tv-6-november-2026-f2bd33.webp"
   }
 }
