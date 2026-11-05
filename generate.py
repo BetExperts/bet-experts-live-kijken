@@ -56,6 +56,8 @@ def tv_sig(ctx, prov):
     sig = f"{ctx.get('tv') or ''}|{prov.get('naam') or ''}|{bool(ctx.get('tv_free'))}|{bool(ctx.get('tv_paid_only'))}"
     # 5e veld alleen bij 'niet op tv en geen stream' (anders veranderen alle bestaande sigs): de hub-Worker
     # live-kijken-zenders toont dan 'Niet op tv' zonder stream-badge
+    if ctx.get("tv_be"):   # Belgische zender (5-11-2026); alleen dan, zodat bestaande sigs gelijk blijven
+        sig += "|be:" + ctx["tv_be"]["tv"]
     return sig + "|geen" if ctx.get("geen_uitzending") else sig
 
 def main():

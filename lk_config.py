@@ -294,7 +294,13 @@ TV_MATCH = _tv_match_map()
 
 def tv_match(fixture_id):
     """Tv-info voor één wedstrijd ({'tv','gratis','extra','voorbeschouwing'}) of None als onbekend."""
-    return TV_MATCH.get(str(fixture_id))
+    e = TV_MATCH.get(str(fixture_id))
+    return e if e and "tv" in e else None      # entry met alleen 'tv_be' laat de NL-zender ongemoeid (5-11-2026)
+
+def tv_be(fixture_id):
+    """Belgische zender voor één wedstrijd ({'tv_be': 'Play Sports 5', 'tv_be_extra': ...}) of None (5-11-2026)."""
+    e = TV_MATCH.get(str(fixture_id)) or {}
+    return {"tv": e["tv_be"], "extra": e.get("tv_be_extra")} if e.get("tv_be") else None
 
 def angle_for_match(info, comp):
     """Introzin voor een competitie met tv per wedstrijd."""

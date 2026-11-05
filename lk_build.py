@@ -858,6 +858,11 @@ def build_content(ctx):
     else:
         c1.append(f"<p>{zoek_zin(homeN, awayN)}</p>")
     c1.append(waar_te_zien(ctx))
+    be = ctx.get("tv_be")
+    if be:   # Belgische zender (5-11-2026)
+        c1.append(f"<p><strong>Kijk je vanuit België?</strong> Daar is {esc(homeN)} – {esc(awayN)} live te zien op "
+                  f"<strong>{esc(be['tv'])}</strong>, {esc(nl_wanneer(dt))} (zelfde tijd als in Nederland). "
+                  + (esc(be['extra']) if be.get('extra') else "Daarvoor heb je wel een abonnement nodig.") + "</p>")
     vb_url = ctx.get("vb_url")
     if vb_url:
         c1.append(f'<p><strong>Lees ook:</strong> onze <a href="{vb_url}">uitgebreide voorbeschouwing van '
@@ -926,6 +931,9 @@ def build_content(ctx):
         c3.append(_faq(homeN, awayN, compN, dt, prov, ctx.get("tv"), tv_free=bool(free)))
         c3.append(f'<p><a href="{prov["link"]}"><strong>Kijk {esc(homeN)} – {esc(awayN)} live via '
                   f'{esc(prov["naam"])}</strong></a></p>')
+    if be:
+        c3.append(f"<p><strong>Waar kun je {esc(homeN)} – {esc(awayN)} in België kijken?</strong><br>Op "
+                  f"{esc(be['tv'])}, {esc(nl_wanneer(dt))}. Daarvoor heb je een abonnement nodig.</p>")
     c3.append(f'<p><a href="{HUB_PATH}"><strong>'
               + ("Bekijk alle wedstrijden die je live kunt kijken" if (paid or geen)
                  else "Bekijk alle wedstrijden die je gratis live kunt kijken")

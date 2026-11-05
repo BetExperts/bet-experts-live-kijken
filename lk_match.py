@@ -5,7 +5,7 @@ from datetime import datetime, timezone
 import lk_api as api
 import lk_build as B
 import bet365_streams as B365
-from lk_config import (club_slug, provider_for, RUBRIEK_ID, tv_for, nl_name, tv_match, angle_for_match,
+from lk_config import (club_slug, provider_for, RUBRIEK_ID, tv_for, nl_name, tv_match, tv_be, angle_for_match,
                        stadion_nl, PROVIDERS, LANDEN_NL)
 from tvgids import tv_label
 
@@ -150,6 +150,7 @@ def build_fielddata(ctx, league_cfg, slug=None):
     ctx["tv_free"] = bool(info.get("gratis")) and bool(info.get("tv"))
     ctx["tv_extra"] = info.get("extra")
     ctx["tv_voorbeschouwing"] = info.get("voorbeschouwing")
+    ctx["tv_be"] = tv_be(ctx["fid"])          # Belgische zender (5-11-2026), los van de NL-zender
     ctx["tv_bron"] = "handmatig" if tv_match(ctx["fid"]) else ("waaroptv" if gids else "config")
     # eigen intro-invalshoek alleen vervangen als het tv-beeld wezenlijk anders is dan de config
     if (league_cfg.get("tv_per_match") or ctx["tv_free"]
