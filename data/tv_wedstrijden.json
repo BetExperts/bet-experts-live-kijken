@@ -2484,5 +2484,21 @@
   "bron": "handmatig (Jasper, 5-11)",
   "aftrap": "2026-11-05T18:45",
   "comp": "Conference League"
+ },
+ "1551867": {
+  "wedstrijd": "Dordrecht - NAC Breda",
+  "tv": "ESPN 4",
+  "datum": "2026-11-06",
+  "bron": "handmatig (Jasper, 6-11)",
+  "aftrap": "2026-11-06T20:00",
+  "comp": "Keuken Kampioen Divisie"
+ },
+ "1551873": {
+  "wedstrijd": "VVV Venlo - Jong PSV",
+  "tv": "ESPN 3",
+  "datum": "2026-11-06",
+  "bron": "handmatig (Jasper, 6-11)",
+  "aftrap": "2026-11-06T20:00",
+  "comp": "Keuken Kampioen Divisie"
  }
 }
