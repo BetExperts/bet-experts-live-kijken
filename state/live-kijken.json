@@ -377,7 +377,7 @@
     "date": "2026-11-08",
     "league": "eredivisie",
     "hub": true,
-    "sig": "51c144bda50e1ad6f32bb7ec96aaced7",
+    "sig": "ae9d8cfe1be14d1f6e2f55c6bee29d69",
     "pairs": [
       [
         "193",
@@ -436,7 +436,7 @@
     "date": "2026-11-08",
     "league": "eerste-divisie",
     "hub": true,
-    "sig": "da2bb2803d08525417e6e2013916f868",
+    "sig": "87d9bd99bc0bf826a8e56cfb1631c927",
     "pairs": [
       [
         "422",
@@ -500,7 +500,7 @@
     "date": "2026-11-08",
     "league": "premier-league",
     "hub": true,
-    "sig": "2adbe78a3281d606249f3ee267e2ad8a",
+    "sig": "ebd853addb5c2c0c01e26b5ee9cc4b08",
     "pairs": [
       [
         "1346",
@@ -564,7 +564,7 @@
     "date": "2026-11-08",
     "league": "la-liga",
     "hub": true,
-    "sig": "ee0969cd5c089c3b9c7a0cf710863a79",
+    "sig": "f8f2b7bcfded2f275a579b3f527f059a",
     "pairs": [
       [
         "536",
@@ -628,7 +628,7 @@
     "date": "2026-11-08",
     "league": "serie-a",
     "hub": true,
-    "sig": "1534009bb7875f07eb533486a081666f",
+    "sig": "977bf2e4336c56582167cfcb14aee580",
     "pairs": [
       [
         "494",
@@ -692,7 +692,7 @@
     "date": "2026-11-08",
     "league": "bundesliga",
     "hub": true,
-    "sig": "0c1468c2d08095f4c3dccd084482851a",
+    "sig": "2d3f824f031525fa8a6c09431c368c3a",
     "pairs": [
       [
         "163",
@@ -751,7 +751,7 @@
     "date": "2026-11-08",
     "league": "ligue-1",
     "hub": true,
-    "sig": "6ef47f904f934bc0846c4162bab35601",
+    "sig": "397d799c0805cf1507a8dfc00c93f776",
     "pairs": [
       [
         "95",
@@ -810,7 +810,7 @@
     "date": "2026-11-08",
     "league": "super-lig",
     "hub": true,
-    "sig": "8a7c843931175082bcdfe0cbd8a018dd",
+    "sig": "1fcd4cf64e645f4aad4e98350dfd1885",
     "pairs": [
       [
         "1004",
@@ -1072,7 +1072,7 @@
     "date": "2026-11-08",
     "league": "jupiler-pro-league",
     "hub": true,
-    "sig": "d312622d73472e9137db5418d1a5d0c2",
+    "sig": "16e3bb90b33e9c1886dda229845f5255",
     "pairs": [
       [
         "733",
