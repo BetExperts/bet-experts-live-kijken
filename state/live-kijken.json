@@ -6,7 +6,7 @@
     "date": "2026-11-08",
     "league": "eredivisie",
     "hub": true,
-    "sig": "a6c76d202265b75d4641062a93cd1914",
+    "sig": "3f8fc5504ea7921245808ae407a862a7",
     "pairs": [
       [
         "193",
@@ -65,7 +65,7 @@
     "date": "2026-11-08",
     "league": "eerste-divisie",
     "hub": true,
-    "sig": "e73e027b73ff8b9c1a214c3c56499e92",
+    "sig": "25ada474a396c465568fa09bc9b7c2fb",
     "pairs": [
       [
         "422",
@@ -129,7 +129,7 @@
     "date": "2026-11-08",
     "league": "premier-league",
     "hub": true,
-    "sig": "b13eff3df396c30e597c81204354159c",
+    "sig": "9562b48f8ebe5af8c9a1507206fd41b4",
     "pairs": [
       [
         "1346",
@@ -193,7 +193,7 @@
     "date": "2026-11-08",
     "league": "la-liga",
     "hub": true,
-    "sig": "72cd215a8a679cf41649cb15aee3fd5b",
+    "sig": "dfcdba4965294eb23c08d56cac6297d1",
     "pairs": [
       [
         "536",
@@ -257,7 +257,7 @@
     "date": "2026-11-08",
     "league": "serie-a",
     "hub": true,
-    "sig": "6889c968965641823bbd7513d8dd497d",
+    "sig": "86a2b03a9e721a2f48ff5e22fa15d08d",
     "pairs": [
       [
         "494",
@@ -321,7 +321,7 @@
     "date": "2026-11-08",
     "league": "bundesliga",
     "hub": true,
-    "sig": "61e119d1a4d4f4a14d482ee9c41179a8",
+    "sig": "8562303b329fe91b1a7438a18a3989a1",
     "pairs": [
       [
         "163",
@@ -380,7 +380,7 @@
     "date": "2026-11-08",
     "league": "ligue-1",
     "hub": true,
-    "sig": "e789b5c4527ad840dcf92e21156e5093",
+    "sig": "78f4d5a057c3a137aaea31005acd3178",
     "pairs": [
       [
         "95",
@@ -439,7 +439,7 @@
     "date": "2026-11-08",
     "league": "super-lig",
     "hub": true,
-    "sig": "f7623b8b283e59fff7cfa1fb5a0f8f88",
+    "sig": "79786b4f024597435be53d2dfab147e2",
     "pairs": [
       [
         "1004",
@@ -498,7 +498,7 @@
     "date": "2026-11-08",
     "league": "jupiler-pro-league",
     "hub": true,
-    "sig": "8047b9f5f6b6843692a45733eb4c54c5",
+    "sig": "1abfbf8a2bae1a3e5f405c5f05f420e4",
     "pairs": [
       [
         "733",
