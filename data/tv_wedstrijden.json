@@ -2500,5 +2500,376 @@
   "bron": "handmatig (Jasper, 6-11)",
   "aftrap": "2026-11-06T20:00",
   "comp": "Keuken Kampioen Divisie"
+ },
+ "1528958": {
+  "wedstrijd": "Turkije - België",
+  "datum": "2026-11-12",
+  "comp": "Nations League",
+  "tv": "Ziggo Sport 1 en Ziggo Sport 2",
+  "bron": "Ziggo-programma Nations League (ziggo.nl, 9-11-2026)"
+ },
+ "1528959": {
+  "wedstrijd": "Armenië - Cyprus",
+  "datum": "2026-11-12",
+  "comp": "Nations League",
+  "tv": "Ziggo Sport 1 (Switch)",
+  "bron": "Ziggo-programma Nations League (ziggo.nl, 9-11-2026)"
+ },
+ "1528962": {
+  "wedstrijd": "Engeland - Kroatië",
+  "datum": "2026-11-12",
+  "comp": "Nations League",
+  "tv": "Ziggo Sport 3",
+  "bron": "Ziggo-programma Nations League (ziggo.nl, 9-11-2026)"
+ },
+ "1528960": {
+  "wedstrijd": "Italië - Frankrijk",
+  "datum": "2026-11-12",
+  "comp": "Nations League",
+  "tv": "Ziggo Sport 2",
+  "bron": "Ziggo-programma Nations League (ziggo.nl, 9-11-2026)"
+ },
+ "1528961": {
+  "wedstrijd": "Tsjechië - Spanje",
+  "datum": "2026-11-12",
+  "comp": "Nations League",
+  "tv": "Ziggo Sport 5",
+  "bron": "Ziggo-programma Nations League (ziggo.nl, 9-11-2026)"
+ },
+ "1528963": {
+  "wedstrijd": "Albanië - Finland",
+  "datum": "2026-11-12",
+  "comp": "Nations League",
+  "tv": "Ziggo Sport 1 (Switch)",
+  "bron": "Ziggo-programma Nations League (ziggo.nl, 9-11-2026)"
+ },
+ "1545613": {
+  "wedstrijd": "Montenegro - Letland",
+  "datum": "2026-11-12",
+  "comp": "Nations League",
+  "tv": "Ziggo Sport 1 (Switch)",
+  "bron": "Ziggo-programma Nations League (ziggo.nl, 9-11-2026)"
+ },
+ "1528968": {
+  "wedstrijd": "Moldavië - Kazachstan",
+  "datum": "2026-11-13",
+  "comp": "Nations League",
+  "tv": null,
+  "bookmaker_stream": false,
+  "bron": "Ziggo-programma Nations League (ziggo.nl, 9-11-2026): geen Nederlandse uitzending"
+ },
+ "1528965": {
+  "wedstrijd": "Servië - Duitsland",
+  "datum": "2026-11-13",
+  "comp": "Nations League",
+  "tv": "Ziggo Sport 1",
+  "bron": "Ziggo-programma Nations League (ziggo.nl, 9-11-2026)"
+ },
+ "1528967": {
+  "wedstrijd": "Slowakije - Faeröer",
+  "datum": "2026-11-13",
+  "comp": "Nations League",
+  "tv": null,
+  "bookmaker_stream": false,
+  "bron": "Ziggo-programma Nations League (ziggo.nl, 9-11-2026): geen Nederlandse uitzending"
+ },
+ "1545654": {
+  "wedstrijd": "Slovenië - Zwitserland",
+  "datum": "2026-11-13",
+  "comp": "Nations League",
+  "tv": null,
+  "bookmaker_stream": false,
+  "bron": "Ziggo-programma Nations League (ziggo.nl, 9-11-2026): geen Nederlandse uitzending"
+ },
+ "1545614": {
+  "wedstrijd": "Luxemburg - Estland",
+  "datum": "2026-11-13",
+  "comp": "Nations League",
+  "tv": null,
+  "bookmaker_stream": false,
+  "bron": "Ziggo-programma Nations League (ziggo.nl, 9-11-2026): geen Nederlandse uitzending"
+ },
+ "1528969": {
+  "wedstrijd": "Bulgarije - IJsland",
+  "datum": "2026-11-13",
+  "comp": "Nations League",
+  "tv": null,
+  "bookmaker_stream": false,
+  "bron": "Ziggo-programma Nations League (ziggo.nl, 9-11-2026): geen Nederlandse uitzending"
+ },
+ "1528970": {
+  "wedstrijd": "Liechtenstein - Azerbeidzjan",
+  "datum": "2026-11-13",
+  "comp": "Nations League",
+  "tv": null,
+  "bookmaker_stream": false,
+  "bron": "Ziggo-programma Nations League (ziggo.nl, 9-11-2026): geen Nederlandse uitzending"
+ },
+ "1545659": {
+  "wedstrijd": "Schotland - Noord-Macedonië",
+  "datum": "2026-11-13",
+  "comp": "Nations League",
+  "tv": null,
+  "bookmaker_stream": false,
+  "bron": "Ziggo-programma Nations League (ziggo.nl, 9-11-2026): geen Nederlandse uitzending"
+ },
+ "1545615": {
+  "wedstrijd": "Andorra - Gibraltar",
+  "datum": "2026-11-13",
+  "comp": "Nations League",
+  "tv": null,
+  "bookmaker_stream": false,
+  "bron": "Ziggo-programma Nations League (ziggo.nl, 9-11-2026): geen Nederlandse uitzending"
+ },
+ "1528966": {
+  "wedstrijd": "Nederland - Griekenland",
+  "datum": "2026-11-13",
+  "comp": "Nations League",
+  "tv": "NPO 3",
+  "gratis": true,
+  "extra": "de NOS-app of NOS.nl",
+  "bron": "NOS (Oranje op NPO 3)"
+ },
+ "1528971": {
+  "wedstrijd": "Kosovo - Israël",
+  "datum": "2026-11-14",
+  "comp": "Nations League",
+  "tv": "Ziggo Sport 2",
+  "bron": "Ziggo-programma Nations League (ziggo.nl, 9-11-2026)"
+ },
+ "1528972": {
+  "wedstrijd": "Noorwegen - Wales",
+  "datum": "2026-11-14",
+  "comp": "Nations League",
+  "tv": "Ziggo Sport 2",
+  "bron": "Ziggo-programma Nations League (ziggo.nl, 9-11-2026)"
+ },
+ "1528973": {
+  "wedstrijd": "Georgië - Hongarije",
+  "datum": "2026-11-14",
+  "comp": "Nations League",
+  "tv": null,
+  "bookmaker_stream": false,
+  "bron": "Ziggo-programma Nations League (ziggo.nl, 9-11-2026): geen Nederlandse uitzending"
+ },
+ "1528974": {
+  "wedstrijd": "Portugal - Denemarken",
+  "datum": "2026-11-14",
+  "comp": "Nations League",
+  "tv": "Ziggo Sport 2",
+  "bron": "Ziggo-programma Nations League (ziggo.nl, 9-11-2026)"
+ },
+ "1528975": {
+  "wedstrijd": "Noord-Ierland - Oekraïne",
+  "datum": "2026-11-14",
+  "comp": "Nations League",
+  "tv": "Ziggo Sport 3",
+  "bron": "Ziggo-programma Nations League (ziggo.nl, 9-11-2026)"
+ },
+ "1528977": {
+  "wedstrijd": "Roemenië - Polen",
+  "datum": "2026-11-14",
+  "comp": "Nations League",
+  "tv": "Ziggo Sport 1 (Switch)",
+  "bron": "Ziggo-programma Nations League (ziggo.nl, 9-11-2026)"
+ },
+ "1528976": {
+  "wedstrijd": "Oostenrijk - Ierland",
+  "datum": "2026-11-14",
+  "comp": "Nations League",
+  "tv": "Ziggo Sport 1 (Switch)",
+  "bron": "Ziggo-programma Nations League (ziggo.nl, 9-11-2026)"
+ },
+ "1545616": {
+  "wedstrijd": "Letland - Armenië",
+  "datum": "2026-11-15",
+  "comp": "Nations League",
+  "tv": null,
+  "bookmaker_stream": false,
+  "bron": "Ziggo-programma Nations League (ziggo.nl, 9-11-2026): geen Nederlandse uitzending"
+ },
+ "1528979": {
+  "wedstrijd": "Cyprus - Montenegro",
+  "datum": "2026-11-15",
+  "comp": "Nations League",
+  "tv": "Ziggo Sport 3",
+  "bron": "Ziggo-programma Nations League (ziggo.nl, 9-11-2026)"
+ },
+ "1528981": {
+  "wedstrijd": "Finland - San Marino",
+  "datum": "2026-11-15",
+  "comp": "Nations League",
+  "tv": "Ziggo Sport 1",
+  "bron": "Ziggo-programma Nations League (ziggo.nl, 9-11-2026)"
+ },
+ "1528983": {
+  "wedstrijd": "België - Italië",
+  "datum": "2026-11-15",
+  "comp": "Nations League",
+  "tv": "Ziggo Sport 3",
+  "bron": "Ziggo-programma Nations League (ziggo.nl, 9-11-2026)"
+ },
+ "1528982": {
+  "wedstrijd": "Frankrijk - Turkije",
+  "datum": "2026-11-15",
+  "comp": "Nations League",
+  "tv": "Ziggo Sport 5",
+  "bron": "Ziggo-programma Nations League (ziggo.nl, 9-11-2026)"
+ },
+ "1528985": {
+  "wedstrijd": "Kroatië - Tsjechië",
+  "datum": "2026-11-15",
+  "comp": "Nations League",
+  "tv": "Ziggo Sport 1 (Switch)",
+  "bron": "Ziggo-programma Nations League (ziggo.nl, 9-11-2026)"
+ },
+ "1528984": {
+  "wedstrijd": "Spanje - Engeland",
+  "datum": "2026-11-15",
+  "comp": "Nations League",
+  "tv": "Ziggo Sport 2",
+  "bron": "Ziggo-programma Nations League (ziggo.nl, 9-11-2026)"
+ },
+ "1528986": {
+  "wedstrijd": "Kazachstan - Slowakije",
+  "datum": "2026-11-16",
+  "comp": "Nations League",
+  "tv": "Ziggo Sport 2",
+  "bron": "Ziggo-programma Nations League (ziggo.nl, 9-11-2026)"
+ },
+ "1528987": {
+  "wedstrijd": "Faeröer - Moldavië",
+  "datum": "2026-11-16",
+  "comp": "Nations League",
+  "tv": null,
+  "bookmaker_stream": false,
+  "bron": "Ziggo-programma Nations League (ziggo.nl, 9-11-2026): geen Nederlandse uitzending"
+ },
+ "1545617": {
+  "wedstrijd": "IJsland - Luxemburg",
+  "datum": "2026-11-16",
+  "comp": "Nations League",
+  "tv": null,
+  "bookmaker_stream": false,
+  "bron": "Ziggo-programma Nations League (ziggo.nl, 9-11-2026): geen Nederlandse uitzending"
+ },
+ "1528989": {
+  "wedstrijd": "Litouwen - Liechtenstein",
+  "datum": "2026-11-16",
+  "comp": "Nations League",
+  "tv": null,
+  "bookmaker_stream": false,
+  "bron": "Ziggo-programma Nations League (ziggo.nl, 9-11-2026): geen Nederlandse uitzending"
+ },
+ "1528988": {
+  "wedstrijd": "Estland - Bulgarije",
+  "datum": "2026-11-16",
+  "comp": "Nations League",
+  "tv": "Ziggo Sport 1 en Ziggo Sport 3",
+  "bron": "Ziggo-programma Nations League (ziggo.nl, 9-11-2026)"
+ },
+ "1545652": {
+  "wedstrijd": "Zwitserland - Schotland",
+  "datum": "2026-11-16",
+  "comp": "Nations League",
+  "tv": null,
+  "bookmaker_stream": false,
+  "bron": "Ziggo-programma Nations League (ziggo.nl, 9-11-2026): geen Nederlandse uitzending"
+ },
+ "1528990": {
+  "wedstrijd": "Duitsland - Nederland",
+  "datum": "2026-11-16",
+  "comp": "Nations League",
+  "tv": "NPO 3",
+  "gratis": true,
+  "extra": "de NOS-app of NOS.nl",
+  "bron": "NOS (Oranje op NPO 3)"
+ },
+ "1545618": {
+  "wedstrijd": "Gibraltar - Malta",
+  "datum": "2026-11-16",
+  "comp": "Nations League",
+  "tv": null,
+  "bookmaker_stream": false,
+  "bron": "Ziggo-programma Nations League (ziggo.nl, 9-11-2026): geen Nederlandse uitzending"
+ },
+ "1545662": {
+  "wedstrijd": "Noord-Macedonië - Slovenië",
+  "datum": "2026-11-16",
+  "comp": "Nations League",
+  "tv": null,
+  "bookmaker_stream": false,
+  "bron": "Ziggo-programma Nations League (ziggo.nl, 9-11-2026): geen Nederlandse uitzending"
+ },
+ "1528991": {
+  "wedstrijd": "Griekenland - Servië",
+  "datum": "2026-11-16",
+  "comp": "Nations League",
+  "tv": "Ziggo Sport 1",
+  "bron": "Ziggo-programma Nations League (ziggo.nl, 9-11-2026)"
+ },
+ "1528993": {
+  "wedstrijd": "Denemarken - Noorwegen",
+  "datum": "2026-11-17",
+  "comp": "Nations League",
+  "tv": "Ziggo Sport 2",
+  "bron": "Ziggo-programma Nations League (ziggo.nl, 9-11-2026)"
+ },
+ "1528998": {
+  "wedstrijd": "Polen - Zweden",
+  "datum": "2026-11-17",
+  "comp": "Nations League",
+  "tv": "Ziggo Sport 1 (Switch)",
+  "bron": "Ziggo-programma Nations League (ziggo.nl, 9-11-2026)"
+ },
+ "1528992": {
+  "wedstrijd": "Wales - Portugal",
+  "datum": "2026-11-17",
+  "comp": "Nations League",
+  "tv": "Ziggo Sport 3",
+  "bron": "Ziggo-programma Nations League (ziggo.nl, 9-11-2026)"
+ },
+ "1528995": {
+  "wedstrijd": "Hongarije - Noord-Ierland",
+  "datum": "2026-11-17",
+  "comp": "Nations League",
+  "tv": "Ziggo Sport 1 (Switch)",
+  "bron": "Ziggo-programma Nations League (ziggo.nl, 9-11-2026)"
+ },
+ "1528994": {
+  "wedstrijd": "Oekraïne - Georgië",
+  "datum": "2026-11-17",
+  "comp": "Nations League",
+  "tv": "Ziggo Sport 1 (Switch)",
+  "bron": "Ziggo-programma Nations League (ziggo.nl, 9-11-2026)"
+ },
+ "1528997": {
+  "wedstrijd": "Ierland - Kosovo",
+  "datum": "2026-11-17",
+  "comp": "Nations League",
+  "tv": "Ziggo Sport 1 (Switch)",
+  "bron": "Ziggo-programma Nations League (ziggo.nl, 9-11-2026)"
+ },
+ "1528964": {
+  "wedstrijd": "San Marino - Wit-Rusland",
+  "datum": "2026-11-12",
+  "comp": "Nations League",
+  "tv": "Ziggo Sport 1 (Switch)",
+  "bron": "Ziggo-programma Nations League (ziggo.nl, 9-11-2026)"
+ },
+ "1528978": {
+  "wedstrijd": "Zweden - Bosnië en Herzegovina",
+  "datum": "2026-11-14",
+  "comp": "Nations League",
+  "tv": "Ziggo Sport 1 (Switch)",
+  "bron": "Ziggo-programma Nations League (ziggo.nl, 9-11-2026)"
+ },
+ "1528980": {
+  "wedstrijd": "Wit-Rusland - Albanië",
+  "datum": "2026-11-15",
+  "comp": "Nations League",
+  "tv": null,
+  "bookmaker_stream": false,
+  "bron": "Ziggo-programma Nations League (ziggo.nl, 9-11-2026): geen Nederlandse uitzending"
  }
 }
