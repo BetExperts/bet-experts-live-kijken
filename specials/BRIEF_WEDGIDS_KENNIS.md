@@ -64,3 +64,23 @@ Per artikel:
 - de 3 belangrijkste zoekwoorden;
 - de onzekere feiten;
 - of er een infographic is.
+
+---
+## Aanvulling ronde 2 (10-11-2026): voetbalregels en statistieken
+- **Spelregels:** primaire bron zijn de Laws of the Game van IFAB, de versie die nu geldt (2026/27; theifab.com/laws). Bevestig het bij de KNVB (knvb.nl: spelregels en het tuchtreglement betaald voetbal), UEFA of FIFA.
+  - Controleer recente regelwijzigingen. Vermeld de wijziging alleen als ze bevestigd is, met de ingangsdatum.
+  - Voorbeelden: de 8-secondenregel voor keepers (sinds 2025/26), en wat er per 2026/27 veranderd is (IFAB AGM 2026).
+- **Nederland:** gebruik de Eredivisie en Oranje als voorbeelden, bijvoorbeeld de schorsingsregels in de Eredivisie en de VAR in Nederland.
+  - Noem geen echte incidenten die je niet bij twee bronnen hebt bevestigd.
+  - Noem geen namen van scheidsrechters bij omstreden beslissingen.
+- **Koppeling met wedden:** voeg alleen een korte, eerlijke koppeling toe waar die er echt is (één alinea, bijvoorbeeld "wat betekent dit voor je weddenschap"). Spelregelartikelen zijn in de eerste plaats informatief.
+  - Markten die in Nederland niet zijn toegestaan noem je niet als wedmogelijkheid. Corners mogen niet, zie /nieuws/dit-is-waarom-wedden-op-corners-niet-meer-legaal-is-in-nederland. Controleer wat er met kaarten- en spelersmarkten mag.
+- **Rekenvoorbeeld:** bij spelregels hoeft dat niet. Een duidelijke tabel (bijvoorbeeld een overzicht van sancties) of een stappenplan is dan beter.
+- **Statistieken:** gebruik echte Eredivisie-cijfers alleen als je een openbare bron hebt die je mag gebruiken. Noem bij dataleveranciers geen merknamen van concurrent-sites. Opta/Stats Perform en theanalyst.com mogen wel. Gebruik bij twijfel een fictief voorbeeld en zeg dat het fictief is.
+- **Bestaande artikelen eerst lezen** en ernaar linken:
+  - /nieuws/wat-is-xg-expected-goals
+  - /nieuws/wedstrijd-gestaakt-wat-gebeurd-er-nu-met-je-weddenschap
+  - /nieuws/doelpuntenmaker-wedden-regels
+  - /nieuws/dit-is-hoe-wedden-op-schoten-op-doel-werkt
+  - /nieuws/wat-zijn-opta-gegevens-alles-over-schoten-op-doel-en-unibet-weddenschappen
+  - de nieuwe ronde-1-artikelen: /nieuws/kans-berekenen-uit-odds-impliciete-kans, /nieuws/wat-is-expected-value-ev-bij-wedden, /nieuws/wat-is-closing-line-value-clv, /nieuws/marge-bookmaker-overround-uitbetalingspercentage
