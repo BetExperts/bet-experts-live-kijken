@@ -234,6 +234,28 @@ Bronnen:
 
 ---
 
+## 6b. Wijzigingen in de selectie (gecontroleerd dinsdag 10-11-2026, ±14:25 CET)
+
+**Korte samenvatting:** Van Dijk en Brobbey zijn afgevallen (KNVB, ma 9-11 17:45). Op di 10-11 riep Xavi Sepp van den Berg (Brentford, 24) op, voor het eerst bij de A-selectie. Hij is de vervanger van Van Dijk. Voor Brobbey komt geen vervanger. De selectie telt nu **24 spelers**. Wie aanvoerder wordt, is nog niet bekendgemaakt.
+
+| Feit | Status | Bron (tijdstip) |
+|---|---|---|
+| Van Dijk (Liverpool) en Brobbey (Sunderland) vallen af; niet fit uit het speelweekend; selectie "vooralsnog" 23 | **BEVESTIGD** | OnsOranje/KNVB Media, ma 9-11 17:45: https://www.onsoranje.nl/nieuws/nederlands-elftal-mannen/82817/virgil-van-dijk-en-brian-brobbey-vallen-af-voor-oranje ; NOS 9-11: https://nos.nl/artikel/2638755-aanvoerder-van-dijk-en-brobbey-haken-af-bij-nederlands-elftal |
+| Sepp van den Berg (Brentford, 24) voor het eerst opgeroepen, meldt zich di-avond 10-11 in Zeist; selectie nu 24 | **BEVESTIGD** | OnsOranje, di 10-11 (±13:00): https://www.onsoranje.nl/nieuws/nederlands-elftal-mannen/82822/sepp-van-den-berg-opgeroepen-voor-oranje-m ; NOS di 10-11 13:06: https://nos.nl/artikel/2638854-van-den-berg-voor-het-eerst-opgeroepen-voor-oranje-als-vervanger-van-dijk ; VI 10-11 12:53: https://vi.nl/nieuws/xavi-verrast-sepp-van-den-berg-opgeroepen-voor-oranje |
+| Van den Berg is vervanger van Van Dijk (OnsOranje zegt alleen "opgeroepen"; NOS en VI noemen hem de vervanger van Van Dijk) | **BEVESTIGD** (NOS, VI) | zie boven |
+| Geen vervanger voor Brobbey | **BEVESTIGD** (NOS, VI, Soccernews) | zie boven |
+| Van den Berg: debuut op 16 jaar bij PEC Zwolle, 2019 naar Liverpool (geen competitieduel), verhuurd aan Preston, Schalke 04 en Mainz, sinds 2024 Brentford; dit seizoen na blessure de laatste vier competitieduels gestart; 8 duels Jong Oranje, 10 Oranje O19; enige speler in de selectie zonder interland | **BEVESTIGD** (NOS, VI) | NOS + VI 10-11 |
+| Ma-avond 9-11: alleen Dumfries, Summerville en Reijnders trainden buiten; de rest (onder wie De Jong) deed binnen herstel | **BEVESTIGD** | NOS 9-11 (2638755) en NOS 10-11 07:00: https://nos.nl/artikel/2638812-de-jong-moet-wilde-plannen-xavi-bij-oranje-versnellen-hij-heeft-alles |
+| Di 10-11 (middag): training met 23 fitte internationals, geen nieuwe afmeldingen of twijfelgevallen gemeld | **BEVESTIGD** (ANP) | nieuws.nl/ANP 10-11 12:28: https://nieuws.nl/voetbal/oranje-traint-met-fitte-groep-voor-duels-met-grieken-en-duitsers |
+| Aanvoerder zonder Van Dijk | **NIET BEKEND.** Xavi noemde De Jong "een van onze aanvoerders" (NOS 10-11 07:00). De Jong zelf: het is aan de trainer, "het zou zeker kunnen" (Voetbalprimeur 10-11 12:18). Hart van Nederland verwacht De Jong of Dumfries; een bekendmaking op de persconferentie van donderdag is **UNCONFIRMED** | NOS 2638812; https://www.voetbalprimeur.nl/nieuws/2157321/frenkie-de-jong-hint-op-aanvoerderschap-oranje-na-afvallen-van-dijk.html |
+| Aard van de blessures van Van Dijk en Brobbey | **NIET BEKEND** (KNVB: "niet fit") | |
+
+Controle selectie 6-11 (OnsOranje 82811): 25 namen, inclusief Crysencio Summerville (Al-Hilal). De lijst in §6 hierboven mist Summerville per abuis; de module `selectie_oranje_november_2026.py` klopt wel.
+
+Odds 711 (Kambi sevelevnl), afgelezen di 10-11-2026 14:25 CET: Nederland – Griekenland 1,49 / 4,60 / 6,75; meer dan 2,5 doelpunten 1,57. Duitsland – Nederland: nog geen odds.
+
+---
+
 ## 7. Geschiedenis en winnaars
 
 **Korte samenvatting:** Vier edities, drie verschillende winnaars. Portugal won er twee. Oranje haalde in 2019 de finale; dat is zijn beste resultaat.
