@@ -5,6 +5,48 @@ Legenda: **[OFFICIEEL]** = organisator, RTL of Videoland · **[MEDIA]** = nieuws
 
 ---
 
+## 000. Update 10-11-2026 (gecontroleerd 10-11-2026, 14:00–14:25 CET): uitslagen Fight Night 2 (za 7 nov) + finales
+
+Alle drie de partijen gingen de volle drie ronden; geen knock-outs. Scorekaarten of het soort beslissing (unaniem/verdeeld) zijn **nergens gepubliceerd** ("Volledige scorekaarten zijn in deze bronnen niet vermeld", fight.nl).
+
+| Partij | Winnaar | Hoe | Bronnen (≥2) |
+|---|---|---|---|
+| Nesim el Ahmadi – Carlos Platier Luna (zwaargewicht) | **Nesim el Ahmadi** | Na drie ronden, nipt. Puna: Nesim licht in het voordeel in ronde 1 en 2, ronde 3 voor Platier Luna. VK Magazine: fel gevecht met wilde stoten en veel clinchen; Carlos klaagde over het clinchen, Nesim raakte nog na de bel | fight.nl 7-11 (tabel, "tot en met de derde ronde"); Puna 7-11 23:43; VK Magazine 7-11; Vandaag Inside 8-11 12:38; Ziggo programmapagina (finale Roelvink–El Ahmadi) |
+| Eliyha Altena – Jasha Rudge (middengewicht) | **Jasha Rudge** | Na drie ronden. Gelijk opgaand; Rudge raakte als eerste schoon in ronde 1, daarna veel clinches; partij even stil gelegd toen een bitje uitviel; Altena moe in ronde 3 | fight.nl 7-11; VK Magazine 7-11; LoveThat 9-11 (citeert RTL Boulevard); Ziggo + Puna (finale Visser–Rudge) |
+| Priscilla Nasi – Beate van der Weide (vrouwen) | **Beate van der Weide** | Na drie ronden (beslissing). Beate hield Priscilla met haar reikwijdte en rechte stoten op afstand; Priscilla bleef naar voren gaan en incasseerde veel | fight.nl 7-11 ("Na drie rondes werd Beate als winnares aangewezen, meldt RTL"); VK Magazine 7-11; Puna; Ziggo |
+
+**Finales za 14 november 2026 (Fight Night 3, Mediahaven Amsterdam):**
+- Zwaargewicht: Donny Roelvink – Nesim el Ahmadi
+- Middengewicht: Vincent Visser – Jasha Rudge
+- Vrouwen lichtgewicht: Jaimie Vaes – Beate van der Weide
+- Bronnen: Ziggo programmapagina (laatste update 8-11-2026, "Grote Finale"), fight.nl 7-11, VK Magazine 7-11, Puna 7-11/8-11.
+- Live bij Videoland vanaf 20:00 uur (Puna; fight.nl via TVgids). Ziggo: "Op Videoland bij Ziggo".
+- boxing-stars.nl (10-11): Fight Night 03 za 14 nov, deuren 17:30, laatste entree 18:45, ±90 min live, einde rond 22:00. Geen ticketstatus (uitverkocht of niet) vermeld.
+- **Volgorde van de finales en ringtijden: niet bevestigd** ("Afzonderlijke ringtijden zijn nog niet bevestigd", fight.nl).
+
+**Bijzaak (niet in artikel):** Nesim beschuldigde na zijn zege RTL/de makers en 'witte media' ervan hem uit de promotie te knippen vanwege zijn afkomst; enkele uren later nuanceerde hij dat en bood hij excuses aan (Puna 7-11 en 8-11, Vandaag Inside 8-11, VK Magazine). Na de partij richtte hij zich direct tot Donny Roelvink (Vandaag Inside).
+
+URL's:
+- https://www.fight.nl/blogs/fightnl/boxing-stars-7-november-alle-uitslagen-en-drie-fin/
+- https://www.fight.nl/blogs/fightnl/beate-verslaat-priscilla-en-treft-jaimie-in-boxing/
+- https://www.vkmag.com/magazine/ondertussen-bij-boxing-stars-nesim-haalt-uit-naar-witte-media-zoals-rtl-boulevard
+- https://www.puna.nl/news/nesim-beschuldigt-boxing-stars-en-rtl-na-nipte-winst-van-uitknippen-om-zn-afkomst-alleen-maar-witte-mensen
+- https://www.puna.nl/news/nesim-komt-terug-op-felle-woorden-na-overwinning-bij-boxing-stars-ik-probeer-niemand-te-beledigen
+- https://www.vandaaginside.nl/sport/vechtsport/artikelen/video-nesim-el-ahmadi-richt-zich-na-boxing-stars-zege-direct-tot-donny-roel
+- https://www.lovethat.nl/hoe-oud-is-eliyha-altena/
+- https://www.ziggo.nl/entertainment/series/boxing-stars/programma [OFFICIEEL, uitzendpartner]
+- https://boxing-stars.nl [OFFICIEEL]
+
+## 00. Update 28-10-2026: indeling bekend (Weekblad Party + VK Magazine, zelfde persbericht)
+
+- **Za 31 okt:** zwaargewicht Donny Roelvink vs. Edino van Dorsten · middengewicht Koen Pieter van Dijk vs. Vincent Visser · vrouwen lichtgewicht Jaimie Vaes vs. Gaby Blaaser
+- **Za 7 nov:** zwaargewicht Nesim el Ahmadi vs. Carlos Platier Luna · middengewicht Eliyha Altena vs. Jasha Rudge · vrouwen Priscilla Nasi en Beate van der Weide (om de laatste finaleplek)
+- **Za 14 nov:** finales (winnaars).
+- Presentatie Monica Geuze en Valerio Zeno; commentaar Jay-Jay Boske en Mark Schaaf; rode loper Duncan Tromp. "Enkele kaarten verkrijgbaar".
+- Wikipedia-indeling en De Stentor (Roelvink–Platier Luna) kloppen dus NIET meer. Tweede mannenpoule = middengewicht.
+- https://weekbladparty.nl/donny-roelvink-en-jaimie-vaes-de-ring-in-dit-zijn-de-eerste-duels-van-boxing-stars/ · https://www.vkmag.com/magazine/jaimie-vaes-tegen-gaby-blaaser-deze-bners-gaan-met-elkaar-de-boksring-in
+- boxing-stars.nl toont op 28-10 nog geen duels (en nog Sylvia Geersen).
+
 ## 0. Correcties en nieuws ten opzichte van wat al bekend was
 
 - **Sylvia Geersen doet niet mee.** Ze heeft zich teruggetrokken met een blessure ("Ik heb mezelf echt overtraind"). **Priscilla Brard Nasi (43)**, de dochter van Patty Brard, neemt haar plek in de lichtgewichtpoule voor vrouwen in. RTL meldde dit op 23-10-2026. [OFFICIEEL]

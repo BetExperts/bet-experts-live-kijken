@@ -33,6 +33,8 @@ CSS = kaart.CSS + f"""
 .bout{{margin-top:12px;padding:10px 12px;border-radius:14px;background:rgba(0,0,0,.22);border:1px solid rgba(255,255,255,.06)}}
 .bout .p{{font:700 10px 'Plus Jakarta Sans';letter-spacing:1.6px;color:#8A97A3;text-transform:uppercase}}
 .bout .v{{margin-top:3px;font:700 16px/1.25 'Poppins';color:#F5F9FA}} .bout .v i{{font-style:normal;color:{RD}}}
+.bout .v b{{color:{G}}} .bout .v s{{text-decoration:none;color:#7C8893}}
+.bout .u{{margin-top:4px;font:700 11px 'Plus Jakarta Sans';letter-spacing:1px;color:{G};text-transform:uppercase}}
 .po{{border-radius:20px;padding:16px 18px;background:rgba(255,255,255,.04);border:1px solid rgba(255,255,255,.09)}}
 .po .h{{font:800 18px 'Poppins';color:#F5F9FA}} .po .s{{font:600 12px 'Plus Jakarta Sans';color:#8A97A3;margin-top:2px}}
 .po ul{{list-style:none;margin-top:10px}} .po li{{font:600 15px/1.9 'Plus Jakarta Sans';color:#DDE4EA}}
@@ -50,11 +52,20 @@ FOOT = '''<div style="position:absolute;left:56px;right:56px;bottom:52px;height:
   <div style="position:absolute;right:56px;bottom:20px;font:700 13px 'Plus Jakarta Sans';color:#6CC08B">bet-experts.nl</div>'''
 
 
+def bout(p, x, y, finale=False):
+    u = M.UITSLAG.get(f"{x} – {y}")
+    if not u:   # nog te boksen; in de finale staan twee winnaars (groen)
+        n = (lambda n: f"<b>{n}</b>") if finale else (lambda n: n)
+        return f'<div class="bout"><div class="p">{"Finale " + p.lower() if finale else p}</div><div class="v">{n(x)} <i>vs</i> {n(y)}</div></div>'
+    w = lambda n: f"<b>{n}</b>" if n == u[0] else f"<s>{n}</s>"   # winnaar groen, verliezer grijs
+    return f'<div class="bout"><div class="p">{p}</div><div class="v">{w(x)} <i>vs</i> {w(y)}</div><div class="u">✓ {M.achternaam(u[0])} wint · {u[1]}</div></div>'
+
+
 def avond(a):
-    bouts = "".join(f'<div class="bout"><div class="p">{p}</div><div class="v">{x} <i>vs</i> {y}</div></div>' for p, x, y in a["duels"])
-    if not bouts:   # finale-avond: per poule winnaar avond 1 tegen winnaar avond 2
-        bouts = "".join(f'<div class="bout"><div class="p">Finale {p["naam"].lower()}</div><div class="v">Winnaar 31 okt <i>vs</i> winnaar 7 nov</div></div>'
-                        for p in M.POULES)
+    bouts = "".join(bout(p, x, y, a["finale"]) for p, x, y in a["duels"])
+    if not bouts:   # finale-avond zonder bekende finalisten
+        bouts = "".join(f'<div class="bout"><div class="p">Finale {p.lower()}</div><div class="v"><b>{w}</b> <i>vs</i> {n}</div></div>'
+                        for p, w, n in M.FINALES)
     return (f'<div class="av{" f" if a["finale"] else ""}"><div class="n">{a["naam"]}</div><div class="d">{a["datum"]}</div>'
             f'<div class="t">Live om 20:00 uur · deuren 17:30</div>{bouts}</div>')
 
@@ -70,7 +81,7 @@ SCHEMA = f'''<div class="b lang">{GLOW}
   <div style="position:absolute;left:56px;right:56px;top:250px">
     <div class="ph" style="margin-bottom:12px">De drie Fight Nights</div>
     <div style="display:grid;grid-template-columns:repeat(3,1fr);gap:16px">{"".join(avond(a) for a in M.AVONDEN)}</div>
-    <div class="nt" style="margin-top:10px">Indeling van de partijen volgens de laatste berichten; Videoland heeft nog geen officiële fightcard gepubliceerd.</div>
+    <div class="nt" style="margin-top:10px">Uitslagen bijgewerkt op 10 november 2026. In groen: de winnaars en finalisten.</div>
     <div class="ph" style="margin:30px 0 12px">De drie poules</div>
     <div style="display:grid;grid-template-columns:repeat(3,1fr);gap:16px">{poules}</div>
     <div class="ph" style="margin:30px 0 12px">Praktisch</div>
@@ -84,14 +95,15 @@ DEEL = f'''<div class="b">{GLOW}
     <div><div class="eb">Videoland · Mediahaven Amsterdam</div>
       <div class="kop" style="margin-top:10px">Boxing Stars <em>2026</em></div></div></div>
   <div style="position:absolute;right:56px;top:112px;display:flex;flex-direction:column;align-items:flex-end;gap:10px">
-    <span class="chip r">12 BN'ers · 3 poules</span><span class="chip">Live om 20:00 uur</span></div>
+    <span class="chip r">Finale 14 november</span><span class="chip">Live om 20:00 uur</span></div>
   <div style="position:absolute;left:56px;right:56px;top:262px;display:grid;grid-template-columns:repeat(3,1fr);gap:16px">
     {"".join(f'<div class="av{" f" if a["finale"] else ""}"><div class="n">{a["naam"]}</div><div class="d">{a["datum"]}</div><div class="t">{a["kort"]}</div></div>' for a in M.AVONDEN)}
   </div>
-  <div style="position:absolute;left:56px;right:56px;top:410px;padding:18px 24px;border-radius:20px;display:flex;align-items:center;gap:18px;
+  <div style="position:absolute;left:56px;right:56px;top:420px;padding:16px 24px 18px;border-radius:20px;
     background:linear-gradient(90deg,rgba(229,72,77,.18),rgba(229,72,77,.04));border:1px solid rgba(229,72,77,.45)">
-    <div style="font:700 12px 'Plus Jakarta Sans';letter-spacing:2.4px;color:#FF8A8D;text-transform:uppercase;white-space:nowrap">Blikvanger 31 oktober</div>
-    <div style="font:800 30px 'Poppins';color:#F5F9FA;letter-spacing:-.5px;white-space:nowrap">Donny Roelvink <span style="color:#E5484D">vs</span> Carlos Platier Luna</div>
+    <div style="font:700 12px 'Plus Jakarta Sans';letter-spacing:2.4px;color:#FF8A8D;text-transform:uppercase;white-space:nowrap">De finales · za 14 november</div>
+    <div style="margin-top:8px;display:grid;grid-template-columns:repeat(3,1fr);gap:16px">
+      {"".join(f'<div style="font:800 23px Poppins;color:#F5F9FA;letter-spacing:-.4px;white-space:nowrap">{M.achternaam(a)} <span style="color:#E5484D">vs</span> {M.achternaam(b)}</div>' for p, a, b in M.FINALES)}</div>
   </div>{FOOT}</div>'''
 
 
