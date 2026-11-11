@@ -1,1 +1,65 @@
-{}
+{
+  "hub:keuken-kampioen-divisie-speelronde-15-op-tv-14-november-2026": {
+    "item_id": "6af4a1c4aad0035aec5d27a0",
+    "slug": "keuken-kampioen-divisie-speelronde-15-op-tv-14-november-2026",
+    "match": "Keuken Kampioen Divisie speelronde 15",
+    "date": "2026-11-23",
+    "league": "eerste-divisie",
+    "hub": true,
+    "sig": "66f7e920ebe7592f6da9037365af086e",
+    "pairs": [
+      [
+        "203",
+        "208",
+        "2026-11-14"
+      ],
+      [
+        "199",
+        "423",
+        "2026-11-14"
+      ],
+      [
+        "204",
+        "422",
+        "2026-11-14"
+      ],
+      [
+        "206",
+        "409",
+        "2026-11-14"
+      ],
+      [
+        "414",
+        "416",
+        "2026-11-14"
+      ],
+      [
+        "417",
+        "421",
+        "2026-11-14"
+      ],
+      [
+        "419",
+        "424",
+        "2026-11-14"
+      ],
+      [
+        "200",
+        "412",
+        "2026-11-15"
+      ],
+      [
+        "411",
+        "428",
+        "2026-11-23"
+      ],
+      [
+        "418",
+        "425",
+        "2026-11-23"
+      ]
+    ],
+    "ronde": "Regular Season - 15",
+    "og": "og/keuken-kampioen-divisie-speelronde-15-op-tv-14-november-2026-c50206.webp"
+  }
+}
