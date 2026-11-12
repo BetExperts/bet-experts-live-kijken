@@ -166,5 +166,17 @@
     "tv_sig": "Ziggo Sport 1 (Switch)|Bet365|False|True",
     "og": "og/san-marino-wit-rusland-live-gratis-kijken-12-11-2026-6759ec.webp",
     "og_done": "og/san-marino-wit-rusland-live-gratis-kijken-12-11-2026-6759ec.webp"
+  },
+  "1644690": {
+    "item_id": "6af5c69dd1ee3ec2651889e3",
+    "slug": "curacao-panama-live-gratis-kijken-13-11-2026",
+    "match": "Curaçao - Panama",
+    "date": "2026-11-13",
+    "league": "concacaf-nations-league",
+    "provider": "Bet365",
+    "home_id": "5530",
+    "away_id": "11",
+    "tv_sig": "|Bet365|False|False",
+    "og": "og/curacao-panama-live-gratis-kijken-13-11-2026-acba73.webp"
   }
 }
