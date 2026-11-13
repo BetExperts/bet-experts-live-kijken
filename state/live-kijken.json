@@ -6,7 +6,7 @@
     "date": "2026-11-23",
     "league": "eerste-divisie",
     "hub": true,
-    "sig": "bba4f8cc3c9fec59d8560bd7c1b22606",
+    "sig": "f601cc7fd830cd2ab56c16f8f890eb33",
     "pairs": [
       [
         "203",
@@ -335,5 +335,17 @@
     "tv_sig": "ESPN 1|Bet365|False|True",
     "og": "og/jong-denemarken-jong-oranje-live-gratis-kijken-13-11-2026-28fbd6.webp",
     "og_done": "og/jong-denemarken-jong-oranje-live-gratis-kijken-13-11-2026-28fbd6.webp"
+  },
+  "1640086": {
+    "item_id": "6af6e13efc3791de91b11b74",
+    "slug": "japan-brazilie-live-gratis-kijken-14-11-2026",
+    "match": "Japan - Brazilië",
+    "date": "2026-11-14",
+    "league": "friendlies",
+    "provider": "Bet365",
+    "home_id": "12",
+    "away_id": "6",
+    "tv_sig": "|Bet365|False|False",
+    "og": "og/japan-brazilie-live-gratis-kijken-14-11-2026-04f88b.webp"
   }
 }
