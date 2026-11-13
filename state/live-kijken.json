@@ -348,5 +348,70 @@
     "tv_sig": "|Bet365|False|False",
     "og": "og/japan-brazilie-live-gratis-kijken-14-11-2026-04f88b.webp",
     "og_done": "og/japan-brazilie-live-gratis-kijken-14-11-2026-04f88b.webp"
+  },
+  "1644696": {
+    "item_id": "6af6eb2e81be670afcacdedb",
+    "slug": "panama-curacao-live-gratis-kijken-16-11-2026",
+    "match": "Panama - Curaçao",
+    "date": "2026-11-16",
+    "league": "concacaf-nations-league",
+    "provider": "Bet365",
+    "home_id": "11",
+    "away_id": "5530",
+    "tv_sig": "|Bet365|False|False",
+    "draft": true,
+    "og": "og/panama-curacao-live-gratis-kijken-16-11-2026-08cca4.webp"
+  },
+  "1649033": {
+    "item_id": "6af6eb451593c12ec51a60d3",
+    "slug": "martinique-aruba-live-gratis-kijken-17-11-2026",
+    "match": "Martinique - Aruba",
+    "date": "2026-11-17",
+    "league": "concacaf-nations-league",
+    "provider": "Bet365",
+    "home_id": "8117",
+    "away_id": "8167",
+    "tv_sig": "|Bet365|False|False",
+    "draft": true,
+    "og": "og/martinique-aruba-live-gratis-kijken-17-11-2026-228f2a.webp"
+  },
+  "1640005": {
+    "item_id": "6af6eb5155cc223e91db9d10",
+    "slug": "belize-sint-maarten-live-gratis-kijken-17-11-2026",
+    "match": "Belize - Sint Maarten",
+    "date": "2026-11-17",
+    "league": "concacaf-nations-league",
+    "provider": "Bet365",
+    "home_id": "5528",
+    "away_id": "10985",
+    "tv_sig": "|Bet365|False|False",
+    "draft": true,
+    "og": "og/belize-sint-maarten-live-gratis-kijken-17-11-2026-748e23.webp"
+  },
+  "1640016": {
+    "item_id": "6af6eb5ceb1eb3264c66e32b",
+    "slug": "saint-kitts-en-nevis-bonaire-live-gratis-kijken-17-11-2026",
+    "match": "Saint Kitts en Nevis - Bonaire",
+    "date": "2026-11-17",
+    "league": "concacaf-nations-league",
+    "provider": "Bet365",
+    "home_id": "5536",
+    "away_id": "10982",
+    "tv_sig": "|Bet365|False|False",
+    "draft": true,
+    "og": "og/saint-kitts-en-nevis-bonaire-live-gratis-kijken-17-11-2026-3477d5.webp"
+  },
+  "1640019": {
+    "item_id": "6af6eb9fb1b510161b3d1e4f",
+    "slug": "sint-maarten-frans-guyana-live-gratis-kijken-14-11-2026",
+    "match": "Sint Maarten - Frans-Guyana",
+    "date": "2026-11-14",
+    "league": "concacaf-nations-league",
+    "provider": "Bet365",
+    "home_id": "10985",
+    "away_id": "8118",
+    "tv_sig": "|Bet365|False|False",
+    "draft": true,
+    "og": "og/sint-maarten-frans-guyana-live-gratis-kijken-14-11-2026-c6170a.webp"
   }
 }
