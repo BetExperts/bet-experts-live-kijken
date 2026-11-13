@@ -1,0 +1,30 @@
+[
+  {
+    "name": "CoinCasino",
+    "slug": "coincasino",
+    "bedrijf": "Onbekend (niet vermeld in de voorwaarden)",
+    "vergunning_elders": "Curaçao",
+    "vergunning_toelichting": "In de eigen voorwaarden noemt CoinCasino Gaming Services Provider N.V., een Curaçaose licentiehouder, als toezichthouder voor klachten. Een Curaçaose licentie is in Nederland niets waard.",
+    "website": "coincasino.com",
+    "ideal": false,
+    "crypto": true,
+    "ksa_maatregel": "",
+    "korte_omschrijving": "CoinCasino is een cryptocasino met sportweddenschappen en een Curaçaose licentie. Zonder Ksa-vergunning is het illegaal in Nederland.",
+    "waarom_illegaal_html": "<p>CoinCasino is een online casino waar je alleen met crypto speelt. Naast slots, livecasino en crashgames biedt het ook sportweddenschappen aan. Wie het bedrijf achter CoinCasino is, staat niet in de algemene voorwaarden van de site.</p><p>Als toezichthouder voor klachten noemt CoinCasino in zijn voorwaarden Gaming Services Provider N.V., een licentiehouder uit Curaçao. Voor Nederland maakt dat niet uit: zo'n buitenlandse licentie is hier niets waard. In Nederland mag alleen een aanbieder met een vergunning van de Kansspelautoriteit (Ksa) online kansspelen aanbieden. CoinCasino heeft die niet en staat dus niet in de Kansspelwijzer.</p><p>Opvallend: Nederland staat niet in de lijst met landen waar CoinCasino volgens de eigen voorwaarden geen spelers toelaat. Landen als het Verenigd Koninkrijk, de Verenigde Staten en Curaçao zelf staan daar wel in. Spelen bij een aanbieder zonder Nederlandse vergunning is strafbaar volgens de Wet op de kansspelen, met een boete tot €11.000.</p>",
+    "uitbetalen_en_bonus_html": "<p>Bij CoinCasino stort en speel je met crypto, zoals bitcoin, ethereum, tether, solana, dogecoin en XRP. Wie geen crypto heeft, kan via een betaalpartner op de site crypto kopen. iDEAL zagen wij niet terug als gewone betaalmethode. Het casino lokt nieuwe spelers met een grote stortingsbonus, en daarnaast met cashback en reloadbonussen. Aan die bonussen zitten voor zover bekend hoge rondspeelvoorwaarden.</p><p>Een uitbetaling is nooit gegarandeerd. Cryptobetalingen kun je niet terugdraaien, er is geen Nederlandse toezichthouder die meekijkt en geen geschillencommissie waar je terechtkunt. Ook is er geen Cruks-check en geen verplichte stortingslimiet, zoals bij legale casino's.</p><p>Win je in een maand meer dan je hebt ingezet? Dan moet je bij een illegale aanbieder zelf aangifte doen van kansspelbelasting (37,8% in 2026). Bij een legale aanbieder regelt het casino dat voor je. De Hoge Raad oordeelde op 3 juli 2026 dat een overeenkomst met een illegale aanbieder niet nietig is. Je verlies terugvragen op die grond lukt dus niet.</p>",
+    "faq": "Is CoinCasino legaal in Nederland?\nNee. CoinCasino heeft geen vergunning van de Kansspelautoriteit en staat niet in de Kansspelwijzer. Spelen bij CoinCasino is strafbaar, met een boete tot €11.000.\n\nIs CoinCasino betrouwbaar?\nNiet volgens de Nederlandse maatstaf. CoinCasino heeft geen Nederlandse vergunning en er is geen Nederlands toezicht op eerlijk spel, uitbetalingen en spelersbescherming. Kies daarom een casino of bookmaker met een Nederlandse vergunning.\n\nWelke licentie heeft CoinCasino?\nCoinCasino noemt in zijn voorwaarden een licentiehouder uit Curaçao. Die licentie geldt niet in Nederland: hier heb je een vergunning van de Kansspelautoriteit nodig, en die heeft CoinCasino niet.\n\nKan ik met iDEAL storten bij CoinCasino?\nWij konden iDEAL niet terugvinden. Bij CoinCasino betaal je met crypto, die je eventueel via een betaalpartner op de site kunt kopen.\n\nWat zijn legale alternatieven voor CoinCasino?\nKies een casino met een vergunning van de Kansspelautoriteit, zoals JACKS.NL, BetMGM of Circus. Die moeten Cruks checken, limieten laten instellen en een netto stortingslimiet hanteren.",
+    "seo_titel": "Is CoinCasino legaal in Nederland? Betrouwbaar? Review 2026",
+    "meta_omschrijving": "Is CoinCasino legaal in Nederland? Nee. Dit cryptocasino heeft geen Ksa-vergunning en geen Nederlands toezicht. Lees de risico's en de legale alternatieven.",
+    "bronnen": [
+      "https://www.coincasino.com/en (pagina rendert alleen client-side; via WebFetch leeg, 26-10-2026)",
+      "https://coincasino.com/robots.txt (paden sports, sports-terms, buy-crypto, bonus-terms, cashback; 15 taalversies, 26-10-2026)",
+      "https://play.coincasino.com/ (307-doorverwijzing naar www.coincasino.com, 26-10-2026)",
+      "https://verification.anjouangamingboard.org/validate?domain=coincasino.com (status INVALID, ook voor www. en play.; Nederland bij excluded territories, 26-10-2026)",
+      "site-static/files/ksa-register.json (Kansspelwijzer, bijgewerkt 26-10-2026; geen CoinCasino)",
+      "https://kansspelautoriteit.nl/aanpak-misstanden/sanctiebesluiten/eod-code-srl (26-10-2026)",
+      "https://kansspelautoriteit.nl/sites/default/files/2026-10/2026-10-06_20970_Boetebesluit%20instantcasino.pdf (boete €37.250.000, 6-10-2026; coincasino.com niet genoemd)",
+      "https://www.casinokrypto.com/review/coincasino/ en https://bestcryptocasino.co.nl/reviews/coincasino/ (alleen als aanwijzing voor exploitant, crypto, bonus; 26-10-2026)"
+    ],
+    "onzeker": "Voorwaarden (22-01-2026) zelf gelezen op 26-10: geen exploitant genoemd, licensing body Gaming Services Provider N.V. (Curaçao), NL niet in Restricted Territories. EOD Code SRL / Anjouan uit reviews niet bevestigd en weggelaten."
+  }
+]
