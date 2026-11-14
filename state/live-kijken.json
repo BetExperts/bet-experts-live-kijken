@@ -6,7 +6,7 @@
     "date": "2026-11-23",
     "league": "eerste-divisie",
     "hub": true,
-    "sig": "9967990a26cc14e668d4f1328c7dd7bd",
+    "sig": "63beb1175e666400b0025bab06b0d7d9",
     "pairs": [
       [
         "203",
@@ -613,5 +613,113 @@
     "tv_sig": "Ziggo Sport 1 (Switch)|Bet365|False|True",
     "og": "og/oostenrijk-ierland-live-gratis-kijken-14-11-2026-76e315.webp",
     "og_done": "og/oostenrijk-ierland-live-gratis-kijken-14-11-2026-76e315.webp"
+  },
+  "1551884": {
+    "item_id": "6af8a4e292602107b8aa4cdc",
+    "slug": "mvv-vitesse-live-gratis-kijken-15-11-2026",
+    "match": "MVV Maastricht - Vitesse",
+    "date": "2026-11-15",
+    "league": "eerste-divisie",
+    "provider": "Bet365",
+    "home_id": "412",
+    "away_id": "200",
+    "tv_sig": "ESPN|Bet365|False|True",
+    "og": "og/mvv-vitesse-live-gratis-kijken-15-11-2026-84ddf2.webp"
+  },
+  "1545616": {
+    "item_id": "6af8a4e6b4fe0aaa37bf6fb9",
+    "slug": "letland-armenie-live-gratis-kijken-15-11-2026",
+    "match": "Letland - Armenië",
+    "date": "2026-11-15",
+    "league": "nations-league",
+    "provider": "Bet365",
+    "home_id": "1092",
+    "away_id": "1094",
+    "tv_sig": "|Bet365|False|False|geen",
+    "og": "og/letland-armenie-live-gratis-kijken-15-11-2026-a7fc5f.webp"
+  },
+  "1528979": {
+    "item_id": "6af8a4ea666c32990fc7e582",
+    "slug": "cyprus-montenegro-live-gratis-kijken-15-11-2026",
+    "match": "Cyprus - Montenegro",
+    "date": "2026-11-15",
+    "league": "nations-league",
+    "provider": "Bet365",
+    "home_id": "1106",
+    "away_id": "1109",
+    "tv_sig": "Ziggo Sport 3|Bet365|False|True",
+    "og": "og/cyprus-montenegro-live-gratis-kijken-15-11-2026-206c8e.webp"
+  },
+  "1528981": {
+    "item_id": "6af8a4ed73c8401fda9fe17b",
+    "slug": "finland-san-marino-live-gratis-kijken-15-11-2026",
+    "match": "Finland - San Marino",
+    "date": "2026-11-15",
+    "league": "nations-league",
+    "provider": "Bet365",
+    "home_id": "1099",
+    "away_id": "1115",
+    "tv_sig": "Ziggo Sport 1|Bet365|False|True",
+    "og": "og/finland-san-marino-live-gratis-kijken-15-11-2026-21211c.webp"
+  },
+  "1528980": {
+    "item_id": "6af8a4f04191fdadf3daca0e",
+    "slug": "wit-rusland-albanie-live-gratis-kijken-15-11-2026",
+    "match": "Belarus - Albanië",
+    "date": "2026-11-15",
+    "league": "nations-league",
+    "provider": "Bet365",
+    "home_id": "1100",
+    "away_id": "778",
+    "tv_sig": "|Bet365|False|False|geen",
+    "og": "og/wit-rusland-albanie-live-gratis-kijken-15-11-2026-08ddae.webp"
+  },
+  "1528983": {
+    "item_id": "6af8a4f337d7fb834f18965b",
+    "slug": "belgie-italie-live-gratis-kijken-15-11-2026",
+    "match": "België - Italië",
+    "date": "2026-11-15",
+    "league": "nations-league",
+    "provider": "Bet365",
+    "home_id": "1",
+    "away_id": "768",
+    "tv_sig": "Ziggo Sport 3|Bet365|False|True",
+    "og": "og/belgie-italie-live-gratis-kijken-15-11-2026-88f246.webp"
+  },
+  "1528982": {
+    "item_id": "6af8a4f64191fdadf3dacd7c",
+    "slug": "frankrijk-turkije-live-gratis-kijken-15-11-2026",
+    "match": "Frankrijk - Turkije",
+    "date": "2026-11-15",
+    "league": "nations-league",
+    "provider": "Bet365",
+    "home_id": "2",
+    "away_id": "777",
+    "tv_sig": "Ziggo Sport 5|Bet365|False|True",
+    "og": "og/frankrijk-turkije-live-gratis-kijken-15-11-2026-781e89.webp"
+  },
+  "1528985": {
+    "item_id": "6af8a4f94ca5b691163087fc",
+    "slug": "kroatie-tsjechie-live-gratis-kijken-15-11-2026",
+    "match": "Kroatië - Tsjechië",
+    "date": "2026-11-15",
+    "league": "nations-league",
+    "provider": "Bet365",
+    "home_id": "3",
+    "away_id": "770",
+    "tv_sig": "Ziggo Sport 1 (Switch)|Bet365|False|True",
+    "og": "og/kroatie-tsjechie-live-gratis-kijken-15-11-2026-132766.webp"
+  },
+  "1528984": {
+    "item_id": "6af8a4fc1618a4be8915556d",
+    "slug": "spanje-engeland-live-gratis-kijken-15-11-2026",
+    "match": "Spanje - Engeland",
+    "date": "2026-11-15",
+    "league": "nations-league",
+    "provider": "Bet365",
+    "home_id": "9",
+    "away_id": "10",
+    "tv_sig": "Ziggo Sport 2|Bet365|False|True",
+    "og": "og/spanje-engeland-live-gratis-kijken-15-11-2026-943684.webp"
   }
 }
