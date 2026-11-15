@@ -6,7 +6,7 @@
     "date": "2026-11-23",
     "league": "eerste-divisie",
     "hub": true,
-    "sig": "0f9c03f9edf566e909be2d0e58045496",
+    "sig": "494b5e84b756d204c19f4c9d59a032f2",
     "pairs": [
       [
         "203",
@@ -730,5 +730,125 @@
     "tv_sig": "Ziggo Sport 2|Bet365|False|True",
     "og": "og/spanje-engeland-live-gratis-kijken-15-11-2026-943684.webp",
     "og_done": "og/spanje-engeland-live-gratis-kijken-15-11-2026-943684.webp"
+  },
+  "1528986": {
+    "item_id": "6af9f66583632b6c4551e6fa",
+    "slug": "kazachstan-slowakije-live-gratis-kijken-16-11-2026",
+    "match": "Kazachstan - Slowakije",
+    "date": "2026-11-16",
+    "league": "nations-league",
+    "provider": "Bet365",
+    "home_id": "1095",
+    "away_id": "773",
+    "tv_sig": "Ziggo Sport 2|Bet365|False|True",
+    "og": "og/kazachstan-slowakije-live-gratis-kijken-16-11-2026-71099d.webp"
+  },
+  "1528987": {
+    "item_id": "6af9f669c5f76379192b19b0",
+    "slug": "faeroer-moldavie-live-gratis-kijken-16-11-2026",
+    "match": "Faeröer - Moldavië",
+    "date": "2026-11-16",
+    "league": "nations-league",
+    "provider": "Bet365",
+    "home_id": "1098",
+    "away_id": "1114",
+    "tv_sig": "|Bet365|False|False|geen",
+    "og": "og/faeroer-moldavie-live-gratis-kijken-16-11-2026-677deb.webp"
+  },
+  "1545617": {
+    "item_id": "6af9f66cc5f76379192b1ac0",
+    "slug": "ijsland-luxemburg-live-gratis-kijken-16-11-2026",
+    "match": "IJsland - Luxemburg",
+    "date": "2026-11-16",
+    "league": "nations-league",
+    "provider": "Bet365",
+    "home_id": "18",
+    "away_id": "1102",
+    "tv_sig": "|Bet365|False|False|geen",
+    "og": "og/ijsland-luxemburg-live-gratis-kijken-16-11-2026-c1b50c.webp"
+  },
+  "1528989": {
+    "item_id": "6af9f6700ecb2f6ed10b8b99",
+    "slug": "litouwen-liechtenstein-live-gratis-kijken-16-11-2026",
+    "match": "Litouwen - Liechtenstein",
+    "date": "2026-11-16",
+    "league": "nations-league",
+    "provider": "Bet365",
+    "home_id": "1097",
+    "away_id": "1107",
+    "tv_sig": "|Bet365|False|False|geen",
+    "og": "og/litouwen-liechtenstein-live-gratis-kijken-16-11-2026-183eb1.webp"
+  },
+  "1528988": {
+    "item_id": "6af9f674a91e0603db8f7eef",
+    "slug": "estland-bulgarije-live-gratis-kijken-16-11-2026",
+    "match": "Estland - Bulgarije",
+    "date": "2026-11-16",
+    "league": "nations-league",
+    "provider": "Bet365",
+    "home_id": "1101",
+    "away_id": "1103",
+    "tv_sig": "Ziggo Sport 1 en Ziggo Sport 3|Bet365|False|True",
+    "og": "og/estland-bulgarije-live-gratis-kijken-16-11-2026-4ceb89.webp"
+  },
+  "1545652": {
+    "item_id": "6af9f6764b333e8b0326c06d",
+    "slug": "zwitserland-schotland-live-gratis-kijken-16-11-2026",
+    "match": "Zwitserland - Schotland",
+    "date": "2026-11-16",
+    "league": "nations-league",
+    "provider": "Bet365",
+    "home_id": "15",
+    "away_id": "1108",
+    "tv_sig": "|Bet365|False|False|geen",
+    "og": "og/zwitserland-schotland-live-gratis-kijken-16-11-2026-1a0ec1.webp"
+  },
+  "1528990": {
+    "item_id": "6af9f67a3828901b3e1b23a9",
+    "slug": "duitsland-nederland-live-gratis-kijken-16-11-2026",
+    "match": "Duitsland - Nederland",
+    "date": "2026-11-16",
+    "league": "nations-league",
+    "provider": "Bet365",
+    "home_id": "25",
+    "away_id": "1118",
+    "tv_sig": "NPO 3|Bet365|True|False",
+    "og": "og/duitsland-nederland-live-gratis-kijken-16-11-2026-c52280.webp"
+  },
+  "1545618": {
+    "item_id": "6af9f67d0ecb2f6ed10b9067",
+    "slug": "gibraltar-malta-live-gratis-kijken-16-11-2026",
+    "match": "Gibraltar - Malta",
+    "date": "2026-11-16",
+    "league": "nations-league",
+    "provider": "Bet365",
+    "home_id": "1093",
+    "away_id": "1112",
+    "tv_sig": "|Bet365|False|False|geen",
+    "og": "og/gibraltar-malta-live-gratis-kijken-16-11-2026-e0bc07.webp"
+  },
+  "1545662": {
+    "item_id": "6af9f680f610cfffbef8289f",
+    "slug": "noord-macedonie-slovenie-live-gratis-kijken-16-11-2026",
+    "match": "Noord-Macedonië - Slovenië",
+    "date": "2026-11-16",
+    "league": "nations-league",
+    "provider": "Bet365",
+    "home_id": "1105",
+    "away_id": "1091",
+    "tv_sig": "|Bet365|False|False|geen",
+    "og": "og/noord-macedonie-slovenie-live-gratis-kijken-16-11-2026-fbc064.webp"
+  },
+  "1528991": {
+    "item_id": "6af9f683bb88a6f0e16158cd",
+    "slug": "griekenland-servie-live-gratis-kijken-16-11-2026",
+    "match": "Griekenland - Servië",
+    "date": "2026-11-16",
+    "league": "nations-league",
+    "provider": "Bet365",
+    "home_id": "1117",
+    "away_id": "14",
+    "tv_sig": "Ziggo Sport 1|Bet365|False|True",
+    "og": "og/griekenland-servie-live-gratis-kijken-16-11-2026-873ba2.webp"
   }
 }
