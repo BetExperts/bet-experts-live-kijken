@@ -2871,5 +2871,195 @@
   "tv": null,
   "bookmaker_stream": false,
   "bron": "Ziggo-programma Nations League (ziggo.nl, 9-11-2026): geen Nederlandse uitzending"
+ },
+ "1551887": {
+  "wedstrijd": "Almere City FC - NAC Breda",
+  "tv": "ESPN Extra",
+  "bron": "weekgids 17-11-2026"
+ },
+ "1551888": {
+  "wedstrijd": "De Graafschap - MVV",
+  "tv": "ESPN Extra",
+  "bron": "weekgids 17-11-2026"
+ },
+ "1551889": {
+  "wedstrijd": "Den Bosch - VVV Venlo",
+  "tv": "ESPN 3",
+  "bron": "weekgids 17-11-2026"
+ },
+ "1551890": {
+  "wedstrijd": "FC Volendam - Jong Ajax",
+  "tv": "ESPN 4",
+  "bron": "weekgids 17-11-2026"
+ },
+ "1551891": {
+  "wedstrijd": "Helmond Sport - Dordrecht",
+  "tv": "ESPN Extra",
+  "bron": "weekgids 17-11-2026"
+ },
+ "1551892": {
+  "wedstrijd": "Heracles - Jong PSV U21",
+  "tv": "ESPN 2",
+  "bron": "weekgids 17-11-2026"
+ },
+ "1551893": {
+  "wedstrijd": "Jong Utrecht - Emmen",
+  "tv": "ESPN Extra",
+  "bron": "weekgids 17-11-2026"
+ },
+ "1551894": {
+  "wedstrijd": "FC OSS - Roda",
+  "tv": "ESPN Extra",
+  "bron": "weekgids 17-11-2026"
+ },
+ "1551895": {
+  "wedstrijd": "Vitesse - Jong AZ",
+  "tv": "ESPN Extra",
+  "bron": "weekgids 17-11-2026"
+ },
+ "1570454": {
+  "wedstrijd": "Athletic Club - Espanyol",
+  "tv": "Ziggo Sport 2",
+  "bron": "weekgids 17-11-2026"
+ },
+ "1551896": {
+  "wedstrijd": "FC Eindhoven - Waalwijk",
+  "tv": "ESPN",
+  "bron": "weekgids 17-11-2026"
+ },
+ "1552229": {
+  "wedstrijd": "NEC Nijmegen - PSV Eindhoven",
+  "tv": "ESPN 2",
+  "bron": "weekgids 17-11-2026"
+ },
+ "1552233": {
+  "wedstrijd": "Utrecht - Cambuur",
+  "tv": "ESPN 3",
+  "bron": "weekgids 17-11-2026"
+ },
+ "1552226": {
+  "wedstrijd": "Feyenoord - Excelsior",
+  "tv": "ESPN",
+  "bron": "weekgids 17-11-2026"
+ },
+ "1552228": {
+  "wedstrijd": "Groningen - Heerenveen",
+  "tv": "ESPN",
+  "bron": "weekgids 17-11-2026"
+ },
+ "1552231": {
+  "wedstrijd": "Telstar - PEC Zwolle",
+  "tv": "ESPN 2",
+  "bron": "weekgids 17-11-2026"
+ },
+ "1550200": {
+  "wedstrijd": "Como - Cagliari",
+  "tv": "Ziggo Sport 2",
+  "bron": "weekgids 17-11-2026"
+ },
+ "1550205": {
+  "wedstrijd": "Parma - AS Roma",
+  "tv": "Ziggo Sport 2",
+  "bron": "weekgids 17-11-2026"
+ },
+ "1550204": {
+  "wedstrijd": "Napoli - Torino",
+  "tv": "Ziggo Sport 2",
+  "bron": "weekgids 17-11-2026"
+ },
+ "1570462": {
+  "wedstrijd": "Sevilla - Real Betis",
+  "tv": "Ziggo Sport",
+  "bron": "weekgids 17-11-2026"
+ },
+ "1570461": {
+  "wedstrijd": "Real Madrid - Celta Vigo",
+  "tv": "Ziggo Sport",
+  "bron": "weekgids 17-11-2026"
+ },
+ "1552232": {
+  "wedstrijd": "Twente - Willem II",
+  "tv": "ESPN 2",
+  "bron": "weekgids 17-11-2026"
+ },
+ "1552225": {
+  "wedstrijd": "Ajax - ADO Den Haag",
+  "tv": "ESPN 3",
+  "bron": "weekgids 17-11-2026"
+ },
+ "1552230": {
+  "wedstrijd": "Sparta Rotterdam - AZ Alkmaar",
+  "tv": "ESPN",
+  "bron": "weekgids 17-11-2026"
+ },
+ "1552227": {
+  "wedstrijd": "GO Ahead Eagles - Fortuna Sittard",
+  "tv": "ESPN 2",
+  "bron": "weekgids 17-11-2026"
+ },
+ "1550201": {
+  "wedstrijd": "Juventus - Venezia",
+  "tv": "Ziggo Sport 4",
+  "bron": "weekgids 17-11-2026"
+ },
+ "1550199": {
+  "wedstrijd": "Bologna - Udinese",
+  "tv": "Ziggo Sport 4",
+  "bron": "weekgids 17-11-2026"
+ },
+ "1550197": {
+  "wedstrijd": "AC Milan - Frosinone",
+  "tv": "Ziggo Sport",
+  "bron": "weekgids 17-11-2026"
+ },
+ "1570455": {
+  "wedstrijd": "Barcelona - Villarreal",
+  "tv": "Ziggo Sport 2",
+  "bron": "weekgids 17-11-2026"
+ },
+ "1551885": {
+  "wedstrijd": "Jong Ajax - Jong AZ",
+  "tv": "ESPN 2",
+  "bron": "weekgids 17-11-2026"
+ },
+ "1551886": {
+  "wedstrijd": "Jong PSV U21 - Jong Utrecht",
+  "tv": "ESPN 3",
+  "bron": "weekgids 17-11-2026"
+ },
+ "1635641": {
+  "wedstrijd": "Bodo/Glimt - Lask Linz",
+  "tv": "Ziggo Sport 4",
+  "bron": "weekgids 17-11-2026"
+ },
+ "1635667": {
+  "wedstrijd": "Galatasaray - Aston Villa",
+  "tv": "Ziggo Sport en Ziggo Sport 3",
+  "bron": "weekgids 17-11-2026"
+ },
+ "1635611": {
+  "wedstrijd": "Arsenal - Borussia Dortmund",
+  "tv": "Ziggo Sport 3",
+  "bron": "weekgids 17-11-2026"
+ },
+ "1635649": {
+  "wedstrijd": "Como - AEK Athens FC",
+  "tv": "Ziggo Sport 6",
+  "bron": "weekgids 17-11-2026"
+ },
+ "1635663": {
+  "wedstrijd": "Feyenoord - FC Porto",
+  "tv": "Ziggo Sport",
+  "bron": "weekgids 17-11-2026"
+ },
+ "1635692": {
+  "wedstrijd": "Manchester City - Napoli",
+  "tv": "Ziggo Sport 5",
+  "bron": "weekgids 17-11-2026"
+ },
+ "1635715": {
+  "wedstrijd": "Real Madrid - PSV Eindhoven",
+  "tv": "Ziggo Sport 2",
+  "bron": "weekgids 17-11-2026"
  }
 }
