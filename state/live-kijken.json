@@ -6,7 +6,7 @@
     "date": "2026-11-23",
     "league": "eerste-divisie",
     "hub": true,
-    "sig": "7874379196ff18a2f40733323de34e6d",
+    "sig": "bd840df42b9d502ab46377afaf555771",
     "pairs": [
       [
         "203",
@@ -998,7 +998,7 @@
     "date": "2026-11-21",
     "league": "eerste-divisie",
     "hub": true,
-    "sig": "5c862c4ad39d858e39f1bb4a6676c1e2",
+    "sig": "292100ad31f20bdc9d69b917ff631a0b",
     "pairs": [
       [
         "199",
@@ -1062,7 +1062,7 @@
     "date": "2026-11-22",
     "league": "bundesliga",
     "hub": true,
-    "sig": "122d9f3ed6635665e69849d07e7c64b6",
+    "sig": "84e66c2f04db72b2a36f583b27fc2bc7",
     "pairs": [
       [
         "157",
@@ -1121,7 +1121,7 @@
     "date": "2026-11-22",
     "league": "ligue-1",
     "hub": true,
-    "sig": "1f796c994ff18e73ccc8c6aa1e25117e",
+    "sig": "98d871fe9883feb19b61c9ee1f0f1ec6",
     "pairs": [
       [
         "110",
@@ -1180,7 +1180,7 @@
     "date": "2026-11-22",
     "league": "jupiler-pro-league",
     "hub": true,
-    "sig": "47f97ec4620de7160636bc43c4351a6b",
+    "sig": "6ee4286f013a41b8d272d1f6a3ffea2a",
     "pairs": [
       [
         "261",
@@ -1231,5 +1231,68 @@
     "ronde": "Regular Season - 12",
     "og": "og/jupiler-pro-league-speelronde-12-op-tv-20-november-2026-255c96.webp",
     "og_done": "og/jupiler-pro-league-speelronde-12-op-tv-20-november-2026-255c96.webp"
+  },
+  "hub:la-liga-speelronde-13-op-tv-20-november-2026": {
+    "item_id": "6afcb7547886fc90efb75efd",
+    "slug": "la-liga-speelronde-13-op-tv-20-november-2026",
+    "match": "La Liga speelronde 13",
+    "date": "2026-11-23",
+    "league": "la-liga",
+    "hub": true,
+    "sig": "4a4c889e13eb4becbcedf8cac068d806",
+    "pairs": [
+      [
+        "531",
+        "540",
+        "2026-11-20"
+      ],
+      [
+        "542",
+        "544",
+        "2026-11-21"
+      ],
+      [
+        "532",
+        "728",
+        "2026-11-21"
+      ],
+      [
+        "536",
+        "543",
+        "2026-11-21"
+      ],
+      [
+        "538",
+        "541",
+        "2026-11-21"
+      ],
+      [
+        "529",
+        "533",
+        "2026-11-22"
+      ],
+      [
+        "4665",
+        "548",
+        "2026-11-22"
+      ],
+      [
+        "535",
+        "727",
+        "2026-11-22"
+      ],
+      [
+        "530",
+        "546",
+        "2026-11-22"
+      ],
+      [
+        "539",
+        "797",
+        "2026-11-23"
+      ]
+    ],
+    "ronde": "Regular Season - 13",
+    "og": "og/la-liga-speelronde-13-op-tv-20-november-2026-a888c2.webp"
   }
 }
