@@ -226,6 +226,11 @@ def build_fielddata(ctx, league_cfg, slug=None):
         "datum-tijd-van-wedstrijd": ctx["dt"].isoformat(),
         "tijd-wedstrijd": B.nl_tijd(ctx["dt"]),
     }
+    # 17-11-2026: zender ook als CMS-veld. De live-kijken-hub (hub/live-kijken-hub-embed.html) leest
+    # data-tv per kaart en valt anders terug op een vaste zender per competitie, dus zonder dit veld
+    # toont de hub nooit het exacte kanaal (ESPN 2, Ziggo Sport 5). Bron: data/tv_wedstrijden.json.
+    if ctx.get("tv"):
+        fd["tv-zender"] = ctx["tv"]
     if ctx.get("homeId"):
         fd["home-team-id"] = str(ctx["homeId"])
     if ctx.get("awayId"):
