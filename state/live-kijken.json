@@ -1052,7 +1052,8 @@
       ]
     ],
     "ronde": "Regular Season - 16",
-    "og": "og/keuken-kampioen-divisie-speelronde-16-op-tv-20-november-2026-4ec313.webp"
+    "og": "og/keuken-kampioen-divisie-speelronde-16-op-tv-20-november-2026-4ec313.webp",
+    "og_done": "og/keuken-kampioen-divisie-speelronde-16-op-tv-20-november-2026-4ec313.webp"
   },
   "hub:bundesliga-speelronde-10-op-tv-20-november-2026": {
     "item_id": "6afcafc8ce590d00ebfdb36f",
@@ -1110,7 +1111,8 @@
       ]
     ],
     "ronde": "Regular Season - 10",
-    "og": "og/bundesliga-speelronde-10-op-tv-20-november-2026-fd3b65.webp"
+    "og": "og/bundesliga-speelronde-10-op-tv-20-november-2026-fd3b65.webp",
+    "og_done": "og/bundesliga-speelronde-10-op-tv-20-november-2026-fd3b65.webp"
   },
   "hub:ligue-1-speelronde-11-op-tv-20-november-2026": {
     "item_id": "6afcafc90a0ab79f2428e49f",
@@ -1168,7 +1170,8 @@
       ]
     ],
     "ronde": "Regular Season - 11",
-    "og": "og/ligue-1-speelronde-11-op-tv-20-november-2026-552e52.webp"
+    "og": "og/ligue-1-speelronde-11-op-tv-20-november-2026-552e52.webp",
+    "og_done": "og/ligue-1-speelronde-11-op-tv-20-november-2026-552e52.webp"
   },
   "hub:jupiler-pro-league-speelronde-12-op-tv-20-november-2026": {
     "item_id": "6afcafcb180767b2da7774c6",
@@ -1226,6 +1229,7 @@
       ]
     ],
     "ronde": "Regular Season - 12",
-    "og": "og/jupiler-pro-league-speelronde-12-op-tv-20-november-2026-255c96.webp"
+    "og": "og/jupiler-pro-league-speelronde-12-op-tv-20-november-2026-255c96.webp",
+    "og_done": "og/jupiler-pro-league-speelronde-12-op-tv-20-november-2026-255c96.webp"
   }
 }
