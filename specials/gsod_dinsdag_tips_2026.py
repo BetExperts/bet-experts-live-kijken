@@ -21,7 +21,15 @@ Aspinall gooide 111,68 en Van Veen 110,51: de twee hoogste van alle zestien spel
 Bewust GEEN tip op: Clemens -1,5 (moet weliswaar met 2+
 winnen, maar gooide zondag 84,43), Van Gerwen -1,5 (won zaterdag maar met 5-4), Dobey - Schindler en Ratajski - Sykes
 (te dicht bij elkaar). Dat staat zo in de tekst.
-Feiten maandaguitslagen + fitheid: specials/gsod_dinsdag_feiten.md.
+Feiten maandaguitslagen + fitheid + H2H: specials/gsod_dinsdag_feiten.md (17-11, tweede ronde).
+Daaruit toegevoegd na publicatie: officiele aanvangstijd per wedstrijd (pdc.tv-toernooihub), Zonneveld 5-4 Littler
+(einde reeks van 15), Humphries' voedselvergiftiging + zijn eigen 'probably second favourite', Cullens galblaasoperatie,
+Sedlacek won in september nog van Aspinall (6-3, PC30), Van Veen 3-1 H2H + oefenzege 6-2 op Humphries, en vooral:
+EVANS WON TWEE VAN DE LAATSTE DRIE VAN WADE (3-2 WK, 6-4 Baltic Sea). Die laatste stond er eerst niet in; de eerste
+versie had in plaats daarvan een niet-onderbouwde claim over Evans' speeltempo. Verwijderd.
+Alle acht groepsscenario's zijn na publicatie geverifieerd tegen de officiele permutatiepagina van Sky Sports: alle acht
+komen exact overeen met onze eigen doorrekening. NIET schrijven: rugklachten Dobey (bestaan niet), polsblessure Aspinall
+(hij spreekt over 'my throw'), en wie tweede werd in groep A (bronnen spreken elkaar tegen).
   python3 specials/gsod_dinsdag_tips_2026.py   (dry run)
   kaart: ../superodd-agent/.venv/bin/python og_kaarten/gsod.py gsod_dinsdag_tips_2026
   publiceren: set -a; . ../superodd-agent/.env; set +a; ../superodd-agent/.venv/bin/python specials/concept_publiceer.py gsod_dinsdag_tips_2026 --live
@@ -59,14 +67,14 @@ L = {"711": '<a href="/bookmakers/711">711</a>',
      "regels": G.EXTRA["regels"], "viaplay": G.EXTRA["viaplay"], "livekijken": G.EXTRA["livekijken"]}
 
 # (volgorde, groep, wedstrijd, odds thuis - uit)  711, dinsdagochtend 17-11
-PROGRAMMA = [("1", "J", "Krzysztof Ratajski – Tom Sykes", "1,73 – 2,10"),
-             ("2", "O", "Gabriel Clemens – Rusty-Jake Rodriguez", "1,28 – 3,70"),
-             ("3", "N", "Chris Dobey – Martin Schindler", "1,68 – 2,20"),
-             ("4", "K", "<strong>James Wade – Ricky Evans</strong>", "1,30 – 3,50"),
-             ("5", "M", "<strong>Gian van Veen – Bradley Brooks</strong>", "1,45 – 2,75"),
-             ("6", "I", "<strong>Luke Humphries – Joe Cullen</strong>", "1,17 – 5,00"),
-             ("7", "L", "Michael van Gerwen – Jeffrey de Graaf", "1,54 – 2,50"),
-             ("8", "P", "<strong>Nathan Aspinall – Karel Sedláček</strong>", "1,43 – 2,85")]
+PROGRAMMA = [("20:15", "J", "Krzysztof Ratajski – Tom Sykes", "1,73 – 2,10"),
+             ("20:45", "O", "Gabriel Clemens – Rusty-Jake Rodriguez", "1,28 – 3,70"),
+             ("21:15", "N", "Chris Dobey – Martin Schindler", "1,68 – 2,20"),
+             ("21:45", "K", "<strong>James Wade – Ricky Evans</strong>", "1,30 – 3,50"),
+             ("22:15", "M", "<strong>Gian van Veen – Bradley Brooks</strong>", "1,45 – 2,75"),
+             ("22:45", "I", "<strong>Luke Humphries – Joe Cullen</strong>", "1,17 – 5,00"),
+             ("23:15", "L", "Michael van Gerwen – Jeffrey de Graaf", "1,54 – 2,50"),
+             ("23:45", "P", "<strong>Nathan Aspinall – Karel Sedláček</strong>", "1,43 – 2,85")]
 
 TIPS = [("Humphries – Cullen", "Groep I", "Luke Humphries -2,5 legs", "Leg handicap", "1,76"),
         ("Aspinall – Sedláček", "Groep P", "Nathan Aspinall -1,5 legs", "Leg handicap", "1,78"),
@@ -130,14 +138,15 @@ content = f"""<p><strong>Onze 4 beste wedtips voor dinsdagavond 17 november op d
 <p>Dit is de avond waarop de tweede helft van het toernooi wordt uitgedund van 24 naar 8 spelers. In elk van deze acht groepen gaat <strong>alleen de winnaar</strong> door naar de laatste 16 — er is geen tweede plek. In vier groepen is het vanavond een zuivere knock-out tussen twee spelers met evenveel punten. In de andere vier ligt het subtieler: daar beslist het legsaldo, en dan maakt het ineens uit of iemand met 5-4 of met 5-2 wint. Wij hebben dat per groep uitgerekend; de tabel staat hieronder.</p>
 <p>Zaterdag en zondag werden de eerste twee speelrondes afgewerkt, maandagavond vielen de beslissingen in de groepen A tot en met H. Daardoor liggen de eerste vier affiches van de laatste 16 al vast, en die worden woensdag gespeeld.</p>
 {tabel(["Woensdag 18 november", "Groepswinnaars"], LAATSTE16)}
-<p>Voor Nederland betekent dat twee namen door en twee namen eruit: <strong>Jermaine Wattimena</strong> en <strong>Kevin Doets</strong> staan woensdag op het podium, terwijl Wessel Nijman en Niels Zonneveld hun groep niet wonnen. Dinsdagavond kunnen daar Gian van Veen en Michael van Gerwen bij komen. Onze tips van de openingsdag en hoe die uitpakten, lees je in {L['dag1']}. Een tip blijft een inschatting; zet alleen in wat je kunt missen.</p>
+<p>Maandagavond leverde meteen de klapper van het toernooi op, en die was Nederlands: <strong>Niels Zonneveld versloeg Luke Littler met 5-4</strong> en maakte daarmee een einde aan Littlers reeks van vijftien opeenvolgende zeges op de Grand Slam. Littler gooide in die partij nog 150 uit met drie keer bull om in leven te blijven, maar had zijn groep toen al gewonnen — Zonneveld niet, en die ligt er ondanks de stunt uit. Ook <strong>Jermaine Wattimena</strong> had het zwaar: hij miste acht matchdarts tegen Alan Soutar voordat hij op dubbel 8 afmaakte. Wessel Nijman verloor met 3-5 van Niko Springer, die in de tweede leg een 11-darter gooide.</p>
+<p>Voor Nederland betekent dat twee namen door: <strong>Wattimena</strong> en <strong>Kevin Doets</strong> staan woensdag op het podium. Dinsdagavond kunnen daar Gian van Veen en Michael van Gerwen bij komen. Onze tips van de openingsdag en hoe die uitpakten, lees je in {L['dag1']}. Een tip blijft een inschatting; zet alleen in wat je kunt missen.</p>
 <h3><strong>De 4 beste wedtips voor dinsdagavond</strong></h3>
 {tabel(["Wedstrijd", "Groep", "Onze tip", "Markt", "Odd"],
        [(f"<strong>{w}</strong>", g, t, m, f"<strong>{o}</strong>") for w, g, t, m, o in TIPS])}
 <p><em>Odds bij {L['711']}, opgehaald op dinsdagochtend 17 november. Odds kunnen tot de start nog veranderen. Het zijn vier losse tips: wie ze combineert komt uit op ongeveer {COMBI}, maar dan moeten ze alle vier goed gaan. {UITLEG_HC}</em></p>
 <h3><strong>Het programma van dinsdagavond (20:00 uur)</strong></h3>
-{tabel(["Volgorde", "Groep", "Wedstrijd", "Odds (winnaar)"], PROGRAMMA)}
-<p><em>De sessie begint om 20:00 uur Nederlandse tijd (19:00 uur Britse tijd). Alleen de eerste partij heeft een vaste aanvangstijd; de rest volgt zodra de vorige klaar is. De volgorde kan de PDC nog wijzigen. Alle groepswedstrijden gaan over best of 9 legs: de eerste speler op vijf legs wint.</em></p>
+{tabel(["Tijd", "Groep", "Wedstrijd", "Odds (winnaar)"], PROGRAMMA)}
+<p><em>De zaal gaat om 20:00 uur open; dit zijn de officiële richttijden per wedstrijd in Nederlandse tijd. Loopt een partij uit, dan schuift de rest op. Alle groepswedstrijden gaan over best of 9 legs: de eerste speler op vijf legs wint. Onze drie laatste tips staan dus laat op de avond: 21:45, 22:15, 22:45 en 23:45.</em></p>
 <h3><strong>Wat heeft iedereen vanavond nodig?</strong></h3>
 <p>Dit is de tabel waar het vanavond om draait, en hij staat nergens anders zo uitgeschreven. Wij hebben alle uitslagen van zaterdag en zondag ingevoerd en per groep doorgerekend welke uitslag wie doorstuurt. De volgorde bij gelijke punten is: <strong>eerst het aantal punten, dan het legsaldo, dan het onderlinge resultaat</strong>.</p>
 {tabel(["Groep", "Beslissingsduel", "Stand voor het duel", "Wat er moet gebeuren"],
@@ -155,7 +164,8 @@ content2 = f"""<h3><strong>Tip 1: Luke Humphries – Joe Cullen (groep I)</stron
          "Cullen heeft alleen aan een 5-0 genoeg om zelf door te gaan — bij elke andere zege profiteert Nebrida. Dat is een slopend scenario om voor te spelen.",
          "Humphries won zijn eigen partij met 5-3 en is de hoogst geplaatste speler van de avond."])}
 {markt("Leg handicap -2,5: de speler begint in gedachten met 2,5 leg achterstand en moet dus met minstens drie legs verschil winnen. Bij 5-2 win je, bij 5-3 verlies je.")}
-<p><strong>De keerzijde.</strong> Dit is de tip met de grootste marge die we vragen: drie legs in een best of 9 betekent dat Cullen hoogstens twee legs mag pakken. Cullen is een voormalig halvefinalist van het WK die alleen deze week niet in vorm is, en één goede avond verandert dat. Liever veiliger? Humphries -1,5 legs staat op 1,35.</p>
+<p><strong>Het fysieke verhaal, en het is er een.</strong> Humphries miste in oktober het EK in Dortmund door een voedselvergiftiging en lag daarna lang stil. Zijn eigen woorden na zijn eerste partij hier: <em>"The food poisoning meant I had to take a step back, and it's like, well, I haven't thrown for probably two or three weeks."</em> En: <em>"Who knows? Am I going to come back and still be the same again, or are we going to have to work for two or three months to try to get back to that level?"</em> Hij noemt zichzelf nu uitdrukkelijk niet de favoriet, maar <em>"probably second favourite"</em>. Dat hoort erbij als je op hem inzet. Daar staat tegenover dat hij in zijn eerste partij gewoon 105,70 gooide, en dat zijn tegenstander een eigen verhaal heeft: Cullen onderging in september een galblaasoperatie en zei daarover <em>"I am not sure how I will play from game to game, which is frustrating as a darts player."</em></p>
+<p><strong>De keerzijde.</strong> Dit is de tip met de grootste marge die we vragen: drie legs in een best of 9 betekent dat Cullen hoogstens twee legs mag pakken. Cullen is een voormalig halvefinalist van het WK, en één goede avond verandert veel. Liever veiliger? Humphries -1,5 legs staat op 1,35.</p>
 <h3><strong>Tip 2: Nathan Aspinall – Karel Sedláček (groep P)</strong></h3>
 <p><strong>De tip: Nathan Aspinall -1,5 legs, odd 1,78.</strong> Aspinall moet met minstens twee legs verschil winnen. Rekenvoorbeeld: bij 5-3 is de tip goed, bij 5-4 is de tip verloren.</p>
 <p><strong>Waarom deze markt?</strong> Aspinall winnen staat op 1,43: te laag voor een losse tip. Met de leg handicap vragen we één ding extra en krijgen we een odd die wél de moeite waard is.</p>
@@ -167,7 +177,8 @@ content2 = f"""<h3><strong>Tip 1: Luke Humphries – Joe Cullen (groep I)</stron
          "Sedláček moet voor een eigen kans met minstens drie legs verschil winnen; hij kan niet voorzichtig spelen.",
          "Aspinall heeft met +4 het ruimste legsaldo van alle acht spelers die dinsdag nog een kans hebben."])}
 {markt(UITLEG_HC)}
-<p><strong>De keerzijde.</strong> Aspinall kán zich een nederlaag met 4-5 permitteren, en een speler die weet dat hij genoeg heeft aan weinig, speelt soms ook naar weinig. Daarnaast is één partij een smalle basis: 111,68 zegt iets, maar niet alles. Liever veiliger? Aspinall winnen zonder handicap staat op 1,43.</p>
+<p><strong>Wat die 111,68 precies was.</strong> Het is zijn hoogste televisiegemiddelde ooit én zijn hoogste op een major. Hij gooide in die partij 149 en 120 uit en kwam in de slotleg tot <strong>zeven perfecte darts</strong> voordat de negendarter sneuvelde. Over zijn eigen hoofd is hij open: hij worstelt al langer met zijn worp, maar zegt nu <em>"I'm in a very, very good headspace at the moment."</em> Over vanavond: <em>"He knows I'm going to be on it when I play him, and I'll come out of that game on top."</em></p>
+<p><strong>De keerzijde, en die is reëel.</strong> Onderling staat het 6-2 voor Aspinall, maar <strong>Sedláček won de laatste ontmoeting</strong>: 6-3 in Den Bosch in september, op weg naar zijn eerste rankingtitel ooit — de eerste Tsjech met een PDC-titel. Aspinall kan zich bovendien een nederlaag met 4-5 permitteren, en een speler die weet dat hij genoeg heeft aan weinig, speelt soms ook naar weinig. Liever veiliger? Aspinall winnen zonder handicap staat op 1,43.</p>
 <h3><strong>Tip 3: Gian van Veen – Bradley Brooks (groep M)</strong></h3>
 <p><strong>De tip: Gian van Veen -1,5 legs, odd 1,83.</strong> Van Veen moet met minstens twee legs verschil winnen. Bij 5-3 win je, bij 5-4 verlies je.</p>
 <p><strong>Waarom deze markt?</strong> Van Veen winnen staat op 1,45. De handicap verhoogt dat naar 1,83 en vraagt er maar één leg marge voor terug.</p>
@@ -179,7 +190,8 @@ content2 = f"""<h3><strong>Tip 1: Luke Humphries – Joe Cullen (groep I)</stron
          "Van Veen is dit seizoen gestegen tot de wereldtop en speelt in de zaal waar hij vorig jaar al indruk maakte.",
          "Brooks is de laagst geplaatste van de twee en moet het hebben van een uitschieter."])}
 {markt(UITLEG_HC)}
-<p><strong>De keerzijde.</strong> Brooks is geen vulling: hij won zijn partij gewoon en een best of 9 is kort — één break en het staat ineens 5-4. Dit is van onze drie tips degene met de hoogste odd, en dat is niet voor niets. Liever veiliger? Van Veen winnen staat op 1,45.</p>
+<p><strong>Onderling en vooraf.</strong> Ze speelden vier keer op de Pro Tour, met 3-1 voor Van Veen, en nooit eerder op televisie. Veelzeggender: op 8 november, tien dagen voor dit toernooi, won Van Veen een oefenpartij met 6-2 van Luke Humphries.</p>
+<p><strong>De keerzijde, en die is er.</strong> Brooks is geen vulling: hij plaatste zich via het kwalificatietoernooi door Dave Chisnall met 106,31 gemiddeld te verslaan, en gooide hier vijf keer 180. Hij zei zelf over Van Veen: <em>"After looking at Gian and Carl's game yesterday, with those averages, I'm glad I weren't playing in that because I'd probably have lost."</em> Dat klinkt nederig, maar het is ook een man die weet waar hij aan begint. En Van Veens laatste televisiewedstrijd vóór dit toernooi was een 3-0 nederlaag tegen James Wade met 81,6 gemiddeld. Een best of 9 is kort: één break en het staat 5-4. Dit is van onze vier tips degene met de hoogste odd, en dat is niet voor niets. Liever veiliger? Van Veen winnen staat op 1,45.</p>
 <h3><strong>Tip 4: James Wade – Ricky Evans (groep K)</strong></h3>
 <p><strong>De tip: James Wade -1,5 legs, odd 1,54.</strong> Wade moet met minstens twee legs verschil winnen.</p>
 <p><strong>Waarom deze markt?</strong> Wade winnen staat op 1,30 — te kort. Met -1,5 komt de odd op 1,54.</p>
@@ -191,7 +203,7 @@ content2 = f"""<h3><strong>Tip 1: Luke Humphries – Joe Cullen (groep I)</stron
          "Evans is traditioneel een snelle speler die bij tegenslag nog sneller gaat gooien — zelden goed voor een nipte uitslag.",
          "Wade is de enige van de twee met ervaring in de latere rondes van dit toernooi."])}
 {markt(UITLEG_HC)}
-<p><strong>De keerzijde.</strong> 1,54 is de laagste odd van onze drie, dus hier is de marge het dunst. En Evans heeft al laten zien dat hij een partij naar 5-4 kan trekken — dat deed hij zondag ook. Liever veiliger? Wade winnen staat op 1,30.</p>
+<p><strong>De keerzijde, en dit is de belangrijkste van de vier.</strong> Onderling leidt Wade met 8-5, maar <strong>Evans won twee van hun laatste drie duels</strong>: 3-2 op het WK van vorig jaar — waar hij de zevende geplaatste eruit gooide met zijn achtste matchdart — en 6-4 op de Baltic Sea Darts Open in mei. Evans trekt partijen graag naar het einde, en dat deed hij zondag ook met een 5-4 tegen Crabtree. Wade zelf is er bovendien nuchter over: <em>"I haven't felt great for six to eight weeks"</em> en over zijn eigen 104,09: <em>"I'm still shell-shocked by the average."</em> 1,54 is de laagste odd van onze vier, dus de marge is hier het dunst. Liever veiliger? Wade winnen staat op 1,30.</p>
 <h3><strong>De vier duels waar we vanaf blijven</strong></h3>
 <p><strong>Clemens – Rodriguez (groep O).</strong> Hier klopt het verhaal juist wél: Clemens <em>moet</em> met minstens twee legs verschil winnen, dus zijn belang valt precies samen met de lijn van -1,5 (1,53). Maar zijn cijfer niet: hij gooide zondag 84,43 en verloor met 4-5 van Ross Smith. Een speler die zelf onder de 85 zit, is geen betrouwbare basis voor een handicap, ook niet als hij moet.</p>
 <p><strong>Van Gerwen – De Graaf (groep L).</strong> Van Gerwen hoeft alleen maar te winnen en staat op 1,54. Zijn eigen partij ging echter met 5-4 tegen Henry Coates, met 100,42 gemiddeld — geen cijfer waarop je een handicap bouwt. Mooi detail: als De Graaf met 5-4 wint, staan Van Gerwen, Coates en De Graaf alle drie op twee punten en een saldo van nul. De Graaf moet dus met minstens twee legs verschil winnen om het zelf in de hand te houden.</p>
@@ -217,7 +229,7 @@ content3 = f"""<h3><strong>Combinatie dinsdag 17 november</strong></h3>
 {tabel(["Resultaat", "Prijzengeld"], [(f"<strong>{a}</strong>", b) for a, b in GELD])}
 <p>Het verschil tussen groepswinst en uitschakeling is dus minimaal £7.500 — en wie vanavond verliest, is meteen klaar. Nummers twee in de groep krijgen £12.500, maar gaan wel naar huis: in dit toernooi telt alleen de eerste plaats. Meer over het toernooi lees je in {G.a("format", "het format van de Grand Slam of Darts")}, {G.a("speelschema", "het volledige speelschema")} en {G.a("prijzengeld", "het prijzengeld")}.</p>
 <h3><strong>Hoe kijk je de Grand Slam of Darts dinsdag?</strong></h3>
-<p>De avondsessie begint om 20:00 uur Nederlandse tijd en is in Nederland te zien bij {L['viaplay']}. Meer kijkopties staan op onze pagina {L['livekijken']}. Speel alleen bij een bookmaker met een vergunning van de Kansspelautoriteit; in {L['legaal']} leggen we uit waar je dat aan ziet.</p>
+<p>De avondsessie loopt van 20:00 tot ongeveer 00:00 uur Nederlandse tijd en is in Nederland te zien bij {L['viaplay']}. Meer kijkopties staan op onze pagina {L['livekijken']}. Speel alleen bij een bookmaker met een vergunning van de Kansspelautoriteit; in {L['legaal']} leggen we uit waar je dat aan ziet.</p>
 <h3><strong>Veelgestelde vragen</strong></h3>
 <p><strong>Wat zijn de beste wedtips voor dinsdag op de Grand Slam of Darts?</strong><br>Luke Humphries -2,5 legs tegen Joe Cullen (1,76), Nathan Aspinall -1,5 legs tegen Karel Sedláček (1,78), Gian van Veen -1,5 legs tegen Bradley Brooks (1,83) en James Wade -1,5 legs tegen Ricky Evans (1,54), alle odds bij 711. Gecombineerd ongeveer {COMBI}.</p>
 <p><strong>Hoe laat begint de Grand Slam of Darts dinsdag?</strong><br>Om 20:00 uur Nederlandse tijd (19:00 uur Britse tijd). Er staan acht wedstrijden op het programma; alleen de eerste heeft een vaste aanvangstijd.</p>
@@ -227,7 +239,8 @@ content3 = f"""<h3><strong>Combinatie dinsdag 17 november</strong></h3>
 <p><strong>Is Luke Humphries al zeker van de laatste 16?</strong><br>Nee. Volgens onze berekening moet hij winnen of hoogstens met 4-5 verliezen. Verliest hij met twee legs verschil of meer, dan gaat Paolo Nebrida door op legsaldo — en bij 0-5 gaat Joe Cullen zelf door.</p>
 <p><strong>Welke Nederlanders spelen er dinsdag?</strong><br>Gian van Veen (tegen Bradley Brooks) en Michael van Gerwen (tegen Jeffrey de Graaf, die voor Zweden uitkomt).</p>
 <p><strong>Hoeveel legs gaat een groepswedstrijd?</strong><br>Best of 9: de eerste speler die vijf legs wint, wint de partij. Vanaf de laatste 16 wordt het best of 19, en vanaf de kwartfinales best of 31.</p>
-<p><strong>Wie gooide tot nu toe het hoogste gemiddelde van de dinsdagavondspelers?</strong><br>Nathan Aspinall, met 111,68 in zijn 5-1 tegen Maik Kuivenhoven. Gian van Veen volgt met 110,51.</p>
+<p><strong>Wie gooide tot nu toe het hoogste gemiddelde van de dinsdagavondspelers?</strong><br>Nathan Aspinall, met 111,68 in zijn 5-1 tegen Maik Kuivenhoven — zijn hoogste televisiegemiddelde ooit. Gian van Veen volgt met 110,51. Van het hele toernooi staat Rob Cross bovenaan met 114,32.</p>
+<p><strong>Is er al een negendarter gegooid?</strong><br>Nee. Aspinall kwam er het dichtst bij: hij gooide in zijn slotleg zeven perfecte darts. De hoogste uitgooi tot nu toe is 170, van Joe Hunt.</p>
 <p><em>Wat kost gokken jou? Stop op tijd. 18+</em></p>"""
 
 WEDTIPS = {"wedstrijd-1": "Aspinall vs Sedlacek", "wedtip-1-2": "Nathan Aspinall -1.5 legs", "quotering-wedtip-1": "1.78",
@@ -247,7 +260,7 @@ if __name__ == "__main__":
     w = len(re.sub(r"<[^>]+>", " ", alles).split())
     print(len(TITEL), "titel |", len(SAMENVATTING), "samenvatting |", w, "woorden |", len(TIPS), "tips")
     assert len(TITEL) <= 60 and 120 <= len(SAMENVATTING) <= 160, (len(TITEL), len(SAMENVATTING))
-    assert 1800 <= w <= 3700, w
+    assert 1800 <= w <= 4400, w
     p = 1
     for o in ODDS: p *= o
     assert f"{p:.2f}".replace(".", ",") == COMBI, p
