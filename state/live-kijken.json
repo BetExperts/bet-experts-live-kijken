@@ -6,7 +6,7 @@
     "date": "2026-11-23",
     "league": "eerste-divisie",
     "hub": true,
-    "sig": "1127f84f8b0c1db7d587be9c9574f297",
+    "sig": "7874379196ff18a2f40733323de34e6d",
     "pairs": [
       [
         "203",
@@ -990,5 +990,242 @@
     "tv_sig": "ESPN 1|Bet365|False|True",
     "og": "og/jong-oranje-jong-denemarken-live-gratis-kijken-17-11-2026-0b595f.webp",
     "og_done": "og/jong-oranje-jong-denemarken-live-gratis-kijken-17-11-2026-0b595f.webp"
+  },
+  "hub:keuken-kampioen-divisie-speelronde-16-op-tv-20-november-2026": {
+    "item_id": "6afcafc35b4b3cce873d85a0",
+    "slug": "keuken-kampioen-divisie-speelronde-16-op-tv-20-november-2026",
+    "match": "Keuken Kampioen Divisie speelronde 16",
+    "date": "2026-11-21",
+    "league": "eerste-divisie",
+    "hub": true,
+    "sig": "5c862c4ad39d858e39f1bb4a6676c1e2",
+    "pairs": [
+      [
+        "199",
+        "412",
+        "2026-11-20"
+      ],
+      [
+        "200",
+        "418",
+        "2026-11-20"
+      ],
+      [
+        "206",
+        "411",
+        "2026-11-20"
+      ],
+      [
+        "416",
+        "425",
+        "2026-11-20"
+      ],
+      [
+        "203",
+        "419",
+        "2026-11-20"
+      ],
+      [
+        "204",
+        "421",
+        "2026-11-20"
+      ],
+      [
+        "414",
+        "423",
+        "2026-11-20"
+      ],
+      [
+        "409",
+        "424",
+        "2026-11-20"
+      ],
+      [
+        "208",
+        "428",
+        "2026-11-20"
+      ],
+      [
+        "417",
+        "422",
+        "2026-11-21"
+      ]
+    ],
+    "ronde": "Regular Season - 16",
+    "og": "og/keuken-kampioen-divisie-speelronde-16-op-tv-20-november-2026-4ec313.webp"
+  },
+  "hub:bundesliga-speelronde-10-op-tv-20-november-2026": {
+    "item_id": "6afcafc8ce590d00ebfdb36f",
+    "slug": "bundesliga-speelronde-10-op-tv-20-november-2026",
+    "match": "Bundesliga speelronde 10",
+    "date": "2026-11-22",
+    "league": "bundesliga",
+    "hub": true,
+    "sig": "122d9f3ed6635665e69849d07e7c64b6",
+    "pairs": [
+      [
+        "157",
+        "192",
+        "2026-11-20"
+      ],
+      [
+        "163",
+        "165",
+        "2026-11-21"
+      ],
+      [
+        "168",
+        "185",
+        "2026-11-21"
+      ],
+      [
+        "167",
+        "169",
+        "2026-11-21"
+      ],
+      [
+        "173",
+        "182",
+        "2026-11-21"
+      ],
+      [
+        "160",
+        "1660",
+        "2026-11-21"
+      ],
+      [
+        "172",
+        "174",
+        "2026-11-21"
+      ],
+      [
+        "164",
+        "170",
+        "2026-11-22"
+      ],
+      [
+        "162",
+        "175",
+        "2026-11-22"
+      ]
+    ],
+    "ronde": "Regular Season - 10",
+    "og": "og/bundesliga-speelronde-10-op-tv-20-november-2026-fd3b65.webp"
+  },
+  "hub:ligue-1-speelronde-11-op-tv-20-november-2026": {
+    "item_id": "6afcafc90a0ab79f2428e49f",
+    "slug": "ligue-1-speelronde-11-op-tv-20-november-2026",
+    "match": "Ligue 1 speelronde 11",
+    "date": "2026-11-22",
+    "league": "ligue-1",
+    "hub": true,
+    "sig": "1f796c994ff18e73ccc8c6aa1e25117e",
+    "pairs": [
+      [
+        "110",
+        "111",
+        "2026-11-20"
+      ],
+      [
+        "84",
+        "85",
+        "2026-11-21"
+      ],
+      [
+        "79",
+        "80",
+        "2026-11-21"
+      ],
+      [
+        "108",
+        "91",
+        "2026-11-21"
+      ],
+      [
+        "106",
+        "95",
+        "2026-11-21"
+      ],
+      [
+        "116",
+        "96",
+        "2026-11-21"
+      ],
+      [
+        "114",
+        "77",
+        "2026-11-22"
+      ],
+      [
+        "94",
+        "97",
+        "2026-11-22"
+      ],
+      [
+        "1298",
+        "81",
+        "2026-11-22"
+      ]
+    ],
+    "ronde": "Regular Season - 11",
+    "og": "og/ligue-1-speelronde-11-op-tv-20-november-2026-552e52.webp"
+  },
+  "hub:jupiler-pro-league-speelronde-12-op-tv-20-november-2026": {
+    "item_id": "6afcafcb180767b2da7774c6",
+    "slug": "jupiler-pro-league-speelronde-12-op-tv-20-november-2026",
+    "match": "Jupiler Pro League speelronde 12",
+    "date": "2026-11-22",
+    "league": "jupiler-pro-league",
+    "hub": true,
+    "sig": "47f97ec4620de7160636bc43c4351a6b",
+    "pairs": [
+      [
+        "261",
+        "741",
+        "2026-11-20"
+      ],
+      [
+        "735",
+        "736",
+        "2026-11-21"
+      ],
+      [
+        "5902",
+        "742",
+        "2026-11-21"
+      ],
+      [
+        "266",
+        "569",
+        "2026-11-21"
+      ],
+      [
+        "600",
+        "740",
+        "2026-11-21"
+      ],
+      [
+        "631",
+        "738",
+        "2026-11-22"
+      ],
+      [
+        "1393",
+        "734",
+        "2026-11-22"
+      ],
+      [
+        "260",
+        "554",
+        "2026-11-22"
+      ],
+      [
+        "259",
+        "733",
+        "2026-11-22"
+      ]
+    ],
+    "ronde": "Regular Season - 12",
+    "og": "og/jupiler-pro-league-speelronde-12-op-tv-20-november-2026-255c96.webp"
   }
 }
