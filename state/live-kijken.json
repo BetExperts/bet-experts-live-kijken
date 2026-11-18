@@ -1416,7 +1416,8 @@
       ]
     ],
     "ronde": "Regular Season - 11",
-    "og": "og/premier-league-speelronde-11-op-tv-21-november-2026-cfc012.webp"
+    "og": "og/premier-league-speelronde-11-op-tv-21-november-2026-cfc012.webp",
+    "og_done": "og/premier-league-speelronde-11-op-tv-21-november-2026-cfc012.webp"
   },
   "hub:serie-a-speelronde-12-op-tv-21-november-2026": {
     "item_id": "6afdb5f58d6fba2935777aa6",
@@ -1479,6 +1480,7 @@
       ]
     ],
     "ronde": "Regular Season - 12",
-    "og": "og/serie-a-speelronde-12-op-tv-21-november-2026-907ad1.webp"
+    "og": "og/serie-a-speelronde-12-op-tv-21-november-2026-907ad1.webp",
+    "og_done": "og/serie-a-speelronde-12-op-tv-21-november-2026-907ad1.webp"
   }
 }
