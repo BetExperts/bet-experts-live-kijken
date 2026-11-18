@@ -6,7 +6,7 @@
     "date": "2026-11-23",
     "league": "eerste-divisie",
     "hub": true,
-    "sig": "15af766af3c463e75dfff71f55e99cce",
+    "sig": "cd8d50f700638c26576866df106e23e9",
     "pairs": [
       [
         "203",
@@ -998,7 +998,7 @@
     "date": "2026-11-21",
     "league": "eerste-divisie",
     "hub": true,
-    "sig": "982790cf41f0a5232166c07e490f7286",
+    "sig": "b995f04bc983921eb89674745566961b",
     "pairs": [
       [
         "199",
@@ -1062,7 +1062,7 @@
     "date": "2026-11-22",
     "league": "bundesliga",
     "hub": true,
-    "sig": "60ce5a8d68e14c78c0d00da6ca715cfd",
+    "sig": "c55390afd2a7d79dfbd98354911816bb",
     "pairs": [
       [
         "157",
@@ -1121,7 +1121,7 @@
     "date": "2026-11-22",
     "league": "ligue-1",
     "hub": true,
-    "sig": "362969ae41f06aa4bce014881e8d9f23",
+    "sig": "5117a5d4fc9aa15ebca59ad514db9958",
     "pairs": [
       [
         "110",
@@ -1180,7 +1180,7 @@
     "date": "2026-11-22",
     "league": "jupiler-pro-league",
     "hub": true,
-    "sig": "7a0bba5a7d4fe0b2d9518f55265a439b",
+    "sig": "c4b9f1c5bd8933983f22579801876e63",
     "pairs": [
       [
         "261",
@@ -1239,7 +1239,7 @@
     "date": "2026-11-23",
     "league": "la-liga",
     "hub": true,
-    "sig": "0bba70f0e802b582e3aa4daa4d678e09",
+    "sig": "50566bf994ed4007d1d4ac6b047e3256",
     "pairs": [
       [
         "531",
@@ -1303,7 +1303,7 @@
     "date": "2026-11-23",
     "league": "super-lig",
     "hub": true,
-    "sig": "1169e987b3b2d086d438470766a0eef4",
+    "sig": "9b6cee8dd043132d46275fe3ff60d5ee",
     "pairs": [
       [
         "3573",
@@ -1362,7 +1362,7 @@
     "date": "2026-11-23",
     "league": "premier-league",
     "hub": true,
-    "sig": "fac4743d0cba8bd232ead743ae1e5989",
+    "sig": "5036b8948aefb08a03ca208a4e57eb82",
     "pairs": [
       [
         "36",
@@ -1426,7 +1426,7 @@
     "date": "2026-11-23",
     "league": "serie-a",
     "hub": true,
-    "sig": "5d4e17051fee828363596785aeb6f8a7",
+    "sig": "e136b0bbface2512a347c49439f0a822",
     "pairs": [
       [
         "487",
@@ -1482,5 +1482,63 @@
     "ronde": "Regular Season - 12",
     "og": "og/serie-a-speelronde-12-op-tv-21-november-2026-907ad1.webp",
     "og_done": "og/serie-a-speelronde-12-op-tv-21-november-2026-907ad1.webp"
+  },
+  "hub:eredivisie-speelronde-13-op-tv-21-november-2026": {
+    "item_id": "6afdd50f13e3869e2219a11f",
+    "slug": "eredivisie-speelronde-13-op-tv-21-november-2026",
+    "match": "Eredivisie speelronde 13",
+    "date": "2026-11-22",
+    "league": "eredivisie",
+    "hub": true,
+    "sig": "3a689d2062228213dc651ff4bbf2fddb",
+    "pairs": [
+      [
+        "197",
+        "413",
+        "2026-11-21"
+      ],
+      [
+        "207",
+        "420",
+        "2026-11-21"
+      ],
+      [
+        "196",
+        "209",
+        "2026-11-21"
+      ],
+      [
+        "202",
+        "210",
+        "2026-11-21"
+      ],
+      [
+        "193",
+        "427",
+        "2026-11-21"
+      ],
+      [
+        "195",
+        "415",
+        "2026-11-22"
+      ],
+      [
+        "194",
+        "198",
+        "2026-11-22"
+      ],
+      [
+        "201",
+        "426",
+        "2026-11-22"
+      ],
+      [
+        "205",
+        "410",
+        "2026-11-22"
+      ]
+    ],
+    "ronde": "Regular Season - 13",
+    "og": "og/eredivisie-speelronde-13-op-tv-21-november-2026-1f4554.webp"
   }
 }
