@@ -6,7 +6,7 @@
     "date": "2026-11-23",
     "league": "eerste-divisie",
     "hub": true,
-    "sig": "4052aebbb1edf2344e9a729b40fa3ade",
+    "sig": "15af766af3c463e75dfff71f55e99cce",
     "pairs": [
       [
         "203",
@@ -998,7 +998,7 @@
     "date": "2026-11-21",
     "league": "eerste-divisie",
     "hub": true,
-    "sig": "979e2d03ee5dbd5be2198cb8bb1b42fc",
+    "sig": "982790cf41f0a5232166c07e490f7286",
     "pairs": [
       [
         "199",
@@ -1062,7 +1062,7 @@
     "date": "2026-11-22",
     "league": "bundesliga",
     "hub": true,
-    "sig": "dad89cad016be533083b9c399d7877c0",
+    "sig": "60ce5a8d68e14c78c0d00da6ca715cfd",
     "pairs": [
       [
         "157",
@@ -1121,7 +1121,7 @@
     "date": "2026-11-22",
     "league": "ligue-1",
     "hub": true,
-    "sig": "05d5c621a284b450de61e829caf8f691",
+    "sig": "362969ae41f06aa4bce014881e8d9f23",
     "pairs": [
       [
         "110",
@@ -1180,7 +1180,7 @@
     "date": "2026-11-22",
     "league": "jupiler-pro-league",
     "hub": true,
-    "sig": "71c531f7cf394bebb4e6886606fae626",
+    "sig": "7a0bba5a7d4fe0b2d9518f55265a439b",
     "pairs": [
       [
         "261",
@@ -1239,7 +1239,7 @@
     "date": "2026-11-23",
     "league": "la-liga",
     "hub": true,
-    "sig": "81e512e9cdbbc6ae994468afb0a01439",
+    "sig": "0bba70f0e802b582e3aa4daa4d678e09",
     "pairs": [
       [
         "531",
@@ -1303,7 +1303,7 @@
     "date": "2026-11-23",
     "league": "super-lig",
     "hub": true,
-    "sig": "ca12fe66d16e059ea06dea74a6510259",
+    "sig": "1169e987b3b2d086d438470766a0eef4",
     "pairs": [
       [
         "3573",
@@ -1354,5 +1354,131 @@
     "ronde": "Regular Season - 12",
     "og": "og/super-lig-speelronde-12-op-tv-21-november-2026-44b573.webp",
     "og_done": "og/super-lig-speelronde-12-op-tv-21-november-2026-44b573.webp"
+  },
+  "hub:premier-league-speelronde-11-op-tv-21-november-2026": {
+    "item_id": "6afdb5f28d6fba293577799f",
+    "slug": "premier-league-speelronde-11-op-tv-21-november-2026",
+    "match": "Premier League speelronde 11",
+    "date": "2026-11-23",
+    "league": "premier-league",
+    "hub": true,
+    "sig": "fac4743d0cba8bd232ead743ae1e5989",
+    "pairs": [
+      [
+        "36",
+        "50",
+        "2026-11-21"
+      ],
+      [
+        "35",
+        "65",
+        "2026-11-21"
+      ],
+      [
+        "47",
+        "57",
+        "2026-11-21"
+      ],
+      [
+        "49",
+        "63",
+        "2026-11-21"
+      ],
+      [
+        "66",
+        "746",
+        "2026-11-21"
+      ],
+      [
+        "1346",
+        "52",
+        "2026-11-21"
+      ],
+      [
+        "34",
+        "42",
+        "2026-11-21"
+      ],
+      [
+        "51",
+        "64",
+        "2026-11-22"
+      ],
+      [
+        "33",
+        "40",
+        "2026-11-22"
+      ],
+      [
+        "45",
+        "55",
+        "2026-11-23"
+      ]
+    ],
+    "ronde": "Regular Season - 11",
+    "og": "og/premier-league-speelronde-11-op-tv-21-november-2026-cfc012.webp"
+  },
+  "hub:serie-a-speelronde-12-op-tv-21-november-2026": {
+    "item_id": "6afdb5f58d6fba2935777aa6",
+    "slug": "serie-a-speelronde-12-op-tv-21-november-2026",
+    "match": "Serie A speelronde 12",
+    "date": "2026-11-23",
+    "league": "serie-a",
+    "hub": true,
+    "sig": "5d4e17051fee828363596785aeb6f8a7",
+    "pairs": [
+      [
+        "487",
+        "867",
+        "2026-11-21"
+      ],
+      [
+        "490",
+        "895",
+        "2026-11-21"
+      ],
+      [
+        "497",
+        "523",
+        "2026-11-21"
+      ],
+      [
+        "492",
+        "503",
+        "2026-11-21"
+      ],
+      [
+        "496",
+        "517",
+        "2026-11-22"
+      ],
+      [
+        "488",
+        "495",
+        "2026-11-22"
+      ],
+      [
+        "494",
+        "500",
+        "2026-11-22"
+      ],
+      [
+        "489",
+        "512",
+        "2026-11-22"
+      ],
+      [
+        "499",
+        "505",
+        "2026-11-22"
+      ],
+      [
+        "1579",
+        "502",
+        "2026-11-23"
+      ]
+    ],
+    "ronde": "Regular Season - 12",
+    "og": "og/serie-a-speelronde-12-op-tv-21-november-2026-907ad1.webp"
   }
 }
