@@ -6,7 +6,7 @@
     "date": "2026-11-23",
     "league": "eerste-divisie",
     "hub": true,
-    "sig": "bd840df42b9d502ab46377afaf555771",
+    "sig": "4052aebbb1edf2344e9a729b40fa3ade",
     "pairs": [
       [
         "203",
@@ -998,7 +998,7 @@
     "date": "2026-11-21",
     "league": "eerste-divisie",
     "hub": true,
-    "sig": "292100ad31f20bdc9d69b917ff631a0b",
+    "sig": "979e2d03ee5dbd5be2198cb8bb1b42fc",
     "pairs": [
       [
         "199",
@@ -1062,7 +1062,7 @@
     "date": "2026-11-22",
     "league": "bundesliga",
     "hub": true,
-    "sig": "84e66c2f04db72b2a36f583b27fc2bc7",
+    "sig": "dad89cad016be533083b9c399d7877c0",
     "pairs": [
       [
         "157",
@@ -1121,7 +1121,7 @@
     "date": "2026-11-22",
     "league": "ligue-1",
     "hub": true,
-    "sig": "98d871fe9883feb19b61c9ee1f0f1ec6",
+    "sig": "05d5c621a284b450de61e829caf8f691",
     "pairs": [
       [
         "110",
@@ -1180,7 +1180,7 @@
     "date": "2026-11-22",
     "league": "jupiler-pro-league",
     "hub": true,
-    "sig": "6ee4286f013a41b8d272d1f6a3ffea2a",
+    "sig": "71c531f7cf394bebb4e6886606fae626",
     "pairs": [
       [
         "261",
@@ -1239,7 +1239,7 @@
     "date": "2026-11-23",
     "league": "la-liga",
     "hub": true,
-    "sig": "4a4c889e13eb4becbcedf8cac068d806",
+    "sig": "81e512e9cdbbc6ae994468afb0a01439",
     "pairs": [
       [
         "531",
@@ -1295,5 +1295,63 @@
     "ronde": "Regular Season - 13",
     "og": "og/la-liga-speelronde-13-op-tv-20-november-2026-a888c2.webp",
     "og_done": "og/la-liga-speelronde-13-op-tv-20-november-2026-a888c2.webp"
+  },
+  "hub:super-lig-speelronde-12-op-tv-21-november-2026": {
+    "item_id": "6afd98c84b52dfdf4a7069c4",
+    "slug": "super-lig-speelronde-12-op-tv-21-november-2026",
+    "match": "Süper Lig speelronde 12",
+    "date": "2026-11-23",
+    "league": "super-lig",
+    "hub": true,
+    "sig": "ca12fe66d16e059ea06dea74a6510259",
+    "pairs": [
+      [
+        "3573",
+        "997",
+        "2026-11-21"
+      ],
+      [
+        "3603",
+        "645",
+        "2026-11-21"
+      ],
+      [
+        "1007",
+        "3579",
+        "2026-11-21"
+      ],
+      [
+        "611",
+        "7411",
+        "2026-11-21"
+      ],
+      [
+        "1009",
+        "994",
+        "2026-11-22"
+      ],
+      [
+        "549",
+        "607",
+        "2026-11-22"
+      ],
+      [
+        "1004",
+        "996",
+        "2026-11-22"
+      ],
+      [
+        "3588",
+        "998",
+        "2026-11-22"
+      ],
+      [
+        "564",
+        "6343",
+        "2026-11-23"
+      ]
+    ],
+    "ronde": "Regular Season - 12",
+    "og": "og/super-lig-speelronde-12-op-tv-21-november-2026-44b573.webp"
   }
 }
