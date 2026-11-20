@@ -6,11 +6,16 @@
     "date": "2026-11-23",
     "league": "eerste-divisie",
     "hub": true,
-    "sig": "dbb324b0fef5c3bb6328e1d48e06b4a7",
+    "sig": "a99ca7fda87f12ab848be6e135e8147e",
     "pairs": [
       [
         "203",
         "208",
+        "2026-11-14"
+      ],
+      [
+        "419",
+        "424",
         "2026-11-14"
       ],
       [
@@ -24,11 +29,6 @@
         "2026-11-14"
       ],
       [
-        "206",
-        "409",
-        "2026-11-14"
-      ],
-      [
         "204",
         "422",
         "2026-11-14"
@@ -39,8 +39,8 @@
         "2026-11-14"
       ],
       [
-        "419",
-        "424",
+        "206",
+        "409",
         "2026-11-14"
       ],
       [
@@ -998,7 +998,7 @@
     "date": "2026-11-21",
     "league": "eerste-divisie",
     "hub": true,
-    "sig": "652ddc1c55a8b62a53d9eb629ec0ed11",
+    "sig": "e4c1cc81f4522d1860a358c6ef7c8171",
     "pairs": [
       [
         "199",
@@ -1062,7 +1062,7 @@
     "date": "2026-11-22",
     "league": "bundesliga",
     "hub": true,
-    "sig": "52bf2a31a985d2bff09bd28f0cf3173d",
+    "sig": "8427cd105caa6d9080fbb6e73a1f63bd",
     "pairs": [
       [
         "157",
@@ -1239,7 +1239,7 @@
     "date": "2026-11-23",
     "league": "la-liga",
     "hub": true,
-    "sig": "88039252405e9c7775af39e47c7c234a",
+    "sig": "8d368727cb6a9090ba128d29a7f84a21",
     "pairs": [
       [
         "531",
@@ -1303,7 +1303,7 @@
     "date": "2026-11-23",
     "league": "super-lig",
     "hub": true,
-    "sig": "f9debadac91acc26cc4b38c8318bb798",
+    "sig": "c3fb217593773e660d51b8e9bd4320b9",
     "pairs": [
       [
         "3573",
@@ -1362,7 +1362,7 @@
     "date": "2026-11-23",
     "league": "premier-league",
     "hub": true,
-    "sig": "a5661c435ae3220813cfd2b3af77b25c",
+    "sig": "e94f0009c1499bda6f0a3ec629ea54fb",
     "pairs": [
       [
         "36",
@@ -1426,7 +1426,7 @@
     "date": "2026-11-23",
     "league": "serie-a",
     "hub": true,
-    "sig": "912c04af2131308538033a1a1b5d0dd9",
+    "sig": "483a0805a3827506b4a8f9dace85e6a0",
     "pairs": [
       [
         "487",
@@ -1490,7 +1490,7 @@
     "date": "2026-11-22",
     "league": "eredivisie",
     "hub": true,
-    "sig": "70ddaaebd8b6963384f1ba4db2e23795",
+    "sig": "36fbb6e960a0845db3ad848355ff0239",
     "pairs": [
       [
         "197",
@@ -1697,5 +1697,111 @@
     "tv_sig": "ESPN Extra|Bet365|False|True",
     "og": "og/jong-fc-utrecht-fc-emmen-live-gratis-kijken-20-11-2026-9a067b.webp",
     "og_done": "og/jong-fc-utrecht-fc-emmen-live-gratis-kijken-20-11-2026-9a067b.webp"
+  },
+  "hub:ligue-1-speelronde-11-op-tv-21-november-2026": {
+    "item_id": "6b00b0c9a003ed66264d0a38",
+    "slug": "ligue-1-speelronde-11-op-tv-21-november-2026",
+    "match": "Ligue 1 speelronde 11",
+    "date": "2026-11-22",
+    "league": "ligue-1",
+    "hub": true,
+    "sig": "204780085c25a46c7460900cd16a4201",
+    "pairs": [
+      [
+        "84",
+        "85",
+        "2026-11-21"
+      ],
+      [
+        "79",
+        "80",
+        "2026-11-21"
+      ],
+      [
+        "108",
+        "91",
+        "2026-11-21"
+      ],
+      [
+        "106",
+        "95",
+        "2026-11-21"
+      ],
+      [
+        "116",
+        "96",
+        "2026-11-21"
+      ],
+      [
+        "114",
+        "77",
+        "2026-11-22"
+      ],
+      [
+        "94",
+        "97",
+        "2026-11-22"
+      ],
+      [
+        "1298",
+        "81",
+        "2026-11-22"
+      ]
+    ],
+    "ronde": "Regular Season - 11",
+    "og": "og/ligue-1-speelronde-11-op-tv-21-november-2026-6b81ca.webp"
+  },
+  "hub:jupiler-pro-league-speelronde-12-op-tv-21-november-2026": {
+    "item_id": "6b00b0cc0ec6869fffec2e8d",
+    "slug": "jupiler-pro-league-speelronde-12-op-tv-21-november-2026",
+    "match": "Jupiler Pro League speelronde 12",
+    "date": "2026-11-22",
+    "league": "jupiler-pro-league",
+    "hub": true,
+    "sig": "9e91896a579ada402f5094a6de5bdfd5",
+    "pairs": [
+      [
+        "735",
+        "736",
+        "2026-11-21"
+      ],
+      [
+        "5902",
+        "742",
+        "2026-11-21"
+      ],
+      [
+        "266",
+        "569",
+        "2026-11-21"
+      ],
+      [
+        "600",
+        "740",
+        "2026-11-21"
+      ],
+      [
+        "631",
+        "738",
+        "2026-11-22"
+      ],
+      [
+        "1393",
+        "734",
+        "2026-11-22"
+      ],
+      [
+        "260",
+        "554",
+        "2026-11-22"
+      ],
+      [
+        "259",
+        "733",
+        "2026-11-22"
+      ]
+    ],
+    "ronde": "Regular Season - 12",
+    "og": "og/jupiler-pro-league-speelronde-12-op-tv-21-november-2026-e260a4.webp"
   }
 }
