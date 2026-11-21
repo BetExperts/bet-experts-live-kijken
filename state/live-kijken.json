@@ -6,16 +6,11 @@
     "date": "2026-11-23",
     "league": "eerste-divisie",
     "hub": true,
-    "sig": "653cab740c2ac562b38a285d6253eb78",
+    "sig": "4e2814997f2c1f39dabdb44e7a66c916",
     "pairs": [
       [
         "203",
         "208",
-        "2026-11-14"
-      ],
-      [
-        "417",
-        "421",
         "2026-11-14"
       ],
       [
@@ -24,23 +19,28 @@
         "2026-11-14"
       ],
       [
-        "206",
-        "409",
-        "2026-11-14"
-      ],
-      [
         "204",
         "422",
         "2026-11-14"
       ],
       [
-        "199",
-        "423",
+        "206",
+        "409",
+        "2026-11-14"
+      ],
+      [
+        "417",
+        "421",
         "2026-11-14"
       ],
       [
         "419",
         "424",
+        "2026-11-14"
+      ],
+      [
+        "199",
+        "423",
         "2026-11-14"
       ],
       [
@@ -1490,7 +1490,7 @@
     "date": "2026-11-22",
     "league": "eredivisie",
     "hub": true,
-    "sig": "d417c4c0e44f3f1ad98eac0af8b39929",
+    "sig": "f999f0e3967b92f71f2b433034e06dee",
     "pairs": [
       [
         "197",
@@ -2234,5 +2234,58 @@
     "tv_sig": "ESPN|Bet365|False|True",
     "og": "og/fc-eindhoven-rkc-waalwijk-live-gratis-kijken-21-11-2026-8a13df.webp",
     "og_done": "og/fc-eindhoven-rkc-waalwijk-live-gratis-kijken-21-11-2026-8a13df.webp"
+  },
+  "hub:keuken-kampioen-divisie-speelronde-14-op-tv-6-november-2026": {
+    "item_id": "6b01c55be2cb3f4002dc35a7",
+    "slug": "keuken-kampioen-divisie-speelronde-14-op-tv-6-november-2026",
+    "match": "Keuken Kampioen Divisie speelronde 14",
+    "date": "2026-11-23",
+    "league": "eerste-divisie",
+    "hub": true,
+    "sig": "5ccf1cdecc63c842cf4fb8ca98cf246b",
+    "pairs": [
+      [
+        "203",
+        "409",
+        "2026-11-06"
+      ],
+      [
+        "418",
+        "419",
+        "2026-11-06"
+      ],
+      [
+        "416",
+        "424",
+        "2026-11-06"
+      ],
+      [
+        "204",
+        "411",
+        "2026-11-06"
+      ],
+      [
+        "206",
+        "414",
+        "2026-11-06"
+      ],
+      [
+        "421",
+        "428",
+        "2026-11-07"
+      ],
+      [
+        "208",
+        "412",
+        "2026-11-08"
+      ],
+      [
+        "199",
+        "200",
+        "2026-11-23"
+      ]
+    ],
+    "ronde": "Regular Season - 14",
+    "og": "og/keuken-kampioen-divisie-speelronde-14-op-tv-6-november-2026-9d115f.webp"
   }
 }
