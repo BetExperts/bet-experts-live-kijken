@@ -1062,7 +1062,7 @@
     "date": "2026-11-22",
     "league": "bundesliga",
     "hub": true,
-    "sig": "ce3a1e31bf1f82b08b9d4dec81c30464",
+    "sig": "316e1c19808f5ebc3b92c43429bf6b78",
     "pairs": [
       [
         "157",
@@ -1121,7 +1121,7 @@
     "date": "2026-11-22",
     "league": "ligue-1",
     "hub": true,
-    "sig": "b4242dacc5d2b7cd27530fe5086c350e",
+    "sig": "1596e9cb769a20e4e5b54bc05fae5680",
     "pairs": [
       [
         "110",
@@ -1180,7 +1180,7 @@
     "date": "2026-11-22",
     "league": "jupiler-pro-league",
     "hub": true,
-    "sig": "8d55fb46db813e6f967cb35107358e59",
+    "sig": "e4dadeab8a79dc3a9a82ffb279e65169",
     "pairs": [
       [
         "261",
@@ -1239,7 +1239,7 @@
     "date": "2026-11-23",
     "league": "la-liga",
     "hub": true,
-    "sig": "1f3ca3006972fe89a5f4ddb14659fe80",
+    "sig": "aee3ea7686ab5ab247b228a6a6ceb473",
     "pairs": [
       [
         "531",
@@ -1303,7 +1303,7 @@
     "date": "2026-11-23",
     "league": "super-lig",
     "hub": true,
-    "sig": "ca75b500eca1890147cfa990cd0c0a11",
+    "sig": "6ce1ed72e670c73a4d2122627f83b544",
     "pairs": [
       [
         "3573",
@@ -1331,13 +1331,13 @@
         "2026-11-22"
       ],
       [
-        "549",
-        "607",
+        "1004",
+        "996",
         "2026-11-22"
       ],
       [
-        "1004",
-        "996",
+        "549",
+        "607",
         "2026-11-22"
       ],
       [
@@ -1362,7 +1362,7 @@
     "date": "2026-11-23",
     "league": "premier-league",
     "hub": true,
-    "sig": "91cbca1532e5e8fc50f2439d5e2593e5",
+    "sig": "ef85d485d4f009a36204c5bbbc5b3e0a",
     "pairs": [
       [
         "36",
@@ -1426,7 +1426,7 @@
     "date": "2026-11-23",
     "league": "serie-a",
     "hub": true,
-    "sig": "44de94b3eb8dbc4e46eb76fb9ff2c9da",
+    "sig": "84f772b531419445d7d7aa713654f75c",
     "pairs": [
       [
         "490",
@@ -1490,7 +1490,7 @@
     "date": "2026-11-22",
     "league": "eredivisie",
     "hub": true,
-    "sig": "d9c47d50f3e4a3d721be31be5af3a029",
+    "sig": "717ec6850a5fcd2e51b41493cb5863d7",
     "pairs": [
       [
         "197",
