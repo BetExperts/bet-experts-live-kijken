@@ -6,7 +6,7 @@
     "date": "2026-11-23",
     "league": "eerste-divisie",
     "hub": true,
-    "sig": "b34a0690f4d3dc906f48ccd159b6350f",
+    "sig": "a8a3d68de46fe058c2afda4edf76f67a",
     "pairs": [
       [
         "203",
@@ -1121,7 +1121,7 @@
     "date": "2026-11-22",
     "league": "ligue-1",
     "hub": true,
-    "sig": "4a53ea638b1339e45f648d9ba3ff27e9",
+    "sig": "7446c0d3001696391994aee1444e1a12",
     "pairs": [
       [
         "110",
@@ -1134,16 +1134,6 @@
         "2026-11-21"
       ],
       [
-        "79",
-        "80",
-        "2026-11-21"
-      ],
-      [
-        "108",
-        "91",
-        "2026-11-21"
-      ],
-      [
         "106",
         "95",
         "2026-11-21"
@@ -1151,6 +1141,16 @@
       [
         "116",
         "96",
+        "2026-11-21"
+      ],
+      [
+        "79",
+        "80",
+        "2026-11-21"
+      ],
+      [
+        "108",
+        "91",
         "2026-11-21"
       ],
       [
@@ -1180,7 +1180,7 @@
     "date": "2026-11-22",
     "league": "jupiler-pro-league",
     "hub": true,
-    "sig": "84b46e6a13ecd44033acc9753257c653",
+    "sig": "11faba9286c0bfd79db6e1005d456f31",
     "pairs": [
       [
         "261",
@@ -1239,7 +1239,7 @@
     "date": "2026-11-23",
     "league": "la-liga",
     "hub": true,
-    "sig": "229f23e556987b624d3427bbf31b247e",
+    "sig": "a462e5a6411f37485e8f153b931697cd",
     "pairs": [
       [
         "531",
@@ -1303,7 +1303,7 @@
     "date": "2026-11-23",
     "league": "super-lig",
     "hub": true,
-    "sig": "6ce1ed72e670c73a4d2122627f83b544",
+    "sig": "b8fa170decf62d2b1d9ce7e6d3c3d1a9",
     "pairs": [
       [
         "3573",
@@ -1426,7 +1426,7 @@
     "date": "2026-11-23",
     "league": "serie-a",
     "hub": true,
-    "sig": "333697730d18842e57a5659c4691733c",
+    "sig": "d4f63fcc8d56b5d6bb03ce15327594f9",
     "pairs": [
       [
         "490",
@@ -2242,7 +2242,7 @@
     "date": "2026-11-23",
     "league": "eerste-divisie",
     "hub": true,
-    "sig": "196326c7525de5a4f9530eb902729582",
+    "sig": "80eebb5c35c8ebe2ff40ec07f65697ef",
     "pairs": [
       [
         "422",
@@ -2665,5 +2665,65 @@
     "tv_sig": "ESPN 2|Bet365|False|True",
     "og": "og/go-ahead-eagles-fortuna-sittard-live-gratis-kijken-22-11-2026-7a632f.webp",
     "og_done": "og/go-ahead-eagles-fortuna-sittard-live-gratis-kijken-22-11-2026-7a632f.webp"
+  },
+  "1584467": {
+    "item_id": "6b036c91f5f973ac5533a590",
+    "slug": "istanbul-basaksehir-corum-fk-live-gratis-kijken-23-11-2026",
+    "match": "Başakşehir - Çorum FK",
+    "date": "2026-11-23",
+    "league": "super-lig",
+    "provider": "Starcasino",
+    "home_id": "564",
+    "away_id": "6343",
+    "tv_sig": "|Starcasino|False|False",
+    "og": "og/istanbul-basaksehir-corum-fk-live-gratis-kijken-23-11-2026-ec6e57.webp"
+  },
+  "1550203": {
+    "item_id": "6b036c97f29ae40098f6a8eb",
+    "slug": "monza-fiorentina-live-gratis-kijken-23-11-2026",
+    "match": "Monza - Fiorentina",
+    "date": "2026-11-23",
+    "league": "serie-a",
+    "provider": "Bet365",
+    "home_id": "1579",
+    "away_id": "502",
+    "tv_sig": "Ziggo Sport|Bet365|False|True",
+    "og": "og/monza-fiorentina-live-gratis-kijken-23-11-2026-18148d.webp"
+  },
+  "1551875": {
+    "item_id": "6b036c9fc3d19b6896bebf05",
+    "slug": "vitesse-de-graafschap-live-gratis-kijken-23-11-2026",
+    "match": "Vitesse - De Graafschap",
+    "date": "2026-11-23",
+    "league": "eerste-divisie",
+    "provider": "Bet365",
+    "home_id": "200",
+    "away_id": "199",
+    "tv_sig": "ESPN|Bet365|False|True",
+    "og": "og/vitesse-de-graafschap-live-gratis-kijken-23-11-2026-a53109.webp"
+  },
+  "1551886": {
+    "item_id": "6b036ca2f29ae40098f6abc9",
+    "slug": "jong-psv-jong-fc-utrecht-live-gratis-kijken-23-11-2026",
+    "match": "Jong PSV - Jong FC Utrecht",
+    "date": "2026-11-23",
+    "league": "eerste-divisie",
+    "provider": "Bet365",
+    "home_id": "411",
+    "away_id": "428",
+    "tv_sig": "ESPN 3|Bet365|False|True",
+    "og": "og/jong-psv-jong-fc-utrecht-live-gratis-kijken-23-11-2026-e7465c.webp"
+  },
+  "1551885": {
+    "item_id": "6b036ca56fa00e341c3afdd1",
+    "slug": "jong-ajax-jong-az-live-gratis-kijken-23-11-2026",
+    "match": "Jong Ajax - Jong AZ",
+    "date": "2026-11-23",
+    "league": "eerste-divisie",
+    "provider": "Bet365",
+    "home_id": "425",
+    "away_id": "418",
+    "tv_sig": "ESPN 2|Bet365|False|True",
+    "og": "og/jong-ajax-jong-az-live-gratis-kijken-23-11-2026-d3318c.webp"
   }
 }
