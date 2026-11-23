@@ -6,7 +6,7 @@
     "date": "2026-11-23",
     "league": "eerste-divisie",
     "hub": true,
-    "sig": "c37dd36c1cb0909ce740299f3651473b",
+    "sig": "70e750d4c8a907ccc0c27f93b2976402",
     "pairs": [
       [
         "203",
@@ -311,7 +311,7 @@
     "date": "2026-11-23",
     "league": "la-liga",
     "hub": true,
-    "sig": "b5870c592e851bc9c7a4d4bd88b0e2d3",
+    "sig": "d5c9279bf270c8be4e3853e3605b0522",
     "pairs": [
       [
         "531",
@@ -375,7 +375,7 @@
     "date": "2026-11-23",
     "league": "super-lig",
     "hub": true,
-    "sig": "4278e250917face6e6b6633ad87c38de",
+    "sig": "57c0937fe8776a7aee8dd52d6accd609",
     "pairs": [
       [
         "3573",
@@ -434,7 +434,7 @@
     "date": "2026-11-23",
     "league": "premier-league",
     "hub": true,
-    "sig": "b9d3b02bfb1242fe06e1caa790b10321",
+    "sig": "a5cab6f7174726e025f55f1565c10eeb",
     "pairs": [
       [
         "36",
@@ -498,7 +498,7 @@
     "date": "2026-11-23",
     "league": "serie-a",
     "hub": true,
-    "sig": "f8734c12ea397642030c412f41bf0d23",
+    "sig": "304dc4fed001f0f5b956327050807c1a",
     "pairs": [
       [
         "490",
@@ -1158,7 +1158,7 @@
     "date": "2026-11-23",
     "league": "eerste-divisie",
     "hub": true,
-    "sig": "16ddab85758cb80c7bf3da753b516cea",
+    "sig": "1965da2e6b64aeb32cf98dbf69f8562e",
     "pairs": [
       [
         "422",
@@ -1197,7 +1197,7 @@
     "date": "2026-11-25",
     "league": "champions-league",
     "hub": true,
-    "sig": "c8af6b46894587aeac64823d56f6eaac",
+    "sig": "8a95c7bd16d2c05254968ed8ac1e3f8e",
     "pairs": [
       [
         "1026",
@@ -1639,7 +1639,7 @@
     "date": "2026-11-26",
     "league": "conference-league",
     "hub": true,
-    "sig": "4669e3eccd13ef82919e4574cd8399ec",
+    "sig": "925f8d03dffe2d64b733c108b8d0acb5",
     "pairs": [
       [
         "2240",
@@ -1821,7 +1821,7 @@
     "date": "2026-11-26",
     "league": "europa-league",
     "hub": true,
-    "sig": "bff7891575749ff85f9a17dc816c0fe9",
+    "sig": "a0bf20c3627f16aa9e930703d0543743",
     "pairs": [
       [
         "646",
