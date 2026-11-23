@@ -375,7 +375,7 @@
     "date": "2026-11-23",
     "league": "super-lig",
     "hub": true,
-    "sig": "6b3ad953dd4edc3e3a46b31979bc882c",
+    "sig": "21599962c6ee565f6742dd1ca1aeb1b7",
     "pairs": [
       [
         "3573",
@@ -403,13 +403,13 @@
         "2026-11-22"
       ],
       [
-        "549",
-        "607",
+        "1004",
+        "996",
         "2026-11-22"
       ],
       [
-        "1004",
-        "996",
+        "549",
+        "607",
         "2026-11-22"
       ],
       [
@@ -1212,7 +1212,7 @@
     "date": "2026-11-25",
     "league": "champions-league",
     "hub": true,
-    "sig": "207077d57efee0a485a2a892e247f6c7",
+    "sig": "ffadf5773fc1f7bd618de27457fd51a2",
     "pairs": [
       [
         "1026",
@@ -1654,7 +1654,7 @@
     "date": "2026-11-26",
     "league": "conference-league",
     "hub": true,
-    "sig": "c4d9eab923885bad5820ef4e947ffe04",
+    "sig": "c25533c9f382d9380baddc00786d79e7",
     "pairs": [
       [
         "2240",
@@ -1836,7 +1836,7 @@
     "date": "2026-11-26",
     "league": "europa-league",
     "hub": true,
-    "sig": "9b08832d575bdf98616b4fbcaf07d385",
+    "sig": "8f46167795b4c1fec00e04e8602baf2d",
     "pairs": [
       [
         "646",
