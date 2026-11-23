@@ -6,7 +6,7 @@
     "date": "2026-11-23",
     "league": "eerste-divisie",
     "hub": true,
-    "sig": "4dfc452377e18e59fd24a0d9d435cb2c",
+    "sig": "d0c411c5ef2f5bb87a5ee48fe0fbe508",
     "pairs": [
       [
         "203",
@@ -134,7 +134,7 @@
     "date": "2026-11-22",
     "league": "bundesliga",
     "hub": true,
-    "sig": "04450c76efd444b93d37851a466b3f96",
+    "sig": "102263d1c3602889abb3f79ae631806a",
     "pairs": [
       [
         "157",
@@ -193,7 +193,7 @@
     "date": "2026-11-22",
     "league": "ligue-1",
     "hub": true,
-    "sig": "81cb5329630f23f07df4183beb2e6854",
+    "sig": "0fbf9af4436497170bd24aaeda920150",
     "pairs": [
       [
         "110",
@@ -252,7 +252,7 @@
     "date": "2026-11-22",
     "league": "jupiler-pro-league",
     "hub": true,
-    "sig": "4086cc0e6030f6b2886ad4aac1128a06",
+    "sig": "89fd0911b80545cf9128b08c445be378",
     "pairs": [
       [
         "261",
@@ -311,7 +311,7 @@
     "date": "2026-11-23",
     "league": "la-liga",
     "hub": true,
-    "sig": "cbaf7ca2b9b9622f93da186e2d96176b",
+    "sig": "652149260c82de3608a359098d5ed38b",
     "pairs": [
       [
         "531",
@@ -375,7 +375,7 @@
     "date": "2026-11-23",
     "league": "super-lig",
     "hub": true,
-    "sig": "068a5980a6ae4cf2a09fed8abf04b3ad",
+    "sig": "6b3ad953dd4edc3e3a46b31979bc882c",
     "pairs": [
       [
         "3573",
@@ -403,13 +403,13 @@
         "2026-11-22"
       ],
       [
-        "1004",
-        "996",
+        "549",
+        "607",
         "2026-11-22"
       ],
       [
-        "549",
-        "607",
+        "1004",
+        "996",
         "2026-11-22"
       ],
       [
@@ -434,7 +434,7 @@
     "date": "2026-11-23",
     "league": "premier-league",
     "hub": true,
-    "sig": "b7085e5f9806677705c329ba991fcfd3",
+    "sig": "5b8dba52f89377682c3d27a4d860e059",
     "pairs": [
       [
         "36",
@@ -498,7 +498,7 @@
     "date": "2026-11-23",
     "league": "serie-a",
     "hub": true,
-    "sig": "bbdce02dfd585a02d8cf9fa92b091bf8",
+    "sig": "8c629933d75825d0c96542f7fb8a3d31",
     "pairs": [
       [
         "490",
@@ -562,7 +562,7 @@
     "date": "2026-11-22",
     "league": "eredivisie",
     "hub": true,
-    "sig": "38ca5d6535637587ec54ce9be49397ca",
+    "sig": "f6d4d4c91054c1975f421bb96b0cda98",
     "pairs": [
       [
         "197",
@@ -1158,7 +1158,7 @@
     "date": "2026-11-23",
     "league": "eerste-divisie",
     "hub": true,
-    "sig": "ed0f6a39f702050c05c35f248910a43e",
+    "sig": "6b6e6996598890bd44dfd795edf6092e",
     "pairs": [
       [
         "422",
@@ -1212,7 +1212,7 @@
     "date": "2026-11-25",
     "league": "champions-league",
     "hub": true,
-    "sig": "36f354091f2616c36abdc870d1660667",
+    "sig": "207077d57efee0a485a2a892e247f6c7",
     "pairs": [
       [
         "1026",
@@ -1654,7 +1654,7 @@
     "date": "2026-11-26",
     "league": "conference-league",
     "hub": true,
-    "sig": "fd3146db3d931a00541b9e53507d1b14",
+    "sig": "c4d9eab923885bad5820ef4e947ffe04",
     "pairs": [
       [
         "2240",
@@ -1750,5 +1750,180 @@
     "ronde": "League Stage - 4",
     "og": "og/conference-league-speelronde-4-op-tv-26-november-2026-47b591.webp",
     "og_done": "og/conference-league-speelronde-4-op-tv-26-november-2026-47b591.webp"
+  },
+  "1649498": {
+    "item_id": "6b0482660ceeaf42956a7199",
+    "slug": "st-louis-city-los-angeles-live-gratis-kijken-24-11-2026",
+    "match": "St. Louis City - Los Angeles FC",
+    "date": "2026-11-24",
+    "league": "mls",
+    "provider": "Bet365",
+    "home_id": "20787",
+    "away_id": "1616",
+    "tv_sig": "Apple TV|Bet365|False|True",
+    "og": "og/st-louis-city-los-angeles-live-gratis-kijken-24-11-2026-30c744.webp"
+  },
+  "1635667": {
+    "item_id": "6b04826cd874120ee433d036",
+    "slug": "galatasaray-aston-villa-live-gratis-kijken-24-11-2026",
+    "match": "Galatasaray - Aston Villa",
+    "date": "2026-11-24",
+    "league": "champions-league",
+    "provider": "Bet365",
+    "home_id": "645",
+    "away_id": "66",
+    "tv_sig": "Ziggo Sport en Ziggo Sport 3|Bet365|False|True",
+    "og": "og/galatasaray-aston-villa-live-gratis-kijken-24-11-2026-7e8891.webp"
+  },
+  "1635611": {
+    "item_id": "6b048271677cb1531fd840ec",
+    "slug": "arsenal-borussia-dortmund-live-gratis-kijken-24-11-2026",
+    "match": "Arsenal - Borussia Dortmund",
+    "date": "2026-11-24",
+    "league": "champions-league",
+    "provider": "Bet365",
+    "home_id": "42",
+    "away_id": "165",
+    "tv_sig": "Ziggo Sport 3|Bet365|False|True",
+    "og": "og/arsenal-borussia-dortmund-live-gratis-kijken-24-11-2026-d531c8.webp"
+  },
+  "1635692": {
+    "item_id": "6b048276318963c753c4f9f1",
+    "slug": "manchester-city-napoli-live-gratis-kijken-24-11-2026",
+    "match": "Manchester City - Napoli",
+    "date": "2026-11-24",
+    "league": "champions-league",
+    "provider": "Bet365",
+    "home_id": "50",
+    "away_id": "492",
+    "tv_sig": "Ziggo Sport 5|Bet365|False|True",
+    "og": "og/manchester-city-napoli-live-gratis-kijken-24-11-2026-17a960.webp"
+  },
+  "1635663": {
+    "item_id": "6b04827a10befb2622246a06",
+    "slug": "feyenoord-fc-porto-live-gratis-kijken-24-11-2026",
+    "match": "Feyenoord - FC Porto",
+    "date": "2026-11-24",
+    "league": "champions-league",
+    "provider": "Bet365",
+    "home_id": "209",
+    "away_id": "212",
+    "tv_sig": "Ziggo Sport|Bet365|False|True",
+    "og": "og/feyenoord-fc-porto-live-gratis-kijken-24-11-2026-5bc642.webp"
+  },
+  "1635715": {
+    "item_id": "6b04827f10befb2622246b90",
+    "slug": "real-madrid-psv-live-gratis-kijken-24-11-2026",
+    "match": "Real Madrid - PSV",
+    "date": "2026-11-24",
+    "league": "champions-league",
+    "provider": "Bet365",
+    "home_id": "541",
+    "away_id": "197",
+    "tv_sig": "Ziggo Sport 2|Bet365|False|True",
+    "og": "og/real-madrid-psv-live-gratis-kijken-24-11-2026-08292a.webp"
+  },
+  "hub:europa-league-speelronde-5-op-tv-26-november-2026": {
+    "item_id": "6b04832a56a4384d3afdd33e",
+    "slug": "europa-league-speelronde-5-op-tv-26-november-2026",
+    "match": "Europa League speelronde 5",
+    "date": "2026-11-26",
+    "league": "europa-league",
+    "hub": true,
+    "sig": "9b08832d575bdf98616b4fbcaf07d385",
+    "pairs": [
+      [
+        "646",
+        "81",
+        "2026-11-26"
+      ],
+      [
+        "35",
+        "538",
+        "2026-11-26"
+      ],
+      [
+        "549",
+        "563",
+        "2026-11-26"
+      ],
+      [
+        "489",
+        "553",
+        "2026-11-26"
+      ],
+      [
+        "211",
+        "567",
+        "2026-11-26"
+      ],
+      [
+        "3683",
+        "571",
+        "2026-11-26"
+      ],
+      [
+        "168",
+        "620",
+        "2026-11-26"
+      ],
+      [
+        "1393",
+        "347",
+        "2026-11-26"
+      ],
+      [
+        "52",
+        "548",
+        "2026-11-26"
+      ],
+      [
+        "321",
+        "80",
+        "2026-11-26"
+      ],
+      [
+        "167",
+        "637",
+        "2026-11-26"
+      ],
+      [
+        "413",
+        "94",
+        "2026-11-26"
+      ],
+      [
+        "3402",
+        "496",
+        "2026-11-26"
+      ],
+      [
+        "201",
+        "628",
+        "2026-11-26"
+      ],
+      [
+        "4360",
+        "651",
+        "2026-11-26"
+      ],
+      [
+        "336",
+        "746",
+        "2026-11-26"
+      ],
+      [
+        "1124",
+        "554",
+        "2026-11-26"
+      ],
+      [
+        "247",
+        "4799",
+        "2026-11-26"
+      ]
+    ],
+    "ronde": "League Stage - 5",
+    "og": "og/europa-league-speelronde-5-op-tv-26-november-2026-ca6728.webp"
   }
 }
