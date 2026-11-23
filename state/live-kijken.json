@@ -1761,7 +1761,8 @@
     "home_id": "20787",
     "away_id": "1616",
     "tv_sig": "Apple TV|Bet365|False|True",
-    "og": "og/st-louis-city-los-angeles-live-gratis-kijken-24-11-2026-30c744.webp"
+    "og": "og/st-louis-city-los-angeles-live-gratis-kijken-24-11-2026-30c744.webp",
+    "og_done": "og/st-louis-city-los-angeles-live-gratis-kijken-24-11-2026-30c744.webp"
   },
   "1635667": {
     "item_id": "6b04826cd874120ee433d036",
@@ -1773,7 +1774,8 @@
     "home_id": "645",
     "away_id": "66",
     "tv_sig": "Ziggo Sport en Ziggo Sport 3|Bet365|False|True",
-    "og": "og/galatasaray-aston-villa-live-gratis-kijken-24-11-2026-7e8891.webp"
+    "og": "og/galatasaray-aston-villa-live-gratis-kijken-24-11-2026-7e8891.webp",
+    "og_done": "og/galatasaray-aston-villa-live-gratis-kijken-24-11-2026-7e8891.webp"
   },
   "1635611": {
     "item_id": "6b048271677cb1531fd840ec",
@@ -1785,7 +1787,8 @@
     "home_id": "42",
     "away_id": "165",
     "tv_sig": "Ziggo Sport 3|Bet365|False|True",
-    "og": "og/arsenal-borussia-dortmund-live-gratis-kijken-24-11-2026-d531c8.webp"
+    "og": "og/arsenal-borussia-dortmund-live-gratis-kijken-24-11-2026-d531c8.webp",
+    "og_done": "og/arsenal-borussia-dortmund-live-gratis-kijken-24-11-2026-d531c8.webp"
   },
   "1635692": {
     "item_id": "6b048276318963c753c4f9f1",
@@ -1797,7 +1800,8 @@
     "home_id": "50",
     "away_id": "492",
     "tv_sig": "Ziggo Sport 5|Bet365|False|True",
-    "og": "og/manchester-city-napoli-live-gratis-kijken-24-11-2026-17a960.webp"
+    "og": "og/manchester-city-napoli-live-gratis-kijken-24-11-2026-17a960.webp",
+    "og_done": "og/manchester-city-napoli-live-gratis-kijken-24-11-2026-17a960.webp"
   },
   "1635663": {
     "item_id": "6b04827a10befb2622246a06",
@@ -1809,7 +1813,8 @@
     "home_id": "209",
     "away_id": "212",
     "tv_sig": "Ziggo Sport|Bet365|False|True",
-    "og": "og/feyenoord-fc-porto-live-gratis-kijken-24-11-2026-5bc642.webp"
+    "og": "og/feyenoord-fc-porto-live-gratis-kijken-24-11-2026-5bc642.webp",
+    "og_done": "og/feyenoord-fc-porto-live-gratis-kijken-24-11-2026-5bc642.webp"
   },
   "1635715": {
     "item_id": "6b04827f10befb2622246b90",
@@ -1821,7 +1826,8 @@
     "home_id": "541",
     "away_id": "197",
     "tv_sig": "Ziggo Sport 2|Bet365|False|True",
-    "og": "og/real-madrid-psv-live-gratis-kijken-24-11-2026-08292a.webp"
+    "og": "og/real-madrid-psv-live-gratis-kijken-24-11-2026-08292a.webp",
+    "og_done": "og/real-madrid-psv-live-gratis-kijken-24-11-2026-08292a.webp"
   },
   "hub:europa-league-speelronde-5-op-tv-26-november-2026": {
     "item_id": "6b04832a56a4384d3afdd33e",
@@ -1924,6 +1930,7 @@
       ]
     ],
     "ronde": "League Stage - 5",
-    "og": "og/europa-league-speelronde-5-op-tv-26-november-2026-ca6728.webp"
+    "og": "og/europa-league-speelronde-5-op-tv-26-november-2026-ca6728.webp",
+    "og_done": "og/europa-league-speelronde-5-op-tv-26-november-2026-ca6728.webp"
   }
 }
