@@ -6,7 +6,7 @@
     "date": "2026-11-23",
     "league": "eerste-divisie",
     "hub": true,
-    "sig": "f454ae41f4b153a24914cc577d076d03",
+    "sig": "4dfc452377e18e59fd24a0d9d435cb2c",
     "pairs": [
       [
         "203",
@@ -134,7 +134,7 @@
     "date": "2026-11-22",
     "league": "bundesliga",
     "hub": true,
-    "sig": "114e134fafda7510fec45fa6bdf3d6ed",
+    "sig": "04450c76efd444b93d37851a466b3f96",
     "pairs": [
       [
         "157",
@@ -193,7 +193,7 @@
     "date": "2026-11-22",
     "league": "ligue-1",
     "hub": true,
-    "sig": "60225b44c9eb089cd1bf08a0c83d49da",
+    "sig": "81cb5329630f23f07df4183beb2e6854",
     "pairs": [
       [
         "110",
@@ -252,7 +252,7 @@
     "date": "2026-11-22",
     "league": "jupiler-pro-league",
     "hub": true,
-    "sig": "1252f9acc0426561312ae150d286ef30",
+    "sig": "4086cc0e6030f6b2886ad4aac1128a06",
     "pairs": [
       [
         "261",
@@ -311,7 +311,7 @@
     "date": "2026-11-23",
     "league": "la-liga",
     "hub": true,
-    "sig": "35b632c3fa8b28de516cd38cc755b416",
+    "sig": "cbaf7ca2b9b9622f93da186e2d96176b",
     "pairs": [
       [
         "531",
@@ -375,7 +375,7 @@
     "date": "2026-11-23",
     "league": "super-lig",
     "hub": true,
-    "sig": "08afef0a5920c51e9af4fa00d2d88523",
+    "sig": "068a5980a6ae4cf2a09fed8abf04b3ad",
     "pairs": [
       [
         "3573",
@@ -434,7 +434,7 @@
     "date": "2026-11-23",
     "league": "premier-league",
     "hub": true,
-    "sig": "4f098a10dcfc2625a3db881123c5ce59",
+    "sig": "b7085e5f9806677705c329ba991fcfd3",
     "pairs": [
       [
         "36",
@@ -498,7 +498,7 @@
     "date": "2026-11-23",
     "league": "serie-a",
     "hub": true,
-    "sig": "dd657b5484163349f66b60e6c6695884",
+    "sig": "bbdce02dfd585a02d8cf9fa92b091bf8",
     "pairs": [
       [
         "490",
@@ -562,7 +562,7 @@
     "date": "2026-11-22",
     "league": "eredivisie",
     "hub": true,
-    "sig": "8f9a64bfa46faf2fec2bba9d24a9c2f1",
+    "sig": "38ca5d6535637587ec54ce9be49397ca",
     "pairs": [
       [
         "197",
@@ -1158,7 +1158,7 @@
     "date": "2026-11-23",
     "league": "eerste-divisie",
     "hub": true,
-    "sig": "80c65850e997d77c71db6743fef07af3",
+    "sig": "ed0f6a39f702050c05c35f248910a43e",
     "pairs": [
       [
         "422",
@@ -1212,7 +1212,7 @@
     "date": "2026-11-25",
     "league": "champions-league",
     "hub": true,
-    "sig": "b1cb87b707807542a229d7825f09e321",
+    "sig": "36f354091f2616c36abdc870d1660667",
     "pairs": [
       [
         "1026",
@@ -1646,5 +1646,108 @@
     "tv_sig": "ESPN 2|Bet365|False|True",
     "og": "og/jong-ajax-jong-az-live-gratis-kijken-23-11-2026-d3318c.webp",
     "og_done": "og/jong-ajax-jong-az-live-gratis-kijken-23-11-2026-d3318c.webp"
+  },
+  "hub:conference-league-speelronde-4-op-tv-26-november-2026": {
+    "item_id": "6b0479d6e96d81e18e9f093b",
+    "slug": "conference-league-speelronde-4-op-tv-26-november-2026",
+    "match": "Conference League speelronde 4",
+    "date": "2026-11-26",
+    "league": "conference-league",
+    "hub": true,
+    "sig": "fd3146db3d931a00541b9e53507d1b14",
+    "pairs": [
+      [
+        "2240",
+        "664",
+        "2026-11-26"
+      ],
+      [
+        "51",
+        "632",
+        "2026-11-26"
+      ],
+      [
+        "1012",
+        "194",
+        "2026-11-26"
+      ],
+      [
+        "254",
+        "91",
+        "2026-11-26"
+      ],
+      [
+        "319",
+        "406",
+        "2026-11-26"
+      ],
+      [
+        "1122",
+        "606",
+        "2026-11-26"
+      ],
+      [
+        "3327",
+        "667",
+        "2026-11-26"
+      ],
+      [
+        "3403",
+        "397",
+        "2026-11-26"
+      ],
+      [
+        "3502",
+        "546",
+        "2026-11-26"
+      ],
+      [
+        "10124",
+        "3872",
+        "2026-11-26"
+      ],
+      [
+        "160",
+        "415",
+        "2026-11-26"
+      ],
+      [
+        "1165",
+        "217",
+        "2026-11-26"
+      ],
+      [
+        "398",
+        "617",
+        "2026-11-26"
+      ],
+      [
+        "608",
+        "735",
+        "2026-11-26"
+      ],
+      [
+        "598",
+        "631",
+        "2026-11-26"
+      ],
+      [
+        "853",
+        "998",
+        "2026-11-26"
+      ],
+      [
+        "3342",
+        "400",
+        "2026-11-26"
+      ],
+      [
+        "3364",
+        "499",
+        "2026-11-26"
+      ]
+    ],
+    "ronde": "League Stage - 4",
+    "og": "og/conference-league-speelronde-4-op-tv-26-november-2026-47b591.webp"
   }
 }
