@@ -1928,7 +1928,8 @@
     "home_id": "13976",
     "away_id": "529",
     "tv_sig": "Ziggo Sport|Bet365|False|True",
-    "og": "og/sabah-fk-fc-barcelona-live-gratis-kijken-25-11-2026-99a0b9.webp"
+    "og": "og/sabah-fk-fc-barcelona-live-gratis-kijken-25-11-2026-99a0b9.webp",
+    "og_done": "og/sabah-fk-fc-barcelona-live-gratis-kijken-25-11-2026-99a0b9.webp"
   },
   "1635682": {
     "item_id": "6b05d3f0800d7a9e48e836bb",
@@ -1940,7 +1941,8 @@
     "home_id": "79",
     "away_id": "157",
     "tv_sig": "Ziggo Sport|Bet365|False|True",
-    "og": "og/lille-bayern-munchen-live-gratis-kijken-25-11-2026-3a1f18.webp"
+    "og": "og/lille-bayern-munchen-live-gratis-kijken-25-11-2026-3a1f18.webp",
+    "og_done": "og/lille-bayern-munchen-live-gratis-kijken-25-11-2026-3a1f18.webp"
   },
   "1635703": {
     "item_id": "6b05d3f3800d7a9e48e837e9",
@@ -1952,7 +1954,8 @@
     "home_id": "85",
     "away_id": "497",
     "tv_sig": "Ziggo Sport|Bet365|False|True",
-    "og": "og/paris-saint-germain-psg-as-roma-live-gratis-kijken-25-11-2026-bfb7fe.webp"
+    "og": "og/paris-saint-germain-psg-as-roma-live-gratis-kijken-25-11-2026-bfb7fe.webp",
+    "og_done": "og/paris-saint-germain-psg-as-roma-live-gratis-kijken-25-11-2026-bfb7fe.webp"
   },
   "1635735": {
     "item_id": "6b05d3f841148252844f274c",
@@ -1964,7 +1967,8 @@
     "home_id": "228",
     "away_id": "33",
     "tv_sig": "Ziggo Sport|Bet365|False|True",
-    "og": "og/sporting-cp-manchester-united-live-gratis-kijken-25-11-2026-702ba6.webp"
+    "og": "og/sporting-cp-manchester-united-live-gratis-kijken-25-11-2026-702ba6.webp",
+    "og_done": "og/sporting-cp-manchester-united-live-gratis-kijken-25-11-2026-702ba6.webp"
   },
   "1635673": {
     "item_id": "6b05d3fa00c6db9754fd6b8a",
@@ -1976,7 +1980,8 @@
     "home_id": "505",
     "away_id": "172",
     "tv_sig": "Ziggo Sport|Bet365|False|True",
-    "og": "og/inter-stuttgart-live-gratis-kijken-25-11-2026-6c0537.webp"
+    "og": "og/inter-stuttgart-live-gratis-kijken-25-11-2026-6c0537.webp",
+    "og_done": "og/inter-stuttgart-live-gratis-kijken-25-11-2026-6c0537.webp"
   },
   "1635625": {
     "item_id": "6b05d3ff2bda5e3299be52d7",
@@ -1988,7 +1993,8 @@
     "home_id": "530",
     "away_id": "759",
     "tv_sig": "Ziggo Sport|Bet365|False|True",
-    "og": "og/atletico-madrid-viking-live-gratis-kijken-25-11-2026-166dcd.webp"
+    "og": "og/atletico-madrid-viking-live-gratis-kijken-25-11-2026-166dcd.webp",
+    "og_done": "og/atletico-madrid-viking-live-gratis-kijken-25-11-2026-166dcd.webp"
   },
   "1635724": {
     "item_id": "6b05d40154c6b0d350c5a000",
@@ -2000,7 +2006,8 @@
     "home_id": "550",
     "away_id": "611",
     "tv_sig": "Ziggo Sport|Bet365|False|True",
-    "og": "og/shakhtar-donetsk-fenerbahce-live-gratis-kijken-25-11-2026-868413.webp"
+    "og": "og/shakhtar-donetsk-fenerbahce-live-gratis-kijken-25-11-2026-868413.webp",
+    "og_done": "og/shakhtar-donetsk-fenerbahce-live-gratis-kijken-25-11-2026-868413.webp"
   },
   "1635642": {
     "item_id": "6b05d40c2bda5e3299be578a",
@@ -2012,7 +2019,8 @@
     "home_id": "569",
     "away_id": "40",
     "tv_sig": "Ziggo Sport|Bet365|False|True",
-    "og": "og/club-brugge-liverpool-live-gratis-kijken-25-11-2026-fe8a64.webp"
+    "og": "og/club-brugge-liverpool-live-gratis-kijken-25-11-2026-fe8a64.webp",
+    "og_done": "og/club-brugge-liverpool-live-gratis-kijken-25-11-2026-fe8a64.webp"
   },
   "hub:super-lig-speelronde-13-op-tv-27-november-2026": {
     "item_id": "6b05d4ca8a2dfdaad8c3bbad",
@@ -2070,6 +2078,7 @@
       ]
     ],
     "ronde": "Regular Season - 13",
-    "og": "og/super-lig-speelronde-13-op-tv-27-november-2026-a2b228.webp"
+    "og": "og/super-lig-speelronde-13-op-tv-27-november-2026-a2b228.webp",
+    "og_done": "og/super-lig-speelronde-13-op-tv-27-november-2026-a2b228.webp"
   }
 }
