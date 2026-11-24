@@ -2265,7 +2265,8 @@
       ]
     ],
     "ronde": "Regular Season - 12",
-    "og": "og/premier-league-speelronde-12-op-tv-27-november-2026-3cce90.webp"
+    "og": "og/premier-league-speelronde-12-op-tv-27-november-2026-3cce90.webp",
+    "og_done": "og/premier-league-speelronde-12-op-tv-27-november-2026-3cce90.webp"
   },
   "hub:la-liga-speelronde-14-op-tv-27-november-2026": {
     "item_id": "6b05f0fd001af79eab78e84f",
@@ -2328,7 +2329,8 @@
       ]
     ],
     "ronde": "Regular Season - 14",
-    "og": "og/la-liga-speelronde-14-op-tv-27-november-2026-eab1a8.webp"
+    "og": "og/la-liga-speelronde-14-op-tv-27-november-2026-eab1a8.webp",
+    "og_done": "og/la-liga-speelronde-14-op-tv-27-november-2026-eab1a8.webp"
   },
   "hub:serie-a-speelronde-13-op-tv-27-november-2026": {
     "item_id": "6b05f0ffaaaa09c96dfdbe7d",
@@ -2391,7 +2393,8 @@
       ]
     ],
     "ronde": "Regular Season - 13",
-    "og": "og/serie-a-speelronde-13-op-tv-27-november-2026-c71f8c.webp"
+    "og": "og/serie-a-speelronde-13-op-tv-27-november-2026-c71f8c.webp",
+    "og_done": "og/serie-a-speelronde-13-op-tv-27-november-2026-c71f8c.webp"
   },
   "hub:bundesliga-speelronde-11-op-tv-27-november-2026": {
     "item_id": "6b05f1024ef9ec6f42830913",
@@ -2449,7 +2452,8 @@
       ]
     ],
     "ronde": "Regular Season - 11",
-    "og": "og/bundesliga-speelronde-11-op-tv-27-november-2026-9d7fd4.webp"
+    "og": "og/bundesliga-speelronde-11-op-tv-27-november-2026-9d7fd4.webp",
+    "og_done": "og/bundesliga-speelronde-11-op-tv-27-november-2026-9d7fd4.webp"
   },
   "hub:ligue-1-speelronde-12-op-tv-27-november-2026": {
     "item_id": "6b05f104800325db8695970c",
@@ -2507,7 +2511,8 @@
       ]
     ],
     "ronde": "Regular Season - 12",
-    "og": "og/ligue-1-speelronde-12-op-tv-27-november-2026-2ae41d.webp"
+    "og": "og/ligue-1-speelronde-12-op-tv-27-november-2026-2ae41d.webp",
+    "og_done": "og/ligue-1-speelronde-12-op-tv-27-november-2026-2ae41d.webp"
   },
   "hub:jupiler-pro-league-speelronde-13-op-tv-27-november-2026": {
     "item_id": "6b05f106800325db86959781",
@@ -2565,6 +2570,7 @@
       ]
     ],
     "ronde": "Regular Season - 13",
-    "og": "og/jupiler-pro-league-speelronde-13-op-tv-27-november-2026-fc1a89.webp"
+    "og": "og/jupiler-pro-league-speelronde-13-op-tv-27-november-2026-fc1a89.webp",
+    "og_done": "og/jupiler-pro-league-speelronde-13-op-tv-27-november-2026-fc1a89.webp"
   }
 }
