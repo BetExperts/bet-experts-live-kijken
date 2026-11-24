@@ -6,7 +6,7 @@
     "date": "2026-11-23",
     "league": "eerste-divisie",
     "hub": true,
-    "sig": "ba9cafd33156c4bdf509e594e2170172",
+    "sig": "340a065c010a72be9c6998feb6ed891a",
     "pairs": [
       [
         "203",
@@ -311,7 +311,7 @@
     "date": "2026-11-23",
     "league": "la-liga",
     "hub": true,
-    "sig": "d5c9279bf270c8be4e3853e3605b0522",
+    "sig": "4f36c7c77977ba7ff3faf2c609e30371",
     "pairs": [
       [
         "531",
@@ -375,7 +375,7 @@
     "date": "2026-11-23",
     "league": "super-lig",
     "hub": true,
-    "sig": "b4ee12554f277684e1a2c5abc6d549ee",
+    "sig": "b5dba56d83cadb88f3fe0d44ceb6b576",
     "pairs": [
       [
         "3573",
@@ -434,7 +434,7 @@
     "date": "2026-11-23",
     "league": "premier-league",
     "hub": true,
-    "sig": "cfdee5205c20d50679972b4e0f3250d4",
+    "sig": "4dd99933f0f2a61d1ed01d441808d5ee",
     "pairs": [
       [
         "36",
@@ -498,7 +498,7 @@
     "date": "2026-11-23",
     "league": "serie-a",
     "hub": true,
-    "sig": "304dc4fed001f0f5b956327050807c1a",
+    "sig": "a93ac556483f98becd5793caf1833d8b",
     "pairs": [
       [
         "490",
@@ -1158,7 +1158,7 @@
     "date": "2026-11-23",
     "league": "eerste-divisie",
     "hub": true,
-    "sig": "1341e702768e4b34c10a1da94e788b4a",
+    "sig": "c4222eacb48e38e653021d087674d8cb",
     "pairs": [
       [
         "422",
@@ -1197,7 +1197,7 @@
     "date": "2026-11-25",
     "league": "champions-league",
     "hub": true,
-    "sig": "2ed7a5b81b8f0369fb3de93bce01a001",
+    "sig": "aba9ec67a078fd4f7b961abf0b709f53",
     "pairs": [
       [
         "1026",
@@ -1639,7 +1639,7 @@
     "date": "2026-11-26",
     "league": "conference-league",
     "hub": true,
-    "sig": "925f8d03dffe2d64b733c108b8d0acb5",
+    "sig": "1f5c1c7a4df75d969c105546ed8c6a12",
     "pairs": [
       [
         "2240",
@@ -1821,7 +1821,7 @@
     "date": "2026-11-26",
     "league": "europa-league",
     "hub": true,
-    "sig": "a0bf20c3627f16aa9e930703d0543743",
+    "sig": "b8f91eef46c5c53b730dc66600e2b1e2",
     "pairs": [
       [
         "646",
@@ -1917,5 +1917,159 @@
     "ronde": "League Stage - 5",
     "og": "og/europa-league-speelronde-5-op-tv-26-november-2026-ca6728.webp",
     "og_done": "og/europa-league-speelronde-5-op-tv-26-november-2026-ca6728.webp"
+  },
+  "1635718": {
+    "item_id": "6b05d3eaa672be07efb874f3",
+    "slug": "sabah-fk-fc-barcelona-live-gratis-kijken-25-11-2026",
+    "match": "Sabah FA - Barcelona",
+    "date": "2026-11-25",
+    "league": "champions-league",
+    "provider": "Bet365",
+    "home_id": "13976",
+    "away_id": "529",
+    "tv_sig": "Ziggo Sport|Bet365|False|True",
+    "og": "og/sabah-fk-fc-barcelona-live-gratis-kijken-25-11-2026-99a0b9.webp"
+  },
+  "1635682": {
+    "item_id": "6b05d3f0800d7a9e48e836bb",
+    "slug": "lille-bayern-munchen-live-gratis-kijken-25-11-2026",
+    "match": "Lille - Bayern München",
+    "date": "2026-11-25",
+    "league": "champions-league",
+    "provider": "Bet365",
+    "home_id": "79",
+    "away_id": "157",
+    "tv_sig": "Ziggo Sport|Bet365|False|True",
+    "og": "og/lille-bayern-munchen-live-gratis-kijken-25-11-2026-3a1f18.webp"
+  },
+  "1635703": {
+    "item_id": "6b05d3f3800d7a9e48e837e9",
+    "slug": "paris-saint-germain-psg-as-roma-live-gratis-kijken-25-11-2026",
+    "match": "Paris Saint-Germain - AS Roma",
+    "date": "2026-11-25",
+    "league": "champions-league",
+    "provider": "Bet365",
+    "home_id": "85",
+    "away_id": "497",
+    "tv_sig": "Ziggo Sport|Bet365|False|True",
+    "og": "og/paris-saint-germain-psg-as-roma-live-gratis-kijken-25-11-2026-bfb7fe.webp"
+  },
+  "1635735": {
+    "item_id": "6b05d3f841148252844f274c",
+    "slug": "sporting-cp-manchester-united-live-gratis-kijken-25-11-2026",
+    "match": "Sporting Portugal - Manchester United",
+    "date": "2026-11-25",
+    "league": "champions-league",
+    "provider": "Bet365",
+    "home_id": "228",
+    "away_id": "33",
+    "tv_sig": "Ziggo Sport|Bet365|False|True",
+    "og": "og/sporting-cp-manchester-united-live-gratis-kijken-25-11-2026-702ba6.webp"
+  },
+  "1635673": {
+    "item_id": "6b05d3fa00c6db9754fd6b8a",
+    "slug": "inter-stuttgart-live-gratis-kijken-25-11-2026",
+    "match": "Inter - VfB Stuttgart",
+    "date": "2026-11-25",
+    "league": "champions-league",
+    "provider": "Bet365",
+    "home_id": "505",
+    "away_id": "172",
+    "tv_sig": "Ziggo Sport|Bet365|False|True",
+    "og": "og/inter-stuttgart-live-gratis-kijken-25-11-2026-6c0537.webp"
+  },
+  "1635625": {
+    "item_id": "6b05d3ff2bda5e3299be52d7",
+    "slug": "atletico-madrid-viking-live-gratis-kijken-25-11-2026",
+    "match": "Atlético Madrid - Viking",
+    "date": "2026-11-25",
+    "league": "champions-league",
+    "provider": "Bet365",
+    "home_id": "530",
+    "away_id": "759",
+    "tv_sig": "Ziggo Sport|Bet365|False|True",
+    "og": "og/atletico-madrid-viking-live-gratis-kijken-25-11-2026-166dcd.webp"
+  },
+  "1635724": {
+    "item_id": "6b05d40154c6b0d350c5a000",
+    "slug": "shakhtar-donetsk-fenerbahce-live-gratis-kijken-25-11-2026",
+    "match": "Shakhtar Donetsk - Fenerbahçe",
+    "date": "2026-11-25",
+    "league": "champions-league",
+    "provider": "Bet365",
+    "home_id": "550",
+    "away_id": "611",
+    "tv_sig": "Ziggo Sport|Bet365|False|True",
+    "og": "og/shakhtar-donetsk-fenerbahce-live-gratis-kijken-25-11-2026-868413.webp"
+  },
+  "1635642": {
+    "item_id": "6b05d40c2bda5e3299be578a",
+    "slug": "club-brugge-liverpool-live-gratis-kijken-25-11-2026",
+    "match": "Club Brugge - Liverpool",
+    "date": "2026-11-25",
+    "league": "champions-league",
+    "provider": "Bet365",
+    "home_id": "569",
+    "away_id": "40",
+    "tv_sig": "Ziggo Sport|Bet365|False|True",
+    "og": "og/club-brugge-liverpool-live-gratis-kijken-25-11-2026-fe8a64.webp"
+  },
+  "hub:super-lig-speelronde-13-op-tv-27-november-2026": {
+    "item_id": "6b05d4ca8a2dfdaad8c3bbad",
+    "slug": "super-lig-speelronde-13-op-tv-27-november-2026",
+    "match": "Süper Lig speelronde 13",
+    "date": "2026-11-30",
+    "league": "super-lig",
+    "hub": true,
+    "sig": "487658e4ad1b1be086011e59b48b38d3",
+    "pairs": [
+      [
+        "607",
+        "996",
+        "2026-11-27"
+      ],
+      [
+        "1004",
+        "1007",
+        "2026-11-27"
+      ],
+      [
+        "3603",
+        "997",
+        "2026-11-28"
+      ],
+      [
+        "3573",
+        "3579",
+        "2026-11-28"
+      ],
+      [
+        "6343",
+        "7411",
+        "2026-11-29"
+      ],
+      [
+        "3588",
+        "564",
+        "2026-11-29"
+      ],
+      [
+        "1009",
+        "611",
+        "2026-11-29"
+      ],
+      [
+        "994",
+        "998",
+        "2026-11-30"
+      ],
+      [
+        "549",
+        "645",
+        "2026-11-30"
+      ]
+    ],
+    "ronde": "Regular Season - 13",
+    "og": "og/super-lig-speelronde-13-op-tv-27-november-2026-a2b228.webp"
   }
 }
