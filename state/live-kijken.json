@@ -6,7 +6,7 @@
     "date": "2026-11-23",
     "league": "eerste-divisie",
     "hub": true,
-    "sig": "340a065c010a72be9c6998feb6ed891a",
+    "sig": "131455a072e65aef168d1f1cf1df8619",
     "pairs": [
       [
         "203",
@@ -311,7 +311,7 @@
     "date": "2026-11-23",
     "league": "la-liga",
     "hub": true,
-    "sig": "4f36c7c77977ba7ff3faf2c609e30371",
+    "sig": "9b99577991834462b00beb0fae07ddd0",
     "pairs": [
       [
         "531",
@@ -375,7 +375,7 @@
     "date": "2026-11-23",
     "league": "super-lig",
     "hub": true,
-    "sig": "b5dba56d83cadb88f3fe0d44ceb6b576",
+    "sig": "3286a65dea5df4711d7e3fe1e8a732cd",
     "pairs": [
       [
         "3573",
@@ -434,7 +434,7 @@
     "date": "2026-11-23",
     "league": "premier-league",
     "hub": true,
-    "sig": "4dd99933f0f2a61d1ed01d441808d5ee",
+    "sig": "70549883c831ddefdd77cd77842e538b",
     "pairs": [
       [
         "36",
@@ -498,7 +498,7 @@
     "date": "2026-11-23",
     "league": "serie-a",
     "hub": true,
-    "sig": "a93ac556483f98becd5793caf1833d8b",
+    "sig": "b1254f45ed6dbd51107b618adc02f89f",
     "pairs": [
       [
         "490",
@@ -1158,7 +1158,7 @@
     "date": "2026-11-23",
     "league": "eerste-divisie",
     "hub": true,
-    "sig": "c4222eacb48e38e653021d087674d8cb",
+    "sig": "c487fa1390c5690bdae456b218c50431",
     "pairs": [
       [
         "422",
@@ -1197,7 +1197,7 @@
     "date": "2026-11-25",
     "league": "champions-league",
     "hub": true,
-    "sig": "aba9ec67a078fd4f7b961abf0b709f53",
+    "sig": "728420ddd38c45875df599015abd01ec",
     "pairs": [
       [
         "1026",
@@ -1639,7 +1639,7 @@
     "date": "2026-11-26",
     "league": "conference-league",
     "hub": true,
-    "sig": "1f5c1c7a4df75d969c105546ed8c6a12",
+    "sig": "012f06da75979d627e52fef37f75b907",
     "pairs": [
       [
         "2240",
@@ -1821,7 +1821,7 @@
     "date": "2026-11-26",
     "league": "europa-league",
     "hub": true,
-    "sig": "b8f91eef46c5c53b730dc66600e2b1e2",
+    "sig": "5f8b0187b19f79525df1a3af1969b539",
     "pairs": [
       [
         "646",
@@ -2029,7 +2029,7 @@
     "date": "2026-11-30",
     "league": "super-lig",
     "hub": true,
-    "sig": "487658e4ad1b1be086011e59b48b38d3",
+    "sig": "3d04e5c92cc55900f9d582e178ba89cd",
     "pairs": [
       [
         "607",
@@ -2080,5 +2080,126 @@
     "ronde": "Regular Season - 13",
     "og": "og/super-lig-speelronde-13-op-tv-27-november-2026-a2b228.webp",
     "og_done": "og/super-lig-speelronde-13-op-tv-27-november-2026-a2b228.webp"
+  },
+  "hub:eredivisie-speelronde-14-op-tv-27-november-2026": {
+    "item_id": "6b05df1b75c05f77ded00617",
+    "slug": "eredivisie-speelronde-14-op-tv-27-november-2026",
+    "match": "Eredivisie speelronde 14",
+    "date": "2026-11-29",
+    "league": "eredivisie",
+    "hub": true,
+    "sig": "37a91fb58af847d2ca194f77f5d69fcf",
+    "pairs": [
+      [
+        "195",
+        "202",
+        "2026-11-27"
+      ],
+      [
+        "196",
+        "427",
+        "2026-11-28"
+      ],
+      [
+        "197",
+        "410",
+        "2026-11-28"
+      ],
+      [
+        "420",
+        "426",
+        "2026-11-28"
+      ],
+      [
+        "198",
+        "207",
+        "2026-11-29"
+      ],
+      [
+        "205",
+        "210",
+        "2026-11-29"
+      ],
+      [
+        "194",
+        "209",
+        "2026-11-29"
+      ],
+      [
+        "193",
+        "201",
+        "2026-11-29"
+      ],
+      [
+        "413",
+        "415",
+        "2026-11-29"
+      ]
+    ],
+    "ronde": "Regular Season - 14",
+    "og": "og/eredivisie-speelronde-14-op-tv-27-november-2026-6cabc6.webp"
+  },
+  "hub:keuken-kampioen-divisie-speelronde-17-op-tv-27-november-2026": {
+    "item_id": "6b05df1e8ab0559d47e9b886",
+    "slug": "keuken-kampioen-divisie-speelronde-17-op-tv-27-november-2026",
+    "match": "Keuken Kampioen Divisie speelronde 17",
+    "date": "2026-11-29",
+    "league": "eerste-divisie",
+    "hub": true,
+    "sig": "7fe86cdb9f1248e2d64bb9fde31e08a8",
+    "pairs": [
+      [
+        "203",
+        "421",
+        "2026-11-27"
+      ],
+      [
+        "204",
+        "417",
+        "2026-11-27"
+      ],
+      [
+        "200",
+        "409",
+        "2026-11-27"
+      ],
+      [
+        "411",
+        "412",
+        "2026-11-27"
+      ],
+      [
+        "418",
+        "423",
+        "2026-11-27"
+      ],
+      [
+        "206",
+        "425",
+        "2026-11-27"
+      ],
+      [
+        "419",
+        "428",
+        "2026-11-27"
+      ],
+      [
+        "208",
+        "424",
+        "2026-11-28"
+      ],
+      [
+        "416",
+        "422",
+        "2026-11-29"
+      ],
+      [
+        "199",
+        "414",
+        "2026-11-29"
+      ]
+    ],
+    "ronde": "Regular Season - 17",
+    "og": "og/keuken-kampioen-divisie-speelronde-17-op-tv-27-november-2026-32ddb0.webp"
   }
 }
