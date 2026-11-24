@@ -6,7 +6,7 @@
     "date": "2026-11-23",
     "league": "eerste-divisie",
     "hub": true,
-    "sig": "131455a072e65aef168d1f1cf1df8619",
+    "sig": "f93f809e6d3d8c58c81a83c82e1d9332",
     "pairs": [
       [
         "203",
@@ -311,7 +311,7 @@
     "date": "2026-11-23",
     "league": "la-liga",
     "hub": true,
-    "sig": "9b99577991834462b00beb0fae07ddd0",
+    "sig": "cf3ce95dbf49e0b8f05fac3328f1f300",
     "pairs": [
       [
         "531",
@@ -375,7 +375,7 @@
     "date": "2026-11-23",
     "league": "super-lig",
     "hub": true,
-    "sig": "3286a65dea5df4711d7e3fe1e8a732cd",
+    "sig": "c117d70a65940d353667fe4b84642649",
     "pairs": [
       [
         "3573",
@@ -434,7 +434,7 @@
     "date": "2026-11-23",
     "league": "premier-league",
     "hub": true,
-    "sig": "70549883c831ddefdd77cd77842e538b",
+    "sig": "a6b43dd6eaf2f3cdd3abc6b4c049dc81",
     "pairs": [
       [
         "36",
@@ -498,7 +498,7 @@
     "date": "2026-11-23",
     "league": "serie-a",
     "hub": true,
-    "sig": "b1254f45ed6dbd51107b618adc02f89f",
+    "sig": "5a7087fd6b5cc2fb71eb7c7745d5d969",
     "pairs": [
       [
         "490",
@@ -1158,7 +1158,7 @@
     "date": "2026-11-23",
     "league": "eerste-divisie",
     "hub": true,
-    "sig": "c487fa1390c5690bdae456b218c50431",
+    "sig": "974d1e9c968cdc47e678c02da70b4eda",
     "pairs": [
       [
         "422",
@@ -1197,7 +1197,7 @@
     "date": "2026-11-25",
     "league": "champions-league",
     "hub": true,
-    "sig": "8b1a70b9805d184ae3b8f488c40495e3",
+    "sig": "4927c3d96ebbe899eec3f9819b0f08a9",
     "pairs": [
       [
         "1026",
@@ -1639,7 +1639,7 @@
     "date": "2026-11-26",
     "league": "conference-league",
     "hub": true,
-    "sig": "8b0b78bd3ef1edb667938b984d9cbede",
+    "sig": "566fd3c43ad97d83ffbf617c4a727e11",
     "pairs": [
       [
         "2240",
@@ -1821,7 +1821,7 @@
     "date": "2026-11-26",
     "league": "europa-league",
     "hub": true,
-    "sig": "cfd55b3b8833c399feeb337c89fe9ed3",
+    "sig": "429ba82eeb16663d222b23627cc9a850",
     "pairs": [
       [
         "646",
@@ -2029,7 +2029,7 @@
     "date": "2026-11-30",
     "league": "super-lig",
     "hub": true,
-    "sig": "3d04e5c92cc55900f9d582e178ba89cd",
+    "sig": "c53fb6e130a96dec872491022d253f6a",
     "pairs": [
       [
         "607",
@@ -2088,7 +2088,7 @@
     "date": "2026-11-29",
     "league": "eredivisie",
     "hub": true,
-    "sig": "7e2dcaf588a85dc020795a9eacfb4dc9",
+    "sig": "c088aea96b4289f226d9ce3d6efb07a5",
     "pairs": [
       [
         "195",
@@ -2147,7 +2147,7 @@
     "date": "2026-11-29",
     "league": "eerste-divisie",
     "hub": true,
-    "sig": "7fe86cdb9f1248e2d64bb9fde31e08a8",
+    "sig": "7f3b7597047adeb2c5f77433967020c6",
     "pairs": [
       [
         "203",
@@ -2203,5 +2203,368 @@
     "ronde": "Regular Season - 17",
     "og": "og/keuken-kampioen-divisie-speelronde-17-op-tv-27-november-2026-32ddb0.webp",
     "og_done": "og/keuken-kampioen-divisie-speelronde-17-op-tv-27-november-2026-32ddb0.webp"
+  },
+  "hub:premier-league-speelronde-12-op-tv-27-november-2026": {
+    "item_id": "6b05f0fa67fe221bdb9d7da5",
+    "slug": "premier-league-speelronde-12-op-tv-27-november-2026",
+    "match": "Premier League speelronde 12",
+    "date": "2026-11-29",
+    "league": "premier-league",
+    "hub": true,
+    "sig": "015b978bea842807700f87b5f23c4fd3",
+    "pairs": [
+      [
+        "49",
+        "65",
+        "2026-11-27"
+      ],
+      [
+        "33",
+        "55",
+        "2026-11-28"
+      ],
+      [
+        "1346",
+        "63",
+        "2026-11-28"
+      ],
+      [
+        "57",
+        "66",
+        "2026-11-28"
+      ],
+      [
+        "40",
+        "45",
+        "2026-11-29"
+      ],
+      [
+        "35",
+        "36",
+        "2026-11-29"
+      ],
+      [
+        "34",
+        "51",
+        "2026-11-29"
+      ],
+      [
+        "52",
+        "64",
+        "2026-11-29"
+      ],
+      [
+        "47",
+        "746",
+        "2026-11-29"
+      ],
+      [
+        "42",
+        "50",
+        "2026-11-29"
+      ]
+    ],
+    "ronde": "Regular Season - 12",
+    "og": "og/premier-league-speelronde-12-op-tv-27-november-2026-3cce90.webp"
+  },
+  "hub:la-liga-speelronde-14-op-tv-27-november-2026": {
+    "item_id": "6b05f0fd001af79eab78e84f",
+    "slug": "la-liga-speelronde-14-op-tv-27-november-2026",
+    "match": "La Liga speelronde 14",
+    "date": "2026-11-30",
+    "league": "la-liga",
+    "hub": true,
+    "sig": "b1478d61cdc64d00233e571596e4589c",
+    "pairs": [
+      [
+        "4665",
+        "539",
+        "2026-11-27"
+      ],
+      [
+        "543",
+        "728",
+        "2026-11-28"
+      ],
+      [
+        "531",
+        "535",
+        "2026-11-28"
+      ],
+      [
+        "530",
+        "797",
+        "2026-11-28"
+      ],
+      [
+        "541",
+        "542",
+        "2026-11-28"
+      ],
+      [
+        "532",
+        "727",
+        "2026-11-29"
+      ],
+      [
+        "529",
+        "544",
+        "2026-11-29"
+      ],
+      [
+        "533",
+        "538",
+        "2026-11-29"
+      ],
+      [
+        "536",
+        "548",
+        "2026-11-29"
+      ],
+      [
+        "540",
+        "546",
+        "2026-11-30"
+      ]
+    ],
+    "ronde": "Regular Season - 14",
+    "og": "og/la-liga-speelronde-14-op-tv-27-november-2026-eab1a8.webp"
+  },
+  "hub:serie-a-speelronde-13-op-tv-27-november-2026": {
+    "item_id": "6b05f0ffaaaa09c96dfdbe7d",
+    "slug": "serie-a-speelronde-13-op-tv-27-november-2026",
+    "match": "Serie A speelronde 13",
+    "date": "2026-11-30",
+    "league": "serie-a",
+    "hub": true,
+    "sig": "a948ef8011a06a93ec924288b52e6896",
+    "pairs": [
+      [
+        "500",
+        "517",
+        "2026-11-27"
+      ],
+      [
+        "512",
+        "523",
+        "2026-11-28"
+      ],
+      [
+        "487",
+        "503",
+        "2026-11-28"
+      ],
+      [
+        "495",
+        "505",
+        "2026-11-28"
+      ],
+      [
+        "494",
+        "502",
+        "2026-11-29"
+      ],
+      [
+        "488",
+        "492",
+        "2026-11-29"
+      ],
+      [
+        "1579",
+        "497",
+        "2026-11-29"
+      ],
+      [
+        "496",
+        "895",
+        "2026-11-29"
+      ],
+      [
+        "499",
+        "867",
+        "2026-11-30"
+      ],
+      [
+        "489",
+        "490",
+        "2026-11-30"
+      ]
+    ],
+    "ronde": "Regular Season - 13",
+    "og": "og/serie-a-speelronde-13-op-tv-27-november-2026-c71f8c.webp"
+  },
+  "hub:bundesliga-speelronde-11-op-tv-27-november-2026": {
+    "item_id": "6b05f1024ef9ec6f42830913",
+    "slug": "bundesliga-speelronde-11-op-tv-27-november-2026",
+    "match": "Bundesliga speelronde 11",
+    "date": "2026-11-29",
+    "league": "bundesliga",
+    "hub": true,
+    "sig": "013be4078b6ffa861745ed9b8272760c",
+    "pairs": [
+      [
+        "162",
+        "163",
+        "2026-11-27"
+      ],
+      [
+        "164",
+        "182",
+        "2026-11-28"
+      ],
+      [
+        "157",
+        "175",
+        "2026-11-28"
+      ],
+      [
+        "174",
+        "185",
+        "2026-11-28"
+      ],
+      [
+        "1660",
+        "192",
+        "2026-11-28"
+      ],
+      [
+        "169",
+        "172",
+        "2026-11-28"
+      ],
+      [
+        "160",
+        "173",
+        "2026-11-29"
+      ],
+      [
+        "167",
+        "170",
+        "2026-11-29"
+      ],
+      [
+        "165",
+        "168",
+        "2026-11-29"
+      ]
+    ],
+    "ronde": "Regular Season - 11",
+    "og": "og/bundesliga-speelronde-11-op-tv-27-november-2026-9d7fd4.webp"
+  },
+  "hub:ligue-1-speelronde-12-op-tv-27-november-2026": {
+    "item_id": "6b05f104800325db8695970c",
+    "slug": "ligue-1-speelronde-12-op-tv-27-november-2026",
+    "match": "Ligue 1 speelronde 12",
+    "date": "2026-11-29",
+    "league": "ligue-1",
+    "hub": true,
+    "sig": "4891a1e9a348229566559005bd225e35",
+    "pairs": [
+      [
+        "106",
+        "114",
+        "2026-11-27"
+      ],
+      [
+        "116",
+        "77",
+        "2026-11-28"
+      ],
+      [
+        "110",
+        "84",
+        "2026-11-28"
+      ],
+      [
+        "85",
+        "97",
+        "2026-11-28"
+      ],
+      [
+        "111",
+        "95",
+        "2026-11-28"
+      ],
+      [
+        "1298",
+        "79",
+        "2026-11-28"
+      ],
+      [
+        "108",
+        "81",
+        "2026-11-29"
+      ],
+      [
+        "94",
+        "96",
+        "2026-11-29"
+      ],
+      [
+        "80",
+        "91",
+        "2026-11-29"
+      ]
+    ],
+    "ronde": "Regular Season - 12",
+    "og": "og/ligue-1-speelronde-12-op-tv-27-november-2026-2ae41d.webp"
+  },
+  "hub:jupiler-pro-league-speelronde-13-op-tv-27-november-2026": {
+    "item_id": "6b05f106800325db86959781",
+    "slug": "jupiler-pro-league-speelronde-13-op-tv-27-november-2026",
+    "match": "Jupiler Pro League speelronde 13",
+    "date": "2026-11-29",
+    "league": "jupiler-pro-league",
+    "hub": true,
+    "sig": "2a24cfc0944fb9022eef9d93a60cae3d",
+    "pairs": [
+      [
+        "260",
+        "734",
+        "2026-11-27"
+      ],
+      [
+        "261",
+        "5902",
+        "2026-11-28"
+      ],
+      [
+        "266",
+        "741",
+        "2026-11-28"
+      ],
+      [
+        "259",
+        "600",
+        "2026-11-28"
+      ],
+      [
+        "736",
+        "738",
+        "2026-11-28"
+      ],
+      [
+        "735",
+        "742",
+        "2026-11-29"
+      ],
+      [
+        "554",
+        "740",
+        "2026-11-29"
+      ],
+      [
+        "569",
+        "733",
+        "2026-11-29"
+      ],
+      [
+        "1393",
+        "631",
+        "2026-11-29"
+      ]
+    ],
+    "ronde": "Regular Season - 13",
+    "og": "og/jupiler-pro-league-speelronde-13-op-tv-27-november-2026-fc1a89.webp"
   }
 }
