@@ -1,1466 +1,1466 @@
 {
-  "hub:keuken-kampioen-divisie-speelronde-15-op-tv-14-november-2026": {
-    "item_id": "6af4a1c4aad0035aec5d27a0",
-    "slug": "keuken-kampioen-divisie-speelronde-15-op-tv-14-november-2026",
-    "match": "Keuken Kampioen Divisie speelronde 15",
-    "date": "2026-11-23",
-    "league": "eerste-divisie",
-    "hub": true,
-    "sig": "f93f809e6d3d8c58c81a83c82e1d9332",
-    "pairs": [
-      [
-        "203",
-        "208",
-        "2026-11-14"
-      ],
-      [
-        "417",
-        "421",
-        "2026-11-14"
-      ],
-      [
-        "414",
-        "416",
-        "2026-11-14"
-      ],
-      [
-        "206",
-        "409",
-        "2026-11-14"
-      ],
-      [
-        "204",
-        "422",
-        "2026-11-14"
-      ],
-      [
-        "199",
-        "423",
-        "2026-11-14"
-      ],
-      [
-        "419",
-        "424",
-        "2026-11-14"
-      ],
-      [
-        "200",
-        "412",
-        "2026-11-15"
-      ],
-      [
-        "411",
-        "428",
-        "2026-11-23"
-      ],
-      [
-        "418",
-        "425",
-        "2026-11-23"
-      ]
-    ],
-    "ronde": "Regular Season - 15",
-    "og": "og/keuken-kampioen-divisie-speelronde-15-op-tv-14-november-2026-c50206.webp",
-    "og_done": "og/keuken-kampioen-divisie-speelronde-15-op-tv-14-november-2026-c50206.webp"
-  },
-  "hub:la-liga-speelronde-13-op-tv-20-november-2026": {
-    "item_id": "6afcb7547886fc90efb75efd",
-    "slug": "la-liga-speelronde-13-op-tv-20-november-2026",
-    "match": "La Liga speelronde 13",
-    "date": "2026-11-23",
-    "league": "la-liga",
-    "hub": true,
-    "sig": "cf3ce95dbf49e0b8f05fac3328f1f300",
-    "pairs": [
-      [
-        "531",
-        "540",
-        "2026-11-20"
-      ],
-      [
-        "542",
-        "544",
-        "2026-11-21"
-      ],
-      [
-        "532",
-        "728",
-        "2026-11-21"
-      ],
-      [
-        "536",
-        "543",
-        "2026-11-21"
-      ],
-      [
-        "538",
-        "541",
-        "2026-11-21"
-      ],
-      [
-        "529",
-        "533",
-        "2026-11-22"
-      ],
-      [
-        "4665",
-        "548",
-        "2026-11-22"
-      ],
-      [
-        "535",
-        "727",
-        "2026-11-22"
-      ],
-      [
-        "530",
-        "546",
-        "2026-11-22"
-      ],
-      [
-        "539",
-        "797",
-        "2026-11-23"
-      ]
-    ],
-    "ronde": "Regular Season - 13",
-    "og": "og/la-liga-speelronde-13-op-tv-20-november-2026-a888c2.webp",
-    "og_done": "og/la-liga-speelronde-13-op-tv-20-november-2026-a888c2.webp"
-  },
-  "hub:super-lig-speelronde-12-op-tv-21-november-2026": {
-    "item_id": "6afd98c84b52dfdf4a7069c4",
-    "slug": "super-lig-speelronde-12-op-tv-21-november-2026",
-    "match": "Süper Lig speelronde 12",
-    "date": "2026-11-23",
-    "league": "super-lig",
-    "hub": true,
-    "sig": "c117d70a65940d353667fe4b84642649",
-    "pairs": [
-      [
-        "3573",
-        "997",
-        "2026-11-21"
-      ],
-      [
-        "1007",
-        "3579",
-        "2026-11-21"
-      ],
-      [
-        "3603",
-        "645",
-        "2026-11-21"
-      ],
-      [
-        "611",
-        "7411",
-        "2026-11-21"
-      ],
-      [
-        "1009",
-        "994",
-        "2026-11-22"
-      ],
-      [
-        "1004",
-        "996",
-        "2026-11-22"
-      ],
-      [
-        "549",
-        "607",
-        "2026-11-22"
-      ],
-      [
-        "3588",
-        "998",
-        "2026-11-22"
-      ],
-      [
-        "564",
-        "6343",
-        "2026-11-23"
-      ]
-    ],
-    "ronde": "Regular Season - 12",
-    "og": "og/super-lig-speelronde-12-op-tv-21-november-2026-44b573.webp",
-    "og_done": "og/super-lig-speelronde-12-op-tv-21-november-2026-44b573.webp"
-  },
-  "hub:premier-league-speelronde-11-op-tv-21-november-2026": {
-    "item_id": "6afdb5f28d6fba293577799f",
-    "slug": "premier-league-speelronde-11-op-tv-21-november-2026",
-    "match": "Premier League speelronde 11",
-    "date": "2026-11-23",
-    "league": "premier-league",
-    "hub": true,
-    "sig": "a6b43dd6eaf2f3cdd3abc6b4c049dc81",
-    "pairs": [
-      [
-        "36",
-        "50",
-        "2026-11-21"
-      ],
-      [
-        "49",
-        "63",
-        "2026-11-21"
-      ],
-      [
-        "1346",
-        "52",
-        "2026-11-21"
-      ],
-      [
-        "66",
-        "746",
-        "2026-11-21"
-      ],
-      [
-        "35",
-        "65",
-        "2026-11-21"
-      ],
-      [
-        "47",
-        "57",
-        "2026-11-21"
-      ],
-      [
-        "34",
-        "42",
-        "2026-11-21"
-      ],
-      [
-        "51",
-        "64",
-        "2026-11-22"
-      ],
-      [
-        "33",
-        "40",
-        "2026-11-22"
-      ],
-      [
-        "45",
-        "55",
-        "2026-11-23"
-      ]
-    ],
-    "ronde": "Regular Season - 11",
-    "og": "og/premier-league-speelronde-11-op-tv-21-november-2026-cfc012.webp",
-    "og_done": "og/premier-league-speelronde-11-op-tv-21-november-2026-cfc012.webp"
-  },
-  "hub:serie-a-speelronde-12-op-tv-21-november-2026": {
-    "item_id": "6afdb5f58d6fba2935777aa6",
-    "slug": "serie-a-speelronde-12-op-tv-21-november-2026",
-    "match": "Serie A speelronde 12",
-    "date": "2026-11-23",
-    "league": "serie-a",
-    "hub": true,
-    "sig": "5a7087fd6b5cc2fb71eb7c7745d5d969",
-    "pairs": [
-      [
-        "490",
-        "895",
-        "2026-11-21"
-      ],
-      [
-        "487",
-        "867",
-        "2026-11-21"
-      ],
-      [
-        "497",
-        "523",
-        "2026-11-21"
-      ],
-      [
-        "492",
-        "503",
-        "2026-11-21"
-      ],
-      [
-        "496",
-        "517",
-        "2026-11-22"
-      ],
-      [
-        "494",
-        "500",
-        "2026-11-22"
-      ],
-      [
-        "488",
-        "495",
-        "2026-11-22"
-      ],
-      [
-        "489",
-        "512",
-        "2026-11-22"
-      ],
-      [
-        "499",
-        "505",
-        "2026-11-22"
-      ],
-      [
-        "1579",
-        "502",
-        "2026-11-23"
-      ]
-    ],
-    "ronde": "Regular Season - 12",
-    "og": "og/serie-a-speelronde-12-op-tv-21-november-2026-907ad1.webp",
-    "og_done": "og/serie-a-speelronde-12-op-tv-21-november-2026-907ad1.webp"
-  },
-  "hub:keuken-kampioen-divisie-speelronde-14-op-tv-6-november-2026": {
-    "item_id": "6b01c55be2cb3f4002dc35a7",
-    "slug": "keuken-kampioen-divisie-speelronde-14-op-tv-6-november-2026",
-    "match": "Keuken Kampioen Divisie speelronde 14",
-    "date": "2026-11-23",
-    "league": "eerste-divisie",
-    "hub": true,
-    "sig": "974d1e9c968cdc47e678c02da70b4eda",
-    "pairs": [
-      [
-        "422",
-        "425",
-        "2026-11-06"
-      ],
-      [
-        "204",
-        "411",
-        "2026-11-06"
-      ],
-      [
-        "421",
-        "428",
-        "2026-11-07"
-      ],
-      [
-        "208",
-        "412",
-        "2026-11-08"
-      ],
-      [
-        "199",
-        "200",
-        "2026-11-23"
-      ]
-    ],
-    "ronde": "Regular Season - 14",
-    "og": "og/keuken-kampioen-divisie-speelronde-14-op-tv-6-november-2026-9d115f.webp",
-    "og_done": "og/keuken-kampioen-divisie-speelronde-14-op-tv-6-november-2026-9d115f.webp"
-  },
-  "hub:champions-league-speelronde-5-op-tv-24-november-2026": {
-    "item_id": "6b01dfa9426de5e734592e9c",
-    "slug": "champions-league-speelronde-5-op-tv-24-november-2026",
-    "match": "Champions League speelronde 5",
-    "date": "2026-11-25",
-    "league": "champions-league",
-    "hub": true,
-    "sig": "ba67dc676f4739207c804100b3335752",
-    "pairs": [
-      [
-        "1026",
-        "327",
-        "2026-11-24"
-      ],
-      [
-        "645",
-        "66",
-        "2026-11-24"
-      ],
-      [
-        "575",
-        "895",
-        "2026-11-24"
-      ],
-      [
-        "197",
-        "541",
-        "2026-11-24"
-      ],
-      [
-        "543",
-        "656",
-        "2026-11-24"
-      ],
-      [
-        "209",
-        "212",
-        "2026-11-24"
-      ],
-      [
-        "492",
-        "50",
-        "2026-11-24"
-      ],
-      [
-        "165",
-        "42",
-        "2026-11-24"
-      ],
-      [
-        "116",
-        "173",
-        "2026-11-24"
-      ],
-      [
-        "533",
-        "560",
-        "2026-11-25"
-      ],
-      [
-        "13976",
-        "529",
-        "2026-11-25"
-      ],
-      [
-        "157",
-        "79",
-        "2026-11-25"
-      ],
-      [
-        "497",
-        "85",
-        "2026-11-25"
-      ],
-      [
-        "228",
-        "33",
-        "2026-11-25"
-      ],
-      [
-        "172",
-        "505",
-        "2026-11-25"
-      ],
-      [
-        "530",
-        "759",
-        "2026-11-25"
-      ],
-      [
-        "550",
-        "611",
-        "2026-11-25"
-      ],
-      [
-        "40",
-        "569",
-        "2026-11-25"
-      ]
-    ],
-    "ronde": "League Stage - 5",
-    "og": "og/champions-league-speelronde-5-op-tv-24-november-2026-6e060e.webp",
-    "og_done": "og/champions-league-speelronde-5-op-tv-24-november-2026-6e060e.webp"
-  },
-  "1584467": {
-    "item_id": "6b036c91f5f973ac5533a590",
-    "slug": "istanbul-basaksehir-corum-fk-live-gratis-kijken-23-11-2026",
-    "match": "Başakşehir - Çorum FK",
-    "date": "2026-11-23",
-    "league": "super-lig",
-    "provider": "Starcasino",
-    "home_id": "564",
-    "away_id": "6343",
-    "tv_sig": "|Starcasino|False|False",
-    "og": "og/istanbul-basaksehir-corum-fk-live-gratis-kijken-23-11-2026-ec6e57.webp",
-    "og_done": "og/istanbul-basaksehir-corum-fk-live-gratis-kijken-23-11-2026-ec6e57.webp"
-  },
-  "1550203": {
-    "item_id": "6b036c97f29ae40098f6a8eb",
-    "slug": "monza-fiorentina-live-gratis-kijken-23-11-2026",
-    "match": "Monza - Fiorentina",
-    "date": "2026-11-23",
-    "league": "serie-a",
-    "provider": "Bet365",
-    "home_id": "1579",
-    "away_id": "502",
-    "tv_sig": "Ziggo Sport|Bet365|False|True",
-    "og": "og/monza-fiorentina-live-gratis-kijken-23-11-2026-18148d.webp",
-    "og_done": "og/monza-fiorentina-live-gratis-kijken-23-11-2026-18148d.webp"
-  },
-  "1551875": {
-    "item_id": "6b036c9fc3d19b6896bebf05",
-    "slug": "vitesse-de-graafschap-live-gratis-kijken-23-11-2026",
-    "match": "Vitesse - De Graafschap",
-    "date": "2026-11-23",
-    "league": "eerste-divisie",
-    "provider": "Bet365",
-    "home_id": "200",
-    "away_id": "199",
-    "tv_sig": "ESPN|Bet365|False|True",
-    "og": "og/vitesse-de-graafschap-live-gratis-kijken-23-11-2026-a53109.webp",
-    "og_done": "og/vitesse-de-graafschap-live-gratis-kijken-23-11-2026-a53109.webp"
-  },
-  "1551886": {
-    "item_id": "6b036ca2f29ae40098f6abc9",
-    "slug": "jong-psv-jong-fc-utrecht-live-gratis-kijken-23-11-2026",
-    "match": "Jong PSV - Jong FC Utrecht",
-    "date": "2026-11-23",
-    "league": "eerste-divisie",
-    "provider": "Bet365",
-    "home_id": "411",
-    "away_id": "428",
-    "tv_sig": "ESPN 3|Bet365|False|True",
-    "og": "og/jong-psv-jong-fc-utrecht-live-gratis-kijken-23-11-2026-e7465c.webp",
-    "og_done": "og/jong-psv-jong-fc-utrecht-live-gratis-kijken-23-11-2026-e7465c.webp"
-  },
-  "1551885": {
-    "item_id": "6b036ca56fa00e341c3afdd1",
-    "slug": "jong-ajax-jong-az-live-gratis-kijken-23-11-2026",
-    "match": "Jong Ajax - Jong AZ",
-    "date": "2026-11-23",
-    "league": "eerste-divisie",
-    "provider": "Bet365",
-    "home_id": "425",
-    "away_id": "418",
-    "tv_sig": "ESPN 2|Bet365|False|True",
-    "og": "og/jong-ajax-jong-az-live-gratis-kijken-23-11-2026-d3318c.webp",
-    "og_done": "og/jong-ajax-jong-az-live-gratis-kijken-23-11-2026-d3318c.webp"
-  },
-  "hub:conference-league-speelronde-4-op-tv-26-november-2026": {
-    "item_id": "6b0479d6e96d81e18e9f093b",
-    "slug": "conference-league-speelronde-4-op-tv-26-november-2026",
-    "match": "Conference League speelronde 4",
-    "date": "2026-11-26",
-    "league": "conference-league",
-    "hub": true,
-    "sig": "08ed50058815a2cfbb625c06680a1050",
-    "pairs": [
-      [
-        "2240",
-        "664",
-        "2026-11-26"
-      ],
-      [
-        "51",
-        "632",
-        "2026-11-26"
-      ],
-      [
-        "1012",
-        "194",
-        "2026-11-26"
-      ],
-      [
-        "254",
-        "91",
-        "2026-11-26"
-      ],
-      [
-        "319",
-        "406",
-        "2026-11-26"
-      ],
-      [
-        "1122",
-        "606",
-        "2026-11-26"
-      ],
-      [
-        "3327",
-        "667",
-        "2026-11-26"
-      ],
-      [
-        "3403",
-        "397",
-        "2026-11-26"
-      ],
-      [
-        "3502",
-        "546",
-        "2026-11-26"
-      ],
-      [
-        "10124",
-        "3872",
-        "2026-11-26"
-      ],
-      [
-        "160",
-        "415",
-        "2026-11-26"
-      ],
-      [
-        "1165",
-        "217",
-        "2026-11-26"
-      ],
-      [
-        "398",
-        "617",
-        "2026-11-26"
-      ],
-      [
-        "608",
-        "735",
-        "2026-11-26"
-      ],
-      [
-        "598",
-        "631",
-        "2026-11-26"
-      ],
-      [
-        "853",
-        "998",
-        "2026-11-26"
-      ],
-      [
-        "3342",
-        "400",
-        "2026-11-26"
-      ],
-      [
-        "3364",
-        "499",
-        "2026-11-26"
-      ]
-    ],
-    "ronde": "League Stage - 4",
-    "og": "og/conference-league-speelronde-4-op-tv-26-november-2026-47b591.webp",
-    "og_done": "og/conference-league-speelronde-4-op-tv-26-november-2026-47b591.webp"
-  },
-  "1649498": {
-    "item_id": "6b0482660ceeaf42956a7199",
-    "slug": "st-louis-city-los-angeles-live-gratis-kijken-24-11-2026",
-    "match": "St. Louis City - Los Angeles FC",
-    "date": "2026-11-24",
-    "league": "mls",
-    "provider": "Bet365",
-    "home_id": "20787",
-    "away_id": "1616",
-    "tv_sig": "Apple TV|Bet365|False|True",
-    "og": "og/st-louis-city-los-angeles-live-gratis-kijken-24-11-2026-30c744.webp",
-    "og_done": "og/st-louis-city-los-angeles-live-gratis-kijken-24-11-2026-30c744.webp"
-  },
-  "1635667": {
-    "item_id": "6b04826cd874120ee433d036",
-    "slug": "galatasaray-aston-villa-live-gratis-kijken-24-11-2026",
-    "match": "Galatasaray - Aston Villa",
-    "date": "2026-11-24",
-    "league": "champions-league",
-    "provider": "Bet365",
-    "home_id": "645",
-    "away_id": "66",
-    "tv_sig": "Ziggo Sport en Ziggo Sport 3|Bet365|False|True",
-    "og": "og/galatasaray-aston-villa-live-gratis-kijken-24-11-2026-7e8891.webp",
-    "og_done": "og/galatasaray-aston-villa-live-gratis-kijken-24-11-2026-7e8891.webp"
-  },
-  "1635611": {
-    "item_id": "6b048271677cb1531fd840ec",
-    "slug": "arsenal-borussia-dortmund-live-gratis-kijken-24-11-2026",
-    "match": "Arsenal - Borussia Dortmund",
-    "date": "2026-11-24",
-    "league": "champions-league",
-    "provider": "Bet365",
-    "home_id": "42",
-    "away_id": "165",
-    "tv_sig": "Ziggo Sport 3|Bet365|False|True",
-    "og": "og/arsenal-borussia-dortmund-live-gratis-kijken-24-11-2026-d531c8.webp",
-    "og_done": "og/arsenal-borussia-dortmund-live-gratis-kijken-24-11-2026-d531c8.webp"
-  },
-  "1635692": {
-    "item_id": "6b048276318963c753c4f9f1",
-    "slug": "manchester-city-napoli-live-gratis-kijken-24-11-2026",
-    "match": "Manchester City - Napoli",
-    "date": "2026-11-24",
-    "league": "champions-league",
-    "provider": "Bet365",
-    "home_id": "50",
-    "away_id": "492",
-    "tv_sig": "Ziggo Sport 5|Bet365|False|True",
-    "og": "og/manchester-city-napoli-live-gratis-kijken-24-11-2026-17a960.webp",
-    "og_done": "og/manchester-city-napoli-live-gratis-kijken-24-11-2026-17a960.webp"
-  },
-  "1635663": {
-    "item_id": "6b04827a10befb2622246a06",
-    "slug": "feyenoord-fc-porto-live-gratis-kijken-24-11-2026",
-    "match": "Feyenoord - FC Porto",
-    "date": "2026-11-24",
-    "league": "champions-league",
-    "provider": "Bet365",
-    "home_id": "209",
-    "away_id": "212",
-    "tv_sig": "Ziggo Sport|Bet365|False|True",
-    "og": "og/feyenoord-fc-porto-live-gratis-kijken-24-11-2026-5bc642.webp",
-    "og_done": "og/feyenoord-fc-porto-live-gratis-kijken-24-11-2026-5bc642.webp"
-  },
-  "1635715": {
-    "item_id": "6b04827f10befb2622246b90",
-    "slug": "real-madrid-psv-live-gratis-kijken-24-11-2026",
-    "match": "Real Madrid - PSV",
-    "date": "2026-11-24",
-    "league": "champions-league",
-    "provider": "Bet365",
-    "home_id": "541",
-    "away_id": "197",
-    "tv_sig": "Ziggo Sport 2|Bet365|False|True",
-    "og": "og/real-madrid-psv-live-gratis-kijken-24-11-2026-08292a.webp",
-    "og_done": "og/real-madrid-psv-live-gratis-kijken-24-11-2026-08292a.webp"
-  },
-  "hub:europa-league-speelronde-5-op-tv-26-november-2026": {
-    "item_id": "6b04832a56a4384d3afdd33e",
-    "slug": "europa-league-speelronde-5-op-tv-26-november-2026",
-    "match": "Europa League speelronde 5",
-    "date": "2026-11-26",
-    "league": "europa-league",
-    "hub": true,
-    "sig": "3f7930de9e9a5d045054d776974ef7d1",
-    "pairs": [
-      [
-        "646",
-        "81",
-        "2026-11-26"
-      ],
-      [
-        "35",
-        "538",
-        "2026-11-26"
-      ],
-      [
-        "549",
-        "563",
-        "2026-11-26"
-      ],
-      [
-        "489",
-        "553",
-        "2026-11-26"
-      ],
-      [
-        "211",
-        "567",
-        "2026-11-26"
-      ],
-      [
-        "3683",
-        "571",
-        "2026-11-26"
-      ],
-      [
-        "168",
-        "620",
-        "2026-11-26"
-      ],
-      [
-        "1393",
-        "347",
-        "2026-11-26"
-      ],
-      [
-        "52",
-        "548",
-        "2026-11-26"
-      ],
-      [
-        "321",
-        "80",
-        "2026-11-26"
-      ],
-      [
-        "167",
-        "637",
-        "2026-11-26"
-      ],
-      [
-        "413",
-        "94",
-        "2026-11-26"
-      ],
-      [
-        "3402",
-        "496",
-        "2026-11-26"
-      ],
-      [
-        "201",
-        "628",
-        "2026-11-26"
-      ],
-      [
-        "4360",
-        "651",
-        "2026-11-26"
-      ],
-      [
-        "336",
-        "746",
-        "2026-11-26"
-      ],
-      [
-        "1124",
-        "554",
-        "2026-11-26"
-      ],
-      [
-        "247",
-        "4799",
-        "2026-11-26"
-      ]
-    ],
-    "ronde": "League Stage - 5",
-    "og": "og/europa-league-speelronde-5-op-tv-26-november-2026-ca6728.webp",
-    "og_done": "og/europa-league-speelronde-5-op-tv-26-november-2026-ca6728.webp"
-  },
-  "1635718": {
-    "item_id": "6b05d3eaa672be07efb874f3",
-    "slug": "sabah-fk-fc-barcelona-live-gratis-kijken-25-11-2026",
-    "match": "Sabah FA - Barcelona",
-    "date": "2026-11-25",
-    "league": "champions-league",
-    "provider": "Bet365",
-    "home_id": "13976",
-    "away_id": "529",
-    "tv_sig": "Ziggo Sport|Bet365|False|True",
-    "og": "og/sabah-fk-fc-barcelona-live-gratis-kijken-25-11-2026-99a0b9.webp",
-    "og_done": "og/sabah-fk-fc-barcelona-live-gratis-kijken-25-11-2026-99a0b9.webp"
-  },
-  "1635682": {
-    "item_id": "6b05d3f0800d7a9e48e836bb",
-    "slug": "lille-bayern-munchen-live-gratis-kijken-25-11-2026",
-    "match": "Lille - Bayern München",
-    "date": "2026-11-25",
-    "league": "champions-league",
-    "provider": "Bet365",
-    "home_id": "79",
-    "away_id": "157",
-    "tv_sig": "Ziggo Sport|Bet365|False|True",
-    "og": "og/lille-bayern-munchen-live-gratis-kijken-25-11-2026-3a1f18.webp",
-    "og_done": "og/lille-bayern-munchen-live-gratis-kijken-25-11-2026-3a1f18.webp"
-  },
-  "1635703": {
-    "item_id": "6b05d3f3800d7a9e48e837e9",
-    "slug": "paris-saint-germain-psg-as-roma-live-gratis-kijken-25-11-2026",
-    "match": "Paris Saint-Germain - AS Roma",
-    "date": "2026-11-25",
-    "league": "champions-league",
-    "provider": "Bet365",
-    "home_id": "85",
-    "away_id": "497",
-    "tv_sig": "Ziggo Sport|Bet365|False|True",
-    "og": "og/paris-saint-germain-psg-as-roma-live-gratis-kijken-25-11-2026-bfb7fe.webp",
-    "og_done": "og/paris-saint-germain-psg-as-roma-live-gratis-kijken-25-11-2026-bfb7fe.webp"
-  },
-  "1635735": {
-    "item_id": "6b05d3f841148252844f274c",
-    "slug": "sporting-cp-manchester-united-live-gratis-kijken-25-11-2026",
-    "match": "Sporting Portugal - Manchester United",
-    "date": "2026-11-25",
-    "league": "champions-league",
-    "provider": "Bet365",
-    "home_id": "228",
-    "away_id": "33",
-    "tv_sig": "Ziggo Sport|Bet365|False|True",
-    "og": "og/sporting-cp-manchester-united-live-gratis-kijken-25-11-2026-702ba6.webp",
-    "og_done": "og/sporting-cp-manchester-united-live-gratis-kijken-25-11-2026-702ba6.webp"
-  },
-  "1635673": {
-    "item_id": "6b05d3fa00c6db9754fd6b8a",
-    "slug": "inter-stuttgart-live-gratis-kijken-25-11-2026",
-    "match": "Inter - VfB Stuttgart",
-    "date": "2026-11-25",
-    "league": "champions-league",
-    "provider": "Bet365",
-    "home_id": "505",
-    "away_id": "172",
-    "tv_sig": "Ziggo Sport|Bet365|False|True",
-    "og": "og/inter-stuttgart-live-gratis-kijken-25-11-2026-6c0537.webp",
-    "og_done": "og/inter-stuttgart-live-gratis-kijken-25-11-2026-6c0537.webp"
-  },
-  "1635625": {
-    "item_id": "6b05d3ff2bda5e3299be52d7",
-    "slug": "atletico-madrid-viking-live-gratis-kijken-25-11-2026",
-    "match": "Atlético Madrid - Viking",
-    "date": "2026-11-25",
-    "league": "champions-league",
-    "provider": "Bet365",
-    "home_id": "530",
-    "away_id": "759",
-    "tv_sig": "Ziggo Sport|Bet365|False|True",
-    "og": "og/atletico-madrid-viking-live-gratis-kijken-25-11-2026-166dcd.webp",
-    "og_done": "og/atletico-madrid-viking-live-gratis-kijken-25-11-2026-166dcd.webp"
-  },
-  "1635724": {
-    "item_id": "6b05d40154c6b0d350c5a000",
-    "slug": "shakhtar-donetsk-fenerbahce-live-gratis-kijken-25-11-2026",
-    "match": "Shakhtar Donetsk - Fenerbahçe",
-    "date": "2026-11-25",
-    "league": "champions-league",
-    "provider": "Bet365",
-    "home_id": "550",
-    "away_id": "611",
-    "tv_sig": "Ziggo Sport|Bet365|False|True",
-    "og": "og/shakhtar-donetsk-fenerbahce-live-gratis-kijken-25-11-2026-868413.webp",
-    "og_done": "og/shakhtar-donetsk-fenerbahce-live-gratis-kijken-25-11-2026-868413.webp"
-  },
-  "1635642": {
-    "item_id": "6b05d40c2bda5e3299be578a",
-    "slug": "club-brugge-liverpool-live-gratis-kijken-25-11-2026",
-    "match": "Club Brugge - Liverpool",
-    "date": "2026-11-25",
-    "league": "champions-league",
-    "provider": "Bet365",
-    "home_id": "569",
-    "away_id": "40",
-    "tv_sig": "Ziggo Sport|Bet365|False|True",
-    "og": "og/club-brugge-liverpool-live-gratis-kijken-25-11-2026-fe8a64.webp",
-    "og_done": "og/club-brugge-liverpool-live-gratis-kijken-25-11-2026-fe8a64.webp"
-  },
-  "hub:super-lig-speelronde-13-op-tv-27-november-2026": {
-    "item_id": "6b05d4ca8a2dfdaad8c3bbad",
-    "slug": "super-lig-speelronde-13-op-tv-27-november-2026",
-    "match": "Süper Lig speelronde 13",
-    "date": "2026-11-30",
-    "league": "super-lig",
-    "hub": true,
-    "sig": "c1641326dad0873dc01ca91d7a3ba8e9",
-    "pairs": [
-      [
-        "607",
-        "996",
-        "2026-11-27"
-      ],
-      [
-        "1004",
-        "1007",
-        "2026-11-27"
-      ],
-      [
-        "3603",
-        "997",
-        "2026-11-28"
-      ],
-      [
-        "3573",
-        "3579",
-        "2026-11-28"
-      ],
-      [
-        "6343",
-        "7411",
-        "2026-11-29"
-      ],
-      [
-        "3588",
-        "564",
-        "2026-11-29"
-      ],
-      [
-        "1009",
-        "611",
-        "2026-11-29"
-      ],
-      [
-        "994",
-        "998",
-        "2026-11-30"
-      ],
-      [
-        "549",
-        "645",
-        "2026-11-30"
-      ]
-    ],
-    "ronde": "Regular Season - 13",
-    "og": "og/super-lig-speelronde-13-op-tv-27-november-2026-a2b228.webp",
-    "og_done": "og/super-lig-speelronde-13-op-tv-27-november-2026-a2b228.webp"
-  },
-  "hub:eredivisie-speelronde-14-op-tv-27-november-2026": {
-    "item_id": "6b05df1b75c05f77ded00617",
-    "slug": "eredivisie-speelronde-14-op-tv-27-november-2026",
-    "match": "Eredivisie speelronde 14",
-    "date": "2026-11-29",
-    "league": "eredivisie",
-    "hub": true,
-    "sig": "35f214129a9146f4810530b17e35034a",
-    "pairs": [
-      [
-        "195",
-        "202",
-        "2026-11-27"
-      ],
-      [
-        "196",
-        "427",
-        "2026-11-28"
-      ],
-      [
-        "197",
-        "410",
-        "2026-11-28"
-      ],
-      [
-        "420",
-        "426",
-        "2026-11-28"
-      ],
-      [
-        "198",
-        "207",
-        "2026-11-29"
-      ],
-      [
-        "205",
-        "210",
-        "2026-11-29"
-      ],
-      [
-        "194",
-        "209",
-        "2026-11-29"
-      ],
-      [
-        "193",
-        "201",
-        "2026-11-29"
-      ],
-      [
-        "413",
-        "415",
-        "2026-11-29"
-      ]
-    ],
-    "ronde": "Regular Season - 14",
-    "og": "og/eredivisie-speelronde-14-op-tv-27-november-2026-6cabc6.webp",
-    "og_done": "og/eredivisie-speelronde-14-op-tv-27-november-2026-6cabc6.webp"
-  },
-  "hub:keuken-kampioen-divisie-speelronde-17-op-tv-27-november-2026": {
-    "item_id": "6b05df1e8ab0559d47e9b886",
-    "slug": "keuken-kampioen-divisie-speelronde-17-op-tv-27-november-2026",
-    "match": "Keuken Kampioen Divisie speelronde 17",
-    "date": "2026-11-29",
-    "league": "eerste-divisie",
-    "hub": true,
-    "sig": "46193ededd28a4ef4848239ec69a0c30",
-    "pairs": [
-      [
-        "203",
-        "421",
-        "2026-11-27"
-      ],
-      [
-        "204",
-        "417",
-        "2026-11-27"
-      ],
-      [
-        "200",
-        "409",
-        "2026-11-27"
-      ],
-      [
-        "411",
-        "412",
-        "2026-11-27"
-      ],
-      [
-        "418",
-        "423",
-        "2026-11-27"
-      ],
-      [
-        "206",
-        "425",
-        "2026-11-27"
-      ],
-      [
-        "419",
-        "428",
-        "2026-11-27"
-      ],
-      [
-        "208",
-        "424",
-        "2026-11-28"
-      ],
-      [
-        "416",
-        "422",
-        "2026-11-29"
-      ],
-      [
-        "199",
-        "414",
-        "2026-11-29"
-      ]
-    ],
-    "ronde": "Regular Season - 17",
-    "og": "og/keuken-kampioen-divisie-speelronde-17-op-tv-27-november-2026-32ddb0.webp",
-    "og_done": "og/keuken-kampioen-divisie-speelronde-17-op-tv-27-november-2026-32ddb0.webp"
-  },
-  "hub:premier-league-speelronde-12-op-tv-27-november-2026": {
-    "item_id": "6b05f0fa67fe221bdb9d7da5",
-    "slug": "premier-league-speelronde-12-op-tv-27-november-2026",
-    "match": "Premier League speelronde 12",
-    "date": "2026-11-29",
-    "league": "premier-league",
-    "hub": true,
-    "sig": "342187df0d19e8b9d92a9d6a6ef8d8f5",
-    "pairs": [
-      [
-        "49",
-        "65",
-        "2026-11-27"
-      ],
-      [
-        "33",
-        "55",
-        "2026-11-28"
-      ],
-      [
-        "1346",
-        "63",
-        "2026-11-28"
-      ],
-      [
-        "57",
-        "66",
-        "2026-11-28"
-      ],
-      [
-        "40",
-        "45",
-        "2026-11-29"
-      ],
-      [
-        "35",
-        "36",
-        "2026-11-29"
-      ],
-      [
-        "34",
-        "51",
-        "2026-11-29"
-      ],
-      [
-        "52",
-        "64",
-        "2026-11-29"
-      ],
-      [
-        "47",
-        "746",
-        "2026-11-29"
-      ],
-      [
-        "42",
-        "50",
-        "2026-11-29"
-      ]
-    ],
-    "ronde": "Regular Season - 12",
-    "og": "og/premier-league-speelronde-12-op-tv-27-november-2026-3cce90.webp",
-    "og_done": "og/premier-league-speelronde-12-op-tv-27-november-2026-3cce90.webp"
-  },
-  "hub:la-liga-speelronde-14-op-tv-27-november-2026": {
-    "item_id": "6b05f0fd001af79eab78e84f",
-    "slug": "la-liga-speelronde-14-op-tv-27-november-2026",
-    "match": "La Liga speelronde 14",
-    "date": "2026-11-30",
-    "league": "la-liga",
-    "hub": true,
-    "sig": "8df1abae08f45a08891b2c1776d3e4f9",
-    "pairs": [
-      [
-        "4665",
-        "539",
-        "2026-11-27"
-      ],
-      [
-        "543",
-        "728",
-        "2026-11-28"
-      ],
-      [
-        "531",
-        "535",
-        "2026-11-28"
-      ],
-      [
-        "530",
-        "797",
-        "2026-11-28"
-      ],
-      [
-        "541",
-        "542",
-        "2026-11-28"
-      ],
-      [
-        "532",
-        "727",
-        "2026-11-29"
-      ],
-      [
-        "529",
-        "544",
-        "2026-11-29"
-      ],
-      [
-        "533",
-        "538",
-        "2026-11-29"
-      ],
-      [
-        "536",
-        "548",
-        "2026-11-29"
-      ],
-      [
-        "540",
-        "546",
-        "2026-11-30"
-      ]
-    ],
-    "ronde": "Regular Season - 14",
-    "og": "og/la-liga-speelronde-14-op-tv-27-november-2026-eab1a8.webp",
-    "og_done": "og/la-liga-speelronde-14-op-tv-27-november-2026-eab1a8.webp"
-  },
-  "hub:serie-a-speelronde-13-op-tv-27-november-2026": {
-    "item_id": "6b05f0ffaaaa09c96dfdbe7d",
-    "slug": "serie-a-speelronde-13-op-tv-27-november-2026",
-    "match": "Serie A speelronde 13",
-    "date": "2026-11-30",
-    "league": "serie-a",
-    "hub": true,
-    "sig": "8011e8bb665cc6ae0e11b9f0b01c59d2",
-    "pairs": [
-      [
-        "500",
-        "517",
-        "2026-11-27"
-      ],
-      [
-        "512",
-        "523",
-        "2026-11-28"
-      ],
-      [
-        "487",
-        "503",
-        "2026-11-28"
-      ],
-      [
-        "495",
-        "505",
-        "2026-11-28"
-      ],
-      [
-        "494",
-        "502",
-        "2026-11-29"
-      ],
-      [
-        "488",
-        "492",
-        "2026-11-29"
-      ],
-      [
-        "1579",
-        "497",
-        "2026-11-29"
-      ],
-      [
-        "496",
-        "895",
-        "2026-11-29"
-      ],
-      [
-        "499",
-        "867",
-        "2026-11-30"
-      ],
-      [
-        "489",
-        "490",
-        "2026-11-30"
-      ]
-    ],
-    "ronde": "Regular Season - 13",
-    "og": "og/serie-a-speelronde-13-op-tv-27-november-2026-c71f8c.webp",
-    "og_done": "og/serie-a-speelronde-13-op-tv-27-november-2026-c71f8c.webp"
-  },
-  "hub:bundesliga-speelronde-11-op-tv-27-november-2026": {
-    "item_id": "6b05f1024ef9ec6f42830913",
-    "slug": "bundesliga-speelronde-11-op-tv-27-november-2026",
-    "match": "Bundesliga speelronde 11",
-    "date": "2026-11-29",
-    "league": "bundesliga",
-    "hub": true,
-    "sig": "460a4e9ac5a1bae853d88862e1bcd1ef",
-    "pairs": [
-      [
-        "162",
-        "163",
-        "2026-11-27"
-      ],
-      [
-        "164",
-        "182",
-        "2026-11-28"
-      ],
-      [
-        "157",
-        "175",
-        "2026-11-28"
-      ],
-      [
-        "174",
-        "185",
-        "2026-11-28"
-      ],
-      [
-        "1660",
-        "192",
-        "2026-11-28"
-      ],
-      [
-        "169",
-        "172",
-        "2026-11-28"
-      ],
-      [
-        "160",
-        "173",
-        "2026-11-29"
-      ],
-      [
-        "167",
-        "170",
-        "2026-11-29"
-      ],
-      [
-        "165",
-        "168",
-        "2026-11-29"
-      ]
-    ],
-    "ronde": "Regular Season - 11",
-    "og": "og/bundesliga-speelronde-11-op-tv-27-november-2026-9d7fd4.webp",
-    "og_done": "og/bundesliga-speelronde-11-op-tv-27-november-2026-9d7fd4.webp"
-  },
-  "hub:ligue-1-speelronde-12-op-tv-27-november-2026": {
-    "item_id": "6b05f104800325db8695970c",
-    "slug": "ligue-1-speelronde-12-op-tv-27-november-2026",
-    "match": "Ligue 1 speelronde 12",
-    "date": "2026-11-29",
-    "league": "ligue-1",
-    "hub": true,
-    "sig": "1814b94acce32a63c5f7a912d9539b44",
-    "pairs": [
-      [
-        "106",
-        "114",
-        "2026-11-27"
-      ],
-      [
-        "116",
-        "77",
-        "2026-11-28"
-      ],
-      [
-        "110",
-        "84",
-        "2026-11-28"
-      ],
-      [
-        "85",
-        "97",
-        "2026-11-28"
-      ],
-      [
-        "111",
-        "95",
-        "2026-11-28"
-      ],
-      [
-        "1298",
-        "79",
-        "2026-11-28"
-      ],
-      [
-        "108",
-        "81",
-        "2026-11-29"
-      ],
-      [
-        "94",
-        "96",
-        "2026-11-29"
-      ],
-      [
-        "80",
-        "91",
-        "2026-11-29"
-      ]
-    ],
-    "ronde": "Regular Season - 12",
-    "og": "og/ligue-1-speelronde-12-op-tv-27-november-2026-2ae41d.webp",
-    "og_done": "og/ligue-1-speelronde-12-op-tv-27-november-2026-2ae41d.webp"
-  },
-  "hub:jupiler-pro-league-speelronde-13-op-tv-27-november-2026": {
-    "item_id": "6b05f106800325db86959781",
-    "slug": "jupiler-pro-league-speelronde-13-op-tv-27-november-2026",
-    "match": "Jupiler Pro League speelronde 13",
-    "date": "2026-11-29",
-    "league": "jupiler-pro-league",
-    "hub": true,
-    "sig": "9aaad3c4aeab6ba65373fd99456c44cb",
-    "pairs": [
-      [
-        "260",
-        "734",
-        "2026-11-27"
-      ],
-      [
-        "261",
-        "5902",
-        "2026-11-28"
-      ],
-      [
-        "266",
-        "741",
-        "2026-11-28"
-      ],
-      [
-        "259",
-        "600",
-        "2026-11-28"
-      ],
-      [
-        "736",
-        "738",
-        "2026-11-28"
-      ],
-      [
-        "735",
-        "742",
-        "2026-11-29"
-      ],
-      [
-        "554",
-        "740",
-        "2026-11-29"
-      ],
-      [
-        "569",
-        "733",
-        "2026-11-29"
-      ],
-      [
-        "1393",
-        "631",
-        "2026-11-29"
-      ]
-    ],
-    "ronde": "Regular Season - 13",
-    "og": "og/jupiler-pro-league-speelronde-13-op-tv-27-november-2026-fc1a89.webp",
-    "og_done": "og/jupiler-pro-league-speelronde-13-op-tv-27-november-2026-fc1a89.webp"
-  }
+ "hub:keuken-kampioen-divisie-speelronde-15-op-tv-14-november-2026": {
+  "item_id": "6af4a1c4aad0035aec5d27a0",
+  "slug": "keuken-kampioen-divisie-speelronde-15-op-tv-14-november-2026",
+  "match": "Keuken Kampioen Divisie speelronde 15",
+  "date": "2026-11-23",
+  "league": "eerste-divisie",
+  "hub": true,
+  "sig": "f93f809e6d3d8c58c81a83c82e1d9332",
+  "pairs": [
+   [
+    "203",
+    "208",
+    "2026-11-14"
+   ],
+   [
+    "417",
+    "421",
+    "2026-11-14"
+   ],
+   [
+    "414",
+    "416",
+    "2026-11-14"
+   ],
+   [
+    "206",
+    "409",
+    "2026-11-14"
+   ],
+   [
+    "204",
+    "422",
+    "2026-11-14"
+   ],
+   [
+    "199",
+    "423",
+    "2026-11-14"
+   ],
+   [
+    "419",
+    "424",
+    "2026-11-14"
+   ],
+   [
+    "200",
+    "412",
+    "2026-11-15"
+   ],
+   [
+    "411",
+    "428",
+    "2026-11-23"
+   ],
+   [
+    "418",
+    "425",
+    "2026-11-23"
+   ]
+  ],
+  "ronde": "Regular Season - 15",
+  "og": "og/keuken-kampioen-divisie-speelronde-15-op-tv-14-november-2026-c50206.webp",
+  "og_done": "og/keuken-kampioen-divisie-speelronde-15-op-tv-14-november-2026-c50206.webp"
+ },
+ "hub:la-liga-speelronde-13-op-tv-20-november-2026": {
+  "item_id": "6afcb7547886fc90efb75efd",
+  "slug": "la-liga-speelronde-13-op-tv-20-november-2026",
+  "match": "La Liga speelronde 13",
+  "date": "2026-11-23",
+  "league": "la-liga",
+  "hub": true,
+  "sig": "cf3ce95dbf49e0b8f05fac3328f1f300",
+  "pairs": [
+   [
+    "531",
+    "540",
+    "2026-11-20"
+   ],
+   [
+    "542",
+    "544",
+    "2026-11-21"
+   ],
+   [
+    "532",
+    "728",
+    "2026-11-21"
+   ],
+   [
+    "536",
+    "543",
+    "2026-11-21"
+   ],
+   [
+    "538",
+    "541",
+    "2026-11-21"
+   ],
+   [
+    "529",
+    "533",
+    "2026-11-22"
+   ],
+   [
+    "4665",
+    "548",
+    "2026-11-22"
+   ],
+   [
+    "535",
+    "727",
+    "2026-11-22"
+   ],
+   [
+    "530",
+    "546",
+    "2026-11-22"
+   ],
+   [
+    "539",
+    "797",
+    "2026-11-23"
+   ]
+  ],
+  "ronde": "Regular Season - 13",
+  "og": "og/la-liga-speelronde-13-op-tv-20-november-2026-a888c2.webp",
+  "og_done": "og/la-liga-speelronde-13-op-tv-20-november-2026-a888c2.webp"
+ },
+ "hub:super-lig-speelronde-12-op-tv-21-november-2026": {
+  "item_id": "6afd98c84b52dfdf4a7069c4",
+  "slug": "super-lig-speelronde-12-op-tv-21-november-2026",
+  "match": "Süper Lig speelronde 12",
+  "date": "2026-11-23",
+  "league": "super-lig",
+  "hub": true,
+  "sig": "c117d70a65940d353667fe4b84642649",
+  "pairs": [
+   [
+    "3573",
+    "997",
+    "2026-11-21"
+   ],
+   [
+    "1007",
+    "3579",
+    "2026-11-21"
+   ],
+   [
+    "3603",
+    "645",
+    "2026-11-21"
+   ],
+   [
+    "611",
+    "7411",
+    "2026-11-21"
+   ],
+   [
+    "1009",
+    "994",
+    "2026-11-22"
+   ],
+   [
+    "1004",
+    "996",
+    "2026-11-22"
+   ],
+   [
+    "549",
+    "607",
+    "2026-11-22"
+   ],
+   [
+    "3588",
+    "998",
+    "2026-11-22"
+   ],
+   [
+    "564",
+    "6343",
+    "2026-11-23"
+   ]
+  ],
+  "ronde": "Regular Season - 12",
+  "og": "og/super-lig-speelronde-12-op-tv-21-november-2026-44b573.webp",
+  "og_done": "og/super-lig-speelronde-12-op-tv-21-november-2026-44b573.webp"
+ },
+ "hub:premier-league-speelronde-11-op-tv-21-november-2026": {
+  "item_id": "6afdb5f28d6fba293577799f",
+  "slug": "premier-league-speelronde-11-op-tv-21-november-2026",
+  "match": "Premier League speelronde 11",
+  "date": "2026-11-23",
+  "league": "premier-league",
+  "hub": true,
+  "sig": "a6b43dd6eaf2f3cdd3abc6b4c049dc81",
+  "pairs": [
+   [
+    "36",
+    "50",
+    "2026-11-21"
+   ],
+   [
+    "49",
+    "63",
+    "2026-11-21"
+   ],
+   [
+    "1346",
+    "52",
+    "2026-11-21"
+   ],
+   [
+    "66",
+    "746",
+    "2026-11-21"
+   ],
+   [
+    "35",
+    "65",
+    "2026-11-21"
+   ],
+   [
+    "47",
+    "57",
+    "2026-11-21"
+   ],
+   [
+    "34",
+    "42",
+    "2026-11-21"
+   ],
+   [
+    "51",
+    "64",
+    "2026-11-22"
+   ],
+   [
+    "33",
+    "40",
+    "2026-11-22"
+   ],
+   [
+    "45",
+    "55",
+    "2026-11-23"
+   ]
+  ],
+  "ronde": "Regular Season - 11",
+  "og": "og/premier-league-speelronde-11-op-tv-21-november-2026-cfc012.webp",
+  "og_done": "og/premier-league-speelronde-11-op-tv-21-november-2026-cfc012.webp"
+ },
+ "hub:serie-a-speelronde-12-op-tv-21-november-2026": {
+  "item_id": "6afdb5f58d6fba2935777aa6",
+  "slug": "serie-a-speelronde-12-op-tv-21-november-2026",
+  "match": "Serie A speelronde 12",
+  "date": "2026-11-23",
+  "league": "serie-a",
+  "hub": true,
+  "sig": "5a7087fd6b5cc2fb71eb7c7745d5d969",
+  "pairs": [
+   [
+    "490",
+    "895",
+    "2026-11-21"
+   ],
+   [
+    "487",
+    "867",
+    "2026-11-21"
+   ],
+   [
+    "497",
+    "523",
+    "2026-11-21"
+   ],
+   [
+    "492",
+    "503",
+    "2026-11-21"
+   ],
+   [
+    "496",
+    "517",
+    "2026-11-22"
+   ],
+   [
+    "494",
+    "500",
+    "2026-11-22"
+   ],
+   [
+    "488",
+    "495",
+    "2026-11-22"
+   ],
+   [
+    "489",
+    "512",
+    "2026-11-22"
+   ],
+   [
+    "499",
+    "505",
+    "2026-11-22"
+   ],
+   [
+    "1579",
+    "502",
+    "2026-11-23"
+   ]
+  ],
+  "ronde": "Regular Season - 12",
+  "og": "og/serie-a-speelronde-12-op-tv-21-november-2026-907ad1.webp",
+  "og_done": "og/serie-a-speelronde-12-op-tv-21-november-2026-907ad1.webp"
+ },
+ "hub:keuken-kampioen-divisie-speelronde-14-op-tv-6-november-2026": {
+  "item_id": "6b01c55be2cb3f4002dc35a7",
+  "slug": "keuken-kampioen-divisie-speelronde-14-op-tv-6-november-2026",
+  "match": "Keuken Kampioen Divisie speelronde 14",
+  "date": "2026-11-23",
+  "league": "eerste-divisie",
+  "hub": true,
+  "sig": "974d1e9c968cdc47e678c02da70b4eda",
+  "pairs": [
+   [
+    "422",
+    "425",
+    "2026-11-06"
+   ],
+   [
+    "204",
+    "411",
+    "2026-11-06"
+   ],
+   [
+    "421",
+    "428",
+    "2026-11-07"
+   ],
+   [
+    "208",
+    "412",
+    "2026-11-08"
+   ],
+   [
+    "199",
+    "200",
+    "2026-11-23"
+   ]
+  ],
+  "ronde": "Regular Season - 14",
+  "og": "og/keuken-kampioen-divisie-speelronde-14-op-tv-6-november-2026-9d115f.webp",
+  "og_done": "og/keuken-kampioen-divisie-speelronde-14-op-tv-6-november-2026-9d115f.webp"
+ },
+ "hub:champions-league-speelronde-5-op-tv-24-november-2026": {
+  "item_id": "6b01dfa9426de5e734592e9c",
+  "slug": "champions-league-speelronde-5-op-tv-24-november-2026",
+  "match": "Champions League speelronde 5",
+  "date": "2026-11-25",
+  "league": "champions-league",
+  "hub": true,
+  "sig": "28015d1f2bf40ab9c4502824229dc7e4",
+  "pairs": [
+   [
+    "1026",
+    "327",
+    "2026-11-24"
+   ],
+   [
+    "645",
+    "66",
+    "2026-11-24"
+   ],
+   [
+    "575",
+    "895",
+    "2026-11-24"
+   ],
+   [
+    "197",
+    "541",
+    "2026-11-24"
+   ],
+   [
+    "543",
+    "656",
+    "2026-11-24"
+   ],
+   [
+    "209",
+    "212",
+    "2026-11-24"
+   ],
+   [
+    "492",
+    "50",
+    "2026-11-24"
+   ],
+   [
+    "165",
+    "42",
+    "2026-11-24"
+   ],
+   [
+    "116",
+    "173",
+    "2026-11-24"
+   ],
+   [
+    "533",
+    "560",
+    "2026-11-25"
+   ],
+   [
+    "13976",
+    "529",
+    "2026-11-25"
+   ],
+   [
+    "157",
+    "79",
+    "2026-11-25"
+   ],
+   [
+    "497",
+    "85",
+    "2026-11-25"
+   ],
+   [
+    "228",
+    "33",
+    "2026-11-25"
+   ],
+   [
+    "172",
+    "505",
+    "2026-11-25"
+   ],
+   [
+    "530",
+    "759",
+    "2026-11-25"
+   ],
+   [
+    "550",
+    "611",
+    "2026-11-25"
+   ],
+   [
+    "40",
+    "569",
+    "2026-11-25"
+   ]
+  ],
+  "ronde": "League Stage - 5",
+  "og": "og/champions-league-speelronde-5-op-tv-24-november-2026-6e060e.webp",
+  "og_done": "og/champions-league-speelronde-5-op-tv-24-november-2026-6e060e.webp"
+ },
+ "1584467": {
+  "item_id": "6b036c91f5f973ac5533a590",
+  "slug": "istanbul-basaksehir-corum-fk-live-gratis-kijken-23-11-2026",
+  "match": "Başakşehir - Çorum FK",
+  "date": "2026-11-23",
+  "league": "super-lig",
+  "provider": "Starcasino",
+  "home_id": "564",
+  "away_id": "6343",
+  "tv_sig": "|Starcasino|False|False",
+  "og": "og/istanbul-basaksehir-corum-fk-live-gratis-kijken-23-11-2026-ec6e57.webp",
+  "og_done": "og/istanbul-basaksehir-corum-fk-live-gratis-kijken-23-11-2026-ec6e57.webp"
+ },
+ "1550203": {
+  "item_id": "6b036c97f29ae40098f6a8eb",
+  "slug": "monza-fiorentina-live-gratis-kijken-23-11-2026",
+  "match": "Monza - Fiorentina",
+  "date": "2026-11-23",
+  "league": "serie-a",
+  "provider": "Bet365",
+  "home_id": "1579",
+  "away_id": "502",
+  "tv_sig": "Ziggo Sport|Bet365|False|True",
+  "og": "og/monza-fiorentina-live-gratis-kijken-23-11-2026-18148d.webp",
+  "og_done": "og/monza-fiorentina-live-gratis-kijken-23-11-2026-18148d.webp"
+ },
+ "1551875": {
+  "item_id": "6b036c9fc3d19b6896bebf05",
+  "slug": "vitesse-de-graafschap-live-gratis-kijken-23-11-2026",
+  "match": "Vitesse - De Graafschap",
+  "date": "2026-11-23",
+  "league": "eerste-divisie",
+  "provider": "Bet365",
+  "home_id": "200",
+  "away_id": "199",
+  "tv_sig": "ESPN|Bet365|False|True",
+  "og": "og/vitesse-de-graafschap-live-gratis-kijken-23-11-2026-a53109.webp",
+  "og_done": "og/vitesse-de-graafschap-live-gratis-kijken-23-11-2026-a53109.webp"
+ },
+ "1551886": {
+  "item_id": "6b036ca2f29ae40098f6abc9",
+  "slug": "jong-psv-jong-fc-utrecht-live-gratis-kijken-23-11-2026",
+  "match": "Jong PSV - Jong FC Utrecht",
+  "date": "2026-11-23",
+  "league": "eerste-divisie",
+  "provider": "Bet365",
+  "home_id": "411",
+  "away_id": "428",
+  "tv_sig": "ESPN 3|Bet365|False|True",
+  "og": "og/jong-psv-jong-fc-utrecht-live-gratis-kijken-23-11-2026-e7465c.webp",
+  "og_done": "og/jong-psv-jong-fc-utrecht-live-gratis-kijken-23-11-2026-e7465c.webp"
+ },
+ "1551885": {
+  "item_id": "6b036ca56fa00e341c3afdd1",
+  "slug": "jong-ajax-jong-az-live-gratis-kijken-23-11-2026",
+  "match": "Jong Ajax - Jong AZ",
+  "date": "2026-11-23",
+  "league": "eerste-divisie",
+  "provider": "Bet365",
+  "home_id": "425",
+  "away_id": "418",
+  "tv_sig": "ESPN 2|Bet365|False|True",
+  "og": "og/jong-ajax-jong-az-live-gratis-kijken-23-11-2026-d3318c.webp",
+  "og_done": "og/jong-ajax-jong-az-live-gratis-kijken-23-11-2026-d3318c.webp"
+ },
+ "hub:conference-league-speelronde-4-op-tv-26-november-2026": {
+  "item_id": "6b0479d6e96d81e18e9f093b",
+  "slug": "conference-league-speelronde-4-op-tv-26-november-2026",
+  "match": "Conference League speelronde 4",
+  "date": "2026-11-26",
+  "league": "conference-league",
+  "hub": true,
+  "sig": "4360c995ba4c1baf14f2060bcc0cb14d",
+  "pairs": [
+   [
+    "2240",
+    "664",
+    "2026-11-26"
+   ],
+   [
+    "51",
+    "632",
+    "2026-11-26"
+   ],
+   [
+    "1012",
+    "194",
+    "2026-11-26"
+   ],
+   [
+    "254",
+    "91",
+    "2026-11-26"
+   ],
+   [
+    "319",
+    "406",
+    "2026-11-26"
+   ],
+   [
+    "1122",
+    "606",
+    "2026-11-26"
+   ],
+   [
+    "3327",
+    "667",
+    "2026-11-26"
+   ],
+   [
+    "3403",
+    "397",
+    "2026-11-26"
+   ],
+   [
+    "3502",
+    "546",
+    "2026-11-26"
+   ],
+   [
+    "10124",
+    "3872",
+    "2026-11-26"
+   ],
+   [
+    "160",
+    "415",
+    "2026-11-26"
+   ],
+   [
+    "1165",
+    "217",
+    "2026-11-26"
+   ],
+   [
+    "398",
+    "617",
+    "2026-11-26"
+   ],
+   [
+    "608",
+    "735",
+    "2026-11-26"
+   ],
+   [
+    "598",
+    "631",
+    "2026-11-26"
+   ],
+   [
+    "853",
+    "998",
+    "2026-11-26"
+   ],
+   [
+    "3342",
+    "400",
+    "2026-11-26"
+   ],
+   [
+    "3364",
+    "499",
+    "2026-11-26"
+   ]
+  ],
+  "ronde": "League Stage - 4",
+  "og": "og/conference-league-speelronde-4-op-tv-26-november-2026-47b591.webp",
+  "og_done": "og/conference-league-speelronde-4-op-tv-26-november-2026-47b591.webp"
+ },
+ "1649498": {
+  "item_id": "6b0482660ceeaf42956a7199",
+  "slug": "st-louis-city-los-angeles-live-gratis-kijken-24-11-2026",
+  "match": "St. Louis City - Los Angeles FC",
+  "date": "2026-11-24",
+  "league": "mls",
+  "provider": "Bet365",
+  "home_id": "20787",
+  "away_id": "1616",
+  "tv_sig": "Apple TV|Bet365|False|True",
+  "og": "og/st-louis-city-los-angeles-live-gratis-kijken-24-11-2026-30c744.webp",
+  "og_done": "og/st-louis-city-los-angeles-live-gratis-kijken-24-11-2026-30c744.webp"
+ },
+ "1635667": {
+  "item_id": "6b04826cd874120ee433d036",
+  "slug": "galatasaray-aston-villa-live-gratis-kijken-24-11-2026",
+  "match": "Galatasaray - Aston Villa",
+  "date": "2026-11-24",
+  "league": "champions-league",
+  "provider": "Bet365",
+  "home_id": "645",
+  "away_id": "66",
+  "tv_sig": "Ziggo Sport en Ziggo Sport 3|Bet365|False|True",
+  "og": "og/galatasaray-aston-villa-live-gratis-kijken-24-11-2026-7e8891.webp",
+  "og_done": "og/galatasaray-aston-villa-live-gratis-kijken-24-11-2026-7e8891.webp"
+ },
+ "1635611": {
+  "item_id": "6b048271677cb1531fd840ec",
+  "slug": "arsenal-borussia-dortmund-live-gratis-kijken-24-11-2026",
+  "match": "Arsenal - Borussia Dortmund",
+  "date": "2026-11-24",
+  "league": "champions-league",
+  "provider": "Bet365",
+  "home_id": "42",
+  "away_id": "165",
+  "tv_sig": "Ziggo Sport 3|Bet365|False|True",
+  "og": "og/arsenal-borussia-dortmund-live-gratis-kijken-24-11-2026-d531c8.webp",
+  "og_done": "og/arsenal-borussia-dortmund-live-gratis-kijken-24-11-2026-d531c8.webp"
+ },
+ "1635692": {
+  "item_id": "6b048276318963c753c4f9f1",
+  "slug": "manchester-city-napoli-live-gratis-kijken-24-11-2026",
+  "match": "Manchester City - Napoli",
+  "date": "2026-11-24",
+  "league": "champions-league",
+  "provider": "Bet365",
+  "home_id": "50",
+  "away_id": "492",
+  "tv_sig": "Ziggo Sport 5|Bet365|False|True",
+  "og": "og/manchester-city-napoli-live-gratis-kijken-24-11-2026-17a960.webp",
+  "og_done": "og/manchester-city-napoli-live-gratis-kijken-24-11-2026-17a960.webp"
+ },
+ "1635663": {
+  "item_id": "6b04827a10befb2622246a06",
+  "slug": "feyenoord-fc-porto-live-gratis-kijken-24-11-2026",
+  "match": "Feyenoord - FC Porto",
+  "date": "2026-11-24",
+  "league": "champions-league",
+  "provider": "Bet365",
+  "home_id": "209",
+  "away_id": "212",
+  "tv_sig": "Ziggo Sport|Bet365|False|True",
+  "og": "og/feyenoord-fc-porto-live-gratis-kijken-24-11-2026-5bc642.webp",
+  "og_done": "og/feyenoord-fc-porto-live-gratis-kijken-24-11-2026-5bc642.webp"
+ },
+ "1635715": {
+  "item_id": "6b04827f10befb2622246b90",
+  "slug": "real-madrid-psv-live-gratis-kijken-24-11-2026",
+  "match": "Real Madrid - PSV",
+  "date": "2026-11-24",
+  "league": "champions-league",
+  "provider": "Bet365",
+  "home_id": "541",
+  "away_id": "197",
+  "tv_sig": "Ziggo Sport 2|Bet365|False|True",
+  "og": "og/real-madrid-psv-live-gratis-kijken-24-11-2026-08292a.webp",
+  "og_done": "og/real-madrid-psv-live-gratis-kijken-24-11-2026-08292a.webp"
+ },
+ "hub:europa-league-speelronde-5-op-tv-26-november-2026": {
+  "item_id": "6b04832a56a4384d3afdd33e",
+  "slug": "europa-league-speelronde-5-op-tv-26-november-2026",
+  "match": "Europa League speelronde 5",
+  "date": "2026-11-26",
+  "league": "europa-league",
+  "hub": true,
+  "sig": "947be490f01c073eb90c089035fe58fa",
+  "pairs": [
+   [
+    "646",
+    "81",
+    "2026-11-26"
+   ],
+   [
+    "35",
+    "538",
+    "2026-11-26"
+   ],
+   [
+    "549",
+    "563",
+    "2026-11-26"
+   ],
+   [
+    "489",
+    "553",
+    "2026-11-26"
+   ],
+   [
+    "211",
+    "567",
+    "2026-11-26"
+   ],
+   [
+    "3683",
+    "571",
+    "2026-11-26"
+   ],
+   [
+    "168",
+    "620",
+    "2026-11-26"
+   ],
+   [
+    "1393",
+    "347",
+    "2026-11-26"
+   ],
+   [
+    "52",
+    "548",
+    "2026-11-26"
+   ],
+   [
+    "321",
+    "80",
+    "2026-11-26"
+   ],
+   [
+    "167",
+    "637",
+    "2026-11-26"
+   ],
+   [
+    "413",
+    "94",
+    "2026-11-26"
+   ],
+   [
+    "3402",
+    "496",
+    "2026-11-26"
+   ],
+   [
+    "201",
+    "628",
+    "2026-11-26"
+   ],
+   [
+    "4360",
+    "651",
+    "2026-11-26"
+   ],
+   [
+    "336",
+    "746",
+    "2026-11-26"
+   ],
+   [
+    "1124",
+    "554",
+    "2026-11-26"
+   ],
+   [
+    "247",
+    "4799",
+    "2026-11-26"
+   ]
+  ],
+  "ronde": "League Stage - 5",
+  "og": "og/europa-league-speelronde-5-op-tv-26-november-2026-ca6728.webp",
+  "og_done": "og/europa-league-speelronde-5-op-tv-26-november-2026-ca6728.webp"
+ },
+ "1635718": {
+  "item_id": "6b05d3eaa672be07efb874f3",
+  "slug": "sabah-fk-fc-barcelona-live-gratis-kijken-25-11-2026",
+  "match": "Sabah FA - Barcelona",
+  "date": "2026-11-25",
+  "league": "champions-league",
+  "provider": "Bet365",
+  "home_id": "13976",
+  "away_id": "529",
+  "tv_sig": "Ziggo Sport|Bet365|False|True",
+  "og": "og/sabah-fk-fc-barcelona-live-gratis-kijken-25-11-2026-99a0b9.webp",
+  "og_done": "og/sabah-fk-fc-barcelona-live-gratis-kijken-25-11-2026-99a0b9.webp"
+ },
+ "1635682": {
+  "item_id": "6b05d3f0800d7a9e48e836bb",
+  "slug": "lille-bayern-munchen-live-gratis-kijken-25-11-2026",
+  "match": "Lille - Bayern München",
+  "date": "2026-11-25",
+  "league": "champions-league",
+  "provider": "Bet365",
+  "home_id": "79",
+  "away_id": "157",
+  "tv_sig": "Ziggo Sport|Bet365|False|True",
+  "og": "og/lille-bayern-munchen-live-gratis-kijken-25-11-2026-3a1f18.webp",
+  "og_done": "og/lille-bayern-munchen-live-gratis-kijken-25-11-2026-3a1f18.webp"
+ },
+ "1635703": {
+  "item_id": "6b05d3f3800d7a9e48e837e9",
+  "slug": "paris-saint-germain-psg-as-roma-live-gratis-kijken-25-11-2026",
+  "match": "Paris Saint-Germain - AS Roma",
+  "date": "2026-11-25",
+  "league": "champions-league",
+  "provider": "Bet365",
+  "home_id": "85",
+  "away_id": "497",
+  "tv_sig": "Ziggo Sport|Bet365|False|True",
+  "og": "og/paris-saint-germain-psg-as-roma-live-gratis-kijken-25-11-2026-bfb7fe.webp",
+  "og_done": "og/paris-saint-germain-psg-as-roma-live-gratis-kijken-25-11-2026-bfb7fe.webp"
+ },
+ "1635735": {
+  "item_id": "6b05d3f841148252844f274c",
+  "slug": "sporting-cp-manchester-united-live-gratis-kijken-25-11-2026",
+  "match": "Sporting Portugal - Manchester United",
+  "date": "2026-11-25",
+  "league": "champions-league",
+  "provider": "Bet365",
+  "home_id": "228",
+  "away_id": "33",
+  "tv_sig": "Ziggo Sport|Bet365|False|True",
+  "og": "og/sporting-cp-manchester-united-live-gratis-kijken-25-11-2026-702ba6.webp",
+  "og_done": "og/sporting-cp-manchester-united-live-gratis-kijken-25-11-2026-702ba6.webp"
+ },
+ "1635673": {
+  "item_id": "6b05d3fa00c6db9754fd6b8a",
+  "slug": "inter-stuttgart-live-gratis-kijken-25-11-2026",
+  "match": "Inter - VfB Stuttgart",
+  "date": "2026-11-25",
+  "league": "champions-league",
+  "provider": "Bet365",
+  "home_id": "505",
+  "away_id": "172",
+  "tv_sig": "Ziggo Sport|Bet365|False|True",
+  "og": "og/inter-stuttgart-live-gratis-kijken-25-11-2026-6c0537.webp",
+  "og_done": "og/inter-stuttgart-live-gratis-kijken-25-11-2026-6c0537.webp"
+ },
+ "1635625": {
+  "item_id": "6b05d3ff2bda5e3299be52d7",
+  "slug": "atletico-madrid-viking-live-gratis-kijken-25-11-2026",
+  "match": "Atlético Madrid - Viking",
+  "date": "2026-11-25",
+  "league": "champions-league",
+  "provider": "Bet365",
+  "home_id": "530",
+  "away_id": "759",
+  "tv_sig": "Ziggo Sport|Bet365|False|True",
+  "og": "og/atletico-madrid-viking-live-gratis-kijken-25-11-2026-166dcd.webp",
+  "og_done": "og/atletico-madrid-viking-live-gratis-kijken-25-11-2026-166dcd.webp"
+ },
+ "1635724": {
+  "item_id": "6b05d40154c6b0d350c5a000",
+  "slug": "shakhtar-donetsk-fenerbahce-live-gratis-kijken-25-11-2026",
+  "match": "Shakhtar Donetsk - Fenerbahçe",
+  "date": "2026-11-25",
+  "league": "champions-league",
+  "provider": "Bet365",
+  "home_id": "550",
+  "away_id": "611",
+  "tv_sig": "Ziggo Sport|Bet365|False|True",
+  "og": "og/shakhtar-donetsk-fenerbahce-live-gratis-kijken-25-11-2026-868413.webp",
+  "og_done": "og/shakhtar-donetsk-fenerbahce-live-gratis-kijken-25-11-2026-868413.webp"
+ },
+ "1635642": {
+  "item_id": "6b05d40c2bda5e3299be578a",
+  "slug": "club-brugge-liverpool-live-gratis-kijken-25-11-2026",
+  "match": "Club Brugge - Liverpool",
+  "date": "2026-11-25",
+  "league": "champions-league",
+  "provider": "Bet365",
+  "home_id": "569",
+  "away_id": "40",
+  "tv_sig": "Ziggo Sport|Bet365|False|True",
+  "og": "og/club-brugge-liverpool-live-gratis-kijken-25-11-2026-fe8a64.webp",
+  "og_done": "og/club-brugge-liverpool-live-gratis-kijken-25-11-2026-fe8a64.webp"
+ },
+ "hub:super-lig-speelronde-13-op-tv-27-november-2026": {
+  "item_id": "6b05d4ca8a2dfdaad8c3bbad",
+  "slug": "super-lig-speelronde-13-op-tv-27-november-2026",
+  "match": "Süper Lig speelronde 13",
+  "date": "2026-11-30",
+  "league": "super-lig",
+  "hub": true,
+  "sig": "c1641326dad0873dc01ca91d7a3ba8e9",
+  "pairs": [
+   [
+    "607",
+    "996",
+    "2026-11-27"
+   ],
+   [
+    "1004",
+    "1007",
+    "2026-11-27"
+   ],
+   [
+    "3603",
+    "997",
+    "2026-11-28"
+   ],
+   [
+    "3573",
+    "3579",
+    "2026-11-28"
+   ],
+   [
+    "6343",
+    "7411",
+    "2026-11-29"
+   ],
+   [
+    "3588",
+    "564",
+    "2026-11-29"
+   ],
+   [
+    "1009",
+    "611",
+    "2026-11-29"
+   ],
+   [
+    "994",
+    "998",
+    "2026-11-30"
+   ],
+   [
+    "549",
+    "645",
+    "2026-11-30"
+   ]
+  ],
+  "ronde": "Regular Season - 13",
+  "og": "og/super-lig-speelronde-13-op-tv-27-november-2026-a2b228.webp",
+  "og_done": "og/super-lig-speelronde-13-op-tv-27-november-2026-a2b228.webp"
+ },
+ "hub:eredivisie-speelronde-14-op-tv-27-november-2026": {
+  "item_id": "6b05df1b75c05f77ded00617",
+  "slug": "eredivisie-speelronde-14-op-tv-27-november-2026",
+  "match": "Eredivisie speelronde 14",
+  "date": "2026-11-29",
+  "league": "eredivisie",
+  "hub": true,
+  "sig": "5b48b1a0b96def47ca9ff241ea8119d4",
+  "pairs": [
+   [
+    "195",
+    "202",
+    "2026-11-27"
+   ],
+   [
+    "196",
+    "427",
+    "2026-11-28"
+   ],
+   [
+    "197",
+    "410",
+    "2026-11-28"
+   ],
+   [
+    "420",
+    "426",
+    "2026-11-28"
+   ],
+   [
+    "198",
+    "207",
+    "2026-11-29"
+   ],
+   [
+    "205",
+    "210",
+    "2026-11-29"
+   ],
+   [
+    "194",
+    "209",
+    "2026-11-29"
+   ],
+   [
+    "193",
+    "201",
+    "2026-11-29"
+   ],
+   [
+    "413",
+    "415",
+    "2026-11-29"
+   ]
+  ],
+  "ronde": "Regular Season - 14",
+  "og": "og/eredivisie-speelronde-14-op-tv-27-november-2026-6cabc6.webp",
+  "og_done": "og/eredivisie-speelronde-14-op-tv-27-november-2026-6cabc6.webp"
+ },
+ "hub:keuken-kampioen-divisie-speelronde-17-op-tv-27-november-2026": {
+  "item_id": "6b05df1e8ab0559d47e9b886",
+  "slug": "keuken-kampioen-divisie-speelronde-17-op-tv-27-november-2026",
+  "match": "Keuken Kampioen Divisie speelronde 17",
+  "date": "2026-11-29",
+  "league": "eerste-divisie",
+  "hub": true,
+  "sig": "46193ededd28a4ef4848239ec69a0c30",
+  "pairs": [
+   [
+    "203",
+    "421",
+    "2026-11-27"
+   ],
+   [
+    "204",
+    "417",
+    "2026-11-27"
+   ],
+   [
+    "200",
+    "409",
+    "2026-11-27"
+   ],
+   [
+    "411",
+    "412",
+    "2026-11-27"
+   ],
+   [
+    "418",
+    "423",
+    "2026-11-27"
+   ],
+   [
+    "206",
+    "425",
+    "2026-11-27"
+   ],
+   [
+    "419",
+    "428",
+    "2026-11-27"
+   ],
+   [
+    "208",
+    "424",
+    "2026-11-28"
+   ],
+   [
+    "416",
+    "422",
+    "2026-11-29"
+   ],
+   [
+    "199",
+    "414",
+    "2026-11-29"
+   ]
+  ],
+  "ronde": "Regular Season - 17",
+  "og": "og/keuken-kampioen-divisie-speelronde-17-op-tv-27-november-2026-32ddb0.webp",
+  "og_done": "og/keuken-kampioen-divisie-speelronde-17-op-tv-27-november-2026-32ddb0.webp"
+ },
+ "hub:premier-league-speelronde-12-op-tv-27-november-2026": {
+  "item_id": "6b05f0fa67fe221bdb9d7da5",
+  "slug": "premier-league-speelronde-12-op-tv-27-november-2026",
+  "match": "Premier League speelronde 12",
+  "date": "2026-11-29",
+  "league": "premier-league",
+  "hub": true,
+  "sig": "28bacad17b0d473327c1393b726c4a89",
+  "pairs": [
+   [
+    "49",
+    "65",
+    "2026-11-27"
+   ],
+   [
+    "33",
+    "55",
+    "2026-11-28"
+   ],
+   [
+    "1346",
+    "63",
+    "2026-11-28"
+   ],
+   [
+    "57",
+    "66",
+    "2026-11-28"
+   ],
+   [
+    "40",
+    "45",
+    "2026-11-29"
+   ],
+   [
+    "35",
+    "36",
+    "2026-11-29"
+   ],
+   [
+    "34",
+    "51",
+    "2026-11-29"
+   ],
+   [
+    "52",
+    "64",
+    "2026-11-29"
+   ],
+   [
+    "47",
+    "746",
+    "2026-11-29"
+   ],
+   [
+    "42",
+    "50",
+    "2026-11-29"
+   ]
+  ],
+  "ronde": "Regular Season - 12",
+  "og": "og/premier-league-speelronde-12-op-tv-27-november-2026-3cce90.webp",
+  "og_done": "og/premier-league-speelronde-12-op-tv-27-november-2026-3cce90.webp"
+ },
+ "hub:la-liga-speelronde-14-op-tv-27-november-2026": {
+  "item_id": "6b05f0fd001af79eab78e84f",
+  "slug": "la-liga-speelronde-14-op-tv-27-november-2026",
+  "match": "La Liga speelronde 14",
+  "date": "2026-11-30",
+  "league": "la-liga",
+  "hub": true,
+  "sig": "6c7425019d186da1535f9be756df1e0e",
+  "pairs": [
+   [
+    "4665",
+    "539",
+    "2026-11-27"
+   ],
+   [
+    "543",
+    "728",
+    "2026-11-28"
+   ],
+   [
+    "531",
+    "535",
+    "2026-11-28"
+   ],
+   [
+    "530",
+    "797",
+    "2026-11-28"
+   ],
+   [
+    "541",
+    "542",
+    "2026-11-28"
+   ],
+   [
+    "532",
+    "727",
+    "2026-11-29"
+   ],
+   [
+    "529",
+    "544",
+    "2026-11-29"
+   ],
+   [
+    "533",
+    "538",
+    "2026-11-29"
+   ],
+   [
+    "536",
+    "548",
+    "2026-11-29"
+   ],
+   [
+    "540",
+    "546",
+    "2026-11-30"
+   ]
+  ],
+  "ronde": "Regular Season - 14",
+  "og": "og/la-liga-speelronde-14-op-tv-27-november-2026-eab1a8.webp",
+  "og_done": "og/la-liga-speelronde-14-op-tv-27-november-2026-eab1a8.webp"
+ },
+ "hub:serie-a-speelronde-13-op-tv-27-november-2026": {
+  "item_id": "6b05f0ffaaaa09c96dfdbe7d",
+  "slug": "serie-a-speelronde-13-op-tv-27-november-2026",
+  "match": "Serie A speelronde 13",
+  "date": "2026-11-30",
+  "league": "serie-a",
+  "hub": true,
+  "sig": "4a54815bc475e25c1a2651242b2afa40",
+  "pairs": [
+   [
+    "500",
+    "517",
+    "2026-11-27"
+   ],
+   [
+    "512",
+    "523",
+    "2026-11-28"
+   ],
+   [
+    "487",
+    "503",
+    "2026-11-28"
+   ],
+   [
+    "495",
+    "505",
+    "2026-11-28"
+   ],
+   [
+    "494",
+    "502",
+    "2026-11-29"
+   ],
+   [
+    "488",
+    "492",
+    "2026-11-29"
+   ],
+   [
+    "1579",
+    "497",
+    "2026-11-29"
+   ],
+   [
+    "496",
+    "895",
+    "2026-11-29"
+   ],
+   [
+    "499",
+    "867",
+    "2026-11-30"
+   ],
+   [
+    "489",
+    "490",
+    "2026-11-30"
+   ]
+  ],
+  "ronde": "Regular Season - 13",
+  "og": "og/serie-a-speelronde-13-op-tv-27-november-2026-c71f8c.webp",
+  "og_done": "og/serie-a-speelronde-13-op-tv-27-november-2026-c71f8c.webp"
+ },
+ "hub:bundesliga-speelronde-11-op-tv-27-november-2026": {
+  "item_id": "6b05f1024ef9ec6f42830913",
+  "slug": "bundesliga-speelronde-11-op-tv-27-november-2026",
+  "match": "Bundesliga speelronde 11",
+  "date": "2026-11-29",
+  "league": "bundesliga",
+  "hub": true,
+  "sig": "460a4e9ac5a1bae853d88862e1bcd1ef",
+  "pairs": [
+   [
+    "162",
+    "163",
+    "2026-11-27"
+   ],
+   [
+    "164",
+    "182",
+    "2026-11-28"
+   ],
+   [
+    "157",
+    "175",
+    "2026-11-28"
+   ],
+   [
+    "174",
+    "185",
+    "2026-11-28"
+   ],
+   [
+    "1660",
+    "192",
+    "2026-11-28"
+   ],
+   [
+    "169",
+    "172",
+    "2026-11-28"
+   ],
+   [
+    "160",
+    "173",
+    "2026-11-29"
+   ],
+   [
+    "167",
+    "170",
+    "2026-11-29"
+   ],
+   [
+    "165",
+    "168",
+    "2026-11-29"
+   ]
+  ],
+  "ronde": "Regular Season - 11",
+  "og": "og/bundesliga-speelronde-11-op-tv-27-november-2026-9d7fd4.webp",
+  "og_done": "og/bundesliga-speelronde-11-op-tv-27-november-2026-9d7fd4.webp"
+ },
+ "hub:ligue-1-speelronde-12-op-tv-27-november-2026": {
+  "item_id": "6b05f104800325db8695970c",
+  "slug": "ligue-1-speelronde-12-op-tv-27-november-2026",
+  "match": "Ligue 1 speelronde 12",
+  "date": "2026-11-29",
+  "league": "ligue-1",
+  "hub": true,
+  "sig": "1814b94acce32a63c5f7a912d9539b44",
+  "pairs": [
+   [
+    "106",
+    "114",
+    "2026-11-27"
+   ],
+   [
+    "116",
+    "77",
+    "2026-11-28"
+   ],
+   [
+    "110",
+    "84",
+    "2026-11-28"
+   ],
+   [
+    "85",
+    "97",
+    "2026-11-28"
+   ],
+   [
+    "111",
+    "95",
+    "2026-11-28"
+   ],
+   [
+    "1298",
+    "79",
+    "2026-11-28"
+   ],
+   [
+    "108",
+    "81",
+    "2026-11-29"
+   ],
+   [
+    "94",
+    "96",
+    "2026-11-29"
+   ],
+   [
+    "80",
+    "91",
+    "2026-11-29"
+   ]
+  ],
+  "ronde": "Regular Season - 12",
+  "og": "og/ligue-1-speelronde-12-op-tv-27-november-2026-2ae41d.webp",
+  "og_done": "og/ligue-1-speelronde-12-op-tv-27-november-2026-2ae41d.webp"
+ },
+ "hub:jupiler-pro-league-speelronde-13-op-tv-27-november-2026": {
+  "item_id": "6b05f106800325db86959781",
+  "slug": "jupiler-pro-league-speelronde-13-op-tv-27-november-2026",
+  "match": "Jupiler Pro League speelronde 13",
+  "date": "2026-11-29",
+  "league": "jupiler-pro-league",
+  "hub": true,
+  "sig": "9aaad3c4aeab6ba65373fd99456c44cb",
+  "pairs": [
+   [
+    "260",
+    "734",
+    "2026-11-27"
+   ],
+   [
+    "261",
+    "5902",
+    "2026-11-28"
+   ],
+   [
+    "266",
+    "741",
+    "2026-11-28"
+   ],
+   [
+    "259",
+    "600",
+    "2026-11-28"
+   ],
+   [
+    "736",
+    "738",
+    "2026-11-28"
+   ],
+   [
+    "735",
+    "742",
+    "2026-11-29"
+   ],
+   [
+    "554",
+    "740",
+    "2026-11-29"
+   ],
+   [
+    "569",
+    "733",
+    "2026-11-29"
+   ],
+   [
+    "1393",
+    "631",
+    "2026-11-29"
+   ]
+  ],
+  "ronde": "Regular Season - 13",
+  "og": "og/jupiler-pro-league-speelronde-13-op-tv-27-november-2026-fc1a89.webp",
+  "og_done": "og/jupiler-pro-league-speelronde-13-op-tv-27-november-2026-fc1a89.webp"
+ }
 }
