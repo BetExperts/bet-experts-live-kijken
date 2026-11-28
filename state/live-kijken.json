@@ -919,7 +919,7 @@
     "date": "2026-11-30",
     "league": "super-lig",
     "hub": true,
-    "sig": "535753164a355e343e753475ff153d71",
+    "sig": "038271f5d101c46488737d609ea8bc78",
     "pairs": [
       [
         "607",
@@ -978,7 +978,7 @@
     "date": "2026-11-29",
     "league": "eredivisie",
     "hub": true,
-    "sig": "c6a8f09aebefd3e12e166e4dffb60db5",
+    "sig": "e69520856e1fcbe87dcf4148132e2608",
     "pairs": [
       [
         "195",
@@ -1037,33 +1037,8 @@
     "date": "2026-11-29",
     "league": "eerste-divisie",
     "hub": true,
-    "sig": "9530f6325f88d097fb53071803bb6ae2",
+    "sig": "da5de8f56d50824cc2001c4ff0db85ba",
     "pairs": [
-      [
-        "204",
-        "417",
-        "2026-11-27"
-      ],
-      [
-        "200",
-        "409",
-        "2026-11-27"
-      ],
-      [
-        "418",
-        "423",
-        "2026-11-27"
-      ],
-      [
-        "419",
-        "428",
-        "2026-11-27"
-      ],
-      [
-        "203",
-        "421",
-        "2026-11-27"
-      ],
       [
         "411",
         "412",
@@ -1072,6 +1047,31 @@
       [
         "206",
         "425",
+        "2026-11-27"
+      ],
+      [
+        "203",
+        "421",
+        "2026-11-27"
+      ],
+      [
+        "200",
+        "409",
+        "2026-11-27"
+      ],
+      [
+        "419",
+        "428",
+        "2026-11-27"
+      ],
+      [
+        "204",
+        "417",
+        "2026-11-27"
+      ],
+      [
+        "418",
+        "423",
         "2026-11-27"
       ],
       [
@@ -1101,7 +1101,7 @@
     "date": "2026-11-29",
     "league": "premier-league",
     "hub": true,
-    "sig": "fed5534be9be716b3addf9d73bd4cf90",
+    "sig": "6372b1294e797e2d9bfe9dfd1e1643d0",
     "pairs": [
       [
         "49",
@@ -1165,7 +1165,7 @@
     "date": "2026-11-30",
     "league": "la-liga",
     "hub": true,
-    "sig": "1817cf24e309bbec2aeb4d2015854a2a",
+    "sig": "6f210d780fbf80d81aaa4cdd15da07da",
     "pairs": [
       [
         "4665",
@@ -1229,7 +1229,7 @@
     "date": "2026-11-30",
     "league": "serie-a",
     "hub": true,
-    "sig": "cb1084300ff604f23ecdc6b9f798eb2a",
+    "sig": "970fc9611aa775b996b35c78931b0ac7",
     "pairs": [
       [
         "500",
@@ -1293,7 +1293,7 @@
     "date": "2026-11-29",
     "league": "bundesliga",
     "hub": true,
-    "sig": "6a4b181cac3f74a94fe0974e4a971c14",
+    "sig": "c9feb2d90438f731bb1f40cee8106d46",
     "pairs": [
       [
         "162",
@@ -1352,7 +1352,7 @@
     "date": "2026-11-29",
     "league": "ligue-1",
     "hub": true,
-    "sig": "7b472e12aef46181a581db6a6e667a75",
+    "sig": "251bc972d0d2bdfaa67f90eff991699f",
     "pairs": [
       [
         "106",
@@ -1411,7 +1411,7 @@
     "date": "2026-11-29",
     "league": "jupiler-pro-league",
     "hub": true,
-    "sig": "b6b318f5b3ec5d43f5c5a5a37250b316",
+    "sig": "f3d5f7cf00a77f08e6892ebf63a268bd",
     "pairs": [
       [
         "260",
@@ -1878,5 +1878,257 @@
     "tv_sig": "ESPN|Bet365|False|True",
     "og": "og/jong-fc-utrecht-almere-city-live-gratis-kijken-27-11-2026-a92301.webp",
     "og_done": "og/jong-fc-utrecht-almere-city-live-gratis-kijken-27-11-2026-a92301.webp"
+  },
+  "1584483": {
+    "item_id": "6b0a21300eca349331e3eaf6",
+    "slug": "samsunspor-genclerbirligi-live-gratis-kijken-28-11-2026",
+    "match": "Samsunspor - Gençlerbirliği S.K.",
+    "date": "2026-11-28",
+    "league": "super-lig",
+    "provider": "Starcasino",
+    "home_id": "3603",
+    "away_id": "997",
+    "tv_sig": "|Starcasino|False|False",
+    "og": "og/samsunspor-genclerbirligi-live-gratis-kijken-28-11-2026-beccfd.webp"
+  },
+  "1584480": {
+    "item_id": "6b0a21346006f2173c527eb2",
+    "slug": "gaziantep-amed-live-gratis-kijken-28-11-2026",
+    "match": "Gaziantep FK - Amed",
+    "date": "2026-11-28",
+    "league": "super-lig",
+    "provider": "TOTO",
+    "home_id": "3573",
+    "away_id": "3579",
+    "tv_sig": "|TOTO|False|False",
+    "og": "og/gaziantep-amed-live-gratis-kijken-28-11-2026-edb8d6.webp"
+  },
+  "1570463": {
+    "item_id": "6b0a21382dfc828515738e1d",
+    "slug": "real-betis-rayo-vallecano-live-gratis-kijken-28-11-2026",
+    "match": "Real Betis - Rayo Vallecano",
+    "date": "2026-11-28",
+    "league": "la-liga",
+    "provider": "TOTO",
+    "home_id": "543",
+    "away_id": "728",
+    "tv_sig": "Ziggo Sport|TOTO|False|False",
+    "og": "og/real-betis-rayo-vallecano-live-gratis-kijken-28-11-2026-bf68ef.webp"
+  },
+  "1570469": {
+    "item_id": "6b0a213bb1eacac8556fe1f7",
+    "slug": "malaga-athletic-bilbao-live-gratis-kijken-28-11-2026",
+    "match": "Malaga - Athletic Club",
+    "date": "2026-11-28",
+    "league": "la-liga",
+    "provider": "TOTO",
+    "home_id": "535",
+    "away_id": "531",
+    "tv_sig": "Ziggo Sport|TOTO|False|False",
+    "og": "og/malaga-athletic-bilbao-live-gratis-kijken-28-11-2026-f0a64f.webp"
+  },
+  "1570466": {
+    "item_id": "6b0a213fada01b2355e375ef",
+    "slug": "elche-atletico-madrid-live-gratis-kijken-28-11-2026",
+    "match": "Elche - Atlético Madrid",
+    "date": "2026-11-28",
+    "league": "la-liga",
+    "provider": "TOTO",
+    "home_id": "797",
+    "away_id": "530",
+    "tv_sig": "Ziggo Sport|TOTO|False|False",
+    "og": "og/elche-atletico-madrid-live-gratis-kijken-28-11-2026-97d20e.webp"
+  },
+  "1570470": {
+    "item_id": "6b0a21420af60d436be73e92",
+    "slug": "real-madrid-deportivo-alaves-live-gratis-kijken-28-11-2026",
+    "match": "Real Madrid - Alaves",
+    "date": "2026-11-28",
+    "league": "la-liga",
+    "provider": "TOTO",
+    "home_id": "541",
+    "away_id": "542",
+    "tv_sig": "Ziggo Sport|TOTO|False|False",
+    "og": "og/real-madrid-deportivo-alaves-live-gratis-kijken-28-11-2026-54c774.webp"
+  },
+  "1550214": {
+    "item_id": "6b0a21464ee4b9a28ad7a258",
+    "slug": "torino-lazio-live-gratis-kijken-28-11-2026",
+    "match": "Torino - Lazio",
+    "date": "2026-11-28",
+    "league": "serie-a",
+    "provider": "Bet365",
+    "home_id": "503",
+    "away_id": "487",
+    "tv_sig": "Ziggo Sport|Bet365|False|True",
+    "og": "og/torino-lazio-live-gratis-kijken-28-11-2026-fd4e44.webp"
+  },
+  "1550211": {
+    "item_id": "6b0a2149616cf22b9c762f66",
+    "slug": "inter-genoa-live-gratis-kijken-28-11-2026",
+    "match": "Inter - Genoa",
+    "date": "2026-11-28",
+    "league": "serie-a",
+    "provider": "Bet365",
+    "home_id": "505",
+    "away_id": "495",
+    "tv_sig": "Ziggo Sport|Bet365|False|True",
+    "og": "og/inter-genoa-live-gratis-kijken-28-11-2026-666995.webp"
+  },
+  "1557484": {
+    "item_id": "6b0a214dcc3c74b49ca66493",
+    "slug": "manchester-united-brentford-live-gratis-kijken-28-11-2026",
+    "match": "Manchester United - Brentford",
+    "date": "2026-11-28",
+    "league": "premier-league",
+    "provider": "Bet365",
+    "home_id": "33",
+    "away_id": "55",
+    "tv_sig": "Viaplay|Bet365|False|True",
+    "og": "og/manchester-united-brentford-live-gratis-kijken-28-11-2026-5763e6.webp"
+  },
+  "1557482": {
+    "item_id": "6b0a215034b147d21a9128c5",
+    "slug": "ipswich-town-aston-villa-live-gratis-kijken-28-11-2026",
+    "match": "Ipswich - Aston Villa",
+    "date": "2026-11-28",
+    "league": "premier-league",
+    "provider": "Bet365",
+    "home_id": "57",
+    "away_id": "66",
+    "tv_sig": "Viaplay|Bet365|False|True",
+    "og": "og/ipswich-town-aston-villa-live-gratis-kijken-28-11-2026-4612de.webp"
+  },
+  "1575235": {
+    "item_id": "6b0a21549a1baa621ebc1c01",
+    "slug": "hamburger-sv-bayern-munchen-live-gratis-kijken-28-11-2026",
+    "match": "Hamburger SV - Bayern München",
+    "date": "2026-11-28",
+    "league": "bundesliga",
+    "provider": "711",
+    "home_id": "175",
+    "away_id": "157",
+    "tv_sig": "Viaplay|711|False|False",
+    "og": "og/hamburger-sv-bayern-munchen-live-gratis-kijken-28-11-2026-a92ca4.webp"
+  },
+  "1575231": {
+    "item_id": "6b0a21582dcc65cf2b400ba5",
+    "slug": "stuttgart-eintracht-frankfurt-live-gratis-kijken-28-11-2026",
+    "match": "VfB Stuttgart - Eintracht Frankfurt",
+    "date": "2026-11-28",
+    "league": "bundesliga",
+    "provider": "Bet365",
+    "home_id": "172",
+    "away_id": "169",
+    "tv_sig": "Viaplay|Bet365|False|False",
+    "og": "og/stuttgart-eintracht-frankfurt-live-gratis-kijken-28-11-2026-0f01fd.webp"
+  },
+  "1552828": {
+    "item_id": "6b0a215b927d38441aea3d3b",
+    "slug": "angers-lens-live-gratis-kijken-28-11-2026",
+    "match": "Angers - Lens",
+    "date": "2026-11-28",
+    "league": "ligue-1",
+    "provider": "711",
+    "home_id": "77",
+    "away_id": "116",
+    "tv_sig": "Viaplay|711|False|False",
+    "og": "og/angers-lens-live-gratis-kijken-28-11-2026-91d7a2.webp"
+  },
+  "1552834": {
+    "item_id": "6b0a215e604eee12bdd329ce",
+    "slug": "ogc-nice-troyes-live-gratis-kijken-28-11-2026",
+    "match": "Nice - Estac Troyes",
+    "date": "2026-11-28",
+    "league": "ligue-1",
+    "provider": "711",
+    "home_id": "84",
+    "away_id": "110",
+    "tv_sig": "Viaplay|711|False|False",
+    "og": "og/ogc-nice-troyes-live-gratis-kijken-28-11-2026-26c48d.webp"
+  },
+  "1552835": {
+    "item_id": "6b0a21617606851f4d3fdc79",
+    "slug": "paris-saint-germain-psg-lorient-live-gratis-kijken-28-11-2026",
+    "match": "Paris Saint-Germain - Lorient",
+    "date": "2026-11-28",
+    "league": "ligue-1",
+    "provider": "Starcasino",
+    "home_id": "85",
+    "away_id": "97",
+    "tv_sig": "Viaplay|Starcasino|False|False",
+    "og": "og/paris-saint-germain-psg-lorient-live-gratis-kijken-28-11-2026-108c2a.webp"
+  },
+  "1552832": {
+    "item_id": "6b0a216416a0c97db35030b6",
+    "slug": "le-mans-lille-live-gratis-kijken-28-11-2026",
+    "match": "Le Mans - Lille",
+    "date": "2026-11-28",
+    "league": "ligue-1",
+    "provider": "711",
+    "home_id": "1298",
+    "away_id": "79",
+    "tv_sig": "Viaplay|711|False|False",
+    "og": "og/le-mans-lille-live-gratis-kijken-28-11-2026-c36f07.webp"
+  },
+  "1649500": {
+    "item_id": "6b0a21689db99083b59c2736",
+    "slug": "columbus-crew-inter-miami-live-gratis-kijken-28-11-2026",
+    "match": "Columbus Crew - Inter Miami",
+    "date": "2026-11-28",
+    "league": "mls",
+    "provider": "Bet365",
+    "home_id": "1613",
+    "away_id": "9568",
+    "tv_sig": "Apple TV|Bet365|False|True",
+    "og": "og/columbus-crew-inter-miami-live-gratis-kijken-28-11-2026-258560.webp"
+  },
+  "1552236": {
+    "item_id": "6b0a216cb1eacac8556ff369",
+    "slug": "excelsior-telstar-live-gratis-kijken-28-11-2026",
+    "match": "Excelsior - Telstar",
+    "date": "2026-11-28",
+    "league": "eredivisie",
+    "provider": "Bet365",
+    "home_id": "196",
+    "away_id": "427",
+    "tv_sig": "ESPN|Bet365|False|True",
+    "og": "og/excelsior-telstar-live-gratis-kijken-28-11-2026-211dc3.webp"
+  },
+  "1552240": {
+    "item_id": "6b0a216f16a0c97db35033fc",
+    "slug": "psv-go-ahead-eagles-live-gratis-kijken-28-11-2026",
+    "match": "PSV - Go Ahead Eagles",
+    "date": "2026-11-28",
+    "league": "eredivisie",
+    "provider": "Bet365",
+    "home_id": "197",
+    "away_id": "410",
+    "tv_sig": "ESPN|Bet365|False|True",
+    "og": "og/psv-go-ahead-eagles-live-gratis-kijken-28-11-2026-b37445.webp"
+  },
+  "1552234": {
+    "item_id": "6b0a2172616cf22b9c763d8c",
+    "slug": "sc-cambuur-sparta-rotterdam-live-gratis-kijken-28-11-2026",
+    "match": "SC Cambuur - Sparta Rotterdam",
+    "date": "2026-11-28",
+    "league": "eredivisie",
+    "provider": "Bet365",
+    "home_id": "420",
+    "away_id": "426",
+    "tv_sig": "ESPN|Bet365|False|True",
+    "og": "og/sc-cambuur-sparta-rotterdam-live-gratis-kijken-28-11-2026-f23584.webp"
+  },
+  "1551904": {
+    "item_id": "6b0a217516a0c97db35036b8",
+    "slug": "fc-emmen-helmond-sport-live-gratis-kijken-28-11-2026",
+    "match": "FC Emmen - Helmond Sport",
+    "date": "2026-11-28",
+    "league": "eerste-divisie",
+    "provider": "Bet365",
+    "home_id": "208",
+    "away_id": "424",
+    "tv_sig": "ESPN|Bet365|False|True",
+    "og": "og/fc-emmen-helmond-sport-live-gratis-kijken-28-11-2026-2b3c38.webp"
   }
 }
